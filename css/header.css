@@ -1,0 +1,46 @@
+#mainHeader {
+    position: relative;
+    padding: 20px 10px 10px;
+    text-align: center;
+}
+
+#title {
+    margin: 0;
+}
+
+.settings-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    padding: 6px 10px;
+}
+
+.header-line {
+    margin: 15px auto;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+#mainCategories,
+#subnav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#mainCategories button,
+#subnav button {
+    padding: 6px 12px;
+    border: 1px solid black;
+    background: none;
+    cursor: pointer;
+}
+
+#mainCategories button.active,
+#subnav button.active {
+    background: black;
+    color: white;
+}

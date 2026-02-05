@@ -1,0 +1,23 @@
+#settingsModal {
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    width: 300px;
+    background: white;
+    border: 1px solid #000;
+    padding: 15px;
+}
+/* Alle Tab-Inhalte standardmäßig verstecken */
+.tab {
+    display: none;
+}
+
+/* Nur der aktive Tab wird angezeigt */
+.tab.active {
+    display: block;
+}
+
+/* Optional: etwas Abstand */
+.settings-content {
+    margin-top: 10px;
+}

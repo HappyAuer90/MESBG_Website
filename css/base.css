@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+body.dark {
+    background-color: #111;
+    color: white;
+}
+
+body.dark button {
+    border-color: white;
+    color: white;
+}
