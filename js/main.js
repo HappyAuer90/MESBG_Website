@@ -1,61 +1,143 @@
 import { Settings, initSettingsUI } from "./settings.js";
+import { t } from "./utility/i18n.js";
 
-import { renderSearchProfile } from "./profiles/searchProfile.js";
-import { renderExpertSearch } from "./profiles/expertSearch.js";
-import { renderShowAllProfiles } from "./profiles/showAllProfiles.js";
+/* =========================
+   IMPORT VIEWS
+========================= */
 
-import { renderSearchArmylist } from "./armylists/searchArmylist.js";
-import { renderShowAllArmylists } from "./armylists/showAllArmylists.js";
-import { renderBuildArmylist } from "./armylists/buildArmylist.js";
+import { initProfilesSearch, onProfilesSearchNavigate } from "./profiles/searchProfile.js";
+import { initProfilesExpert } from "./profiles/expertSearch.js";
+import { initProfilesAll } from "./profiles/showAllProfiles.js";
+
+import { initArmylistsSearch, onArmylistsSearchNavigate } from "./armylists/searchArmylist.js";
+import { initArmylistsAll } from "./armylists/showAllArmylists.js";
+import { initArmylistsBuild } from "./armylists/buildArmylist.js";
+
+/* =========================
+   GLOBAL STATE
+========================= */
 
 Settings.load();
 
 const content = document.getElementById("content");
-const subnav = document.getElementById("subnav");
+const subNav = document.getElementById("subCategories");
+const mainNav = document.getElementById("mainCategories");
+const titleEl = document.getElementById("appTitle");
+
+const MAIN_CATEGORIES = {
+    profiles: {
+        labelKey: "main.profiles"
+    },
+    armylists: {
+        labelKey: "main.armylists"
+    }
+};
+
+const VIEWS = {
+    profiles: {
+        search: {
+            labelKey: "main.searchProfile",
+            init: initProfilesSearch,
+            onNavigate: onProfilesSearchNavigate,
+            container: null
+        },
+        expert: {
+            labelKey: "main.expertSearch",
+            init: initProfilesExpert,
+            container: null
+        },
+        all: {
+            labelKey: "main.showAllProfiles",
+            init: initProfilesAll,
+            container: null
+        }
+    },
+    armylists: {
+        search: {
+            labelKey: "main.searchArmylist",
+            init: initArmylistsSearch,
+            onNavigate: onArmylistsSearchNavigate,
+            container: null
+        },
+        all: {
+            labelKey: "main.showAllArmylists",
+            init: initArmylistsAll,
+            container: null
+        },
+        build: {
+            labelKey: "main.buildArmylist",
+            init: initArmylistsBuild,
+            container: null
+        }
+    }
+};
+
+let activeMain = null;
+let activeSub = null;
+
+export function navigate(main, sub, params = {}) {
+    if (activeMain && activeSub) {
+        const old = VIEWS[activeMain][activeSub].container;
+        if (old) old.style.display = "none";
+    }
+
+    const view = VIEWS[main][sub];
+
+    if (!view.container) {
+        view.container = document.createElement("div");
+        view.container.className = `view ${main}-${sub}`;
+        content.appendChild(view.container);
+        view.init(view.container, params);
+    }
+
+    if (view.onNavigate) {
+        view.onNavigate(params);
+    }
+
+    view.container.style.display = "block";
+
+    activeMain = main;
+    activeSub = sub;
+
+    renderMainNav();
+    renderSubNav();
+}
+
+function renderMainNav() {
+    mainNav.innerHTML = "";
+
+    Object.entries(MAIN_CATEGORIES).forEach(([key, cfg]) => {
+        const btn = document.createElement("button");
+        btn.dataset.main = key;
+        btn.textContent = t(cfg.labelKey);
+        btn.classList.toggle("active", key === activeMain);
+
+        btn.onclick = () => {
+            const firstSub = Object.keys(VIEWS[key])[0];
+            navigate(key, firstSub);
+        };
+
+        mainNav.appendChild(btn);
+    });
+}
+
+
+function renderSubNav() {
+    subNav.innerHTML = "";
+
+    Object.entries(VIEWS[activeMain]).forEach(([key, cfg]) => {
+        const btn = document.createElement("button");
+        btn.textContent = t(cfg.labelKey);
+        btn.classList.toggle("active", key === activeSub);
+        btn.onclick = () => navigate(activeMain, key);
+        subNav.appendChild(btn);
+    });
+}
+titleEl.textContent = t("main.title");
 
 document.getElementById("settingsBtn").onclick = () => {
     document.getElementById("settingsModal").classList.remove("hidden");
     initSettingsUI();
 };
 
-document.querySelectorAll("nav button").forEach(btn => {
-    btn.onclick = () => loadSection(btn.dataset.section);
-});
-
-function loadSection(section) {
-    subnav.innerHTML = "";
-
-    if (section === "profiles") {
-        addSubButton("Search Profile", () => renderSearchProfile(content));
-        addSubButton("Expert Search", () => renderExpertSearch(content));
-        addSubButton("Show All Profiles", () => renderShowAllProfiles(content));
-    }
-
-    if (section === "armylists") {
-        addSubButton("Search Armylist", () => renderSearchArmylist(content));
-        addSubButton("Show All Armylists", () => renderShowAllArmylists(content));
-        addSubButton("Build Armylist", () => renderBuildArmylist(content));
-    }
-}
-
-function addSubButton(label, action) {
-    const btn = document.createElement("button");
-    btn.textContent = label;
-    btn.onclick = action;
-    subnav.appendChild(btn);
-}
-
-function setActive(buttons, activeBtn) {
-    buttons.forEach(b => b.classList.remove("active"));
-    activeBtn.classList.add("active");
-}
-document.querySelectorAll("#mainCategories button").forEach(btn => {
-    btn.addEventListener("click", () => {
-        setActive(
-            document.querySelectorAll("#mainCategories button"),
-            btn
-        );
-        loadSection(btn.dataset.section);
-    });
-});
-
+navigate("profiles", "search");

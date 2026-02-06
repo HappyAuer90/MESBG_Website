@@ -1,3 +1,5 @@
+import { t } from "./utility/i18n.js";
+
 // =====================
 // SETTINGS STATE
 // =====================
@@ -5,15 +7,14 @@
 export const Settings = {
     version: "2024",
     theme: "light",
+    language: "de",
 
     profileSettings: {
-        showEquipment: true,
-        showSpecialRules: true
-    },
-
-    armylistSettings: {
-        showPoints: true,
-        enableValidation: true
+        enableDetailsLink: true,
+        enableRulesLink: true,
+        enableProfilesLink: true,
+        showGWFAQNotes: true 
+							  
     },
 
     load() {
@@ -27,8 +28,8 @@ export const Settings = {
             JSON.stringify({
                 version: this.version,
                 theme: this.theme,
-                profileSettings: this.profileSettings,
-                armylistSettings: this.armylistSettings
+                language: this.language,
+                profileSettings: this.profileSettings
             })
         );
     }
@@ -42,51 +43,52 @@ export function initSettingsUI() {
     const modal = document.getElementById("settingsModal");
 
     modal.innerHTML = `
-        <h3>Settings</h3>
+        <h3>${t("settings.title")}</h3>
 
         <div class="settings-tabs">
-            <button data-tab="general" class="active">General</button>
-            <button data-tab="graphics">Graphics</button>
-            <button data-tab="profiles">Profiles</button>
-            <button data-tab="armylists">ArmyLists</button>
-            <button data-tab="version">Version</button>
+            <button data-tab="general" class="active">${t("settings.general")}</button>
+            <button data-tab="graphics">${t("settings.graphics")}</button>
+            <button data-tab="profiles">${t("settings.profiles")}</button>
+            <button data-tab="version">${t("settings.version")}</button>
         </div>
 
         <div class="settings-content">
 
             <div class="tab active" id="tab-general">
                 <label>
-                    <input type="checkbox" checked disabled>
-                    English
+                    <input type="radio" name="language" value="en">
+                    ${t("settings.english")}
+                </label><br>
+                <label>
+                    <input type="radio" name="language" value="de">
+                    ${t("settings.german")}
                 </label>
+
             </div>
 
             <div class="tab" id="tab-graphics">
                 <label>
                     <input type="checkbox" id="nightMode">
-                    Night Mode
+                    ${t("settings.nightMode")}
                 </label>
             </div>
 
             <div class="tab" id="tab-profiles">
                 <label>
-                    <input type="checkbox" id="showEquipment">
-                    Show Equipment
+                    <input type="checkbox" id="enableDetailsLink">
+                    ${t("settings.crossLinksWargear")}
                 </label><br>
                 <label>
-                    <input type="checkbox" id="showSpecialRules">
-                    Show Special Rules
-                </label>
-            </div>
-
-            <div class="tab" id="tab-armylists">
+                    <input type="checkbox" id="enableRulesLink">
+                    ${t("settings.crossLinksRules")}
+                </label><br>						
                 <label>
-                    <input type="checkbox" id="showPoints">
-                    Show Points
+                    <input type="checkbox" id="enableProfilesLink">
+                    ${t("settings.crossLinksProfiles")}
                 </label><br>
                 <label>
-                    <input type="checkbox" id="enableValidation">
-                    Enable Validation
+                    <input type="checkbox" id="showGWFAQNotes">
+                    ${t("settings.showGWFAQNotes")}
                 </label>
             </div>
 
@@ -104,7 +106,7 @@ export function initSettingsUI() {
         </div>
 
         <br>
-        <button id="closeSettings">Close</button>
+        <button id="closeSettings">${t("settings.close")}</button>
     `;
 
     // =====================
@@ -131,17 +133,17 @@ export function initSettingsUI() {
     document.getElementById("nightMode").checked =
         Settings.theme === "dark";
 
-    document.getElementById("showEquipment").checked =
-        Settings.profileSettings.showEquipment;
+    document.getElementById("enableDetailsLink").checked =
+        Settings.profileSettings.enableDetailsLink;
 
-    document.getElementById("showSpecialRules").checked =
-        Settings.profileSettings.showSpecialRules;
+    document.getElementById("enableRulesLink").checked =
+        Settings.profileSettings.enableRulesLink;
 
-    document.getElementById("showPoints").checked =
-        Settings.armylistSettings.showPoints;
+    document.getElementById("enableProfilesLink").checked =
+        Settings.profileSettings.enableProfilesLink;
 
-    document.getElementById("enableValidation").checked =
-        Settings.armylistSettings.enableValidation;
+    document.getElementById("showGWFAQNotes").checked =
+        Settings.profileSettings.showGWFAQNotes;
 
     modal.querySelectorAll("input[name='version']").forEach(radio => {
         radio.checked = radio.value === Settings.version;
@@ -156,24 +158,34 @@ export function initSettingsUI() {
         Settings.save();
         document.body.classList.toggle("dark", Settings.theme === "dark");
     };
+    
+    modal.querySelectorAll("input[name='language']").forEach(radio => {
+        radio.checked = radio.value === Settings.language;
 
-    document.getElementById("showEquipment").onchange = e => {
-        Settings.profileSettings.showEquipment = e.target.checked;
+        radio.onchange = e => {
+            Settings.language = e.target.value;
+            Settings.save();
+            location.reload();
+        };
+    });
+
+    document.getElementById("enableDetailsLink").onchange = e => {
+        Settings.profileSettings.enableDetailsLink = e.target.checked;
         Settings.save();
     };
 
-    document.getElementById("showSpecialRules").onchange = e => {
-        Settings.profileSettings.showSpecialRules = e.target.checked;
+    document.getElementById("enableRulesLink").onchange = e => {
+        Settings.profileSettings.enableRulesLink = e.target.checked;
         Settings.save();
     };
 
-    document.getElementById("showPoints").onchange = e => {
-        Settings.armylistSettings.showPoints = e.target.checked;
+    document.getElementById("enableProfilesLink").onchange = e => {
+        Settings.profileSettings.enableProfilesLink = e.target.checked;
         Settings.save();
     };
 
-    document.getElementById("enableValidation").onchange = e => {
-        Settings.armylistSettings.enableValidation = e.target.checked;
+    document.getElementById("showGWFAQNotes").onchange = e => {
+        Settings.profileSettings.showGWFAQNotes = e.target.checked;
         Settings.save();
     };
 

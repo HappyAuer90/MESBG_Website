@@ -2,38 +2,38 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>MESBG Tool</title>
+    <title>MESBG Online Tool</title>
 
+    <!-- Global -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/settings.css">
-    <link rel="stylesheet" href="css/profiles.css">
-    <link rel="stylesheet" href="css/armylists.css">
+
+    <!-- Views -->
+    <link rel="stylesheet" href="css/profiles-search.css">
+    <link rel="stylesheet" href="css/profiles-expert.css">
+    <link rel="stylesheet" href="css/profiles-all.css">
+
+    <link rel="stylesheet" href="css/armylists-search.css">
+    <link rel="stylesheet" href="css/armylists-all.css">
+    <link rel="stylesheet" href="css/armylists-build.css">
 </head>
 <body>
 
 <header id="mainHeader">
     <button id="settingsBtn" class="settings-btn">⚙</button>
 
-    <h1 id="title">MESBG Online Tool</h1>
+    <!-- Titel wird per JS gesetzt -->
+    <h1 class="title" id="appTitle"></h1>
 
     <div class="header-line"></div>
 
-    <nav id="mainCategories">
-        <button data-section="profiles" class="active">Profiles</button>
-        <button data-section="armylists">ArmyLists</button>
-    </nav>
-
-    <nav id="subnav"></nav>
+    <!-- Wird komplett per JS gerendert -->
+    <nav id="mainCategories"></nav>
+    <nav id="subCategories"></nav>
 </header>
 
-
-
-<section id="subnav"></section>
-
-<main id="content">
-    <p>Bitte wähle eine Kategorie.</p>
-</main>
+<main id="content"></main>
 
 <div id="settingsModal" class="hidden"></div>
 
