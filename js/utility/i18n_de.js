@@ -19,6 +19,7 @@ export default {
         english: "Englisch",
         german: "Deutsch",
         nightMode: "Nachtmodus",
+        linkColor: "Farbe für Referenz-Links",
         crossLinksWargear: "Verlinkungen zu Wargear und Sonderregeln aktivieren",
         crossLinksRules: "Verlinkungen zu Regeln aktivieren",
         crossLinksProfiles: "Verlinkungen zu Profilen aktivieren",

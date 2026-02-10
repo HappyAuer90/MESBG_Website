@@ -1,3 +1,174 @@
-.profile-view {
-    padding: 10px;
+/* =========================
+   ROOT CONTAINER
+========================= */
+
+.profiles-search {
+    position: relative;
+}
+
+/* =========================
+   SEARCH WRAPPER
+========================= */
+
+.search-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* =========================
+   SEARCH BAR
+========================= */
+
+.profile-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+#profileSearchInput {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+#profileBackBtn {
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+/* =========================
+   AUTOSUGGESTIONS
+========================= */
+
+.autosuggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: calc(100% - 55px);
+    z-index: 200;
+
+    background: var(--mode-background);
+    border: 1px solid var(--mode-writing);
+    border-radius: 4px;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    max-height: 240px;
+    overflow-y: auto;
+    
+    /* Hidden by default */
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.autosuggestions.visible {
+    display: block;
+}
+
+.autosuggestions li {
+    padding: 8px 10px;
+    cursor: pointer;
+    background: var(--mode-background);
+}
+
+.autosuggestions li:hover {
+    background: var(--color-link-hover);
+}
+
+/* =========================
+   PROFILE SEPARATOR
+========================= */
+
+.profile-separator {
+    margin: 12px auto;
+    width: 100%;
+    height: 1px;
+    background: var(--mode-writing);
+}
+
+.profile-separator.hidden {
+    display: none;
+}
+
+/* =========================
+   PROFILE TITLE
+========================= */
+
+.profile-title {
+    text-align: center;
+    font-size: 32px;
+    color: gold;
+    margin: 20px 0;
+}
+
+/* =========================
+   PROFILE BOXES
+========================= */
+
+.profile-box {
+    border: 1px solid var(--mode-writing);
+    border-radius: 6px;
+    margin-bottom: 12px;
+    padding: 6px;
+}
+
+.profile-box summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* =========================
+   TWO PANE LAYOUT
+========================= */
+
+.two-pane {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.two-pane .left {
+    width: 50%;
+    border-right: 1px solid var(--mode-writing);
+}
+
+.two-pane .right {
+    width: 50%;
+    padding-left: 10px;
+}
+
+/* =========================
+   COMPOSITION SEPARATORS
+========================= */
+
+.double-separator {
+    margin: 30px 0;
+    height: 6px;
+    background:
+        linear-gradient(
+            to bottom,
+            var(--mode-writing) 0,
+            var(--mode-writing) 2px,
+            transparent 2px,
+            transparent 4px,
+            var(--mode-writing) 4px,
+            var(--mode-writing) 6px
+        );
+}
+
+.single-separator {
+    margin: 20px 0;
+    height: 1px;
+    background: var(--mode-writing);
 }

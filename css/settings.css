@@ -1,10 +1,12 @@
 #settingsModal {
     position: fixed;
+    z-index: 1000; /* höher als alles andere */
     top: 20%;
     left: 35%;
     width: 300px;
-    background: white;
-    border: 1px solid #000;
+    background: var(--mode-background);
+    color: var(--mode-writing);
+    border: 1px solid var(--mode-writing);
     padding: 15px;
 }
 /* Alle Tab-Inhalte standardmäßig verstecken */

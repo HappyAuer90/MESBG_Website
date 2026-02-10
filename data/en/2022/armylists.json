@@ -1,7 +1,8 @@
 {
 	"Arathorn’s Stand": {
 		"id": "arathorns_stand",
-		"name": "Arathorn’s Stand",
+		"version": "2024",
+		"name":  "Arathorn’s Stand",
 		"alignment": "Good",
 		"source": [
 			{
@@ -59,6 +60,7 @@
 	},
 	"Army of Carn Dûm": {
 		"id": "army_carndum",
+		"version": "2024",
 		"name": "Army of Carn Dûm",
 		"alignment": "Evil",
 		"source": [
@@ -181,7 +183,8 @@
 	},
 	"Army of Dale": {
 		"id": "army_dale",
-		"name": "Army of Dale",
+		"version": "2024",
+		"name":  "Army of Dale",
 		"alignment": "Good",
 		"source": [
 			{
@@ -265,7 +268,8 @@
 	},
 	"Army of Dunland": {
 		"id": "army_dunland",
-		"name": "Army of Dunland",
+		"version": "2024",
+		"name":  "Army of Dunland",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -391,7 +395,8 @@
 	},
 	"Army of Edoras": {
 		"id": "army_edoras",
-		"name": "Army of Edoras",
+		"version": "2024",
+		"name":  "Army of Edoras",
 		"alignment": "Good",
 		"source": [
 			{
@@ -581,7 +586,8 @@
 	},
 	"Army of Erebor": {
 		"id": "army_ererbor",
-		"name": "Army of Erebor",
+		"version": "2024",
+		"name":  "Army of Erebor",
 		"alignment": "Good",
 		"source": [
 			{
@@ -705,7 +711,8 @@
 	},
 	"Army of Gothmog": {
 		"id": "army_gothmog",
-		"name": "Army of Gothmog",
+		"version": "2024",
+		"name":  "Army of Gothmog",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -853,7 +860,8 @@
 	},
 	"Army of Gundabad": {
 		"id": "army_gundabad",
-		"name": "Army of Gundabad",
+		"version": "2024",
+		"name":  "Army of Gundabad",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -991,7 +999,8 @@
 	},
 	"Army of Lake-town": {
 		"id": "army_laketown",
-		"name": "Army of Lake-town",
+		"version": "2024",
+		"name":  "Army of Lake-town",
 		"alignment": "Good",
 		"source": [
 			{
@@ -1104,7 +1113,8 @@
 	},
 	"Army of the Great Eye": {
 		"id": "army_great_eye",
-		"name": "Army of the Great Eye",
+		"version": "2024",
+		"name":  "Army of the Great Eye",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -1544,7 +1554,8 @@
 	},
 	"Army of the White Hand": {
 		"id": "army_white_hand",
-		"name": "Army of the White Hand",
+		"version": "2024",
+		"name":  "Army of the White Hand",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -1817,7 +1828,8 @@
 	},
 	"Army of Thrór": {
 		"id": "army_thrór",
-		"name": "Army of Thrór",
+		"version": "2024",
+		"name":  "Army of Thrór",
 		"alignment": "Good",
 		"source": [
 			{
@@ -1902,7 +1914,8 @@
 	},
 	"Arnor": {
 		"id": "arnor",
-		"name": "Arnor",
+		"version": "2024",
+		"name":  "Arnor",
 		"alignment": "Good",
 		"source": [
 			{
@@ -2009,7 +2022,8 @@
 	},
 	"Assault on Lothlórien": {
 		"id": "assault_lothlorien",
-		"name": "Assault on Lothlórien",
+		"version": "2024",
+		"name":  "Assault on Lothlórien",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -2172,7 +2186,8 @@
 	},
 	"Assault on Ravenhill": {
 		"id": "assault_ravenhill",
-		"name": "Assault on Ravenhill",
+		"version": "2024",
+		"name":  "Assault on Ravenhill",
 		"alignment": "Good",
 		"source": [
 			{
@@ -2245,7 +2260,8 @@
 	},
 	"Assault Upon Helm’s Deep": {
 		"id": "assault_helms_deep",
-		"name": "Assault Upon Helm’s Deep",
+		"version": "2024",
+		"name":  "Assault Upon Helm’s Deep",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -2343,7 +2359,8 @@
 	},
 	"Atop the Walls": {
 		"id": "atop_the_walls",
-		"name": "Atop the Walls",
+		"version": "2024",
+		"name":  "Atop the Walls",
 		"alignment": "Good",
 		"source": [
 			{
@@ -2503,7 +2520,8 @@
 	},
 	"Azog’s Hunter": {
 		"id": "azogs_hunters",
-		"name": "Azog’s Hunter",
+		"version": "2024",
+		"name":  "Azog’s Hunter",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -2640,7 +2658,8 @@
 	},
 	"Barad-dûr": {
 		"id": "barad_dur",
-		"name": "Barad-dûr",
+		"version": "2024",
+		"name":  "Barad-dûr",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -2854,7 +2873,8 @@
 	},
 	"Battle of Bywater": {
 		"id": "battle_bywater",
-		"name": "Battle of Bywater",
+		"version": "2024",
+		"name":  "Battle of Bywater",
 		"alignment": "Good",
 		"source": [
 			{
@@ -3006,7 +3026,8 @@
 	},
 	"Battle of Fornost": {
 		"id": "battle_fornost",
-		"name": "Battle of Fornost",
+		"version": "2024",
+		"name":  "Battle of Fornost",
 		"alignment": "Good",
 		"source": [
 			{
@@ -3174,7 +3195,8 @@
 	},
 	"Battle of Greenfields": {
 		"id": "battle_greenfields",
-		"name": "Battle of Greenfields",
+		"version": "2024",
+		"name":  "Battle of Greenfields",
 		"alignment": "Good",
 		"source": [
 			{
@@ -3250,7 +3272,8 @@
 	},
 	"Besiegers of the Hornburg": {
 		"id": "besiegers_hornburg",
-		"name": "Besiegers of the Hornburg",
+		"version": "2024",
+		"name":  "Besiegers of the Hornburg",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -3360,7 +3383,8 @@
 	},
 	"Bhurdûr’s Horde": {
 		"id": "buhrdurs_horde",
-		"name": "Bhurdûr’s Horde",
+		"version": "2024",
+		"name":  "Bhurdûr’s Horde",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -3470,7 +3494,8 @@
 	},
 	"Breaking of the Fellowship": {
 		"id": "breaking_fellowship",
-		"name": "Breaking of the Fellowship",
+		"version": "2024",
+		"name":  "Breaking of the Fellowship",
 		"alignment": "Good",
 		"source": [
 			{
@@ -3602,7 +3627,8 @@
 	},
 	"Cirith Ungol": {
 		"id": "cirith_ungol",
-		"name": "Cirith Ungol",
+		"version": "2024",
+		"name":  "Cirith Ungol",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -3728,7 +3754,8 @@
 	},
 	"Corsair Fleets": {
 		"id": "corsair_fleets",
-		"name": "Corsair Fleets",
+		"version": "2024",
+		"name":  "Corsair Fleets",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -3824,7 +3851,8 @@
 	},
 	"Defenders of Erebor": {
 		"id": "defenders_ererbor",
-		"name": "Defenders of Erebor",
+		"version": "2024",
+		"name":  "Defenders of Erebor",
 		"alignment": "Good",
 		"source": [
 			{
@@ -3989,7 +4017,8 @@
 	},
 	"Defenders of Helm’s Deep": {
 		"id": "defenders_helms_deep",
-		"name": "Defenders of Helm’s Deep",
+		"version": "2024",
+		"name":  "Defenders of Helm’s Deep",
 		"alignment": "Good",
 		"source": [
 			{
@@ -4202,7 +4231,8 @@
 	},
 	"Defenders of the Hornburg": {
 		"id": "defenders_hornburg",
-		"name": "Defenders of the Hornburg",
+		"version": "2024",
+		"name":  "Defenders of the Hornburg",
 		"alignment": "Good",
 		"source": [
 			{
@@ -4332,7 +4362,8 @@
 	},
 	"Defenders of the Pelennor": {
 		"id": "defenders_pelennor",
-		"name": "Defenders of the Pelennor",
+		"version": "2024",
+		"name":  "Defenders of the Pelennor",
 		"alignment": "Good",
 		"source": [
 			{
@@ -4798,7 +4829,8 @@
 	},
 	"Depths of Moria": {
 		"id": "depths_moria",
-		"name": "Depths of Moria",
+		"version": "2024",
+		"name":  "Depths of Moria",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -4919,7 +4951,8 @@
 	},
 	"Desolator of the North": {
 		"id": "desolator_north",
-		"name": "Desolator of the North",
+		"version": "2024",
+		"name":  "Desolator of the North",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -4955,7 +4988,8 @@
 	},
 	"Dragons of the North": {
 		"id": "dragons_north",
-		"name": "Dragons of the North",
+		"version": "2024",
+		"name":  "Dragons of the North",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -5019,7 +5053,8 @@
 	},
 	"Erebor & Dale": {
 		"id": "erebor_dale",
-		"name": "Erebor & Dale",
+		"version": "2024",
+		"name":  "Erebor & Dale",
 		"alignment": "Good",
 		"source": [
 			{
@@ -5148,7 +5183,8 @@
 	},
 	"Erebor Reclaimed": {
 		"id": "erebor_reclaimed",
-		"name": "Erebor Reclaimed",
+		"version": "2024",
+		"name":  "Erebor Reclaimed",
 		"alignment": "Good",
 		"source": [
 			{
@@ -5287,7 +5323,8 @@
 	},
 	"Expedition to the East": {
 		"id": "expedition_east",
-		"name": "Expedition to the East",
+		"version": "2024",
+		"name":  "Expedition to the East",
 		"alignment": "Good",
 		"source": [
 			{
@@ -5433,7 +5470,8 @@
 	},
 	"Fangorn": {
 		"id": "fangorn",
-		"name": "Fangorn",
+		"version": "2024",
+		"name":  "Fangorn",
 		"alignment": "Good",
 		"source": [
 			{
@@ -5491,7 +5529,8 @@
 	},
 	"Far Harad": {
 		"id": "far_harad",
-		"name": "Far Harad",
+		"version": "2024",
+		"name":  "Far Harad",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -5597,7 +5636,8 @@
 	},
 	"Fell Beings of Mirkwood": {
 		"id": "fell_beings_mirkwood",
-		"name": "Fell Beings of Mirkwood",
+		"version": "2024",
+		"name":  "Fell Beings of Mirkwood",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -5729,7 +5769,8 @@
 	},
 	"Fields of Celebrant": {
 		"id": "fields_celebrant",
-		"name": "Fields of Celebrant",
+		"version": "2024",
+		"name":  "Fields of Celebrant",
 		"alignment": "Good",
 		"source": [
 			{
@@ -5875,7 +5916,8 @@
 	},
 	"Fords of Isen": {
 		"id": "fords_isen",
-		"name": "Fords of Isen",
+		"version": "2024",
+		"name":  "Fords of Isen",
 		"alignment": "Good",
 		"source": [
 			{
@@ -6030,7 +6072,8 @@
 	},
 	"Garrison of Dale": {
 		"id": "garrison_dale",
-		"name": "Garrison of Dale",
+		"version": "2024",
+		"name":  "Garrison of Dale",
 		"alignment": "Good",
 		"source": [
 			{
@@ -6118,7 +6161,8 @@
 	},
 	"Garrison of Ithilien": {
 		"id": "garrison_ithilien",
-		"name": "Garrison of Ithilien",
+		"version": "2024",
+		"name":  "Garrison of Ithilien",
 		"alignment": "Good",
 		"source": [
 			{
@@ -6280,7 +6324,8 @@
 	},
 	"Goblin-Town": {
 		"id": "goblin_town",
-		"name": "Goblin-Town",
+		"version": "2024",
+		"name":  "Goblin-Town",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -6352,7 +6397,8 @@
 	},
 	"Grand Army of the South": {
 		"id": "grand_army_south",
-		"name": "Grand Army of the South",
+		"version": "2024",
+		"name":  "Grand Army of the South",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -6834,7 +6880,8 @@
 	},
 	"Halls of Thranduil": {
 		"id": "halls_thranduil",
-		"name": "Halls of Thranduil",
+		"version": "2024",
+		"name":  "Halls of Thranduil",
 		"alignment": "Good",
 		"source": [
 			{
@@ -6973,7 +7020,8 @@
 	},
 	"Harad": {
 		"id": "harad",
-		"name": "Harad",
+		"version": "2024",
+		"name":  "Harad",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -7149,7 +7197,8 @@
 	},
 	"Host of the Dragon Emperor": {
 		"id": "dragon_emperor",
-		"name": "Host of the Dragon Emperor",
+		"version": "2024",
+		"name":  "Host of the Dragon Emperor",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -7283,7 +7332,8 @@
 	},
 	"Host of the Witch-king": {
 		"id": "host_witchking",
-		"name": "Host of the Witch-king",
+		"version": "2024",
+		"name":  "Host of the Witch-king",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -7464,7 +7514,8 @@
 	},
 	"Kingdom of Khazad-dûm": {
 		"id": "khazad_dum",
-		"name": "Kingdom of Khazad-dûm",
+		"version": "2024",
+		"name":  "Kingdom of Khazad-dûm",
 		"alignment": "Good",
 		"source": [
 			{
@@ -7590,7 +7641,8 @@
 	},
 	"Kingdom of Rohan": {
 		"id": "kingdom_rohan",
-		"name": "Kingdom of Rohan",
+		"version": "2024",
+		"name":  "Kingdom of Rohan",
 		"alignment": "Good",
 		"source": [
 			{
@@ -7842,7 +7894,8 @@
 	},
 	"Legions of Mordor": {
 		"id": "legion_mordor",
-		"name": "Legions of Mordor",
+		"version": "2024",
+		"name":  "Legions of Mordor",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -8367,7 +8420,8 @@
 	},
 	"Lindon": {
 		"id": "lindon",
-		"name": "Lindon",
+		"version": "2024",
+		"name":  "Lindon",
 		"alignment": "Good",
 		"source": [
 			{
@@ -8493,7 +8547,8 @@
 	},
 	"Lothlórien": {
 		"id": "lothlórien",
-		"name": "Lothlórien",
+		"version": "2024",
+		"name":  "Lothlórien",
 		"alignment": "Good",
 		"source": [
 			{
@@ -8666,7 +8721,8 @@
 	},
 	"Lurtz’s Scouts": {
 		"id": "lurtz_scouts",
-		"name": "Lurtz’s Scouts",
+		"version": "2024",
+		"name":  "Lurtz’s Scouts",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -8748,7 +8804,8 @@
 	},
 	"Men of the West": {
 		"id": "men_west",
-		"name": "Men of the West",
+		"version": "2024",
+		"name":  "Men of the West",
 		"alignment": "Good",
 		"source": [
 			{
@@ -9005,7 +9062,8 @@
 	},
 	"Minas Morgul": {
 		"id": "minas_morgul",
-		"name": "Minas Morgul",
+		"version": "2024",
+		"name":  "Minas Morgul",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -9205,7 +9263,8 @@
 	},
 	"Minas Tirith": {
 		"id": "minas_tirith",
-		"name": "Minas Tirith",
+		"version": "2024",
+		"name":  "Minas Tirith",
 		"alignment": "Good",
 		"source": [
 			{
@@ -9374,7 +9433,8 @@
 	},
 	"Moria": {
 		"id": "moria",
-		"name": "Moria",
+		"version": "2024",
+		"name":  "Moria",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -9560,7 +9620,8 @@
 	},
 	"Muster of Isengard": {
 		"id": "muster_isengard",
-		"name": "Muster of Isengard",
+		"version": "2024",
+		"name":  "Muster of Isengard",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -9702,7 +9763,8 @@
 	},
 	"Númenor": {
 		"id": "númenor",
-		"name": "Númenor",
+		"version": "2024",
+		"name":  "Númenor",
 		"alignment": "Good",
 		"source": [
 			{
@@ -9777,7 +9839,8 @@
 	},
 	"Paths of the Drúadan": {
 		"id": "paths_druadan",
-		"name": "Paths of the Drúadan",
+		"version": "2024",
+		"name":  "Paths of the Drúadan",
 		"alignment": "Good",
 		"source": [
 			{
@@ -9950,7 +10013,8 @@
 	},
 	"Pits of Dol Guldur": {
 		"id": "pits_dol_goldur",
-		"name": "Pits of Dol Guldur",
+		"version": "2024",
+		"name":  "Pits of Dol Guldur",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -10096,7 +10160,8 @@
 	},
 	"Radagast’s Alliance": {
 		"id": "radagasts_alliance",
-		"name": "Radagast’s Alliance",
+		"version": "2024",
+		"name":  "Radagast’s Alliance",
 		"alignment": "Good",
 		"source": [
 			{
@@ -10152,7 +10217,8 @@
 	},
 	"Rangers of Mirkwood": {
 		"id": "rangers_mirkwood",
-		"name": "Rangers of Mirkwood",
+		"version": "2024",
+		"name":  "Rangers of Mirkwood",
 		"alignment": "Good",
 		"source": [
 			{
@@ -10296,7 +10362,8 @@
 	},
 	"Ravagers of the Shire": {
 		"id": "ravagers_shire",
-		"name": "Ravagers of the Shire",
+		"version": "2024",
+		"name":  "Ravagers of the Shire",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -10406,7 +10473,8 @@
 	},
 	"Realms of Men": {
 		"id": "realms_men",
-		"name": "Realms of Men",
+		"version": "2024",
+		"name":  "Realms of Men",
 		"alignment": "Good",
 		"source": [
 			{
@@ -10903,7 +10971,8 @@
 	},
 	"Reclamation of Moria": {
 		"id": "reclamation_moria",
-		"name": "Reclamation of Moria",
+		"version": "2024",
+		"name":  "Reclamation of Moria",
 		"alignment": "Good",
 		"source": [
 			{
@@ -11028,7 +11097,8 @@
 	},
 	"Reclamation of Osgiliath": {
 		"id": "reclamation_osgiliath",
-		"name": "Reclamation of Osgiliath",
+		"version": "2024",
+		"name":  "Reclamation of Osgiliath",
 		"alignment": "Good",
 		"source": [
 			{
@@ -11168,7 +11238,8 @@
 	},
 	"Return of the King": {
 		"id": "return_king",
-		"name": "Return of the King",
+		"version": "2024",
+		"name":  "Return of the King",
 		"alignment": "Good",
 		"source": [
 			{
@@ -11274,7 +11345,8 @@
 	},
 	"Ride Out": {
 		"id": "ride_out",
-		"name": "Ride Out",
+		"version": "2024",
+		"name":  "Ride Out",
 		"alignment": "Good",
 		"source": [
 			{
@@ -11401,7 +11473,8 @@
 	},
 	"Riders of Éomer": {
 		"id": "riders_éomer",
-		"name": "Riders of Éomer",
+		"version": "2024",
+		"name":  "Riders of Éomer",
 		"alignment": "Good",
 		"source": [
 			{
@@ -11496,7 +11569,8 @@
 	},
 	"Riders of Théoden": {
 		"id": "riders_théoden",
-		"name": "Riders of Théoden",
+		"version": "2024",
+		"name":  "Riders of Théoden",
 		"alignment": "Good",
 		"source": [
 			{
@@ -11654,7 +11728,8 @@
 	},
 	"Rise of the Necromancer": {
 		"id": "rise_necromancer",
-		"name": "Rise of the Necromancer",
+		"version": "2024",
+		"name":  "Rise of the Necromancer",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -11788,7 +11863,8 @@
 	},
 	"Rivendell": {
 		"id": "rivendell",
-		"name": "Rivendell",
+		"version": "2024",
+		"name":  "Rivendell",
 		"alignment": "Good",
 		"source": [
 			{
@@ -11958,7 +12034,8 @@
 	},
 	"Road to Helm’s Deep": {
 		"id": "road_helms_deep",
-		"name": "Road to Helm’s Deep",
+		"version": "2024",
+		"name":  "Road to Helm’s Deep",
 		"alignment": "Good",
 		"source": [
 			{
@@ -12103,7 +12180,8 @@
 	},
 	"Road to Rivendell": {
 		"id": "road_rivendell",
-		"name": "Road to Rivendell",
+		"version": "2024",
+		"name":  "Road to Rivendell",
 		"alignment": "Good",
 		"source": [
 			{
@@ -12214,7 +12292,8 @@
 	},
 	"Shadows of Angmar": {
 		"id": "shadow_angmar",
-		"name": "Shadows of Angmar",
+		"version": "2024",
+		"name":  "Shadows of Angmar",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -12343,7 +12422,8 @@
 	},
 	"Sharkey’s Rogues": {
 		"id": "sharkeys_rogues",
-		"name": "Sharkey’s Rogues",
+		"version": "2024",
+		"name":  "Sharkey’s Rogues",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -12433,7 +12513,8 @@
 	},
 	"Survivors of Lake-town": {
 		"id": "survivors_lake_town",
-		"name": "Survivors of Lake-town",
+		"version": "2024",
+		"name":  "Survivors of Lake-town",
 		"alignment": "Good",
 		"source": [
 			{
@@ -12537,7 +12618,8 @@
 	},
 	"The Battle of the Five Armies": {
 		"id": "battle_five_armies",
-		"name": "The Battle of the Five Armies",
+		"version": "2024",
+		"name":  "The Battle of the Five Armies",
 		"alignment": "Good",
 		"source": [
 			{
@@ -12844,7 +12926,8 @@
 	},
 	"The Beornings": {
 		"id": "beornings",
-		"name": "The Beornings",
+		"version": "2024",
+		"name":  "The Beornings",
 		"alignment": "Good",
 		"source": [
 			{
@@ -12895,7 +12978,8 @@
 	},
 	"The Black Gate": {
 		"id": "black_gate",
-		"name": "The Black Gate",
+		"version": "2024",
+		"name":  "The Black Gate",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -13020,7 +13104,8 @@
 	},
 	"The Black Riders": {
 		"id": "black_riders",
-		"name": "The Black Riders",
+		"version": "2024",
+		"name":  "The Black Riders",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -13085,7 +13170,8 @@
 	},
 	"The Eagles": {
 		"id": "eagles",
-		"name": "The Eagles",
+		"version": "2024",
+		"name":  "The Eagles",
 		"alignment": "Good",
 		"source": [
 			{
@@ -13127,7 +13213,8 @@
 	},
 	"The Easterlings": {
 		"id": "easterlings",
-		"name": "The Easterlings",
+		"version": "2024",
+		"name":  "The Easterlings",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -13271,7 +13358,8 @@
 	},
 	"The Fellowship": {
 		"id": "fellowship",
-		"name": "The Fellowship",
+		"version": "2024",
+		"name":  "The Fellowship",
 		"alignment": "Good",
 		"source": [
 			{
@@ -13375,7 +13463,8 @@
 	},
 	"The Fiefdoms": {
 		"id": "fiefdoms",
-		"name": "The Fiefdoms",
+		"version": "2024",
+		"name":  "The Fiefdoms",
 		"alignment": "Good",
 		"source": [
 			{
@@ -13497,7 +13586,8 @@
 	},
 	"The Grey Company": {
 		"id": "grey_company",
-		"name": "The Grey Company",
+		"version": "2024",
+		"name":  "The Grey Company",
 		"alignment": "Good",
 		"source": [
 			{
@@ -13604,7 +13694,8 @@
 	},
 	"The Grief of Éomer": {
 		"id": "grief_eomer",
-		"name": "The Grief of Éomer",
+		"version": "2024",
+		"name":  "The Grief of Éomer",
 		"alignment": "Good",
 		"source": [
 			{
@@ -13820,7 +13911,8 @@
 	},
 	"The Iron Hills": {
 		"id": "iron_hills",
-		"name": "The Iron Hills",
+		"version": "2024",
+		"name":  "The Iron Hills",
 		"alignment": "Good",
 		"source": [
 			{
@@ -13938,7 +14030,8 @@
 	},
 	"The Last Alliance": {
 		"id": "last_alliance",
-		"name": "The Last Alliance",
+		"version": "2024",
+		"name":  "The Last Alliance",
 		"alignment": "Good",
 		"source": [
 			{
@@ -14072,7 +14165,8 @@
 	},
 	"The Serpent Horde": {
 		"id": "serpent_horde",
-		"name": "The Serpent Horde",
+		"version": "2024",
+		"name":  "The Serpent Horde",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -14245,7 +14339,8 @@
 	},
 	"The Shire": {
 		"id": "shire",
-		"name": "The Shire",
+		"version": "2024",
+		"name":  "The Shire",
 		"alignment": "Good",
 		"source": [
 			{
@@ -14387,7 +14482,8 @@
 	},
 	"The Spider Queen’s Brood": {
 		"id": "spiderqueen_brood",
-		"name": "The Spider Queen’s Brood",
+		"version": "2024",
+		"name":  "The Spider Queen’s Brood",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -14450,7 +14546,8 @@
 	},
 	"The Three Trolls": {
 		"id": "three_trolls",
-		"name": "The Three Trolls",
+		"version": "2024",
+		"name":  "The Three Trolls",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -14493,7 +14590,8 @@
 	},
 	"The White Council": {
 		"id": "white_council",
-		"name": "The White Council",
+		"version": "2024",
+		"name":  "The White Council",
 		"alignment": "Good",
 		"source": [
 			{
@@ -14564,7 +14662,8 @@
 	},
 	"Thorin’s Company": {
 		"id": "thorins_company",
-		"name": "Thorin’s Company",
+		"version": "2024",
+		"name":  "Thorin’s Company",
 		"alignment": "Good",
 		"source": [
 			{
@@ -14703,7 +14802,8 @@
 	},
 	"Uglúk’s Scouts": {
 		"id": "ugluk_scout",
-		"name": "Uglúk’s Scouts",
+		"version": "2024",
+		"name":  "Uglúk’s Scouts",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -14821,7 +14921,8 @@
 	},
 	"Umbar": {
 		"id": "umbar",
-		"name": "Umbar",
+		"version": "2024",
+		"name":  "Umbar",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -14963,7 +15064,8 @@
 	},
 	"Usurpers of Edoras": {
 		"id": "usurpers_edoras",
-		"name": "Usurpers of Edoras",
+		"version": "2024",
+		"name":  "Usurpers of Edoras",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -15098,7 +15200,8 @@
 	},
 	"Variags of Khand": {
 		"id": "variags_khand",
-		"name": "Variags of Khand",
+		"version": "2024",
+		"name":  "Variags of Khand",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -15175,7 +15278,8 @@
 	},
 	"Wolf Pack of Angmar": {
 		"id": "wolfpack_angmar",
-		"name": "Wolf Pack of Angmar",
+		"version": "2024",
+		"name":  "Wolf Pack of Angmar",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -15230,7 +15334,8 @@
 	},
 	"Wolves of Isengard": {
 		"id": "wolves_isengard",
-		"name": "Wolves of Isengard",
+		"version": "2024",
+		"name":  "Wolves of Isengard",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -15317,7 +15422,8 @@
 	},
 	"Wraiths on Wings": {
 		"id": "wraiths_wings",
-		"name": "Wraiths on Wings",
+		"version": "2024",
+		"name":  "Wraiths on Wings",
 		"alignment": "Evil",
 		"source": [
 			{

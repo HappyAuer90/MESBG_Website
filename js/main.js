@@ -1,5 +1,7 @@
 import { Settings, initSettingsUI } from "./settings.js";
 import { t } from "./utility/i18n.js";
+import { applyThemeColors } from "./utility/theme.js";
+
 
 /* =========================
    IMPORT VIEWS
@@ -18,6 +20,7 @@ import { initArmylistsBuild } from "./armylists/buildArmylist.js";
 ========================= */
 
 Settings.load();
+applyThemeColors();
 
 const content = document.getElementById("content");
 const subNav = document.getElementById("subCategories");
@@ -100,7 +103,8 @@ export function navigate(main, sub, params = {}) {
     activeSub = sub;
 
     renderMainNav();
-    renderSubNav();
+renderSubNav();
+
 }
 
 function renderMainNav() {

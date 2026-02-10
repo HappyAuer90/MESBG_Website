@@ -1,0 +1,9 @@
+:root {
+    /* Mode colors (Light/Dark*/
+    --mode-background: white;
+    --mode-writing: black;
+
+    /* Interactive */
+    --color-link: #4da3ff;
+    --color-link-hover: #81c1ff;
+}

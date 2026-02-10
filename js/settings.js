@@ -9,6 +9,12 @@ export const Settings = {
     theme: "light",
     language: "de",
 
+    colors: {
+        modeBackground: "white",
+        modeWriting: "black",
+        link: "#4da3ff"
+    },
+
     profileSettings: {
         enableDetailsLink: true,
         enableRulesLink: true,
@@ -29,6 +35,7 @@ export const Settings = {
                 version: this.version,
                 theme: this.theme,
                 language: this.language,
+                colors: this.colors,
                 profileSettings: this.profileSettings
             })
         );
@@ -70,6 +77,10 @@ export function initSettingsUI() {
                 <label>
                     <input type="checkbox" id="nightMode">
                     ${t("settings.nightMode")}
+                </label><br>
+                <label>
+                    ${t("settings.linkColor")}
+                    <input type="color" id="linkColor">
                 </label>
             </div>
 
@@ -129,9 +140,23 @@ export function initSettingsUI() {
     // =====================
     // INITIAL STATE
     // =====================
-
     document.getElementById("nightMode").checked =
         Settings.theme === "dark";
+
+    document.documentElement.style.setProperty(
+        "--mode-background",
+        Settings.colors.modeBackground
+    );
+
+    document.documentElement.style.setProperty(
+        "--mode-writing",
+        Settings.colors.modeWriting
+    );
+
+    document.documentElement.style.setProperty(
+        "--color-link",
+        Settings.colors.link
+    );
 
     document.getElementById("enableDetailsLink").checked =
         Settings.profileSettings.enableDetailsLink;
@@ -154,11 +179,36 @@ export function initSettingsUI() {
     // =====================
 
     document.getElementById("nightMode").onchange = e => {
-        Settings.theme = e.target.checked ? "dark" : "light";
-        Settings.save();
-        document.body.classList.toggle("dark", Settings.theme === "dark");
-    };
+    const dark = e.target.checked;
+
+    Settings.theme = dark ? "dark" : "light";
+
+    Settings.colors.modeBackground = dark ? "black" : "white";
+    Settings.colors.modeWriting   = dark ? "white" : "black";
+
+    document.documentElement.style.setProperty(
+        "--mode-background",
+        Settings.colors.modeBackground
+    );
+
+    document.documentElement.style.setProperty(
+        "--mode-writing",
+        Settings.colors.modeWriting
+    );
+
+    Settings.save();
+};
+
     
+    document.getElementById("linkColor").oninput = e => {
+    Settings.colors.link = e.target.value;
+    Settings.save();
+
+    document.documentElement
+        .style
+        .setProperty("--color-link", Settings.colors.link);
+};
+
     modal.querySelectorAll("input[name='language']").forEach(radio => {
         radio.checked = radio.value === Settings.language;
 

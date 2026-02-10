@@ -19,6 +19,7 @@ export default {
         english: "English",
         german: "German",
         nightMode: "Night Mode",
+        linkColor: "Color for references Links",
         crossLinksWargear: "Enable Cross-Links for wargear and special rules",
         crossLinksRules: "Enable Cross-Links for Rules",
         crossLinksProfiles: "Enable Cross-Links for Profiles",
