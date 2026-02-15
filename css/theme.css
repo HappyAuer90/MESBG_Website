@@ -4,6 +4,6 @@
     --mode-writing: black;
 
     /* Interactive */
+    --color-headColor: red;
     --color-link: #4da3ff;
-    --color-link-hover: #81c1ff;
 }

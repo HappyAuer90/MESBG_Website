@@ -5,5 +5,6 @@ export function applyThemeColors() {
 
     r.style.setProperty("--mode-background", Settings.colors.modeBackground);
     r.style.setProperty("--mode-writing", Settings.colors.modeWriting);
+    r.style.setProperty("--color-headColor", Settings.colors.headColor);
     r.style.setProperty("--color-link", Settings.colors.link);
 }

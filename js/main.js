@@ -79,6 +79,7 @@ let activeMain = null;
 let activeSub = null;
 
 export function navigate(main, sub, params = {}) {
+    
     if (activeMain && activeSub) {
         const old = VIEWS[activeMain][activeSub].container;
         if (old) old.style.display = "none";

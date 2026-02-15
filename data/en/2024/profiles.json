@@ -35,8 +35,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"specialRules": [
@@ -85,16 +84,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -149,16 +145,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -214,8 +207,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -266,12 +258,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Durtûz, the Silver Falchion",
-				"type": "WARGEAR"
+				"name": "Durtûz, the Silver Falchion"
 			}
 		],
 		"heroicActions": [
@@ -281,8 +271,7 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -336,16 +325,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -400,12 +386,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -459,16 +443,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -516,16 +497,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -534,8 +512,7 @@
 		"options": [
 			{
 				"name": "Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"magicalPowers": [
@@ -592,12 +569,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -664,16 +639,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Warg",
-				"type": "WARGEAR_MOUNT"
+				"name": "Warg"
 			}
 		],
 		"options": [
@@ -741,16 +713,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Ring of Barahir",
-				"type": "WARGEAR"
+				"name": "Ring of Barahir"
 			},
 			{
-				"name": "Andúril, Flame of the West",
-				"type": "WARGEAR"
+				"name": "Andúril, Flame of the West"
 			}
 		],
 		"heroicActions": [
@@ -764,8 +733,7 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -818,12 +786,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Ring of Barahir",
-				"type": "WARGEAR"
+				"name": "Ring of Barahir"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -838,28 +804,23 @@
 		"options": [
 			{
 				"name": "Andúril, Flame of the West",
-				"cost": "40",
-				"type": "OPTIONAL"
+				"cost": "40"
 			},
 			{
 				"name": "Brego",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Bow",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -911,16 +872,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -976,16 +934,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -1039,24 +994,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "War spear",
-				"type": "WARGEAR"
+				"name": "War spear"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"heroicActions": [
@@ -1144,12 +1094,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -1208,8 +1156,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -1220,13 +1167,11 @@
 		"options": [
 			{
 				"name": "Asfaloth",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Hadhafang (Arwen can only take Hadhafang if Elrond is not in the same army)",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -1379,12 +1324,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -1451,16 +1394,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Axe of Lossarnach",
-				"type": "WARGEAR"
+				"name": "Axe of Lossarnach"
 			}
 		]
 	},
@@ -1506,8 +1446,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -1519,18 +1458,15 @@
 		"options": [
 			{
 				"name": "The White Warg",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "The Stone Flail",
-				"cost": "15",
-				"type": "OPTIONAL"
+				"cost": "15"
 			},
 			{
 				"name": "Heavy armour",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -1581,8 +1517,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -1634,8 +1569,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -1691,12 +1625,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -1749,12 +1681,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -1808,12 +1738,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Durin’s Axe",
-				"type": "WARGEAR"
+				"name": "Durin’s Axe"
 			}
 		],
 		"heroicActions": [
@@ -1869,12 +1797,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"heroicActions": [
@@ -1930,12 +1856,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Great bow",
-				"type": "WARGEAR"
+				"name": "Great bow"
 			}
 		],
 		"heroicActions": [
@@ -1947,13 +1871,11 @@
 		"options": [
 			{
 				"name": "Windlance (Siege Engine)",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Exchange great bow for armour and horse",
-				"cost": "20",
-				"type": "OPTIONAL"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -2029,20 +1951,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -2096,8 +2014,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -2150,12 +2067,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -2209,8 +2124,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -2262,8 +2176,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Roots and branches (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Roots and branches (hand weapon)"
 			}
 		],
 		"heroicActions": [
@@ -2323,8 +2236,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -2383,8 +2295,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -2441,19 +2352,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
 			{
 				"name": "Swap hand-and-a-half weapon for great bow",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -2504,16 +2412,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Longbow",
-				"type": "WARGEAR"
+				"name": "Longbow"
 			}
 		],
 		"heroicActions": [
@@ -2568,8 +2473,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -2627,16 +2531,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Boar Spear",
-				"type": "WARGEAR"
+				"name": "Boar Spear"
 			}
 		],
 		"heroicActions": [
@@ -2689,12 +2590,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -2748,8 +2647,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -2760,13 +2658,11 @@
 		"options": [
 			{
 				"name": "Sting",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "The One Ring",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -2821,8 +2717,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -2831,18 +2726,15 @@
 		"options": [
 			{
 				"name": "Mithril Coat",
-				"cost": "15",
-				"type": "OPTIONAL"
+				"cost": "15"
 			},
 			{
 				"name": "Sting",
-				"cost": "15",
-				"type": "OPTIONAL"
+				"cost": "15"
 			},
 			{
 				"name": "The One Ring",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -2893,16 +2785,13 @@
 		},
 		"wargear": [
 			{
-				"name": "The One Ring",
-				"type": "WARGEAR"
+				"name": "The One Ring"
 			},
 			{
-				"name": "Mithril Coat",
-				"type": "WARGEAR"
+				"name": "Mithril Coat"
 			},
 			{
-				"name": "Sting",
-				"type": "WARGEAR"
+				"name": "Sting"
 			}
 		],
 		"heroicActions": [
@@ -2958,12 +2847,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Whip",
-				"type": "WARGEAR"
+				"name": "Whip"
 			}
 		],
 		"heroicActions": [
@@ -3018,8 +2905,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Iron-shod hooves (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Iron-shod hooves (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -3073,8 +2959,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -3133,8 +3018,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Roots and branches (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Roots and branches (hand weapon)"
 			}
 		],
 		"heroicActions": [
@@ -3188,16 +3072,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -3258,16 +3139,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "War drum (Mordor Uruk-hai)",
-				"type": "WARGEAR"
+				"name": "War drum (Mordor Uruk-hai)"
 			}
 		]
 	},
@@ -3307,16 +3185,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			}
 		],
 		"options": [
@@ -3363,36 +3238,29 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Lance",
-				"type": "WARGEAR"
+				"name": "Lance"
 			},
 			{
-				"name": "Armoured horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Armoured horse"
 			}
 		],
 		"options": [
 			{
 				"name": "Exchange lance for banner",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Exchange lance for war horn",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -3441,16 +3309,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -3459,13 +3324,11 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			},
 			{
 				"name": "Lance",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -3509,16 +3372,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -3563,16 +3423,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"options": [
@@ -3639,12 +3496,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Mattock",
-				"type": "WARGEAR"
+				"name": "Mattock"
 			}
 		],
 		"heroicActions": [
@@ -3697,16 +3552,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -3715,8 +3567,7 @@
 		"options": [
 			{
 				"name": "Troll Brute (see page 125, Bofur replaces the Orc Commander)",
-				"cost": "100",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "100"
 			}
 		],
 		"specialRules": [
@@ -3766,12 +3617,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -3783,13 +3632,11 @@
 		"options": [
 			{
 				"name": "Fell Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Orc bow",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -3841,8 +3688,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -3896,12 +3742,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Flail",
-				"type": "WARGEAR"
+				"name": "Flail"
 			}
 		],
 		"heroicActions": [
@@ -3956,16 +3800,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Horn of Gondor",
-				"type": "WARGEAR"
+				"name": "Horn of Gondor"
 			}
 		],
 		"heroicActions": [
@@ -3976,18 +3817,15 @@
 		"options": [
 			{
 				"name": "Banner of Minas Tirith",
-				"cost": "40",
-				"type": "OPTIONAL"
+				"cost": "40"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -4037,16 +3875,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Horn of Gondor",
-				"type": "WARGEAR"
+				"name": "Horn of Gondor"
 			}
 		],
 		"heroicActions": [
@@ -4058,18 +3893,15 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -4118,12 +3950,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4177,16 +4007,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4280,8 +4107,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Fangs (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Fangs (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -4331,12 +4157,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Easterling Halberd",
-				"type": "WARGEAR"
+				"name": "Easterling Halberd"
 			}
 		],
 		"heroicActions": [
@@ -4411,8 +4235,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4470,16 +4293,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4531,16 +4351,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4591,16 +4408,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4652,16 +4466,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4670,8 +4481,7 @@
 		"options": [
 			{
 				"name": "Armoured horse and lance",
-				"cost": "30",
-				"type": "OPTIONAL"
+				"cost": "30"
 			}
 		],
 		"specialRules": [
@@ -4719,16 +4529,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			}
 		],
 		"heroicActions": [
@@ -4779,16 +4586,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4836,12 +4640,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -4850,18 +4652,15 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Exchange armour for heavy armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -4910,16 +4709,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			}
 		],
 		"heroicActions": [
@@ -4970,16 +4766,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Morgul Blade",
-				"type": "WARGEAR"
+				"name": "Morgul Blade"
 			}
 		],
 		"specialRules": [
@@ -5033,8 +4826,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -5091,8 +4883,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Troll Chain",
-				"type": "WARGEAR"
+				"name": "Troll Chain"
 			}
 		],
 		"options": [
@@ -5155,8 +4946,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"heroicActions": [
@@ -5241,8 +5031,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"heroicActions": [
@@ -5325,16 +5114,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -5382,12 +5168,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -5443,12 +5227,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"specialRules": [
@@ -5544,20 +5326,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -5566,8 +5344,7 @@
 		"options": [
 			{
 				"name": "Exchange spear for crossbow",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -5616,20 +5393,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -5638,8 +5411,7 @@
 		"options": [
 			{
 				"name": "Exchange two-handed weapon for crossbow",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		]
 	},
@@ -5680,16 +5452,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Crossbow",
-				"type": "WARGEAR"
+				"name": "Crossbow"
 			},
 			{
-				"name": "Pavise",
-				"type": "WARGEAR"
+				"name": "Pavise"
 			}
 		]
 	},
@@ -5730,12 +5499,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -5792,8 +5559,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"specialRules": [
@@ -5838,12 +5604,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		]
 	},
@@ -5885,8 +5649,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Beaks and claws (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Beaks and claws (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -5937,12 +5700,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Barazantathûl",
-				"type": "WARGEAR"
+				"name": "Barazantathûl"
 			}
 		],
 		"heroicActions": [
@@ -5999,12 +5760,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -6016,8 +5775,7 @@
 		"options": [
 			{
 				"name": "War Boar",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -6072,16 +5830,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			},
 			{
-				"name": "Smoke Bombs",
-				"type": "WARGEAR"
+				"name": "Smoke Bombs"
 			}
 		],
 		"heroicActions": [
@@ -6131,12 +5886,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -6185,16 +5938,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -6248,20 +5998,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			},
 			{
-				"name": "Whip",
-				"type": "WARGEAR"
+				"name": "Whip"
 			}
 		],
 		"heroicActions": [
@@ -6343,12 +6089,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -6402,16 +6146,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -6421,8 +6162,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -6475,12 +6215,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -6532,12 +6270,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -6591,8 +6327,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -6607,28 +6342,23 @@
 			},
 			{
 				"name": "Breathe Fire [Wargear]",
-				"cost": "50",
-				"type": "OPTIONAL"
+				"cost": "50"
 			},
 			{
 				"name": "Fly [Wargear]",
-				"cost": "50",
-				"type": "OPTIONAL"
+				"cost": "50"
 			},
 			{
 				"name": "Superior Intellect",
-				"cost": "50",
-				"type": "OPTIONAL"
+				"cost": "50"
 			},
 			{
 				"name": "Tough Hide",
-				"cost": "50",
-				"type": "OPTIONAL"
+				"cost": "50"
 			},
 			{
 				"name": "Wyrm Magic",
-				"cost": "50",
-				"type": "OPTIONAL"
+				"cost": "50"
 			}
 		],
 		"specialRules": [
@@ -6678,16 +6408,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"specialRules": [
@@ -6738,16 +6465,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Dwarf armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Dwarf bow",
-				"type": "WARGEAR"
+				"name": "Dwarf bow"
 			}
 		],
 		"heroicActions": [
@@ -6801,12 +6525,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -6878,20 +6600,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -6946,16 +6664,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -6998,20 +6713,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"specialRules": [
@@ -7055,16 +6766,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Dunlending War Axe",
-				"type": "WARGEAR"
+				"name": "Dunlending War Axe"
 			}
 		],
 		"specialRules": [
@@ -7108,12 +6816,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -7181,12 +6887,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -7242,24 +6946,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Exquisite Mithril Armour",
-				"type": "WARGEAR"
+				"name": "Exquisite Mithril Armour"
 			},
 			{
-				"name": "The Ring of Durin",
-				"type": "WARGEAR"
+				"name": "The Ring of Durin"
 			},
 			{
-				"name": "The Crown of Kings",
-				"type": "WARGEAR"
+				"name": "The Crown of Kings"
 			},
 			{
-				"name": "Durin’s Axe",
-				"type": "WARGEAR"
+				"name": "Durin’s Axe"
 			},
 			{
-				"name": "The Horn of Zirakzigil",
-				"type": "WARGEAR"
+				"name": "The Horn of Zirakzigil"
 			}
 		],
 		"heroicActions": [
@@ -7320,16 +7019,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Grasper & Keeper",
-				"type": "WARGEAR"
+				"name": "Grasper & Keeper"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -7384,16 +7080,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Grasper & Keeper",
-				"type": "WARGEAR"
+				"name": "Grasper & Keeper"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -7449,16 +7142,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -7511,12 +7201,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -7571,12 +7259,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -7631,12 +7317,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -7691,16 +7375,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -7744,12 +7425,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -7815,16 +7494,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Dwarf armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -7867,12 +7543,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		]
 	},
@@ -7912,12 +7586,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -8032,8 +7704,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (Hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (Hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -8086,16 +7757,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -8106,8 +7774,7 @@
 		"options": [
 			{
 				"name": "Armoured horse and lance",
-				"cost": "30",
-				"type": "OPTIONAL"
+				"cost": "30"
 			}
 		],
 		"specialRules": [
@@ -8156,12 +7823,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Easterling Halberd",
-				"type": "WARGEAR"
+				"name": "Easterling Halberd"
 			}
 		],
 		"heroicActions": [
@@ -8213,12 +7878,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -8227,8 +7890,7 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -8276,20 +7938,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Armoured horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Armoured horse"
 			}
 		],
 		"options": [
@@ -8350,20 +8008,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Armoured horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Armoured horse"
 			}
 		],
 		"heroicActions": [
@@ -8415,12 +8069,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Easterling Halberd",
-				"type": "WARGEAR"
+				"name": "Easterling Halberd"
 			}
 		],
 		"heroicActions": [
@@ -8429,8 +8081,7 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"magicalPowers": [
@@ -8487,12 +8138,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -8563,12 +8212,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Narsil",
-				"type": "WARGEAR"
+				"name": "Narsil"
 			}
 		],
 		"heroicActions": [
@@ -8623,20 +8270,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Throwing spears",
-				"type": "WARGEAR"
+				"name": "Throwing spears"
 			}
 		],
 		"heroicActions": [
@@ -8647,8 +8290,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -8699,12 +8341,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand weapons",
-				"type": "WARGEAR"
+				"name": "Elven hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -8714,8 +8354,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -8786,12 +8425,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand weapons",
-				"type": "WARGEAR"
+				"name": "Elven hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -8801,8 +8438,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -8858,16 +8494,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Hadhafang",
-				"type": "WARGEAR"
+				"name": "Hadhafang"
 			},
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Vilya",
-				"type": "WARGEAR"
+				"name": "Vilya"
 			}
 		],
 		"heroicActions": [
@@ -8879,8 +8512,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -8940,8 +8572,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Roots and branches (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Roots and branches (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -8996,12 +8627,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Gúthwinë",
-				"type": "WARGEAR"
+				"name": "Gúthwinë"
 			}
 		],
 		"heroicActions": [
@@ -9011,23 +8640,19 @@
 		"options": [
 			{
 				"name": "Firefoot with armour",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			},
 			{
 				"name": "Firefoot",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Throwing spears",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -9079,24 +8704,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Throwing spears",
-				"type": "WARGEAR"
+				"name": "Throwing spears"
 			},
 			{
-				"name": "Felaróf",
-				"type": "WARGEAR_MOUNT"
+				"name": "Felaróf"
 			}
 		],
 		"heroicActions": [
@@ -9155,8 +8775,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -9167,28 +8786,23 @@
 		"options": [
 			{
 				"name": "Merry (can only be taken if Éowyn is riding a horse)",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Throwing spears",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -9238,12 +8852,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -9289,12 +8901,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -9360,12 +8970,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Noldorin Daggers",
-				"type": "WARGEAR"
+				"name": "Noldorin Daggers"
 			}
 		],
 		"heroicActions": [
@@ -9418,24 +9026,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			},
 			{
-				"name": "Horn of the Hammerhand",
-				"type": "WARGEAR"
+				"name": "Horn of the Hammerhand"
 			}
 		],
 		"heroicActions": [
@@ -9495,16 +9098,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -9516,18 +9116,15 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Exchange armour and bow for heavy armour",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -9581,12 +9178,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Grip, Fang and Wolf",
-				"type": "WARGEAR_MOUNT"
+				"name": "Grip, Fang and Wolf"
 			}
 		],
 		"specialRules": [
@@ -9637,8 +9232,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Pitchfork",
-				"type": "WARGEAR"
+				"name": "Pitchfork"
 			}
 		],
 		"heroicActions": [
@@ -9725,8 +9319,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -9773,8 +9366,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -9817,8 +9409,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -9861,12 +9452,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"specialRules": [
@@ -9916,16 +9505,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -9978,12 +9564,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -10037,12 +9621,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -10051,8 +9633,7 @@
 		"options": [
 			{
 				"name": "Fell Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -10139,8 +9720,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and beak (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Claws and beak (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -10193,12 +9773,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -10245,12 +9823,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Foe Spear",
-				"type": "WARGEAR"
+				"name": "Foe Spear"
 			}
 		]
 	},
@@ -10296,8 +9872,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -10350,20 +9925,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "The Horn of Lossarnach",
-				"type": "WARGEAR"
+				"name": "The Horn of Lossarnach"
 			}
 		],
 		"heroicActions": [
@@ -10416,16 +9987,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -10477,12 +10045,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -10492,8 +10058,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -10545,12 +10110,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -10605,8 +10168,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -10658,20 +10220,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			}
 		],
 		"heroicActions": [
@@ -10726,12 +10284,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "The One Ring",
-				"type": "WARGEAR"
+				"name": "The One Ring"
 			}
 		],
 		"heroicActions": [
@@ -10740,18 +10296,15 @@
 		"options": [
 			{
 				"name": "Mithril Coat",
-				"cost": "15",
-				"type": "OPTIONAL"
+				"cost": "15"
 			},
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Sting",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -10801,16 +10354,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Mithril Coat",
-				"type": "WARGEAR"
+				"name": "Mithril Coat"
 			},
 			{
-				"name": "Pony",
-				"type": "WARGEAR_MOUNT"
+				"name": "Pony"
 			},
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"heroicActions": [
@@ -10819,8 +10369,7 @@
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -10870,12 +10419,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -10884,8 +10431,7 @@
 		"options": [
 			{
 				"name": "Elf bow",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -10929,16 +10475,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			},
 			{
-				"name": "Galadhrim Steed",
-				"type": "WARGEAR_MOUNT"
+				"name": "Galadhrim Steed"
 			}
 		],
 		"options": [
@@ -11035,12 +10578,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"options": [
@@ -11121,12 +10662,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Nenya",
-				"type": "WARGEAR"
+				"name": "Nenya"
 			},
 			{
-				"name": "Light of Eärendil",
-				"type": "WARGEAR"
+				"name": "Light of Eärendil"
 			}
 		],
 		"heroicActions": [
@@ -11200,12 +10739,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			},
 			{
-				"name": "Nenya",
-				"type": "WARGEAR"
+				"name": "Nenya"
 			}
 		],
 		"heroicActions": [
@@ -11216,8 +10753,7 @@
 		"options": [
 			{
 				"name": "Mirror of Galadriel",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Galadhrim Warriors in Galadriel’s Warband may be upgraded to Lórien Guard for +1 point per model. Lórien Guard may re-roll To Wound Rolls of a natural 1 when making Strikes.",
@@ -11304,12 +10840,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -11319,13 +10853,11 @@
 		"options": [
 			{
 				"name": "Royal Standard of Rohan",
-				"cost": "40",
-				"type": "OPTIONAL"
+				"cost": "40"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -11381,16 +10913,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Glamdring",
-				"type": "WARGEAR"
+				"name": "Glamdring"
 			},
 			{
-				"name": "Narya",
-				"type": "WARGEAR"
+				"name": "Narya"
 			},
 			{
-				"name": "Staff of Power",
-				"type": "WARGEAR"
+				"name": "Staff of Power"
 			}
 		],
 		"heroicActions": [
@@ -11402,13 +10931,11 @@
 		"options": [
 			{
 				"name": "Gandalf’s Cart",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"magicalPowers": [
@@ -11496,16 +11023,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Glamdring",
-				"type": "WARGEAR"
+				"name": "Glamdring"
 			},
 			{
-				"name": "Narya",
-				"type": "WARGEAR"
+				"name": "Narya"
 			},
 			{
-				"name": "Staff of Power",
-				"type": "WARGEAR"
+				"name": "Staff of Power"
 			}
 		],
 		"heroicActions": [
@@ -11517,13 +11041,11 @@
 		"options": [
 			{
 				"name": "Pippin (can only be taken if Gandalf is riding Shadowfax)",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Shadowfax",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"magicalPowers": [
@@ -11653,12 +11175,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -11668,8 +11188,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -11720,16 +11239,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Blowpipe",
-				"type": "WARGEAR"
+				"name": "Blowpipe"
 			}
 		],
 		"heroicActions": [
@@ -11788,12 +11304,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Aiglos",
-				"type": "WARGEAR"
+				"name": "Aiglos"
 			}
 		],
 		"heroicActions": [
@@ -11856,12 +11370,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven weapon",
-				"type": "WARGEAR"
+				"name": "Elven weapon"
 			},
 			{
-				"name": "Elven cloak",
-				"type": "WARGEAR"
+				"name": "Elven cloak"
 			}
 		],
 		"heroicActions": [
@@ -11936,20 +11448,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Master-forged two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Master-forged two-handed weapon"
 			},
 			{
-				"name": "Two hand weapons",
-				"type": "WARGEAR"
+				"name": "Two hand weapons"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -11959,8 +11467,7 @@
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -12010,12 +11517,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -12025,8 +11530,7 @@
 		"options": [
 			{
 				"name": "Windlance (Siege Engine)",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			}
 		],
 		"specialRules": [
@@ -12077,16 +11581,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -12139,12 +11640,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -12198,12 +11697,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour of Gondolin",
-				"type": "WARGEAR"
+				"name": "Armour of Gondolin"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -12215,13 +11712,11 @@
 		"options": [
 			{
 				"name": "Asfaloth (Glorfindel can only take Asfaloth if Arwen is not in the same Army)",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -12275,8 +11770,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -12323,12 +11817,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -12378,12 +11870,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -12431,8 +11921,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -12489,8 +11978,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -12541,12 +12029,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -12556,8 +12042,7 @@
 		"options": [
 			{
 				"name": "Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -12606,8 +12091,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Gollum has strong, strangling fingers and so is never considered to be Unarmed – ever! If your opponent does not have a Ringbearer in their Army, then Gollum carries the One Ring.",
-				"type": "WARGEAR"
+				"name": "Gollum has strong, strangling fingers and so is never considered to be Unarmed – ever! If your opponent does not have a Ringbearer in their Army, then Gollum carries the One Ring."
 			}
 		],
 		"specialRules": [
@@ -12663,8 +12147,7 @@
 		"options": [
 			{
 				"name": "Swift Reload",
-				"cost": "20",
-				"type": "OPTIONAL"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -12717,8 +12200,7 @@
 		"options": [
 			{
 				"name": "Flaming Ammunation",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -12770,12 +12252,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -12829,12 +12309,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -12888,12 +12366,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -12948,12 +12424,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -12963,13 +12437,11 @@
 		"options": [
 			{
 				"name": "Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -13020,12 +12492,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -13070,8 +12540,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hooves (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Hooves (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -13142,8 +12611,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and beak (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Claws and beak (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -13195,8 +12663,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and beak (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Claws and beak (hand weapon)"
 			}
 		],
 		"options": [
@@ -13292,16 +12759,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Mattock",
-				"type": "WARGEAR"
+				"name": "Mattock"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -13347,16 +12811,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Mattock",
-				"type": "WARGEAR"
+				"name": "Mattock"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"specialRules": [
@@ -13405,8 +12866,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -13456,12 +12916,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Great bow",
-				"type": "WARGEAR"
+				"name": "Great bow"
 			}
 		],
 		"heroicActions": [
@@ -13524,8 +12982,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -13588,12 +13045,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -13651,12 +13106,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Whip",
-				"type": "WARGEAR"
+				"name": "Whip"
 			}
 		],
 		"heroicActions": [
@@ -13710,8 +13163,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Teeth and claws (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Teeth and claws (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -13761,12 +13213,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -13819,16 +13269,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Mithril Crown",
-				"type": "WARGEAR"
+				"name": "Mithril Crown"
 			}
 		],
 		"heroicActions": [
@@ -13876,16 +13323,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"specialRules": [
@@ -13929,12 +13373,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven pike",
-				"type": "WARGEAR"
+				"name": "Elven pike"
 			}
 		],
 		"options": [
@@ -13992,8 +13434,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -14048,12 +13489,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -14113,12 +13552,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Metal Gauntlets",
-				"type": "WARGEAR"
+				"name": "Metal Gauntlets"
 			},
 			{
-				"name": "Catapult",
-				"type": "WARGEAR"
+				"name": "Catapult"
 			}
 		],
 		"specialRules": [
@@ -14169,8 +13606,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -14222,16 +13658,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -14278,12 +13711,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -14350,19 +13781,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Crushing Club",
-				"type": "WARGEAR"
+				"name": "Crushing Club"
 			}
 		],
 		"options": [
 			{
 				"name": "Exchange Crushing Club for Scythe Gauntlets",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -14415,16 +13843,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -14483,8 +13908,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and beak (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Claws and beak (hand weapon)"
 			}
 		],
 		"heroicActions": [
@@ -14542,16 +13966,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -14561,8 +13982,7 @@
 		"options": [
 			{
 				"name": "Banner of Arwen Evenstar",
-				"cost": "40",
-				"type": "OPTIONAL"
+				"cost": "40"
 			}
 		],
 		"specialRules": [
@@ -14611,8 +14031,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -14623,18 +14042,15 @@
 		"options": [
 			{
 				"name": "Heavy armour",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			},
 			{
 				"name": "Elf bow",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -14686,12 +14102,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -14702,13 +14116,11 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			},
 			{
 				"name": "Throwing spears",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -14759,16 +14171,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -14817,12 +14226,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -14880,12 +14287,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -14939,16 +14344,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -14958,8 +14360,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -15011,8 +14412,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -15062,16 +14462,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -15080,8 +14477,7 @@
 		"options": [
 			{
 				"name": "Bow",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -15129,12 +14525,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -15182,12 +14576,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -15197,8 +14589,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -15242,16 +14633,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"options": [
@@ -15321,16 +14709,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Whip",
-				"type": "WARGEAR"
+				"name": "Whip"
 			}
 		],
 		"heroicActions": [
@@ -15376,12 +14761,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -15452,16 +14835,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			},
 			{
-				"name": "Blowpipe",
-				"type": "WARGEAR"
+				"name": "Blowpipe"
 			}
 		],
 		"heroicActions": [
@@ -15518,20 +14898,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Horn of the Hammerhand",
-				"type": "WARGEAR"
+				"name": "Horn of the Hammerhand"
 			}
 		],
 		"heroicActions": [
@@ -15542,8 +14918,7 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -15597,12 +14972,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Horn of the Hammerhand",
-				"type": "WARGEAR"
+				"name": "Horn of the Hammerhand"
 			}
 		],
 		"heroicActions": [
@@ -15663,16 +15036,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			},
 			{
-				"name": "Spyglass",
-				"type": "WARGEAR"
+				"name": "Spyglass"
 			}
 		],
 		"heroicActions": [
@@ -15683,8 +15053,7 @@
 		"options": [
 			{
 				"name": "Ashere",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -15735,12 +15104,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -15751,8 +15118,7 @@
 		"options": [
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -15803,20 +15169,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Dwarf armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Banner",
-				"type": "WARGEAR"
+				"name": "Banner"
 			}
 		],
 		"specialRules": [
@@ -15865,20 +15227,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Pennant of the Dead",
-				"type": "WARGEAR"
+				"name": "Pennant of the Dead"
 			}
 		],
 		"specialRules": [
@@ -15930,8 +15288,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -15982,8 +15339,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -15992,13 +15348,11 @@
 		"options": [
 			{
 				"name": "Light shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -16041,8 +15395,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -16118,8 +15471,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -16165,12 +15517,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Short bow",
-				"type": "WARGEAR"
+				"name": "Short bow"
 			}
 		],
 		"options": [
@@ -16221,8 +15571,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -16267,8 +15616,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"specialRules": [
@@ -16318,8 +15666,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -16483,12 +15830,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -16497,18 +15842,15 @@
 		"options": [
 			{
 				"name": "Fell Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Orc bow",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -16551,16 +15893,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			},
 			{
-				"name": "Fell Warg",
-				"type": "WARGEAR_MOUNT"
+				"name": "Fell Warg"
 			}
 		],
 		"options": [
@@ -16615,12 +15954,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"options": [
@@ -16681,12 +16018,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "The Warden’s Sword",
-				"type": "WARGEAR"
+				"name": "The Warden’s Sword"
 			}
 		],
 		"heroicActions": [
@@ -16697,8 +16032,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -16748,16 +16082,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -16811,12 +16142,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -16865,16 +16194,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"specialRules": [
@@ -16970,20 +16296,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -16992,13 +16314,11 @@
 		"options": [
 			{
 				"name": "Iron Hills Chariot (if the Captain dismounts from the Iron Hills Chariot, do not remove the Chariot from play. The Chariot will remain in play as a standard Iron Hills Chariot with the same number of Wounds remaining as it had before the Iron Hills Captain dismounted)",
-				"cost": "170",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "170"
 			},
 			{
 				"name": "Exchange shield and spear for Mattock",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -17043,16 +16363,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Rapid-fire Bolt Thrower",
-				"type": "WARGEAR"
+				"name": "Rapid-fire Bolt Thrower"
 			}
 		],
 		"specialRules": [
@@ -17097,20 +16414,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "War spear",
-				"type": "WARGEAR"
+				"name": "War spear"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "War Goat",
-				"type": "WARGEAR_MOUNT"
+				"name": "War Goat"
 			}
 		],
 		"options": [
@@ -17157,12 +16470,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		]
 	},
@@ -17202,12 +16513,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -17277,16 +16586,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Iron Shield",
-				"type": "WARGEAR"
+				"name": "Iron Shield"
 			}
 		]
 	},
@@ -17379,16 +16685,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -17397,8 +16700,7 @@
 		"options": [
 			{
 				"name": "Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		]
 	},
@@ -17443,16 +16745,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -17461,8 +16760,7 @@
 		"options": [
 			{
 				"name": "Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"magicalPowers": [
@@ -17519,12 +16817,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -17592,16 +16888,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -17659,8 +16952,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Teeth and claws (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Teeth and claws (hand weapon)"
 			}
 		]
 	},
@@ -17701,16 +16993,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Warg",
-				"type": "WARGEAR_MOUNT"
+				"name": "Warg"
 			}
 		],
 		"options": [
@@ -17778,12 +17067,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -17794,13 +17081,11 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "The One Ring (Isildur may only take this option if your Army does not include Elendil or Gil-galad)",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -17850,12 +17135,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -17922,12 +17205,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -17938,8 +17219,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -18061,16 +17341,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -18126,16 +17403,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -18144,8 +17418,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		]
 	},
@@ -18185,24 +17458,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		]
 	},
@@ -18247,16 +17515,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -18267,8 +17532,7 @@
 		"options": [
 			{
 				"name": "Khandish Chariot (If the Khandish King dismounts, remove the Khandish Chariot from play)",
-				"cost": "35",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "35"
 			}
 		],
 		"specialRules": [
@@ -18311,16 +17575,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -18368,16 +17629,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -18426,16 +17684,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Dwarf bow",
-				"type": "WARGEAR"
+				"name": "Dwarf bow"
 			}
 		],
 		"heroicActions": [
@@ -18488,12 +17743,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -18553,12 +17806,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -18569,23 +17820,19 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Exchange armour for heavy armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Lance",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -18636,12 +17883,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -18652,23 +17897,19 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Exchange armour for heavy armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Lance",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -18719,12 +17960,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -18735,23 +17974,19 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Exchange armour for heavy armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Lance",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -18802,12 +18037,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -18818,23 +18051,19 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Exchange armour for heavy armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Lance",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -18887,12 +18116,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -18903,23 +18130,19 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Exchange armour for heavy armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Lance",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -18971,12 +18194,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -18987,23 +18208,19 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Exchange armour for heavy armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Lance",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -19072,12 +18289,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Dwarf armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -19129,16 +18344,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Longbow",
-				"type": "WARGEAR"
+				"name": "Longbow"
 			}
 		],
 		"heroicActions": [
@@ -19185,24 +18397,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "War spear",
-				"type": "WARGEAR"
+				"name": "War spear"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"specialRules": [
@@ -19245,20 +18452,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -19303,16 +18506,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -19383,31 +18583,25 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Lance",
-				"type": "WARGEAR"
+				"name": "Lance"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"options": [
 			{
 				"name": "Exchange shield and lance for banner",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -19455,16 +18649,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "White Sword of Gondor",
-				"type": "WARGEAR"
+				"name": "White Sword of Gondor"
 			}
 		],
 		"heroicActions": [
@@ -19510,12 +18701,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -19575,12 +18764,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -19626,12 +18813,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -19696,20 +18881,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -19758,12 +18939,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand weapon"
 			},
 			{
-				"name": "Elf bow",
-				"type": "WARGEAR"
+				"name": "Elf bow"
 			}
 		],
 		"heroicActions": [
@@ -19773,18 +18952,15 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -19837,16 +19013,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Elven hand weapons",
-				"type": "WARGEAR"
+				"name": "Elven hand weapons"
 			},
 			{
-				"name": "Elf bow",
-				"type": "WARGEAR"
+				"name": "Elf bow"
 			}
 		],
 		"heroicActions": [
@@ -19856,18 +19029,15 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Orcrist",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			},
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -19920,12 +19090,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -19934,8 +19102,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -19989,8 +19156,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -20056,8 +19222,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Umbrella",
-				"type": "WARGEAR"
+				"name": "Umbrella"
 			}
 		],
 		"specialRules": [
@@ -20109,12 +19274,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -20167,16 +19330,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			},
 			{
-				"name": "Elf bow",
-				"type": "WARGEAR"
+				"name": "Elf bow"
 			},
 			{
-				"name": "Elven cloak",
-				"type": "WARGEAR"
+				"name": "Elven cloak"
 			}
 		],
 		"heroicActions": [
@@ -20227,12 +19387,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Elven hand weapons",
-				"type": "WARGEAR"
+				"name": "Elven hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -20296,12 +19454,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			},
 			{
-				"name": "Elven cloak",
-				"type": "WARGEAR"
+				"name": "Elven cloak"
 			}
 		],
 		"options": [
@@ -20372,8 +19528,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -20425,16 +19580,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Uruk-hai bow",
-				"type": "WARGEAR"
+				"name": "Uruk-hai bow"
 			}
 		],
 		"heroicActions": [
@@ -20446,8 +19598,7 @@
 		"options": [
 			{
 				"name": "Shield (this will not increase Lurtz’s Defence as he also carries an Uruk-hai bow)",
-				"cost": "Free",
-				"type": "OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -20499,16 +19650,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -20561,16 +19709,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -20626,16 +19771,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "War horn",
-				"type": "WARGEAR"
+				"name": "War horn"
 			}
 		],
 		"heroicActions": [
@@ -20684,16 +19826,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			}
 		],
 		"heroicActions": [
@@ -20703,8 +19842,7 @@
 		"options": [
 			{
 				"name": "War Camel",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		]
 	},
@@ -20745,20 +19883,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "War Camel",
-				"type": "WARGEAR_MOUNT"
+				"name": "War Camel"
 			}
 		],
 		"options": [
@@ -20819,12 +19953,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -20834,23 +19966,19 @@
 		"options": [
 			{
 				"name": "War Camel",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			},
 			{
 				"name": "Blowpipe",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "War spear",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -20894,16 +20022,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			}
 		],
 		"options": [
@@ -20964,8 +20089,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -21013,16 +20137,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Pike",
-				"type": "WARGEAR"
+				"name": "Pike"
 			}
 		],
 		"specialRules": [
@@ -21071,12 +20192,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Torozûl",
-				"type": "WARGEAR"
+				"name": "Torozûl"
 			}
 		],
 		"heroicActions": [
@@ -21130,12 +20249,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -21191,15 +20308,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -21251,20 +20366,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Pony",
-				"type": "WARGEAR_MOUNT"
+				"name": "Pony"
 			},
 			{
-				"name": "Horn of the Riddermark",
-				"type": "WARGEAR"
+				"name": "Horn of the Riddermark"
 			}
 		],
 		"heroicActions": [
@@ -21275,13 +20386,11 @@
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "If your Army includes Merry, you may upgrade any number of Hobbit Militia in his Warband to Batllin’ Brandybucks at the cost of +1 point per model. Battlin’ Brandybucks have a Strength of 3.",
@@ -21338,12 +20447,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -21352,13 +20459,11 @@
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -21406,12 +20511,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		]
 	},
@@ -21456,12 +20559,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven Glaive",
-				"type": "WARGEAR"
+				"name": "Elven Glaive"
 			}
 		],
 		"heroicActions": [
@@ -21508,16 +20609,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"specialRules": [
@@ -21562,12 +20660,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"options": [
@@ -21628,8 +20724,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Fangs (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Fangs (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -21676,8 +20771,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Fangs (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Fangs (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -21724,16 +20818,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand weapon"
 			},
 			{
-				"name": "Elf bow",
-				"type": "WARGEAR"
+				"name": "Elf bow"
 			},
 			{
-				"name": "Elven cloak",
-				"type": "WARGEAR"
+				"name": "Elven cloak"
 			}
 		],
 		"specialRules": [
@@ -21783,16 +20874,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand weapon"
 			},
 			{
-				"name": "Elf bow",
-				"type": "WARGEAR"
+				"name": "Elf bow"
 			},
 			{
-				"name": "Elven cloak",
-				"type": "WARGEAR"
+				"name": "Elven cloak"
 			}
 		],
 		"heroicActions": [
@@ -21845,12 +20933,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -21859,13 +20945,11 @@
 		"options": [
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -21908,12 +20992,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -21983,16 +21065,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -22040,16 +21119,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "War drum (Mordor Orc)",
-				"type": "WARGEAR"
+				"name": "War drum (Mordor Orc)"
 			}
 		]
 	},
@@ -22094,16 +21170,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -22112,8 +21185,7 @@
 		"options": [
 			{
 				"name": "Warg",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"magicalPowers": [
@@ -22174,12 +21246,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		]
 	},
@@ -22224,16 +21294,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Whip",
-				"type": "WARGEAR"
+				"name": "Whip"
 			}
 		],
 		"heroicActions": [
@@ -22279,12 +21346,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -22361,8 +21426,7 @@
 		"options": [
 			{
 				"name": "Flaming Ammunation",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -22408,8 +21472,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -22454,19 +21517,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"options": [
 			{
 				"name": "War drum (Mordor)",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -22517,12 +21577,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -22571,19 +21629,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
 			{
 				"name": "Two-handed weapon",
-				"cost": "1",
-				"type": "OPTIONAL"
+				"cost": "1"
 			}
 		],
 		"specialRules": [
@@ -22631,12 +21686,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -22645,8 +21698,7 @@
 		"options": [
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -22700,13 +21752,11 @@
 		"options": [
 			{
 				"name": "Severed Heads",
-				"cost": "20",
-				"type": "OPTIONAL"
+				"cost": "20"
 			},
 			{
 				"name": "Flaming Ammunation",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -22753,16 +21803,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Warg",
-				"type": "WARGEAR_MOUNT"
+				"name": "Warg"
 			}
 		],
 		"options": [
@@ -22824,12 +21871,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -22877,12 +21922,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -22950,12 +21993,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -23004,12 +22045,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -23068,16 +22107,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			}
 		],
 		"options": [
@@ -23133,12 +22169,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -23147,8 +22181,7 @@
 		"options": [
 			{
 				"name": "Orc bow",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -23214,12 +22247,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -23262,16 +22293,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"specialRules": [
@@ -23321,16 +22349,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -23393,12 +22418,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -23457,45 +22480,37 @@
 		},
 		"wargear": [
 			{
-				"name": "Tusks and huge, stomping feet (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Tusks and huge, stomping feet (hand weapons)"
 			}
 		],
 		"options": [
 			{
 				"name": "Gnarled Hide",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Mahûd Beastmaster Chieftain",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			},
 			{
 				"name": "Rocks",
-				"cost": "20",
-				"type": "OPTIONAL"
+				"cost": "20"
 			},
 			{
 				"name": "Sigils of Defiance [Mûmak]",
-				"cost": "20",
-				"type": "OPTIONAL"
+				"cost": "20"
 			},
 			{
 				"name": "Tusk Weapons",
-				"cost": "20",
-				"type": "OPTIONAL"
+				"cost": "20"
 			},
 			{
 				"name": "Foul Temperament",
-				"cost": "15",
-				"type": "OPTIONAL"
+				"cost": "15"
 			},
 			{
 				"name": "Rappelling Lines",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -23568,12 +22583,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Long-bladed Spear",
-				"type": "WARGEAR"
+				"name": "Long-bladed Spear"
 			}
 		],
 		"heroicActions": [
@@ -23629,16 +22642,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Dwarf armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Kalazâl",
-				"type": "WARGEAR"
+				"name": "Kalazâl"
 			}
 		],
 		"heroicActions": [
@@ -23709,16 +22719,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -23788,16 +22795,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Orc bow",
-				"type": "WARGEAR"
+				"name": "Orc bow"
 			}
 		],
 		"heroicActions": [
@@ -23861,8 +22865,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Each Nazgûl of Dol Guldur has their own Wargear and special rules as detailed over the linked Profiles",
-				"type": "WARGEAR"
+				"name": "Each Nazgûl of Dol Guldur has their own Wargear and special rules as detailed over the linked Profiles"
 			}
 		],
 		"heroicActions": [
@@ -23922,12 +22925,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -23986,12 +22987,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -24051,12 +23050,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -24116,12 +23113,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -24181,12 +23176,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -24246,12 +23239,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -24311,12 +23302,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -24371,12 +23360,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -24428,16 +23415,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -24490,20 +23474,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -24557,12 +23537,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			},
 			{
-				"name": "Hearing Trumpet",
-				"type": "WARGEAR"
+				"name": "Hearing Trumpet"
 			}
 		],
 		"heroicActions": [
@@ -24615,20 +23593,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Hearing Trumpet",
-				"type": "WARGEAR"
+				"name": "Hearing Trumpet"
 			}
 		],
 		"heroicActions": [
@@ -24682,16 +23656,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -24701,8 +23672,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -24753,12 +23723,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"specialRules": [
@@ -24806,12 +23774,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -24858,12 +23824,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Orc bow",
-				"type": "WARGEAR"
+				"name": "Orc bow"
 			}
 		],
 		"specialRules": [
@@ -24912,12 +23876,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Sling",
-				"type": "WARGEAR"
+				"name": "Sling"
 			}
 		],
 		"specialRules": [
@@ -24968,16 +23930,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Throwing weapons",
-				"type": "WARGEAR"
+				"name": "Throwing weapons"
 			}
 		],
 		"heroicActions": [
@@ -25031,12 +23990,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand weapons",
-				"type": "WARGEAR"
+				"name": "Elven hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -25083,12 +24040,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -25150,12 +24105,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"options": [
@@ -25222,12 +24175,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -25236,8 +24187,7 @@
 		"options": [
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -25289,8 +24239,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -25351,12 +24300,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"heroicActions": [
@@ -25377,7 +24324,7 @@
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
-				"page": 11
+				"page": "11"
 			}
 		],
 		"points": "10",
@@ -25411,15 +24358,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -25471,16 +24416,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Pony",
-				"type": "WARGEAR_MOUNT"
+				"name": "Pony"
 			}
 		],
 		"heroicActions": [
@@ -25491,8 +24433,7 @@
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "If your Army includes Pippin, you may upgrade any number of Hobbit Archers in his Warband to Tookish Hunters at the cost of +1 point per model. Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
@@ -25516,7 +24457,7 @@
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
-				"page": 54
+				"page": "54"
 			}
 		],
 		"points": "25",
@@ -25550,12 +24491,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -25564,8 +24503,7 @@
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -25653,16 +24591,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -25674,8 +24609,7 @@
 		"options": [
 			{
 				"name": "Armoured horse and lance",
-				"cost": "30",
-				"type": "OPTIONAL"
+				"cost": "30"
 			}
 		],
 		"specialRules": [
@@ -25725,16 +24659,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Staff of Power",
-				"type": "WARGEAR"
+				"name": "Staff of Power"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Sebastian",
-				"type": "WARGEAR"
+				"name": "Sebastian"
 			}
 		],
 		"heroicActions": [
@@ -25744,13 +24675,11 @@
 		"options": [
 			{
 				"name": "Exchange Staff of Power for Great Eagle",
-				"cost": "55",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "55"
 			},
 			{
 				"name": "Radagast’s Sleigh (If Radagast dismounts, remove the Sleigh from play)",
-				"cost": "35",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "35"
 			}
 		],
 		"specialRules": [
@@ -25878,16 +24807,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"options": [
@@ -25947,16 +24873,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"options": [
@@ -26021,24 +24944,20 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"options": [
 			{
 				"name": "Armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Spear",
-				"cost": "1",
-				"type": "OPTIONAL"
+				"cost": "1"
 			}
 		],
 		"specialRules": [
@@ -26087,12 +25006,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -26148,16 +25065,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Bone-breaker",
-				"type": "WARGEAR"
+				"name": "Bone-breaker"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			}
 		],
 		"heroicActions": [
@@ -26207,24 +25121,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"options": [
@@ -26281,20 +25190,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spectral Steed",
-				"type": "WARGEAR_MOUNT"
+				"name": "Spectral Steed"
 			}
 		],
 		"specialRules": [
@@ -26351,12 +25256,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Sword",
-				"type": "WARGEAR"
+				"name": "Sword"
 			}
 		],
 		"heroicActions": [
@@ -26369,23 +25272,19 @@
 			},
 			{
 				"name": "Armoured Fell Beast",
-				"cost": "70",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "70"
 			},
 			{
 				"name": "Fell Beast",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Morgul Blade",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -26467,12 +25366,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Sword",
-				"type": "WARGEAR"
+				"name": "Sword"
 			}
 		],
 		"heroicActions": [
@@ -26485,23 +25382,19 @@
 			},
 			{
 				"name": "Armoured Fell Beast",
-				"cost": "70",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "70"
 			},
 			{
 				"name": "Fell Beast",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Morgul Blade",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -26583,12 +25476,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Sword",
-				"type": "WARGEAR"
+				"name": "Sword"
 			}
 		],
 		"heroicActions": [
@@ -26597,23 +25488,19 @@
 		"options": [
 			{
 				"name": "Armoured Fell Beast",
-				"cost": "70",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "70"
 			},
 			{
 				"name": "Fell Beast",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Morgul Blade",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -26695,12 +25582,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Sword",
-				"type": "WARGEAR"
+				"name": "Sword"
 			}
 		],
 		"heroicActions": [
@@ -26709,23 +25594,19 @@
 		"options": [
 			{
 				"name": "Armoured Fell Beast",
-				"cost": "70",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "70"
 			},
 			{
 				"name": "Fell Beast",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Morgul Blade",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -26806,12 +25687,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -26820,13 +25699,11 @@
 		"options": [
 			{
 				"name": "Horse, Elf bow and Elven lance",
-				"cost": "30",
-				"type": "OPTIONAL"
+				"cost": "30"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -26874,24 +25751,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven lance",
-				"type": "WARGEAR"
+				"name": "Elven lance"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			},
 			{
-				"name": "Elf bow",
-				"type": "WARGEAR"
+				"name": "Elf bow"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"options": [
@@ -26952,12 +25824,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Elven hand weapons",
-				"type": "WARGEAR"
+				"name": "Elven hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -27025,12 +25895,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Elven hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapon"
 			}
 		],
 		"options": [
@@ -27101,8 +25969,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -27151,23 +26018,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Bow",
-				"type": "WARGEAR"
+				"name": "Bow"
 			}
 		],
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "5",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -27212,16 +26075,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -27285,12 +26145,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -27367,8 +26225,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -27421,8 +26278,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -27469,16 +26325,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shields",
-				"type": "WARGEAR"
+				"name": "Shields"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"specialRules": [
@@ -27523,12 +26376,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Tusks and huge, stomping feet (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Tusks and huge, stomping feet (hand weapons)"
 			},
 			{
-				"name": "Sigils of Defiance [Royal War Mûmak]",
-				"type": "WARGEAR"
+				"name": "Sigils of Defiance [Royal War Mûmak]"
 			}
 		],
 		"specialRules": [
@@ -27575,8 +26426,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -27638,16 +26488,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Elven hand weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -27700,16 +26547,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -27765,12 +26609,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Frying Pan",
-				"type": "WARGEAR"
+				"name": "Frying Pan"
 			}
 		],
 		"heroicActions": [
@@ -27780,8 +26622,7 @@
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -27832,12 +26673,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Sting",
-				"type": "WARGEAR"
+				"name": "Sting"
 			},
 			{
-				"name": "Pony",
-				"type": "WARGEAR_MOUNT"
+				"name": "Pony"
 			}
 		],
 		"heroicActions": [
@@ -27847,8 +26686,7 @@
 		"options": [
 			{
 				"name": "Elven cloak",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -27902,12 +26740,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Staff of Power",
-				"type": "WARGEAR"
+				"name": "Staff of Power"
 			},
 			{
-				"name": "Palantír",
-				"type": "WARGEAR"
+				"name": "Palantír"
 			}
 		],
 		"heroicActions": [
@@ -27917,8 +26753,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -28010,8 +26845,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Staff of Power",
-				"type": "WARGEAR"
+				"name": "Staff of Power"
 			}
 		],
 		"heroicActions": [
@@ -28103,8 +26937,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Spectral hands (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Spectral hands (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -28207,12 +27040,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"specialRules": [
@@ -28256,16 +27087,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "War spear",
-				"type": "WARGEAR"
+				"name": "War spear"
 			},
 			{
-				"name": "Horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Horse"
 			}
 		],
 		"specialRules": [
@@ -28313,8 +27141,7 @@
 		},
 		"wargear": [
 			{
-				"name": "An amalgamation of grasping spectral hands (hand weapons)",
-				"type": "WARGEAR"
+				"name": "An amalgamation of grasping spectral hands (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -28412,12 +27239,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -28473,12 +27298,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Orcish Halberd",
-				"type": "WARGEAR"
+				"name": "Orcish Halberd"
 			}
 		],
 		"heroicActions": [
@@ -28551,12 +27374,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -28645,16 +27466,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Riding Dagger",
-				"type": "WARGEAR"
+				"name": "Riding Dagger"
 			},
 			{
-				"name": "Warg",
-				"type": "WARGEAR_MOUNT"
+				"name": "Warg"
 			}
 		],
 		"heroicActions": [
@@ -28711,8 +27529,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Fangs (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Fangs (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -28770,12 +27587,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Whip",
-				"type": "WARGEAR"
+				"name": "Whip"
 			}
 		],
 		"heroicActions": [
@@ -28830,8 +27645,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -28882,8 +27696,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Razor-sharp teeth and massive talons (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Razor-sharp teeth and massive talons (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -28967,8 +27780,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Sméagol has strong, strangling fingers and so is never considered to be Unarmed – ever!",
-				"type": "WARGEAR"
+				"name": "Sméagol has strong, strangling fingers and so is never considered to be Unarmed – ever!"
 			}
 		],
 		"specialRules": [
@@ -29021,12 +27833,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -29073,8 +27883,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Claws (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -29162,20 +27971,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Armoured horse",
-				"type": "WARGEAR_MOUNT"
+				"name": "Armoured horse"
 			}
 		],
 		"specialRules": [
@@ -29257,12 +28062,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -29314,16 +28117,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "The Serpent Banner",
-				"type": "WARGEAR"
+				"name": "The Serpent Banner"
 			}
 		],
 		"heroicActions": [
@@ -29335,8 +28135,7 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -29388,16 +28187,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Elven hand weapons",
-				"type": "WARGEAR"
+				"name": "Elven hand weapons"
 			},
 			{
-				"name": "Elven cloak",
-				"type": "WARGEAR"
+				"name": "Elven cloak"
 			}
 		],
 		"heroicActions": [
@@ -29407,8 +28203,7 @@
 		"options": [
 			{
 				"name": "Elf bow",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -29461,8 +28256,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -29514,12 +28308,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Giant flaming hand weapon",
-				"type": "WARGEAR"
+				"name": "Giant flaming hand weapon"
 			},
 			{
-				"name": "Fiery Lash",
-				"type": "WARGEAR"
+				"name": "Fiery Lash"
 			}
 		],
 		"specialRules": [
@@ -29578,12 +28370,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -29592,8 +28382,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -29679,16 +28468,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "The One Ring [Sauron]",
-				"type": "WARGEAR"
+				"name": "The One Ring [Sauron]"
 			}
 		],
 		"heroicActions": [
@@ -29782,12 +28568,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -29796,8 +28580,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -29882,20 +28665,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "The Emperor’s Glaive",
-				"type": "WARGEAR"
+				"name": "The Emperor’s Glaive"
 			},
 			{
-				"name": "Helm of the Dragon Emperor",
-				"type": "WARGEAR"
+				"name": "Helm of the Dragon Emperor"
 			},
 			{
-				"name": "Royal Palanquin",
-				"type": "WARGEAR_MOUNT"
+				"name": "Royal Palanquin"
 			}
 		],
 		"heroicActions": [
@@ -29953,12 +28732,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -29967,8 +28744,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -30052,8 +28828,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -30104,8 +28879,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -30165,8 +28939,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -30216,12 +28989,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			},
 			{
-				"name": "The Golden Throne",
-				"type": "WARGEAR"
+				"name": "The Golden Throne"
 			}
 		],
 		"heroicActions": [
@@ -30275,12 +29046,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -30336,12 +29105,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -30400,12 +29167,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour of the Sundered Land",
-				"type": "WARGEAR"
+				"name": "Armour of the Sundered Land"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -30414,8 +29179,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -30499,8 +29263,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"heroicActions": [
@@ -30555,12 +29318,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -30570,8 +29331,7 @@
 		"options": [
 			{
 				"name": "Armoured horse",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -30640,12 +29400,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -30654,8 +29412,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -30739,12 +29496,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -30824,8 +29579,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Large venomus fangs (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Large venomus fangs (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -30885,12 +29639,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -30899,8 +29651,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -30986,12 +29737,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -31000,8 +29749,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -31087,8 +29835,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Tentacles (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Tentacles (hand weapon)"
 			}
 		],
 		"specialRules": [
@@ -31145,8 +29892,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -31205,12 +29951,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Sword",
-				"type": "WARGEAR"
+				"name": "Sword"
 			}
 		],
 		"heroicActions": [
@@ -31227,33 +29971,27 @@
 			},
 			{
 				"name": "Armoured Fell Beast",
-				"cost": "70",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "70"
 			},
 			{
 				"name": "Fell Beast",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Crown of Morgul",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Morgul Blade",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			},
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -31346,12 +30084,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Sword",
-				"type": "WARGEAR"
+				"name": "Sword"
 			}
 		],
 		"heroicActions": [
@@ -31364,33 +30100,27 @@
 		"options": [
 			{
 				"name": "Armoured Fell Beast",
-				"cost": "70",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "70"
 			},
 			{
 				"name": "Fell Beast",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Crown of Morgul",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Morgul Blade",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			},
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -31483,12 +30213,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Sword",
-				"type": "WARGEAR"
+				"name": "Sword"
 			}
 		],
 		"heroicActions": [
@@ -31501,33 +30229,27 @@
 		"options": [
 			{
 				"name": "Armoured Fell Beast",
-				"cost": "70",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "70"
 			},
 			{
 				"name": "Fell Beast",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Crown of Morgul",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Morgul Blade",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			},
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -31620,12 +30342,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Sword",
-				"type": "WARGEAR"
+				"name": "Sword"
 			}
 		],
 		"heroicActions": [
@@ -31638,33 +30358,27 @@
 		"options": [
 			{
 				"name": "Armoured Fell Beast",
-				"cost": "70",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "70"
 			},
 			{
 				"name": "Fell Beast",
-				"cost": "50",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "50"
 			},
 			{
 				"name": "Crown of Morgul",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Morgul Blade",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			},
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -31752,12 +30466,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Herugrim",
-				"type": "WARGEAR"
+				"name": "Herugrim"
 			}
 		],
 		"heroicActions": [
@@ -31768,23 +30480,19 @@
 		"options": [
 			{
 				"name": "Snowmane with armour",
-				"cost": "25",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "25"
 			},
 			{
 				"name": "Snowmane",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Exchange armour for heavy armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -31837,12 +30545,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -31852,13 +30558,11 @@
 		"options": [
 			{
 				"name": "Brego",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			},
 			{
 				"name": "Shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -31910,12 +30614,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -31927,13 +30629,11 @@
 		"options": [
 			{
 				"name": "Orcrist",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			},
 			{
 				"name": "The Oakenshield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -31982,12 +30682,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -31999,8 +30697,7 @@
 		"options": [
 			{
 				"name": "Orcrist",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -32052,16 +30749,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -32115,16 +30809,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour",
-				"type": "WARGEAR"
+				"name": "Heavy Dwarf armour"
 			},
 			{
-				"name": "Master-forged two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Master-forged two-handed weapon"
 			},
 			{
-				"name": "The Ring of Durin (only if your army does not include Thrór)",
-				"type": "WARGEAR"
+				"name": "The Ring of Durin (only if your army does not include Thrór)"
 			}
 		],
 		"heroicActions": [
@@ -32178,8 +30869,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -32229,8 +30919,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand-and-a-half weapons",
-				"type": "WARGEAR"
+				"name": "Elven hand-and-a-half weapons"
 			}
 		],
 		"heroicActions": [
@@ -32241,13 +30930,11 @@
 		"options": [
 			{
 				"name": "Great Elk",
-				"cost": "30",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "30"
 			},
 			{
 				"name": "Heavy armour",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -32301,24 +30988,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Mithril armour",
-				"type": "WARGEAR"
+				"name": "Mithril armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "The Arkenstone",
-				"type": "WARGEAR"
+				"name": "The Arkenstone"
 			},
 			{
-				"name": "The Ring of Durin",
-				"type": "WARGEAR"
+				"name": "The Ring of Durin"
 			}
 		],
 		"heroicActions": [
@@ -32377,16 +31059,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -32396,8 +31075,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -32448,8 +31126,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -32499,8 +31176,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Unarmed",
-				"type": "WARGEAR"
+				"name": "Unarmed"
 			}
 		],
 		"specialRules": [
@@ -32553,8 +31229,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -32613,8 +31288,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Roots and branches (hand weapon)",
-				"type": "WARGEAR"
+				"name": "Roots and branches (hand weapon)"
 			}
 		],
 		"heroicActions": [
@@ -32626,8 +31300,7 @@
 		"options": [
 			{
 				"name": "Merry & Pippin",
-				"cost": "10",
-				"type": "OPTIONAL"
+				"cost": "10"
 			}
 		],
 		"specialRules": [
@@ -32697,8 +31370,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"specialRules": [
@@ -32751,16 +31423,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Whip",
-				"type": "WARGEAR"
+				"name": "Whip"
 			}
 		],
 		"heroicActions": [
@@ -32809,12 +31478,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Berserker Blade",
-				"type": "WARGEAR"
+				"name": "Berserker Blade"
 			},
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			}
 		],
 		"specialRules": [
@@ -32862,16 +31529,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -32942,16 +31606,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "War drum (Uruk-hai)",
-				"type": "WARGEAR"
+				"name": "War drum (Uruk-hai)"
 			}
 		]
 	},
@@ -32991,12 +31652,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		]
 	},
@@ -33036,12 +31695,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -33103,12 +31760,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -33156,12 +31811,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			}
 		],
 		"heroicActions": [
@@ -33170,8 +31823,7 @@
 		"options": [
 			{
 				"name": "Armour",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"magicalPowers": [
@@ -33228,12 +31880,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		]
 	},
@@ -33273,12 +31923,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -33368,16 +32016,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Crossbow",
-				"type": "WARGEAR"
+				"name": "Crossbow"
 			}
 		],
 		"heroicActions": [
@@ -33426,8 +32071,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Razor-sharp teeth and talons (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Razor-sharp teeth and talons (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -33544,12 +32188,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -33688,24 +32330,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Orc bow",
-				"type": "WARGEAR"
+				"name": "Orc bow"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Warg",
-				"type": "WARGEAR_MOUNT"
+				"name": "Warg"
 			}
 		],
 		"specialRules": [
@@ -33750,20 +32387,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -33814,16 +32447,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Shield",
-				"type": "WARGEAR"
+				"name": "Shield"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -33878,12 +32508,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -33953,12 +32581,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -34028,12 +32654,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -34090,12 +32714,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -34165,12 +32787,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -34237,12 +32857,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Light armour",
-				"type": "WARGEAR"
+				"name": "Light armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -34301,8 +32919,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -34352,8 +32969,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -34362,13 +32978,11 @@
 		"options": [
 			{
 				"name": "Light shield",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			},
 			{
 				"name": "Two-handed weapon",
-				"cost": "5",
-				"type": "OPTIONAL"
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -34418,8 +33032,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -34468,8 +33081,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"options": [
@@ -34545,8 +33157,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		]
 	},
@@ -34592,8 +33203,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (hand weapons)",
-				"type": "WARGEAR"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"heroicActions": [
@@ -34647,8 +33257,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -34744,16 +33353,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven hand weapon",
-				"type": "WARGEAR"
+				"name": "Elven hand weapon"
 			},
 			{
-				"name": "Elf bow",
-				"type": "WARGEAR"
+				"name": "Elf bow"
 			},
 			{
-				"name": "Elven cloak",
-				"type": "WARGEAR"
+				"name": "Elven cloak"
 			}
 		],
 		"specialRules": [
@@ -34803,8 +33409,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"specialRules": [
@@ -34849,16 +33454,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "Spear",
-				"type": "WARGEAR"
+				"name": "Spear"
 			},
 			{
-				"name": "Blowpipe",
-				"type": "WARGEAR"
+				"name": "Blowpipe"
 			}
 		],
 		"specialRules": [
@@ -34912,12 +33514,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			}
 		],
 		"heroicActions": [
@@ -34970,12 +33570,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [
@@ -34986,8 +33584,7 @@
 		"options": [
 			{
 				"name": "Horse",
-				"cost": "20",
-				"type": "OPTIONAL_MOUNT"
+				"cost": "20"
 			}
 		],
 		"specialRules": [
@@ -35038,12 +33635,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Two-handed weapon",
-				"type": "WARGEAR"
+				"name": "Two-handed weapon"
 			}
 		],
 		"heroicActions": [
@@ -35052,8 +33647,7 @@
 		"options": [
 			{
 				"name": "Fell Warg and lance",
-				"cost": "25",
-				"type": "OPTIONAL"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -35103,12 +33697,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand-and-a-half weapon",
-				"type": "WARGEAR"
+				"name": "Hand-and-a-half weapon"
 			}
 		],
 		"heroicActions": [
@@ -35161,12 +33753,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Grasper & Keeper",
-				"type": "WARGEAR"
+				"name": "Grasper & Keeper"
 			}
 		],
 		"heroicActions": [
@@ -35221,16 +33811,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy armour",
-				"type": "WARGEAR"
+				"name": "Heavy armour"
 			},
 			{
-				"name": "Hand weapon",
-				"type": "WARGEAR"
+				"name": "Hand weapon"
 			},
 			{
-				"name": "The Oakenshield",
-				"type": "WARGEAR"
+				"name": "The Oakenshield"
 			}
 		],
 		"heroicActions": [
@@ -35285,12 +33872,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour",
-				"type": "WARGEAR"
+				"name": "Armour"
 			},
 			{
-				"name": "Hand weapons",
-				"type": "WARGEAR"
+				"name": "Hand weapons"
 			}
 		],
 		"heroicActions": [

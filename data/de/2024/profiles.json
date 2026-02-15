@@ -25377,7 +25377,7 @@
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
-				"page": 11
+				"page": "11"
 			}
 		],
 		"points": "10",
@@ -25516,7 +25516,7 @@
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
-				"page": 54
+				"page": "54"
 			}
 		],
 		"points": "25",

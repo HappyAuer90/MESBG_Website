@@ -19,15 +19,22 @@ let state = {
    NAVIGATION HOOK
 ========================= */
 
-export function onArmylistsSearchNavigate(params = {}) {
+export async function onArmylistsSearchNavigate(params = {}) {
+
     if (!params.armylistId || !state.container) return;
 
+    if (!state.armyLists) {
+        state.armyLists = await loadArmyLists(Settings.version);
+    }
+
+    const view = state.container.querySelector("#armyListView");
+    if (!view) return;
+
     state.mode = "direct";
-    renderArmyListById(
-        state.container.querySelector("#armyListView"),
-        params.armylistId
-    );
+    renderArmyListById(view, params.armylistId);
 }
+
+
 
 /* =========================
    INIT VIEW

@@ -1,29 +1,28 @@
-/* =========================
+/* ======================================================
    ROOT CONTAINER
-========================= */
+====================================================== */
 
 .profiles-search {
     position: relative;
 }
 
-/* =========================
-   SEARCH WRAPPER
-========================= */
+
+/* ======================================================
+   SEARCH SYSTEM
+   (initProfilesSearch + renderAutosuggestions)
+====================================================== */
 
 .search-wrapper {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     width: 100%;
     max-width: 480px;
     margin: 0 auto;
 }
 
-/* =========================
-   SEARCH BAR
-========================= */
+/* --- Search Bar --- */
 
 .profile-search-bar {
     display: flex;
@@ -32,21 +31,17 @@
     width: 100%;
     position: relative;
 }
-
 #profileSearchInput {
     flex: 1;
     padding: 8px 12px;
     font-size: 16px;
 }
-
 #profileBackBtn {
     padding: 8px 12px;
     font-size: 16px;
 }
 
-/* =========================
-   AUTOSUGGESTIONS
-========================= */
+/* --- Autosuggestions --- */
 
 .autosuggestions {
     position: absolute;
@@ -64,31 +59,28 @@
 
     max-height: 240px;
     overflow-y: auto;
-    
-    /* Hidden by default */
+
     display: none;
     padding: 0;
     margin: 0;
     list-style: none;
 }
-
 .autosuggestions.visible {
     display: block;
 }
-
 .autosuggestions li {
     padding: 8px 10px;
     cursor: pointer;
     background: var(--mode-background);
 }
-
 .autosuggestions li:hover {
     background: var(--color-link-hover);
 }
 
-/* =========================
-   PROFILE SEPARATOR
-========================= */
+/* ======================================================
+   PROFILE HEADER
+   (renderProfile)
+====================================================== */
 
 .profile-separator {
     margin: 12px auto;
@@ -96,41 +88,135 @@
     height: 1px;
     background: var(--mode-writing);
 }
-
 .profile-separator.hidden {
     display: none;
 }
-
-/* =========================
-   PROFILE TITLE
-========================= */
-
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
 .profile-title {
-    text-align: center;
-    font-size: 32px;
-    color: gold;
-    margin: 20px 0;
+    font-size: 40px;
+    color: var(--color-headColor);
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+}
+.profile-points {
+    font-size: 40px;
+    color: var(--color-headColor);
+    font-weight: bold;
+    padding: 10px;
 }
 
-/* =========================
-   PROFILE BOXES
-========================= */
+/* ======================================================
+   PROFILE BOX SYSTEM
+   (renderTwoPaneBox + renderAdditionalInformations)
+====================================================== */
 
 .profile-box {
     border: 1px solid var(--mode-writing);
     border-radius: 6px;
-    margin-bottom: 12px;
-    padding: 6px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    background: var(--mode-background);
 }
-
 .profile-box summary {
+    background: #2f2f2f;
+    color: white;
+    padding: 10px 14px;
     font-weight: bold;
     cursor: pointer;
+    user-select: none;
+}
+.profile-box summary:hover {
+    background: #3a3a3a;
+}
+.profile-box .box-content {
+    padding: 14px;
+    background: var(--mode-background);
 }
 
-/* =========================
+/* ======================================================
+   CHARACTERISTICS TABLES
+   (renderCharacteristicsBlock)
+====================================================== */
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 12px;
+    table-layout: fixed;
+}
+.profile-table th,
+.profile-table td {
+    border: 1px solid var(--mode-writing);
+    padding: 4px 6px;
+    text-align: center;
+}
+.profile-table th {
+    color: var(--color-headColor);
+    font-weight: bold;
+}
+.meta-table th,
+.meta-table td {
+    border: none;
+    text-align: left;
+    padding: 6px 4px;
+}
+.meta-table th {
+    color: var(--color-headColor);
+}
+.half-width {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .half-width {
+        width: 100%;
+    }
+}
+
+/* ======================================================
+   STATS LAYOUT SYSTEM
+====================================================== */
+
+.stats-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.stats-row .profile-table {
+    flex: 1;
+    min-width: 280px;
+}
+.stats-row.grid-13 {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 0;
+    align-items: start;
+}
+.stats-row.grid-13 .table-main {
+    grid-column: 1 / span 9;
+}
+.stats-row.grid-13 .table-hero {
+    grid-column: 11 / span 3;
+}
+@media (max-width: 768px) {
+    .stats-row.grid-13 {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-row.grid-13 .table-main,
+    .stats-row.grid-13 .table-hero {
+        grid-column: auto;
+    }
+}
+
+/* ======================================================
    TWO PANE LAYOUT
-========================= */
+====================================================== */
 
 .two-pane {
     display: flex;
@@ -141,6 +227,7 @@
 .two-pane .left {
     width: 50%;
     border-right: 1px solid var(--mode-writing);
+    padding: 6px;
 }
 
 .two-pane .right {
@@ -148,9 +235,173 @@
     padding-left: 10px;
 }
 
-/* =========================
+.left > div {
+    margin-bottom: 8px;
+}
+
+
+/* ======================================================
+   ENTRY SYSTEM (LEFT PANEL)
+====================================================== */
+
+.entry-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.entry-bullet {
+    color: var(--mode-writing);
+    flex-shrink: 0;
+}
+
+.clickable-entry,
+.option-row,
+.magic-row {
+    color: var(--color-link);
+}
+
+.clickable-entry:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* --- Options --- */
+
+.option-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.option-name {
+    white-space: nowrap;
+}
+
+.option-cost {
+    margin-left: auto;
+    white-space: nowrap;
+    color: var(--mode-writing);
+}
+
+.option-rule-text {
+    margin-bottom: 10px;
+}
+
+.option-subheader {
+    font-weight: bold;
+    margin: 12px 0 6px 0;
+    color: var(--color-headColor);
+}
+
+
+/* --- Magic Table --- */
+
+.magic-table-full {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.magic-table-full th {
+    border: 1px solid var(--mode-writing);
+    padding: 6px;
+    text-align: center;
+    color: var(--color-headColor);
+    font-weight: bold;
+}
+
+.magic-table-full td {
+    border: 1px solid var(--mode-writing);
+    padding: 6px;
+    text-align: center;
+    color: var(--color-writing);
+}
+
+.magic-name {
+    color: var(--color-link);
+    cursor: pointer;
+}
+
+.magic-name:hover {
+    text-decoration: underline;
+}
+
+
+/* ======================================================
+   RIGHT PANEL – DEFINITIONS
+====================================================== */
+
+/* Header (Title + Toolbar aligned) */
+
+.definition-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.definition-toolbar {
+    display: flex;
+    gap: 6px;
+}
+
+.definition-toolbar button {
+    cursor: pointer;
+}
+
+.definition-title {
+    font-weight: bold;
+    margin: 12px 0 6px 0;
+    color: var(--color-headColor);
+}
+
+.definition-meta {
+    font-weight: bold;
+    font-style: italic;
+    color: var(--color-writing);
+    margin-bottom: 0.5rem;
+}
+
+.definition-link {
+    color: var(--color-link);
+    cursor: pointer;
+}
+
+
+/* ======================================================
+   ADDITIONAL INFORMATION
+====================================================== */
+
+.additional-block {
+    margin-bottom: 12px;
+}
+
+.additional-list-title {
+    color: var(--color-headColor);
+}
+
+.additional-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 6px 0;
+}
+
+.additional-list li {
+    margin-bottom: 4px;
+}
+.linked-armylists {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 6px 0;
+    color: var(--color-link);
+    cursor: pointer;
+}
+
+/* ======================================================
    COMPOSITION SEPARATORS
-========================= */
+====================================================== */
 
 .double-separator {
     margin: 30px 0;

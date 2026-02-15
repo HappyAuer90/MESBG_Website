@@ -12,7 +12,8 @@ export const Settings = {
     colors: {
         modeBackground: "white",
         modeWriting: "black",
-        link: "#4da3ff"
+        headColor: "red",
+        linkColor: "#4da3ff"
     },
 
     profileSettings: {
@@ -79,6 +80,10 @@ export function initSettingsUI() {
                     ${t("settings.nightMode")}
                 </label><br>
                 <label>
+                    ${t("settings.headColor")}
+                    <input type="color" id="headColor">
+                </label><br>
+                <label>
                     ${t("settings.linkColor")}
                     <input type="color" id="linkColor">
                 </label>
@@ -109,8 +114,8 @@ export function initSettingsUI() {
                     2024
                 </label><br>
                 <label>
-                    <input type="radio" name="version" value="2022">
-                    2022
+                    <input type="radio" name="version" value="2001">
+                    2001
                 </label>
             </div>
 
@@ -151,6 +156,11 @@ export function initSettingsUI() {
     document.documentElement.style.setProperty(
         "--mode-writing",
         Settings.colors.modeWriting
+    );
+
+    document.documentElement.style.setProperty(
+        "--color-headColor",
+        Settings.colors.headColor
     );
 
     document.documentElement.style.setProperty(
@@ -197,6 +207,16 @@ export function initSettingsUI() {
     );
 
     Settings.save();
+};
+
+    
+    document.getElementById("headColor").oninput = e => {
+    Settings.colors.headColor = e.target.value;
+    Settings.save();
+
+    document.documentElement
+        .style
+        .setProperty("--color-headColor", Settings.colors.headColor);
 };
 
     

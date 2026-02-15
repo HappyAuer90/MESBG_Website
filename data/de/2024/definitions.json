@@ -1,7 +1,8 @@
 {
 	"Activation Phase": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Activate",
 			"Activated",
 			"Activates",
@@ -20,7 +21,8 @@
 	},
 	"Back Away": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Backed Away",
 			"Backing Away",
 			"Backs Away"
@@ -48,7 +50,8 @@
 	},
 	"Barriers": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"defend a barrier",
 			"defending a barrier"
 		],
@@ -73,7 +76,8 @@
 	},
 	"Battlefield Targets": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Battlefield Target"
 		],
 		"name": "Battlefield Targets",
@@ -101,7 +105,8 @@
 	},
 	"Broken Army": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Break Point",
 			"Broken"
 		],
@@ -119,7 +124,8 @@
 	},
 	"Brutal Power Attacks": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Brutal Power Attack"
 		],
 		"name": "Brutal Power Attacks",
@@ -167,7 +173,8 @@
 	},
 	"Cavalry and Combat": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Cavalry Charge",
 			"Knock to the Ground"
 		],
@@ -250,7 +257,8 @@
 	},
 	"Characteristic: Attacks": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Attack",
 			"Attacks"
 		],
@@ -264,7 +272,8 @@
 	},
 	"Characteristic: Courage": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Courage"
 		],
 		"name": "Characteristic: Courage",
@@ -275,7 +284,8 @@
 	},
 	"Characteristic: Defence": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Defence"
 		],
 		"name": "Characteristic: Defence",
@@ -283,7 +293,8 @@
 	},
 	"Characteristic: Fight Value": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Fight Value",
 			"Fight Values"
 		],
@@ -295,7 +306,8 @@
 	},
 	"Characteristic: Intelligence": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Intelligence"
 		],
 		"name": "Characteristic: Intelligence",
@@ -306,7 +318,8 @@
 	},
 	"Characteristic: Move Value": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Move Value"
 		],
 		"name": "Characteristic: Move Value",
@@ -318,7 +331,8 @@
 	},
 	"Characteristic: Shoot Value": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Shoot Value",
 			"Shoot Values"
 		],
@@ -331,7 +345,8 @@
 	},
 	"Characteristic: Strength": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Strength"
 		],
 		"name": "Characteristic: Strength",
@@ -342,7 +357,8 @@
 	},
 	"Characteristic: Wounds": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Wound",
 			"Wounds"
 		],
@@ -351,7 +367,8 @@
 	},
 	"Charge": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Charges",
 			"Charged",
 			"Charging"
@@ -513,7 +530,8 @@
 	},
 	"Climbing": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Climb",
 			"Climb Test",
 			"Climb Tests"
@@ -550,7 +568,8 @@
 	},
 	"Control Zone": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Control Zones"
 		],
 		"name": "Control Zone",
@@ -567,7 +586,8 @@
 	},
 	"Courage Test": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Courage Tests"
 		],
 		"name": "Courage Test",
@@ -613,7 +633,8 @@
 	},
 	"Dismounting": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Dismount",
 			"dismount",
 			"Dismounts",
@@ -664,7 +685,8 @@
 	},
 	"Duel Roll": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Duel Rolls"
 		],
 		"name": "Duel Roll",
@@ -692,7 +714,8 @@
 	},
 	"Fate": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Fate Point",
 			"Fate Points"
 		],
@@ -724,7 +747,8 @@
 	},
 	"Fighting at Night": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"daylight",
 			"fighting in the Dark"
 		],
@@ -780,7 +804,8 @@
 	},
 	"Heavy Objects": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Heavy Object"
 		],
 		"name": "Heavy Objects",
@@ -824,7 +849,8 @@
 	},
 	"Heroic Actions": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Heroic Action"
 		],
 		"name": "Heroic Actions",
@@ -857,7 +883,8 @@
 	},
 	"Heroic Tier": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Heroic Tiers"
 		],
 		"name": "Heroic Tier",
@@ -872,7 +899,8 @@
 	},
 	"In The Way": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"In The Way Roll",
 			"In The Way Rolls",
 			"In The Way Test",
@@ -900,7 +928,8 @@
 	},
 	"Intelligence Test": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Intelligence Tests"
 		],
 		"name": "Intelligence Test",
@@ -913,7 +942,8 @@
 	},
 	"Jumping": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Jump",
 			"Jump Test"
 		],
@@ -935,7 +965,8 @@
 	},
 	"Leaping": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Leap",
 			"Leap Test"
 		],
@@ -955,7 +986,8 @@
 	},
 	"Light Objects": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Light Object"
 		],
 		"name": "Light Objects",
@@ -984,7 +1016,8 @@
 	},
 	"Maelstrom of Battle": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Maelstrom"
 		],
 		"name": "Maelstrom of Battle",
@@ -1012,7 +1045,8 @@
 	},
 	"Magical Powers": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Magical Power"
 		],
 		"name": "Magical Powers",
@@ -1059,7 +1093,8 @@
 	},
 	"Making a Casting Roll": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Cast",
 			"Cast a Magical Power",
 			"Casts a Magical Power",
@@ -1080,7 +1115,8 @@
 	},
 	"Might": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Might Point",
 			"Might Points"
 		],
@@ -1202,7 +1238,8 @@
 	},
 	"Moving Models": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Move",
 			"Moved",
 			"Moves",
@@ -1222,7 +1259,8 @@
 	},
 	"Moving off the Board": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Move off the Board",
 			"Moves off the Board"
 		],
@@ -1236,7 +1274,8 @@
 	},
 	"Objective Markers": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Objective Marker"
 		],
 		"name": "Objective Markers",
@@ -1259,7 +1298,8 @@
 	},
 	"Objectives": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Objective",
 			"Victory Point",
 			"Victory Points"
@@ -1273,7 +1313,8 @@
 	},
 	"Objects": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Object"
 		],
 		"name": "Objects",
@@ -1285,7 +1326,8 @@
 	},
 	"Obstacles": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Obstacle"
 		],
 		"name": "Obstacles",
@@ -1321,7 +1363,8 @@
 	},
 	"Passengers": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Passenger"
 		],
 		"name": "Passenger",
@@ -1346,7 +1389,8 @@
 	},
 	"Priority": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"roll for Priority"
 		],
 		"name": "Priority",
@@ -1384,7 +1428,8 @@
 	},
 	"Resisting Magical Power": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Resist",
 			"Resist Test",
 			"Resist Tests"
@@ -1407,7 +1452,8 @@
 	},
 	"Scatter": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Scatters"
 		],
 		"name": "Scatter",
@@ -1422,7 +1468,8 @@
 	},
 	"Separated Mounts": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Separated Mount"
 		],
 		"name": "Separated Mounts",
@@ -1468,7 +1515,8 @@
 	},
 	"Shooting Attack": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Shoot",
 			"shooting attack",
 			"Shooting Attacks",
@@ -1490,7 +1538,8 @@
 	},
 	"Shooting Attack: To Hit Roll": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Roll To Hit",
 			"To Hit",
 			"To Hit Roll",
@@ -1512,7 +1561,8 @@
 	},
 	"Shooting Attack: To Wound Roll": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Roll To Wound",
 			"To Wound",
 			"To Wound Roll",
@@ -1567,7 +1617,8 @@
 	},
 	"Siege Engines: Rolling To Wound": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Rolling To Wound"
 		],
 		"name": "Siege Engines: Rolling To Wound",
@@ -1610,7 +1661,8 @@
 	},
 	"Siege Targets": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Siege Target"
 		],
 		"name": "Siege Targets",
@@ -1626,7 +1678,8 @@
 	},
 	"Special rules": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"special rule",
 			"special rules"
 		],
@@ -1652,7 +1705,8 @@
 	},
 	"Stampede": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Stampedes"
 		],
 		"name": "Stampede",
@@ -1697,7 +1751,8 @@
 	},
 	"Strikes": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Strike"
 		],
 		"name": "Strikes",
@@ -1716,7 +1771,8 @@
 	},
 	"Supporting": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Support",
 			"Supported",
 			"Supporting",
@@ -1762,7 +1818,8 @@
 	},
 	"Swimming": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Swim",
 			"Swim Test"
 		],
@@ -1791,7 +1848,8 @@
 	},
 	"Thrown Rider": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Knocked Flying"
 		],
 		"name": "Thrown Rider",
@@ -1823,7 +1881,8 @@
 	},
 	"Trample": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Tramples"
 		],
 		"name": "Trample",
@@ -1870,7 +1929,8 @@
 	},
 	"Turn": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"End Phase",
 			"turn"
 		],
@@ -2043,7 +2103,8 @@
 	},
 	"Warbands": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Warband"
 		],
 		"name": "Warbands",
@@ -2065,7 +2126,8 @@
 	},
 	"Will": {
 		"type": "rule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Will Point",
 			"Will Points"
 		],
@@ -2661,7 +2723,8 @@
 	},
 	"Bane Weapons": {
 		"type": "specialrule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Elfbane"
 		],
 		"name": "Bane Weapons",
@@ -2685,7 +2748,8 @@
 	},
 	"Banner": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"banner",
 			"banners",
 			"Banners",
@@ -2777,7 +2841,8 @@
 	},
 	"Barge": {
 		"type": "specialrule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Barged"
 		],
 		"name": "Barge",
@@ -3147,7 +3212,8 @@
 	},
 	"Bow [Definition]": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"bow [Definition]"
 		],
 		"name": "Bow",
@@ -3175,7 +3241,8 @@
 	},
 	"Bow": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"bow",
 			"Exchange Hand-and-a-half weapon for a bow"
 		],
@@ -3841,7 +3908,8 @@
 	},
 	"Crossbow": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"crossbow",
 			"Exchange spear for crossbow",
 			"Exchange two-handed weapon for crossbow"
@@ -4525,7 +4593,8 @@
 	},
 	"Elven hand-and-a-half weapon": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Elven hand-and-a-half weapons"
 		],
 		"name": "Elven hand-and-a-half weapon",
@@ -4543,7 +4612,8 @@
 	},
 	"Elven hand weapon": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Elven hand weapons"
 		],
 		"name": "Elven hand weapon",
@@ -4648,7 +4718,8 @@
 	},
 	"Elven weapon": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Elven weapons"
 		],
 		"name": "Elven weapon",
@@ -5834,7 +5905,8 @@
 	},
 	"Great bow": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Swap hand-and-a-half weapon for great bow"
 		],
 		"name": "Great bow",
@@ -5878,7 +5950,8 @@
 	},
 	"Hand-and-a-half weapon": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"hand-and-a-half weapon"
 		],
 		"name": "Hand-and-a-half weapon",
@@ -5894,7 +5967,8 @@
 	},
 	"Hand weapon": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"An amalgamation of grasping spectral hands",
 			"Beaks and claws",
 			"Claws",
@@ -6054,7 +6128,8 @@
 	},
 	"Heavy armour": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"heavy armour",
 			"Exchange armour for heavy armour",
 			"Exchange armour and bow for heavy armour"
@@ -6067,7 +6142,8 @@
 	},
 	"Heavy Dwarf armour": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"heavy Dwarf armour"
 		],
 		"name": "Heavy Dwarf armour",
@@ -6520,7 +6596,8 @@
 	},
 	"Hurl": {
 		"type": "specialrule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Hurled"
 		],
 		"name": "Hurl",
@@ -7004,7 +7081,8 @@
 	},
 	"Lance": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"lance",
 			"Fell Warg and lance"
 		],
@@ -7223,7 +7301,8 @@
 	},
 	"Light shield": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"light shield"
 		],
 		"name": "Light shield",
@@ -7652,7 +7731,8 @@
 	},
 	"Master-forged weapon": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Master-forged",
 			"Master-forged two-handed weapon",
 			"Master-forged two-handed weapons"
@@ -7777,7 +7857,8 @@
 	},
 	"Mattock": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Exchange shield and spear for Mattock",
 			"Exchange war spear for Mattock"
 		],
@@ -7986,7 +8067,8 @@
 	},
 	"Missile Weapons": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Missile Weapon"
 		],
 		"name": "Missile Weapons",
@@ -8024,7 +8106,8 @@
 	},
 	"Mithril armour": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Mithril Armour"
 		],
 		"name": "Mithril armour",
@@ -8647,7 +8730,8 @@
 	},
 	"Pike": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"pike"
 		],
 		"name": "Pike",
@@ -8873,7 +8957,8 @@
 	},
 	"Prone Models": {
 		"type": "specialrule",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Prone"
 		],
 		"name": "Prone Models",
@@ -9467,7 +9552,8 @@
 	},
 	"Scythe Gauntlets": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Exchange Crushing Club for Scythe Gauntlets"
 		],
 		"name": "Scythe Gauntlets",
@@ -9665,7 +9751,8 @@
 	},
 	"Shield": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"shield",
 			"Shields"
 		],
@@ -10105,7 +10192,8 @@
 	},
 	"Spear": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"spear",
 			"spears"
 		],
@@ -11134,7 +11222,8 @@
 	},
 	"The One Ring": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"the One Ring"
 		],
 		"name": "The One Ring",
@@ -11269,7 +11358,8 @@
 	},
 	"The Ring of Durin": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"the Ring of Durin"
 		],
 		"name": "The Ring of Durin",
@@ -11512,7 +11602,8 @@
 	},
 	"Throwing spears": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Horse and throwing spears",
 			"throwing spears"
 		],
@@ -11537,7 +11628,8 @@
 	},
 	"Throwing weapons": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Throwing weapon",
 			"throwing weapon",
 			"throwing weapons"
@@ -11745,7 +11837,8 @@
 	},
 	"Transfix": {
 		"type": "magicalPower",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Immobilise"
 		],
 		"name": "Transfix",
@@ -11870,7 +11963,8 @@
 	},
 	"Two-handed weapon": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Exchange hand weapon for two-handed weapon",
 			"two-handed weapon"
 		],
@@ -12205,7 +12299,8 @@
 	},
 	"War drum": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Exchange shield for war drum",
 			"Swap shield for war drum"
 		],
@@ -12224,7 +12319,8 @@
 	},
 	"War horn": {
 		"type": "wargear",
-		"alias": [
+		"version": "2024",
+		"alias" : [
 			"Exchange lance for war horn",
 			"war horn"
 		],
