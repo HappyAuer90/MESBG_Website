@@ -303,7 +303,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry",
+			"Infantry",
 			"Unique"
 		],
 		"baseSize": "25mm",
@@ -1024,6 +1024,7 @@
 		"type": "Mount",
 		"version": "2024",
 		"name":  "Armoured horse",
+		"alignment": "Neither",
 		"source": [
 			{
 				"book": "Rules Manual",
@@ -1302,7 +1303,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry",
+			"Infantry",
 			"Unique"
 		],
 		"baseSize": "25mm",
@@ -5092,7 +5093,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry",
+			"Infantry",
 			"Unique"
 		],
 		"baseSize": "25mm",
@@ -9347,7 +9348,7 @@
 			"Warg"
 		],
 		"faction": [
-			"see Rider"
+			"See Rider"
 		],
 		"unitTypes": [
 			"Mount"
@@ -13023,7 +13024,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry",
+			"Infantry",
 			"Unique"
 		],
 		"baseSize": "25mm",
@@ -13247,7 +13248,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry",
+			"Infantry",
 			"Unique"
 		],
 		"baseSize": "25mm",
@@ -15684,6 +15685,7 @@
 		"type": "Mount",
 		"version": "2024",
 		"name":  "Horse",
+		"alignment": "Neither",
 		"source": [
 			{
 				"book": "Rules Manual",
@@ -18323,7 +18325,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry"
+			"Infantry"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -18628,7 +18630,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry"
+			"Infantry"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -19628,7 +19630,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry",
+			"Infantry",
 			"Unique"
 		],
 		"baseSize": "25mm",
@@ -20121,7 +20123,7 @@
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infrantry"
+			"Infantry"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -21901,7 +21903,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry"
+			"Infantry"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -21977,7 +21979,7 @@
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infrantry"
+			"Infantry"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -22024,7 +22026,7 @@
 		],
 		"unitTypes": [
 			"Hero",
-			"Infrantry"
+			"Infantry"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -22091,7 +22093,7 @@
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infrantry"
+			"Infantry"
 		],
 		"baseSize": "25mm",
 		"characteristics": {

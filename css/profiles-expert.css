@@ -1,3 +1,254 @@
-.profile-view {
+/* =========================
+   LAYOUT (renderLayout)
+========================= */
+
+.expert-search {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.expert-left,
+.expert-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.expert-left {
+    border-right: 1px solid #444;
+    padding-right: 20px;
+}
+
+/* Results */
+
+.filter-title {
     padding: 10px;
+    margin-bottom: 5px;
+    color: var(--color-headColor);
+}
+
+.expert-results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.expert-entry {
+    color: var(--color-link);
+    cursor: pointer;
+    padding: 6px;
+}
+
+.expert-entry:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+
+/* =========================
+   FILTER PANEL (renderFilters)
+========================= */
+
+.filter-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.filter-box {
+    border: 1px solid var(--mode-writing);
+    border-radius: 6px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    background: var(--mode-background);
+}
+
+.filter-box summary {
+    background: #2f2f2f;
+    color: white;
+    padding: 10px 14px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+
+.filter-box summary:hover {
+    background: #3a3a3a;
+}
+
+.filter-box .box-content {
+    padding: 14px;
+    background: var(--mode-background);
+}
+
+
+/* =========================
+   GENERAL BOX (renderGeneralBox)
+========================= */
+
+.general-box {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.general-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.general-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--color-headColor);
+}
+
+.range-inline {
+    display: flex;
+    gap: 8px;
+}
+
+
+/* =========================
+   CHARACTERISTICS (renderCharacteristicsTables)
+========================= */
+
+.characteristics-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.characteristic-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.characteristic-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    color: var(--color-headColor);
+}
+
+.characteristic-table th,
+.characteristic-table td {
+    text-align: center;
+    padding: 4px;
+}
+
+.characteristic-table th {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.char-input {
+    width: 55px;
+    padding: 4px;
+    text-align: center;
+}
+
+.characteristic-table input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* =========================
+   MULTI CHECKBOX FILTER
+========================= */
+
+.filter-mode {
+    margin-bottom: 6px;
+}
+
+.mode-label {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.mode-separator {
+    margin: 8px 0 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.filter-list {
+    max-height: 250px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 6px 12px;
+}
+
+.filter-list li {
+    display: flex;
+}
+
+
+/* =========================
+   MULTI AUTOCOMPLETE FILTER
+========================= */
+
+.selected-wrapper {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.selected-wrapper.has-values {
+    display: flex;
+}
+
+.selected-wrapper.has-values::before,
+.selected-wrapper.has-values::after {
+    content: "";
+    border-top: 1px solid #444;
+}
+
+.filter-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #444;
+    color: #fff; 
+    padding: 4px 8px;
+    border-radius: 12px;
+    margin: 4px 4px 0 0;
+    font-size: 12px;
+}
+
+.remove-chip {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.autocomplete-results {
+    list-style: none;
+    padding: 0;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.autocomplete-results.visible {
+    display: block;
+}
+
+.autocomplete-results li {
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.autocomplete-results li:hover {
+    background: #eee;
 }

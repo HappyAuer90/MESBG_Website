@@ -960,8 +960,6 @@ function renderArmyListReferences(profile) {
         </div>
     `;
 }
-
-
 function renderLinkedCompositions(profile) {
 
     const matches = [];

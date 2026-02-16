@@ -1074,6 +1074,7 @@
 		"type": "Mount",
 		"version": "2024",
 		"name":  "Armoured horse",
+		"alignment": "Neither",
 		"source": [
 			{
 				"book": "Rules Manual",
@@ -16337,6 +16338,7 @@
 		"type": "Mount",
 		"version": "2024",
 		"name":  "Horse",
+		"alignment": "Neither",
 		"source": [
 			{
 				"book": "Rules Manual",

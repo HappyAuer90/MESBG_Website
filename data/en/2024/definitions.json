@@ -2621,7 +2621,7 @@
 		]
 	},
 	"Aura of Command": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Aura of Command",
 		"duration": "Exhaustion",
@@ -2632,7 +2632,7 @@
 		]
 	},
 	"Aura of Dismay": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Aura of Dismay",
 		"duration": "Exhaustion",
@@ -2735,7 +2735,7 @@
 		]
 	},
 	"Banishment": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Banishment",
 		"duration": "Instant",
@@ -2969,7 +2969,7 @@
 		]
 	},
 	"Black Dart": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Black Dart",
 		"duration": "Instant",
@@ -3029,7 +3029,7 @@
 		]
 	},
 	"Bladewrath": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Bladewrath",
 		"duration": "Temporary",
@@ -3042,7 +3042,7 @@
 		]
 	},
 	"Blessing of the Valar": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Blessing of the Valar",
 		"duration": "Instant",
@@ -3053,7 +3053,7 @@
 		]
 	},
 	"Blinding Light": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Blinding Light",
 		"duration": "Temporary",
@@ -3419,7 +3419,7 @@
 		]
 	},
 	"Call Winds": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Call Winds",
 		"duration": "Instant",
@@ -3610,7 +3610,7 @@
 		]
 	},
 	"Chill Soul": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Chill Soul",
 		"duration": "Instant",
@@ -3699,7 +3699,7 @@
 		]
 	},
 	"Collapse Rocks": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Collapse Rocks",
 		"duration": "Instant",
@@ -3807,7 +3807,7 @@
 		]
 	},
 	"Compel": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Compel",
 		"duration": "Instant",
@@ -3993,7 +3993,7 @@
 		]
 	},
 	"Curse": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Curse",
 		"duration": "Instant",
@@ -4270,7 +4270,7 @@
 		]
 	},
 	"Drain Courage": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Drain Courage",
 		"duration": "Instant",
@@ -4768,7 +4768,7 @@
 		]
 	},
 	"Enchant Blades": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Enchant Blades",
 		"duration": "Temporary",
@@ -4817,7 +4817,7 @@
 		]
 	},
 	"Enrage Beast": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Enrage Beast",
 		"duration": "Temporary",
@@ -5252,7 +5252,7 @@
 		]
 	},
 	"Flameburst": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Flameburst",
 		"duration": "Instant",
@@ -5346,7 +5346,7 @@
 		]
 	},
 	"Fog of Disarray": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Fog of Disarray",
 		"duration": "Exhaustion",
@@ -5357,7 +5357,7 @@
 		]
 	},
 	"Foil Magic": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Foil Magic",
 		"duration": "Instant",
@@ -5458,7 +5458,7 @@
 		]
 	},
 	"Fortify Spirit": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Fortify Spirit",
 		"duration": "Exhaustion",
@@ -5526,7 +5526,7 @@
 		]
 	},
 	"Fury": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Fury (X)",
 		"duration": "Exhaustion",
@@ -6270,9 +6270,6 @@
 			"Priority",
 			"turn",
 			"War Beast"
-		],
-		"excludeFromLinking": [
-			"Heroic Combat"
 		]
 	},
 	"Heroic Defence": {
@@ -6834,7 +6831,7 @@
 		]
 	},
 	"Instil Fear": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Instil Fear",
 		"duration": "Temporary",
@@ -8332,7 +8329,7 @@
 		]
 	},
 	"Nature’s Wrath": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Nature’s Wrath",
 		"duration": "Instant",
@@ -8631,7 +8628,7 @@
 		]
 	},
 	"Panic Steed": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Panic Steed",
 		"duration": "Instant",
@@ -8644,7 +8641,7 @@
 		]
 	},
 	"Paralyse": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Paralyse",
 		"duration": "Exhaustion",
@@ -9030,7 +9027,7 @@
 		]
 	},
 	"Protection of the Valar": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Protection of the Valar",
 		"duration": "Temporary",
@@ -9264,7 +9261,7 @@
 		]
 	},
 	"Renew": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Renew",
 		"duration": "Instant",
@@ -10179,7 +10176,7 @@
 		]
 	},
 	"Sorcerous Blast": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Sorcerous Blast",
 		"duration": "Instant",
@@ -10531,7 +10528,7 @@
 		]
 	},
 	"Strengthen Will": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Strengthen Will",
 		"duration": "Instant",
@@ -10749,7 +10746,7 @@
 		]
 	},
 	"Terrifying Aura": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Terrifying Aura",
 		"duration": "Exhaustion",
@@ -11839,7 +11836,7 @@
 		]
 	},
 	"Transfix": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"alias" : [
 			"Immobilise"
@@ -11858,7 +11855,7 @@
 		]
 	},
 	"Tremor": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Tremor",
 		"duration": "Instant",
@@ -12635,7 +12632,7 @@
 		]
 	},
 	"Wither": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Wither",
 		"duration": "Instant",
@@ -12705,7 +12702,7 @@
 		]
 	},
 	"Wrath of Bruinen": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Wrath of Bruinen",
 		"duration": "Instant",
@@ -12719,7 +12716,7 @@
 		]
 	},
 	"Writhing Vines": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Writhing Vines",
 		"duration": "Temporary",
@@ -12766,7 +12763,7 @@
 		]
 	},
 	"Your Staff is Broken": {
-		"type": "magicalPower",
+		"type": "magicalpower",
 		"version": "2024",
 		"name":  "Your Staff is Broken",
 		"duration": "Instant",

@@ -4,9 +4,9 @@ import { navigate } from "../main.js";
 import { t } from "../utility/i18n.js";
 
 export async function initProfilesAll(container) {
+
     container.innerHTML = `
         <div class="profiles-all">
-            <h2>${t("profiles.all.title")}</h2>
 
             <div class="profiles-columns">
                 <div class="profiles-column">
@@ -27,22 +27,43 @@ export async function initProfilesAll(container) {
 
     const profiles = await loadProfiles(Settings.version);
 
-    Object.values(profiles).forEach(profile => {
-        const li = document.createElement("li");
-        li.textContent = profile.name;
+    const goodProfiles = [];
+    const evilProfiles = [];
 
-        li.onclick = () => {
-            navigate("profiles", "search", {
-                profileId: profile.id
-            });
-        };
+    Object.values(profiles).forEach(profile => {
 
         if (profile.alignment === "Good") {
-            goodList.appendChild(li);
+            goodProfiles.push(profile);
         }
 
         if (profile.alignment === "Evil") {
-            evilList.appendChild(li);
+            evilProfiles.push(profile);
         }
     });
+
+
+    // Rendern
+    goodProfiles.forEach(profile => {
+        goodList.appendChild(createProfileListItem(profile));
+    });
+
+    evilProfiles.forEach(profile => {
+        evilList.appendChild(createProfileListItem(profile));
+    });
+}
+
+/* Helper */
+
+function createProfileListItem(profile) {
+
+    const li = document.createElement("li");
+    li.textContent = profile.name;
+
+    li.onclick = () => {
+        navigate("profiles", "search", {
+            profileId: profile.id
+        });
+    };
+
+    return li;
 }

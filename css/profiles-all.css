@@ -1,3 +1,21 @@
-.profile-view {
-    padding: 10px;
+.profiles-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    color: var(--color-headColor);
+}
+
+.profiles-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profiles-column li {
+    cursor: pointer;
+    padding: 4px 0;
+    color: var(--color-link);
+}
+
+.profiles-column li:hover {
+    text-decoration: underline;
 }
