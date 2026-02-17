@@ -1,3 +1,266 @@
-.armylist-view {
+/* ======================================================
+   ROOT
+====================================================== */
+
+.armylists-search {
+    position: relative;
+}
+
+/* ======================================================
+   SEARCH SYSTEM
+====================================================== */
+
+.armylist-search-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.armylist-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+#armylistSearchInput {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+#armylistBackBtn {
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+/* ======================================================
+   AUTOSUGGESTIONS
+====================================================== */
+
+.armylist-autosuggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: calc(100% - 55px);
+    z-index: 200;
+
+    background: var(--mode-background);
+    border: 1px solid var(--mode-writing);
+    border-radius: 4px;
+
+    max-height: 240px;
+    overflow-y: auto;
+
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.armylist-autosuggestions.armylist-visible {
+    display: block;
+}
+
+.armylist-autosuggestions li {
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.armylist-autosuggestions li:hover {
+    background: var(--color-link-hover);
+}
+
+/* ======================================================
+   SEPARATOR
+====================================================== */
+
+.armylist-separator {
+    margin: 12px auto;
+    width: 100%;
+    height: 1px;
+    background: var(--mode-writing);
+}
+
+.armylist-separator.hidden {
+    display: none;
+}
+
+/* ======================================================
+   HEADER
+====================================================== */
+
+.armylist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+
+.armylist-title {
+    font-size: 40px;
+    color: var(--color-headColor);
+    margin: 0;
     padding: 10px;
+}
+
+#buildArmylistBtn {
+    background: #2f2f2f;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    height: 48px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+#buildArmylistBtn:hover {
+    background: #3a3a3a;
+}
+
+/* ======================================================
+   DETAILS BOX
+====================================================== */
+
+.armylist-box {
+    border: 1px solid var(--mode-writing);
+    border-radius: 6px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    background: var(--mode-background);
+}
+
+.armylist-box summary {
+    background: #2f2f2f;
+    color: white;
+    padding: 10px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.armylist-box summary:hover {
+    background: #3a3a3a;
+}
+
+.armylist-box-content {
+    padding: 14px;
+}
+
+/* ======================================================
+   INFORMATION
+====================================================== */
+
+.armylist-information-title {
+    color: var(--color-headColor);
+}
+
+.armylist-information-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 6px 0;
+}
+
+/* ======================================================
+   MODEL ENTRIES
+====================================================== */
+
+.armylist-entry {
+    margin-bottom: 8px;
+}
+
+.armylist-entry-main-row {
+    display: flex;
+    align-items: center;
+}
+
+.armylist-entry-bullet {
+    width: 20px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--mode-writing);
+}
+
+.armylist-entry-main-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.armylist-entry-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-link);
+}
+
+.armylist-entry-link {
+    cursor: pointer;
+}
+
+.armylist-entry-link:hover {
+    text-decoration: underline;
+}
+
+.armylist-entry-points {
+    font-size: 18px;
+    color: var(--mode-writing);
+}
+
+/* ======================================================
+   MANDATORY OPTIONS
+====================================================== */
+
+.armylist-mandatory-options {
+    margin-left: 20px;
+    margin-top: 2px;
+    color: var(--mode-writing);
+}
+
+.armylist-mandatory-row {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* ======================================================
+   OPTIONAL OPTIONS
+====================================================== */
+
+.armylist-optional-options {
+    margin-left: 40px;
+    margin-top: 4px;
+    padding-left: 0;
+}
+
+.armylist-option-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+    position: relative;
+    padding-left: 18px;
+    color: var(--mode-writing);
+}
+
+.armylist-option-row::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+}
+
+.armylist-option-name {
+    white-space: nowrap;
+}
+
+.armylist-option-cost {
+    white-space: nowrap;
 }

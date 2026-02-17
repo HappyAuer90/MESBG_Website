@@ -64,6 +64,7 @@ export default {
             notes: "Anmerkungen",
             gwFAQNotes: "GW FAQ Anmerkungen",
             sources: "Quellen",
+            page: "Seite",
             armyLists: "Armeelisten",
             linkedCompositions: "Verknüpfte Kompositionen",
             linkedProfiles: "Verknüpfte Profile",
@@ -119,7 +120,20 @@ export default {
 
     armylists: {
         search: {
-            placeholder: "Armeeliste suchen..."
+            placeholder: "Armeeliste suchen...",
+            buildButton: "Armeeliste erstellen",
+            sources: "Quellen",
+            page: "Seite",
+            additionalRules: "Zusätzliche Regeln",
+            specialRules: "Sonderregeln",
+            point: "Punkt",
+            points: "Punkte",
+            heroesofLegend: "Legendäre Helden",
+            heroesOfValour: "Ruhmreiche Helden",
+            heroesOfFortitude: "Mächtige Helden",
+            minorHeroes: "Geringere Helden",
+            independentHeroes: "Unabhängige Helden",
+            warriors: "Krieger"
         },
         all: {
             title: "Alle Armeelisten anzeigen",

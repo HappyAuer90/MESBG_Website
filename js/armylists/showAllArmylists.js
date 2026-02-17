@@ -4,9 +4,9 @@ import { navigate } from "../main.js";
 import { t } from "../utility/i18n.js";
 
 export async function initArmylistsAll(container) {
+
     container.innerHTML = `
         <div class="armylists-all">
-            <h2>${t("armylists.all.title")}</h2>
 
             <div class="armylists-columns">
                 <div class="armylists-column">
@@ -25,24 +25,46 @@ export async function initArmylistsAll(container) {
     const goodList = container.querySelector("#armylistsGood");
     const evilList = container.querySelector("#armylistsEvil");
 
-    const armyLists = await loadArmyLists(Settings.version);
+    const armylists = await loadArmyLists(Settings.version);
 
-    Object.values(armyLists).forEach(armylist => {
-        const li = document.createElement("li");
-        li.textContent = armylist.name;
+    const goodarmylists = [];
+    const evilarmylists = [];
 
-        li.onclick = () => {
-            navigate("armylists", "search", {
-                armylistId: armylist.id
-            });
-        };
+    Object.values(armylists).forEach(armylist => {
 
         if (armylist.alignment === "Good") {
-            goodList.appendChild(li);
+            goodarmylists.push(armylist);
         }
 
         if (armylist.alignment === "Evil") {
-            evilList.appendChild(li);
+            evilarmylists.push(armylist);
         }
     });
+
+
+    // Rendern
+    goodarmylists.forEach(armylist => {
+        goodList.appendChild(createarmylistListItem(armylist));
+    });
+
+    evilarmylists.forEach(armylist => {
+        evilList.appendChild(createarmylistListItem(armylist));
+    });
 }
+
+/* Helper */
+
+function createarmylistListItem(armylist) {
+
+    const li = document.createElement("li");
+    li.textContent = armylist.name;
+
+    li.onclick = () => {
+        navigate("armylists", "search", {
+            armylistId: armylist.id
+        });
+    };
+
+    return li;
+}
+

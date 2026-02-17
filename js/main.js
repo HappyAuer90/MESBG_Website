@@ -12,8 +12,8 @@ import { initProfilesExpert } from "./profiles/expertSearch.js";
 import { initProfilesAll } from "./profiles/showAllProfiles.js";
 
 import { initArmylistsSearch, onArmylistsSearchNavigate } from "./armylists/searchArmylist.js";
+import { initArmylistsBuild, onArmylistsBuildNavigate } from "./armylists/buildArmylist.js";
 import { initArmylistsAll } from "./armylists/showAllArmylists.js";
-import { initArmylistsBuild } from "./armylists/buildArmylist.js";
 
 /* =========================
    GLOBAL STATE
@@ -62,14 +62,15 @@ const VIEWS = {
             onNavigate: onArmylistsSearchNavigate,
             container: null
         },
-        all: {
-            labelKey: "main.showAllArmylists",
-            init: initArmylistsAll,
-            container: null
-        },
         build: {
             labelKey: "main.buildArmylist",
             init: initArmylistsBuild,
+            onNavigate: onArmylistsBuildNavigate,
+            container: null
+        },
+        all: {
+            labelKey: "main.showAllArmylists",
+            init: initArmylistsAll,
             container: null
         }
     }

@@ -1,3 +1,21 @@
-.armylist-view {
-    padding: 10px;
+.armylists-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    color: var(--color-headColor);
+}
+
+.armylists-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.armylists-column li {
+    cursor: pointer;
+    padding: 4px 0;
+    color: var(--color-link);
+}
+
+.armylists-column li:hover {
+    text-decoration: underline;
 }

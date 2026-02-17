@@ -861,7 +861,7 @@ function renderSources(profile) {
     if (!profile.source || !profile.source.length) return "";
 
     const items = profile.source.map(src =>
-        `<li>${src.book} (page ${src.page})</li>`
+        `<li>${src.book} (${t("profiles.search.page")} ${src.page})</li>`
     ).join("");
 
     return `

@@ -64,6 +64,7 @@ export default {
             notes: "Notes",
             gwFAQNotes: "GW FAQ Notes",
             sources: "Sources",
+            page: "Page",
             armyLists: "Army Lists",
             linkedCompositions: "Linked Compositions",
             linkedProfiles: "Linked Profiles",
@@ -75,7 +76,6 @@ export default {
             filter: "Filter",
             select: "Select",
             results: "Results",
-            search: "Search...",
             mode: "Mode",
             alignment: "Alignment",
             good: "Good",
@@ -119,16 +119,27 @@ export default {
 
     armylists: {
         search: {
+            placeholder: "Search armylist...",
+            buildButton: "Build Armylist",
+            sources: "Sources",
+            page: "Page",
+            additionalRules: "Additional Rules",
+            specialRules: "Special Rules",
+            point: "point",
+            points: "points",
+            heroesofLegend: "Heroes of Legend",
+            heroesOfValour: "Heroes of Valour",
+            heroesOfFortitude: "Heroes of Fortitude",
+            minorHeroes: "Minor Heroes",
+            independentHeroes: "Independent Heroes",
+            warriors: "Warriors"
+        },
+        build: {
             placeholder: "Search armylist..."
         },
         all: {
-            title: "Show All Armylists",
             good: "Good",
             evil: "Evil"
-        },
-        build: {
-            title: "Build Armylist",
-            placeholder: "Search armylist..."
         }
     }
 };
