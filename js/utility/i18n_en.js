@@ -2,10 +2,12 @@ export default {
     main: {
         title: "MESBG ONLINE TOOL",
         profiles: "Profiles",
+        rules: "Rules",
         armylists: "Armylists",
         searchProfile: "Search Profile",
         expertSearch: "Expert Search",
         showAllProfiles: "Show All Profiles",
+        showAllRules: "Show All Rules",
         searchArmylist: "Search Armylist",
         showAllArmylists: "Show All Armylists",
         buildArmylist: "Build Armylist"
@@ -135,7 +137,29 @@ export default {
             warriors: "Warriors"
         },
         build: {
-            placeholder: "Search armylist..."
+            placeholder: "Search armylist...",
+            additionalRules: "Additional Rules",
+            specialRules: "Special Rules",
+            heroesOfLegend: "Heroes of Legend",
+            heroesOfValour: "Heroes of Valour",
+            heroesOfFortitude: "Heroes of Fortitude",
+            heroesMinor: "Minor Heroes",
+            heroesIndependent: "Independent Heroes",
+            exportPdf: "Export PDF",
+            Points: "Points",
+            Models: "Models",
+            Broken: "Broken",
+            killed: "killed",
+            Quartered: "Quartered",
+            left: "left",
+            Bows: "Bows",
+            ThrowingWeapons: "Throwing Weapons",
+            Warband: "Warband",
+            General: "General",
+            Followers: "Followers",
+            addFollower: "Add Follower",
+            mandatoryWarning: "Option has to be taken",
+            addOption: "Add Option"
         },
         all: {
             good: "Good",

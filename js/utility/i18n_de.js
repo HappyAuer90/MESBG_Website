@@ -2,10 +2,12 @@ export default {
     main: {
         title: "MESBG ONLINE TOOL",
         profiles: "Profile",
+        rules: "Regeln",
         armylists: "Armeelisten",
         searchProfile: "Profilsuche",
         expertSearch: "Experten-Suche",
         showAllProfiles: "Alle Profile anzeigen",
+        showAllRules: "Alle Regeln anzeigen",
         searchArmylist: "Armeeliste suchen",
         showAllArmylists: "Alle Armeelisten anzeigen",
         buildArmylist: "Armeeliste erstellen"
@@ -135,14 +137,35 @@ export default {
             independentHeroes: "Unabhängige Helden",
             warriors: "Krieger"
         },
+        build: {
+            placeholder: "Armeeliste suchen...",
+            additionalRules: "Zusätzliche Regeln",
+            specialRules: "Sonderregeln",
+            heroesOfLegend: "Legendäre Helden",
+            heroesOfValour: "Ruhmreiche Helden",
+            heroesOfFortitude: "Mächtige Helden",
+            heroesMinor: "Geringere Helden",
+            heroesIndependent: "Unabhängige Helden",
+            exportPdf: "PDF exportieren",
+            Points: "Punkte",
+            Models: "Modelle",
+            Broken: "Gebrochen",
+            killed: "getötet",
+            Quartered: "Geviertelt",
+            left: "übrig",
+            Bows: "Bögen",
+            ThrowingWeapons: "Wurfwaffen",
+            Warband: "Kriegerschar",
+            General: "Anführer",
+            Followers: "Gefolgsleute",
+            addFollower: "Gefolgsleute hinzufügen",
+            mandatoryWarning: "Option muss ausgewählt werden",
+            addOption: "Option hinzufügen"
+        },
         all: {
             title: "Alle Armeelisten anzeigen",
             good: "Gut",
             evil: "Böse"
-        },
-        build: {
-            title: "Armeeliste erstellen",
-            placeholder: "Armeeliste suchen..."
         }
     }
 };

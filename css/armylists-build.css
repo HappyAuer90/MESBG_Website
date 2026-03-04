@@ -1,3 +1,544 @@
-.armylist-view {
+/* ======================================================
+   ROOT
+====================================================== */
+
+.armylists-build {
+    position: relative;
+}
+
+/* ======================================================
+   SEARCH SYSTEM (initArmylistsBuild)
+====================================================== */
+
+.armylist-build-search-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.armylist-build-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+#armylistSearchInput {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+#armylistBackBtn {
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+/* ======================================================
+   AUTOSUGGESTIONS
+====================================================== */
+
+.armylist-build-autosuggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: calc(100% - 55px);
+    z-index: 200;
+    background: var(--mode-background);
+    border: 1px solid var(--mode-writing);
+    border-radius: 4px;
+    max-height: 240px;
+    overflow-y: auto;
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.armylist-build-autosuggestions.armylist-visible {
+    display: block;
+}
+
+.armylist-build-autosuggestions li {
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.armylist-build-autosuggestions li:hover {
+    background: var(--color-link-hover);
+}
+
+/* ======================================================
+   SEPARATOR
+====================================================== */
+
+.armylist-build-separator {
+    margin: 12px auto;
+    width: 100%;
+    height: 1px;
+    background: var(--mode-writing);
+}
+
+.armylist-build-separator.hidden {
+    display: none;
+}
+
+/* ======================================================
+   MAIN LAYOUT (renderArmyListBuilder)
+====================================================== */
+
+.armylist-build-layout {
+    display: flex;
+    gap: 20px;
+}
+
+.armylist-build-left {
+    width: 70%;
+}
+
+.armylist-build-right {
+    width: 30%;
+    border-left: 1px solid var(--mode-writing);
+    padding-left: 12px;
+}
+
+/* ======================================================
+   HERO SELECTION (renderHeroSelection)
+====================================================== */
+
+.armylist-hero-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.armylist-hero-tier h4 {
+    margin-bottom: 8px;
+}
+
+.armylist-hero-card {
+    background: #444;
+    color: white;
+    border-radius: 8px;
     padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.armylist-hero-card:hover {
+    background: #555;
+}
+
+.hero-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-card-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-card-name {
+    font-weight: 600;
+}
+
+.hero-card-points {
+    font-weight: 600;
+}
+
+.hero-card-mandatory {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-top: 2px;
+}
+
+
+
+/* ======================================================
+   HEADER (renderArmyBuilder)
+====================================================== */
+
+.armylist-build-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-headColor);
+    padding: 10px;
+}
+
+.armylist-build-pdf-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+/* ======================================================
+   OVERVIEW BOX
+====================================================== */
+
+.armylist-overview-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.armylist-overview-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.armylist-overview-table th,
+.armylist-overview-table td {
+    border: 1px solid var(--mode-writing);
+    padding: 10px;
+    text-align: center;
+}
+.limit-exceeded {
+    color: red;
+    font-weight: bold; /* optional */
+}
+/* ======================================================
+   SPECIAL RULES BOX
+====================================================== */
+
+.armylist-build-information {
+    color: var(--mode-writing);
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ======================================================
+   WARBANDS (renderWarbands)
+====================================================== */
+/* ======================================================
+   WARBANDS
+====================================================== */
+
+.armylist-warbands {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.armylist-warband {
+    border: 1px solid var(--mode-writing);
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+/* ======================================================
+   WARBAND HEADER
+====================================================== */
+
+.warband-header-grid {
+    display: grid;
+    align-items: stretch;   /* sorgt für gleiche Zellhöhe */
+
+    grid-template-columns:
+        1fr
+        15%
+        15%
+        10%
+        10%
+        125px;
+
+    background: #333;
+    color: white;
+    padding: 8px 10px;
+}
+
+/* Jede Zelle wird Flex-Container für getrennte Ausrichtung */
+.warband-header-grid > div {
+    display: flex;
+}
+
+/* Spaltenausrichtung individuell steuerbar */
+
+.warband-header-warband {
+    justify-content: flex-start;
+    align-items: center;
+}
+.warband-header-follower-count {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.warband-header-points {
+    justify-content: center;
+    align-items: center;
+}
+
+.warband-header-bows {
+    justify-content: center;
+    align-items: center;
+}
+
+.warband-header-throwing-weapons {
+    justify-content: center;
+    align-items: center;
+}
+.warband-header-mechanics {
+    justify-content: right;
+    align-items: center;
+}
+
+
+/* ======================================================
+   WARBAND CAPTAIN
+====================================================== */
+
+.warband-captain-grid {
+    display: grid;
+    align-items: stretch;
+
+    grid-template-columns:
+        1fr
+        15%
+        20%
+        125px;
+
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--mode-writing);
+}
+
+.warband-captain-grid > div {
+    display: flex;
+}
+
+.warband-captain-name {
+    padding-left: 50px;
+    flex-direction: column;      /* vertikale Stapelung */
+    align-items: flex-start;     /* linksbündig */
+    justify-content: center;     /* vertikal zentriert in der Zelle */
+}
+
+.warband-captain-points {
+    justify-content: center;
+    align-items: center;
+}
+
+.warband-captain-options-button {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 0;
+}
+
+.warband-captain-options-button select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* ======================================================
+   FOLLOWERS
+====================================================== */
+
+.warband-followers-grid {
+    display: grid;
+    align-items: stretch;
+
+    grid-template-columns:
+        50px
+        1fr
+        15%
+        20%
+        125px;
+
+    padding: 8px 10px;
+}
+
+.warband-followers-grid > div {
+    display: flex;
+    min-width: 0; /* verhindert Grid Overflow */
+}
+
+/* Spaltenausrichtung */
+
+.warband-followers-count {
+    justify-content: left;
+    align-items: center;
+}
+
+.warband-followers-name {
+    flex-direction: column;      /* vertikale Stapelung */
+    align-items: flex-start;     /* linksbündig */
+    justify-content: center;     /* vertikal zentriert in der Zelle */
+}
+
+.warband-followers-points {
+    justify-content: center;
+    align-items: center;
+}
+
+.warband-followers-options-button {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: 0;
+}
+
+.warband-followers-options-button select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.warband-followers-controls {
+    justify-content: right;
+    align-items: center;
+}
+
+
+/* ======================================================
+   ADD FOLLOWER SECTION
+====================================================== */
+
+.warband-add-follower-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid var(--mode-writing); /* volle Linie */
+    padding: 12px 0;
+}
+
+.warband-add-follower {
+    margin: 0;
+}
+
+/* ======================================================
+   LINKED PROFILES
+====================================================== */
+
+
+.profile-link {
+    cursor: pointer;
+    color: var(--color-link);
+}
+
+.profile-link:hover {
+    text-decoration: underline;
+}
+
+/* ======================================================
+   BUTTONS
+====================================================== */
+
+.warband-follower-buttons button {
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+
+/* ======================================================
+   GENERAL BUTTON
+====================================================== */
+
+.general-btn {
+    cursor: pointer;
+}
+
+.general-btn.active {
+    background-color: #b30000;
+    color: white;
+}
+
+.general-btn:disabled {
+    background-color: #b30000;
+    color: white;
+    opacity: 0.6;
+    cursor: default;
+}
+/* ======================================================
+   OPTIONS & WARNINGS
+====================================================== */
+
+.profile-selected-options {
+    font-size: 0.85em;
+    opacity: 0.8;
+    margin-top: 3px;
+}
+
+.mandatory-warning {
+    color: red;
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+.add-options-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    padding: 6px 28px 6px 10px;
+    font-size: 14px;
+
+    border: 1px solid var(--mode-writing);
+    background: var(--mode-background);
+    color: var(--mode-writing);
+
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+.add-options-btn::after {
+    content: "▼";
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 10px;
+    pointer-events: none;
+}
+
+/* DROPDOWN */
+
+.options-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 4px;
+
+    min-width: 100%;
+    background: var(--mode-background);
+    border: 1px solid var(--mode-writing);
+    border-radius: 4px;
+
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    z-index: 1000;
+}
+
+.options-item {
+    padding: 6px 10px;
+    cursor: pointer;
+    background: var(--mode-background);
+    color: var(--mode-writing);
+}
+
+.options-item:hover {
+    background: var(--color-link-hover);
+}
+
+.options-item.selected {
+    background: #444;
+    color: white;
+    font-weight: 500;
 }
