@@ -40,6 +40,24 @@
     border: 1px solid var(--mode-writing);
     color: var(--mode-writing);
 }
+.nav-btn {
+    position: absolute;
+    top: 75px;
+    font-size: 20px;
+    padding: 6px 10px;
+    cursor: pointer;
+    background: none;
+    border: 1px solid var(--mode-writing);
+    color: var(--mode-writing);
+}
+
+#globalBackBtn {
+    right: 110px;
+}
+
+#globalForwardBtn {
+    right: 60px;
+}
 
 /* =========================
    MAIN NAVIGATION

@@ -2,6 +2,7 @@
 	"Abrakhân Merchant Guard": {
 		"id": "guard_abrakhan",
 		"version": "2024",
+		"language": "en",
 		"name":  "Abrakhân Merchant Guard",
 		"alignment": "Evil",
 		"source": [
@@ -45,6 +46,7 @@
 	"Aldor, Rohan Archer": {
 		"id": "aldor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Aldor, Rohan Archer",
 		"alignment": "Good",
 		"source": [
@@ -105,6 +107,7 @@
 	"Aldrac, Warlord of Carn Dûm": {
 		"id": "aldrac",
 		"version": "2024",
+		"language": "en",
 		"name":  "Aldrac, Warlord of Carn Dûm",
 		"alignment": "Evil",
 		"source": [
@@ -168,6 +171,7 @@
 	"Alfrid the Councillor": {
 		"id": "alfrid",
 		"version": "2024",
+		"language": "en",
 		"name":  "Alfrid the Councillor",
 		"alignment": "Good",
 		"source": [
@@ -218,6 +222,7 @@
 	"Amdûr, Lord of Blades": {
 		"id": "amdur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Amdûr, Lord of Blades",
 		"alignment": "Evil",
 		"source": [
@@ -286,6 +291,7 @@
 	"Anborn, Ranger of Ithilien": {
 		"id": "anborn",
 		"version": "2024",
+		"language": "en",
 		"name":  "Anborn, Ranger of Ithilien",
 		"alignment": "Good",
 		"source": [
@@ -346,6 +352,7 @@
 	"Angbor the Fearless": {
 		"id": "angbor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Angbor the Fearless",
 		"alignment": "Good",
 		"source": [
@@ -405,6 +412,7 @@
 	"Angmar Orc Captain": {
 		"id": "captain_angmar_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Angmar Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -459,6 +467,7 @@
 	"Angmar Orc Shaman": {
 		"id": "shaman_angmar_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Angmar Orc Shaman",
 		"alignment": "Evil",
 		"source": [
@@ -536,6 +545,7 @@
 	"Angmar Orc Warrior": {
 		"id": "warrior_angmar_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Angmar Orc Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -606,6 +616,7 @@
 	"Angmar Warg Rider": {
 		"id": "warg_rider_angmar",
 		"version": "2024",
+		"language": "en",
 		"name":  "Angmar Warg Rider",
 		"alignment": "Evil",
 		"source": [
@@ -674,6 +685,7 @@
 	"Aragorn, King Elessar": {
 		"id": "aragorn_elessar",
 		"version": "2024",
+		"language": "en",
 		"name":  "Aragorn, King Elessar",
 		"alignment": "Good",
 		"source": [
@@ -746,6 +758,7 @@
 	"Aragorn (Strider)": {
 		"id": "aragorn_strider",
 		"version": "2024",
+		"language": "en",
 		"name":  "Aragorn (Strider)",
 		"alignment": "Good",
 		"source": [
@@ -832,6 +845,7 @@
 	"Aranarth, First Chieftain of the Dúnedain": {
 		"id": "aranarth",
 		"version": "2024",
+		"language": "en",
 		"name":  "Aranarth, First Chieftain of the Dúnedain",
 		"alignment": "Good",
 		"source": [
@@ -895,6 +909,7 @@
 	"Arathorn, Chieftain of the Dúnedain": {
 		"id": "arathorn",
 		"version": "2024",
+		"language": "en",
 		"name":  "Arathorn, Chieftain of the Dúnedain",
 		"alignment": "Good",
 		"source": [
@@ -955,6 +970,7 @@
 	"Argadir, Captain of Arnor": {
 		"id": "argadir",
 		"version": "2024",
+		"language": "en",
 		"name":  "Argadir, Captain of Arnor",
 		"alignment": "Good",
 		"source": [
@@ -1023,6 +1039,7 @@
 		"id": "armoured_horse",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Armoured horse",
 		"alignment": "Neither",
 		"source": [
@@ -1056,6 +1073,7 @@
 	"Arvedui, Last King of Arnor": {
 		"id": "arvedui",
 		"version": "2024",
+		"language": "en",
 		"name":  "Arvedui, Last King of Arnor",
 		"alignment": "Good",
 		"source": [
@@ -1114,6 +1132,7 @@
 	"Arwen Undómiel": {
 		"id": "arwen",
 		"version": "2024",
+		"language": "en",
 		"name":  "Arwen Undómiel",
 		"alignment": "Good",
 		"source": [
@@ -1199,6 +1218,7 @@
 		],
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Asfaloth",
 		"alignment": "Good",
 		"source": [
@@ -1250,6 +1270,7 @@
 		"id": "ashere",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ashere",
 		"alignment": "Good",
 		"source": [
@@ -1286,6 +1307,7 @@
 	"Ashrâk": {
 		"id": "ashrak",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ashrâk",
 		"alignment": "Evil",
 		"source": [
@@ -1361,6 +1383,7 @@
 	"Axeman of Lossarnach": {
 		"id": "axeman_lossarnach",
 		"version": "2024",
+		"language": "en",
 		"name":  "Axeman of Lossarnach",
 		"alignment": "Good",
 		"source": [
@@ -1408,6 +1431,7 @@
 	"Azog the Defiler": {
 		"id": "azog",
 		"version": "2024",
+		"language": "en",
 		"name":  "Azog the Defiler",
 		"alignment": "Evil",
 		"source": [
@@ -1480,6 +1504,7 @@
 		"id": "bain_son_bard",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bain, Son of Bard",
 		"alignment": "Good",
 		"source": [
@@ -1531,6 +1556,7 @@
 	"Baldo Tulpenny": {
 		"id": "baldo_tulpenny",
 		"version": "2024",
+		"language": "en",
 		"name":  "Baldo Tulpenny",
 		"alignment": "Good",
 		"source": [
@@ -1587,6 +1613,7 @@
 	"Balin the Dwarf": {
 		"id": "balin_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Balin the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -1643,6 +1670,7 @@
 	"Balin the Dwarf, Champion of Erebor": {
 		"id": "balin_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Balin the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -1700,6 +1728,7 @@
 	"Balin the Dwarf, King of Moria": {
 		"id": "balin_dwarf_king",
 		"version": "2024",
+		"language": "en",
 		"name":  "Balin the Dwarf, King of Moria",
 		"alignment": "Good",
 		"source": [
@@ -1759,6 +1788,7 @@
 	"Bandobras Took": {
 		"id": "bandobras_took",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bandobras Took",
 		"alignment": "Good",
 		"source": [
@@ -1818,6 +1848,7 @@
 	"Bard the Bowman": {
 		"id": "bard_bowman",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bard the Bowman",
 		"alignment": "Good",
 		"source": [
@@ -1894,6 +1925,7 @@
 		"id": "bard_family",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bard’s Family",
 		"alignment": "Good",
 		"source": [
@@ -1913,6 +1945,7 @@
 	"Bard II, Prince of Dale": {
 		"id": "bardii",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bard II, Prince of Dale",
 		"alignment": "Good",
 		"source": [
@@ -1976,6 +2009,7 @@
 	"Barliman Butterbur": {
 		"id": "barliman_butterbur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Barliman Butterbur",
 		"alignment": "Good",
 		"source": [
@@ -2030,6 +2064,7 @@
 	"Barrow-wight": {
 		"id": "barrowwight",
 		"version": "2024",
+		"language": "en",
 		"name":  "Barrow-wight",
 		"alignment": "Evil",
 		"source": [
@@ -2090,6 +2125,7 @@
 	"Bat Swarm": {
 		"id": "bat_swarm",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bat Swarm",
 		"alignment": "Evil",
 		"source": [
@@ -2137,6 +2173,7 @@
 	"Beechbone": {
 		"id": "beechbone",
 		"version": "2024",
+		"language": "en",
 		"name":  "Beechbone",
 		"alignment": "Good",
 		"source": [
@@ -2198,6 +2235,7 @@
 	"Beorn": {
 		"id": "beorn",
 		"version": "2024",
+		"language": "en",
 		"name":  "Beorn",
 		"alignment": "Good",
 		"source": [
@@ -2257,6 +2295,7 @@
 	"Beorn the Bear": {
 		"id": "beorn_bear",
 		"version": "2024",
+		"language": "en",
 		"name":  "Beorn the Bear",
 		"alignment": "Good",
 		"source": [
@@ -2320,6 +2359,7 @@
 	"Beorning": {
 		"id": "beorning",
 		"version": "2024",
+		"language": "en",
 		"name":  "Beorning",
 		"alignment": "Good",
 		"source": [
@@ -2362,7 +2402,8 @@
 		"options": [
 			{
 				"name": "Swap hand-and-a-half weapon for great bow",
-				"cost": "Free"
+				"cost": "Free",
+				"type": "WARRIOR_OPTIONAL"
 			}
 		],
 		"specialRules": [
@@ -2374,6 +2415,7 @@
 	"Beregond, Guard of the Citadel": {
 		"id": "beregond",
 		"version": "2024",
+		"language": "en",
 		"name":  "Beregond, Guard of the Citadel",
 		"alignment": "Good",
 		"source": [
@@ -2433,6 +2475,7 @@
 	"Bert the Troll": {
 		"id": "bert_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bert the Troll",
 		"alignment": "Evil",
 		"source": [
@@ -2493,6 +2536,7 @@
 	"Bifur the Dwarf": {
 		"id": "bifur_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bifur the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -2552,6 +2596,7 @@
 	"Bifur the Dwarf, Champion of Erebor": {
 		"id": "bifur_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bifur the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -2609,6 +2654,7 @@
 	"Bilbo Baggins": {
 		"id": "bilbo_baggins",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bilbo Baggins",
 		"alignment": "Good",
 		"source": [
@@ -2675,6 +2721,7 @@
 	"Bilbo Baggins, Ageing Hobbit": {
 		"id": "bilbo_ageing",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bilbo Baggins, Ageing Hobbit",
 		"alignment": "Good",
 		"source": [
@@ -2747,6 +2794,7 @@
 	"Bilbo Baggins, Master Burglar": {
 		"id": "bilbo_baggins_masterburglar",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bilbo Baggins, Master Burglar",
 		"alignment": "Good",
 		"source": [
@@ -2809,6 +2857,7 @@
 	"Bill Ferny": {
 		"id": "bill_ferny",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bill Ferny",
 		"alignment": "Evil",
 		"source": [
@@ -2866,6 +2915,7 @@
 	"Bill the Pony": {
 		"id": "bill_the_pony",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bill the Pony",
 		"alignment": "Good",
 		"source": [
@@ -2919,6 +2969,7 @@
 	"Bill the Troll": {
 		"id": "bill_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bill the Troll",
 		"alignment": "Evil",
 		"source": [
@@ -2979,6 +3030,7 @@
 	"Birchseed": {
 		"id": "birchseed",
 		"version": "2024",
+		"language": "en",
 		"name":  "Birchseed",
 		"alignment": "Good",
 		"source": [
@@ -3039,6 +3091,7 @@
 	"Black Dragon Warrior": {
 		"id": "warrior_black_dragon",
 		"version": "2024",
+		"language": "en",
 		"name":  "Black Dragon Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -3102,6 +3155,7 @@
 	"Black Guard Drummer": {
 		"id": "drummer_black_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Black Guard Drummer",
 		"alignment": "Evil",
 		"source": [
@@ -3153,6 +3207,7 @@
 	"Black Guard of Barad-Dûr": {
 		"id": "black_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Black Guard of Barad-Dûr",
 		"alignment": "Evil",
 		"source": [
@@ -3206,6 +3261,7 @@
 	"Black Númenórean Knight": {
 		"id": "knight_black_numenorean",
 		"version": "2024",
+		"language": "en",
 		"name":  "Black Númenórean Knight",
 		"alignment": "Evil",
 		"source": [
@@ -3257,11 +3313,13 @@
 		"options": [
 			{
 				"name": "Exchange lance for banner",
-				"cost": "25"
+				"cost": "25",
+				"type": "WARRIOR_OPTIONAL"
 			},
 			{
 				"name": "Exchange lance for war horn",
-				"cost": "25"
+				"cost": "25",
+				"type": "WARRIOR_OPTIONAL"
 			}
 		],
 		"specialRules": [
@@ -3272,6 +3330,7 @@
 	"Black Númenórean Marshal": {
 		"id": "black_numenorean_marshal",
 		"version": "2024",
+		"language": "en",
 		"name":  "Black Númenórean Marshal",
 		"alignment": "Evil",
 		"source": [
@@ -3340,6 +3399,7 @@
 	"Black Númenórean Warrior": {
 		"id": "warrior_black_numenorean",
 		"version": "2024",
+		"language": "en",
 		"name":  "Black Númenórean Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -3390,6 +3450,7 @@
 	"Blackroot Vale Archer": {
 		"id": "blackroot_archer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Blackroot Vale Archer",
 		"alignment": "Good",
 		"source": [
@@ -3458,6 +3519,7 @@
 	"Bofur the Dwarf": {
 		"id": "bofur_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bofur the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -3513,6 +3575,7 @@
 	"Bofur the Dwarf, Champion of Erebor": {
 		"id": "bofur_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bofur the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -3579,6 +3642,7 @@
 	"Bolg, Spawn of Azog": {
 		"id": "bolg",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bolg, Spawn of Azog",
 		"alignment": "Evil",
 		"source": [
@@ -3650,6 +3714,7 @@
 	"Bombur the Dwarf": {
 		"id": "bombur_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bombur the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -3704,6 +3769,7 @@
 	"Bombur the Dwarf, Champion of Erebor": {
 		"id": "bombur_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Bombur the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -3762,6 +3828,7 @@
 	"Boromir, Captain of the White Tower": {
 		"id": "boromir_white_tower",
 		"version": "2024",
+		"language": "en",
 		"name":  "Boromir, Captain of the White Tower",
 		"alignment": "Good",
 		"source": [
@@ -3837,6 +3904,7 @@
 	"Boromir of Gondor": {
 		"id": "boromir_of_gondor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Boromir of Gondor",
 		"alignment": "Good",
 		"source": [
@@ -3912,6 +3980,7 @@
 	"Braga, Captain of the Guard": {
 		"id": "braga",
 		"version": "2024",
+		"language": "en",
 		"name":  "Braga, Captain of the Guard",
 		"alignment": "Good",
 		"source": [
@@ -3969,6 +4038,7 @@
 	"Brand, King of Dale": {
 		"id": "brand",
 		"version": "2024",
+		"language": "en",
 		"name":  "Brand, King of Dale",
 		"alignment": "Good",
 		"source": [
@@ -4031,6 +4101,7 @@
 		"id": "brego",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Brego",
 		"alignment": "Good",
 		"source": [
@@ -4071,6 +4142,7 @@
 	"Broodling": {
 		"id": "broodling",
 		"version": "2024",
+		"language": "en",
 		"name":  "Broodling",
 		"linkedProfile": [
 			"The Spider Queen"
@@ -4119,6 +4191,7 @@
 	"Brórgîr the Conjurer": {
 		"id": "brorgir",
 		"version": "2024",
+		"language": "en",
 		"name":  "Brórgîr the Conjurer",
 		"alignment": "Evil",
 		"source": [
@@ -4196,6 +4269,7 @@
 	"Buhrdûr, Hill Troll Chieftain": {
 		"id": "buhrdur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Buhrdûr, Hill Troll Chieftain",
 		"alignment": "Evil",
 		"source": [
@@ -4256,6 +4330,7 @@
 	"Captain of Arnor": {
 		"id": "captain_arnor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Captain of Arnor",
 		"alignment": "Good",
 		"source": [
@@ -4313,6 +4388,7 @@
 	"Captain of Carn Dûm": {
 		"id": "captain_carndum",
 		"version": "2024",
+		"language": "en",
 		"name":  "Captain of Carn Dûm",
 		"alignment": "Evil",
 		"source": [
@@ -4371,6 +4447,7 @@
 	"Captain of Dale": {
 		"id": "captain_dale",
 		"version": "2024",
+		"language": "en",
 		"name":  "Captain of Dale",
 		"alignment": "Good",
 		"source": [
@@ -4428,6 +4505,7 @@
 	"Captain of Dol Amroth": {
 		"id": "captain_dolamroth",
 		"version": "2024",
+		"language": "en",
 		"name":  "Captain of Dol Amroth",
 		"alignment": "Good",
 		"source": [
@@ -4492,6 +4570,7 @@
 	"Captain of Minas Tirith": {
 		"id": "captain_minas_tirith",
 		"version": "2024",
+		"language": "en",
 		"name":  "Captain of Minas Tirith",
 		"alignment": "Good",
 		"source": [
@@ -4549,6 +4628,7 @@
 	"Captain of Númenor": {
 		"id": "captain_numenor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Captain of Númenor",
 		"alignment": "Good",
 		"source": [
@@ -4603,6 +4683,7 @@
 	"Captain of Rohan": {
 		"id": "captain_rohan",
 		"version": "2024",
+		"language": "en",
 		"name":  "Captain of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -4672,6 +4753,7 @@
 	"Captain of the Black Guard": {
 		"id": "captain_black_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Captain of the Black Guard",
 		"alignment": "Evil",
 		"source": [
@@ -4729,6 +4811,7 @@
 	"Castellan of Dol Guldur": {
 		"id": "castellan_dol_guldur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Castellan of Dol Guldur",
 		"alignment": "Evil",
 		"source": [
@@ -4787,6 +4870,7 @@
 	"Cave Drake": {
 		"id": "cave_drake",
 		"version": "2024",
+		"language": "en",
 		"name":  "Cave Drake",
 		"alignment": "Evil",
 		"source": [
@@ -4850,6 +4934,7 @@
 	"Cave Troll": {
 		"id": "cave_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Cave Troll",
 		"alignment": "Evil",
 		"source": [
@@ -4908,6 +4993,7 @@
 	"Celeborn, Lord of Lothlórien": {
 		"id": "celeborn",
 		"version": "2024",
+		"language": "en",
 		"name":  "Celeborn, Lord of Lothlórien",
 		"alignment": "Good",
 		"source": [
@@ -4993,6 +5079,7 @@
 	"Círdan of the Grey Havens": {
 		"id": "cirdan",
 		"version": "2024",
+		"language": "en",
 		"name":  "Círdan of the Grey Havens",
 		"alignment": "Good",
 		"source": [
@@ -5076,6 +5163,7 @@
 	"Cirion, Lieutnant of Amon Barad": {
 		"id": "cirion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Cirion, Lieutnant of Amon Barad",
 		"alignment": "Good",
 		"source": [
@@ -5135,6 +5223,7 @@
 	"Citadel Guard": {
 		"id": "citadel_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Citadel Guard",
 		"alignment": "Good",
 		"source": [
@@ -5194,6 +5283,7 @@
 	"Clansman of Lamedon": {
 		"id": "clansman_lamedon",
 		"version": "2024",
+		"language": "en",
 		"name":  "Clansman of Lamedon",
 		"alignment": "Good",
 		"source": [
@@ -5242,6 +5332,7 @@
 		"id": "corsair_ballista",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Corsair Ballista",
 		"alignment": "Evil",
 		"source": [
@@ -5261,6 +5352,7 @@
 		"id": "corsair_ballista_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Corsair Ballista (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -5288,6 +5380,7 @@
 	"Corsair Bo’sun": {
 		"id": "bosun_corsair",
 		"version": "2024",
+		"language": "en",
 		"name":  "Corsair Bo’sun",
 		"alignment": "Evil",
 		"source": [
@@ -5355,6 +5448,7 @@
 	"Corsair Captain": {
 		"id": "captain_corsair",
 		"version": "2024",
+		"language": "en",
 		"name":  "Corsair Captain",
 		"alignment": "Evil",
 		"source": [
@@ -5419,6 +5513,7 @@
 	"Corsair Crossbowman": {
 		"id": "corsair_Crossbowman",
 		"version": "2024",
+		"language": "en",
 		"name":  "Corsair Crossbowman",
 		"alignment": "Evil",
 		"source": [
@@ -5466,6 +5561,7 @@
 	"Corsair of Umbar": {
 		"id": "corsair",
 		"version": "2024",
+		"language": "en",
 		"name":  "Corsair of Umbar",
 		"alignment": "Evil",
 		"source": [
@@ -5527,6 +5623,7 @@
 	"Corsair Reaver": {
 		"id": "reaver_corsair",
 		"version": "2024",
+		"language": "en",
 		"name":  "Corsair Reaver",
 		"alignment": "Evil",
 		"source": [
@@ -5572,6 +5669,7 @@
 		"id": "siege_crew_corsair",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Corsair Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -5615,6 +5713,7 @@
 	"Crebain": {
 		"id": "crebain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Crebain",
 		"alignment": "Evil",
 		"source": [
@@ -5662,6 +5761,7 @@
 	"Dáin Ironfoot, King under the Mountain": {
 		"id": "dain_ironfoot_king",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dáin Ironfoot, King under the Mountain",
 		"alignment": "Good",
 		"source": [
@@ -5722,6 +5822,7 @@
 	"Dáin Ironfoot, Lord of the Iron Hills": {
 		"id": "dain_ironfoot",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dáin Ironfoot, Lord of the Iron Hills",
 		"alignment": "Good",
 		"source": [
@@ -5791,6 +5892,7 @@
 	"Dalamyr, Fleetmaster of Umbar": {
 		"id": "dalamyr",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dalamyr, Fleetmaster of Umbar",
 		"alignment": "Evil",
 		"source": [
@@ -5855,6 +5957,7 @@
 		"id": "dale_siege_crew",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dale Siege Crew",
 		"alignment": "Good",
 		"source": [
@@ -5900,6 +6003,7 @@
 	"Damrod, Ranger of Ithilien": {
 		"id": "damrod",
 		"version": "2024",
+		"language": "en",
 		"name":  "Damrod, Ranger of Ithilien",
 		"alignment": "Good",
 		"source": [
@@ -5959,6 +6063,7 @@
 	"Delgamar, Gatemaster of Umbar": {
 		"id": "delgamar",
 		"version": "2024",
+		"language": "en",
 		"name":  "Delgamar, Gatemaster of Umbar",
 		"alignment": "Evil",
 		"source": [
@@ -6022,6 +6127,7 @@
 		"id": "demolitioncharge",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Demolition Charge",
 		"alignment": "Evil",
 		"source": [
@@ -6051,6 +6157,7 @@
 	"Denethor, Steward of Gondor": {
 		"id": "denethor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Denethor, Steward of Gondor",
 		"alignment": "Good",
 		"source": [
@@ -6108,6 +6215,7 @@
 	"Déorwine, Chief of the King’s Knights": {
 		"id": "deorwine",
 		"version": "2024",
+		"language": "en",
 		"name":  "Déorwine, Chief of the King’s Knights",
 		"alignment": "Good",
 		"source": [
@@ -6177,6 +6285,7 @@
 	"Dori the Dwarf": {
 		"id": "dori_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dori the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -6232,6 +6341,7 @@
 	"Dori the Dwarf, Champion of Erebor": {
 		"id": "dori_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dori the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -6289,6 +6399,7 @@
 	"Dragon": {
 		"id": "dragon",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dragon",
 		"alignment": "Evil",
 		"source": [
@@ -6375,6 +6486,7 @@
 	"Dragon Cult Acolyte": {
 		"id": "dragon_cult_acolyte",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dragon Cult Acolyte",
 		"alignment": "Evil",
 		"source": [
@@ -6428,6 +6540,7 @@
 		"id": "drar",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Drár",
 		"alignment": "Good",
 		"source": [
@@ -6487,6 +6600,7 @@
 	"Drûzhag the Beastcaller": {
 		"id": "druzhag",
 		"version": "2024",
+		"language": "en",
 		"name":  "Drûzhag the Beastcaller",
 		"alignment": "Evil",
 		"source": [
@@ -6561,6 +6675,7 @@
 	"Duinhir, Lord of the Blackroot Vale": {
 		"id": "duinhir",
 		"version": "2024",
+		"language": "en",
 		"name":  "Duinhir, Lord of the Blackroot Vale",
 		"alignment": "Good",
 		"source": [
@@ -6627,6 +6742,7 @@
 	"Dunlending Chieftain": {
 		"id": "chieftain_dunlending",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dunlending Chieftain",
 		"alignment": "Evil",
 		"source": [
@@ -6681,6 +6797,7 @@
 	"Dunlending Horseman": {
 		"id": "horseman_dunlending",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dunlending Horseman",
 		"alignment": "Evil",
 		"source": [
@@ -6733,6 +6850,7 @@
 	"Dunlending Huscarl": {
 		"id": "huscarl_dunlending",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dunlending Huscarl",
 		"alignment": "Evil",
 		"source": [
@@ -6784,6 +6902,7 @@
 	"Dunlending Warrior": {
 		"id": "warrior_dunlending",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dunlending Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -6849,6 +6968,7 @@
 	"Durbûrz, Goblin-King of Moria": {
 		"id": "durburz",
 		"version": "2024",
+		"language": "en",
 		"name":  "Durbûrz, Goblin-King of Moria",
 		"alignment": "Evil",
 		"source": [
@@ -6908,6 +7028,7 @@
 	"Durin, King of Khazad-dûm": {
 		"id": "durin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Durin, King of Khazad-dûm",
 		"alignment": "Good",
 		"source": [
@@ -6981,6 +7102,7 @@
 	"Dwalin the Dwarf": {
 		"id": "dwalin_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwalin the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -7042,6 +7164,7 @@
 	"Dwalin the Dwarf, Champion of Erebor": {
 		"id": "dwalin_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwalin the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -7105,6 +7228,7 @@
 	"Dwarf Captain": {
 		"id": "captain_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf Captain",
 		"alignment": "Good",
 		"source": [
@@ -7159,6 +7283,7 @@
 	"Dwarf King": {
 		"id": "dwarf_king",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf King",
 		"linkedProfile": [
 			"Dwarf King (Erebor)",
@@ -7219,6 +7344,7 @@
 	"Dwarf King (Erebor)": {
 		"id": "dwarf_king_erebor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf King (Erebor)",
 		"linkedProfile": [
 			"Dwarf King"
@@ -7277,6 +7403,7 @@
 	"Dwarf King (Iron Hills)": {
 		"id": "dwarf_king_iron_hills",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf King (Iron Hills)",
 		"linkedProfile": [
 			"Dwarf King"
@@ -7335,6 +7462,7 @@
 	"Dwarf King (Khazad-dûm)": {
 		"id": "dwarf_king_khazaddum)",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf King (Khazad-dûm)",
 		"linkedProfile": [
 			"Dwarf King"
@@ -7393,6 +7521,7 @@
 	"Dwarf Ranger": {
 		"id": "ranger_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf Ranger",
 		"alignment": "Good",
 		"source": [
@@ -7457,6 +7586,7 @@
 	"Dwarf Shieldbearer": {
 		"id": "dwarf_shieldbearer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf Shieldbearer",
 		"alignment": "Good",
 		"source": [
@@ -7512,6 +7642,7 @@
 		"id": "siege_crew_dwarf",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf Siege Crew",
 		"alignment": "Good",
 		"source": [
@@ -7554,6 +7685,7 @@
 	"Dwarf Warrior": {
 		"id": "warrior_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarf Warrior",
 		"alignment": "Good",
 		"source": [
@@ -7625,6 +7757,7 @@
 		"id": "dwarven_ballista",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarven Ballista",
 		"alignment": "Good",
 		"source": [
@@ -7644,6 +7777,7 @@
 		"id": "dwarven_ballista_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dwarven Ballista (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -7671,6 +7805,7 @@
 	"Dweller in the Dark": {
 		"id": "dweller_dark",
 		"version": "2024",
+		"language": "en",
 		"name":  "Dweller in the Dark",
 		"alignment": "Evil",
 		"source": [
@@ -7718,6 +7853,7 @@
 	"Eärnur, Last King of Gondor": {
 		"id": "eärnur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Eärnur, Last King of Gondor",
 		"alignment": "Good",
 		"source": [
@@ -7786,6 +7922,7 @@
 	"Easterling Captain": {
 		"id": "captain_easterling",
 		"version": "2024",
+		"language": "en",
 		"name":  "Easterling Captain",
 		"alignment": "Evil",
 		"source": [
@@ -7840,6 +7977,7 @@
 	"Easterling Dragon Knight": {
 		"id": "easterling_knight",
 		"version": "2024",
+		"language": "en",
 		"name":  "Easterling Dragon Knight",
 		"alignment": "Evil",
 		"source": [
@@ -7906,6 +8044,7 @@
 	"Easterling Kataphrakt": {
 		"id": "easterling_kataprakt",
 		"version": "2024",
+		"language": "en",
 		"name":  "Easterling Kataphrakt",
 		"alignment": "Evil",
 		"source": [
@@ -7971,6 +8110,7 @@
 	"Easterling Kataphrakt Captain": {
 		"id": "captain_easterling_kataprakt",
 		"version": "2024",
+		"language": "en",
 		"name":  "Easterling Kataphrakt Captain",
 		"alignment": "Evil",
 		"source": [
@@ -8032,6 +8172,7 @@
 	"Easterling War Priest": {
 		"id": "warpriest_easterling",
 		"version": "2024",
+		"language": "en",
 		"name":  "Easterling War Priest",
 		"alignment": "Evil",
 		"source": [
@@ -8106,6 +8247,7 @@
 	"Easterling Warrior": {
 		"id": "warrior_easterling",
 		"version": "2024",
+		"language": "en",
 		"name":  "Easterling Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -8174,6 +8316,7 @@
 	"Elendil, High King of Gondor and Arnor": {
 		"id": "elendil",
 		"version": "2024",
+		"language": "en",
 		"name":  "Elendil, High King of Gondor and Arnor",
 		"alignment": "Good",
 		"source": [
@@ -8232,6 +8375,7 @@
 	"Elfhelm, Captain of Rohan": {
 		"id": "elfhelm",
 		"version": "2024",
+		"language": "en",
 		"name":  "Elfhelm, Captain of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -8304,6 +8448,7 @@
 		"id": "elladan",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Elladan",
 		"alignment": "Good",
 		"source": [
@@ -8369,6 +8514,7 @@
 		"id": "elladan_elrohir",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Elladan & Elrohir",
 		"alignment": "Good",
 		"source": [
@@ -8388,6 +8534,7 @@
 		"id": "elrohir",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Elrohir",
 		"alignment": "Good",
 		"source": [
@@ -8452,6 +8599,7 @@
 	"Elrond, Master of Rivendell": {
 		"id": "elrond",
 		"version": "2024",
+		"language": "en",
 		"name":  "Elrond, Master of Rivendell",
 		"alignment": "Good",
 		"source": [
@@ -8539,6 +8687,7 @@
 	"Ent": {
 		"id": "ent",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ent",
 		"alignment": "Good",
 		"source": [
@@ -8589,6 +8738,7 @@
 	"Éomer, Marshal of the Riddermark": {
 		"id": "eomer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Éomer, Marshal of the Riddermark",
 		"alignment": "Good",
 		"source": [
@@ -8666,6 +8816,7 @@
 	"Eorl the Young": {
 		"id": "eorl",
 		"version": "2024",
+		"language": "en",
 		"name":  "Eorl the Young",
 		"alignment": "Good",
 		"source": [
@@ -8737,6 +8888,7 @@
 	"Éowyn, Shieldmaiden of Rohan": {
 		"id": "eowyn",
 		"version": "2024",
+		"language": "en",
 		"name":  "Éowyn, Shieldmaiden of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -8815,6 +8967,7 @@
 	"Erebor Dwarf Captain": {
 		"id": "captain_erebor_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Erebor Dwarf Captain",
 		"alignment": "Good",
 		"source": [
@@ -8869,6 +9022,7 @@
 	"Erebor Dwarf Warrior": {
 		"id": "warrior_erebor_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Erebor Dwarf Warrior",
 		"alignment": "Good",
 		"source": [
@@ -8932,6 +9086,7 @@
 	"Erestor": {
 		"id": "erestor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Erestor",
 		"alignment": "Good",
 		"source": [
@@ -8988,6 +9143,7 @@
 	"Erkenbrand, Captain of Rohan": {
 		"id": "erkenbrand",
 		"version": "2024",
+		"language": "en",
 		"name":  "Erkenbrand, Captain of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -9060,6 +9216,7 @@
 	"Faramir, Captain of Gondor": {
 		"id": "faramir",
 		"version": "2024",
+		"language": "en",
 		"name":  "Faramir, Captain of Gondor",
 		"alignment": "Good",
 		"source": [
@@ -9140,6 +9297,7 @@
 	"Farmer Maggot": {
 		"id": "farmer_maggot",
 		"version": "2024",
+		"language": "en",
 		"name":  "Farmer Maggot",
 		"alignment": "Good",
 		"source": [
@@ -9194,6 +9352,7 @@
 	"Farmer Tolman Cotton": {
 		"id": "tolman_cotton",
 		"version": "2024",
+		"language": "en",
 		"name":  "Farmer Tolman Cotton",
 		"alignment": "Good",
 		"source": [
@@ -9250,6 +9409,7 @@
 		"id": "felaroth",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Felaróf",
 		"alignment": "Good",
 		"source": [
@@ -9287,6 +9447,7 @@
 		],
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fell Beast",
 		"alignment": "Evil",
 		"source": [
@@ -9336,6 +9497,7 @@
 		"id": "fell_warg",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fell Warg",
 		"alignment": "Evil",
 		"source": [
@@ -9377,6 +9539,7 @@
 	"Fell Warg (Beast)": {
 		"id": "fell_warg",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fell Warg (Beast)",
 		"alignment": "Evil",
 		"source": [
@@ -9420,6 +9583,7 @@
 	"Feral Uruk-hai": {
 		"id": "feral_urukhai",
 		"version": "2024",
+		"language": "en",
 		"name":  "Feral Uruk-hai",
 		"alignment": "Evil",
 		"source": [
@@ -9467,6 +9631,7 @@
 	"Fíli the Dwarf": {
 		"id": "fili_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fíli the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -9526,6 +9691,7 @@
 	"Fíli the Dwarf, Champion of Erebor": {
 		"id": "fili_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fíli the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -9583,6 +9749,7 @@
 	"Fimbul, Hunter Orc Captain": {
 		"id": "fimbul",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fimbul, Hunter Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -9649,6 +9816,7 @@
 		],
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Firefoot",
 		"alignment": "Good",
 		"source": [
@@ -9683,6 +9851,7 @@
 	"Fledgeling Great Eagle": {
 		"id": "fledgeling_eagle",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fledgeling Great Eagle",
 		"alignment": "Good",
 		"source": [
@@ -9735,6 +9904,7 @@
 	"Flói Stonehand": {
 		"id": "floi_stonehand",
 		"version": "2024",
+		"language": "en",
 		"name":  "Flói Stonehand",
 		"alignment": "Good",
 		"source": [
@@ -9792,6 +9962,7 @@
 		"id": "foespear_wielder",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Foe Spear Wielder",
 		"alignment": "Good",
 		"source": [
@@ -9834,6 +10005,7 @@
 	"Folco Boffin": {
 		"id": "folco_boffin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Folco Boffin",
 		"alignment": "Good",
 		"source": [
@@ -9886,6 +10058,7 @@
 	"Forlong the Fat": {
 		"id": "folong",
 		"version": "2024",
+		"language": "en",
 		"name":  "Forlong the Fat",
 		"alignment": "Good",
 		"source": [
@@ -9948,6 +10121,7 @@
 	"Fráecht, Vassal of the Witch-king": {
 		"id": "fraecht",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fráecht, Vassal of the Witch-king",
 		"alignment": "Evil",
 		"source": [
@@ -10007,6 +10181,7 @@
 	"Fréaláf, First Marshal of the Riddermark": {
 		"id": "frealaf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fréaláf, First Marshal of the Riddermark",
 		"alignment": "Good",
 		"source": [
@@ -10072,6 +10247,7 @@
 	"Freca, Lord of the West-March": {
 		"id": "freca",
 		"version": "2024",
+		"language": "en",
 		"name":  "Freca, Lord of the West-March",
 		"alignment": "Evil",
 		"source": [
@@ -10130,6 +10306,7 @@
 	"Fredegar ’Fatty’ Bolger": {
 		"id": "fredegar_bolger",
 		"version": "2024",
+		"language": "en",
 		"name":  "Fredegar ’Fatty’ Bolger",
 		"alignment": "Good",
 		"source": [
@@ -10182,6 +10359,7 @@
 	"Frída Tallspear": {
 		"id": "frida_tallspear",
 		"version": "2024",
+		"language": "en",
 		"name":  "Frída Tallspear",
 		"alignment": "Evil",
 		"source": [
@@ -10246,6 +10424,7 @@
 	"Frodo Baggins": {
 		"id": "frodo_baggins",
 		"version": "2024",
+		"language": "en",
 		"name":  "Frodo Baggins",
 		"alignment": "Good",
 		"source": [
@@ -10316,6 +10495,7 @@
 	"Frodo of the Nine Fingers": {
 		"id": "frodo_nine_fingers",
 		"version": "2024",
+		"language": "en",
 		"name":  "Frodo of the Nine Fingers",
 		"alignment": "Good",
 		"source": [
@@ -10382,6 +10562,7 @@
 	"Galadhrim Captain": {
 		"id": "captain_galadhrim",
 		"version": "2024",
+		"language": "en",
 		"name":  "Galadhrim Captain",
 		"alignment": "Good",
 		"source": [
@@ -10443,6 +10624,7 @@
 	"Galadhrim Knight": {
 		"id": "knight_galadhrim",
 		"version": "2024",
+		"language": "en",
 		"name":  "Galadhrim Knight",
 		"alignment": "Good",
 		"source": [
@@ -10510,6 +10692,7 @@
 		"id": "galadhrim_steed",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Galadhrim Steed",
 		"alignment": "Good",
 		"source": [
@@ -10546,6 +10729,7 @@
 	"Galadhrim Warrior": {
 		"id": "warrior_galadhrim",
 		"version": "2024",
+		"language": "en",
 		"name":  "Galadhrim Warrior",
 		"alignment": "Good",
 		"source": [
@@ -10624,6 +10808,7 @@
 	"Galadriel, Lady of Light": {
 		"id": "galadriel_ladylight",
 		"version": "2024",
+		"language": "en",
 		"name":  "Galadriel, Lady of Light",
 		"alignment": "Good",
 		"source": [
@@ -10701,6 +10886,7 @@
 	"Galadriel, Lady of Lothlórien": {
 		"id": "galadriel_lothlorien",
 		"version": "2024",
+		"language": "en",
 		"name":  "Galadriel, Lady of Lothlórien",
 		"alignment": "Good",
 		"source": [
@@ -10802,6 +10988,7 @@
 	"Gamling, Captain of Rohan": {
 		"id": "gamling",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gamling, Captain of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -10871,6 +11058,7 @@
 	"Gandalf the Grey": {
 		"id": "gandalf_grey",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gandalf the Grey",
 		"alignment": "Good",
 		"source": [
@@ -10985,6 +11173,7 @@
 	"Gandalf the White": {
 		"id": "gandalf_white",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gandalf the White",
 		"alignment": "Good",
 		"source": [
@@ -11101,6 +11290,7 @@
 		"id": "gandalf_cart",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gandalf’s Cart",
 		"alignment": "Good",
 		"source": [
@@ -11137,6 +11327,7 @@
 	"General Targg": {
 		"id": "general_targg",
 		"version": "2024",
+		"language": "en",
 		"name":  "General Targg",
 		"alignment": "Evil",
 		"source": [
@@ -11201,6 +11392,7 @@
 	"Ghân-Buri-Ghân": {
 		"id": "ghan_bur_ghan",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ghân-Buri-Ghân",
 		"alignment": "Good",
 		"source": [
@@ -11266,6 +11458,7 @@
 	"Gil-Galad, High King of the Noldor": {
 		"id": "gil_galad",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gil-Galad, High King of the Noldor",
 		"alignment": "Good",
 		"source": [
@@ -11332,6 +11525,7 @@
 	"Gildor Inglorion": {
 		"id": "gildor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gildor Inglorion",
 		"alignment": "Good",
 		"source": [
@@ -11409,6 +11603,7 @@
 	"Gimli, son of Glóin": {
 		"id": "gimli_son_of_gloin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gimli, son of Glóin",
 		"alignment": "Good",
 		"source": [
@@ -11479,6 +11674,7 @@
 	"Girion, Lord of Dale": {
 		"id": "girion_dale",
 		"version": "2024",
+		"language": "en",
 		"name":  "Girion, Lord of Dale",
 		"alignment": "Good",
 		"source": [
@@ -11543,6 +11739,7 @@
 	"Glóin the Dwarf": {
 		"id": "gloin_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Glóin the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -11602,6 +11799,7 @@
 	"Glóin the Dwarf, Champion of Erebor": {
 		"id": "gloin_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Glóin the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -11659,6 +11857,7 @@
 	"Glorfindel, Lord of the West": {
 		"id": "glorfindel",
 		"version": "2024",
+		"language": "en",
 		"name":  "Glorfindel, Lord of the West",
 		"alignment": "Good",
 		"source": [
@@ -11733,6 +11932,7 @@
 	"Goblin Captain": {
 		"id": "captain_goblin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Goblin Captain",
 		"alignment": "Evil",
 		"source": [
@@ -11785,6 +11985,7 @@
 	"Goblin Mercenary": {
 		"id": "goblin_mercenary",
 		"version": "2024",
+		"language": "en",
 		"name":  "Goblin Mercenary",
 		"alignment": "Evil",
 		"source": [
@@ -11833,6 +12034,7 @@
 	"Goblin Mercenary Captain": {
 		"id": "captain_goblin_mercenary",
 		"version": "2024",
+		"language": "en",
 		"name":  "Goblin Mercenary Captain",
 		"alignment": "Evil",
 		"source": [
@@ -11889,6 +12091,7 @@
 	"Goblin Warrior": {
 		"id": "warrior_goblin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Goblin Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -11940,6 +12143,7 @@
 	"Goldberry": {
 		"id": "goldberry",
 		"version": "2024",
+		"language": "en",
 		"name":  "Goldberry",
 		"alignment": "Good",
 		"source": [
@@ -11991,6 +12195,7 @@
 	"Golfimbul, Orc Captain": {
 		"id": "golfimbul",
 		"version": "2024",
+		"language": "en",
 		"name":  "Golfimbul, Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -12053,6 +12258,7 @@
 	"Gollum": {
 		"id": "gollum",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gollum",
 		"alignment": "Evil",
 		"source": [
@@ -12106,6 +12312,7 @@
 		"id": "gondor_bolt_thrower",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gondor Avenger Bolt Thrower",
 		"alignment": "Good",
 		"source": [
@@ -12125,6 +12332,7 @@
 		"id": "gondor_bolt_thrower_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gondor Avenger Bolt Thrower (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -12159,6 +12367,7 @@
 		"id": "gondor_trebuchet",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gondor Battlecry Trebuchet",
 		"alignment": "Good",
 		"source": [
@@ -12178,6 +12387,7 @@
 		"id": "gondor_trebuchet_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gondor Battlecry Trebuchet (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -12214,6 +12424,7 @@
 	"Gorbag, Orc Captain": {
 		"id": "gorbag",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gorbag, Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -12271,6 +12482,7 @@
 	"Goroth, Captain of the Morannon": {
 		"id": "goroth",
 		"version": "2024",
+		"language": "en",
 		"name":  "Goroth, Captain of the Morannon",
 		"alignment": "Evil",
 		"source": [
@@ -12328,6 +12540,7 @@
 	"Gorûlf Ironskin": {
 		"id": "gorulf_ironskin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gorûlf Ironskin",
 		"alignment": "Evil",
 		"source": [
@@ -12386,6 +12599,7 @@
 	"Gothmog, Lieutnant of Sauron": {
 		"id": "gothmog",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gothmog, Lieutnant of Sauron",
 		"alignment": "Evil",
 		"source": [
@@ -12454,6 +12668,7 @@
 	"Gothmog’s Enforcer": {
 		"id": "gothmog_enforcer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gothmog’s Enforcer",
 		"alignment": "Evil",
 		"source": [
@@ -12510,6 +12725,7 @@
 		"id": "great_beast",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Great Beast",
 		"alignment": "Evil",
 		"source": [
@@ -12555,6 +12771,7 @@
 		"id": "gorgoroth_beast",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Great Beast of Gorgoroth",
 		"alignment": "Evil",
 		"source": [
@@ -12574,6 +12791,7 @@
 	"Great Eagle": {
 		"id": "great_eagle",
 		"version": "2024",
+		"language": "en",
 		"name":  "Great Eagle",
 		"alignment": "Good",
 		"source": [
@@ -12630,6 +12848,7 @@
 		],
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Great Eagle (Radagast)",
 		"alignment": "Good",
 		"source": [
@@ -12685,6 +12904,7 @@
 		"id": "great_elk",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Great Elk",
 		"alignment": "Good",
 		"source": [
@@ -12722,6 +12942,7 @@
 	"Grim Hammer Captain": {
 		"id": "captain_grim_hammer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grim Hammer Captain",
 		"alignment": "Good",
 		"source": [
@@ -12779,6 +13000,7 @@
 	"Grim Hammer Warrior": {
 		"id": "warrior_grim_hammer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grim Hammer Warrior",
 		"alignment": "Good",
 		"source": [
@@ -12828,6 +13050,7 @@
 	"Gríma Wormtongue": {
 		"id": "grima",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gríma Wormtongue",
 		"alignment": "Evil",
 		"source": [
@@ -12878,6 +13101,7 @@
 	"Grimbeorn": {
 		"id": "grimbeorn",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grimbeorn",
 		"alignment": "Good",
 		"source": [
@@ -12941,6 +13165,7 @@
 	"Grimbeorn the Bear": {
 		"id": "grimbeorn_bear",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grimbeorn the Bear",
 		"linkedProfile": [
 			"Grimbeorn"
@@ -13007,6 +13232,7 @@
 	"Grimbold of Grimslade": {
 		"id": "grimbold",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grimbold of Grimslade",
 		"alignment": "Good",
 		"source": [
@@ -13068,6 +13294,7 @@
 	"Grinnah, Goblin Jailer": {
 		"id": "grinnah",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grinnah, Goblin Jailer",
 		"alignment": "Evil",
 		"source": [
@@ -13126,6 +13353,7 @@
 		"id": "grip_fang_wolf",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grip, Fang and Wolf",
 		"linkedProfile": [
 			"Farmer Maggot"
@@ -13175,6 +13403,7 @@
 	"Grishnákh, Orc Captain": {
 		"id": "grishnakh",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grishnákh, Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -13231,6 +13460,7 @@
 	"Grôblog": {
 		"id": "groblog",
 		"version": "2024",
+		"language": "en",
 		"name":  "Grôblog",
 		"alignment": "Evil",
 		"source": [
@@ -13290,6 +13520,7 @@
 	"Guard of the Fountain Court": {
 		"id": "fountain_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Guard of the Fountain Court",
 		"alignment": "Good",
 		"source": [
@@ -13341,6 +13572,7 @@
 	"Guard of the Galadhrim Court": {
 		"id": "guard_galadhrim",
 		"version": "2024",
+		"language": "en",
 		"name":  "Guard of the Galadhrim Court",
 		"alignment": "Good",
 		"source": [
@@ -13395,6 +13627,7 @@
 	"Gûlavhar, the Terror of Arnor": {
 		"id": "gulavhar",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gûlavhar, the Terror of Arnor",
 		"alignment": "Evil",
 		"source": [
@@ -13457,6 +13690,7 @@
 	"Gundabad Berserker": {
 		"id": "gundabad_berserker",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gundabad Berserker",
 		"alignment": "Evil",
 		"source": [
@@ -13512,6 +13746,7 @@
 	"Gundabad Catapult Troll": {
 		"id": "catapult_troll_gundabad",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gundabad Catapult Troll",
 		"alignment": "Evil",
 		"source": [
@@ -13573,6 +13808,7 @@
 	"Gundabad Ogre": {
 		"id": "gundabad_ogre",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gundabad Ogre",
 		"alignment": "Evil",
 		"source": [
@@ -13621,6 +13857,7 @@
 	"Gundabad Orc Captain": {
 		"id": "captain_gundabad_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gundabad Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -13679,6 +13916,7 @@
 	"Gundabad Orc Warrior": {
 		"id": "warrior_gundabad_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gundabad Orc Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -13748,6 +13986,7 @@
 	"Gundabad Troll": {
 		"id": "gundabad_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gundabad Troll",
 		"alignment": "Evil",
 		"source": [
@@ -13805,6 +14044,7 @@
 	"Guritz, Master of Reserves": {
 		"id": "guritz",
 		"version": "2024",
+		"language": "en",
 		"name":  "Guritz, Master of Reserves",
 		"alignment": "Evil",
 		"source": [
@@ -13864,6 +14104,7 @@
 	"Gwaihir": {
 		"id": "gwaihir",
 		"version": "2024",
+		"language": "en",
 		"name":  "Gwaihir",
 		"alignment": "Good",
 		"source": [
@@ -13928,6 +14169,7 @@
 	"Halbarad": {
 		"id": "halbarad",
 		"version": "2024",
+		"language": "en",
 		"name":  "Halbarad",
 		"alignment": "Good",
 		"source": [
@@ -13993,6 +14235,7 @@
 	"Haldir, Galadhrim Captain": {
 		"id": "haldir",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haldir, Galadhrim Captain",
 		"alignment": "Good",
 		"source": [
@@ -14064,6 +14307,7 @@
 	"Haleth, Prince of Rohan": {
 		"id": "haleth_prince",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haleth, Prince of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -14133,6 +14377,7 @@
 	"Haleth, Son of Háma": {
 		"id": "haleth",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haleth, Son of Háma",
 		"alignment": "Good",
 		"source": [
@@ -14193,6 +14438,7 @@
 	"Half Troll": {
 		"id": "half_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Half Troll",
 		"alignment": "Evil",
 		"source": [
@@ -14248,6 +14494,7 @@
 	"Háma, Captain of Rohan": {
 		"id": "hama_captain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Háma, Captain of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -14306,6 +14553,7 @@
 	"Háma, Prince of Rohan": {
 		"id": "hama_prince",
 		"version": "2024",
+		"language": "en",
 		"name":  "Háma, Prince of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -14374,6 +14622,7 @@
 	"Hamfast ’Gaffer’ Gamgee": {
 		"id": "hamfast_gamgee",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hamfast ’Gaffer’ Gamgee",
 		"alignment": "Good",
 		"source": [
@@ -14425,6 +14674,7 @@
 	"Haradrim Chieftain": {
 		"id": "haradrim_chieftain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haradrim Chieftain",
 		"alignment": "Evil",
 		"source": [
@@ -14489,6 +14739,7 @@
 		"id": "haradrim_commander",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haradrim Commander",
 		"alignment": "Evil",
 		"source": [
@@ -14539,6 +14790,7 @@
 	"Haradrim King": {
 		"id": "king_haradrim",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haradrim King",
 		"alignment": "Evil",
 		"source": [
@@ -14601,6 +14853,7 @@
 	"Haradrim Raider": {
 		"id": "raider_haradrim",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haradrim Raider",
 		"alignment": "Evil",
 		"source": [
@@ -14672,6 +14925,7 @@
 	"Haradrim Taskmaster": {
 		"id": "taskmaster_haradrim",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haradrim Taskmaster",
 		"alignment": "Evil",
 		"source": [
@@ -14729,6 +14983,7 @@
 	"Haradrim Warrior": {
 		"id": "warrior_haradrim",
 		"version": "2024",
+		"language": "en",
 		"name":  "Haradrim Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -14797,6 +15052,7 @@
 	"Hâsharin": {
 		"id": "hasharin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hâsharin",
 		"alignment": "Evil",
 		"source": [
@@ -14860,6 +15116,7 @@
 	"Helm Hammerhand, King of Rohan": {
 		"id": "helm_hammerhand",
 		"version": "2024",
+		"language": "en",
 		"name":  "Helm Hammerhand, King of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -14934,6 +15191,7 @@
 	"Helm Hammerhand, Wraith of the Hornburg": {
 		"id": "helm_hammerhand_wraith",
 		"version": "2024",
+		"language": "en",
 		"name":  "Helm Hammerhand, Wraith of the Hornburg",
 		"alignment": "Good",
 		"source": [
@@ -14998,6 +15256,7 @@
 	"Héra, Daughter of Helm": {
 		"id": "hera",
 		"version": "2024",
+		"language": "en",
 		"name":  "Héra, Daughter of Helm",
 		"alignment": "Good",
 		"source": [
@@ -15066,6 +15325,7 @@
 	"Héra, the Bride of Death": {
 		"id": "hera_bride",
 		"version": "2024",
+		"language": "en",
 		"name":  "Héra, the Bride of Death",
 		"alignment": "Good",
 		"source": [
@@ -15133,6 +15393,7 @@
 		"id": "herald",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Herald",
 		"alignment": "Good",
 		"source": [
@@ -15190,6 +15451,7 @@
 	"Herald of the Dead": {
 		"id": "herald_dead",
 		"version": "2024",
+		"language": "en",
 		"name":  "Herald of the Dead",
 		"alignment": "Good",
 		"source": [
@@ -15250,6 +15512,7 @@
 	"Hilda-Bianca": {
 		"id": "hilda_bianca",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hilda-Bianca",
 		"alignment": "Good",
 		"source": [
@@ -15302,6 +15565,7 @@
 	"Hill Tribes Chieftain": {
 		"id": "chieftain_hill_tribes",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hill Tribes Chieftain",
 		"alignment": "Evil",
 		"source": [
@@ -15363,6 +15627,7 @@
 	"Hill Tribesman": {
 		"id": "hilltribesman",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hill Tribesman",
 		"alignment": "Evil",
 		"source": [
@@ -15438,6 +15703,7 @@
 	"Hill Troll": {
 		"id": "hill_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hill Troll",
 		"alignment": "Evil",
 		"source": [
@@ -15485,6 +15751,7 @@
 	"Hobbit Archer": {
 		"id": "hobbit_archer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hobbit Archer",
 		"alignment": "Good",
 		"source": [
@@ -15539,6 +15806,7 @@
 	"Hobbit Militia": {
 		"id": "hobbit_militia",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hobbit Militia",
 		"alignment": "Good",
 		"source": [
@@ -15583,6 +15851,7 @@
 	"Hobbit Shirriff": {
 		"id": "hobbit_shirriff",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hobbit Shirriff",
 		"alignment": "Good",
 		"source": [
@@ -15628,6 +15897,7 @@
 	"Holfoot Bracegirdle, Shirriff-Leader": {
 		"id": "holfoot_bracegirdle",
 		"version": "2024",
+		"language": "en",
 		"name":  "Holfoot Bracegirdle, Shirriff-Leader",
 		"alignment": "Good",
 		"source": [
@@ -15684,6 +15954,7 @@
 		"id": "horse",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Horse",
 		"alignment": "Neither",
 		"source": [
@@ -15718,6 +15989,7 @@
 		"id": "howdah_greatBeast",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Howdah (Great Beast of Gorgoroth)",
 		"alignment": "Evil",
 		"source": [
@@ -15745,6 +16017,7 @@
 		"id": "howdah_royal",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Howdah (Royal War Mûmak)",
 		"alignment": "Evil",
 		"source": [
@@ -15770,6 +16043,7 @@
 		"id": "howdah",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Howdah (War Mûmak of Harad)",
 		"alignment": "Evil",
 		"source": [
@@ -15794,6 +16068,7 @@
 	"Hunter Orc Captain": {
 		"id": "captain_hunter_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hunter Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -15862,6 +16137,7 @@
 	"Hunter Orc Warg Rider": {
 		"id": "warg_rider_hunter_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hunter Orc Warg Rider",
 		"alignment": "Evil",
 		"source": [
@@ -15923,6 +16199,7 @@
 	"Hunter Orc Warrior": {
 		"id": "warrior_hunter_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Hunter Orc Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -15981,6 +16258,7 @@
 	"Húrin the Tall, Warden of the Keys": {
 		"id": "hurin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Húrin the Tall, Warden of the Keys",
 		"alignment": "Good",
 		"source": [
@@ -16045,6 +16323,7 @@
 	"Ingold, Warden of the Rammas Echor": {
 		"id": "ingold",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ingold, Warden of the Rammas Echor",
 		"alignment": "Good",
 		"source": [
@@ -16105,6 +16384,7 @@
 	"Irolas, Captain of the Guard": {
 		"id": "irolas",
 		"version": "2024",
+		"language": "en",
 		"name":  "Irolas, Captain of the Guard",
 		"alignment": "Good",
 		"source": [
@@ -16163,6 +16443,7 @@
 	"Iron Guard": {
 		"id": "iron_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Iron Guard",
 		"alignment": "Good",
 		"source": [
@@ -16213,6 +16494,7 @@
 		"id": "ironhills_ballista",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Iron Hills Ballista",
 		"alignment": "Good",
 		"source": [
@@ -16232,6 +16514,7 @@
 		"id": "ironhills_ballista_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Iron Hills Ballista (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -16260,6 +16543,7 @@
 	"Iron Hills Captain": {
 		"id": "captain_iron_hills",
 		"version": "2024",
+		"language": "en",
 		"name":  "Iron Hills Captain",
 		"alignment": "Good",
 		"source": [
@@ -16333,6 +16617,8 @@
 		"alias": [
 			"Iron Hills Chariot (if the Captain dismounts from the Iron Hills Chariot, do not remove the Chariot from play. The Chariot will remain in play as a standard Iron Hills Chariot with the same number of Wounds remaining as it had before the Iron Hills Captain dismounted)"
 		],
+		"version": "2024",
+		"language": "en",
 		"name": "Iron Hills Chariot",
 		"alignment": "Good",
 		"source": [
@@ -16383,6 +16669,7 @@
 	"Iron Hills Goat Rider": {
 		"id": "goat_rider_iron_hills",
 		"version": "2024",
+		"language": "en",
 		"name":  "Iron Hills Goat Rider",
 		"alignment": "Good",
 		"source": [
@@ -16440,6 +16727,7 @@
 		"id": "siege_crew_iron_hills",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Iron Hills Siege Crew",
 		"alignment": "Good",
 		"source": [
@@ -16482,6 +16770,7 @@
 	"Iron Hills Warrior": {
 		"id": "warrior_iron_hills",
 		"version": "2024",
+		"language": "en",
 		"name":  "Iron Hills Warrior",
 		"alignment": "Good",
 		"source": [
@@ -16556,6 +16845,7 @@
 		"id": "ironshield_bearer",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Iron Shield Bearer",
 		"alignment": "Good",
 		"source": [
@@ -16602,6 +16892,7 @@
 		"id": "isengard_ballista",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isengard Assault Ballista",
 		"alignment": "Evil",
 		"source": [
@@ -16621,6 +16912,7 @@
 		"id": "isengard_ballista_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isengard Assault Ballista (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -16649,6 +16941,7 @@
 	"Isengard Orc Captain": {
 		"id": "captain_isengard_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isengard Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -16709,6 +17002,7 @@
 	"Isengard Orc Shaman": {
 		"id": "shaman_iengard_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isengard Orc Shaman",
 		"alignment": "Evil",
 		"source": [
@@ -16786,6 +17080,7 @@
 	"Isengard Orc Warrior": {
 		"id": "warrior_isengard_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isengard Orc Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -16856,6 +17151,7 @@
 	"Isengard Troll": {
 		"id": "isengard_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isengard Troll",
 		"alignment": "Evil",
 		"source": [
@@ -16920,6 +17216,7 @@
 	"Isengard Warg": {
 		"id": "warg_isengard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isengard Warg",
 		"alignment": "Evil",
 		"source": [
@@ -16961,6 +17258,7 @@
 	"Isengard Warg Rider": {
 		"id": "warg_rider_isengard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isengard Warg Rider",
 		"alignment": "Evil",
 		"source": [
@@ -17030,6 +17328,7 @@
 	"Isildur, Prince of Númenor": {
 		"id": "isildur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Isildur, Prince of Númenor",
 		"alignment": "Good",
 		"source": [
@@ -17098,6 +17397,7 @@
 	"Kardûsh the Firecaller": {
 		"id": "kardush",
 		"version": "2024",
+		"language": "en",
 		"name":  "Kardûsh the Firecaller",
 		"alignment": "Evil",
 		"source": [
@@ -17166,6 +17466,7 @@
 	"Khamûl the Easterling": {
 		"id": "khamul",
 		"version": "2024",
+		"language": "en",
 		"name":  "Khamûl the Easterling",
 		"alignment": "Evil",
 		"source": [
@@ -17270,6 +17571,7 @@
 		],
 		"type": "Chariot",
 		"version": "2024",
+		"language": "en",
 		"name":  "Khandish Chariot",
 		"linkedProfile": [
 			"Khandish King"
@@ -17310,6 +17612,7 @@
 	"Khandish Charioteer": {
 		"id": "charioteer_kandish",
 		"version": "2024",
+		"language": "en",
 		"name":  "Khandish Charioteer",
 		"alignment": "Evil",
 		"source": [
@@ -17367,6 +17670,7 @@
 	"Khandish Chieftain": {
 		"id": "chieftain_kandish",
 		"version": "2024",
+		"language": "en",
 		"name":  "Khandish Chieftain",
 		"alignment": "Evil",
 		"source": [
@@ -17427,6 +17731,7 @@
 	"Khandish Horseman": {
 		"id": "horseman_kandish",
 		"version": "2024",
+		"language": "en",
 		"name":  "Khandish Horseman",
 		"alignment": "Evil",
 		"source": [
@@ -17479,6 +17784,7 @@
 	"Khandish King": {
 		"id": "king_kandish",
 		"version": "2024",
+		"language": "en",
 		"name":  "Khandish King",
 		"alignment": "Evil",
 		"source": [
@@ -17544,6 +17850,7 @@
 	"Khandish Warrior": {
 		"id": "warrior_kandish",
 		"version": "2024",
+		"language": "en",
 		"name":  "Khandish Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -17597,6 +17904,7 @@
 	"Khazâd Guard": {
 		"id": "khazad_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Khazâd Guard",
 		"alignment": "Good",
 		"source": [
@@ -17647,6 +17955,7 @@
 	"Kíli the Dwarf": {
 		"id": "kili_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Kíli the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -17706,6 +18015,7 @@
 	"Kíli the Dwarf, Champion of Erebor": {
 		"id": "kili_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Kíli the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -17763,6 +18073,7 @@
 	"King of Men": {
 		"id": "king_men",
 		"version": "2024",
+		"language": "en",
 		"name":  "King of Men",
 		"linkedProfile": [
 			"King of Men (Arnor)",
@@ -17844,6 +18155,7 @@
 	"King of Men (Arnor)": {
 		"id": "king_men_arnor",
 		"version": "2024",
+		"language": "en",
 		"name":  "King of Men (Arnor)",
 		"linkedProfile": [
 			"King of Men"
@@ -17921,6 +18233,7 @@
 	"King of Men (Dale)": {
 		"id": "king_men_dale",
 		"version": "2024",
+		"language": "en",
 		"name":  "King of Men (Dale)",
 		"linkedProfile": [
 			"King of Men"
@@ -17998,6 +18311,7 @@
 	"King of Men (Gondor)": {
 		"id": "king_men_gondor",
 		"version": "2024",
+		"language": "en",
 		"name":  "King of Men (Gondor)",
 		"linkedProfile": [
 			"King of Men"
@@ -18077,6 +18391,7 @@
 	"King of Men (Númenor)": {
 		"id": "king_men_numenor",
 		"version": "2024",
+		"language": "en",
 		"name":  "King of Men (Númenor)",
 		"linkedProfile": [
 			"King of Men"
@@ -18154,6 +18469,7 @@
 	"King of Men (Rohan)": {
 		"id": "king_men_rohan",
 		"version": "2024",
+		"language": "en",
 		"name":  "King of Men (Rohan)",
 		"linkedProfile": [
 			"King of Men"
@@ -18235,6 +18551,7 @@
 		"id": "kings_champion",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "King’s Champion",
 		"alignment": "Good",
 		"source": [
@@ -18254,6 +18571,7 @@
 		"id": "kings_champion_hero",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "King’s Champion (Hero)",
 		"alignment": "Good",
 		"source": [
@@ -18308,6 +18626,7 @@
 	"King’s Huntsman": {
 		"id": "kings_huntman",
 		"version": "2024",
+		"language": "en",
 		"name":  "King’s Huntsman",
 		"alignment": "Good",
 		"source": [
@@ -18366,6 +18685,7 @@
 	"Knight of Arnor": {
 		"id": "knight_arnor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Knight of Arnor",
 		"alignment": "Good",
 		"source": [
@@ -18421,6 +18741,7 @@
 	"Knight of Dale": {
 		"id": "knight_dale",
 		"version": "2024",
+		"language": "en",
 		"name":  "Knight of Dale",
 		"alignment": "Good",
 		"source": [
@@ -18473,6 +18794,7 @@
 	"Knight of Dol Amroth": {
 		"id": "knight_dolamroth",
 		"version": "2024",
+		"language": "en",
 		"name":  "Knight of Dol Amroth",
 		"alignment": "Good",
 		"source": [
@@ -18551,6 +18873,7 @@
 	"Knight of Minas Tirith": {
 		"id": "knight_minas_tirith",
 		"version": "2024",
+		"language": "en",
 		"name":  "Knight of Minas Tirith",
 		"alignment": "Good",
 		"source": [
@@ -18613,6 +18936,7 @@
 	"Knight of the White Tower": {
 		"id": "knight_white_tower",
 		"version": "2024",
+		"language": "en",
 		"name":  "Knight of the White Tower",
 		"alignment": "Good",
 		"source": [
@@ -18670,6 +18994,7 @@
 	"Lake-town Guard": {
 		"id": "laketown_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lake-town Guard",
 		"alignment": "Good",
 		"source": [
@@ -18728,6 +19053,7 @@
 	"Lake-town Guard Captain": {
 		"id": "captain_laketown_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lake-town Guard Captain",
 		"alignment": "Good",
 		"source": [
@@ -18782,6 +19108,7 @@
 	"Lake-town Militia": {
 		"id": "laketown_militia",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lake-town Militia",
 		"alignment": "Good",
 		"source": [
@@ -18845,6 +19172,7 @@
 	"Lake-town Militia Captain": {
 		"id": "captain_laketown_militia",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lake-town Militia Captain",
 		"alignment": "Good",
 		"source": [
@@ -18902,6 +19230,7 @@
 	"Legolas Greenleaf": {
 		"id": "legolas_greenleaf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Legolas Greenleaf",
 		"alignment": "Good",
 		"source": [
@@ -18976,6 +19305,7 @@
 	"Legolas Greenleaf, Prince of Mirkwood": {
 		"id": "legolas_greenleaf_mirkwood",
 		"version": "2024",
+		"language": "en",
 		"name":  "Legolas Greenleaf, Prince of Mirkwood",
 		"alignment": "Good",
 		"source": [
@@ -19053,6 +19383,7 @@
 	"Lief, Page of Helm": {
 		"id": "lief",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lief, Page of Helm",
 		"alignment": "Good",
 		"source": [
@@ -19115,6 +19446,7 @@
 	"Lindir of Rivendell": {
 		"id": "lindir",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lindir of Rivendell",
 		"alignment": "Good",
 		"source": [
@@ -19185,6 +19517,7 @@
 	"Lobelia Sackville-Baggins": {
 		"id": "lobelia",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lobelia Sackville-Baggins",
 		"alignment": "Good",
 		"source": [
@@ -19237,6 +19570,7 @@
 	"Lord Thorne of the Wold": {
 		"id": "lord_thorne",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lord Thorne of the Wold",
 		"alignment": "Evil",
 		"source": [
@@ -19294,6 +19628,7 @@
 	"Lothlórien Captain": {
 		"id": "captian_lothlorien",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lothlórien Captain",
 		"alignment": "Good",
 		"source": [
@@ -19351,6 +19686,7 @@
 	"Lothlórien Stormcaller": {
 		"id": "lothlórien_stormcaller",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lothlórien Stormcaller",
 		"alignment": "Good",
 		"source": [
@@ -19423,6 +19759,7 @@
 	"Lothlórien Warrior": {
 		"id": "warrior_lothlorien",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lothlórien Warrior",
 		"alignment": "Good",
 		"source": [
@@ -19491,6 +19828,7 @@
 	"Lotho Sackville-Baggins": {
 		"id": "lotho_sackville_baggins",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lotho Sackville-Baggins",
 		"alignment": "Good",
 		"source": [
@@ -19543,6 +19881,7 @@
 	"Lurtz, Uruk-hai Scout Captain": {
 		"id": "lurtz",
 		"version": "2024",
+		"language": "en",
 		"name":  "Lurtz, Uruk-hai Scout Captain",
 		"alignment": "Evil",
 		"source": [
@@ -19613,6 +19952,7 @@
 	"Mablung, Ranger of Ithilien": {
 		"id": "mablung",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mablung, Ranger of Ithilien",
 		"alignment": "Good",
 		"source": [
@@ -19672,6 +20012,7 @@
 	"Madril, Captain of Ithilien": {
 		"id": "madril",
 		"version": "2024",
+		"language": "en",
 		"name":  "Madril, Captain of Ithilien",
 		"alignment": "Good",
 		"source": [
@@ -19732,6 +20073,7 @@
 	"Mahûd Beastmaster Chieftain": {
 		"id": "mahud_beastmaster",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mahûd Beastmaster Chieftain",
 		"linkedProfile": [
 			"War Mûmak of Harad"
@@ -19789,6 +20131,7 @@
 	"Mahûd King": {
 		"id": "king_mahud",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mahûd King",
 		"alignment": "Evil",
 		"source": [
@@ -19851,6 +20194,7 @@
 	"Mahûd Raider": {
 		"id": "raider_mahud",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mahûd Raider",
 		"alignment": "Evil",
 		"source": [
@@ -19916,6 +20260,7 @@
 	"Mahûd Tribesmaster": {
 		"id": "tribesmaster_mahud",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mahûd Tribesmaster",
 		"alignment": "Evil",
 		"source": [
@@ -19990,6 +20335,7 @@
 	"Mahûd Warrior": {
 		"id": "warrior_mahud",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mahûd Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -20052,6 +20398,7 @@
 	"Malbeth the Seer": {
 		"id": "malbeth",
 		"version": "2024",
+		"language": "en",
 		"name":  "Malbeth the Seer",
 		"alignment": "Good",
 		"source": [
@@ -20105,6 +20452,7 @@
 	"Man-at-arms of Dol Amroth": {
 		"id": "manatarms_dolamroth",
 		"version": "2024",
+		"language": "en",
 		"name":  "Man-at-arms of Dol Amroth",
 		"alignment": "Good",
 		"source": [
@@ -20155,6 +20503,7 @@
 	"Mardin, the King’s Ward": {
 		"id": "mardin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mardin, the King’s Ward",
 		"alignment": "Good",
 		"source": [
@@ -20212,6 +20561,7 @@
 	"Mauhûr": {
 		"id": "mauhur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mauhûr",
 		"alignment": "Evil",
 		"source": [
@@ -20268,6 +20618,7 @@
 	"Meriadoc Brandybuck": {
 		"id": "meriadoc_brandybuck",
 		"version": "2024",
+		"language": "en",
 		"name":  "Meriadoc Brandybuck",
 		"linkedProfile": [
 			"Treebeard"
@@ -20328,6 +20679,7 @@
 	"Meriadoc Brandybuck, Captain of the Shire": {
 		"id": "meriadoc_brandybuck_captain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Meriadoc Brandybuck, Captain of the Shire",
 		"alignment": "Good",
 		"source": [
@@ -20407,6 +20759,7 @@
 	"Meriadoc Brandybuck, Esquire of Rohan": {
 		"id": "meriadoc_brandybuck_rohan",
 		"version": "2024",
+		"language": "en",
 		"name":  "Meriadoc Brandybuck, Esquire of Rohan",
 		"linkedProfile": [
 			"Éowyn, Shieldmaiden of Rohan"
@@ -20477,6 +20830,7 @@
 		"id": "siege_crew_minas_tirith",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Minas Tirith Siege Crew",
 		"alignment": "Good",
 		"source": [
@@ -20523,6 +20877,7 @@
 	"Mirkwood Elf Captain": {
 		"id": "captain_mirkwood",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mirkwood Elf Captain",
 		"alignment": "Good",
 		"source": [
@@ -20577,6 +20932,7 @@
 	"Mirkwood Elf Knight": {
 		"id": "knight_mirkwood",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mirkwood Elf Knight",
 		"alignment": "Good",
 		"source": [
@@ -20629,6 +20985,7 @@
 	"Mirkwood Elf Warrior": {
 		"id": "warrior_mirkwood",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mirkwood Elf Warrior",
 		"alignment": "Good",
 		"source": [
@@ -20692,6 +21049,7 @@
 	"Mirkwood Giant Spider": {
 		"id": "mirkwood_giant_spider",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mirkwood Giant Spider",
 		"alignment": "Evil",
 		"source": [
@@ -20739,6 +21097,7 @@
 	"Mirkwood Hunting Spider": {
 		"id": "mirkwood_hunting_spider",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mirkwood Hunting Spider",
 		"alignment": "Evil",
 		"source": [
@@ -20787,6 +21146,7 @@
 	"Mirkwood Ranger": {
 		"id": "mirkwood_ranger",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mirkwood Ranger",
 		"alignment": "Good",
 		"source": [
@@ -20838,6 +21198,7 @@
 	"Mirkwood Ranger Captain": {
 		"id": "captain_Mirkwood_ranger",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mirkwood Ranger Captain",
 		"alignment": "Good",
 		"source": [
@@ -20897,6 +21258,7 @@
 	"Morannon Orc Captain": {
 		"id": "captain_morannon_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Morannon Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -20961,6 +21323,7 @@
 	"Morannon Orc Warrior": {
 		"id": "warrior_morannon_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Morannon Orc Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -21029,6 +21392,7 @@
 	"Mordor Orc Captain": {
 		"id": "captain_mordor_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -21083,6 +21447,7 @@
 	"Mordor Orc Drummer": {
 		"id": "drummer_mordor_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Orc Drummer",
 		"alignment": "Evil",
 		"source": [
@@ -21134,6 +21499,7 @@
 	"Mordor Orc Shaman": {
 		"id": "shaman_mordor_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Orc Shaman",
 		"alignment": "Evil",
 		"source": [
@@ -21212,6 +21578,7 @@
 		"id": "siege_crew_mordor_orc",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Orc Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -21258,6 +21625,7 @@
 	"Mordor Orc Taskmaster": {
 		"id": "taskmaster_mordor_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Orc Taskmaster",
 		"alignment": "Evil",
 		"source": [
@@ -21315,6 +21683,7 @@
 	"Mordor Orc Warrior": {
 		"id": "warrior_mordor_orc",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Orc Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -21386,6 +21755,7 @@
 		"id": "siege_bow_mordor",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Siege Bow",
 		"alignment": "Evil",
 		"source": [
@@ -21405,6 +21775,7 @@
 		"id": "siege_bow__mordor_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Siege Bow (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -21441,6 +21812,7 @@
 		"id": "siege_crew_mordor_troll",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Siege Troll",
 		"alignment": "Evil",
 		"source": [
@@ -21485,6 +21857,7 @@
 	"Mordor Troll": {
 		"id": "mordor_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Troll",
 		"alignment": "Evil",
 		"source": [
@@ -21540,6 +21913,7 @@
 	"Mordor Troll Chieftain": {
 		"id": "mordor_troll_chieftain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Troll Chieftain",
 		"alignment": "Evil",
 		"source": [
@@ -21598,6 +21972,7 @@
 	"Mordor Uruk-hai": {
 		"id": "mordor_urukhai",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Uruk-hai",
 		"alignment": "Evil",
 		"source": [
@@ -21650,6 +22025,7 @@
 	"Mordor Uruk-hai Captain": {
 		"id": "captain_mordor_urukhai",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Uruk-hai Captain",
 		"alignment": "Evil",
 		"source": [
@@ -21711,6 +22087,7 @@
 		"id": "war_catapult_mordor",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor War Catapult",
 		"alignment": "Evil",
 		"source": [
@@ -21731,6 +22108,7 @@
 		"id": "war_catapult_mordor_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor War Catapult (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -21771,6 +22149,7 @@
 	"Mordor Warg Rider": {
 		"id": "wargrider_mordor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mordor Warg Rider",
 		"alignment": "Evil",
 		"source": [
@@ -21840,6 +22219,7 @@
 	"Morgul Stalker": {
 		"id": "morgul_stalker",
 		"version": "2024",
+		"language": "en",
 		"name":  "Morgul Stalker",
 		"alignment": "Evil",
 		"source": [
@@ -21886,6 +22266,7 @@
 	"Moria Blackshield Captain": {
 		"id": "captain_blackshield",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Blackshield Captain",
 		"alignment": "Evil",
 		"source": [
@@ -21942,6 +22323,7 @@
 		"id": "drum_blackshield",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Blackshield Drum",
 		"alignment": "Evil",
 		"source": [
@@ -21963,6 +22345,7 @@
 	"Moria Blackshield Drummer": {
 		"id": "drummer_blackshield",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Blackshield Drummer",
 		"alignment": "Evil",
 		"source": [
@@ -22009,6 +22392,7 @@
 	"Moria Blackshield Shaman": {
 		"id": "shaman_blackshield",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Blackshield Shaman",
 		"alignment": "Evil",
 		"source": [
@@ -22076,6 +22460,7 @@
 	"Moria Blackshield Warrior": {
 		"id": "warrior_blackshield",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Blackshield Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -22133,6 +22518,7 @@
 	"Moria Goblin Captain": {
 		"id": "captain_moria_goblin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Goblin Captain",
 		"alignment": "Evil",
 		"source": [
@@ -22194,6 +22580,7 @@
 		"id": "moria_goblin_drum",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Goblin Drum",
 		"alignment": "Evil",
 		"source": [
@@ -22217,6 +22604,7 @@
 		"id": "moria_goblin_drummer",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Goblin Drummer",
 		"alignment": "Evil",
 		"source": [
@@ -22262,6 +22650,7 @@
 	"Moria Goblin Prowler": {
 		"id": "moria_goblin_prowler",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Goblin Prowler",
 		"alignment": "Evil",
 		"source": [
@@ -22313,6 +22702,7 @@
 	"Moria Goblin Shaman": {
 		"id": "moria_goblin_shaman",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Goblin Shaman",
 		"alignment": "Evil",
 		"source": [
@@ -22387,6 +22777,7 @@
 	"Moria Goblin Warrior": {
 		"id": "warrior_moria_goblin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Moria Goblin Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -22451,6 +22842,7 @@
 		"id": "mumak",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mûmak",
 		"alignment": "Evil",
 		"source": [
@@ -22527,6 +22919,7 @@
 		"id": "mumak_war_leader",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mûmak War Leader",
 		"alignment": "Evil",
 		"source": [
@@ -22547,6 +22940,7 @@
 		"id": "mumak_leader_hero",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Mûmak War Leader (Hero)",
 		"alignment": "Evil",
 		"source": [
@@ -22606,6 +23000,7 @@
 		"id": "murin",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Múrin",
 		"alignment": "Good",
 		"source": [
@@ -22664,6 +23059,7 @@
 		"id": "murin_drar",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Múrin & Drár",
 		"alignment": "Good",
 		"source": [
@@ -22682,6 +23078,7 @@
 	"Muzgúr, Orc Shaman": {
 		"id": "muzgur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Muzgúr, Orc Shaman",
 		"alignment": "Evil",
 		"source": [
@@ -22758,6 +23155,7 @@
 	"Narzug, Hunter Orc Captain": {
 		"id": "narzug",
 		"version": "2024",
+		"language": "en",
 		"name":  "Narzug, Hunter Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -22818,6 +23216,7 @@
 	"Nazgûl of Dol Guldur": {
 		"id": "nazgul_dolguldur",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazgûl of Dol Guldur",
 		"linkedProfile": [
 			"Nazgûl of Dol Guldur: Khamûl the Easterling",
@@ -22884,6 +23283,7 @@
 	"Nazgûl of Dol Guldur: Khamûl the Easterling": {
 		"id": "nazgul_dolguldur_khamul",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazgûl of Dol Guldur: Khamûl the Easterling",
 		"linkedProfile": [
 			"Nazgûl of Dol Guldur"
@@ -22946,6 +23346,7 @@
 	"Nazgûl of Dol Guldur: The Abyssal Knight": {
 		"id": "nazgul_dolguldur_abyssal_knight",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazgûl of Dol Guldur: The Abyssal Knight",
 		"linkedProfile": [
 			"Nazgûl of Dol Guldur"
@@ -23009,6 +23410,7 @@
 	"Nazgûl of Dol Guldur: The Dark Headsman": {
 		"id": "nazgul_dolguldur_headsman",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazgûl of Dol Guldur: The Dark Headsman",
 		"linkedProfile": [
 			"Nazgûl of Dol Guldur"
@@ -23072,6 +23474,7 @@
 	"Nazgûl of Dol Guldur: The Forsaken": {
 		"id": "nazgul_dolguldur_forsaken",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazgûl of Dol Guldur: The Forsaken",
 		"linkedProfile": [
 			"Nazgûl of Dol Guldur"
@@ -23135,6 +23538,7 @@
 	"Nazgûl of Dol Guldur: The Lingering Shadow": {
 		"id": "nazgul_dolguldur_lingering_shadow",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazgûl of Dol Guldur: The Lingering Shadow",
 		"linkedProfile": [
 			"Nazgûl of Dol Guldur"
@@ -23198,6 +23602,7 @@
 	"Nazgûl of Dol Guldur: The Slayer of Men": {
 		"id": "nazgul_dolguldur_slayer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazgûl of Dol Guldur: The Slayer of Men",
 		"linkedProfile": [
 			"Nazgûl of Dol Guldur"
@@ -23261,6 +23666,7 @@
 	"Nazgûl of Dol Guldur: The Witch-king of Angmar": {
 		"id": "nazgul_dolguldur_witchking",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazgûl of Dol Guldur: The Witch-king of Angmar",
 		"linkedProfile": [
 			"Nazgûl of Dol Guldur"
@@ -23323,6 +23729,7 @@
 	"Nazthák, Orc Captain": {
 		"id": "nazthak",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nazthák, Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -23378,6 +23785,7 @@
 	"Nori the Dwarf": {
 		"id": "nori_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nori the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -23437,6 +23845,7 @@
 	"Nori the Dwarf, Champion of Erebor": {
 		"id": "nori_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Nori the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -23500,6 +23909,7 @@
 	"Óin the Dwarf": {
 		"id": "oin_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Óin the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -23556,6 +23966,7 @@
 	"Óin the Dwarf, Champion of Erebor": {
 		"id": "oin_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Óin the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -23619,6 +24030,7 @@
 	"Olwyn, Shieldmaiden of Rohan": {
 		"id": "olwyn",
 		"version": "2024",
+		"language": "en",
 		"name":  "Olwyn, Shieldmaiden of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -23688,6 +24100,7 @@
 		"id": "orc_commander_great_beast",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Orc Commander (Great Beast of Gorgoroth)",
 		"alignment": "Evil",
 		"source": [
@@ -23739,6 +24152,7 @@
 		"id": "orc_commander",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Orc Commander (Troll Brute)",
 		"alignment": "Evil",
 		"source": [
@@ -23793,6 +24207,7 @@
 	"Orc Tracker": {
 		"id": "orc_tracker",
 		"version": "2024",
+		"language": "en",
 		"name":  "Orc Tracker",
 		"alignment": "Evil",
 		"source": [
@@ -23839,6 +24254,7 @@
 	"Ori the Dwarf": {
 		"id": "ori_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ori the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -23893,6 +24309,7 @@
 	"Ori the Dwarf, Champion of Erebor": {
 		"id": "ori_dwarf_champion",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ori the Dwarf, Champion of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -23953,6 +24370,7 @@
 	"Orophin, Galadhrim Captain": {
 		"id": "orophin",
 		"version": "2024",
+		"language": "en",
 		"name":  "Orophin, Galadhrim Captain",
 		"alignment": "Good",
 		"source": [
@@ -24009,6 +24427,7 @@
 	"Osgiliath Veteran": {
 		"id": "osgiliath_veteran",
 		"version": "2024",
+		"language": "en",
 		"name":  "Osgiliath Veteran",
 		"alignment": "Good",
 		"source": [
@@ -24073,6 +24492,7 @@
 	"Palace Guard": {
 		"id": "palace_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Palace Guard",
 		"alignment": "Good",
 		"source": [
@@ -24139,6 +24559,7 @@
 	"Palace Guard Captain": {
 		"id": "captain_palace_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Palace Guard Captain",
 		"alignment": "Good",
 		"source": [
@@ -24202,6 +24623,7 @@
 	"Paladin Took, Thain of the Shire": {
 		"id": "paladin_took",
 		"version": "2024",
+		"language": "en",
 		"name":  "Paladin Took, Thain of the Shire",
 		"alignment": "Good",
 		"source": [
@@ -24263,6 +24685,7 @@
 	"Percy, Lake-town Archer": {
 		"id": "percy_laketown_archer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Percy, Lake-town Archer",
 		"alignment": "Good",
 		"source": [
@@ -24318,6 +24741,7 @@
 	"Peregrin Took": {
 		"id": "peregrin_took",
 		"version": "2024",
+		"language": "en",
 		"name":  "Peregrin Took",
 		"linkedProfile": [
 			"Treebeard"
@@ -24378,6 +24802,7 @@
 	"Peregrin Took, Captain of the Shire": {
 		"id": "peregrin_took_captain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Peregrin Took, Captain of the Shire",
 		"alignment": "Good",
 		"source": [
@@ -24451,6 +24876,7 @@
 	"Peregrin Took, Guard of the Citadel": {
 		"id": "peregrin_took_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Peregrin Took, Guard of the Citadel",
 		"linkedProfile": [
 			"Gandalf the White"
@@ -24517,6 +24943,7 @@
 		"id": "pony",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Pony",
 		"alignment": "Good",
 		"source": [
@@ -24553,6 +24980,7 @@
 	"Prince Imrahil of Dol Amroth": {
 		"id": "imrahil",
 		"version": "2024",
+		"language": "en",
 		"name":  "Prince Imrahil of Dol Amroth",
 		"alignment": "Good",
 		"source": [
@@ -24622,6 +25050,7 @@
 	"Radagast the Brown": {
 		"id": "radagast_brown",
 		"version": "2024",
+		"language": "en",
 		"name":  "Radagast the Brown",
 		"alignment": "Good",
 		"source": [
@@ -24735,6 +25164,7 @@
 		],
 		"type": "Chariot",
 		"version": "2024",
+		"language": "en",
 		"name":  "Radagast’s Sleigh",
 		"linkedProfile": [
 			"Radagast the Brown"
@@ -24776,6 +25206,7 @@
 	"Ranger of Arnor": {
 		"id": "ranger_arnor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ranger of Arnor",
 		"alignment": "Good",
 		"source": [
@@ -24842,6 +25273,7 @@
 	"Ranger of Gondor": {
 		"id": "ranger_gondor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ranger of Gondor",
 		"alignment": "Good",
 		"source": [
@@ -24908,6 +25340,7 @@
 	"Ranger of the North": {
 		"id": "ranger_north",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ranger of the North",
 		"alignment": "Good",
 		"source": [
@@ -24969,6 +25402,7 @@
 	"Râza, Fang of the Serpent": {
 		"id": "raza",
 		"version": "2024",
+		"language": "en",
 		"name":  "Râza, Fang of the Serpent",
 		"alignment": "Evil",
 		"source": [
@@ -25028,6 +25462,7 @@
 	"Razgûsh, War Leader of the North": {
 		"id": "razgush",
 		"version": "2024",
+		"language": "en",
 		"name":  "Razgûsh, War Leader of the North",
 		"alignment": "Evil",
 		"source": [
@@ -25090,6 +25525,7 @@
 	"Rider of Rohan": {
 		"id": "rider_rohan",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rider of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -25159,6 +25595,7 @@
 	"Rider of the Dead": {
 		"id": "rider_dead",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rider of the Dead",
 		"alignment": "Good",
 		"source": [
@@ -25213,6 +25650,7 @@
 	"Ringwraith": {
 		"id": "ringwraith",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ringwraith",
 		"linkedProfile": [
 			"Ringwraith (Option 1)",
@@ -25325,6 +25763,7 @@
 	"Ringwraith (Option 1)": {
 		"id": "ringwraith_1",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ringwraith (Option 1)",
 		"linkedProfile": [
 			"Ringwraith"
@@ -25435,6 +25874,7 @@
 	"Ringwraith (Option 2)": {
 		"id": "ringwraith_2",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ringwraith (Option 2)",
 		"linkedProfile": [
 			"Ringwraith"
@@ -25541,6 +25981,7 @@
 	"Ringwraith (Option 3)": {
 		"id": "ringwraith_3",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ringwraith (Option 3)",
 		"linkedProfile": [
 			"Ringwraith"
@@ -25647,6 +26088,7 @@
 	"Rivendell Captain": {
 		"id": "captain_rivendell",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rivendell Captain",
 		"alignment": "Good",
 		"source": [
@@ -25716,6 +26158,7 @@
 	"Rivendell Knight": {
 		"id": "knight_rivendell",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rivendell Knight",
 		"alignment": "Good",
 		"source": [
@@ -25788,6 +26231,7 @@
 	"Rivendell Stormcaller": {
 		"id": "rivendell_stormcaller",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rivendell Stormcaller",
 		"alignment": "Good",
 		"source": [
@@ -25860,6 +26304,7 @@
 	"Rivendell Warrior": {
 		"id": "warrior_rivendell",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rivendell Warrior",
 		"alignment": "Good",
 		"source": [
@@ -25932,6 +26377,7 @@
 	"Robin Smallburrow, Hobbit Shirriff": {
 		"id": "robin_smallburrow",
 		"version": "2024",
+		"language": "en",
 		"name":  "Robin Smallburrow, Hobbit Shirriff",
 		"alignment": "Good",
 		"source": [
@@ -25987,6 +26433,7 @@
 	"Rohan Outrider": {
 		"id": "rohan_outrider",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rohan Outrider",
 		"alignment": "Good",
 		"source": [
@@ -26043,6 +26490,7 @@
 	"Rohan Royal Guard": {
 		"id": "rohan_royal_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rohan Royal Guard",
 		"alignment": "Good",
 		"source": [
@@ -26113,6 +26561,7 @@
 	"Rohirrim Traitor": {
 		"id": "rohan_traitor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rohirrim Traitor",
 		"alignment": "Evil",
 		"source": [
@@ -26188,6 +26637,7 @@
 	"Rosie Cotton": {
 		"id": "rosie_cotton",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rosie Cotton",
 		"alignment": "Good",
 		"source": [
@@ -26241,6 +26691,7 @@
 	"Rowan Thistlewood": {
 		"id": "rowan_thistlewood",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rowan Thistlewood",
 		"alignment": "Evil",
 		"source": [
@@ -26296,6 +26747,7 @@
 		"id": "palanquin",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Royal Palanquin",
 		"alignment": "Evil",
 		"source": [
@@ -26347,6 +26799,7 @@
 		"id": "mumak_royal",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Royal War Mûmak",
 		"alignment": "Evil",
 		"source": [
@@ -26395,6 +26848,7 @@
 	"Ruffian": {
 		"id": "ruffian",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ruffian",
 		"alignment": "Evil",
 		"source": [
@@ -26451,6 +26905,7 @@
 	"Rúmil, Warden of Caras Galadhon": {
 		"id": "rumil",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rúmil, Warden of Caras Galadhon",
 		"alignment": "Good",
 		"source": [
@@ -26510,6 +26965,7 @@
 	"Rutabi, General of the Dragon Legion": {
 		"id": "rutabi",
 		"version": "2024",
+		"language": "en",
 		"name":  "Rutabi, General of the Dragon Legion",
 		"alignment": "Evil",
 		"source": [
@@ -26572,6 +27028,7 @@
 	"Samwise Gamgee": {
 		"id": "samwise_gamgee",
 		"version": "2024",
+		"language": "en",
 		"name":  "Samwise Gamgee",
 		"alignment": "Good",
 		"source": [
@@ -26636,6 +27093,7 @@
 	"Samwise the Brave": {
 		"id": "samwise_brave",
 		"version": "2024",
+		"language": "en",
 		"name":  "Samwise the Brave",
 		"alignment": "Good",
 		"source": [
@@ -26702,6 +27160,7 @@
 	"Saruman": {
 		"id": "saruman",
 		"version": "2024",
+		"language": "en",
 		"name":  "Saruman",
 		"alignment": "Evil",
 		"source": [
@@ -26808,6 +27267,7 @@
 	"Saruman the White": {
 		"id": "saruman_white",
 		"version": "2024",
+		"language": "en",
 		"name":  "Saruman the White",
 		"alignment": "Good",
 		"source": [
@@ -26900,6 +27360,7 @@
 	"Sauron, the Necromancer": {
 		"id": "sauron_necromancer",
 		"version": "2024",
+		"language": "en",
 		"name":  "Sauron, the Necromancer",
 		"alignment": "Evil",
 		"source": [
@@ -27008,6 +27469,7 @@
 	"Serpent Guard": {
 		"id": "serpent_guard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Serpent Guard",
 		"alignment": "Evil",
 		"source": [
@@ -27055,6 +27517,7 @@
 	"Serpent Rider": {
 		"id": "serpent_rider",
 		"version": "2024",
+		"language": "en",
 		"name":  "Serpent Rider",
 		"alignment": "Evil",
 		"source": [
@@ -27105,6 +27568,7 @@
 	"Shade": {
 		"id": "shade",
 		"version": "2024",
+		"language": "en",
 		"name":  "Shade",
 		"alignment": "Evil",
 		"source": [
@@ -27160,6 +27624,7 @@
 		"id": "shadowfax",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Shadowfax",
 		"alignment": "Good",
 		"source": [
@@ -27202,6 +27667,7 @@
 	"Shagrath, Captain of Cirith Ungol": {
 		"id": "shagrath",
 		"version": "2024",
+		"language": "en",
 		"name":  "Shagrath, Captain of Cirith Ungol",
 		"alignment": "Evil",
 		"source": [
@@ -27262,6 +27728,7 @@
 		"id": "shank",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Shank",
 		"alignment": "Evil",
 		"source": [
@@ -27318,6 +27785,7 @@
 		"id": "shank_wrot",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Shank & Wrot, Orc Scavengers",
 		"alignment": "Evil",
 		"source": [
@@ -27338,6 +27806,7 @@
 		"id": "sharkey",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Sharkey",
 		"alignment": "Evil",
 		"source": [
@@ -27411,6 +27880,7 @@
 		"id": "sharkey_worm",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Sharkey & Worm",
 		"alignment": "Evil",
 		"source": [
@@ -27429,6 +27899,7 @@
 	"Sharku, Warg Rider Captain": {
 		"id": "sharku",
 		"version": "2024",
+		"language": "en",
 		"name":  "Sharku, Warg Rider Captain",
 		"alignment": "Evil",
 		"source": [
@@ -27489,6 +27960,7 @@
 	"Shelob": {
 		"id": "shelob",
 		"version": "2024",
+		"language": "en",
 		"name":  "Shelob",
 		"alignment": "Evil",
 		"source": [
@@ -27550,6 +28022,7 @@
 	"Sid Briarthorn": {
 		"id": "sid_briarthorn",
 		"version": "2024",
+		"language": "en",
 		"name":  "Sid Briarthorn",
 		"alignment": "Evil",
 		"source": [
@@ -27609,6 +28082,7 @@
 		"id": "sigrid",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Sigrid",
 		"alignment": "Good",
 		"source": [
@@ -27658,6 +28132,7 @@
 	"Smaug": {
 		"id": "smaug",
 		"version": "2024",
+		"language": "en",
 		"name":  "Smaug",
 		"alignment": "Evil",
 		"source": [
@@ -27743,6 +28218,7 @@
 	"Sméagol": {
 		"id": "sméagol",
 		"version": "2024",
+		"language": "en",
 		"name":  "Sméagol",
 		"alignment": "Good",
 		"source": [
@@ -27796,6 +28272,7 @@
 	"Snaga, Orc Captain": {
 		"id": "snaga",
 		"version": "2024",
+		"language": "en",
 		"name":  "Snaga, Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -27852,6 +28329,7 @@
 		"id": "snowtroll",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Snow Troll",
 		"alignment": "Evil",
 		"source": [
@@ -27902,6 +28380,7 @@
 		],
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Snowmane",
 		"alignment": "Good",
 		"source": [
@@ -27939,6 +28418,7 @@
 	"Son of Eorl": {
 		"id": "son_eorl",
 		"version": "2024",
+		"language": "en",
 		"name":  "Son of Eorl",
 		"alignment": "Good",
 		"source": [
@@ -27994,6 +28474,7 @@
 		"id": "spectral_steed",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Spectral Steed",
 		"alignment": "Good",
 		"source": [
@@ -28031,6 +28512,7 @@
 	"Spectre": {
 		"id": "spectre",
 		"version": "2024",
+		"language": "en",
 		"name":  "Spectre",
 		"alignment": "Evil",
 		"source": [
@@ -28080,6 +28562,7 @@
 	"Suladân, the Serpent Lord": {
 		"id": "suladan",
 		"version": "2024",
+		"language": "en",
 		"name":  "Suladân, the Serpent Lord",
 		"alignment": "Evil",
 		"source": [
@@ -28150,6 +28633,7 @@
 	"Tauriel, Ranger of Mirkwood": {
 		"id": "tauriel",
 		"version": "2024",
+		"language": "en",
 		"name":  "Tauriel, Ranger of Mirkwood",
 		"alignment": "Good",
 		"source": [
@@ -28219,6 +28703,7 @@
 	"Ted Sandyman": {
 		"id": "ted_sandyman",
 		"version": "2024",
+		"language": "en",
 		"name":  "Ted Sandyman",
 		"alignment": "Evil",
 		"source": [
@@ -28270,6 +28755,7 @@
 	"The Balrog": {
 		"id": "balrog",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Balrog",
 		"alignment": "Evil",
 		"source": [
@@ -28331,6 +28817,7 @@
 	"The Betrayer": {
 		"id": "betrayer",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Betrayer",
 		"alignment": "Evil",
 		"source": [
@@ -28430,6 +28917,7 @@
 	"The Dark Lord Sauron": {
 		"id": "sauron",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Dark Lord Sauron",
 		"alignment": "Evil",
 		"source": [
@@ -28530,6 +29018,7 @@
 	"The Dark Marshal": {
 		"id": "dark_marshal",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Dark Marshal",
 		"alignment": "Evil",
 		"source": [
@@ -28627,6 +29116,7 @@
 	"The Dragon Emperor of Rhûn": {
 		"id": "dragon_emperor",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Dragon Emperor of Rhûn",
 		"alignment": "Evil",
 		"source": [
@@ -28693,6 +29183,7 @@
 	"The Dwimmerlaik": {
 		"id": "dwimmerlaik",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Dwimmerlaik",
 		"alignment": "Evil",
 		"source": [
@@ -28791,6 +29282,7 @@
 	"The Gatekeeper of Bree": {
 		"id": "gatekeeper_of_bree",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Gatekeeper of Bree",
 		"alignment": "Good",
 		"source": [
@@ -28841,6 +29333,7 @@
 	"The Goblin King": {
 		"id": "goblin_king",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Goblin King",
 		"alignment": "Evil",
 		"source": [
@@ -28902,6 +29395,7 @@
 	"The Goblin Scribe": {
 		"id": "goblin_scribe",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Goblin Scribe",
 		"alignment": "Evil",
 		"source": [
@@ -28952,6 +29446,7 @@
 	"The Golden King of Abrakhân": {
 		"id": "golgen_king_abrakhan",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Golden King of Abrakhân",
 		"alignment": "Evil",
 		"source": [
@@ -29009,6 +29504,7 @@
 	"The Keeper of the Dungeons": {
 		"id": "keeper_dungeons",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Keeper of the Dungeons",
 		"alignment": "Evil",
 		"source": [
@@ -29068,6 +29564,7 @@
 	"The King of the Dead": {
 		"id": "king_dead",
 		"version": "2024",
+		"language": "en",
 		"name":  "The King of the Dead",
 		"alignment": "Good",
 		"source": [
@@ -29128,6 +29625,7 @@
 	"The Knight of Umbar": {
 		"id": "knight_umbar",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Knight of Umbar",
 		"alignment": "Evil",
 		"source": [
@@ -29226,6 +29724,7 @@
 	"The Master of Lake-town": {
 		"id": "master_laketown",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Master of Lake-town",
 		"alignment": "Good",
 		"source": [
@@ -29281,6 +29780,7 @@
 	"The Mouth of Sauron": {
 		"id": "mouth_sauron",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Mouth of Sauron",
 		"alignment": "Evil",
 		"source": [
@@ -29362,6 +29862,7 @@
 	"The Shadow Lord": {
 		"id": "shadow_lord",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Shadow Lord",
 		"alignment": "Evil",
 		"source": [
@@ -29459,6 +29960,7 @@
 	"The Shadow of Rhudaur": {
 		"id": "shadow_rhudaur",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Shadow of Rhudaur",
 		"alignment": "Evil",
 		"source": [
@@ -29540,6 +30042,7 @@
 	"The Spider Queen": {
 		"id": "spider_queen",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Spider Queen",
 		"alignment": "Evil",
 		"source": [
@@ -29600,6 +30103,7 @@
 	"The Tainted": {
 		"id": "tainted",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Tainted",
 		"alignment": "Evil",
 		"source": [
@@ -29699,6 +30203,7 @@
 	"The Undying": {
 		"id": "undying",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Undying",
 		"alignment": "Evil",
 		"source": [
@@ -29797,6 +30302,7 @@
 	"The Watcher in the Water": {
 		"id": "watcher",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Watcher in the Water",
 		"alignment": "Evil",
 		"source": [
@@ -29857,6 +30363,7 @@
 		"id": "white_warg",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "The White Warg",
 		"alignment": "Evil",
 		"source": [
@@ -29907,6 +30414,7 @@
 	"The Witch-king of Angmar": {
 		"id": "witchking",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Witch-king of Angmar",
 		"linkedProfile": [
 			"The Witch-king of Angmar (Option 1)",
@@ -30042,6 +30550,7 @@
 	"The Witch-king of Angmar (Option 1)": {
 		"id": "witchking_1",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Witch-king of Angmar (Option 1)",
 		"linkedProfile": [
 			"The Witch-king of Angmar"
@@ -30171,6 +30680,7 @@
 	"The Witch-king of Angmar (Option 2)": {
 		"id": "witchking_2",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Witch-king of Angmar (Option 2)",
 		"linkedProfile": [
 			"The Witch-king of Angmar"
@@ -30300,6 +30810,7 @@
 	"The Witch-king of Angmar (Option 3)": {
 		"id": "witchking_3",
 		"version": "2024",
+		"language": "en",
 		"name":  "The Witch-king of Angmar (Option 3)",
 		"linkedProfile": [
 			"The Witch-king of Angmar"
@@ -30429,6 +30940,7 @@
 	"Théoden, King of Rohan": {
 		"id": "theoden",
 		"version": "2024",
+		"language": "en",
 		"name":  "Théoden, King of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -30508,6 +31020,7 @@
 	"Théodred, Prince of Rohan": {
 		"id": "theodred",
 		"version": "2024",
+		"language": "en",
 		"name":  "Théodred, Prince of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -30577,6 +31090,7 @@
 	"Thorin Oakenshield": {
 		"id": "thorin_oakenshield",
 		"version": "2024",
+		"language": "en",
 		"name":  "Thorin Oakenshield",
 		"alignment": "Good",
 		"source": [
@@ -30645,6 +31159,7 @@
 	"Thorin Oakenshield, King under the Mountain": {
 		"id": "thorin_oakenshield_king",
 		"version": "2024",
+		"language": "en",
 		"name":  "Thorin Oakenshield, King under the Mountain",
 		"alignment": "Good",
 		"source": [
@@ -30712,6 +31227,7 @@
 	"Thorin III Stonehelm": {
 		"id": "thorin_stonehelm",
 		"version": "2024",
+		"language": "en",
 		"name":  "Thorin III Stonehelm",
 		"alignment": "Good",
 		"source": [
@@ -30772,6 +31288,7 @@
 	"Thráin, Son of Thrór": {
 		"id": "thrain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Thráin, Son of Thrór",
 		"alignment": "Good",
 		"source": [
@@ -30832,6 +31349,7 @@
 	"Thráin the Broken": {
 		"id": "thrain_broken",
 		"version": "2024",
+		"language": "en",
 		"name":  "Thráin the Broken",
 		"alignment": "Good",
 		"source": [
@@ -30882,6 +31400,7 @@
 	"Thranduil, King of the Woodland Realm": {
 		"id": "thranduil",
 		"version": "2024",
+		"language": "en",
 		"name":  "Thranduil, King of the Woodland Realm",
 		"alignment": "Good",
 		"source": [
@@ -30951,6 +31470,7 @@
 	"Thrór, King under the Mountain": {
 		"id": "thror",
 		"version": "2024",
+		"language": "en",
 		"name":  "Thrór, King under the Mountain",
 		"alignment": "Good",
 		"source": [
@@ -31022,6 +31542,7 @@
 	"Thrydan Wolfsbane": {
 		"id": "thrydan_wolfsbane",
 		"version": "2024",
+		"language": "en",
 		"name":  "Thrydan Wolfsbane",
 		"alignment": "Evil",
 		"source": [
@@ -31090,6 +31611,7 @@
 		"id": "tilda",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Tilda",
 		"alignment": "Good",
 		"source": [
@@ -31139,6 +31661,7 @@
 	"Tom Bombadil": {
 		"id": "tom_bombadil",
 		"version": "2024",
+		"language": "en",
 		"name":  "Tom Bombadil",
 		"alignment": "Good",
 		"source": [
@@ -31190,6 +31713,7 @@
 	"Tom the Troll": {
 		"id": "tom_troll",
 		"version": "2024",
+		"language": "en",
 		"name":  "Tom the Troll",
 		"alignment": "Evil",
 		"source": [
@@ -31250,6 +31774,7 @@
 	"Treebeard": {
 		"id": "treebeard",
 		"version": "2024",
+		"language": "en",
 		"name":  "Treebeard",
 		"alignment": "Good",
 		"source": [
@@ -31319,6 +31844,7 @@
 		"id": "troll_brute",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Troll Brute",
 		"alignment": "Evil",
 		"source": [
@@ -31341,6 +31867,7 @@
 		],
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Troll Brute (War Beast)",
 		"alignment": "Evil",
 		"source": [
@@ -31386,6 +31913,7 @@
 	"Uglúk, Uruk-hai Scout Captain": {
 		"id": "ugluk",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uglúk, Uruk-hai Scout Captain",
 		"alignment": "Evil",
 		"source": [
@@ -31447,6 +31975,7 @@
 	"Uruk-hai Berserker": {
 		"id": "urukhai_berserker",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Berserker",
 		"alignment": "Evil",
 		"source": [
@@ -31493,6 +32022,7 @@
 	"Uruk-hai Captain": {
 		"id": "captain_urukhai",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Captain",
 		"alignment": "Evil",
 		"source": [
@@ -31551,6 +32081,7 @@
 		"id": "urukhai_demolitionteam",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Demolition Team",
 		"alignment": "Evil",
 		"source": [
@@ -31570,6 +32101,7 @@
 	"Uruk-hai Drummer": {
 		"id": "drummer_urukhai",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Drummer",
 		"alignment": "Evil",
 		"source": [
@@ -31622,6 +32154,7 @@
 		"id": "urukhai_engineer",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Engineer",
 		"alignment": "Evil",
 		"source": [
@@ -31664,6 +32197,7 @@
 	"Uruk-hai Scout": {
 		"id": "urukhai_scout",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Scout",
 		"alignment": "Evil",
 		"source": [
@@ -31724,6 +32258,7 @@
 	"Uruk-hai Scout Captain": {
 		"id": "captain_urukhai_scout",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Scout Captain",
 		"alignment": "Evil",
 		"source": [
@@ -31775,6 +32310,7 @@
 	"Uruk-hai Shaman": {
 		"id": "shaman_urukhai",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Shaman",
 		"alignment": "Evil",
 		"source": [
@@ -31850,6 +32386,7 @@
 		"id": "siege_crew_urukhai",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -31892,6 +32429,7 @@
 	"Uruk-hai Warrior": {
 		"id": "warrior_urukhai",
 		"version": "2024",
+		"language": "en",
 		"name":  "Uruk-hai Warrior",
 		"alignment": "Evil",
 		"source": [
@@ -31961,6 +32499,7 @@
 		"id": "vault_warden_team",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Vault Warden Team",
 		"alignment": "Good",
 		"source": [
@@ -31979,6 +32518,7 @@
 	"Vraskû": {
 		"id": "vrasku",
 		"version": "2024",
+		"language": "en",
 		"name":  "Vraskû",
 		"alignment": "Evil",
 		"source": [
@@ -32039,6 +32579,7 @@
 	"War Bat": {
 		"id": "warbat",
 		"version": "2024",
+		"language": "en",
 		"name":  "War Bat",
 		"alignment": "Evil",
 		"source": [
@@ -32086,6 +32627,7 @@
 		"id": "warboar",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "War Boar",
 		"alignment": "Good",
 		"source": [
@@ -32120,6 +32662,7 @@
 		"id": "warcamel",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "War Camel",
 		"alignment": "Evil",
 		"source": [
@@ -32156,6 +32699,7 @@
 	"War Drake of Rhûn": {
 		"id": "war_drake",
 		"version": "2024",
+		"language": "en",
 		"name":  "War Drake of Rhûn",
 		"alignment": "Evil",
 		"source": [
@@ -32207,6 +32751,7 @@
 		"id": "wargoat",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "War Goat",
 		"alignment": "Good",
 		"source": [
@@ -32245,6 +32790,7 @@
 		"id": "war_mumak",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "War Mûmak of Harad",
 		"alignment": "Evil",
 		"source": [
@@ -32265,6 +32811,7 @@
 		"id": "warg",
 		"type": "Mount",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warg",
 		"alignment": "Evil",
 		"source": [
@@ -32298,6 +32845,7 @@
 	"Warg Marauder": {
 		"id": "warg_marauder",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warg Marauder",
 		"alignment": "Evil",
 		"source": [
@@ -32356,6 +32904,7 @@
 	"Warrior of Arnor": {
 		"id": "warrior_arnor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warrior of Arnor",
 		"alignment": "Good",
 		"source": [
@@ -32415,6 +32964,7 @@
 	"Warrior of Carn Dûm": {
 		"id": "warrior_carndum",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warrior of Carn Dûm",
 		"alignment": "Evil",
 		"source": [
@@ -32477,6 +33027,7 @@
 	"Warrior of Dale": {
 		"id": "warrior_dale",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warrior of Dale",
 		"alignment": "Good",
 		"source": [
@@ -32550,6 +33101,7 @@
 	"Warrior of Minas Tirith": {
 		"id": "warrior_minas_tirith",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warrior of Minas Tirith",
 		"alignment": "Good",
 		"source": [
@@ -32623,6 +33175,7 @@
 	"Warrior of Númenor": {
 		"id": "warrior_numenor",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warrior of Númenor",
 		"alignment": "Good",
 		"source": [
@@ -32683,6 +33236,7 @@
 	"Warrior of Rohan": {
 		"id": "rohan_warrior",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warrior of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -32756,6 +33310,7 @@
 	"Warrior of the Dead": {
 		"id": "warrior_dead",
 		"version": "2024",
+		"language": "en",
 		"name":  "Warrior of the Dead",
 		"alignment": "Good",
 		"source": [
@@ -32826,6 +33381,7 @@
 	"Watcher of Kârna": {
 		"id": "watcher_karna",
 		"version": "2024",
+		"language": "en",
 		"name":  "Watcher of Kârna",
 		"alignment": "Evil",
 		"source": [
@@ -32887,6 +33443,7 @@
 	"Werweolf": {
 		"id": "werewolf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Werewolf",
 		"alignment": "Evil",
 		"source": [
@@ -32933,6 +33490,7 @@
 	"Wild Man Chieftain": {
 		"id": "wildman_chieftain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Wild Man Chieftain",
 		"alignment": "Evil",
 		"source": [
@@ -32994,6 +33552,7 @@
 	"Wild Man Oathmaker": {
 		"id": "wildman_oathmaker",
 		"version": "2024",
+		"language": "en",
 		"name":  "Wild Man Oathmaker",
 		"alignment": "Evil",
 		"source": [
@@ -33050,6 +33609,7 @@
 	"Wild Man of Dunland": {
 		"id": "wildman",
 		"version": "2024",
+		"language": "en",
 		"name":  "Wild Man of Dunland",
 		"alignment": "Evil",
 		"source": [
@@ -33125,6 +33685,7 @@
 	"Wild Warg": {
 		"id": "wild_warg",
 		"version": "2024",
+		"language": "en",
 		"name":  "Wild Warg",
 		"alignment": "Evil",
 		"source": [
@@ -33166,6 +33727,7 @@
 	"Wild Warg Chieftain": {
 		"id": "wild_warg_chieftain",
 		"version": "2024",
+		"language": "en",
 		"name":  "Wild Warg Chieftain",
 		"alignment": "Evil",
 		"source": [
@@ -33220,6 +33782,7 @@
 	"Will Whitfoot, Mayor of Michel Delving": {
 		"id": "will_whitfoot",
 		"version": "2024",
+		"language": "en",
 		"name":  "Will Whitfoot, Mayor of Michel Delving",
 		"alignment": "Good",
 		"source": [
@@ -33276,6 +33839,7 @@
 		"id": "windlance",
 		"type": "Composition",
 		"version": "2024",
+		"language": "en",
 		"name":  "Windlance",
 		"alignment": "Good",
 		"source": [
@@ -33295,6 +33859,7 @@
 		"id": "windlance_siege_engine",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Windlance (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -33322,6 +33887,7 @@
 	"Wood Elf Sentinel": {
 		"id": "sentinel",
 		"version": "2024",
+		"language": "en",
 		"name":  "Wood Elf Sentinel",
 		"alignment": "Good",
 		"source": [
@@ -33373,6 +33939,7 @@
 		"id": "worm",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Worm",
 		"alignment": "Evil",
 		"source": [
@@ -33423,6 +33990,7 @@
 	"Woses Warrior": {
 		"id": "warrior_woses",
 		"version": "2024",
+		"language": "en",
 		"name":  "Woses Warrior",
 		"alignment": "Good",
 		"source": [
@@ -33478,6 +34046,7 @@
 		"id": "wrot",
 		"type": "Composition Model",
 		"version": "2024",
+		"language": "en",
 		"name":  "Wrot",
 		"alignment": "Evil",
 		"source": [
@@ -33533,6 +34102,7 @@
 	"Wulf, High Lord of the Hill Tribes": {
 		"id": "wulf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Wulf, High Lord of the Hill Tribes",
 		"alignment": "Evil",
 		"source": [
@@ -33598,6 +34168,7 @@
 	"Yazneg, Hunter Orc Captain": {
 		"id": "yazneg",
 		"version": "2024",
+		"language": "en",
 		"name":  "Yazneg, Hunter Orc Captain",
 		"alignment": "Evil",
 		"source": [
@@ -33660,6 +34231,7 @@
 	"Young Balin the Dwarf": {
 		"id": "young_balin_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Young Balin the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -33716,6 +34288,7 @@
 	"Young Dwalin the Dwarf": {
 		"id": "young_dwalin_dwarf",
 		"version": "2024",
+		"language": "en",
 		"name":  "Young Dwalin the Dwarf",
 		"alignment": "Good",
 		"source": [
@@ -33774,6 +34347,7 @@
 	"Young Thorin Oakenshield": {
 		"id": "young_thorin_oakenshield",
 		"version": "2024",
+		"language": "en",
 		"name":  "Young Thorin Oakenshield",
 		"alignment": "Good",
 		"source": [
@@ -33835,6 +34409,7 @@
 	"Zagdûsh, Orc Captain": {
 		"id": "zagdush",
 		"version": "2024",
+		"language": "en",
 		"name":  "Zagdûsh, Orc Captain",
 		"alignment": "Evil",
 		"source": [

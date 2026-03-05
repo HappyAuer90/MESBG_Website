@@ -120,12 +120,20 @@ export default {
         }
     },
 
+    rules: {
+        all: {
+            Character: "Diese Einheit",
+            character: "diese Einheit"
+        }
+    },
+
     armylists: {
         search: {
             placeholder: "Armeeliste suchen...",
             buildButton: "Armeeliste erstellen",
             sources: "Quellen",
             page: "Seite",
+            additionalInformation: "Zusätzliche Informationen",
             additionalRules: "Zusätzliche Regeln",
             specialRules: "Sonderregeln",
             point: "Punkt",

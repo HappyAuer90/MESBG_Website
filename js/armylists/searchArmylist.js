@@ -201,10 +201,16 @@ function renderArmyList(container, armylist) {
     container.querySelector("#buildArmylistBtn").onclick = () =>
         navigate("armylists", "build", { armylistId: armylist.id });
 
-    container.querySelectorAll(".armylist-entry").forEach(el => {
-        el.onclick = () =>
-            navigate("profiles", "search", { profileId: el.dataset.id });
-    });
+    container.addEventListener("click", e => {
+    const target = e.target.closest(".armylist-entry-name.armylist-entry-link");
+    if (!target) return;
+
+    const profileId = target.dataset.id;
+    if (!profileId) return;
+                console.log("Navigating to profile:", profileId);
+
+    navigate("profiles", "search", { profileId });
+});
 }
 
 function renderAdditionalInformationBox(armylist) {
@@ -217,7 +223,7 @@ function renderAdditionalInformationBox(armylist) {
 
     return `
         <details class="armylist-box">
-            <summary>Additional Information</summary>
+            <summary>${t("armylists.search.additionalInformation")}</summary>
             <div class="armylist-box-content">
 
                 ${hasSource ? `

@@ -78,6 +78,7 @@ export default {
             filter: "Filter",
             select: "Select",
             results: "Results",
+            search: "Search...",
             mode: "Mode",
             alignment: "Alignment",
             good: "Good",
@@ -119,51 +120,59 @@ export default {
         }
     },
 
-    armylists: {
-        search: {
-            placeholder: "Search armylist...",
-            buildButton: "Build Armylist",
-            sources: "Sources",
-            page: "Page",
-            additionalRules: "Additional Rules",
-            specialRules: "Special Rules",
-            point: "point",
-            points: "points",
-            heroesofLegend: "Heroes of Legend",
-            heroesOfValour: "Heroes of Valour",
-            heroesOfFortitude: "Heroes of Fortitude",
-            minorHeroes: "Minor Heroes",
-            independentHeroes: "Independent Heroes",
-            warriors: "Warriors"
-        },
-        build: {
-            placeholder: "Search armylist...",
-            additionalRules: "Additional Rules",
-            specialRules: "Special Rules",
-            heroesOfLegend: "Heroes of Legend",
-            heroesOfValour: "Heroes of Valour",
-            heroesOfFortitude: "Heroes of Fortitude",
-            heroesMinor: "Minor Heroes",
-            heroesIndependent: "Independent Heroes",
-            exportPdf: "Export PDF",
-            Points: "Points",
-            Models: "Models",
-            Broken: "Broken",
-            killed: "killed",
-            Quartered: "Quartered",
-            left: "left",
-            Bows: "Bows",
-            ThrowingWeapons: "Throwing Weapons",
-            Warband: "Warband",
-            General: "General",
-            Followers: "Followers",
-            addFollower: "Add Follower",
-            mandatoryWarning: "Option has to be taken",
-            addOption: "Add Option"
-        },
+    rules: {
         all: {
-            good: "Good",
-            evil: "Evil"
+            Character: "This Unit",
+            character: "this Unit"
         }
-    }
-};
+    },
+
+        armylists: {
+            search: {
+                placeholder: "Search armylist...",
+                buildButton: "Build Armylist",
+                sources: "Sources",
+                page: "Page",
+                additionalInformation: "Additional Information",
+                additionalRules: "Additional Rules",
+                specialRules: "Special Rules",
+                point: "point",
+                points: "points",
+                heroesofLegend: "Heroes of Legend",
+                heroesOfValour: "Heroes of Valour",
+                heroesOfFortitude: "Heroes of Fortitude",
+                minorHeroes: "Minor Heroes",
+                independentHeroes: "Independent Heroes",
+                warriors: "Warriors"
+            },
+            build: {
+                placeholder: "Search armylist...",
+                additionalRules: "Additional Rules",
+                specialRules: "Special Rules",
+                heroesOfLegend: "Heroes of Legend",
+                heroesOfValour: "Heroes of Valour",
+                heroesOfFortitude: "Heroes of Fortitude",
+                heroesMinor: "Minor Heroes",
+                heroesIndependent: "Independent Heroes",
+                exportPdf: "Export PDF",
+                Points: "Points",
+                Models: "Models",
+                Broken: "Broken",
+                killed: "killed",
+                Quartered: "Quartered",
+                left: "left",
+                Bows: "Bows",
+                ThrowingWeapons: "Throwing Weapons",
+                Warband: "Warband",
+                General: "General",
+                Followers: "Followers",
+                addFollower: "Add Follower",
+                mandatoryWarning: "Option has to be taken",
+                addOption: "Add Option"
+            },
+            all: {
+                good: "Good",
+                evil: "Evil"
+            }
+        }
+    };

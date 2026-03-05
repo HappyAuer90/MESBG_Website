@@ -11,9 +11,12 @@ import { initProfilesSearch, onProfilesSearchNavigate } from "./profiles/searchP
 import { initProfilesExpert } from "./profiles/expertSearch.js";
 import { initProfilesAll } from "./profiles/showAllProfiles.js";
 
+import { initRulesAll} from "./rules/showAllRules.js";
+
 import { initArmylistsSearch, onArmylistsSearchNavigate } from "./armylists/searchArmylist.js";
 import { initArmylistsBuild, onArmylistsBuildNavigate } from "./armylists/buildArmylist.js";
 import { initArmylistsAll } from "./armylists/showAllArmylists.js";
+
 
 /* =========================
    GLOBAL STATE
@@ -30,6 +33,9 @@ const titleEl = document.getElementById("appTitle");
 const MAIN_CATEGORIES = {
     profiles: {
         labelKey: "main.profiles"
+    },
+    rules: {
+        labelKey: "main.rules"
     },
     armylists: {
         labelKey: "main.armylists"
@@ -52,6 +58,13 @@ const VIEWS = {
         all: {
             labelKey: "main.showAllProfiles",
             init: initProfilesAll,
+            container: null
+        }
+    },
+    rules: {
+        all: {
+            labelKey: "main.showAllRules",
+            init: initRulesAll,
             container: null
         }
     },
@@ -79,7 +92,12 @@ const VIEWS = {
 let activeMain = null;
 let activeSub = null;
 
-export function navigate(main, sub, params = {}) {
+const tabHistory = {
+    stack: [],
+    index: -1
+};
+
+export function navigate(main, sub, params = {}, options = {}) {
     
     if (activeMain && activeSub) {
         const old = VIEWS[activeMain][activeSub].container;
@@ -104,11 +122,47 @@ export function navigate(main, sub, params = {}) {
     activeMain = main;
     activeSub = sub;
 
+    // =========================
+// GLOBAL TAB HISTORY
+// =========================
+
+if (!options.fromHistory) {
+
+    // Forward-History abschneiden
+    tabHistory.stack = tabHistory.stack.slice(0, tabHistory.index + 1);
+
+    tabHistory.stack.push({ main, sub, params });
+    tabHistory.index++;
+}
     renderMainNav();
-renderSubNav();
+    renderSubNav();
 
 }
+export function navigateBack() {
 
+    if (tabHistory.index > 0) {
+        tabHistory.index--;
+
+        const entry = tabHistory.stack[tabHistory.index];
+
+        navigate(entry.main, entry.sub, entry.params, {
+            fromHistory: true
+        });
+    }
+}
+
+export function navigateForward() {
+
+    if (tabHistory.index < tabHistory.stack.length - 1) {
+        tabHistory.index++;
+
+        const entry = tabHistory.stack[tabHistory.index];
+
+        navigate(entry.main, entry.sub, entry.params, {
+            fromHistory: true
+        });
+    }
+}
 function renderMainNav() {
     mainNav.innerHTML = "";
 
@@ -144,6 +198,14 @@ titleEl.textContent = t("main.title");
 document.getElementById("settingsBtn").onclick = () => {
     document.getElementById("settingsModal").classList.remove("hidden");
     initSettingsUI();
+};
+
+document.getElementById("globalBackBtn").onclick = () => {
+    navigateBack();
+};
+
+document.getElementById("globalForwardBtn").onclick = () => {
+    navigateForward();
 };
 
 navigate("profiles", "search");

@@ -657,16 +657,50 @@ function renderRightPanel(panel) {
             <button class="def-close">✕</button>
         </div>
     </div>
+
     ${def.status || def.duration || def.phase ? `
         <p class="definition-meta">
             ${def.status ? `<span>${def.status}</span>` : ""}
             ${def.duration ? `<span>${def.duration}</span>` : ""}
             ${def.phase ? `<span>${def.phase}</span>` : ""}
         </p>` : ""}
-    <p class="definition-text"></p>
+
+    <div class="definition-block">
+        <p class="definition-text"></p>
+    </div>
+
+    ${
+        Settings.profileSettings.showGWFAQNotes && def.descriptionGWFAQ
+            ? `
+            <div class="definition-block gwfaq-block">
+                <h4 class="gwfaq-title">GW FAQ</h4>
+                <p class="definition-text-gwfaq"></p>
+            </div>
+            `
+            : ""
+    }
 `;
 
-renderDefinitionText(def.description, panel, current.profile);
+const mainTextContainer = panel.querySelector(".definition-text");
+
+renderDefinitionText(
+    def.description,
+    mainTextContainer,
+    current.profile,
+    def
+);
+
+if (Settings.profileSettings.showGWFAQNotes && def.descriptionGWFAQ) {
+
+    const faqContainer = panel.querySelector(".definition-text-gwfaq");
+
+    renderDefinitionText(
+        def.descriptionGWFAQ,
+        faqContainer,
+        current.profile,
+        def
+    );
+}
 
     bindToolbar(panel);
 }
@@ -720,71 +754,74 @@ function buildReferenceList(def) {
         })
         .sort((a, b) => b.display.length - a.display.length);
 }
-function renderDefinitionText(text, panel, profile) {
-
+function renderDefinitionText(text, container, profile, def) {
     if (!text) return;
 
-    const state = rightPanelState.get(panel);
-    const current = state.history[state.index];
-
+    // =========================
+    // Basistext mit Character-Platzhaltern
+    // =========================
     let html = formatText(text)
         .replace("{Character}", addArticle(profile.name, profile.unitTypes, true))
         .replace("{character}", addArticle(profile.name, profile.unitTypes, false));
 
     const protectedTokens = [];
 
-    if (current.data.excludeFromLinking?.length) {
-
-        current.data.excludeFromLinking.forEach((phrase, index) => {
-
+    // =========================
+    // ExcludeFromLinking schützen
+    // =========================
+    if (def.excludeFromLinking?.length) {
+        def.excludeFromLinking.forEach((phrase, index) => {
             const cleanPhrase = phrase.trim();
             const token = `__PROTECTED_${index}__`;
 
             const escaped = cleanPhrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            const regex = new RegExp(escaped, "g");
+            html = html.replace(new RegExp(escaped, "g"), token);
 
-            html = html.replace(regex, token);
-
-            protectedTokens.push({
-                token,
-                value: cleanPhrase
-            });
+            protectedTokens.push({ token, value: cleanPhrase });
         });
     }
 
-    const refs = buildReferenceList(current.data);
+    // =========================
+    // Referenzen vorbereiten
+    // =========================
+    let refs = buildReferenceList(def);
 
-    refs.forEach(ref => {
+    // längere Terme zuerst
+    refs = refs.sort((a, b) => b.display.length - a.display.length);
 
-        if (current.data.excludeFromLinking?.includes(ref.display)) return;
+    // =========================
+    // Token-System für Links
+    // =========================
+    refs.forEach((ref, i) => {
+        if (def.excludeFromLinking?.includes(ref.display)) return;
 
         const escaped = ref.display.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const regex = new RegExp(`\\b${escaped}\\b`, "g");
+        const token = `__LINK_${i}__`;
 
-html = html.replace(regex, match => {
-    return `<span class="definition-link"
-                data-target="${ref.target}"
-                data-type="${ref.type}">
-                ${match}
-            </span>`;
-});
+        html = html.replace(new RegExp(`\\b${escaped}\\b`, "g"), token);
 
-
+        protectedTokens.push({
+            token,
+            value: `<span class="definition-link" data-target="${ref.target}" data-type="${ref.type}">${ref.display}</span>`
+        });
     });
 
+    // =========================
+    // Tokens wieder einfügen
+    // =========================
     protectedTokens.forEach(entry => {
         html = html.replaceAll(entry.token, entry.value);
     });
 
-    const container = panel.querySelector(".definition-text");
     container.innerHTML = html;
 
+    // =========================
+    // Klick-Handler für Links
+    // =========================
     container.querySelectorAll(".definition-link").forEach(el => {
-
         el.onclick = () => {
-
             if (el.dataset.type === "definition") {
-                handleEntryClick(el.dataset.target, panel, profile);
+                handleEntryClick(el.dataset.target, container.closest(".right"), profile);
             }
 
             if (el.dataset.type === "profile") {
