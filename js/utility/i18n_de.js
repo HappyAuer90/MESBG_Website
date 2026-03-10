@@ -27,6 +27,7 @@ export default {
         crossLinksRules: "Verlinkungen zu Regeln aktivieren",
         crossLinksProfiles: "Verlinkungen zu Profilen aktivieren",
         showGWFAQNotes: "GW FAQ anzeigen",
+        includeLegacy: "Inklusive Legacy",
         close: "Schließen"
     },
 

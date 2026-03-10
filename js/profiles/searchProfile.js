@@ -982,16 +982,19 @@ function renderArmyListReferences(profile) {
 
     const items = Array.from(matches.values())
         .map(m =>
-            `<li class="armylist-link" data-id="${m.id}">
+            `<li class="entry-row">
+            <span class="entry-bullet">•</span>
+            <span class="clickable-entry" data-id="${m.id}">
                 ${m.listName} (${m.category})
-             </li>`
+            </span>
+        </li>`
         )
         .join("");
 
     return `
         <div class="additional-block">
             <h4 class="additional-list-title"> ${t("profiles.search.armyLists")}</h4>
-            <ul class="linked-armylists"">
+            <ul class="additional-list linked-list">
                 ${items}
             </ul>
         </div>
@@ -1103,6 +1106,7 @@ function renderLinkedEliteModels(profile) {
     if (!targets.length) return "";
 
     const items = targets.map(p =>
+        
         `<li class="clickable-entry" data-id="${p.id}">${p.name}</li>`
     ).join("");
 

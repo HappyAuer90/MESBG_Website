@@ -2,6 +2,7 @@
 	"Arathorn’s Stand": {
 		"id": "arathorns_stand",
 		"version": "2024",
+		"language": "en",
 		"name": "Arathorn’s Stand",
 		"alignment": "Good",
 		"source": [
@@ -68,6 +69,7 @@
 	"Army of Carn Dûm": {
 		"id": "army_carndum",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Carn Dûm",
 		"alignment": "Evil",
 		"source": [
@@ -202,6 +204,9 @@
 				},
 				{
 					"name": "Orc Tracker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "6"
 				}
 			]
@@ -210,6 +215,7 @@
 	"Army of Dale": {
 		"id": "army_dale",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Dale",
 		"alignment": "Good",
 		"source": [
@@ -307,7 +313,11 @@
 	},
 	"Army of Dunland": {
 		"id": "army_dunland",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Dunland",
 		"alignment": "Evil",
 		"source": [
@@ -338,6 +348,7 @@
 				{
 					"name": "Thrydan Wolfsbane",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral",
 						"Unique"
 					],
@@ -354,6 +365,7 @@
 				{
 					"name": "Gorûlf Ironskin",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "70"
@@ -361,6 +373,7 @@
 				{
 					"name": "Frída Tallspear",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "70"
@@ -374,12 +387,18 @@
 				},
 				{
 					"name": "Dunlending Chieftain",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55"
 				}
 			],
 			"Warriors": [
 				{
 					"name": "Dunlending Warrior",
+					"tag": [
+						"Legacy"
+					],
 					"points": "5",
 					"mandatoryWarrior": [
 						{
@@ -405,10 +424,16 @@
 				},
 				{
 					"name": "Dunlending Huscarl",
+					"tag": [
+						"Legacy"
+					],
 					"points": "11"
 				},
 				{
 					"name": "Dunlending Horseman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "12"
 				},
 				{
@@ -454,6 +479,7 @@
 	"Army of Edoras": {
 		"id": "army_edoras",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Edoras",
 		"alignment": "Good",
 		"source": [
@@ -601,6 +627,9 @@
 				},
 				{
 					"name": "King’s Huntsman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55"
 				}
 			],
@@ -687,6 +716,7 @@
 	"Army of Erebor": {
 		"id": "army_ererbor",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -842,6 +872,7 @@
 	"Army of Gothmog": {
 		"id": "army_gothmog",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Gothmog",
 		"alignment": "Evil",
 		"source": [
@@ -920,6 +951,7 @@
 				{
 					"name": "Goroth, Captain of the Morannon",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "85"
@@ -927,6 +959,7 @@
 				{
 					"name": "Zagdûsh, Orc Captain",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "60"
@@ -1013,6 +1046,7 @@
 	"Army of Gundabad": {
 		"id": "army_gundabad",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Gundabad",
 		"alignment": "Evil",
 		"source": [
@@ -1161,6 +1195,7 @@
 	"Army of Lake-town": {
 		"id": "army_laketown",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Lake-town",
 		"alignment": "Good",
 		"source": [
@@ -1311,6 +1346,7 @@
 	"Army of the Great Eye": {
 		"id": "army_great_eye",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of the Great Eye",
 		"alignment": "Evil",
 		"source": [
@@ -1420,6 +1456,7 @@
 				{
 					"name": "Khamûl the Easterling",
 					"tag": [
+						"Legacy",
 						"OptionalGeneral",
 						"Unique"
 					],
@@ -1434,6 +1471,7 @@
 				{
 					"name": "The Tainted",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -1447,6 +1485,7 @@
 				{
 					"name": "The Dwimmerlaik",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -1460,6 +1499,7 @@
 				{
 					"name": "The Dark Marshal",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -1473,6 +1513,7 @@
 				{
 					"name": "The Shadow Lord",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -1486,6 +1527,7 @@
 				{
 					"name": "The Undying",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -1499,6 +1541,7 @@
 				{
 					"name": "The Betrayer",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -1512,6 +1555,7 @@
 				{
 					"name": "The Knight of Umbar",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -1525,6 +1569,7 @@
 				{
 					"name": "Razgûsh, War Leader of the North",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "120"
@@ -1612,6 +1657,7 @@
 				{
 					"name": "Goroth, Captain of the Morannon",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "85"
@@ -1619,28 +1665,37 @@
 				{
 					"name": "Zagdûsh, Orc Captain",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "60"
 				},
 				{
 					"name": "Captain of the Black Guard",
+					"tag": [
+						"Legacy"
+					],
 					"points": "70"
 				},
 				{
 					"name": "Kardûsh the Firecaller",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "65"
 				},
 				{
 					"name": "Great Beast of Gorgoroth",
+					"tag": [
+						"Legacy"
+					],
 					"points": "175"
 				},
 				{
 					"name": "Muzgûr, Orc Shaman",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "70"
@@ -1660,6 +1715,9 @@
 				},
 				{
 					"name": "Black Guard Drummer",
+					"tag": [
+						"Legacy"
+					],
 					"points": "35"
 				}
 			],
@@ -1816,6 +1874,9 @@
 				},
 				{
 					"name": "Black Guard of Barad-Dûr",
+					"tag": [
+						"Legacy"
+					],
 					"points": "12",
 					"optionalWarrior": [
 						{
@@ -1826,10 +1887,16 @@
 				},
 				{
 					"name": "Morgul Stalker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "10"
 				},
 				{
 					"name": "Orc Tracker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "6"
 				}
 			]
@@ -1838,7 +1905,9 @@
 	"Army of the White Hand": {
 		"id": "army_white_hand",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of the White Hand",
+		"noteGWFAQ": "Q: When using the Conjure Lightning ability of the Army of the White Hand Army List, can Saruman use Might to change To Wound Rolls?\nA: No.",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -1853,7 +1922,7 @@
 			},
 			{
 				"name": "The Voice of Saruman",
-				"description": "During his Activation, Saruman can use one of the following abilities instead of Casting a Magical Power. Each of these abilities can only be used once per game.\n• Conjure Lightning – Choose a point on the battlefield at least 12\" away from any friendly model (with the exception of Gríma Wormtongue). Each model within 2\" of the chosen point suffers a Strength 6 hit. If a Cavalry model is affected, both the rider and Mount will suffer a Strength 6 hit.\n• Summon Gale – Until the end of the turn, enemy models halve their Move Value.\n• Call Thunder – Until the end of the turn, enemy models have the Fearful special rule."
+				"description": "During his Activation, Saruman can use one of the following abilities instead of Casting a Magical Power. Each of these abilities can only be used once per game.\n• Conjure Lightning – Choose a point on the battlefield at least 12\" away from any friendly model (including Gríma Wormtongue). Each model within 2\" of the chosen point suffers a Strength 6 hit. If a Cavalry model is affected, both the rider and Mount will suffer a Strength 6 hit.\n• Summon Gale – Until the end of the turn, enemy models halve their Move Value.\n• Call Thunder – Until the end of the turn, enemy models have the Fearful special rule."
 			},
 			{
 				"name": "Spies of Saruman",
@@ -1880,6 +1949,7 @@
 				{
 					"name": "Thrydan Wolfsbane",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "90",
@@ -1924,6 +1994,7 @@
 				{
 					"name": "Vraskû",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "70"
@@ -1931,6 +2002,7 @@
 				{
 					"name": "Gorûlf Ironskin",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "70"
@@ -1938,12 +2010,16 @@
 				{
 					"name": "Frída Tallspear",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "70"
 				},
 				{
 					"name": "Dunlending Chieftain",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55"
 				}
 			],
@@ -2113,10 +2189,16 @@
 				},
 				{
 					"name": "Feral Uruk-hai",
+					"tag": [
+						"Legacy"
+					],
 					"points": "13"
 				},
 				{
 					"name": "Dunlending Warrior",
+					"tag": [
+						"Legacy"
+					],
 					"points": "7",
 					"mandatoryWarrior": [
 						{
@@ -2142,10 +2224,16 @@
 				},
 				{
 					"name": "Dunlending Horseman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "12"
 				},
 				{
 					"name": "Dunlending Huscarl",
+					"tag": [
+						"Legacy"
+					],
 					"points": "11"
 				}
 			]
@@ -2154,6 +2242,7 @@
 	"Army of Thrór": {
 		"id": "army_thrór",
 		"version": "2024",
+		"language": "en",
 		"name": "Army of Thrór",
 		"alignment": "Good",
 		"source": [
@@ -2255,6 +2344,7 @@
 	"Arnor": {
 		"id": "arnor",
 		"version": "2024",
+		"language": "en",
 		"name": "Arnor",
 		"alignment": "Good",
 		"source": [
@@ -2375,7 +2465,11 @@
 	},
 	"Assault on Lothlórien": {
 		"id": "assault_lothlorien",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Assault on Lothlórien",
 		"alignment": "Evil",
 		"source": [
@@ -2405,6 +2499,7 @@
 				{
 					"name": "Muzgúr, Orc Shaman",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral",
 						"Unique"
 					],
@@ -2420,6 +2515,7 @@
 				{
 					"name": "Ashrâk",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "60"
@@ -2519,6 +2615,9 @@
 				},
 				{
 					"name": "Orc Tracker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "6"
 				},
 				{
@@ -2548,7 +2647,10 @@
 				},
 				{
 					"name": "Warg Marauder",
-					"points": "6"
+					"tag": [
+						"Legacy"
+					],
+					"points": "35"
 				},
 				{
 					"name": "Mirkwood Giant Spider",
@@ -2568,6 +2670,7 @@
 	"Assault on Ravenhill": {
 		"id": "assault_ravenhill",
 		"version": "2024",
+		"language": "en",
 		"name": "Assault on Ravenhill",
 		"alignment": "Good",
 		"source": [
@@ -2664,6 +2767,7 @@
 	"Assault Upon Helm’s Deep": {
 		"id": "assault_helms_deep",
 		"version": "2024",
+		"language": "en",
 		"name": "Assault Upon Helm’s Deep",
 		"alignment": "Evil",
 		"source": [
@@ -2769,6 +2873,7 @@
 	"Atop the Walls": {
 		"id": "atop_the_walls",
 		"version": "2024",
+		"language": "en",
 		"name": "Atop the Walls",
 		"alignment": "Good",
 		"source": [
@@ -2958,6 +3063,7 @@
 	"Azog’s Hunter": {
 		"id": "azogs_hunters",
 		"version": "2024",
+		"language": "en",
 		"name": "Azog’s Hunter",
 		"alignment": "Evil",
 		"source": [
@@ -3123,6 +3229,7 @@
 	"Barad-dûr": {
 		"id": "barad_dur",
 		"version": "2024",
+		"language": "en",
 		"name": "Barad-dûr",
 		"alignment": "Evil",
 		"source": [
@@ -3355,6 +3462,9 @@
 				},
 				{
 					"name": "Orc Tracker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "6"
 				}
 			]
@@ -3363,6 +3473,7 @@
 	"Battle of Bywater": {
 		"id": "battle_bywater",
 		"version": "2024",
+		"language": "en",
 		"name": "Battle of Bywater",
 		"alignment": "Good",
 		"source": [
@@ -3568,6 +3679,7 @@
 	"Battle of Fornost": {
 		"id": "battle_fornost",
 		"version": "2024",
+		"language": "en",
 		"name": "Battle of Fornost",
 		"alignment": "Good",
 		"source": [
@@ -3756,7 +3868,11 @@
 	},
 	"Battle of Greenfields": {
 		"id": "battle_greenfields",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Battle of Greenfields",
 		"alignment": "Good",
 		"source": [
@@ -3791,6 +3907,7 @@
 				{
 					"name": "Bandobras Took",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral",
 						"Unique"
 					],
@@ -3838,6 +3955,7 @@
 	"Besiegers of the Hornburg": {
 		"id": "besiegers_hornburg",
 		"version": "2024",
+		"language": "en",
 		"name": "Besiegers of the Hornburg",
 		"alignment": "Evil",
 		"source": [
@@ -3962,6 +4080,7 @@
 	"Bhurdûr’s Horde": {
 		"id": "buhrdurs_horde",
 		"version": "2024",
+		"language": "en",
 		"name": "Bhurdûr’s Horde",
 		"alignment": "Evil",
 		"source": [
@@ -4089,6 +4208,7 @@
 	"Breaking of the Fellowship": {
 		"id": "breaking_fellowship",
 		"version": "2024",
+		"language": "en",
 		"name": "Breaking of the Fellowship",
 		"alignment": "Good",
 		"source": [
@@ -4262,7 +4382,9 @@
 	"Cirith Ungol": {
 		"id": "cirith_ungol",
 		"version": "2024",
+		"language": "en",
 		"name": "Cirith Ungol",
+		"noteGWFAQ": "Q: If Shelob is included as part of the Cirith Ungol Army List and eats one friendly model does she gain bonuses for both “She is always hungry” and Swift Hunter?\nA: Yes.",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -4395,6 +4517,9 @@
 				},
 				{
 					"name": "Orc Tracker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "6"
 				}
 			]
@@ -4403,6 +4528,7 @@
 	"Corsair Fleets": {
 		"id": "corsair_fleets",
 		"version": "2024",
+		"language": "en",
 		"name": "Corsair Fleets",
 		"alignment": "Evil",
 		"source": [
@@ -4513,6 +4639,9 @@
 				},
 				{
 					"name": "Corsair Reaver",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9"
 				}
 			]
@@ -4521,6 +4650,7 @@
 	"Defenders of Erebor": {
 		"id": "defenders_ererbor",
 		"version": "2024",
+		"language": "en",
 		"name": "Defenders of Erebor",
 		"alignment": "Good",
 		"source": [
@@ -4723,6 +4853,7 @@
 	"Defenders of Helm’s Deep": {
 		"id": "defenders_helms_deep",
 		"version": "2024",
+		"language": "en",
 		"name": "Defenders of Helm’s Deep",
 		"alignment": "Good",
 		"source": [
@@ -4874,6 +5005,9 @@
 			"Minor Heroes": [
 				{
 					"name": "King’s Huntsman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55"
 				}
 			],
@@ -4984,6 +5118,7 @@
 	"Defenders of the Hornburg": {
 		"id": "defenders_hornburg",
 		"version": "2024",
+		"language": "en",
 		"name": "Defenders of the Hornburg",
 		"alignment": "Good",
 		"source": [
@@ -5139,7 +5274,9 @@
 	"Defenders of the Pelennor": {
 		"id": "defenders_pelennor",
 		"version": "2024",
+		"language": "en",
 		"name": "Defenders of the Pelennor",
+		"noteGWFAQ": "Q: If Pippin or Merry are taken as passengers in the Defenders of the Pelennor Army List, can they declare a free Heroic Combat while they are passengers? \nA: No – as per the Passenger rules, they cannot contribute to a Combat in any way.",
 		"alignment": "Good",
 		"source": [
 			{
@@ -5164,6 +5301,7 @@
 				{
 					"name": "Théoden, King of Rohan",
 					"tag": [
+						"Match_Rohan",
 						"Unique"
 					],
 					"points": "110",
@@ -5176,6 +5314,7 @@
 				{
 					"name": "Aragorn (Strider)",
 					"tag": [
+						"Match_Dunharrow",
 						"Unique"
 					],
 					"points": "160",
@@ -5193,6 +5332,7 @@
 				{
 					"name": "Gandalf the White",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "200",
@@ -5210,6 +5350,7 @@
 				{
 					"name": "Prince Imrahil of Dol Amroth",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "160",
@@ -5225,6 +5366,7 @@
 				{
 					"name": "Éomer, Marshal of the Riddermark",
 					"tag": [
+						"Match_Rohan",
 						"Unique"
 					],
 					"points": "140",
@@ -5245,6 +5387,7 @@
 				{
 					"name": "Legolas Greenleaf",
 					"tag": [
+						"Match_Dunharrow",
 						"Unique"
 					],
 					"points": "100",
@@ -5262,6 +5405,7 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"tag": [
+						"Match_Dunharrow",
 						"Unique"
 					],
 					"points": "100",
@@ -5275,6 +5419,7 @@
 				{
 					"name": "The King of the Dead",
 					"tag": [
+						"Match_Dunharrow",
 						"Unique"
 					],
 					"points": "100"
@@ -5282,6 +5427,7 @@
 				{
 					"name": "Húrin the Tall, Warden of the Keys",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "80",
@@ -5295,6 +5441,7 @@
 				{
 					"name": "Forlong the Fat",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "90"
@@ -5304,6 +5451,7 @@
 				{
 					"name": "Éowyn, Shieldmaiden of Rohan",
 					"tag": [
+						"Match_Rohan",
 						"Unique"
 					],
 					"points": "110",
@@ -5329,6 +5477,7 @@
 				{
 					"name": "Gamling, Captain of Rohan",
 					"tag": [
+						"Match_Rohan",
 						"Unique"
 					],
 					"points": "75",
@@ -5344,6 +5493,9 @@
 				},
 				{
 					"name": "Captain of Rohan",
+					"tag": [
+						"Match_Rohan"
+					],
 					"points": "65",
 					"mandatory": [
 						"Horse"
@@ -5361,22 +5513,30 @@
 				},
 				{
 					"name": "Herald of the Dead",
+					"tag": [
+						"Match_Dunharrow"
+					],
 					"points": "70"
 				},
 				{
 					"name": "Irolas, Captain of the Guard",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "65"
 				},
 				{
 					"name": "Captain of Minas Tirith",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "60"
 				},
 				{
 					"name": "Déorwine, Chief of the King’s Knights",
 					"tag": [
+						"Match_Rohan",
 						"Unique"
 					],
 					"points": "70",
@@ -5390,6 +5550,7 @@
 				{
 					"name": "Elfhelm, Captain of Rohan",
 					"tag": [
+						"Match_Rohan",
 						"Unique"
 					],
 					"points": "60",
@@ -5403,6 +5564,7 @@
 				{
 					"name": "Ingold, Warden of the Rammas Echor",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "70"
@@ -5410,12 +5572,16 @@
 				{
 					"name": "Beregond, Guard of the Citadel",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "65"
 				},
 				{
 					"name": "Captain of Dol Amroth",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "65",
 					"options": [
 						{
@@ -5427,6 +5593,7 @@
 				{
 					"name": "Angbor the Fearless",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "70"
@@ -5434,6 +5601,7 @@
 				{
 					"name": "Duinhir, Lord of the Blackroot Vale",
 					"tag": [
+						"Match_Gondor",
 						"Unique"
 					],
 					"points": "65"
@@ -5441,6 +5609,7 @@
 				{
 					"name": "Halbarad",
 					"tag": [
+						"Match_Ranger",
 						"Unique"
 					],
 					"points": "70",
@@ -5460,6 +5629,9 @@
 				},
 				{
 					"name": "Knight of the White Tower",
+					"tag": [
+						"Legacy"
+					],
 					"points": "75"
 				}
 			],
@@ -5479,6 +5651,9 @@
 				},
 				{
 					"name": "Ranger of the North",
+					"tag": [
+						"Match_Ranger"
+					],
 					"points": "25",
 					"options": [
 						{
@@ -5495,6 +5670,9 @@
 			"Warriors": [
 				{
 					"name": "Rider of Rohan",
+					"tag": [
+						"Match_Rohan"
+					],
 					"points": "14",
 					"optionalWarrior": [
 						{
@@ -5512,6 +5690,9 @@
 				},
 				{
 					"name": "Rohan Royal Guard",
+					"tag": [
+						"Match_Rohan"
+					],
 					"points": "16",
 					"mandatory": [
 						"Horse"
@@ -5528,6 +5709,9 @@
 				},
 				{
 					"name": "Warrior of the Dead",
+					"tag": [
+						"Match_Dunharrow"
+					],
 					"points": "14",
 					"optionalWarrior": [
 						{
@@ -5550,10 +5734,16 @@
 				},
 				{
 					"name": "Rider of the Dead",
+					"tag": [
+						"Match_Dunharrow"
+					],
 					"points": "25"
 				},
 				{
 					"name": "Warrior of Minas Tirith",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "8",
 					"mandatoryWarrior": [
 						{
@@ -5583,6 +5773,9 @@
 				},
 				{
 					"name": "Knight of Minas Tirith",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "15",
 					"options": [
 						{
@@ -5593,6 +5786,9 @@
 				},
 				{
 					"name": "Citadel Guard",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "8",
 					"mandatoryWarrior": [
 						{
@@ -5636,6 +5832,9 @@
 				},
 				{
 					"name": "Knight of Dol Amroth",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "11",
 					"optionalWarrior": [
 						{
@@ -5662,14 +5861,23 @@
 				},
 				{
 					"name": "Axeman of Lossarnach",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "9"
 				},
 				{
 					"name": "Clansman of Lamedon",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "8"
 				},
 				{
 					"name": "Blackroot Vale Archer",
+					"tag": [
+						"Match_Gondor"
+					],
 					"points": "8",
 					"optionalWarrior": [
 						{
@@ -5688,6 +5896,10 @@
 				},
 				{
 					"name": "Man-at-arms of Dol Amroth",
+					"tag": [
+						"Legacy",
+						"Match_Gondor"
+					],
 					"points": "10"
 				}
 			]
@@ -5696,6 +5908,7 @@
 	"Depths of Moria": {
 		"id": "depths_moria",
 		"version": "2024",
+		"language": "en",
 		"name": "Depths of Moria",
 		"alignment": "Evil",
 		"source": [
@@ -5707,7 +5920,7 @@
 		"specialRules": [
 			{
 				"name": "Drums in the Deep",
-				"description": "Enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take.\nAdditionally, friendly Moria Goblin models always count as being in range of a banner."
+				"description": "Once per game, at the start of any Move Phase, a Depths of Moria player can declare they are using this special rule. If they do, until the End Phase of the turn, enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take.\n\nAdditionally, until the End Phase of the turn, friendly Moria Goblin models count as being in range of a banner."
 			},
 			{
 				"name": "Dominion of the Balrog",
@@ -5748,12 +5961,18 @@
 				},
 				{
 					"name": "Moria Blackshield Captain",
+					"tag": [
+						"Legacy"
+					],
 					"points": "45"
 				}
 			],
 			"Minor Heroes": [
 				{
 					"name": "Moria Blackshield Shaman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "50"
 				},
 				{
@@ -5808,10 +6027,16 @@
 				},
 				{
 					"name": "Moria Blackshield Drum",
+					"tag": [
+						"Legacy"
+					],
 					"points": "75"
 				},
 				{
 					"name": "Moria Blackshield Warrior",
+					"tag": [
+						"Legacy"
+					],
 					"points": "8",
 					"optionalWarrior": [
 						{
@@ -5830,6 +6055,7 @@
 	"Desolator of the North": {
 		"id": "desolator_north",
 		"version": "2024",
+		"language": "en",
 		"name": "Desolator of the North",
 		"alignment": "Evil",
 		"source": [
@@ -5871,6 +6097,7 @@
 	"Dragons of the North": {
 		"id": "dragons_north",
 		"version": "2024",
+		"language": "en",
 		"name": "Dragons of the North",
 		"alignment": "Evil",
 		"source": [
@@ -5939,6 +6166,7 @@
 	"Erebor & Dale": {
 		"id": "erebor_dale",
 		"version": "2024",
+		"language": "en",
 		"name": "Erebor & Dale",
 		"alignment": "Good",
 		"source": [
@@ -6091,6 +6319,7 @@
 	"Erebor Reclaimed": {
 		"id": "erebor_reclaimed",
 		"version": "2024",
+		"language": "en",
 		"name": "Erebor Reclaimed",
 		"alignment": "Good",
 		"source": [
@@ -6275,7 +6504,11 @@
 	},
 	"Expedition to the East": {
 		"id": "expedition_east",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Expedition to the East",
 		"alignment": "Good",
 		"source": [
@@ -6308,6 +6541,7 @@
 				{
 					"name": "Múrin & Drár",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "140 points for both"
@@ -6315,6 +6549,7 @@
 				{
 					"name": "Cirion, Lieutnant of Amon Barad",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "65"
@@ -6441,6 +6676,7 @@
 	"Fangorn": {
 		"id": "fangorn",
 		"version": "2024",
+		"language": "en",
 		"name": "Fangorn",
 		"alignment": "Good",
 		"source": [
@@ -6509,7 +6745,11 @@
 	},
 	"Far Harad": {
 		"id": "far_harad",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Far Harad",
 		"alignment": "Evil",
 		"source": [
@@ -6540,6 +6780,7 @@
 				{
 					"name": "Mahûd King",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral"
 					],
 					"points": "70",
@@ -6554,6 +6795,9 @@
 			"Heroes of Fortitude": [
 				{
 					"name": "Mahûd Tribesmaster",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55",
 					"options": [
 						{
@@ -6578,6 +6822,9 @@
 			"Warriors": [
 				{
 					"name": "Mahûd Warrior",
+					"tag": [
+						"Legacy"
+					],
 					"points": "8",
 					"optionalWarrior": [
 						{
@@ -6592,6 +6839,9 @@
 				},
 				{
 					"name": "Mahûd Raider",
+					"tag": [
+						"Legacy"
+					],
 					"points": "17",
 					"optionalWarrior": [
 						{
@@ -6606,6 +6856,9 @@
 				},
 				{
 					"name": "Half Troll",
+					"tag": [
+						"Legacy"
+					],
 					"points": "25",
 					"optionalWarrior": [
 						{
@@ -6619,7 +6872,11 @@
 	},
 	"Fell Beings of Mirkwood": {
 		"id": "fell_beings_mirkwood",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Fell Beings of Mirkwood",
 		"alignment": "Evil",
 		"source": [
@@ -6650,6 +6907,7 @@
 				{
 					"name": "Razgûsh, War Leader of the North",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral",
 						"Unique"
 					],
@@ -6658,6 +6916,7 @@
 				{
 					"name": "The Spider Queen",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "120"
@@ -6748,6 +7007,9 @@
 				},
 				{
 					"name": "Orc Tracker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "6"
 				},
 				{
@@ -6771,7 +7033,11 @@
 	},
 	"Fields of Celebrant": {
 		"id": "fields_celebrant",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Fields of Celebrant",
 		"alignment": "Good",
 		"source": [
@@ -6805,6 +7071,7 @@
 				{
 					"name": "Eorl the Young",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral",
 						"Unique"
 					],
@@ -6882,6 +7149,9 @@
 				},
 				{
 					"name": "Son of Eorl",
+					"tag": [
+						"Legacy"
+					],
 					"points": "20"
 				},
 				{
@@ -6936,6 +7206,7 @@
 	"Fords of Isen": {
 		"id": "fords_isen",
 		"version": "2024",
+		"language": "en",
 		"name": "Fords of Isen",
 		"alignment": "Good",
 		"source": [
@@ -7016,6 +7287,7 @@
 				{
 					"name": "Grimbold of Grimslade",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "65"
@@ -7024,6 +7296,9 @@
 			"Minor Heroes": [
 				{
 					"name": "King’s Huntsman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55"
 				}
 			],
@@ -7106,6 +7381,9 @@
 				},
 				{
 					"name": "Rohan Outrider",
+					"tag": [
+						"Legacy"
+					],
 					"points": "8",
 					"options": [
 						{
@@ -7120,6 +7398,7 @@
 	"Garrison of Dale": {
 		"id": "garrison_dale",
 		"version": "2024",
+		"language": "en",
 		"name": "Garrison of Dale",
 		"alignment": "Good",
 		"source": [
@@ -7219,6 +7498,7 @@
 	"Garrison of Ithilien": {
 		"id": "garrison_ithilien",
 		"version": "2024",
+		"language": "en",
 		"name": "Garrison of Ithilien",
 		"alignment": "Good",
 		"source": [
@@ -7307,6 +7587,7 @@
 				{
 					"name": "Anborn, Ranger of Ithilien",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "40"
@@ -7314,6 +7595,7 @@
 				{
 					"name": "Mablung, Ranger of Ithilien",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "40"
@@ -7413,6 +7695,7 @@
 	"Goblin-Town": {
 		"id": "goblin_town",
 		"version": "2024",
+		"language": "en",
 		"name": "Goblin-Town",
 		"alignment": "Evil",
 		"source": [
@@ -7499,6 +7782,7 @@
 	"Grand Army of the South": {
 		"id": "grand_army_south",
 		"version": "2024",
+		"language": "en",
 		"name": "Grand Army of the South",
 		"alignment": "Evil",
 		"source": [
@@ -7569,6 +7853,7 @@
 				{
 					"name": "Khamûl the Easterling",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -7582,6 +7867,7 @@
 				{
 					"name": "The Betrayer",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -7595,6 +7881,7 @@
 				{
 					"name": "The Knight of Umbar",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -7607,6 +7894,9 @@
 				},
 				{
 					"name": "Haradrim King",
+					"tag": [
+						"Legacy"
+					],
 					"points": "70",
 					"options": [
 						{
@@ -7618,12 +7908,16 @@
 				{
 					"name": "The Golden King of Abrakhân",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130"
 				},
 				{
 					"name": "Mahûd King",
+					"tag": [
+						"Legacy"
+					],
 					"points": "70",
 					"options": [
 						{
@@ -7634,6 +7928,9 @@
 				},
 				{
 					"name": "Khandish King",
+					"tag": [
+						"Legacy"
+					],
 					"points": "100",
 					"options": [
 						{
@@ -7752,6 +8049,9 @@
 				},
 				{
 					"name": "Mahûd Tribesmaster",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55",
 					"options": [
 						{
@@ -7774,6 +8074,9 @@
 				},
 				{
 					"name": "Khandish Chieftain",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55",
 					"options": [
 						{
@@ -7951,10 +8254,16 @@
 				},
 				{
 					"name": "Abrakhân Merchant Guard",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9"
 				},
 				{
 					"name": "Watcher of Kârna",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9",
 					"mandatoryWarrior": [
 						{
@@ -7972,6 +8281,9 @@
 				},
 				{
 					"name": "Mahûd Warrior",
+					"tag": [
+						"Legacy"
+					],
 					"points": "8",
 					"optionalWarrior": [
 						{
@@ -7986,6 +8298,9 @@
 				},
 				{
 					"name": "Mahûd Raider",
+					"tag": [
+						"Legacy"
+					],
 					"points": "17",
 					"optionalWarrior": [
 						{
@@ -8000,6 +8315,9 @@
 				},
 				{
 					"name": "Half Troll",
+					"tag": [
+						"Legacy"
+					],
 					"points": "25",
 					"optionalWarrior": [
 						{
@@ -8010,6 +8328,9 @@
 				},
 				{
 					"name": "Khandish Warrior",
+					"tag": [
+						"Legacy"
+					],
 					"points": "8",
 					"optionalWarrior": [
 						{
@@ -8023,10 +8344,16 @@
 				},
 				{
 					"name": "Khandish Horseman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "14"
 				},
 				{
 					"name": "Khandish Charioteer",
+					"tag": [
+						"Legacy"
+					],
 					"points": "40",
 					"optionalWarrior": [
 						{
@@ -8040,6 +8367,9 @@
 				},
 				{
 					"name": "Corsair Reaver",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9"
 				}
 			]
@@ -8048,6 +8378,7 @@
 	"Halls of Thranduil": {
 		"id": "halls_thranduil",
 		"version": "2024",
+		"language": "en",
 		"name": "Halls of Thranduil",
 		"alignment": "Good",
 		"source": [
@@ -8203,6 +8534,7 @@
 	"Harad": {
 		"id": "harad",
 		"version": "2024",
+		"language": "en",
 		"name": "Harad",
 		"alignment": "Evil",
 		"source": [
@@ -8239,6 +8571,7 @@
 				{
 					"name": "The Betrayer",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -8251,6 +8584,9 @@
 				},
 				{
 					"name": "Haradrim King",
+					"tag": [
+						"Legacy"
+					],
 					"points": "70",
 					"options": [
 						{
@@ -8262,6 +8598,7 @@
 				{
 					"name": "The Golden King of Abrakhân",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130"
@@ -8376,10 +8713,16 @@
 				},
 				{
 					"name": "Abrakhân Merchant Guard",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9"
 				},
 				{
 					"name": "Watcher of Kârna",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9",
 					"mandatoryWarrior": [
 						{
@@ -8401,6 +8744,7 @@
 	"Host of the Dragon Emperor": {
 		"id": "dragon_emperor",
 		"version": "2024",
+		"language": "en",
 		"name": "Host of the Dragon Emperor",
 		"alignment": "Evil",
 		"source": [
@@ -8549,6 +8893,7 @@
 	"Host of the Witch-king": {
 		"id": "host_witchking",
 		"version": "2024",
+		"language": "en",
 		"name": "Host of the Witch-king",
 		"alignment": "Evil",
 		"source": [
@@ -8614,6 +8959,7 @@
 				{
 					"name": "The Tainted",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -8627,6 +8973,7 @@
 				{
 					"name": "The Dwimmerlaik",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -8765,6 +9112,7 @@
 	"Kingdom of Khazad-dûm": {
 		"id": "khazad_dum",
 		"version": "2024",
+		"language": "en",
 		"name": "Kingdom of Khazad-dûm",
 		"alignment": "Good",
 		"source": [
@@ -8824,10 +9172,16 @@
 				},
 				{
 					"name": "King’s Champion",
+					"tag": [
+						"Legacy"
+					],
 					"points": "140"
 				},
 				{
 					"name": "Dwarf Shieldbearer",
+					"tag": [
+						"Legacy"
+					],
 					"points": "60"
 				}
 			],
@@ -8910,6 +9264,7 @@
 	"Kingdom of Rohan": {
 		"id": "kingdom_rohan",
 		"version": "2024",
+		"language": "en",
 		"name": "Kingdom of Rohan",
 		"alignment": "Good",
 		"source": [
@@ -9078,6 +9433,7 @@
 				{
 					"name": "Grimbold of Grimslade",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "65"
@@ -9085,6 +9441,7 @@
 				{
 					"name": "Erkenbrand, Captain of Rohan",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "90"
@@ -9121,6 +9478,9 @@
 				},
 				{
 					"name": "King’s Huntsman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55"
 				}
 			],
@@ -9203,6 +9563,9 @@
 				},
 				{
 					"name": "Rohan Outrider",
+					"tag": [
+						"Legacy"
+					],
 					"points": "8",
 					"options": [
 						{
@@ -9217,6 +9580,7 @@
 	"Legions of Mordor": {
 		"id": "legion_mordor",
 		"version": "2024",
+		"language": "en",
 		"name": "Legions of Mordor",
 		"alignment": "Evil",
 		"source": [
@@ -9324,6 +9688,7 @@
 				{
 					"name": "Khamûl the Easterling",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -9337,6 +9702,7 @@
 				{
 					"name": "The Tainted",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -9350,6 +9716,7 @@
 				{
 					"name": "The Dwimmerlaik",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -9363,6 +9730,7 @@
 				{
 					"name": "The Dark Marshal",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -9376,6 +9744,7 @@
 				{
 					"name": "The Shadow Lord",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -9389,6 +9758,7 @@
 				{
 					"name": "The Undying",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -9402,6 +9772,7 @@
 				{
 					"name": "The Betrayer",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -9415,6 +9786,7 @@
 				{
 					"name": "The Knight of Umbar",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -9427,6 +9799,9 @@
 				},
 				{
 					"name": "Haradrim King",
+					"tag": [
+						"Legacy"
+					],
 					"points": "70",
 					"options": [
 						{
@@ -9438,6 +9813,7 @@
 				{
 					"name": "The Golden King of Abrakhân",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130"
@@ -9569,6 +9945,7 @@
 				{
 					"name": "Goroth, Captain of the Morannon",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "85"
@@ -9576,12 +9953,16 @@
 				{
 					"name": "Zagdûsh, Orc Captain",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "60"
 				},
 				{
 					"name": "Great Beast of Gorgoroth",
+					"tag": [
+						"Legacy"
+					],
 					"points": "175"
 				}
 			],
@@ -9796,10 +10177,16 @@
 				},
 				{
 					"name": "Abrakhân Merchant Guard",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9"
 				},
 				{
 					"name": "Watcher of Kârna",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9",
 					"mandatoryWarrior": [
 						{
@@ -9821,6 +10208,7 @@
 	"Lindon": {
 		"id": "lindon",
 		"version": "2024",
+		"language": "en",
 		"name": "Lindon",
 		"alignment": "Good",
 		"source": [
@@ -9913,6 +10301,7 @@
 				{
 					"name": "Erestor",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "85"
@@ -9921,6 +10310,9 @@
 			"Minor Heroes": [
 				{
 					"name": "Rivendell Stormcaller",
+					"tag": [
+						"Legacy"
+					],
 					"points": "65"
 				}
 			],
@@ -9970,6 +10362,7 @@
 	"Lothlórien": {
 		"id": "lothlórien",
 		"version": "2024",
+		"language": "en",
 		"name": "Lothlórien",
 		"alignment": "Good",
 		"source": [
@@ -10071,6 +10464,9 @@
 				},
 				{
 					"name": "Lothlórien Stormcaller",
+					"tag": [
+						"Legacy"
+					],
 					"points": "65"
 				}
 			],
@@ -10180,6 +10576,7 @@
 	"Lurtz’s Scouts": {
 		"id": "lurtz_scouts",
 		"version": "2024",
+		"language": "en",
 		"name": "Lurtz’s Scouts",
 		"alignment": "Evil",
 		"source": [
@@ -10236,6 +10633,10 @@
 				},
 				{
 					"name": "Mauhûr",
+					"tag": [
+						"Legacy",
+						"Unique"
+					],
 					"points": "65"
 				}
 			],
@@ -10273,6 +10674,7 @@
 	"Men of the West": {
 		"id": "men_west",
 		"version": "2024",
+		"language": "en",
 		"name": "Men of the West",
 		"alignment": "Good",
 		"source": [
@@ -10572,6 +10974,9 @@
 				},
 				{
 					"name": "Man-at-arms of Dol Amroth",
+					"tag": [
+						"Legacy"
+					],
 					"points": "10"
 				}
 			]
@@ -10580,6 +10985,7 @@
 	"Minas Morgul": {
 		"id": "minas_morgul",
 		"version": "2024",
+		"language": "en",
 		"name": "Minas Morgul",
 		"alignment": "Evil",
 		"source": [
@@ -10688,6 +11094,7 @@
 				{
 					"name": "Kardûsh the Firecaller",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "65"
@@ -10779,10 +11186,16 @@
 				},
 				{
 					"name": "Morgul Stalker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "10"
 				},
 				{
 					"name": "Orc Tracker",
+					"tag": [
+						"Legacy"
+					],
 					"points": "6"
 				}
 			]
@@ -10791,6 +11204,7 @@
 	"Minas Tirith": {
 		"id": "minas_tirith",
 		"version": "2024",
+		"language": "en",
 		"name": "Minas Tirith",
 		"alignment": "Good",
 		"source": [
@@ -10909,6 +11323,7 @@
 				{
 					"name": "Cirion, Lieutnant of Amon Barad",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "65"
@@ -10994,6 +11409,7 @@
 	"Moria": {
 		"id": "moria",
 		"version": "2024",
+		"language": "en",
 		"name": "Moria",
 		"alignment": "Evil",
 		"source": [
@@ -11079,6 +11495,7 @@
 				{
 					"name": "Grôblog",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "55"
@@ -11086,12 +11503,16 @@
 				{
 					"name": "Ashrâk",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "60"
 				},
 				{
 					"name": "Moria Blackshield Captain",
+					"tag": [
+						"Legacy"
+					],
 					"points": "45"
 				}
 			],
@@ -11106,6 +11527,9 @@
 				},
 				{
 					"name": "Moria Blackshield Shaman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "50"
 				}
 			],
@@ -11176,10 +11600,16 @@
 				},
 				{
 					"name": "Moria Blackshield Drum",
+					"tag": [
+						"Legacy"
+					],
 					"points": "75"
 				},
 				{
 					"name": "Moria Blackshield Warrior",
+					"tag": [
+						"Legacy"
+					],
 					"points": "8",
 					"optionalWarrior": [
 						{
@@ -11190,10 +11620,16 @@
 				},
 				{
 					"name": "Warg Marauder",
+					"tag": [
+						"Legacy"
+					],
 					"points": "35"
 				},
 				{
 					"name": "Dweller in the Dark",
+					"tag": [
+						"Legacy"
+					],
 					"points": "80"
 				}
 			]
@@ -11202,6 +11638,7 @@
 	"Muster of Isengard": {
 		"id": "muster_isengard",
 		"version": "2024",
+		"language": "en",
 		"name": "Muster of Isengard",
 		"alignment": "Evil",
 		"source": [
@@ -11256,6 +11693,7 @@
 				{
 					"name": "Vraskû",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "70"
@@ -11353,6 +11791,9 @@
 				},
 				{
 					"name": "Feral Uruk-hai",
+					"tag": [
+						"Legacy"
+					],
 					"points": "13"
 				}
 			]
@@ -11361,6 +11802,7 @@
 	"Númenor": {
 		"id": "númenor",
 		"version": "2024",
+		"language": "en",
 		"name": "Númenor",
 		"alignment": "Good",
 		"source": [
@@ -11446,6 +11888,7 @@
 	"Paths of the Drúadan": {
 		"id": "paths_druadan",
 		"version": "2024",
+		"language": "en",
 		"name": "Paths of the Drúadan",
 		"alignment": "Good",
 		"source": [
@@ -11644,6 +12087,9 @@
 				},
 				{
 					"name": "Rohan Outrider",
+					"tag": [
+						"Legacy"
+					],
 					"points": "13",
 					"mandatory": [
 						"Horse"
@@ -11655,6 +12101,7 @@
 	"Pits of Dol Guldur": {
 		"id": "pits_dol_goldur",
 		"version": "2024",
+		"language": "en",
 		"name": "Pits of Dol Guldur",
 		"alignment": "Evil",
 		"source": [
@@ -11821,6 +12268,7 @@
 	"Radagast’s Alliance": {
 		"id": "radagasts_alliance",
 		"version": "2024",
+		"language": "en",
 		"name": "Radagast’s Alliance",
 		"alignment": "Good",
 		"source": [
@@ -11888,6 +12336,7 @@
 	"Rangers of Mirkwood": {
 		"id": "rangers_mirkwood",
 		"version": "2024",
+		"language": "en",
 		"name": "Rangers of Mirkwood",
 		"alignment": "Good",
 		"source": [
@@ -12083,7 +12532,11 @@
 	},
 	"Ravagers of the Shire": {
 		"id": "ravagers_shire",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Ravagers of the Shire",
 		"alignment": "Evil",
 		"source": [
@@ -12114,6 +12567,7 @@
 				{
 					"name": "Golfimbul, Orc Captain",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral",
 						"Unique"
 					],
@@ -12211,7 +12665,9 @@
 	"Realms of Men": {
 		"id": "realms_men",
 		"version": "2024",
+		"language": "en",
 		"name": "Realms of Men",
+		"noteGWFAQ": "Q: If I take a Rohan King of Men in the Realms of Men Army List, can I include Rohirrim Traitors in the army? \nA: No.\n\nQ: In a Realms of Men Army List, what Heroic Tier are other Hero models included in the Army?\nA: Any Hero models included in the Army, with the exception of Kings of Men, will be classed as Heroes of Fortitude. This does not apply to Siege Veterans, who will remain as Minor Heroes.",
 		"alignment": "Good",
 		"source": [
 			{
@@ -12384,6 +12840,9 @@
 			"Minor Heroes": [
 				{
 					"name": "King’s Huntsman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55"
 				}
 			],
@@ -12639,6 +13098,9 @@
 				},
 				{
 					"name": "Man-at-arms of Dol Amroth",
+					"tag": [
+						"Legacy"
+					],
 					"points": "10"
 				},
 				{
@@ -12740,6 +13202,9 @@
 				},
 				{
 					"name": "Rohan Outrider",
+					"tag": [
+						"Legacy"
+					],
 					"points": "13",
 					"mandatory": [
 						"Horse"
@@ -12750,7 +13215,11 @@
 	},
 	"Reclamation of Moria": {
 		"id": "reclamation_moria",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Reclamation of Moria",
 		"alignment": "Good",
 		"source": [
@@ -12782,6 +13251,7 @@
 				{
 					"name": "Balin the Dwarf, King of Moria",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral",
 						"Unique"
 					],
@@ -12798,6 +13268,7 @@
 				{
 					"name": "Flói Stonehand",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "75"
@@ -12822,12 +13293,18 @@
 				},
 				{
 					"name": "King’s Champion",
+					"tag": [
+						"Legacy"
+					],
 					"points": "140"
 				}
 			],
 			"Minor Heroes": [
 				{
 					"name": "Dwarf Shieldbearer",
+					"tag": [
+						"Legacy"
+					],
 					"points": "60"
 				}
 			],
@@ -12899,6 +13376,7 @@
 	"Reclamation of Osgiliath": {
 		"id": "reclamation_osgiliath",
 		"version": "2024",
+		"language": "en",
 		"name": "Reclamation of Osgiliath",
 		"alignment": "Good",
 		"source": [
@@ -13056,6 +13534,7 @@
 	"Return of the King": {
 		"id": "return_king",
 		"version": "2024",
+		"language": "en",
 		"name": "Return of the King",
 		"alignment": "Good",
 		"source": [
@@ -13176,6 +13655,7 @@
 	"Ride Out": {
 		"id": "ride_out",
 		"version": "2024",
+		"language": "en",
 		"name": "Ride Out",
 		"alignment": "Good",
 		"source": [
@@ -13323,6 +13803,7 @@
 	"Riders of Éomer": {
 		"id": "riders_éomer",
 		"version": "2024",
+		"language": "en",
 		"name": "Riders of Éomer",
 		"alignment": "Good",
 		"source": [
@@ -13406,6 +13887,7 @@
 				{
 					"name": "Erkenbrand, Captain of Rohan",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "90"
@@ -13435,6 +13917,7 @@
 	"Riders of Théoden": {
 		"id": "riders_théoden",
 		"version": "2024",
+		"language": "en",
 		"name": "Riders of Théoden",
 		"alignment": "Good",
 		"source": [
@@ -13625,6 +14108,7 @@
 	"Rise of the Necromancer": {
 		"id": "rise_necromancer",
 		"version": "2024",
+		"language": "en",
 		"name": "Rise of the Necromancer",
 		"alignment": "Evil",
 		"source": [
@@ -13740,6 +14224,9 @@
 			"Independent Heroes": [
 				{
 					"name": "Castellan of Dol Guldur",
+					"tag": [
+						"Legacy"
+					],
 					"points": "50"
 				}
 			],
@@ -13796,6 +14283,7 @@
 	"Rivendell": {
 		"id": "rivendell",
 		"version": "2024",
+		"language": "en",
 		"name": "Rivendell",
 		"alignment": "Good",
 		"source": [
@@ -13914,6 +14402,7 @@
 				{
 					"name": "Erestor",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "85"
@@ -13922,6 +14411,9 @@
 			"Minor Heroes": [
 				{
 					"name": "Rivendell Stormcaller",
+					"tag": [
+						"Legacy"
+					],
 					"points": "65"
 				}
 			],
@@ -13994,7 +14486,9 @@
 	"Road to Helm’s Deep": {
 		"id": "road_helms_deep",
 		"version": "2024",
+		"language": "en",
 		"name": "Road to Helm’s Deep",
+		"noteGWFAQ": "Q: In the Road to Helm’s Deep Army List, if Gimli is taken as a Passenger on Legolas’ horse can he also lead a Warband?\nA: No.\n\nQ: In the Road to Helm’s Deep Army List, can Háma benefit from the Back on your horses special rule as he cannot normally have a horse?\nA: No.",
 		"alignment": "Good",
 		"source": [
 			{
@@ -14155,6 +14649,9 @@
 				},
 				{
 					"name": "Rohan Outrider",
+					"tag": [
+						"Legacy"
+					],
 					"points": "13",
 					"mandatory": [
 						"Horse"
@@ -14166,6 +14663,7 @@
 	"Road to Rivendell": {
 		"id": "road_rivendell",
 		"version": "2024",
+		"language": "en",
 		"name": "Road to Rivendell",
 		"alignment": "Good",
 		"source": [
@@ -14255,6 +14753,7 @@
 				{
 					"name": "Gildor Inglorion",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "70"
@@ -14318,6 +14817,7 @@
 	"Shadows of Angmar": {
 		"id": "shadow_angmar",
 		"version": "2024",
+		"language": "en",
 		"name": "Shadows of Angmar",
 		"alignment": "Evil",
 		"source": [
@@ -14469,6 +14969,7 @@
 	"Sharkey’s Rogues": {
 		"id": "sharkeys_rogues",
 		"version": "2024",
+		"language": "en",
 		"name": "Sharkey’s Rogues",
 		"alignment": "Evil",
 		"source": [
@@ -14582,6 +15083,7 @@
 	"Survivors of Lake-town": {
 		"id": "survivors_lake_town",
 		"version": "2024",
+		"language": "en",
 		"name": "Survivors of Lake-town",
 		"alignment": "Good",
 		"source": [
@@ -14712,6 +15214,7 @@
 	"The Battle of the Five Armies": {
 		"id": "battle_five_armies",
 		"version": "2024",
+		"language": "en",
 		"name": "The Battle of the Five Armies",
 		"alignment": "Good",
 		"source": [
@@ -15110,6 +15613,7 @@
 	"The Beornings": {
 		"id": "beornings",
 		"version": "2024",
+		"language": "en",
 		"name": "The Beornings",
 		"alignment": "Good",
 		"source": [
@@ -15146,6 +15650,7 @@
 				{
 					"name": "Grimbeorn",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "200"
@@ -15171,6 +15676,7 @@
 	"The Black Gate": {
 		"id": "black_gate",
 		"version": "2024",
+		"language": "en",
 		"name": "The Black Gate",
 		"alignment": "Evil",
 		"source": [
@@ -15303,6 +15809,7 @@
 	"The Black Riders": {
 		"id": "black_riders",
 		"version": "2024",
+		"language": "en",
 		"name": "The Black Riders",
 		"alignment": "Evil",
 		"source": [
@@ -15373,7 +15880,9 @@
 	"The Eagles": {
 		"id": "eagles",
 		"version": "2024",
+		"language": "en",
 		"name": "The Eagles",
+		"noteGWFAQ": "Q: When Gwaihir uses the Piercing Cry special rule, is it the models that are within 6\" of him when he declares the use of this rule, or the models within 6\" of him when they activate, that are affected?\nA: Only the models that are within 6\" of Gwaihir when they are activated. Models that are within 6\" of Gwaihir when he declares the use of the rule, but are not within 6\" when they activate because Gwaihir has since Moved, are not affected.",
 		"alignment": "Good",
 		"source": [
 			{
@@ -15391,7 +15900,7 @@
 			},
 			{
 				"name": "Piercing Cry",
-				"description": "Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Move during that turn, but may otherwise act normally."
+				"description": "Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Charge during that turn, but may otherwise act normally."
 			}
 		],
 		"models": {
@@ -15420,6 +15929,7 @@
 	"The Easterlings": {
 		"id": "easterlings",
 		"version": "2024",
+		"language": "en",
 		"name": "The Easterlings",
 		"alignment": "Evil",
 		"source": [
@@ -15464,6 +15974,7 @@
 				{
 					"name": "Khamûl the Easterling",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -15575,6 +16086,7 @@
 	"The Fellowship": {
 		"id": "fellowship",
 		"version": "2024",
+		"language": "en",
 		"name": "The Fellowship",
 		"alignment": "Good",
 		"source": [
@@ -15713,6 +16225,7 @@
 	"The Fiefdoms": {
 		"id": "fiefdoms",
 		"version": "2024",
+		"language": "en",
 		"name": "The Fiefdoms",
 		"alignment": "Good",
 		"source": [
@@ -15840,6 +16353,9 @@
 				},
 				{
 					"name": "Man-at-arms of Dol Amroth",
+					"tag": [
+						"Legacy"
+					],
 					"points": "10"
 				}
 			]
@@ -15848,6 +16364,7 @@
 	"The Grey Company": {
 		"id": "grey_company",
 		"version": "2024",
+		"language": "en",
 		"name": "The Grey Company",
 		"alignment": "Good",
 		"source": [
@@ -15975,6 +16492,7 @@
 	"The Grief of Éomer": {
 		"id": "grief_eomer",
 		"version": "2024",
+		"language": "en",
 		"name": "The Grief of Éomer",
 		"alignment": "Good",
 		"source": [
@@ -16212,6 +16730,9 @@
 				},
 				{
 					"name": "Man-at-arms of Dol Amroth",
+					"tag": [
+						"Legacy"
+					],
 					"points": "10"
 				}
 			]
@@ -16220,6 +16741,7 @@
 	"The Iron Hills": {
 		"id": "iron_hills",
 		"version": "2024",
+		"language": "en",
 		"name": "The Iron Hills",
 		"alignment": "Good",
 		"source": [
@@ -16290,6 +16812,7 @@
 				{
 					"name": "Múrin & Drár",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "140 points for both"
@@ -16349,6 +16872,7 @@
 	"The Last Alliance": {
 		"id": "last_alliance",
 		"version": "2024",
+		"language": "en",
 		"name": "The Last Alliance",
 		"alignment": "Good",
 		"source": [
@@ -16450,6 +16974,7 @@
 				{
 					"name": "Erestor",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "85"
@@ -16508,6 +17033,7 @@
 	"The Serpent Horde": {
 		"id": "serpent_horde",
 		"version": "2024",
+		"language": "en",
 		"name": "The Serpent Horde",
 		"alignment": "Evil",
 		"source": [
@@ -16555,6 +17081,7 @@
 				{
 					"name": "The Betrayer",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -16567,6 +17094,9 @@
 				},
 				{
 					"name": "Haradrim King",
+					"tag": [
+						"Legacy"
+					],
 					"points": "70",
 					"options": [
 						{
@@ -16704,6 +17234,7 @@
 	"The Shire": {
 		"id": "shire",
 		"version": "2024",
+		"language": "en",
 		"name": "The Shire",
 		"alignment": "Good",
 		"source": [
@@ -16894,7 +17425,11 @@
 	},
 	"The Spider Queen’s Brood": {
 		"id": "spiderqueen_brood",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "The Spider Queen’s Brood",
 		"alignment": "Evil",
 		"source": [
@@ -16934,6 +17469,7 @@
 				{
 					"name": "The Spider Queen",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral",
 						"Unique"
 					],
@@ -16963,6 +17499,7 @@
 	"The Three Trolls": {
 		"id": "three_trolls",
 		"version": "2024",
+		"language": "en",
 		"name": "The Three Trolls",
 		"alignment": "Evil",
 		"source": [
@@ -17019,6 +17556,7 @@
 	"The White Council": {
 		"id": "white_council",
 		"version": "2024",
+		"language": "en",
 		"name": "The White Council",
 		"alignment": "Good",
 		"source": [
@@ -17109,6 +17647,7 @@
 	"Thorin’s Company": {
 		"id": "thorins_company",
 		"version": "2024",
+		"language": "en",
 		"name": "Thorin’s Company",
 		"alignment": "Good",
 		"source": [
@@ -17301,6 +17840,7 @@
 	"Uglúk’s Scouts": {
 		"id": "ugluk_scout",
 		"version": "2024",
+		"language": "en",
 		"name": "Uglúk’s Scouts",
 		"alignment": "Evil",
 		"source": [
@@ -17365,6 +17905,7 @@
 				{
 					"name": "Mauhûr",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "65"
@@ -17439,6 +17980,7 @@
 	"Umbar": {
 		"id": "umbar",
 		"version": "2024",
+		"language": "en",
 		"name": "Umbar",
 		"alignment": "Evil",
 		"source": [
@@ -17485,6 +18027,7 @@
 				{
 					"name": "The Knight of Umbar",
 					"tag": [
+						"Legacy",
 						"Unique"
 					],
 					"points": "130",
@@ -17604,6 +18147,9 @@
 				},
 				{
 					"name": "Corsair Reaver",
+					"tag": [
+						"Legacy"
+					],
 					"points": "9"
 				}
 			]
@@ -17612,6 +18158,7 @@
 	"Usurpers of Edoras": {
 		"id": "usurpers_edoras",
 		"version": "2024",
+		"language": "en",
 		"name": "Usurpers of Edoras",
 		"alignment": "Evil",
 		"source": [
@@ -17771,7 +18318,11 @@
 	},
 	"Variags of Khand": {
 		"id": "variags_khand",
+		"tag": [
+			"Legacy"
+		],
 		"version": "2024",
+		"language": "en",
 		"name": "Variags of Khand",
 		"alignment": "Evil",
 		"source": [
@@ -17799,6 +18350,7 @@
 				{
 					"name": "Khandish King",
 					"tag": [
+						"Legacy",
 						"MandatoryGeneral"
 					],
 					"points": "100",
@@ -17813,6 +18365,9 @@
 			"Heroes of Fortitude": [
 				{
 					"name": "Khandish Chieftain",
+					"tag": [
+						"Legacy"
+					],
 					"points": "55",
 					"options": [
 						{
@@ -17825,6 +18380,9 @@
 			"Warriors": [
 				{
 					"name": "Khandish Warrior",
+					"tag": [
+						"Legacy"
+					],
 					"points": "8",
 					"optionalWarrior": [
 						{
@@ -17838,10 +18396,16 @@
 				},
 				{
 					"name": "Khandish Horseman",
+					"tag": [
+						"Legacy"
+					],
 					"points": "14"
 				},
 				{
 					"name": "Khandish Charioteer",
+					"tag": [
+						"Legacy"
+					],
 					"points": "40",
 					"optionalWarrior": [
 						{
@@ -17859,6 +18423,7 @@
 	"Wolf Pack of Angmar": {
 		"id": "wolfpack_angmar",
 		"version": "2024",
+		"language": "en",
 		"name": "Wolf Pack of Angmar",
 		"alignment": "Evil",
 		"source": [
@@ -17915,6 +18480,7 @@
 	"Wolves of Isengard": {
 		"id": "wolves_isengard",
 		"version": "2024",
+		"language": "en",
 		"name": "Wolves of Isengard",
 		"alignment": "Evil",
 		"source": [
@@ -18016,6 +18582,7 @@
 	"Wraiths on Wings": {
 		"id": "wraiths_wings",
 		"version": "2024",
+		"language": "en",
 		"name": "Wraiths on Wings",
 		"alignment": "Evil",
 		"source": [

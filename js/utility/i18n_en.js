@@ -27,6 +27,7 @@ export default {
         crossLinksRules: "Enable Cross-Links for Rules",
         crossLinksProfiles: "Enable Cross-Links for Profiles",
         showGWFAQNotes: "Show GW FAQ Notes",
+        includeLegacy: "Including Legacy",
         close: "Close"
     },
 

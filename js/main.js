@@ -14,7 +14,7 @@ import { initProfilesAll } from "./profiles/showAllProfiles.js";
 import { initRulesAll} from "./rules/showAllRules.js";
 
 import { initArmylistsSearch, onArmylistsSearchNavigate } from "./armylists/searchArmylist.js";
-import { initArmylistsBuild, onArmylistsBuildNavigate } from "./armylists/buildArmylist.js";
+import { initArmylistsBuild, onArmylistsBuildNavigate } from "./armylists/buildarmylist/renderPage.js";
 import { initArmylistsAll } from "./armylists/showAllArmylists.js";
 
 

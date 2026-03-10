@@ -177,8 +177,8 @@
 		"language": "en",
 		"name": "A Traitor Within",
 		"status": "Passive",
-		"description": "Gríma can be deployed in one of two ways, though his controlling player must decide which before either Army is deployed. Gríma can either be deployed as part of Saruman’s Warband (in which case he will not take up a space in the Warband), or as part of the enemy Army.\n\nIf Gríma chooses to be deployed as part of the enemy Army, he must select an enemy Hero. Once that Hero and their Warband has been deployed, Gríma’s controlling player can deploy Gríma as if he was also part of that Warband, following all the usual deployment rules. Gríma is still part of his controlling player’s Army, and will Activate like any other model in his controlling player’s Army.\n\nIf Gríma is deployed as part of the enemy Army, then enemy models treat him as a friendly model, and therefore cannot Shoot him, Charge him, make Strikes against him, target him with special rules, or make a shooting attack in which Gríma would be In The Way. They may also ignore his Control Zone. They can, however, target him with Magical Powers like any other enemy model.\n\nWhilst Gríma is considered a friendly model, Gríma may ignore the Control Zones of enemy models and may Move through enemy models as if they weren’t there. When Gríma Moves this way, he cannot end his Move overlapping or in base contact with an enemy model. Gríma can choose to Charge an enemy model as normal if he wishes.\n\nThese restrictions immediately end if Saruman is slain, if Gríma Charges an enemy model, if Gríma destroys an enemy Siege Engine, or if Gríma interacts with an Objective Marker (such as destroying a Supply Marker or picking up an Objective), at which point Gríma is treated as a normal enemy model and can be Charged, shot at and slain like any other model.",
-		"descriptionGWFAQ": "Q: What happens with Gríma Wormtongue’s A Traitor Within special rule if he is taken in an Army that does not include Saruman?\nA: If Gríma is taken in an Army that does not include Saruman, then he must be deployed as part of the enemy Army and will begin the game already revealed and is treated as a normal enemy model – just as if Saruman had been slain.",
+		"description": "Gríma can be deployed in one of two ways, though his controlling player must decide which before either Army is deployed. Gríma can either be deployed as part of Saruman’s Warband (in which case he will not take up a space in the Warband), or as part of the enemy Army.\n\nIf Gríma chooses to be deployed as part of the enemy Army, he must select an enemy Hero. Once that Hero and their Warband has been deployed, Gríma’s controlling player can deploy Gríma as if he was also part of that Warband, following all the usual deployment rules. Gríma is still part of his controlling player’s Army, and will Activate like any other model in his controlling player’s Army.\n\nIf Gríma is deployed as part of the enemy Army, then enemy models treat him as a friendly model, and therefore cannot Shoot him, Charge him, make Strikes against him, target him with special rules, or make a shooting attack in which Gríma would be In The Way. They may also ignore his Control Zone. They can, however, target him with Magical Powers like any other enemy model.\n\nWhilst Gríma is considered a friendly model, Gríma may ignore the Control Zones of enemy models and may Move through enemy models as if they weren’t there. When Gríma Moves this way, he cannot end his Move overlapping or in base contact with an enemy model. Additionally, whilst Gríma is considered a friendly model, enemy models may Move through Gríma in the same manner as described above. Gríma can choose to Charge an enemy model as normal if he wishes\n\nThese restrictions immediately end if Saruman suffers an unsaved Wound, if Gríma Charges an enemy model, if Gríma destroys an enemy Siege Engine, or if Gríma interacts with an Objective Marker (such as destroying a Supply Marker or picking up an objective), at which point Gríma is treated as a normal enemy model and can be Charged, shot and slain like any other model. Additionally, Gríma can never be chosen as a target in Scenarios that require players to select friendly or enemy Hero models, such as Fog of War or Assassination.",
+		"descriptionGWFAQ": "Q: What happens with Gríma Wormtongue’s A Traitor Within special rule if he is taken in an Army that does not include Saruman?\nA: If Gríma is taken in an Army that does not include Saruman, then he must be deployed as part of the enemy Army and will begin the game already revealed and is treated as a normal enemy model – just as if Saruman had been slain.\n\nQ: How does Gríma Wormtongue’s A Traitor Within special rule work in Scenarios where Warbands enter the battlefield, such as Reconnoitre or those that use Maelstrom of Battle?\nA: If you wish to deploy Gríma with an enemy Warband in these instances, you must select the Warband at the start of the game. When that Warband enters the battlefield, after all models from that Warband have moved onto the board, Gríma may then also do so.",
 		"linkedProfiles": [
 			"Saruman"
 		],
@@ -191,6 +191,7 @@
 			"Control Zones",
 			"Hero",
 			"In The Way",
+			"Maelstrom of Battle",
 			"Magical Powers",
 			"Move",
 			"Moves",
@@ -1311,7 +1312,7 @@
 			"War spear"
 		]
 	},
-	"Bow [Definition]": {
+	"Bogen [Definition]": {
 		"type": "wargear",
 		"version": "2024",
 		"language": "en",
@@ -2778,7 +2779,7 @@
 		"name": "Deadly Shot",
 		"status": "Active",
 		"description": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat and does not suffer the -1 penalty To Hit for Moving and Shooting so long as he has the Infantry keyword. If Legolas shoots whilst he is Engaged in Combat, he may shoot at models he is Engaged in Combat with, and does not need to make In The Way Tests for shooting at models he is Engaged in Combat with (though they may still block Line of Sight as normal).",
-		"descriptionGWFAQ": "Q: In Legolas’ Deadly Shot special rule, does the ‘so long as he has the Infantry keyword’ caveat apply only to the ‘not suffering the -1 penalty To Hit for Moving and Shooting’ part of the rule, or also to the ‘being allowed to make shooting attacks whilst Engaged in Combat’ part of the rule?\n A: This caveat only applies to the not suffering the -1 penalty To Hit for Moving and Shooting. Legolas may still make shooting attacks whilst Engaged in Combat if he is mounted.",
+		"descriptionGWFAQ": "Q: In Legolas’ Deadly Shot special rule, does the \"so long as he has the Infantry keyword\" caveat apply only to the \"not suffering the -1 penalty To Hit for Moving and Shooting\" part of the rule, or also to the \"being allowed to make shooting attacks whilst Engaged in Combat\" part of the rule?\n A: This caveat only applies to the not suffering the -1 penalty To Hit for Moving and Shooting. Legolas may still make shooting attacks whilst Engaged in Combat if he is mounted.",
 		"linkedRules": [
 			"Combat",
 			"Infantry",
@@ -3981,7 +3982,7 @@
 		"description": "If a model with this special rule wishes to Charge, then it must take a Courage Test at the start of its Move. If the test is failed, the model may not Move that turn but may otherwise act normally.",
 		"descriptionGWFAQ": "Q: If a model with the Fearful special rule wishes to Charge a model with the Terror special rule, how many Courage Tests does it need to take?\nA: Two, one for each special rule that requires a Courage Test.",
 		"linkedDetails": [
-			"Terror special rule|Terror"
+			"Terror"
 		],
 		"linkedRules": [
 			"Charge",
@@ -3990,6 +3991,10 @@
 			"Move",
 			"special rule",
 			"turn"
+		],
+		"excludeFromLinking": [
+			"Fearful special rule",
+			"special rule,"
 		]
 	},
 	"Fearless": {
@@ -10806,6 +10811,7 @@
 		"status": "Passive",
 		"description": "An Infantry model with this special rule that is partially concealed from view by a piece of terrain cannot be seen at distances of more than 6\". This means that enemy models cannot target this model with Shooting Attacks, Magical Powers, special rules, or anything else that requires Line of Sight unless they have a completely clear view of this model.",
 		"linkedRules": [
+			"Infantry",
 			"Line of Sight",
 			"Magical Powers",
 			"Shooting Attacks",
@@ -10989,6 +10995,7 @@
 			"Elven hand weapon"
 		],
 		"linkedRules": [
+			"Strength",
 			"Strikes",
 			"Unique"
 		]
@@ -11170,7 +11177,7 @@
 		"language": "en",
 		"name": "Sure-footed Steed",
 		"status": "Active",
-		"description": "If his rider would be knocked Prone whilst riding Brego, and Brego is not slain as a result of the effect causing his rider to be knocked Prone, then before becoming a Separated Mount his rider may roll a D6. On a 6, his rider is not knocked Prone and stays mounted upon Brego. His rider may use Might to improve this roll.",
+		"description": "If {character} would be knocked Prone whilst riding Brego, and Brego is not slain as a result of the effect causing {character} to be knocked Prone, then before becoming a Separated Mount his rider may roll a D6. On a 6, {character} is not knocked Prone and stays mounted upon Brego. {character} may use Might to improve this roll.",
 		"linkedRules": [
 			"Might",
 			"Prone",
@@ -11891,7 +11898,7 @@
 			"the One Ring"
 		],
 		"name": "The One Ring",
-		"description": "Forged in the fires of Mount-Doom by the Dark Lord himself, the One Ring contains great power that can be used to devastating effect, yet may corrupt those who wear it for too long.\n\nA model who carries the One Ring is referred to as the Ringbearer.\n\n\nWEARING THE RING\n\nA Ringbearer can put on the One Ring at any point during their Activation. As soon as they do they benefit from the Invisible special rule. A Ringbearer who is unable to Activate (such as if they are Engaged in Combat) cannot put on the Ring.\n\nIf a model puts on the Ring whilst they are mounted, then their Mount will immediately bolt and flee the battlefield (the Mount is therefore removed), and the model must immediately take a Thrown Rider Test.\n\n\nSAURON’S WILL\n\nIf a Ringbearer begins its Activation wearing the One Ring, then their controlling player must test to see if the model can overcome the call of the Ring. To do this, the Ringbearer’s controlling player rolls a D6 before doing anything else for the Ringbearer during their Activation. A Hero may use Might to improve this roll. On a 3+, the Ringbearer is able to keep control and may Activate as normal. However, on a 1-2 the opposing player may Move the Ringbearer during their Activation, and may even make them Charge – in this case, the model passes all Courage Tests for the Terror special rule.\n\nThe opposing player cannot make the Ringbearer remove the Ring when they Move them. The opposing player cannot make the Ringbearer pick up or put down items, perform anything that may bring the Ringbearer to harm (such as Jumping off a cliff or making a Leap Test), or make them leave the board in Scenarios that allow it.\n\nIt’s important to note that even when an opposing player gets to Move the Ringbearer in this manner, they are still part of their controlling player’s Army, and all other actions such as Shooting, fighting in Combat, or anything else the Ringbearer can do remains under the control of their controlling player.\n\n\nREMOVING THE RING\n\nSuch is the hold of the Ring, that any model who is wearing it and wants to remove it must take a Courage Test. This can be done at any point in the model’s Activation, though after making the roll for Sauron’s Will (if applicable). If the model this Courage Test then they cannot take the Ring off this turn and must wait until the following turn to try again.\n\n\nMY PRECIOUS!\n\nDuring a Matched Play game, if the Ringbearer is the only model left on their side and is Invisible (i.e., they are wearing the Ring), then they succumb to the call of the Ring and are removed as a casualty. If the opposing side’s objective is to kill the Ringbearer, then this is still achieved if the Ringbearer is removed in this manner.\n\nThere may be the odd occasions in Matched Play games where there is more than one model on the battlefield who can carry the One Ring. As the One Ring is Unique, there is a hierarchy as to who carries the One Ring in the case of multiple Ringbearers. The model closest to the top of the hierarchy table below will get to use the Ring – the other will not be a Ringbearer at all for that battle.\n\n1 The Dark Lord Sauron\n2 Isildur\n3 Bilbo Baggins or Bilbo Baggins, Master Burglar\n4 Frodo Baggins\n5 Bilbo Baggins, Ageing Hobbit\n6 Gollum\n\n\nIn the rare situation where both players have a Ringbearer, and both are at the same highest point on the hierarchy table, then both may carry the One Ring – though one of them is clearly a fake, and only the winner can claim that theirs was the real One Ring!",
+		"description": "Forged in the fires of Mount-Doom by the Dark Lord himself, the One Ring contains great power that can be used to devastating effect, yet may corrupt those who wear it for too long.\n\nA model who carries the One Ring is referred to as the Ringbearer.\n\nWEARING THE RING\nA Ringbearer can put on the One Ring at any point during their Activation. As soon as they do they benefit from the Invisible special rule. A Ringbearer who is unable to Activate (such as if they are Engaged in Combat) cannot put on the Ring.\n\nIf a model puts on the Ring whilst they are mounted, then their Mount will immediately bolt and flee the battlefield (the Mount is therefore removed), and the model must immediately take a Thrown Rider Test.\n\nSAURON’S WILL\nIf a Ringbearer begins its Activation wearing the One Ring, then their controlling player must test to see if the model can overcome the call of the Ring. To do this, the Ringbearer’s controlling player rolls a D6 before doing anything else for the Ringbearer during their Activation. A Hero may use Might to improve this roll. On a 3+, the Ringbearer is able to keep control and may Activate as normal. However, on a 1-2 the opposing player may Move the Ringbearer during their Activation, and may even make them Charge – in this case, the model passes all Courage Tests for the Terror special rule. The opposing player cannot make the Ringbearer remove the Ring when they Move them.\n\nThe opposing player cannot make the Ringbearer pick up or put down items, perform anything that may bring the Ringbearer to harm (such as Jumping off a cliff or making a Leap Test), or make them leave the board in Scenarios that allow it.\n\nIt’s important to note that even when an opposing player gets to Move the Ringbearer in this manner, they are still part of their controlling player’s Army, and all other actions such as Shooting, fighting in Combat, or anything else the Ringbearer can do remains under the control of their controlling player.\n\nREMOVING THE RING\nSuch is the hold of the Ring, that any model who is wearing it and wants to remove it must take a Courage Test. This can be done at any point in the model’s Activation, though after making the roll for Sauron’s Will (if applicable). If the model this Courage Test then they cannot take the Ring off this turn and must wait until the following turn to try again.\n\nMY PRECIOUS!\nDuring a Matched Play game, if the Ringbearer is the only model left on their side and is Invisible (i.e., they are wearing the Ring), then they succumb to the call of the Ring and are removed as a casualty. If the opposing side’s objective is to kill the Ringbearer, then this is still achieved if the Ringbearer is removed in this manner.\n\nThere may be the odd occasions in Matched Play games where there is more than one model on the battlefield who can carry the One Ring. As the One Ring is Unique, there is a hierarchy as to who carries the One Ring in the case of multiple Ringbearers. The model closest to the top of the hierarchy table below will get to use the Ring – the other will not be a Ringbearer at all for that battle.\n\n1 The Dark Lord Sauron\n2 Isildur\n3 Bilbo Baggins or Bilbo Baggins, Master Burglar\n4 Frodo Baggins\n5 Bilbo Baggins, Ageing Hobbit\n6 Gollum\n\nIn the rare situation where both players have a Ringbearer, and both are at the same highest point on the hierarchy table, then both may carry the One Ring – though one of them is clearly a fake, and only the winner can claim that theirs was the real One Ring!",
 		"linkedDetails": [
 			"Invisible",
 			"Terror"
@@ -13226,7 +13233,7 @@
 		"language": "en",
 		"name": "War Beasts and Combat",
 		"description": "When a War Beast is in a Combat, then it is the War Beast itself that is considered to be fighting and not the Commander, and so the Commander cannot contribute any of its characteristics, use Might Points to influence the Duel Roll or To Wound Rolls, or declare any Heroic Actions that would affect the Combat, unless they have a rule that specifically states otherwise. However, as it is the Commander that is controlling the War Beast, any kills the War Beast makes in a Combat are attributed to the Commander themselves.\n\nIRRESISTIBLE FORCE\nIf a War Beast ends a Trample in base contact with an enemy model, then it will count as Charging them and will fight them as normal in the Fight Phase. If the War Beast wins the ensuing Combat, then all enemy models involved in the Combat with a Strength of equal to or lower than that of the War Beast will be knocked Prone.\n\nIMMOVABLE OBJECT\nA War Beast can never be knocked Prone for any reason, cannot be Hurled or Barged, and never counts as Trapped. Additionally, a War Beast will never Back Away if it loses a Combat – its opponents must Back Away instead. The only exception is if the War Beast is fighting another War Beast, or a model with a similar special rule (such as Smaug). In these instances, the smaller of the two models will Back Away. If both are the same size, roll a D6. On a 1-3 the Evil player’s model will Back Away, on a 4+ the Good player’s model will Back Away.\n\nA War Beast is completely unaffected by special rules that would prevent it from Activating, moving its full Move Value, or that would attempt to Move it.",
-		"linkedDetails":[
+		"linkedDetails": [
 			"Barged",
 			"Hurled"
 		],
@@ -13614,6 +13621,7 @@
 		"name": "Whips of the Master",
 		"status": "Active",
 		"description": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+ the Hero does not spend the Might Point and the Heroic Action is free.",
+		"descriptionGWFAQ": "Q: If a Hero declares a Heroic Move, Heroic March or Heroic Shoot whilst in range of multiple models with the Whips of the Masters special rule, do they get to roll a D6 for each of these models, or just a single D6 regardless of the number of models with this special rule they are in range of?\nA: A single D6, regardless of the number of models with the Whips of the Masters special rule the Hero is in range of.",
 		"linkedDetails": [
 			"Heroic March",
 			"Heroic Move",

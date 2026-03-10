@@ -23,6 +23,7 @@ export const Settings = {
         showGWFAQNotes: true 
 							  
     },
+    includeLegacy: true,
 
     load() {
         const s = localStorage.getItem("mesbg_settings");
@@ -30,17 +31,18 @@ export const Settings = {
     },
 
     save() {
-        localStorage.setItem(
-            "mesbg_settings",
-            JSON.stringify({
-                version: this.version,
-                theme: this.theme,
-                language: this.language,
-                colors: this.colors,
-                profileSettings: this.profileSettings
-            })
-        );
-    }
+    localStorage.setItem(
+        "mesbg_settings",
+        JSON.stringify({
+            version: this.version,
+            theme: this.theme,
+            language: this.language,
+            colors: this.colors,
+            profileSettings: this.profileSettings,
+            includeLegacy: this.includeLegacy
+        })
+    );
+}
 };
 
 // =====================
@@ -108,16 +110,20 @@ export function initSettingsUI() {
                 </label>
             </div>
 
-            <div class="tab" id="tab-version">
-                <label>
-                    <input type="radio" name="version" value="2024">
-                    2024
-                </label><br>
-                <label>
-                    <input type="radio" name="version" value="2001">
-                    2001
-                </label>
-            </div>
+           <div class="tab" id="tab-version">
+    <label>
+        <input type="radio" name="version" value="2024">
+        2024
+    </label><br>
+    <label style="margin-left: 20px;">
+        <input type="checkbox" id="includeLegacy">
+        ${t("settings.includeLegacy")}
+    </label><br>
+    <label>
+        <input type="radio" name="version" value="2001">
+        2001
+    </label>
+</div>
 
         </div>
 
@@ -180,9 +186,20 @@ export function initSettingsUI() {
     document.getElementById("showGWFAQNotes").checked =
         Settings.profileSettings.showGWFAQNotes;
 
-    modal.querySelectorAll("input[name='version']").forEach(radio => {
-        radio.checked = radio.value === Settings.version;
-    });
+const legacyCheckbox = document.getElementById("includeLegacy");
+
+// initial state
+legacyCheckbox.checked = Settings.includeLegacy;
+legacyCheckbox.disabled = Settings.version !== "2024";
+
+// onchange für Legacy-Checkbox
+legacyCheckbox.onchange = e => {
+    Settings.includeLegacy = e.target.checked;
+    Settings.save();
+
+    // Seite komplett neu laden, damit Listen neu initialisiert werden
+    location.reload();
+};
 
     // =====================
     // EVENT HANDLERS
@@ -259,13 +276,24 @@ export function initSettingsUI() {
         Settings.save();
     };
 
-    modal.querySelectorAll("input[name='version']").forEach(radio => {
-        radio.onchange = e => {
-            Settings.version = e.target.value;
-            Settings.save();
-            location.reload();
-        };
-    });
+modal.querySelectorAll("input[name='version']").forEach(radio => {
+    radio.checked = radio.value === Settings.version;
+
+    radio.onchange = e => {
+        Settings.version = e.target.value;
+        Settings.save();
+
+        // Legacy-Checkbox nur für 2024 aktivieren
+        legacyCheckbox.disabled = Settings.version !== "2024";
+        if (legacyCheckbox.disabled) {
+            legacyCheckbox.checked = false;
+            Settings.includeLegacy = false;
+        }
+
+        // Seite komplett neu laden
+        location.reload();
+    };
+});
 
     document.getElementById("closeSettings").onclick = () =>
         modal.classList.add("hidden");

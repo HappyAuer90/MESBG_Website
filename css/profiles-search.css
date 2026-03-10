@@ -368,6 +368,9 @@
     color: var(--color-link);
     cursor: pointer;
 }
+.definition-link:hover {
+    text-decoration: underline;
+}
 
 
 /* ======================================================
@@ -398,7 +401,13 @@
     color: var(--color-link);
     cursor: pointer;
 }
-
+.linked-armylists:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.linked-armylists .entry-row {
+    list-style: none;
+}
 /* ======================================================
    COMPOSITION SEPARATORS
 ====================================================== */
