@@ -1312,7 +1312,7 @@
 			"War spear"
 		]
 	},
-	"Bogen [Definition]": {
+	"Bow [Definition]": {
 		"type": "wargear",
 		"version": "2024",
 		"language": "en",
@@ -1377,9 +1377,10 @@
 		"language": "en",
 		"name": "Breathe Fire",
 		"status": "Active",
-		"description": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit, and all models (friend or foe) within 2\" of the hit model, will suffer a Strength 10 hit. Any model that suffers a Wound from this shooting attack which is not prevented is automatically slain. This is a firebased attack.",
+		"description": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit suffers a Strength 10 hit and if they suffer a Wound from this hit, which is not prevented, they are automatically slain. Additionally, all other models (friend and foe) within 2\" are immediately Set Ablaze – though they will not be automatically slain if wounded. This is a fire- based attack",
 		"linkedDetails": [
-			"bow|Bow [Definition]"
+			"bow|Bow [Definition]",
+			"Set Ablaze"
 		],
 		"linkedRules": [
 			"Shoot Phase",
@@ -7088,6 +7089,18 @@
 			"Will Point"
 		]
 	},
+	"Lórien Guard": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Lórien Guard",
+		"status": "Active",
+		"description": "Lórien Guard may re-roll To Wound Rolls of a natural 1 when making Strikes.",
+		"linkedRules": [
+			"natural",
+			"Strikes"
+		]
+	},
 	"Loyal Hounds": {
 		"type": "specialrule",
 		"version": "2024",
@@ -10368,7 +10381,7 @@
 		"language": "en",
 		"name": "Sing a Jolly Song",
 		"status": "Active",
-		"description": "At any point during his Activation, Tom may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Tom may sing any number of these songs during his Activation, and may sing each of these songs as many times as he wishes during his Activation unless otherwise stated. Every time Tom sings a song it will cost him a Will Point.\n• \"Hey! Come Merry Dol!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n• \"Hop along, my hearties!\" - Until the end of the turn, friendly models that begin their Activation within 6\" of Tom Bombadil may add 3\" to their Move Value and will treat all areas of Difficult Terrain as Open Ground.\n• \"Wake now my merry lads!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately recovers from the effects of any enemy Magical Powers currently cast upon them. Additionally, until the end of the turn, the chosen model cannot be chosen as the target of any enemy Magical Powers or special rules.\n• \"Ring a dong dillo!\" - Until the end of the turn, friendly models within 6\" of Tom Bombadil automatically pass any Courage Tests they are required to take.\n• \"Get out, you old Wight!\" - Choose an enemy Spirit model within 6\" of Tom Bombadil. The chosen model immediately suffers a Wound. This song may only be sung once per turn.",
+		"description": "At any point during his Activation, Tom may spend a Will Point to sing one of the songs listed below to gain the relevant effect. Tom may sing any number of these songs during his Activation, and may sing each of these songs as many times as he wishes during his Activation unless otherwise stated. Every time Tom sings a song it will cost him a Will Point.\n• \"Hey! Come Merry Dol!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately regains a single Wound lost earlier in the battle. A model may only be chosen by this song once per turn.\n• \"Hop along, my hearties!\" - Until the end of the turn, friendly models that begin their Activation within 6\" of Tom Bombadil may add 3\" to their Move Value and will treat all areas of Difficult Terrain as Open Ground. A model may only be affected by this song once per turn.\n• \"Wake now my merry lads!\" - Choose a friendly model within 6\" of Tom Bombadil. The chosen model immediately recovers from the effects of any enemy Magical Powers currently cast upon them. Additionally, until the end of the turn, the chosen model cannot be chosen as the target of any enemy Magical Powers or special rules.\n• \"Ring a dong dillo!\" - Until the end of the turn, friendly models within 6\" of Tom Bombadil automatically pass any Courage Tests they are required to take.\n• \"Get out, you old Wight!\" - Choose an enemy Spirit model within 6\" of Tom Bombadil. The chosen model immediately suffers a Wound. This song may only be sung once per turn.",
 		"linkedRules": [
 			"Activation",
 			"Courage Tests",
@@ -12487,6 +12500,17 @@
 			"Swim"
 		]
 	},
+	"Tookish Hunters": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Tookish Hunters",
+		"status": "Aktiv",
+		"description": "Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
+		"linkedRules": [
+			"Shooting Attacks"
+		]
+	},
 	"Torozûl": {
 		"type": "wargear",
 		"version": "2024",
@@ -13584,6 +13608,20 @@
 			"In The Way",
 			"Intelligence Test",
 			"shooting attack"
+		]
+	},
+	"Westfold Redshield": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Westfold Redshield",
+		"status": "Aktiv",
+		"description": "Westfold Redshields treat Erkenbrand as a banner.",
+		"linkedDetails": [
+			"Banner"
+		],
+		"linkedProfiles": [
+			"Erkenbrand, Captain of Rohan"
 		]
 	},
 	"When He Sneaks": {

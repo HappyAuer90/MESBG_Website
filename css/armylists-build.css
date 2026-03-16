@@ -220,8 +220,24 @@
 }
 
 /* ======================================================
-   WARBANDS (renderWarbands)
+   WARNINGS
 ====================================================== */
+.armylist-build-warning-box{
+    border:2px solid #c00000;
+    background:#ffe6e6;
+    padding:10px;
+    margin:10px 0;
+}
+
+.armylist-build-warning-list{
+    margin:0;
+    padding-left:20px;
+}
+
+.armylist-build-warning-item{
+    color:#c00000;
+    font-weight:600;
+}
 /* ======================================================
    WARBANDS
 ====================================================== */

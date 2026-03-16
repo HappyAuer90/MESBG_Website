@@ -1,100 +1,104 @@
 import { state } from "./armyState.js";
+import { Rules } from "./armylistRules.js";
+import { rerenderArmyList } from "./renderArmy.js";
 
 export function updateGeneral(forceId = null) {
 
-    const warbands = state.builder.warbands;
+    const id = Rules.getGeneral(state.builder, forceId);
 
-    if (!warbands.length) {
-        state.builder.generalWarbandId = null;
-        return;
-    }
+    state.builder.generalWarbandId = id;
 
-    // 1. Mandatory General prüfen
-    const mandatory = warbands.find(wb => wb.isMandatoryGeneral);
-
-    if (mandatory) {
-        state.builder.generalWarbandId = mandatory.id;
-        moveGeneralToTop();
-        return;
-    }
-
-    // 2. Heroic Tier Rang bestimmen
-    const tierPriority = {
-        "Heroes of Legend": 4,
-        "Heroes of Valour": 3,
-        "Heroes of Fortitude": 2,
-        "Minor Heroes": 1,
-        "Independent Heroes": 0
-    };
-
-    // Höchstes Tier finden
-    let highest = -1;
-    warbands.forEach(wb => {
-        const value = tierPriority[wb.tier] ?? 0;
-        if (value > highest) highest = value;
-    });
-
-    const candidates = warbands.filter(wb =>
-        (tierPriority[wb.tier] ?? 0) === highest
-    );
-
-    // 3. Wenn force gesetzt (Button-Klick)
-    if (forceId && candidates.some(c => c.id === forceId)) {
-        state.builder.generalWarbandId = forceId;
-        moveGeneralToTop();
-        return;
-    }
-
-    // 4. Wenn nur ein Kandidat → automatisch
-    if (candidates.length === 1) {
-        state.builder.generalWarbandId = candidates[0].id;
-        moveGeneralToTop();
-        return;
-    }
-
-    // 5. Mehrere Kandidaten → bestehender behalten falls valide
-    if (state.builder.generalWarbandId &&
-        candidates.some(c => c.id === state.builder.generalWarbandId)) {
-
-        moveGeneralToTop();
-        return;
-    }
-
-    // Default = erster Kandidat
-    state.builder.generalWarbandId = candidates[0].id;
     moveGeneralToTop();
 }
-export function createMandatoryGeneralIfExists() {
+export function createMandatoryModels() {
 
     const models = state.builder.armylist.models;
 
     for (const tier in models) {
 
-        const heroData = models[tier]
-            .find(h => h.tag?.includes("MandatoryGeneral"));
+        models[tier].forEach(heroData => {
 
-        if (heroData) {
+            if (heroData.armyRules?.General === "Mandatory") {
 
-            const warband = {
-                id: "wb_mandatory",
-                tier,
-                isMandatoryGeneral: true,
-                hero: {
-    name: heroData.name,
-    basePoints: Number(heroData.points),
-    tag: heroData.tag || [],   // ← hinzufügen
-    selectedOptions: [],
-    mandatory: heroData.mandatory || [],
-    options: heroData.options || []
-},
-                    warriors: []
-                };
+                const warbands =
+                    createWarbandsFromModel(heroData, tier);
 
-            state.builder.warbands.push(warband);
-            state.builder.generalWarbandId = warband.id;
-            return;
-        }
+                const wb = warbands[0];
+
+                wb.id = "wb_mandatory_general";
+                wb.isMandatoryGeneral = true;
+
+                state.builder.warbands.push(wb);
+                state.builder.generalWarbandId = wb.id;
+            }
+
+            if (heroData.armyRules?.Captain === "Mandatory") {
+
+                const warbands =
+                    createWarbandsFromModel(heroData, tier);
+
+                warbands.forEach(wb => {
+
+                    wb.id = `wb_mandatory_${heroData.name}`;
+                    wb.isMandatoryCaptain = true;
+
+                    state.builder.warbands.push(wb);
+                });
+
+            }
+
+        });
+
     }
+
+}
+export function createWarbandsFromModel(model, tier) {
+
+    if (!model.composition) {
+        return [{
+            id: "wb_" + Date.now(),
+            tier,
+            hero: createHero(model, tier),
+            followers: []
+        }];
+    }
+
+    const compositionId = "comp_" + Date.now();
+
+    const captains = model.composition
+        .filter(m => m.compositionModel === "Captain");
+
+    const followers = model.composition
+        .filter(m => m.compositionModel !== "Captain");
+
+    const warbands = [];
+
+    captains.forEach((captainData, i) => {
+
+        const warband = {
+            id: "wb_" + Date.now() + "_" + i,
+            tier,
+            hero: createHero(captainData, tier),
+            followers: [],
+            compositionId,
+            compositionLocked: true
+        };
+
+        followers.forEach(f => {
+
+            warband.followers.push({
+                ...createHero(f, "Warriors"),
+                count: f.amount || 1,
+                compositionLocked: true
+            });
+
+        });
+
+        warbands.push(warband);
+
+    });
+
+    return warbands;
 }
 export function moveGeneralToTop() {
 
@@ -107,30 +111,7 @@ export function moveGeneralToTop() {
     state.builder.warbands.unshift(general);
 }
 export function getGeneralCandidates() {
-
-    const warbands = state.builder.warbands;
-
-    const mandatory = warbands.find(wb => wb.isMandatoryGeneral);
-    if (mandatory) return [mandatory];
-
-    const tierPriority = {
-        "Heroes of Legend": 4,
-        "Heroes of Valour": 3,
-        "Heroes of Fortitude": 2,
-        "Minor Heroes": 1,
-        "Independent Heroes": 0
-    };
-
-    let highest = -1;
-
-    warbands.forEach(wb => {
-        const value = tierPriority[wb.tier] ?? 0;
-        if (value > highest) highest = value;
-    });
-
-    return warbands.filter(wb =>
-        (tierPriority[wb.tier] ?? 0) === highest
-    );
+    return Rules.getGeneralCandidates(state.builder);
 }
 export function moveWarbandUp(index) {
 
@@ -167,26 +148,24 @@ export function deleteWarband(index) {
     const wb = state.builder.warbands[index];
 
     if (wb.isMandatoryGeneral) return;
+    if (wb.isMandatoryCaptain) return;
 
-    state.builder.warbands.splice(index, 1);
+    // Composition Warbands
+    if (wb.compositionId) {
+
+        state.builder.warbands =
+            state.builder.warbands.filter(
+                w => w.compositionId !== wb.compositionId
+            );
+
+    } else {
+
+        state.builder.warbands.splice(index, 1);
+
+    }
 
     updateGeneral();
     rerenderArmyList();
-}
-export function isHeroAlreadyInArmy(heroName) {
-
-    return state.builder.warbands.some(wb => {
-
-        // 1️⃣ Hero der Warband
-        if (wb.hero.name === heroName) return true;
-
-        // 2️⃣ Hero innerhalb Warband
-        const existsInFollowers = wb.warriors.some(w =>
-            w.name === heroName
-        );
-
-        return existsInFollowers;
-    });
 }
 export function handleOptionSelection(model, opt) {
 
@@ -225,4 +204,15 @@ export function handleOptionSelection(model, opt) {
 
     // 3️⃣ Normale Multi-Option
     model.selectedOptions.push(opt);
+}
+export function createHero(heroData, tier){
+ return {
+   name: heroData.name,
+   tier,
+   basePoints: Number(heroData.points),
+   armyRules: heroData.armyRules || {},
+   selectedOptions: [],
+   mandatory: heroData.mandatory || [],
+   options: heroData.options || []
+ }
 }

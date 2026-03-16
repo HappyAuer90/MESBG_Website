@@ -1,20 +1,21 @@
 import { t } from "../../utility/i18n.js";
 import { state, getArmyStats } from "./armyState.js";
-import { createMandatoryGeneralIfExists } from "./warbandUtility.js";
+import { createMandatoryModels } from "./warbandUtility.js";
 import { renderWarbands, attachWarbandControls } from "./renderWarband.js";
-import { updateGeneral, isHeroAlreadyInArmy } from "./warbandUtility.js";
+import { createWarbandsFromModel, updateGeneral, createHero } from "./warbandUtility.js";
+import { Rules, getWarbandMode, hasHeroFollower } from "./armylistRules.js";
 
- /* =========================
-    ARMYLIST BUILDER RENDERING
- ========================= */
- 
- export function renderArmyListBuilder(container, armylist) {
+/* =========================
+   ARMYLIST BUILDER RENDERING
+========================= */
+
+export function renderArmyListBuilder(container, armylist) {
 
     state.builder.armylist = armylist;
     state.builder.warbands = [];
     state.builder.generalWarbandId = null;
-    
-    createMandatoryGeneralIfExists();
+
+    createMandatoryModels();
 
     container.innerHTML = `
         <div class="armylist-build-layout">
@@ -34,9 +35,9 @@ import { updateGeneral, isHeroAlreadyInArmy } from "./warbandUtility.js";
     attachWarbandControls();
 }
 
- /* =========================
-    HERO SELECTOR RENDERING
- ========================= */
+/* =========================
+   HERO SELECTOR RENDERING
+========================= */
 
 export function renderHeroSelection(models) {
 
@@ -48,18 +49,33 @@ export function renderHeroSelection(models) {
 
             ${tiers.map(tier => {
 
-                // 🔹 1. Heroes filtern (Unique + already used)
-                const availableHeroes = models[tier].filter(hero => {
-                    const isUnique = hero.tag?.includes("Unique");
-                    const alreadyUsed = isUnique && isHeroAlreadyInArmy(hero.name);
-                    return !alreadyUsed;
-                });
+        // 🔹 1. Heroes filtern (Unique + already used)
+        const mode = getWarbandMode(state.builder);
 
-                // 🔹 2. Wenn keine mehr da → komplettes Tier nicht rendern
-                if (!availableHeroes.length) return "";
+        const availableHeroes = models[tier].filter(hero => {
 
-                // 🔹 3. Ansonsten normal rendern
-                return `
+            if (!Rules.canAddHero(state.builder, hero)) return false;
+
+            if (mode.type === "One") {
+                if (state.builder.warbands.length >= 1)
+                    return false;
+            }
+
+            if (mode.type === "Optional") {
+
+                const heroFollower = hasHeroFollower(state.builder);
+
+                if (heroFollower)
+                    return false;
+            }
+
+            return true;
+        });
+        // 🔹 2. Wenn keine mehr da → komplettes Tier nicht rendern
+        if (!availableHeroes.length) return "";
+
+        // 🔹 3. Ansonsten normal rendern
+        return `
                     <div class="armylist-hero-tier">
                         <h4>${t("armylists.build." + getTierTranslationKey(tier))}</h4>
 
@@ -75,13 +91,12 @@ export function renderHeroSelection(models) {
                                                 ${hero.name}
                                             </div>
 
-                                            ${
-                                                hero.mandatory?.length
-                                                    ? `<div class="hero-card-mandatory">
+                                            ${hero.mandatory?.length
+                ? `<div class="hero-card-mandatory">
                                                         ${formatMandatoryWargear(hero.mandatory)}
                                                        </div>`
-                                                    : ""
-                                            }
+                : ""
+            }
                                         </div>
 
                                         <div class="hero-card-points">
@@ -94,7 +109,7 @@ export function renderHeroSelection(models) {
 
                     </div>
                 `;
-            }).join("")}
+    }).join("")}
 
         </div>
     `;
@@ -106,27 +121,25 @@ export function attachHeroAddEvents() {
 
             card.onclick = () => {
 
+                const mode = getWarbandMode(state.builder);
+
+                if (mode.type === "One" && state.builder.warbands.length >= 1)
+                    return;
+
+                if (mode.type === "Optional" && hasHeroFollower(state.builder))
+                    return;
+
                 const heroName = card.dataset.hero;
                 const tier = card.dataset.tier;
 
                 const heroData = state.builder.armylist.models[tier]
                     .find(h => h.name === heroName);
 
-                const warband = {
-                    id: "wb_" + Date.now(),
-                    tier,
-                    hero: {
-                        name: heroData.name,
-                        basePoints: Number(heroData.points),
-                        tag: heroData.tag || [],   
-                        selectedOptions: [],
-                        mandatory: heroData.mandatory || [],
-                        options: heroData.options || []
-                    },
-                    warriors: []
-                };
+                const newWarbands = createWarbandsFromModel(heroData, tier);
 
-                state.builder.warbands.push(warband);
+                newWarbands.forEach(wb =>
+                    state.builder.warbands.push(wb)
+                );
 
                 updateGeneral();
                 rerenderArmyList();
@@ -134,11 +147,13 @@ export function attachHeroAddEvents() {
         });
 }
 
- /* =========================
-    Army-Builder RENDERING
- ========================= */
+/* =========================
+   Army-Builder RENDERING
+========================= */
 
 function renderArmyBuilder() {
+
+    const stats = getArmyStats(state.builder, Rules);
 
     return `
         <div class="armylist-build-header">
@@ -151,7 +166,9 @@ function renderArmyBuilder() {
             </button>
         </div>
 
-        ${renderOverviewBox()}
+        ${renderOverviewBox(stats)}
+
+        ${renderWarnings(stats)}
 
         ${renderSpecialRulesBox(state.builder.armylist)}
 
@@ -159,10 +176,7 @@ function renderArmyBuilder() {
     `;
 }
 
-function renderOverviewBox() {
-
-
-    const stats = getArmyStats(state.builder);
+function renderOverviewBox(stats) {
 
     return `
         <div class="armylist-overview-box">
@@ -173,10 +187,10 @@ function renderOverviewBox() {
                     <th>${t("armylists.build.Broken")}</th>
                     <th>${t("armylists.build.Quartered")}</th>
                     <th class="${stats.bowsExceeded ? "limit-exceeded" : ""}">
-                        ${t("armylists.build.Bows")}
+                        ${t("armylists.build.BowLimit")}
                     </th>
                     <th class="${stats.throwingExceeded ? "limit-exceeded" : ""}">
-                        ${t("armylists.build.ThrowingWeapons")}
+                        ${t("armylists.build.ThrowingLimit")}
                     </th>
                 </tr>
                 <tr>
@@ -184,8 +198,27 @@ function renderOverviewBox() {
                     <td>${stats.modelCount}</td>
                     <td>${stats.broken}</td>
                     <td>${stats.quartered}</td>
-                    <td>${stats.bowCount} / ${stats.bowlimit}</td>
-                    <td>${stats.throwingCount} / ${stats.bowlimit}</td>
+                    <td>${stats.bowCount} / ${stats.bowLimit}</td>
+                    <td>${stats.throwingCount} / ${stats.throwingLimit}</td>
+                </tr>
+            </table>
+            <br>
+            <table class="armylist-overview-table">
+                <tr>
+                    <th>${t("armylists.build.Bows")}</th>
+                    <th>${t("armylists.build.ThrowingWeapons")}</th>
+                    <th>${t("armylists.build.MWF")}</th>
+                    <th>${t("armylists.build.Banners")}</th>
+                    <th>${t("armylists.build.Cavalry")}</th>
+                    <th>${t("armylists.build.Monster")}</th>
+                </tr>
+                <tr>
+                    <td>${stats.bows}</td>
+                    <td>${stats.throwing}</td>
+                    <td>${stats.mwf}</td>
+                    <td>${stats.banners}</td>
+                    <td>${stats.cavalry}</td>
+                    <td>${stats.monster}</td>
                 </tr>
             </table>
         </div>
@@ -202,8 +235,8 @@ function renderSpecialRulesBox(armylist) {
                     <h4>${t("armylists.build.additionalRules")}</h4>
                     <ul>
                         ${armylist.additionalRules
-                            .map(r => `<li>${r}</li>`)
-                            .join("")}
+                .map(r => `<li>${r}</li>`)
+                .join("")}
                     </ul>
                 ` : ""}
 
@@ -222,6 +255,29 @@ function renderSpecialRulesBox(armylist) {
         </div>
     `;
 }
+function renderWarnings(stats) {
+
+    const warnings = Rules.validateArmy(
+        state.builder,
+        stats
+    );
+
+    if (!warnings.length) return "";
+
+    return `
+        <div class="armylist-build-warning-box">
+
+            <ul class="armylist-build-warning-list">
+                ${warnings.map(w => `
+                    <li class="armylist-build-warning-item">
+                        ${w.message}
+                    </li>
+                `).join("")}
+            </ul>
+
+        </div>
+    `;
+}
 export function rerenderArmyList() {
     const left = document.querySelector(".armylist-build-left");
     left.innerHTML = renderArmyBuilder();
@@ -231,7 +287,7 @@ export function rerenderArmyList() {
         btn.onclick = () => window.print();
     }
     attachWarbandControls();
-    
+
     const right = document.querySelector(".armylist-build-right");
 
     right.innerHTML = renderHeroSelection(
@@ -242,31 +298,32 @@ export function rerenderArmyList() {
 
 }
 
- /* =========================
-    UTILITY
- ========================= */
- 
+/* =========================
+   UTILITY
+========================= */
+
 function formatDescription(text) {
     if (!text) return "";
     return text
         .replace(/\n/g, "<br>")
         .replace(/\t/g, "&nbsp;&nbsp;&nbsp;&nbsp;");
 }
- function formatMandatoryWargear(items) {
+function formatMandatoryWargear(items) {
 
     if (items.length === 1) return `with ${items[0]}`;
     if (items.length === 2) return `with ${items[0]} and ${items[1]}`;
 
     return `with ${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
 }
- function getTierTranslationKey(tier) {
+function getTierTranslationKey(tier) {
 
     const map = {
         "Heroes of Legend": "heroesOfLegend",
         "Heroes of Valour": "heroesOfValour",
         "Heroes of Fortitude": "heroesOfFortitude",
         "Minor Heroes": "heroesMinor",
-        "Independent Heroes": "heroesIndependent"
+        "Independent Heroes": "heroesIndependent",
+        "Siege Engines": "siegeEngines"
     };
 
     return map[tier] || tier;

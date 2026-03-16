@@ -196,6 +196,7 @@ function renderArmyList(container, armylist) {
         ${renderTierBox(`${t("armylists.search.minorHeroes")}`, "Minor Heroes", armylist.models)}
         ${renderTierBox(`${t("armylists.search.independentHeroes")}`, "Independent Heroes", armylist.models)}
         ${renderTierBox(`${t("armylists.search.warriors")}`, "Warriors", armylist.models)}
+        ${renderTierBox(`${t("armylists.search.siegeEngines")}`, "Siege Engines", armylist.models)}
     `;
 
     container.querySelector("#buildArmylistBtn").onclick = () =>

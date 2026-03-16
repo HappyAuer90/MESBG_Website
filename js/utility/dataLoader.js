@@ -39,13 +39,13 @@ export async function loadArmyLists() {
         Object.entries(data).forEach(([name, army]) => {
 
             // 1️⃣ Armeeliste selbst hat Legacy-Tag → komplett skippen
-            if (army.tag?.includes("Legacy")) return;
+            if (army.armyRules?.Legacy) return;
 
             // 2️⃣ Sonst einzelne Modelle filtern
             const newArmy = { ...army, models: {} };
 
             Object.entries(army.models || {}).forEach(([tier, models]) => {
-                const filteredModels = models.filter(m => !m.tag?.includes("Legacy"));
+                const filteredModels = models.filter(m => !m.armyRules?.Legacy);
                 if (filteredModels.length) {
                     newArmy.models[tier] = filteredModels;
                 }
@@ -64,7 +64,7 @@ export async function loadArmyLists() {
 }
 
 /**
- * Lädt Definitions-Datei (unverändert)
+ * Lädt Definitions-Datei 
  */
 export function loadDefinitions() {
     return loadJson(`data/${Settings.language}/${Settings.version}/definitions.json`);

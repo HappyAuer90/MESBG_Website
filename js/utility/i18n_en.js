@@ -144,7 +144,8 @@ export default {
                 heroesOfFortitude: "Heroes of Fortitude",
                 minorHeroes: "Minor Heroes",
                 independentHeroes: "Independent Heroes",
-                warriors: "Warriors"
+                warriors: "Warriors",
+                siegeEngines: "Siege Engines"
             },
             build: {
                 placeholder: "Search armylist...",
@@ -155,6 +156,7 @@ export default {
                 heroesOfFortitude: "Heroes of Fortitude",
                 heroesMinor: "Minor Heroes",
                 heroesIndependent: "Independent Heroes",
+                siegeEngines: "Siege Engines",
                 exportPdf: "Export PDF",
                 Points: "Points",
                 Models: "Models",
@@ -162,8 +164,14 @@ export default {
                 killed: "killed",
                 Quartered: "Quartered",
                 left: "left",
+                BowLimit: "Bow Limit",
+                ThrowingLimit: "Throwing Weapons Limit",
                 Bows: "Bows",
                 ThrowingWeapons: "Throwing Weapons",
+                Banners: "Banners",
+                Cavalry: "Cavalry",
+                Monster: "Monster",
+                MWF: "Might/Will/Fate",
                 Warband: "Warband",
                 General: "General",
                 Followers: "Followers",

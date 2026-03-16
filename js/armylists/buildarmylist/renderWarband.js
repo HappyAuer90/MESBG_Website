@@ -1,16 +1,16 @@
 import { t } from "../../utility/i18n.js";
 import { navigate } from "../../main.js";
-import { state, HERO_LIMITS, countTaggedWarriorsInWarband, calculateModelCost  } from "./armyState.js";
+import { state, countRuleModelsInWarband, calculateModelCost } from "./armyState.js";
 import {
     updateGeneral,
     moveWarbandUp,
     moveWarbandDown,
     deleteWarband,
     getGeneralCandidates,
-    handleOptionSelection,
-    isHeroAlreadyInArmy
+    handleOptionSelection
 } from "./warbandUtility.js";
 import { rerenderArmyList } from "./renderArmy.js";
+import { Rules, checkMaximum } from "./armylistRules.js";
 
 export function renderWarbands() {
 
@@ -34,18 +34,23 @@ export function renderWarbands() {
 }
 function renderWarbandHeader(wb, index) {
 
-    const followerCount = wb.warriors.reduce((s, w) => s + w.count, 0);
+    const followers = wb.followers.reduce((s, w) => s + (w.count || 1), 0);
+    const ignoredFollowers = countRuleModelsInWarband(wb, "NotCount");
+    const followerCount = followers - ignoredFollowers;
 
     const totalPoints =
         calculateModelCost(wb.hero) +
-        wb.warriors.reduce((s, w) =>
+        wb.followers.reduce((s, w) =>
             s + calculateModelCost(w) * w.count, 0);
 
     const isGeneral = wb.id === state.builder.generalWarbandId;
-
-    const limit = HERO_LIMITS[wb.tier] ?? 0;
-    const bowCount = countTaggedWarriorsInWarband(wb, "WarriorBow");
-    const throwingCount = countTaggedWarriorsInWarband(wb, "WarriorThrowing");
+    let limit
+    if (wb.tier === "Siege Engines") {
+        limit = followerCount
+    }
+    else {
+        limit = Rules.getWarbandLimit(wb, state.builder);
+    }
 
     return `
         <div class="warband-header-grid">
@@ -59,22 +64,20 @@ function renderWarbandHeader(wb, index) {
             </div>
 
             <div class="warband-header-points">
-                ${totalPoints} ${t("armylists.build.Points")}
+            ${totalPoints > 0 ? `${totalPoints} ${t("armylists.build.Points")}` : ""}
             </div>
 
             <div class="warband-header-bows">
-                🏹: ${bowCount}
             </div>
 
             <div class="warband-header-throwing-weapons">
-                🗡️: ${throwingCount}
             </div>
 
             <div class="warband-header-mechanics">
                 ${renderGeneralButton(wb)}
                 <button data-up="${index}" ${isGeneral ? "disabled" : ""}>↑</button>
                 <button data-down="${index}" ${isGeneral ? "disabled" : ""}>↓</button>
-                <button data-delete="${index}" ${wb.isMandatoryGeneral ? "disabled" : ""}>X</button>
+                <button data-delete="${index}" ${wb.isMandatoryGeneral || wb.isMandatoryCaptain ? "disabled" : ""}>X</button>
             </div>
 
         </div>
@@ -86,7 +89,6 @@ function renderGeneralButton(wb) {
     const isCandidate = candidates.some(c => c.id === wb.id);
     const isGeneral = wb.id === state.builder.generalWarbandId;
 
-    // Nur Kandidaten zeigen Button
     if (!isCandidate) return "";
 
     const onlyOne = candidates.length === 1;
@@ -102,10 +104,10 @@ function renderGeneralButton(wb) {
     `;
 }
 
- /* =========================
-    WARBAND RENDERING CAPTAIN
- ========================= */
- function renderWarbandCaptainGrid(wb, index) {
+/* =========================
+   WARBAND RENDERING CAPTAIN
+========================= */
+function renderWarbandCaptainGrid(wb, index) {
 
     return `
         <div class="warband-captain-grid">
@@ -130,25 +132,25 @@ function renderGeneralButton(wb) {
     `;
 }
 
- /* =========================
-    WARBAND RENDERING FOLLOWERS
- ========================= */
- 
+/* =========================
+   WARBAND RENDERING FOLLOWERS
+========================= */
+
 function renderWarbandFollowers(wb, index) {
 
-    const limit = HERO_LIMITS[wb.tier] ?? 0;
-    const currentCount = wb.warriors.reduce((s, w) => s + w.count, 0);
+    const limit = Rules.getWarbandLimit(wb, state.builder);
+    const currentCount = wb.followers.reduce((s, w) => s + w.count, 0);
     const limitReached = currentCount >= limit;
 
     return `
         <div class="warband-followers-grid">
 
-            ${wb.warriors.map((w, wIndex) => {
+            ${wb.followers.map((w, wIndex) => {
 
-                const singleCost = calculateModelCost(w);
-                const totalCost = singleCost * w.count;
+        const singleCost = calculateModelCost(w);
+        const totalCost = singleCost * w.count;
 
-                return `
+        return `
 
                     <div class="warband-followers-count">
                         ${w.count}x
@@ -161,7 +163,7 @@ function renderWarbandFollowers(wb, index) {
                     </div>
 
                     <div class="warband-followers-points">
-                        ${totalCost} ${t("armylists.build.Points")}
+                    ${totalCost > 0 ? `${totalCost} ${t("armylists.build.Points")}` : ""}
                     </div>
 
                     <div class="warband-followers-options-button">
@@ -169,29 +171,54 @@ function renderWarbandFollowers(wb, index) {
                     </div>
 
                     <div class="warband-followers-controls">
-                        <button data-minus="${index}_${wIndex}">-</button>
+                        <button 
+                            data-minus="${index}_${wIndex}"
+                            ${w.compositionLocked ? "disabled" : ""}
+                            >
+                            -
+                            </button>
                         <button 
                             data-plus="${index}_${wIndex}"
+                            ${checkMaximum(state.builder, w) ? "disabled" : ""}
+                            ${w.compositionLocked ? "disabled" : ""}
                             ${limitReached ? "disabled" : ""}>
                             +
                         </button>
                     </div>
 
                         `;
-                    }).join("")}
+    }).join("")}
 
         </div>
+        
+${renderAddFollowerSelect(index, limitReached)}
+    `;
+}
+function renderAddFollowerSelect(warbandIndex, limitReached) {
 
+    const captain = state.builder.warbands[warbandIndex]?.hero;
+
+    const available = Rules.getAvailableFollowers(state.builder, captain);
+
+    if (!available.length) return "";
+    if (limitReached) return "";
+
+    return `
         <div class="warband-add-follower-wrapper">
-                <select 
-                    class="warband-add-follower"
-                    data-warband="${index}"
-                    ${limitReached ? "disabled" : ""}
-                >
-                    <option value="">${t("armylists.build.addFollower")}</option>
-                    ${renderFollower(index)}
-                </select>
-            </div>
+            <select 
+                class="warband-add-follower"
+                data-warband="${warbandIndex}"
+            >
+                <option value="">${t("armylists.build.addFollower")}</option>
+
+                ${available.map(p => `
+                    <option value="${p.name}" data-points="${p.points}">
+                        ${p.name} (${p.points})
+                    </option>
+                `).join("")}
+
+            </select>
+        </div>
     `;
 }
 function renderMandatoryWarriorWarning(model) {
@@ -210,52 +237,9 @@ function renderMandatoryWarriorWarning(model) {
         </div>
     `;
 }
-function renderFollower(warbandIndex) {
-
-    const models = state.builder.armylist.models;
-
-    const warriors = models["Warriors"] || [];
-    const independents = models["Independent Heroes"] || [];
-
-    const combined = [...warriors, ...independents];
-
-    const captain = state.builder.warbands[warbandIndex]?.hero;
-    const captainTags = captain?.tag || [];
-
-    const available = combined.filter(model => {
-
-        // UNIQUE CHECK
-        const isUnique = model.tag?.includes("Unique");
-        if (isUnique && isHeroAlreadyInArmy(model.name)) {
-            return false;
-        }
-        const modelTags = model.tag || [];
-
-        const matchTags = modelTags.filter(t => t.startsWith("Match_"));
-
-        // Kein Match Tag → immer erlaubt
-        if (!matchTags.length) return true;
-
-        // Captain muss mindestens einen Match Tag teilen
-        const captainMatchTags = captainTags.filter(t => t.startsWith("Match_"));
-console.log("Captain:", captain.name, captainTags);
-console.log("Warrior:", model.name, modelTags);
-console.log("Match result:", matchTags.some(tag => captainMatchTags.includes(tag)));
-
-        return matchTags.some(tag => captainMatchTags.includes(tag));
-    });
-
-    return available.map(p => `
-        <option value="${p.name}" data-points="${p.points}">
-            ${p.name} (${p.points})
-        </option>
-    `).join("");
-}
-
-
- /* =========================
-    WARBAND RENDERING UTILS
- ========================= */
+/* =========================
+   WARBAND RENDERING UTILS
+========================= */
 
 export function attachWarbandControls() {
 
@@ -294,85 +278,119 @@ export function attachWarbandControls() {
                 const warbandIndex = Number(select.dataset.warband);
                 const warband = state.builder.warbands[warbandIndex];
 
-                const selectedOption = select.selectedOptions[0];
-                
-                const models = state.builder.armylist.models;
+                const captain = warband.hero;
 
-                const warriors = models["Warriors"] || [];
-                const independents = models["Independent Heroes"] || [];
+                const available = Rules.getAvailableFollowers(state.builder, captain);
 
-                const combined = [...warriors, ...independents];
+                const followerData = available.find(m => m.name === select.value);
 
-                const warriorData = combined.find(m => m.name === select.value);
+                if (followerData.composition) {
 
-                if (!warriorData) return;
+                    followerData.composition.forEach(m => {
 
-                warband.warriors.push({
-                    name: warriorData.name,
-                    basePoints: Number(warriorData.points),
-                    count: 1,
-                    tag: warriorData.tag || [], // ← WICHTIG
-                    selectedOptions: [],
-                    mandatory: warriorData.mandatory || [],
-                    options: warriorData.options || [],
-                    optionalWarrior: warriorData.optionalWarrior || warriorData.optionalwarrior || [],
-                    mandatoryWarrior: warriorData.mandatoryWarrior || []
-                });
+                        warband.followers.push({
+                            name: m.name,
+                            basePoints: Number(m.points) || 0,
+                            count: m.amount || 1,
+                            tier: "Warriors",
+
+                            selectedOptions: [],
+
+                            mandatory: m.mandatory || [],
+                            options: m.options || [],
+
+                            optionalWarrior: m.optionalWarrior || [],
+                            mandatoryWarrior: m.mandatoryWarrior || [],
+
+                            armyRules: m.armyRules || {},
+
+                            compositionLocked: true
+                        });
+
+                    });
+
+                } else {
+
+                    warband.followers.push({
+                        name: followerData.name,
+                        basePoints: Number(followerData.points),
+                        count: 1,
+                        tag: followerData.tag || [],
+                        tier: followerData.tier,
+
+                        selectedOptions: [],
+
+                        mandatory: followerData.mandatory || [],
+                        options: followerData.options || [],
+
+                        optionalWarrior:
+                            followerData.optionalWarrior ||
+                            followerData.optionalwarrior ||
+                            [],
+
+                        mandatoryWarrior: followerData.mandatoryWarrior || [],
+
+                        armyRules: followerData.armyRules || {}
+                    });
+
+                }
+
+                select.value = "";
+
+                rerenderArmyList();
+            };
+
+        });
+
+    // ADD OPTIONS
+    document.querySelectorAll(".add-options-select")
+        .forEach(select => {
+
+            select.onchange = () => {
+
+                if (!select.value) return;
+
+                const type = select.dataset.type;
+                const wbIndex = Number(select.dataset.wb);
+                const wIndex = select.dataset.w;
+
+                const wb = state.builder.warbands[wbIndex];
+                const model = type === "hero"
+                    ? wb.hero
+                    : wb.followers[Number(wIndex)];
+
+                const allOptions = [
+                    ...(model.options || []),
+                    ...(model.optionalWarrior || []),
+                    ...(model.mandatoryWarrior || [])
+                ];
+
+                const opt = allOptions.find(o => o.name === select.value);
+
+                if (!opt) return;
+
+                handleOptionSelection(model, opt);
 
                 select.value = "";
                 rerenderArmyList();
             };
         });
 
-    // ADD OPTIONS
-    document.querySelectorAll(".add-options-select")
-    .forEach(select => {
+    // PROFILE LINKS
+    document.querySelectorAll(".profile-link")
+        .forEach(el => {
 
-        select.onchange = () => {
+            el.onclick = (e) => {
 
-            if (!select.value) return;
+                e.stopPropagation();
 
-            const type = select.dataset.type;
-            const wbIndex = Number(select.dataset.wb);
-            const wIndex = select.dataset.w;
+                const profileId = el.dataset.profile;
 
-            const wb = state.builder.warbands[wbIndex];
-            const model = type === "hero"
-                ? wb.hero
-                : wb.warriors[Number(wIndex)];
-
-            const allOptions = [
-                ...(model.options || []),
-                ...(model.optionalWarrior || []),
-                ...(model.mandatoryWarrior || [])
-            ];
-
-            const opt = allOptions.find(o => o.name === select.value);
-
-            if (!opt) return;
-
-            handleOptionSelection(model, opt);
-
-            select.value = "";
-            rerenderArmyList();
-        };
-    });
-
-// PROFILE LINKS
-document.querySelectorAll(".profile-link")
-    .forEach(el => {
-
-        el.onclick = (e) => {
-
-            e.stopPropagation();
-
-            const profileId = el.dataset.profile;
-
-            navigate("profiles", "search", {
-                profileId
-            });
-        };
-    });
+                navigate("profiles", "search", {
+                    profileId
+                });
+            };
+        });
 
     // PLUS
     document.querySelectorAll("[data-plus]").forEach(btn => {
@@ -381,12 +399,12 @@ document.querySelectorAll(".profile-link")
             const [wbIndex, wIndex] = btn.dataset.plus.split("_").map(Number);
             const wb = state.builder.warbands[wbIndex];
 
-            const limit = HERO_LIMITS[wb.tier] ?? 0;
-            const current = wb.warriors.reduce((s, w) => s + w.count, 0);
+            const limit = Rules.getWarbandLimit(wb, state.builder);
+            const current = wb.followers.reduce((s, w) => s + w.count, 0);
 
             if (current >= limit) return;
 
-            wb.warriors[wIndex].count++;
+            wb.followers[wIndex].count++;
             rerenderArmyList();
         };
     });
@@ -397,12 +415,12 @@ document.querySelectorAll(".profile-link")
 
             const [wbIndex, wIndex] = btn.dataset.minus.split("_").map(Number);
             const wb = state.builder.warbands[wbIndex];
-            const warrior = wb.warriors[wIndex];
+            const warrior = wb.followers[wIndex];
 
             warrior.count--;
 
             if (warrior.count <= 0) {
-                wb.warriors.splice(wIndex, 1);
+                wb.followers.splice(wIndex, 1);
             }
 
             rerenderArmyList();
@@ -449,12 +467,12 @@ function renderAddOptionsSelect(model, wbIndex, type, wIndex = null) {
         </select>
     `;
 }
- 
- /* =========================
-    UTILITY
- ========================= */
 
- function formatMandatoryWargear(items) {
+/* =========================
+   UTILITY
+========================= */
+
+function formatMandatoryWargear(items) {
 
     if (items.length === 1) return `with ${items[0]}`;
     if (items.length === 2) return `with ${items[0]} and ${items[1]}`;

@@ -1781,7 +1781,7 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Leader (Khazad Guard)",
+			"Leader (Khazâd Guard)",
 			"Longbeard"
 		]
 	},
@@ -2168,6 +2168,58 @@
 			"Cave Dweller",
 			"Fly [SpecialRule]",
 			"Blinding Swarm"
+		]
+	},
+	"Batllin’ Brandybucks": {
+		"id": "batllin_brandybucks",
+		"version": "2024",
+		"name": "Batllin’ Brandybucks",
+		"linkedProfile": [
+			"Hobbit Militia",
+			"Meriadoc Brandybuck, Captain of the Shire"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "13"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "20"
+			}
+		],
+		"points": "5",
+		"race": [
+			"Hobbit"
+		],
+		"faction": [
+			"Shire"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "4\"",
+			"fightValue": "1",
+			"shootValue": "3+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"specialRules": [
+			"Resistant to Magic",
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Beechbone": {
@@ -13566,6 +13618,63 @@
 			"Caras Galadhon Fighting Style"
 		]
 	},
+	"Guardian of the King": {
+		"id": "guardian_king",
+		"version": "2024",
+		"name": "Guardian of the King",
+		"linkedProfile": [
+			"Grim Hammer Warrior",
+			"Thrór, King under the Mountain"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "20"
+			},
+			{
+				"book": "Armies of The Hobbit",
+				"page": "25"
+			}
+		],
+		"points": "12",
+		"race": [
+			"Dwarf"
+		],
+		"faction": [
+			"Erebor"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "7",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Heavy Dwarf armour"
+			},
+			{
+				"name": "Mattock"
+			},
+			{
+				"name": "Throwing weapons"
+			}
+		],
+		"specialRules": [
+			"Ancient Enemies (Orc)"
+		]
+	},
 	"Gûlavhar, the Terror of Arnor": {
 		"id": "gulavhar",
 		"version": "2024",
@@ -15055,6 +15164,65 @@
 			"Prenatural Agility"
 		]
 	},
+	"Hearthguard": {
+		"id": "hearthguard",
+		"version": "2024",
+		"name": "Hearthguard",
+		"linkedProfile": [
+			"Durin, King of Khazad-dûm",
+			"Khazâd Guard"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "61"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "64"
+			}
+		],
+		"points": "14",
+		"race": [
+			"Dwarf"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry",
+			"Elite"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "7",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Heavy Dwarf armour"
+			},
+			{
+				"name": "Two-handed weapon"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"specialRules": [
+			"Bodyguard",
+			"Burly"
+		]
+	},
 	"Helm Hammerhand, King of Rohan": {
 		"id": "helm_hammerhand",
 		"version": "2024",
@@ -15193,6 +15361,87 @@
 			"The Hammerhand",
 			"No Longer a Leader",
 			"Berserk Rage"
+		]
+	},
+	"Helmingas": {
+		"id": "helmingas",
+		"version": "2024",
+		"name": "Helmingas",
+		"linkedProfile": [
+			"Grimbold of Grimslade",
+			"Warrior of Rohan"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "46"
+			},
+			{
+				"book": "Legacies of Middle-Earth - Forces of Good",
+				"page": "6"
+			}
+		],
+		"points": "7",
+		"race": [
+			"Man"
+		],
+		"faction": [
+			"Rohan"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"options": [
+			{
+				"name": "War horn, shield and throwing spears",
+				"cost": "28",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Banner",
+				"cost": "25",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Shield and throwing spears",
+				"cost": "3",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Bow",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Shield",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			}
+		],
+		"specialRules": [
+			"Spear Mastery"
 		]
 	},
 	"Héra, Daughter of Helm": {
@@ -18530,6 +18779,86 @@
 			"The Herald’s Duty"
 		]
 	},
+	"King’s Guard": {
+		"id": "kings_guard",
+		"version": "2024",
+		"name": "King’s Guard",
+		"linkedProfile": [
+			"Gil-Galad, High King of the Noldor",
+			"Rivendell Warrior"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "69"
+			},
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "74"
+			},
+			{
+				"book": "Armies of The Hobbit",
+				"page": "61"
+			}
+		],
+		"points": "10",
+		"race": [
+			"Elf"
+		],
+		"faction": [
+			"Rivendell"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "6",
+			"shootValue": "3+",
+			"strength": "3",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "5+",
+			"intelligence": "5+"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Elven hand-and-a-half weapon"
+			}
+		],
+		"options": [
+			{
+				"name": "Banner",
+				"cost": "25",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Elf bow",
+				"cost": "2",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Shield and Elven spear",
+				"cost": "2",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Shield",
+				"cost": "1",
+				"type": "WARRIOR_OPTIONAL"
+			}
+		],
+		"specialRules": [
+			"Woodland Creature"
+		]
+	},
 	"King’s Huntsman": {
 		"id": "kings_huntman",
 		"version": "2024",
@@ -19530,6 +19859,98 @@
 			"Hatred (Rohan)",
 			"Traitor of Rohan",
 			"Edoras Shall Fall"
+		]
+	},
+	"Lórien Guard": {
+		"id": "lorienguard",
+		"version": "2024",
+		"name": "Lórien Guard",
+		"linkedProfile": [
+			"Celeborn, Lord of Lothlórien",
+			"Galadriel, Lady of Lothlórien",
+			"Galadhrim Warrior"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "75"
+			},
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "76"
+			},
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "78"
+			}
+		],
+		"points": "10",
+		"race": [
+			"Elf"
+		],
+		"faction": [
+			"Lothlórien"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "5",
+			"shootValue": "3+",
+			"strength": "3",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "5+",
+			"intelligence": "5+"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Elven hand-and-a-half weapon"
+			}
+		],
+		"options": [
+			{
+				"name": "War horn and Elf bow",
+				"cost": "27",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Banner",
+				"cost": "25",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Elf bow",
+				"cost": "2",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Shield and Elven spear",
+				"cost": "2",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Elven spear",
+				"cost": "1",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Shield",
+				"cost": "1",
+				"type": "WARRIOR_OPTIONAL"
+			}
+		],
+		"specialRules": [
+			"Woodland Creature",
+			"Lórien Guard"
 		]
 	},
 	"Lothlórien Captain": {
@@ -23739,6 +24160,82 @@
 		],
 		"specialRules": [
 			"Scavenge"
+		]
+	},
+	"Noldorin Exiles": {
+		"id": "noldorin_exiles",
+		"version": "2024",
+		"name": "Noldorin Exiles",
+		"linkedProfile": [
+			"Gildor Inglorion",
+			"Lothlórien Warrior"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "79"
+			},
+			{
+				"book": "Legacies of Middle-Earth - Forces of Good",
+				"page": "11"
+			}
+		],
+		"points": "9",
+		"race": [
+			"Elf"
+		],
+		"faction": [
+			"Rivendell"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "8\"",
+			"fightValue": "5",
+			"shootValue": "3+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "5+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Elven hand-and-a-half weapon"
+			},
+			{
+				"name": "Elven cloak"
+			}
+		],
+		"options": [
+			{
+				"name": "Banner",
+				"cost": "25",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Elf bow",
+				"cost": "2",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Elven throwing weapons",
+				"cost": "2",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Wood Elf spear",
+				"cost": "1",
+				"type": "WARRIOR_OPTIONAL"
+			}
+		],
+		"specialRules": [
+			"Woodland Creature"
 		]
 	},
 	"Nori the Dwarf": {
@@ -31765,6 +32262,74 @@
 			"Squash ’em into jelly"
 		]
 	},
+	"Tookish Hunters": {
+		"id": "tookish_hunters",
+		"version": "2024",
+		"name": "Tookish Hunters",
+		"linkedProfile": [
+			"Hobbit Archer",
+			"Paladin Took, Thain of the Shire",
+			"Peregrin Took, Captain of the Shire"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "13"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "14"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "20"
+			}
+		],
+		"points": "6",
+		"race": [
+			"Hobbit"
+		],
+		"faction": [
+			"Shire"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "4\"",
+			"fightValue": "2",
+			"shootValue": "3+",
+			"strength": "2",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Hand weapon"
+			},
+			{
+				"name": "Short bow"
+			}
+		],
+		"options": [
+			{
+				"name": "War horn",
+				"cost": "25",
+				"type": "WARRIOR_OPTIONAL"
+			}
+		],
+		"specialRules": [
+			"Resistant to Magic",
+			"Throw Stones (range 8\", Strength 1)",
+			"Tookish Hunters"
+		]
+	},
 	"Baumbart": {
 		"id": "treebeard",
 		"version": "2024",
@@ -32507,6 +33072,63 @@
 		"composition": [
 			"Iron Shield Bearer",
 			"Foe Spear Wielder"
+		]
+	},
+	"Venom- back Spider": {
+		"id": "venom_spider",
+		"version": "2024",
+		"name": "Venom- back Spider",
+		"linkedProfile": [
+			"Ashrâk",
+			"Mirkwood Hunting Spider"
+		],
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "133"
+			},
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "16"
+			}
+		],
+		"points": "22",
+		"race": [
+			"Spider"
+		],
+		"faction": [
+			"Dol Guldur"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry",
+			"Beast"
+		],
+		"baseSize": "40mm",
+		"characteristics": {
+			"move": "10\"",
+			"fightValue": "3",
+			"shootValue": "6+",
+			"strength": "5",
+			"defence": "3",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Fangs (hand weapon)"
+			}
+		],
+		"specialRules": [
+			"Poisoned Attacks (Fangs)",
+			"Stalk Unseen",
+			"Swift Movement",
+			"Terror",
+			"Venom",
+			"Silent Hunters"
 		]
 	},
 	"Vraskû": {
@@ -33434,7 +34056,7 @@
 			"Steely Nerve"
 		]
 	},
-	"Werweolf": {
+	"Werewolf": {
 		"id": "werewolf",
 		"version": "2024",
 		"language": "en",
@@ -33479,6 +34101,84 @@
 			"Fell Sight",
 			"Terror",
 			"Feral Charge"
+		]
+	},
+	"Westfold Redshield": {
+		"id": "westfold_redshield",
+		"version": "2024",
+		"name": "Westfold Redshield",
+		"linkedProfile": [
+			"Erkenbrand, Captain of Rohan",
+			"Rider of Rohan"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "47"
+			},
+			{
+				"book": "Legacies of Middle-Earth - Forces of Good",
+				"page": "7"
+			}
+		],
+		"points": "15",
+		"race": [
+			"Man"
+		],
+		"faction": [
+			"Rohan"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Cavalry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Armour"
+			},
+			{
+				"name": "Shield"
+			},
+			{
+				"name": "Hand weapon"
+			},
+			{
+				"name": "Bow"
+			},
+			{
+				"name": "Horse"
+			}
+		],
+		"options": [
+			{
+				"name": "Banner",
+				"cost": "25",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Throwing spears",
+				"cost": "2",
+				"type": "WARRIOR_OPTIONAL"
+			}
+		],
+		"specialRules": [
+			"Expert Rider",
+			"Spear Mastery",
+			"Arise, Riders of Rohan!",
+			"Westfold Redshield"
 		]
 	},
 	"Wild Man Chieftain": {

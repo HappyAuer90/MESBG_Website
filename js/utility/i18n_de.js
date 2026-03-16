@@ -144,7 +144,8 @@ export default {
             heroesOfFortitude: "Mächtige Helden",
             minorHeroes: "Geringere Helden",
             independentHeroes: "Unabhängige Helden",
-            warriors: "Krieger"
+            warriors: "Krieger",
+            siegeEngines: "Belagerungsmaschinen"
         },
         build: {
             placeholder: "Armeeliste suchen...",
@@ -155,6 +156,7 @@ export default {
             heroesOfFortitude: "Mächtige Helden",
             heroesMinor: "Geringere Helden",
             heroesIndependent: "Unabhängige Helden",
+            siegeEngines: "Belagerungsmaschinen",
             exportPdf: "PDF exportieren",
             Points: "Punkte",
             Models: "Modelle",
@@ -162,8 +164,14 @@ export default {
             killed: "getötet",
             Quartered: "Geviertelt",
             left: "übrig",
+            BowLimit: "Bogenlimit",
+            ThrowingLimit: "Wurfwaffenlimit",
             Bows: "Bögen",
             ThrowingWeapons: "Wurfwaffen",
+            Banners: "Standarten",
+            Cavalry: "Kavallerie",
+            Monster: "Monster",
+            MWF: "Heldentum/Willenskraft/Schickal",
             Warband: "Kriegerschar",
             General: "Anführer",
             Followers: "Gefolgsleute",

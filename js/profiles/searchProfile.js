@@ -175,12 +175,12 @@ function loadProfile(profile, { pushHistory }) {
 
     state.container.querySelectorAll(".armylist-link").forEach(el => {
     el.onclick = () => {
+                console.log("Navigating to profile:", el.dataset.id);
         navigate("armylists", "search", {
             armylistId: el.dataset.id
         });
     };
 });
-
 }
 
 /* =========================
@@ -873,12 +873,12 @@ function renderAdditionalInformations(profile) {
     `;
 }
 function renderNotes(profile) {
-    if (!profile.notes) return "";
+    if (!profile.note) return "";
 
     return `
         <div class="additional-block">
             <h4>${t("profiles.search.notes")}</h4>
-            <p>${formatText(profile.notes)}</p>
+            <p>${formatText(profile.note)}</p>
         </div>
     `;
 }

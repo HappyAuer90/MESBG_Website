@@ -7075,6 +7075,18 @@
 			"Will Point - Willenskraftpunkt"
 		]
 	},
+	"Lórien Guard": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Lórien Guard",
+		"status": "Active",
+		"description": "Lórien Guard may re-roll To Wound Rolls of a natural 1 when making Strikes.",
+		"linkedRules": [
+			"natural",
+			"Strikes"
+		]
+	},
 	"Loyal Hounds": {
 		"type": "specialrule",
 		"version": "2024",
@@ -12137,6 +12149,17 @@
 			"Swim - Schwimmen"
 		]
 	},
+	"Tookish Hunters": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Tookish Hunters",
+		"status": "Aktiv",
+		"description": "Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
+		"linkedRules": [
+			"Shooting Attacks - Fernkampfattacken"
+		]
+	},
 	"Torozûl": {
 		"type": "wargear",
 		"version": "2024",
@@ -13144,6 +13167,20 @@
 		"description": "Friendly Fellowship models within 6\" of Barliman count as having the Dominant (2) special rule.",
 		"linkedDetails": [
 			"Dominant"
+		]
+	},
+	"Westfold Redshield": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Westfold Redshield",
+		"status": "Aktiv",
+		"description": "Westfold Redshields treat Erkenbrand as a banner.",
+		"linkedDetails": [
+			"Banner"
+		],
+		"linkedProfiles": [
+			"Erkenbrand, Captain of Rohan"
 		]
 	},
 	"When He Sneaks": {
