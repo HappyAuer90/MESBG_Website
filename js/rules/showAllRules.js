@@ -65,10 +65,6 @@ export async function initRulesAll(container) {
 
     /* =========================
        CHECKBOXES
-    ========================== */
-
-    /* =========================
-       CHECKBOXES
     ========================= */
 
     types.forEach(type => {

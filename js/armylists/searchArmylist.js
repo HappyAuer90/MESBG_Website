@@ -217,6 +217,7 @@ function renderArmyList(container, armylist) {
 function renderAdditionalInformationBox(armylist) {
 
     const hasSource = Array.isArray(armylist.source) && armylist.source.length;
+    const hasNotes = Settings.profileSettings.showGWFAQNotes && armylist.noteGWFAQ;
     const hasAdditional = Array.isArray(armylist.additionalRules) && armylist.additionalRules.length;
     const hasSpecial = Array.isArray(armylist.specialRules) && armylist.specialRules.length;
 
@@ -233,6 +234,14 @@ function renderAdditionalInformationBox(armylist) {
                         ${armylist.source.map(src =>
                             `<li>${src.book} (${t("armylists.search.page")} ${src.page})</li>`
                         ).join("")}
+                    </ul>
+                            <br></br>
+                ` : ""}
+
+                ${hasNotes ? `
+                    <h4 class="armylist-information-title">${t("armylists.search.gwFAQNotes")}</h4>
+                    <ul class="armylist-information-list">
+                        ${formatText(armylist.noteGWFAQ)}
                     </ul>
                             <br></br>
                 ` : ""}
@@ -367,6 +376,13 @@ function renderOptionalOptions(options) {
 
 function normalize(text) {
     return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+function formatText(text) {
+    if (!text) return "";
+    return text
+        .replace(/\n/g, "<br>")
+        .replace(/\t/g, "&nbsp;&nbsp;&nbsp;&nbsp;");
 }
 
 function addPoints(rawCost) {

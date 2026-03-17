@@ -558,3 +558,99 @@
     color: white;
     font-weight: 500;
 }
+
+/* PRINT PDF */
+
+/* =========================
+   PRINT OVERLAY (NEU)
+========================= */
+
+#printOverlay {
+    position: fixed;
+    inset: 0;
+    background: #2b2b2b; /* dunkelgrau statt schwarz */
+    z-index: 9999;
+}
+
+/* Arbeitsfläche */
+.print-overlay-content {
+    background: transparent; /* WICHTIG */
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 20px;
+    overflow: auto;
+}
+
+/* Das eigentliche "Papier" */
+.print-preview {
+    background: white;
+    color: black; /* 🔥 erzwingt schwarze Schrift */
+    padding: 20px;
+    width: 210mm;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/* Seite */
+.print-page {
+    width: 210mm;
+    min-height: 297mm;
+    color: black; /* redundante Sicherheit */
+}
+
+@media print {
+
+    body {
+        background: white !important;
+        color: black !important;
+    }
+
+    body * {
+        visibility: hidden;
+    }
+
+    .print-preview,
+    .print-preview * {
+        visibility: visible;
+        color: black !important;
+        background: white !important;
+    }
+
+    .print-preview {
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-shadow: none;
+    }
+}
+
+/* Titel */
+.print-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   PRINT MODE GRID OVERRIDES
+========================= */
+
+.warband-header-grid.print-mode {
+    grid-template-columns:
+        1fr
+        20%
+        20%;
+}
+
+.warband-captain-grid.print-mode {
+    grid-template-columns:
+        1fr
+        20%;
+}
+
+.warband-followers-grid.print-mode {
+    grid-template-columns:
+        50px
+        1fr
+        20%;
+}

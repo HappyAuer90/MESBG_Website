@@ -29,6 +29,10 @@ export function getArmyStats(builder, Rules) {
     let throwingCount = 0;
     let throwing = 0;
 
+    let might = 0;
+    let will = 0;
+    let fate = 0;
+
     let banners = 0;
     let cavalry = 0;
     let monster = 0;
@@ -46,6 +50,7 @@ export function getArmyStats(builder, Rules) {
 
         if (isHero(wb.hero))
             heroCount++;
+            addHeroStats(wb.hero, 1);
 
         processRules(wb.hero, 1);
 
@@ -64,6 +69,7 @@ export function getArmyStats(builder, Rules) {
                 warriorCount += count;
             else
                 heroCount += count;
+                addHeroStats(f, 1);
 
             processRules(f, count);
 
@@ -103,6 +109,10 @@ export function getArmyStats(builder, Rules) {
         throwingCount,
         throwingLimit,
         throwingExceeded,
+        
+        might,
+        will,
+        fate,
 
         banners,
         cavalry,
@@ -143,8 +153,27 @@ export function getArmyStats(builder, Rules) {
         const countAs = getModelOrOptionRuleValue(model, "CountAs");
         additionalFollowers += (countAs || 0) * count;
     }
-}
 
+    
+
+function addHeroStats(model, count) {
+
+    const profile =
+        state.profiles?.[model.name];
+        
+    if (!profile?.characteristicsHero) return;
+
+    const heroStats = profile.characteristicsHero;
+
+    const m = Number(heroStats.might) || 0;
+    const w = Number(heroStats.will) || 0;
+    const f = Number(heroStats.fate) || 0;
+
+    might += m * count;
+    will += w * count;
+    fate += f * count;
+}
+}
 
 /* =========================
    HERO / WARRIOR DETECTION

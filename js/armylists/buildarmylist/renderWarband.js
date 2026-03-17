@@ -12,7 +12,8 @@ import {
 import { rerenderArmyList } from "./renderArmy.js";
 import { Rules, checkMaximum } from "./armylistRules.js";
 
-export function renderWarbands() {
+export function renderWarbands(options = {}) {
+    const isPrint = options.print === true;
 
     return `
         <div class="armylist-warbands">
@@ -21,9 +22,9 @@ export function renderWarbands() {
                 
                 <div class="armylist-warband">
 
-                    ${renderWarbandHeader(wb, index)}
-                    ${renderWarbandCaptainGrid(wb, index)}
-                    ${renderWarbandFollowers(wb, index)}
+                    ${renderWarbandHeader(wb, index, isPrint)}
+                    ${renderWarbandCaptainGrid(wb, index, isPrint)}
+                    ${renderWarbandFollowers(wb, index, isPrint)}
 
                 </div>
 
@@ -32,7 +33,7 @@ export function renderWarbands() {
         </div>
     `;
 }
-function renderWarbandHeader(wb, index) {
+function renderWarbandHeader(wb, index, isPrint = false) {
 
     const followers = wb.followers.reduce((s, w) => s + (w.count || 1), 0);
     const ignoredFollowers = countRuleModelsInWarband(wb, "NotCount");
@@ -44,19 +45,20 @@ function renderWarbandHeader(wb, index) {
             s + calculateModelCost(w) * w.count, 0);
 
     const isGeneral = wb.id === state.builder.generalWarbandId;
-    let limit
+
+    let limit;
     if (wb.tier === "Siege Engines") {
-        limit = followerCount
-    }
-    else {
+        limit = followerCount;
+    } else {
         limit = Rules.getWarbandLimit(wb, state.builder);
     }
 
     return `
-        <div class="warband-header-grid">
+        <div class="warband-header-grid ${isPrint ? "print-mode" : ""}">
 
             <div class="warband-header-warband">
-                ${t("armylists.build.Warband")} ${index + 1} ${isGeneral ? "(" + t("armylists.build.General") + ")" : ""}
+                ${t("armylists.build.Warband")} ${index + 1}
+                ${isGeneral ? " (" + t("armylists.build.General") + ")" : ""}
             </div>
 
             <div class="warband-header-follower-count">
@@ -64,21 +66,20 @@ function renderWarbandHeader(wb, index) {
             </div>
 
             <div class="warband-header-points">
-            ${totalPoints > 0 ? `${totalPoints} ${t("armylists.build.Points")}` : ""}
+                ${totalPoints > 0 ? `${totalPoints} ${t("armylists.build.Points")}` : ""}
             </div>
 
-            <div class="warband-header-bows">
-            </div>
+            ${!isPrint ? `
+                <div class="warband-header-bows"></div>
+                <div class="warband-header-throwing-weapons"></div>
 
-            <div class="warband-header-throwing-weapons">
-            </div>
-
-            <div class="warband-header-mechanics">
-                ${renderGeneralButton(wb)}
-                <button data-up="${index}" ${isGeneral ? "disabled" : ""}>↑</button>
-                <button data-down="${index}" ${isGeneral ? "disabled" : ""}>↓</button>
-                <button data-delete="${index}" ${wb.isMandatoryGeneral || wb.isMandatoryCaptain ? "disabled" : ""}>X</button>
-            </div>
+                <div class="warband-header-mechanics">
+                    ${renderGeneralButton(wb)}
+                    <button data-up="${index}" ${isGeneral ? "disabled" : ""}>↑</button>
+                    <button data-down="${index}" ${isGeneral ? "disabled" : ""}>↓</button>
+                    <button data-delete="${index}" ${wb.isMandatoryGeneral || wb.isMandatoryCaptain ? "disabled" : ""}>X</button>
+                </div>
+            ` : ""}
 
         </div>
     `;
@@ -107,10 +108,10 @@ function renderGeneralButton(wb) {
 /* =========================
    WARBAND RENDERING CAPTAIN
 ========================= */
-function renderWarbandCaptainGrid(wb, index) {
+function renderWarbandCaptainGrid(wb, index, isPrint = false) {
 
     return `
-        <div class="warband-captain-grid">
+        <div class="warband-captain-grid ${isPrint ? "print-mode" : ""}">
 
             <div class="warband-captain-name">
                 ${createProfileLink(wb.hero.name, state)}
@@ -121,12 +122,13 @@ function renderWarbandCaptainGrid(wb, index) {
                 ${calculateModelCost(wb.hero)} ${t("armylists.build.Points")}
             </div>
 
-            <div class="warband-captain-options-button">
-                ${renderAddOptionsSelect(wb.hero, index, "hero") || ""}
-            </div>
+            ${!isPrint ? `
+                <div class="warband-captain-options-button">
+                    ${renderAddOptionsSelect(wb.hero, index, "hero") || ""}
+                </div>
 
-            <div class="warband-empty-cell">
-            </div>
+                <div class="warband-empty-cell"></div>
+            ` : ""}
 
         </div>
     `;
@@ -136,14 +138,14 @@ function renderWarbandCaptainGrid(wb, index) {
    WARBAND RENDERING FOLLOWERS
 ========================= */
 
-function renderWarbandFollowers(wb, index) {
+function renderWarbandFollowers(wb, index, isPrint = false) {
 
     const limit = Rules.getWarbandLimit(wb, state.builder);
     const currentCount = wb.followers.reduce((s, w) => s + w.count, 0);
     const limitReached = currentCount >= limit;
 
     return `
-        <div class="warband-followers-grid">
+        <div class="warband-followers-grid ${isPrint ? "print-mode" : ""}">
 
             ${wb.followers.map((w, wIndex) => {
 
@@ -151,47 +153,41 @@ function renderWarbandFollowers(wb, index) {
         const totalCost = singleCost * w.count;
 
         return `
+            <div class="warband-followers-count">
+                ${w.count}x
+            </div>
 
-                    <div class="warband-followers-count">
-                        ${w.count}x
-                    </div>
+            <div class="warband-followers-name">
+                ${createProfileLink(w.name, state)}
+                ${renderSelectedOptions(w)}
+                ${renderMandatoryWarriorWarning(w)}
+            </div>
 
-                    <div class="warband-followers-name">
-                        ${createProfileLink(w.name, state)}
-                        ${renderSelectedOptions(w)}
-                        ${renderMandatoryWarriorWarning(w)}
-                    </div>
+            <div class="warband-followers-points">
+                ${totalCost > 0 ? `${totalCost} ${t("armylists.build.Points")}` : ""}
+            </div>
 
-                    <div class="warband-followers-points">
-                    ${totalCost > 0 ? `${totalCost} ${t("armylists.build.Points")}` : ""}
-                    </div>
+            ${!isPrint ? `
+                <div class="warband-followers-options-button">
+                    ${renderAddOptionsSelect(w, index, "warrior", wIndex) || ""}
+                </div>
 
-                    <div class="warband-followers-options-button">
-                        ${renderAddOptionsSelect(w, index, "warrior", wIndex) || ""}
-                    </div>
-
-                    <div class="warband-followers-controls">
-                        <button 
-                            data-minus="${index}_${wIndex}"
-                            ${w.compositionLocked ? "disabled" : ""}
-                            >
-                            -
-                            </button>
-                        <button 
-                            data-plus="${index}_${wIndex}"
-                            ${checkMaximum(state.builder, w) ? "disabled" : ""}
-                            ${w.compositionLocked ? "disabled" : ""}
-                            ${limitReached ? "disabled" : ""}>
-                            +
-                        </button>
-                    </div>
-
-                        `;
+                <div class="warband-followers-controls">
+                    <button data-minus="${index}_${wIndex}" ${w.compositionLocked ? "disabled" : ""}>-</button>
+                    <button 
+                        data-plus="${index}_${wIndex}"
+                        ${checkMaximum(state.builder, w) ? "disabled" : ""}
+                        ${w.compositionLocked ? "disabled" : ""}
+                        ${limitReached ? "disabled" : ""}
+                    >+</button>
+                </div>
+            ` : ""}
+        `;
     }).join("")}
 
         </div>
-        
-${renderAddFollowerSelect(index, limitReached)}
+
+        ${!isPrint ? renderAddFollowerSelect(index, limitReached) : ""}
     `;
 }
 function renderAddFollowerSelect(warbandIndex, limitReached) {

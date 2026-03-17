@@ -27,6 +27,7 @@ export default {
         crossLinksRules: "Verlinkungen zu Regeln aktivieren",
         crossLinksProfiles: "Verlinkungen zu Profilen aktivieren",
         showGWFAQNotes: "GW FAQ anzeigen",
+        showSpecialRulesFromArmylists: "Zeige Sonderregeln der Profile aus bestimmten Armeelisten",
         includeLegacy: "Inklusive Legacy",
         close: "Schließen"
     },
@@ -60,6 +61,7 @@ export default {
             warriorOptionals: "kann eine der folgenden Optionen für die aufgeführte Punktanzahl haben:",
             warriorMandatory: "muss eine der folgenden Optionen für die aufgeführte Punktanzahl haben:",
             specialRules: "Sonderregeln",
+            onlyArmylist: "nur in der Armeeliste:",
             magicalPowers: "Magische Kräfte",
             castingValue: "Wurf",
             selectEntry: "Eintrag auswählen",
@@ -134,6 +136,7 @@ export default {
             buildButton: "Armeeliste erstellen",
             sources: "Quellen",
             page: "Seite",
+            gwFAQNotes: "GW FAQ Anmerkungen",
             additionalInformation: "Zusätzliche Informationen",
             additionalRules: "Zusätzliche Regeln",
             specialRules: "Sonderregeln",

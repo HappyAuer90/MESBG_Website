@@ -175,7 +175,6 @@ function loadProfile(profile, { pushHistory }) {
 
     state.container.querySelectorAll(".armylist-link").forEach(el => {
     el.onclick = () => {
-                console.log("Navigating to profile:", el.dataset.id);
         navigate("armylists", "search", {
             armylistId: el.dataset.id
         });
@@ -210,16 +209,31 @@ function renderProfile(container, profile) {
     ];
 
     BOX_CONFIG.forEach(config => {
-        const entries = profile[config.key] || [];
 
-        if (!entries.length) return;
+    let entries = profile[config.key] || [];
 
-        container.insertAdjacentHTML("beforeend", renderTwoPaneBox(config.title));
+    if (
+        config.key === "specialRules" &&
+        Settings.profileSettings.showSpecialRulesFromArmylists &&
+        profile.specialRulesArmylists
+    ) {
+        const armyRules = profile.specialRulesArmylists.map(rule => {
+            return {
+                name: `${rule.name} (${t("profiles.search.onlyArmylist")} ${rule.armylist})`
+            };
+        });
 
-        const boxId = `box-${config.title.replace(/\s+/g, "-").toLowerCase()}`;
+        entries = [...entries, ...armyRules];
+    }
 
-        initTwoPaneBox(boxId, entries, config.mode, profile);
-    });
+    if (!entries.length) return;
+
+    container.insertAdjacentHTML("beforeend", renderTwoPaneBox(config.title));
+
+    const boxId = `box-${config.title.replace(/\s+/g, "-").toLowerCase()}`;
+
+    initTwoPaneBox(boxId, entries, config.mode, profile);
+});
     container.insertAdjacentHTML("beforeend", renderAdditionalInformations(profile));
 }
 
@@ -984,7 +998,7 @@ function renderArmyListReferences(profile) {
         .map(m =>
             `<li class="entry-row">
             <span class="entry-bullet">•</span>
-            <span class="clickable-entry" data-id="${m.id}">
+            <span class="clickable-entry armylist-link" data-id="${m.id}">
                 ${m.listName} (${m.category})
             </span>
         </li>`

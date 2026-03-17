@@ -5061,6 +5061,7 @@
 			"Fangs",
 			"Giant flaming hand weapon",
 			"hand weapon",
+			"Hand weapons",
 			"hand weapons",
 			"Hooves",
 			"Iron-shod hooves",
@@ -6142,7 +6143,7 @@
 		"language": "en",
 		"name": "Incantations of Power",
 		"status": "Active",
-		"description": "During each Priority Phase, after Priority has been determined, Fráecht can spend a Will Point to use an incantation. If he does so, choose one of the incantations below – the effects last until the End Phase of the turn.\n\n• Incantation of Strength – Friendly Carn dûm models within 6\" of Fráecht must re-roll To Wound Rolls of a natural 1 when making Strikes.\n• Incantation of Endurance – Whenever a friendly Carn dûm model within 6\" of Fráecht suffers a Wound, roll a D6. On a 5+ the Wound is ignored\n• Incantation of Swiftness – Friendly Carn dûm models that start their Move within 6\" of Fráecht will not be slowed by Difficult Terrain (with the exception of water features).",
+		"description": "During each Priority Phase, after Priority has been determined, Fráecht can spend a Will Point to use an incantation. If he does so, choose one of the incantations below – the effects last until the End Phase of the turn.\n\n• Incantation of Strength – Friendly Carn Dûm models within 6\" of Fráecht must re-roll To Wound Rolls of a natural 1 when making Strikes.\n• Incantation of Endurance – Whenever a friendly Carn Dûm model within 6\" of Fráecht suffers a Wound, roll a D6. On a 5+ the Wound is ignored\n• Incantation of Swiftness – Friendly Carn Dûm models that start their Move within 6\" of Fráecht will not be slowed by Difficult Terrain (with the exception of water features).",
 		"linkedRules": [
 			"Difficult Terrain",
 			"End Phase",
@@ -13476,13 +13477,13 @@
 			"Warrior"
 		]
 	},
-	"Warlord of Carn dûm": {
+	"Warlord of Carn Dûm": {
 		"type": "specialrule",
 		"version": "2024",
 		"language": "en",
-		"name": "Warlord of Carn dûm",
+		"name": "Warlord of Carn Dûm",
 		"status": "Passive",
-		"description": "Friendly Carn dûm models within 6\" of Aldrac must re-roll failed Courage Tests.",
+		"description": "Friendly Carn Dûm models within 6\" of Aldrac must re-roll failed Courage Tests.",
 		"linkedRules": [
 			"Courage Tests",
 			"re-roll"

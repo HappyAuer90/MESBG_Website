@@ -4,6 +4,7 @@ import { createMandatoryModels } from "./warbandUtility.js";
 import { renderWarbands, attachWarbandControls } from "./renderWarband.js";
 import { createWarbandsFromModel, updateGeneral, createHero } from "./warbandUtility.js";
 import { Rules, getWarbandMode, hasHeroFollower } from "./armylistRules.js";
+import { openPrintOverlay } from "./printPDF.js";
 
 /* =========================
    ARMYLIST BUILDER RENDERING
@@ -176,7 +177,7 @@ function renderArmyBuilder() {
     `;
 }
 
-function renderOverviewBox(stats) {
+export function renderOverviewBox(stats) {
 
     return `
         <div class="armylist-overview-box">
@@ -196,8 +197,8 @@ function renderOverviewBox(stats) {
                 <tr>
                     <td>${stats.totalPoints}</td>
                     <td>${stats.modelCount}</td>
-                    <td>${stats.broken}</td>
-                    <td>${stats.quartered}</td>
+                    <td>${stats.broken} ${t("armylists.build.killed")}</td>
+                    <td>${stats.quartered} ${t("armylists.build.left")}</td>
                     <td>${stats.bowCount} / ${stats.bowLimit}</td>
                     <td>${stats.throwingCount} / ${stats.throwingLimit}</td>
                 </tr>
@@ -215,7 +216,7 @@ function renderOverviewBox(stats) {
                 <tr>
                     <td>${stats.bows}</td>
                     <td>${stats.throwing}</td>
-                    <td>${stats.mwf}</td>
+                    <td>${stats.might} / ${stats.will} / ${stats.fate}</td>
                     <td>${stats.banners}</td>
                     <td>${stats.cavalry}</td>
                     <td>${stats.monster}</td>
@@ -224,7 +225,7 @@ function renderOverviewBox(stats) {
         </div>
     `;
 }
-function renderSpecialRulesBox(armylist) {
+export function renderSpecialRulesBox(armylist) {
     const hasAdditional = Array.isArray(armylist.additionalRules) && armylist.additionalRules.length;
     const hasSpecial = Array.isArray(armylist.specialRules) && armylist.specialRules.length;
 
@@ -284,7 +285,7 @@ export function rerenderArmyList() {
 
     const btn = document.querySelector("#exportPdfBtn");
     if (btn) {
-        btn.onclick = () => window.print();
+            btn.onclick = () => openPrintOverlay();
     }
     attachWarbandControls();
 

@@ -1,21 +1,63 @@
-.armylists-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    color: var(--color-headColor);
+.armylists-all {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--mode-background);
+    color: var(--color-writing);
 }
 
-.armylists-column ul {
-    list-style: none;
-    padding: 0;
+/* FILTER */
+
+.armylists-filter {
+    padding: 12px 16px;
+    justify-content: center;
+    border-bottom: 1px solid var(--mode-writing);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    background: var(--mode-background);
+    margin-bottom: 1rem;
 }
 
-.armylists-column li {
+.armylists-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
     cursor: pointer;
-    padding: 4px 0;
+}
+
+.armylists-layout {
+    display: flex;
+    gap: 1rem;
+    height: 80vh;
+}
+
+.armylists-list {
+    overflow-y: auto;
+    width: 100%;
+    padding: 12px;
+}
+
+.armylists-list ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.armylists-list li {
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 4px;
     color: var(--color-link);
 }
 
-.armylists-column li:hover {
+.armylists-list li:hover {
     text-decoration: underline;
+}
+
+.armylists-filter button {
+    margin-left: auto;
+    padding: 0.3rem 0.8rem;
+    cursor: pointer;
 }

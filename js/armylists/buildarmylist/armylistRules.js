@@ -32,7 +32,7 @@ const tierPriority = {
 
         breakpoint = applyArmyRuleOverrides("Breakpoint", breakpoint, builder);
 
-        const broken = Math.ceil(modelcount / breakpoint);
+        const broken = 1 + Math.floor(modelcount / breakpoint);
 
         return broken;
     },

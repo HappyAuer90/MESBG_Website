@@ -1,21 +1,162 @@
-.profiles-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    color: var(--color-headColor);
+/* ======================================================
+   ROOT CONTAINER
+====================================================== */
+
+.profiles-all {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--mode-background);
+    color: var(--color-writing);
 }
 
-.profiles-column ul {
-    list-style: none;
-    padding: 0;
+/* ======================================================
+   FILTER BAR
+====================================================== */
+
+.profiles-filter {
+    padding: 12px 16px;
+    justify-content: center;
+    border-bottom: 1px solid var(--mode-writing);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    background: var(--mode-background);
+    margin-bottom: 1rem;
 }
 
-.profiles-column li {
+.profiles-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
     cursor: pointer;
-    padding: 4px 0;
-    color: var(--color-link);
+    color: var(--color-writing);
 }
 
-.profiles-column li:hover {
+.profiles-checkbox input {
+    cursor: pointer;
+}
+
+/* ======================================================
+   MAIN LAYOUT
+====================================================== */
+
+.profiles-layout {
+    display: flex;
+    gap: 1rem;
+    height: 80vh;
+}
+
+/* ======================================================
+   LIST PANEL
+====================================================== */
+
+.profiles-list {
+    overflow-y: auto;
+    width: 100%;
+    padding: 12px;
+    background: var(--mode-background);
+}
+
+.profiles-list ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.profiles-list li {
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: var(--color-link);
+    margin-bottom: 4px;
+}
+
+.profiles-list li:hover {
     text-decoration: underline;
+}
+
+.profiles-list li.active {
+    background: var(--color-link);
+    color: white;
+}
+
+/* ======================================================
+   DEBUG BUTTON
+====================================================== */
+
+.profiles-filter button {
+    margin-left: auto;
+    padding: 0.3rem 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* ======================================================
+   DEBUG MODAL
+====================================================== */
+
+.debug-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.debug-modal {
+    width: 75vw;
+    max-height: 85vh;
+    background: #1e1e1e;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    overflow-y: auto;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+.debug-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.debug-close {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.debug-test-block {
+    margin-bottom: 1.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    background: #2a2a2a;
+}
+
+.debug-test-block.has-errors {
+    border-left: 4px solid #ff4d4d;
+}
+
+.debug-test-block.no-errors {
+    border-left: 4px solid #4caf50;
+}
+
+.debug-test-block h3 {
+    margin-top: 0;
+}
+
+.debug-test-block ul {
+    margin: 0.5rem 0 0 1rem;
+}
+
+.debug-ok {
+    color: #4caf50;
+    font-weight: 500;
 }

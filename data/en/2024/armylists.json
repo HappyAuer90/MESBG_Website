@@ -445,7 +445,7 @@
 					"armyRules": {
 						"Legacy": true
 					},
-					"points": "5",
+					"points": "7",
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
@@ -515,7 +515,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "1"
 						},
 						{
@@ -721,7 +721,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -1274,11 +1274,11 @@
 					},
 					"points": "185",
 					"mandatory": [
-						"Heavy Armour"
+						"Heavy armour"
 					],
 					"options": [
 						{
-							"name": "Stone Flail",
+							"name": "The Stone Flail",
 							"cost": "15"
 						}
 					]
@@ -2042,7 +2042,7 @@
 					]
 				},
 				{
-					"name": "Muzgûr, Orc Shaman",
+					"name": "Muzgúr, Orc Shaman",
 					"armyRules": {
 						"Legacy": true,
 						"Maximum": 1
@@ -2345,7 +2345,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Army of the White Hand",
-		"noteGWFAQ": "Q: When using the Conjure Lightning ability of the Army of the White Hand Army List, can Saruman use Might to change To Wound Rolls?\nA: No.",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -2367,6 +2366,7 @@
 				"description": "Saruman can draw Line of Sight from any friendly Crebain models on the battlefield."
 			}
 		],
+		"noteGWFAQ": "Q: When using the Conjure Lightning ability of the Army of the White Hand Army List, can Saruman use Might to change To Wound Rolls?\nA: No.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -2422,7 +2422,7 @@
 					"points": "40",
 					"options": [
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "5"
 						},
 						{
@@ -2496,8 +2496,8 @@
 						"Captains": [
 							"Saruman"
 						],
-						"NotCount": "Warband",
-						"Maximum": 1
+						"Maximum": 1,
+						"NotCount": "Warband"
 					},
 					"points": "25"
 				}
@@ -2551,7 +2551,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "1"
 						},
 						{
@@ -3539,10 +3539,7 @@
 					"options": [
 						{
 							"name": "Pippin (can only be taken if Gandalf is riding Shadowfax)",
-							"cost": "25",
-							"armyRules": {
-								"CountAs": 1
-							}
+							"cost": "25"
 						},
 						{
 							"name": "Shadowfax",
@@ -3651,7 +3648,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25",
 							"armyRules": {
 								"Banner": true
@@ -3803,7 +3800,7 @@
 					"points": "175",
 					"options": [
 						{
-							"name": "White Warg",
+							"name": "The White Warg",
 							"cost": "50"
 						}
 					]
@@ -3842,7 +3839,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Fell warg and lance",
+							"name": "Fell Warg and lance",
 							"cost": "25"
 						}
 					]
@@ -3855,7 +3852,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Fell warg",
+							"name": "Fell Warg",
 							"cost": "20"
 						}
 					]
@@ -3872,7 +3869,7 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Fell warg",
+							"name": "Fell Warg",
 							"cost": "20"
 						},
 						{
@@ -4040,7 +4037,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Armoured Horse",
+							"name": "Armoured horse",
 							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
@@ -4686,7 +4683,7 @@
 									"limit": "count"
 								}
 							},
-							"cost": "2"
+							"cost": "1"
 						},
 						{
 							"name": "Shield",
@@ -4706,7 +4703,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25",
 							"armyRules": {
 								"Banner": true
@@ -4994,7 +4991,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "1"
 						},
 						{
@@ -5380,7 +5377,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Cirith Ungol",
-		"noteGWFAQ": "Q: If Shelob is included as part of the Cirith Ungol Army List and eats one friendly model does she gain bonuses for both “She is always hungry” and Swift Hunter?\nA: Yes.",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -5407,6 +5403,7 @@
 				"description": "During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her – remove the chosen model as a casualty. If she does, Shelob may declare a Heroic Move for free, though she may not shout With Me as part of this Heroic Move."
 			}
 		],
+		"noteGWFAQ": "Q: If Shelob is included as part of the Cirith Ungol Army List and eats one friendly model does she gain bonuses for both “She is always hungry” and Swift Hunter?\nA: Yes.",
 		"models": {
 			"Heroes of Valour": [
 				{
@@ -5602,8 +5599,8 @@
 				{
 					"name": "Corsair Captain",
 					"armyRules": {
-						"General": 2,
-						"Captain": "Mandatory"
+						"Captain": "Mandatory",
+						"General": 2
 					},
 					"points": "55",
 					"options": [
@@ -5620,7 +5617,7 @@
 				},
 				{
 					"name": "Corsair Bo’sun",
-					"points": "55",
+					"points": "50",
 					"options": [
 						{
 							"name": "Exchange spear for crossbow",
@@ -5681,7 +5678,7 @@
 					"points": "70",
 					"composition": [
 						{
-							"name": "Corsair Siege Crew Veteran",
+							"name": "Corsair Siege Veteran",
 							"compositionModel": "Captain",
 							"armyRules": {
 								"Followers": []
@@ -6039,7 +6036,7 @@
 					},
 					"points": "80",
 					"mandatory": [
-						"Heavy Armour"
+						"Heavy armour"
 					],
 					"options": [
 						{
@@ -6100,8 +6097,8 @@
 					},
 					"points": "85",
 					"mandatory": [
-						"Heavy Armour",
-						"Elf Bow"
+						"Heavy armour",
+						"Elf bow"
 					],
 					"options": [
 						{
@@ -6186,7 +6183,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -6375,7 +6372,7 @@
 							}
 						},
 						{
-							"name": "Exchange armour foe heavy armour",
+							"name": "Exchange armour for heavy armour",
 							"cost": "5"
 						},
 						{
@@ -6409,7 +6406,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -6481,7 +6478,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Defenders of the Pelennor",
-		"noteGWFAQ": "Q: If Pippin or Merry are taken as passengers in the Defenders of the Pelennor Army List, can they declare a free Heroic Combat while they are passengers? \nA: No – as per the Passenger rules, they cannot contribute to a Combat in any way.",
 		"alignment": "Good",
 		"source": [
 			{
@@ -6501,6 +6497,7 @@
 				"description": "Each Hero in your Army can, once per game, declare a Heroic Combat for free."
 			}
 		],
+		"noteGWFAQ": "Q: If Pippin or Merry are taken as passengers in the Defenders of the Pelennor Army List, can they declare a free Heroic Combat while they are passengers? \nA: No – as per the Passenger rules, they cannot contribute to a Combat in any way.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -6510,7 +6507,7 @@
 					},
 					"points": "110",
 					"mandatory": [
-						"Heavy Armour",
+						"Heavy armour",
 						"Shield",
 						"Snowmane with armour"
 					]
@@ -6541,10 +6538,7 @@
 					"options": [
 						{
 							"name": "Pippin (can only be taken if Gandalf is riding Shadowfax)",
-							"cost": "25",
-							"armyRules": {
-								"CountAs": 1
-							}
+							"cost": "25"
 						},
 						{
 							"name": "Shadowfax",
@@ -6658,7 +6652,6 @@
 					"name": "Éowyn, Shieldmaiden of Rohan",
 					"armyRules": {
 						"Cavalry": true,
-						"CountAs": 1,
 						"Maximum": 1
 					},
 					"points": "110",
@@ -6686,8 +6679,8 @@
 				{
 					"name": "Gamling, Captain of Rohan",
 					"armyRules": {
-						"Maximum": 1,
-						"Cavalry": true
+						"Cavalry": true,
+						"Maximum": 1
 					},
 					"points": "75",
 					"mandatory": [
@@ -7090,7 +7083,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25",
 							"armyRules": {
 								"Banner": true
@@ -7474,11 +7467,11 @@
 					"points": "75",
 					"mandatoryWarrior": [
 						{
-							"name": "Hand-and-a-half hammer",
+							"name": "Hand-and-a-half weapon",
 							"cost": "5"
 						},
 						{
-							"name": "Troll spear",
+							"name": "Troll Spear",
 							"cost": "5"
 						}
 					]
@@ -7488,7 +7481,20 @@
 					"armyRules": {
 						"Legacy": true
 					},
-					"points": "75"
+					"points": "75",
+					"composition": [
+						{
+							"name": "Moria Blackshield Drum",
+							"points": "75",
+							"armyRules": {
+								"NotCount": "Army"
+							}
+						},
+						{
+							"name": "Moria Blackshield Drummer",
+							"amount": 2
+						}
+					]
 				},
 				{
 					"name": "Moria Blackshield Warrior",
@@ -8237,7 +8243,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -8314,9 +8320,6 @@
 					"options": [
 						{
 							"name": "Merry & Pippin",
-					"armyRules": {
-						"CountAs": 2
-					},
 							"cost": "10"
 						}
 					]
@@ -8979,7 +8982,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -9029,7 +9032,7 @@
 					"points": "7",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -9456,7 +9459,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -9647,7 +9650,7 @@
 					"points": "120",
 					"options": [
 						{
-							"name": "Amoured Horse",
+							"name": "Armoured horse",
 							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
@@ -9938,7 +9941,7 @@
 				},
 				{
 					"name": "Corsair Bo’sun",
-					"points": "55",
+					"points": "50",
 					"options": [
 						{
 							"name": "Exchange spear for crossbow",
@@ -10090,7 +10093,7 @@
 							}
 						},
 						{
-							"name": "Bow & war spear",
+							"name": "Bow and war spear",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10561,7 +10564,7 @@
 							"cost": "30"
 						},
 						{
-							"name": "Heavy Armour",
+							"name": "Heavy armour",
 							"cost": "10"
 						}
 					]
@@ -10937,7 +10940,7 @@
 							}
 						},
 						{
-							"name": "Bow & war spear",
+							"name": "Bow and war spear",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -11630,7 +11633,7 @@
 					"points": "70",
 					"composition": [
 						{
-							"name": "Dwarven Siege Veteran",
+							"name": "Dwarf Siege Veteran",
 							"compositionModel": "Captain",
 							"armyRules": {
 								"Followers": []
@@ -11900,7 +11903,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -11950,7 +11953,7 @@
 					"points": "7",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -12550,7 +12553,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Armoured Horse",
+							"name": "Armoured horse",
 							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
@@ -12976,7 +12979,7 @@
 							}
 						},
 						{
-							"name": "Bow & war spear",
+							"name": "Bow and war spear",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -13171,7 +13174,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Gil-galad, High King of the Noldor",
+					"name": "Gil-Galad, High King of the Noldor",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -13815,10 +13818,7 @@
 					"options": [
 						{
 							"name": "Pippin (can only be taken if Gandalf is riding Shadowfax)",
-							"cost": "25",
-							"armyRules": {
-								"CountAs": 1
-							}
+							"cost": "25"
 						},
 						{
 							"name": "Shadowfax",
@@ -14040,7 +14040,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -14546,7 +14546,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -14804,7 +14804,20 @@
 				},
 				{
 					"name": "Moria Goblin Drum",
-					"points": "75"
+					"points": "75",
+					"composition": [
+						{
+							"name": "Moria Goblin Drum",
+							"points": "75",
+							"armyRules": {
+								"NotCount": "Army"
+							}
+						},
+						{
+							"name": "Moria Goblin Drummer",
+							"amount": 2
+						}
+					]
 				},
 				{
 					"name": "Cave Troll",
@@ -14814,11 +14827,11 @@
 					"points": "75",
 					"mandatoryWarrior": [
 						{
-							"name": "Hand-and-a-half hammer",
+							"name": "Hand-and-a-half weapon",
 							"cost": "5"
 						},
 						{
-							"name": "Troll spear",
+							"name": "Troll Spear",
 							"cost": "5"
 						}
 					]
@@ -14855,7 +14868,20 @@
 					"armyRules": {
 						"Legacy": true
 					},
-					"points": "75"
+					"points": "75",
+					"composition": [
+						{
+							"name": "Moria Blackshield Drum",
+							"points": "75",
+							"armyRules": {
+								"NotCount": "Army"
+							}
+						},
+						{
+							"name": "Moria Blackshield Drummer",
+							"amount": 2
+						}
+					]
 				},
 				{
 					"name": "Moria Blackshield Warrior",
@@ -14977,8 +15003,8 @@
 						"Captains": [
 							"Saruman"
 						],
-						"NotCount": "Warband",
-						"Maximum": 1
+						"Maximum": 1,
+						"NotCount": "Warband"
 					},
 					"points": "25"
 				},
@@ -15197,15 +15223,17 @@
 				"description": "At the start of the game, after both sides have been deployed, you may place up to three 25mm Waypoint Markers anywhere on the battlefield. Whilst within 6\" of a friendly Waypoint Marker, friendly Rohan models don’t suffer penalties for Moving, or Charging, through Difficult Terrain."
 			}
 		],
-		"ArmyDistributions": [
-			{
-				"group": "Woses Warriors",
-				"models": [
-					"Woses Warrior"
-				],
-				"min": 12
-			}
-		],
+		"armyRules": {
+			"ArmyDistributions": [
+				{
+					"group": "Woses Warriors",
+					"models": [
+						"Woses Warrior"
+					],
+					"min": 12
+				}
+			]
+		},
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -15302,7 +15330,7 @@
 					"armyRules": {
 						"Cavalry": true
 					},
-					"points": "45",
+					"points": "65",
 					"mandatory": [
 						"Horse"
 					],
@@ -15323,7 +15351,6 @@
 					"name": "Éowyn, Shieldmaiden of Rohan",
 					"armyRules": {
 						"Cavalry": true,
-						"CountAs": 1,
 						"Maximum": 1
 					},
 					"points": "110",
@@ -15466,7 +15493,7 @@
 					"points": "175",
 					"options": [
 						{
-							"name": "White Warg",
+							"name": "The White Warg",
 							"cost": "50"
 						}
 					]
@@ -15957,8 +15984,8 @@
 				{
 					"name": "Golfimbul, Orc Captain",
 					"armyRules": {
-						"Legacy": true,
 						"General": "Mandatory",
+						"Legacy": true,
 						"Maximum": 1
 					},
 					"points": "45",
@@ -16074,7 +16101,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Realms of Men",
-		"noteGWFAQ": "Q: If I take a Rohan King of Men in the Realms of Men Army List, can I include Rohirrim Traitors in the army? \nA: No.\n\nQ: In a Realms of Men Army List, what Heroic Tier are other Hero models included in the Army?\nA: Any Hero models included in the Army, with the exception of Kings of Men, will be classed as Heroes of Fortitude. This does not apply to Siege Veterans, who will remain as Minor Heroes.",
 		"alignment": "Good",
 		"source": [
 			{
@@ -16085,6 +16111,7 @@
 		"additionalRules": [
 			"WRITING AN ARMY LIST FOR KINGS OF MEN:\n\nKings of Men are used to represent the many kings or rulers that the race of Men has had over the ages, and as such they do not fit into any of the standard Army Lists presented within the Middle-earth Strategy Battle Game. Instead, they form their own Army List referred to as the Realms of Men.\n\nWhen writing a Realms of Men Army List, there are some things to make a note of:\n\nKings of Men are always a Hero of Legend. A King of Men may include Warrior models in their Warband from any Army List, so long as they share the same Faction Keyword.\n\nWhen working out which King of Men is your Army’s General, it must be the one which shares the most common Faction Keyword throughout your Army. For example, if the most common Faction Keyword in your Army is Rohan, then the King of Men with the Rohan Keyword must be your General.\n\nA Realms of Men Army may not have two Kings of Men with the same Faction Keyword; however, they may have multiple Kings of Men with different Faction Keywords.\n\nA Realms of Men Army can never include any models with the Unique Keyword under any circumstances. However, it can include Hero models without the Unique Keyword so long as they share a Faction Keyword with a King of Men already in the Army. For example, a Realms of Men Army with a King of Men with the Gondor Keyword could include a Captain of Minas Tirith as they would both have the Gondor Keyword. Hero models included in this manner may also include Warrior models in their Warband with the same Faction Keyword.\n\nThe Realms of Men Army List allows you to create your own forces and combine multiple factions of Men in a way that suits you."
 		],
+		"noteGWFAQ": "Q: If I take a Rohan King of Men in the Realms of Men Army List, can I include Rohirrim Traitors in the army? \nA: No.\n\nQ: In a Realms of Men Army List, what Heroic Tier are other Hero models included in the Army?\nA: Any Hero models included in the Army, with the exception of Kings of Men, will be classed as Heroes of Fortitude. This does not apply to Siege Veterans, who will remain as Minor Heroes.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -16485,7 +16512,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -16737,7 +16764,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -17012,8 +17039,8 @@
 				{
 					"name": "Balin the Dwarf, King of Moria",
 					"armyRules": {
-						"Legacy": true,
 						"General": "Mandatory",
+						"Legacy": true,
 						"Maximum": 1
 					},
 					"points": "110"
@@ -17281,7 +17308,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -17501,9 +17528,9 @@
 					},
 					"points": "110",
 					"mandatory": [
-						"Heavy Armour",
+						"Heavy armour",
 						"Shield",
-						"Snowmane with Armour"
+						"Snowmane with armour"
 					]
 				}
 			],
@@ -17675,7 +17702,7 @@
 					"points": "140",
 					"mandatory": [
 						"Shield",
-						"Firefoot with Armour"
+						"Firefoot with armour"
 					],
 					"options": [
 						{
@@ -17837,9 +17864,9 @@
 					},
 					"points": "110",
 					"mandatory": [
-						"Heavy Armour",
+						"Heavy armour",
 						"Shield",
-						"Snowmane with Armour"
+						"Snowmane with armour"
 					]
 				}
 			],
@@ -17852,7 +17879,7 @@
 					"points": "140",
 					"mandatory": [
 						"Shield",
-						"Firefoot with Armour"
+						"Firefoot with armour"
 					],
 					"options": [
 						{
@@ -17872,7 +17899,6 @@
 					"name": "Éowyn, Shieldmaiden of Rohan",
 					"armyRules": {
 						"Cavalry": true,
-						"CountAs": 1,
 						"Maximum": 1
 					},
 					"points": "110",
@@ -18135,7 +18161,7 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Fell warg",
+							"name": "Fell Warg",
 							"cost": "20"
 						},
 						{
@@ -18490,7 +18516,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Road to Helm’s Deep",
-		"noteGWFAQ": "Q: In the Road to Helm’s Deep Army List, if Gimli is taken as a Passenger on Legolas’ horse can he also lead a Warband?\nA: No.\n\nQ: In the Road to Helm’s Deep Army List, can Háma benefit from the Back on your horses special rule as he cannot normally have a horse?\nA: No.",
 		"alignment": "Good",
 		"source": [
 			{
@@ -18516,6 +18541,7 @@
 				"description": "At the end of a friendly Infantry Hero model’s Move (with the exception of Gimli), if they are in base contact with a friendly Cavalry Warrior model who is not Engaged in Combat, then the Warrior may give the Hero their horse. Replace the Warrior model with a suitable dismount, and replace the Hero with the mounted version of them. The Warrior will be placed in the same place the Hero was, and vice versa. If the Hero would normally have a named horse (such as Snowmane or Brego) then they will only count as riding a standard horse after using this rule."
 			}
 		],
+		"noteGWFAQ": "Q: In the Road to Helm’s Deep Army List, if Gimli is taken as a Passenger on Legolas’ horse can he also lead a Warband?\nA: No.\n\nQ: In the Road to Helm’s Deep Army List, can Háma benefit from the Back on your horses special rule as he cannot normally have a horse?\nA: No.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -19105,7 +19131,7 @@
 						"General": "Mandatory",
 						"Maximum": 1
 					},
-					"points": "60",
+					"points": "60 Points for Both",
 					"composition": [
 						{
 							"name": "Sharkey",
@@ -19442,7 +19468,7 @@
 							"cost": "30"
 						},
 						{
-							"name": "Heavy Armour",
+							"name": "Heavy armour",
 							"cost": "10"
 						}
 					]
@@ -20461,7 +20487,7 @@
 		"specialRules": [
 			{
 				"name": "\"You have my sword\"",
-				"description": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule.\nAdditionally, a Fellowship Army can never be considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
+				"description": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Fellowship Army can never be considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
 			},
 			{
 				"name": "The Bond of Fellowship",
@@ -20514,7 +20540,10 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100"
 				},
@@ -21093,7 +21122,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -21221,7 +21250,7 @@
 					"points": "8",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn and shield",
+							"name": "War horn and shield",
 							"cost": "26"
 						},
 						{
@@ -21264,7 +21293,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -21746,7 +21775,7 @@
 					"points": "120",
 					"options": [
 						{
-							"name": "Amoured Horse",
+							"name": "Armoured horse",
 							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
@@ -21941,7 +21970,7 @@
 							}
 						},
 						{
-							"name": "Bow & war spear",
+							"name": "Bow and war spear",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -22972,7 +23001,7 @@
 				},
 				{
 					"name": "Corsair Bo’sun",
-					"points": "55",
+					"points": "50",
 					"options": [
 						{
 							"name": "Exchange spear for crossbow",
@@ -23181,7 +23210,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "1"
 						},
 						{
@@ -23204,7 +23233,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"

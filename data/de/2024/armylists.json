@@ -4,7 +4,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Arathorn’s Stand",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -162,7 +162,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -201,7 +201,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -237,7 +237,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Army of Dale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -317,7 +317,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -398,7 +398,7 @@
 					"points": "90",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -445,7 +445,7 @@
 					"armyRules": {
 						"Legacy": true
 					},
-					"points": "5",
+					"points": "7",
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
@@ -455,7 +455,7 @@
 							}
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -464,7 +464,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -502,7 +502,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -515,7 +515,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "1"
 						},
 						{
@@ -540,7 +540,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Army of Edoras",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -613,7 +613,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -629,7 +629,7 @@
 					"points": "100",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -660,7 +660,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -673,7 +673,7 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -684,7 +684,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -699,7 +699,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -721,7 +721,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -746,7 +746,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -755,7 +755,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -810,7 +810,7 @@
 							"cost": "7"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "5",
 							"armyRules": {
 								"Cavalry": true
@@ -835,7 +835,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Army of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -926,7 +926,7 @@
 					"points": "100"
 				},
 				{
-					"name": "Gimli, son of Glóin",
+					"name": "Gimli, Glóins Sohn",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -1041,7 +1041,7 @@
 							"cost": "20"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -1067,7 +1067,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -1122,7 +1122,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -1274,11 +1274,11 @@
 					},
 					"points": "185",
 					"mandatory": [
-						"Heavy Armour"
+						"Heavy armour"
 					],
 					"options": [
 						{
-							"name": "Stone Flail",
+							"name": "The Stone Flail",
 							"cost": "15"
 						}
 					]
@@ -1364,7 +1364,7 @@
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -1419,7 +1419,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Army of Lake-town",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -1593,7 +1593,7 @@
 					"points": "7",
 					"optionalWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -1680,7 +1680,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1738,7 +1738,7 @@
 							"cost": "20"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -1769,7 +1769,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1786,7 +1786,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1803,7 +1803,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1820,7 +1820,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1837,7 +1837,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1854,7 +1854,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1871,7 +1871,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1888,7 +1888,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -1939,7 +1939,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -2042,7 +2042,7 @@
 					]
 				},
 				{
-					"name": "Muzgûr, Orc Shaman",
+					"name": "Muzgúr, Orc Shaman",
 					"armyRules": {
 						"Legacy": true,
 						"Maximum": 1
@@ -2089,7 +2089,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -2119,7 +2119,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -2158,7 +2158,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -2345,7 +2345,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Army of the White Hand",
-		"noteGWFAQ": "Q: When using the Conjure Lightning ability of the Army of the White Hand Army List, can Saruman use Might to change To Wound Rolls?\nA: No.",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -2367,6 +2366,7 @@
 				"description": "Saruman can draw Line of Sight from any friendly Crebain models on the battlefield."
 			}
 		],
+		"noteGWFAQ": "Q: When using the Conjure Lightning ability of the Army of the White Hand Army List, can Saruman use Might to change To Wound Rolls?\nA: No.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -2377,7 +2377,7 @@
 					"points": "170",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -2396,7 +2396,7 @@
 					"points": "90",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -2422,7 +2422,7 @@
 					"points": "40",
 					"options": [
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "5"
 						},
 						{
@@ -2496,8 +2496,8 @@
 						"Captains": [
 							"Saruman"
 						],
-						"NotCount": "Warband",
-						"Maximum": 1
+						"Maximum": 1,
+						"NotCount": "Warband"
 					},
 					"points": "25"
 				}
@@ -2515,7 +2515,7 @@
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -2538,7 +2538,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -2551,7 +2551,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "1"
 						},
 						{
@@ -2585,7 +2585,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -2624,7 +2624,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -2681,7 +2681,7 @@
 							}
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -2690,7 +2690,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -2727,7 +2727,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Army of Thrór",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -2747,6 +2747,9 @@
 				"description": "An Army of Thrór Army may have up to 50% of its Warrior models armed with throwing weapons rather than the usual 33%."
 			}
 		],
+		"armyRules": {
+			"ThrowingLimit": 2
+		},
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -2811,7 +2814,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -2822,6 +2825,11 @@
 				},
 				{
 					"name": "Grim Hammer Warrior",
+					"armyRules": {
+						"Throwing": {
+							"limit": "count"
+						}
+					},
 					"points": "11"
 				}
 			]
@@ -2832,7 +2840,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Arnor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -3106,7 +3114,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -3145,7 +3153,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -3180,7 +3188,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -3242,7 +3250,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Assault on Ravenhill",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -3366,6 +3374,9 @@
 				"description": "Friendly Isengard Assault Ballistae may re-roll To Hit and Scatter Rolls of a 1.\nAdditionally, when a friendly Demolition Charge is detonated, you may roll two dice on the Detonation Table rather than one and pick either result."
 			}
 		],
+		"armyRules": {
+			"Breakpoint": 1.5
+		},
 		"models": {
 			"Heroes of Fortitude": [
 				{
@@ -3414,7 +3425,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -3492,7 +3503,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Atop the Walls",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -3546,7 +3557,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -3615,7 +3626,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -3624,7 +3635,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -3637,7 +3648,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25",
 							"armyRules": {
 								"Banner": true
@@ -3776,6 +3787,9 @@
 				"description": "Whilst within 6\" of a friendly Hero, friendly Orc Warrior models gain a bonus of +1 to any Courage Tests to Charge an enemy model with the Terror special rule."
 			}
 		],
+		"armyRules": {
+			"BowLimit": 2
+		},
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -3786,7 +3800,7 @@
 					"points": "175",
 					"options": [
 						{
-							"name": "White Warg",
+							"name": "The White Warg",
 							"cost": "50"
 						}
 					]
@@ -3825,7 +3839,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Fell warg and lance",
+							"name": "Fell Warg and lance",
 							"cost": "25"
 						}
 					]
@@ -3838,7 +3852,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Fell warg",
+							"name": "Fell Warg",
 							"cost": "20"
 						}
 					]
@@ -3855,7 +3869,7 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Fell warg",
+							"name": "Fell Warg",
 							"cost": "20"
 						},
 						{
@@ -3973,7 +3987,7 @@
 					"points": "120",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -3995,7 +4009,7 @@
 					"points": "90",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -4023,7 +4037,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Armoured Horse",
+							"name": "Armoured horse",
 							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
@@ -4076,7 +4090,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -4115,7 +4129,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -4269,7 +4283,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Battle of Bywater",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -4316,7 +4330,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -4520,7 +4534,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Battle of Fornost",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -4609,7 +4623,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -4663,16 +4677,16 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
 								}
 							},
-							"cost": "2"
+							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -4689,7 +4703,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25",
 							"armyRules": {
 								"Banner": true
@@ -4729,7 +4743,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -4758,7 +4772,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Battle of Greenfields",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -4885,7 +4899,7 @@
 					"points": "110",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -4903,7 +4917,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -4964,7 +4978,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -4977,7 +4991,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "1"
 						},
 						{
@@ -5076,7 +5090,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -5115,7 +5129,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -5145,7 +5159,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Breaking of the Fellowship",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -5178,7 +5192,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Aragorn (Strider)",
+					"name": "Aragorn (Streicher)",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -5186,7 +5200,7 @@
 					"points": "160",
 					"options": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -5199,40 +5213,40 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Legolas Greenleaf",
+					"name": "Legolas Grünblatt",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
-							"Aragorn (Strider)"
+							"Aragorn (Streicher)"
 						],
 						"Maximum": 1
 					},
 					"points": "100"
 				},
 				{
-					"name": "Gimli, son of Glóin",
+					"name": "Gimli, Glóins Sohn",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
-							"Aragorn (Strider)"
+							"Aragorn (Streicher)"
 						],
 						"Maximum": 1
 					},
 					"points": "100"
 				},
 				{
-					"name": "Boromir of Gondor",
+					"name": "Boromir von Gondor",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
-							"Aragorn (Strider)"
+							"Aragorn (Streicher)"
 						],
 						"Maximum": 1
 					},
 					"points": "95",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -5258,32 +5272,32 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Frodo Baggins",
+					"name": "Frodo Beutlin",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
-							"Aragorn (Strider)"
+							"Aragorn (Streicher)"
 						],
 						"Maximum": 1
 					},
 					"points": "55",
 					"options": [
 						{
-							"name": "Mithril Coat",
+							"name": "Mithrilkettenhemd",
 							"cost": "15"
 						},
 						{
-							"name": "Sting",
+							"name": "Stich",
 							"cost": "5"
 						}
 					]
 				},
 				{
-					"name": "Samwise Gamgee",
+					"name": "Samweis Gamdschie",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
-							"Aragorn (Strider)"
+							"Aragorn (Streicher)"
 						],
 						"Maximum": 1
 					},
@@ -5292,22 +5306,22 @@
 			],
 			"Independent Heroes": [
 				{
-					"name": "Meriadoc Brandybuck",
+					"name": "Meriadoc Brandybock",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
-							"Aragorn (Strider)"
+							"Aragorn (Streicher)"
 						],
 						"Maximum": 1
 					},
 					"points": "10"
 				},
 				{
-					"name": "Peregrin Took",
+					"name": "Peregrin Tuk",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
-							"Aragorn (Strider)"
+							"Aragorn (Streicher)"
 						],
 						"Maximum": 1
 					},
@@ -5363,7 +5377,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Cirith Ungol",
-		"noteGWFAQ": "Q: If Shelob is included as part of the Cirith Ungol Army List and eats one friendly model does she gain bonuses for both “She is always hungry” and Swift Hunter?\nA: Yes.",
 		"alignment": "Evil",
 		"source": [
 			{
@@ -5390,6 +5403,7 @@
 				"description": "During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her – remove the chosen model as a casualty. If she does, Shelob may declare a Heroic Move for free, though she may not shout With Me as part of this Heroic Move."
 			}
 		],
+		"noteGWFAQ": "Q: If Shelob is included as part of the Cirith Ungol Army List and eats one friendly model does she gain bonuses for both “She is always hungry” and Swift Hunter?\nA: Yes.",
 		"models": {
 			"Heroes of Valour": [
 				{
@@ -5486,7 +5500,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -5585,8 +5599,8 @@
 				{
 					"name": "Corsair Captain",
 					"armyRules": {
-						"General": 2,
-						"Captain": "Mandatory"
+						"Captain": "Mandatory",
+						"General": 2
 					},
 					"points": "55",
 					"options": [
@@ -5603,7 +5617,7 @@
 				},
 				{
 					"name": "Corsair Bo’sun",
-					"points": "55",
+					"points": "50",
 					"options": [
 						{
 							"name": "Exchange spear for crossbow",
@@ -5623,7 +5637,7 @@
 					"points": "8",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -5664,7 +5678,7 @@
 					"points": "70",
 					"composition": [
 						{
-							"name": "Corsair Siege Crew Veteran",
+							"name": "Corsair Siege Veteran",
 							"compositionModel": "Captain",
 							"armyRules": {
 								"Followers": []
@@ -5691,7 +5705,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Defenders of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -5950,7 +5964,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -5974,7 +5988,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Defenders of Helm’s Deep",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -6022,11 +6036,11 @@
 					},
 					"points": "80",
 					"mandatory": [
-						"Heavy Armour"
+						"Heavy armour"
 					],
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -6034,7 +6048,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Aragorn (Strider)",
+					"name": "Aragorn (Streicher)",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -6044,7 +6058,7 @@
 					]
 				},
 				{
-					"name": "Legolas Greenleaf",
+					"name": "Legolas Grünblatt",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -6061,7 +6075,7 @@
 					]
 				},
 				{
-					"name": "Gimli, son of Glóin",
+					"name": "Gimli, Glóins Sohn",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -6083,8 +6097,8 @@
 					},
 					"points": "85",
 					"mandatory": [
-						"Heavy Armour",
-						"Elf Bow"
+						"Heavy armour",
+						"Elf bow"
 					],
 					"options": [
 						{
@@ -6117,7 +6131,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -6169,7 +6183,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -6194,7 +6208,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -6203,7 +6217,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -6267,7 +6281,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -6280,7 +6294,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Defenders of the Hornburg",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -6314,7 +6328,7 @@
 					"points": "125",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -6338,7 +6352,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -6351,18 +6365,18 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
 							}
 						},
 						{
-							"name": "Exchange armour foe heavy armour",
+							"name": "Exchange armour for heavy armour",
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -6377,7 +6391,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -6392,7 +6406,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -6417,7 +6431,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -6426,7 +6440,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -6464,8 +6478,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Defenders of the Pelennor",
-		"noteGWFAQ": "Q: If Pippin or Merry are taken as passengers in the Defenders of the Pelennor Army List, can they declare a free Heroic Combat while they are passengers? \nA: No – as per the Passenger rules, they cannot contribute to a Combat in any way.",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -6484,6 +6497,7 @@
 				"description": "Each Hero in your Army can, once per game, declare a Heroic Combat for free."
 			}
 		],
+		"noteGWFAQ": "Q: If Pippin or Merry are taken as passengers in the Defenders of the Pelennor Army List, can they declare a free Heroic Combat while they are passengers? \nA: No – as per the Passenger rules, they cannot contribute to a Combat in any way.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -6493,13 +6507,13 @@
 					},
 					"points": "110",
 					"mandatory": [
-						"Heavy Armour",
+						"Heavy armour",
 						"Shield",
 						"Snowmane with armour"
 					]
 				},
 				{
-					"name": "Aragorn (Strider)",
+					"name": "Aragorn (Streicher)",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -6573,7 +6587,7 @@
 					]
 				},
 				{
-					"name": "Legolas Greenleaf",
+					"name": "Legolas Grünblatt",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -6590,7 +6604,7 @@
 					]
 				},
 				{
-					"name": "Gimli, son of Glóin",
+					"name": "Gimli, Glóins Sohn",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -6617,7 +6631,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -6643,12 +6657,12 @@
 					"points": "110",
 					"mandatory": [
 						"Armour",
-						"Horse",
+						"Pferd",
 						"Merry"
 					],
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -6665,12 +6679,12 @@
 				{
 					"name": "Gamling, Captain of Rohan",
 					"armyRules": {
-						"Maximum": 1,
-						"Cavalry": true
+						"Cavalry": true,
+						"Maximum": 1
 					},
 					"points": "75",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -6686,7 +6700,7 @@
 					},
 					"points": "65",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -6694,7 +6708,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -6722,7 +6736,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -6738,7 +6752,7 @@
 					"points": "60",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -6819,7 +6833,7 @@
 							"points": "80",
 							"options": [
 								{
-									"name": "Horse",
+									"name": "Pferd",
 									"cost": "20",
 									"armyRules": {
 										"Cavalry": true
@@ -6836,7 +6850,7 @@
 							"points": "80",
 							"options": [
 								{
-									"name": "Horse",
+									"name": "Pferd",
 									"cost": "20",
 									"armyRules": {
 										"Cavalry": true
@@ -6935,7 +6949,7 @@
 					},
 					"points": "16",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"optionalWarrior": [
 						{
@@ -6953,9 +6967,9 @@
 					"name": "Warrior of the Dead",
 					"armyRules": {
 						"Captains": [
-							"Aragorn (Strider)",
-							"Legolas Greenleaf",
-							"Gimli, son of Glóin",
+							"Aragorn (Streicher)",
+							"Legolas Grünblatt",
+							"Gimli, Glóins Sohn",
 							"The King of the Dead",
 							"Herald of the Dead"
 						]
@@ -6974,7 +6988,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -6987,9 +7001,9 @@
 					"name": "Rider of the Dead",
 					"armyRules": {
 						"Captains": [
-							"Aragorn (Strider)",
-							"Legolas Greenleaf",
-							"Gimli, son of Glóin",
+							"Aragorn (Streicher)",
+							"Legolas Grünblatt",
+							"Gimli, Glóins Sohn",
 							"The King of the Dead",
 							"Herald of the Dead"
 						],
@@ -7033,7 +7047,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -7042,7 +7056,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -7069,7 +7083,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25",
 							"armyRules": {
 								"Banner": true
@@ -7436,7 +7450,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -7453,11 +7467,11 @@
 					"points": "75",
 					"mandatoryWarrior": [
 						{
-							"name": "Hand-and-a-half hammer",
+							"name": "Hand-and-a-half weapon",
 							"cost": "5"
 						},
 						{
-							"name": "Troll spear",
+							"name": "Troll Spear",
 							"cost": "5"
 						}
 					]
@@ -7467,7 +7481,20 @@
 					"armyRules": {
 						"Legacy": true
 					},
-					"points": "75"
+					"points": "75",
+					"composition": [
+						{
+							"name": "Moria Blackshield Drum",
+							"points": "75",
+							"armyRules": {
+								"NotCount": "Army"
+							}
+						},
+						{
+							"name": "Moria Blackshield Drummer",
+							"amount": 2
+						}
+					]
 				},
 				{
 					"name": "Moria Blackshield Warrior",
@@ -7528,6 +7555,156 @@
 						"Monster": true
 					},
 					"points": "700"
+				}
+			]
+		}
+	},
+	"Die Gefährten": {
+		"id": "fellowship",
+		"version": "2024",
+		"language": "de",
+		"name": "Gefährten",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of the Lord of the Rings",
+				"page": "82-83"
+			}
+		],
+		"additionalRules": [
+			"Die Gefährten werden stets als eine einzige Kriegerschar aufgestellt."
+		],
+		"specialRules": [
+			{
+				"name": "\"Du hast mein Schwert\"",
+				"description": "Solange Frodo lebt und sich auf dem Schlachtfeld befindet, erhalten befreundete Gefährten-Modelle die Sonderregel Furchtlos. Zusätzlich kann eine Gefährten-Armee niemals als Aufgerieben gelten, solange Frodo lebt, selbst wenn er in Szenarien, in denen dies zutrifft, vom Schlachtfeld flieht."
+			},
+			{
+				"name": "Das Band der Gefährten",
+				"description": "Befreundete Modelle innerhalb von 3\" von einem anderen befreundeten Gefährten-Modell dürfen bei Schlägen einen einzelnen misslungenen Verwundungswurf wiederholen."
+			},
+			{
+				"name": "Durchquerung der Wildnis",
+				"description": "Befreundete Gefährten-Modelle erhalten die Sonderregeln Waldbewohner und Bergbewohner."
+			}
+		],
+		"armyRules": {
+			"Warband": "One"
+		},
+		"models": {
+			"Heroes of Legend": [
+				{
+					"name": "Gandalf der Graue",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "170"
+				}
+			],
+			"Heroes of Valour": [
+				{
+					"name": "Aragorn (Streicher)",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "160",
+					"options": [
+						{
+							"name": "Bogen",
+							"armyRules": {
+								"Bow": {
+									"limit": "ignore"
+								}
+							},
+							"cost": "5"
+						}
+					]
+				},
+				{
+					"name": "Legolas Grünblatt",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "100"
+				},
+				{
+					"name": "Gimli, Glóins Sohn",
+					"armyRules": {
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
+					},
+					"points": "100"
+				},
+				{
+					"name": "Boromir von Gondor",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "95",
+					"options": [
+						{
+							"name": "Pferd",
+							"cost": "20",
+							"armyRules": {
+								"Cavalry": true
+							}
+						},
+						{
+							"name": "Schild",
+							"cost": "5"
+						}
+					]
+				}
+			],
+			"Heroes of Fortitude": [
+				{
+					"name": "Frodo Beutlin",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "55",
+					"options": [
+						{
+							"name": "Mithrilkettenhemd",
+							"cost": "15"
+						},
+						{
+							"name": "Stich",
+							"cost": "5"
+						}
+					]
+				},
+				{
+					"name": "Samweis Gamdschie",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "40"
+				}
+			],
+			"Independent Heroes": [
+				{
+					"name": "Meriadoc Brandybock",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "10"
+				},
+				{
+					"name": "Peregrin Tuk",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "10"
+				},
+				{
+					"name": "Lutz das Pony",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "25"
 				}
 			]
 		}
@@ -7610,7 +7787,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Erebor & Dale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -7650,7 +7827,9 @@
 					],
 					"min": 1
 				}
-			]
+			],
+			"BowLimit": 2,
+			"ThrowingLimit": 2
 		},
 		"models": {
 			"Heroes of Legend": [
@@ -7735,7 +7914,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -7755,7 +7934,10 @@
 							"Young Dwalin the Dwarf",
 							"Erebor Dwarf Captain",
 							"Grim Hammer Captain"
-						]
+						],
+						"Throwing": {
+							"limit": "count"
+						}
 					},
 					"points": "11"
 				},
@@ -7803,7 +7985,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -7826,7 +8008,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Erebor Reclaimed",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -8018,7 +8200,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Expedition to the East",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -8116,7 +8298,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -8185,7 +8367,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -8194,7 +8376,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -8211,7 +8393,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -8251,7 +8433,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Fangorn",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -8388,7 +8570,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -8547,7 +8729,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -8586,7 +8768,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -8631,7 +8813,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Fields of Celebrant",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -8684,7 +8866,7 @@
 					"points": "75",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -8699,7 +8881,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -8713,7 +8895,7 @@
 					},
 					"points": "65",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -8721,7 +8903,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -8798,7 +8980,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -8807,7 +8989,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -8844,7 +9026,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Fords of Isen",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -8897,7 +9079,7 @@
 					"points": "60",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -8910,7 +9092,7 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -8921,7 +9103,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -8950,7 +9132,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -8975,7 +9157,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -8984,7 +9166,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -9000,7 +9182,7 @@
 					"points": "7",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -9025,7 +9207,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -9034,7 +9216,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -9084,7 +9266,7 @@
 							"cost": "7"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "5",
 							"armyRules": {
 								"Cavalry": true
@@ -9109,7 +9291,7 @@
 					"points": "8",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "5",
 							"armyRules": {
 								"Cavalry": true
@@ -9125,7 +9307,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Garrison of Dale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -9206,7 +9388,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -9248,7 +9430,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Garrison of Ithilien",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -9278,6 +9460,9 @@
 				"description": "At the end of the game, you will score an additional Victory Point for each of Frodo, Sam and Sméagol that are still alive, or have escaped the battlefield in Scenarios where this applies. This can never take your total number of Victory Points for a Scenario above 20."
 			}
 		],
+		"armyRules": {
+			"BowLimit": 2
+		},
 		"models": {
 			"Heroes of Valour": [
 				{
@@ -9309,34 +9494,34 @@
 					"points": "60"
 				},
 				{
-					"name": "Frodo Baggins",
+					"name": "Frodo Beutlin",
 					"armyRules": {
 						"Captains": [
 							"Faramir, Captain of Gondor"
 						],
 						"Followers": [
-							"Samwise Gamgee",
+							"Samweis Gamdschie",
 							"Sméagol"
 						],
 						"Maximum": 1
 					},
 					"points": "80",
 					"mandatory": [
-						"Mithril Coat",
+						"Mithrilkettenhemd",
 						"Sting",
 						"Elven cloak"
 					]
 				},
 				{
-					"name": "Samwise Gamgee",
+					"name": "Samweis Gamdschie",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
 							"Faramir, Captain of Gondor",
-							"Frodo Baggins"
+							"Frodo Beutlin"
 						],
 						"Depends": [
-							"Frodo Baggins"
+							"Frodo Beutlin"
 						],
 						"Maximum": 1
 					},
@@ -9371,10 +9556,10 @@
 						"Captain": "No",
 						"Captains": [
 							"Faramir, Captain of Gondor",
-							"Frodo Baggins"
+							"Frodo Beutlin"
 						],
 						"Depends": [
-							"Samwise Gamgee"
+							"Samweis Gamdschie"
 						],
 						"Maximum": 1
 					},
@@ -9402,7 +9587,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -9411,7 +9596,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -9424,7 +9609,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -9455,7 +9640,7 @@
 					"points": "9",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -9464,7 +9649,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -9615,7 +9800,7 @@
 					"points": "120",
 					"options": [
 						{
-							"name": "Amoured Horse",
+							"name": "Armoured horse",
 							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
@@ -9664,7 +9849,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -9681,7 +9866,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -9698,7 +9883,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -9714,7 +9899,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -9770,7 +9955,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -9906,7 +10091,7 @@
 				},
 				{
 					"name": "Corsair Bo’sun",
-					"points": "55",
+					"points": "50",
 					"options": [
 						{
 							"name": "Exchange spear for crossbow",
@@ -9935,7 +10120,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -9952,7 +10137,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -10015,7 +10200,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10058,7 +10243,7 @@
 							}
 						},
 						{
-							"name": "Bow & war spear",
+							"name": "Bow and war spear",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10067,7 +10252,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10127,7 +10312,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10136,7 +10321,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -10232,7 +10417,7 @@
 					"points": "8",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10315,7 +10500,7 @@
 					"points": "9",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10498,7 +10683,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Halls of Thranduil",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -10529,7 +10714,7 @@
 							"cost": "30"
 						},
 						{
-							"name": "Heavy Armour",
+							"name": "Heavy armour",
 							"cost": "10"
 						}
 					]
@@ -10544,7 +10729,7 @@
 					"points": "105",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -10589,7 +10774,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -10618,7 +10803,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -10650,7 +10835,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -10695,6 +10880,9 @@
 				"description": "Each Hero that is commanding a Mûmak can, once per game, declare a Heroic Combat for free whilst atop a Mûmak. When they do, the Mûmak will be affected as if they had been the one to declare the Heroic Combat, though they may not pivot before they Trample as part of a Heroic Combat."
 			}
 		],
+		"armyRules": {
+			"BowLimit": 2
+		},
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -10725,7 +10913,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -10741,7 +10929,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -10764,7 +10952,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -10873,7 +11061,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10902,7 +11090,7 @@
 							}
 						},
 						{
-							"name": "Bow & war spear",
+							"name": "Bow and war spear",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10911,7 +11099,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -10940,7 +11128,7 @@
 					"points": "9",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -11073,7 +11261,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -11082,7 +11270,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -11199,7 +11387,7 @@
 					"points": "150",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -11236,7 +11424,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -11253,7 +11441,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -11322,7 +11510,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -11361,7 +11549,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -11408,7 +11596,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Kingdom of Khazad-dûm",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -11516,7 +11704,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -11595,7 +11783,7 @@
 					"points": "70",
 					"composition": [
 						{
-							"name": "Dwarven Siege Veteran",
+							"name": "Dwarf Siege Veteran",
 							"compositionModel": "Captain",
 							"armyRules": {
 								"Followers": []
@@ -11621,7 +11809,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Kingdom of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -11663,7 +11851,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -11682,7 +11870,7 @@
 							"cost": "20"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -11703,7 +11891,7 @@
 							"cost": "20"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -11738,7 +11926,7 @@
 							"cost": "40"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -11751,7 +11939,7 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -11762,7 +11950,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -11775,7 +11963,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -11791,7 +11979,7 @@
 					"points": "60",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -11826,7 +12014,7 @@
 					"points": "60",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -11837,7 +12025,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -11865,7 +12053,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -11890,7 +12078,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -11899,7 +12087,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -11915,7 +12103,7 @@
 					"points": "7",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -11940,7 +12128,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -11949,7 +12137,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -12037,7 +12225,7 @@
 							"cost": "7"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "5",
 							"armyRules": {
 								"Cavalry": true
@@ -12062,7 +12250,7 @@
 					"points": "8",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "5",
 							"armyRules": {
 								"Cavalry": true
@@ -12170,7 +12358,7 @@
 							"cost": "20"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -12233,7 +12421,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12250,7 +12438,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12267,7 +12455,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12284,7 +12472,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12301,7 +12489,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12318,7 +12506,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12335,7 +12523,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12352,7 +12540,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12368,7 +12556,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -12405,7 +12593,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -12419,7 +12607,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -12515,7 +12703,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Armoured Horse",
+							"name": "Armoured horse",
 							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
@@ -12671,7 +12859,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -12745,7 +12933,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -12785,7 +12973,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -12794,7 +12982,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -12941,7 +13129,7 @@
 							}
 						},
 						{
-							"name": "Bow & war spear",
+							"name": "Bow and war spear",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -12950,7 +13138,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -13003,7 +13191,7 @@
 					"points": "9",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -13113,7 +13301,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lindon",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -13136,7 +13324,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Gil-galad, High King of the Noldor",
+					"name": "Gil-Galad, High King of the Noldor",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -13153,7 +13341,7 @@
 					"points": "170",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -13173,7 +13361,7 @@
 							"cost": "20"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -13205,7 +13393,7 @@
 							"cost": "30"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -13254,7 +13442,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -13271,7 +13459,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -13284,7 +13472,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lothlórien",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -13433,7 +13621,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -13482,7 +13670,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -13560,7 +13748,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -13597,6 +13785,9 @@
 				"description": "Lurtz gains the General Hunter special rule and may declare a Heroic Combat each turn for free."
 			}
 		],
+		"armyRules": {
+			"Breakpoint": 1.5
+		},
 		"models": {
 			"Heroes of Valour": [
 				{
@@ -13608,7 +13799,7 @@
 					"points": "100",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "Free"
 						}
 					]
@@ -13654,7 +13845,7 @@
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -13676,7 +13867,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Men of the West",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -13716,7 +13907,7 @@
 						"Shadowfax",
 						"Firefoot with armour",
 						"Firefoot",
-						"Horse"
+						"Pferd"
 					],
 					"excludes": "Eagle models"
 				},
@@ -13801,7 +13992,7 @@
 							"cost": "20"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -13816,14 +14007,14 @@
 					]
 				},
 				{
-					"name": "Legolas Greenleaf",
+					"name": "Legolas Grünblatt",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "100",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -13840,7 +14031,7 @@
 					]
 				},
 				{
-					"name": "Gimli, son of Glóin",
+					"name": "Gimli, Glóins Sohn",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -13867,7 +14058,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -13899,7 +14090,7 @@
 							"points": "80",
 							"options": [
 								{
-									"name": "Horse",
+									"name": "Pferd",
 									"cost": "20",
 									"armyRules": {
 										"Cavalry": true
@@ -13916,7 +14107,7 @@
 							"points": "80",
 							"options": [
 								{
-									"name": "Horse",
+									"name": "Pferd",
 									"cost": "20",
 									"armyRules": {
 										"Cavalry": true
@@ -13940,7 +14131,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -13980,7 +14171,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -13989,7 +14180,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -13999,7 +14190,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -14024,7 +14215,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -14033,7 +14224,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -14134,7 +14325,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -14167,7 +14358,7 @@
 							"cost": "50"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -14190,7 +14381,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -14252,7 +14443,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -14281,7 +14472,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -14329,7 +14520,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Minas Tirith",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -14371,14 +14562,14 @@
 					"points": "160",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -14394,14 +14585,14 @@
 					],
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -14414,7 +14605,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -14483,7 +14674,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -14492,7 +14683,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -14505,7 +14696,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -14748,7 +14939,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -14763,7 +14954,20 @@
 				},
 				{
 					"name": "Moria Goblin Drum",
-					"points": "75"
+					"points": "75",
+					"composition": [
+						{
+							"name": "Moria Goblin Drum",
+							"points": "75",
+							"armyRules": {
+								"NotCount": "Army"
+							}
+						},
+						{
+							"name": "Moria Goblin Drummer",
+							"amount": 2
+						}
+					]
 				},
 				{
 					"name": "Cave Troll",
@@ -14773,11 +14977,11 @@
 					"points": "75",
 					"mandatoryWarrior": [
 						{
-							"name": "Hand-and-a-half hammer",
+							"name": "Hand-and-a-half weapon",
 							"cost": "5"
 						},
 						{
-							"name": "Troll spear",
+							"name": "Troll Spear",
 							"cost": "5"
 						}
 					]
@@ -14814,7 +15018,20 @@
 					"armyRules": {
 						"Legacy": true
 					},
-					"points": "75"
+					"points": "75",
+					"composition": [
+						{
+							"name": "Moria Blackshield Drum",
+							"points": "75",
+							"armyRules": {
+								"NotCount": "Army"
+							}
+						},
+						{
+							"name": "Moria Blackshield Drummer",
+							"amount": 2
+						}
+					]
 				},
 				{
 					"name": "Moria Blackshield Warrior",
@@ -14876,6 +15093,9 @@
 				"description": "Friendly Uruk-hai models gain the Hatred (Man) special rule."
 			}
 		],
+		"armyRules": {
+			"Breakpoint": 1.5
+		},
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -14887,7 +15107,7 @@
 					"points": "170",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -14933,8 +15153,8 @@
 						"Captains": [
 							"Saruman"
 						],
-						"NotCount": "Warband",
-						"Maximum": 1
+						"Maximum": 1,
+						"NotCount": "Warband"
 					},
 					"points": "25"
 				},
@@ -14969,7 +15189,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -14990,7 +15210,7 @@
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -15036,7 +15256,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Númenor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -15076,7 +15296,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -15114,7 +15334,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -15127,7 +15347,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Paths of the Drúadan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -15153,15 +15373,17 @@
 				"description": "At the start of the game, after both sides have been deployed, you may place up to three 25mm Waypoint Markers anywhere on the battlefield. Whilst within 6\" of a friendly Waypoint Marker, friendly Rohan models don’t suffer penalties for Moving, or Charging, through Difficult Terrain."
 			}
 		],
-		"ArmyDistributions": [
-			{
-				"group": "Woses Warriors",
-				"models": [
-					"Woses Warrior"
-				],
-				"min": 12
-			}
-		],
+		"armyRules": {
+			"ArmyDistributions": [
+				{
+					"group": "Woses Warriors",
+					"models": [
+						"Woses Warrior"
+					],
+					"min": 12
+				}
+			]
+		},
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -15190,7 +15412,7 @@
 					],
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -15222,7 +15444,7 @@
 					},
 					"points": "75",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -15239,7 +15461,7 @@
 					},
 					"points": "90",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					]
 				},
 				{
@@ -15250,7 +15472,7 @@
 					},
 					"points": "80",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					]
 				},
 				{
@@ -15258,9 +15480,9 @@
 					"armyRules": {
 						"Cavalry": true
 					},
-					"points": "45",
+					"points": "65",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -15268,7 +15490,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -15284,12 +15506,12 @@
 					"points": "110",
 					"mandatory": [
 						"Armour",
-						"Horse",
+						"Pferd",
 						"Merry"
 					],
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -15345,7 +15567,7 @@
 					},
 					"points": "16",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"optionalWarrior": [
 						{
@@ -15371,7 +15593,7 @@
 					},
 					"points": "13",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					]
 				}
 			]
@@ -15421,7 +15643,7 @@
 					"points": "175",
 					"options": [
 						{
-							"name": "White Warg",
+							"name": "The White Warg",
 							"cost": "50"
 						}
 					]
@@ -15491,7 +15713,7 @@
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -15561,7 +15783,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Radagast’s Alliance",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -15657,7 +15879,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rangers of Mirkwood",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -15912,8 +16134,8 @@
 				{
 					"name": "Golfimbul, Orc Captain",
 					"armyRules": {
-						"Legacy": true,
 						"General": "Mandatory",
+						"Legacy": true,
 						"Maximum": 1
 					},
 					"points": "45",
@@ -15961,7 +16183,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -16000,7 +16222,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -16029,8 +16251,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Realms of Men",
-		"noteGWFAQ": "Q: If I take a Rohan King of Men in the Realms of Men Army List, can I include Rohirrim Traitors in the army? \nA: No.\n\nQ: In a Realms of Men Army List, what Heroic Tier are other Hero models included in the Army?\nA: Any Hero models included in the Army, with the exception of Kings of Men, will be classed as Heroes of Fortitude. This does not apply to Siege Veterans, who will remain as Minor Heroes.",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -16040,6 +16261,7 @@
 		"additionalRules": [
 			"WRITING AN ARMY LIST FOR KINGS OF MEN:\n\nKings of Men are used to represent the many kings or rulers that the race of Men has had over the ages, and as such they do not fit into any of the standard Army Lists presented within the Middle-earth Strategy Battle Game. Instead, they form their own Army List referred to as the Realms of Men.\n\nWhen writing a Realms of Men Army List, there are some things to make a note of:\n\nKings of Men are always a Hero of Legend. A King of Men may include Warrior models in their Warband from any Army List, so long as they share the same Faction Keyword.\n\nWhen working out which King of Men is your Army’s General, it must be the one which shares the most common Faction Keyword throughout your Army. For example, if the most common Faction Keyword in your Army is Rohan, then the King of Men with the Rohan Keyword must be your General.\n\nA Realms of Men Army may not have two Kings of Men with the same Faction Keyword; however, they may have multiple Kings of Men with different Faction Keywords.\n\nA Realms of Men Army can never include any models with the Unique Keyword under any circumstances. However, it can include Hero models without the Unique Keyword so long as they share a Faction Keyword with a King of Men already in the Army. For example, a Realms of Men Army with a King of Men with the Gondor Keyword could include a Captain of Minas Tirith as they would both have the Gondor Keyword. Hero models included in this manner may also include Warrior models in their Warband with the same Faction Keyword.\n\nThe Realms of Men Army List allows you to create your own forces and combine multiple factions of Men in a way that suits you."
 		],
+		"noteGWFAQ": "Q: If I take a Rohan King of Men in the Realms of Men Army List, can I include Rohirrim Traitors in the army? \nA: No.\n\nQ: In a Realms of Men Army List, what Heroic Tier are other Hero models included in the Army?\nA: Any Hero models included in the Army, with the exception of Kings of Men, will be classed as Heroes of Fortitude. This does not apply to Siege Veterans, who will remain as Minor Heroes.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -16050,7 +16272,7 @@
 					"points": "75",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -16065,7 +16287,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -16078,7 +16300,7 @@
 					"points": "75",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -16093,7 +16315,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -16106,7 +16328,7 @@
 					"points": "75",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -16121,7 +16343,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -16134,7 +16356,7 @@
 					"points": "75",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -16149,7 +16371,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -16162,7 +16384,7 @@
 					"points": "75",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -16177,7 +16399,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -16261,7 +16483,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -16369,7 +16591,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -16412,7 +16634,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -16421,7 +16643,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -16440,7 +16662,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -16520,7 +16742,7 @@
 					"points": "9",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -16529,7 +16751,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -16675,7 +16897,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -16692,7 +16914,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -16717,7 +16939,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -16726,7 +16948,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -16781,7 +17003,7 @@
 							"cost": "7"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "5",
 							"armyRules": {
 								"Cavalry": true
@@ -16811,7 +17033,7 @@
 					},
 					"points": "13",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					]
 				}
 			],
@@ -16934,7 +17156,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Reclamation of Moria",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -16967,8 +17189,8 @@
 				{
 					"name": "Balin the Dwarf, King of Moria",
 					"armyRules": {
-						"Legacy": true,
 						"General": "Mandatory",
+						"Legacy": true,
 						"Maximum": 1
 					},
 					"points": "110"
@@ -17061,7 +17283,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -17119,7 +17341,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Reclamation of Osgiliath",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -17158,14 +17380,14 @@
 							"cost": "40"
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -17214,7 +17436,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -17223,7 +17445,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -17236,7 +17458,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -17267,7 +17489,7 @@
 					"points": "9",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -17276,7 +17498,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -17293,7 +17515,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Return of the King",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -17320,7 +17542,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Aragorn (Strider)",
+					"name": "Aragorn (Streicher)",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -17336,7 +17558,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Legolas Greenleaf",
+					"name": "Legolas Grünblatt",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -17353,7 +17575,7 @@
 					]
 				},
 				{
-					"name": "Gimli, son of Glóin",
+					"name": "Gimli, Glóins Sohn",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -17397,7 +17619,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -17421,7 +17643,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ride Out",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -17456,15 +17678,15 @@
 					},
 					"points": "110",
 					"mandatory": [
-						"Heavy Armour",
+						"Heavy armour",
 						"Shield",
-						"Snowmane with Armour"
+						"Snowmane with armour"
 					]
 				}
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Aragorn (Strider)",
+					"name": "Aragorn (Streicher)",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -17475,7 +17697,7 @@
 					]
 				},
 				{
-					"name": "Legolas Greenleaf",
+					"name": "Legolas Grünblatt",
 					"armyRules": {
 						"Cavalry": true,
 						"Maximum": 1
@@ -17483,7 +17705,7 @@
 					"points": "125",
 					"mandatory": [
 						"Armour",
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -17502,7 +17724,7 @@
 					},
 					"points": "75",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -17518,7 +17740,7 @@
 					},
 					"points": "65",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -17526,7 +17748,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -17572,7 +17794,7 @@
 					},
 					"points": "16",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"optionalWarrior": [
 						{
@@ -17594,7 +17816,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Riders of Éomer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -17630,7 +17852,7 @@
 					"points": "140",
 					"mandatory": [
 						"Shield",
-						"Firefoot with Armour"
+						"Firefoot with armour"
 					],
 					"options": [
 						{
@@ -17665,7 +17887,7 @@
 					},
 					"points": "65",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -17673,7 +17895,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -17757,7 +17979,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Riders of Théoden",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -17792,9 +18014,9 @@
 					},
 					"points": "110",
 					"mandatory": [
-						"Heavy Armour",
+						"Heavy armour",
 						"Shield",
-						"Snowmane with Armour"
+						"Snowmane with armour"
 					]
 				}
 			],
@@ -17807,7 +18029,7 @@
 					"points": "140",
 					"mandatory": [
 						"Shield",
-						"Firefoot with Armour"
+						"Firefoot with armour"
 					],
 					"options": [
 						{
@@ -17832,12 +18054,12 @@
 					"points": "110",
 					"mandatory": [
 						"Armour",
-						"Horse",
+						"Pferd",
 						"Merry"
 					],
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -17859,7 +18081,7 @@
 					},
 					"points": "75",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -17875,7 +18097,7 @@
 					},
 					"points": "65",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -17883,7 +18105,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -17896,7 +18118,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -17912,7 +18134,7 @@
 					"points": "60",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -17962,7 +18184,7 @@
 					},
 					"points": "16",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"optionalWarrior": [
 						{
@@ -18089,7 +18311,7 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Fell warg",
+							"name": "Fell Warg",
 							"cost": "20"
 						},
 						{
@@ -18179,7 +18401,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rivendell",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18217,7 +18439,7 @@
 					"points": "170",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -18242,7 +18464,7 @@
 							}
 						},
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -18290,7 +18512,7 @@
 							"cost": "30"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -18303,7 +18525,7 @@
 					"points": "160 points for both",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -18320,7 +18542,7 @@
 							"points": "80",
 							"options": [
 								{
-									"name": "Horse",
+									"name": "Pferd",
 									"cost": "20",
 									"armyRules": {
 										"Cavalry": true
@@ -18337,7 +18559,7 @@
 							"points": "80",
 							"options": [
 								{
-									"name": "Horse",
+									"name": "Pferd",
 									"cost": "20",
 									"armyRules": {
 										"Cavalry": true
@@ -18374,11 +18596,11 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Mithril Coat",
+							"name": "Mithrilkettenhemd",
 							"cost": "15"
 						},
 						{
-							"name": "Sting",
+							"name": "Stich",
 							"cost": "5"
 						},
 						{
@@ -18414,7 +18636,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -18431,7 +18653,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -18444,8 +18666,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Road to Helm’s Deep",
-		"noteGWFAQ": "Q: In the Road to Helm’s Deep Army List, if Gimli is taken as a Passenger on Legolas’ horse can he also lead a Warband?\nA: No.\n\nQ: In the Road to Helm’s Deep Army List, can Háma benefit from the Back on your horses special rule as he cannot normally have a horse?\nA: No.",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18470,6 +18691,7 @@
 				"description": "At the end of a friendly Infantry Hero model’s Move (with the exception of Gimli), if they are in base contact with a friendly Cavalry Warrior model who is not Engaged in Combat, then the Warrior may give the Hero their horse. Replace the Warrior model with a suitable dismount, and replace the Hero with the mounted version of them. The Warrior will be placed in the same place the Hero was, and vice versa. If the Hero would normally have a named horse (such as Snowmane or Brego) then they will only count as riding a standard horse after using this rule."
 			}
 		],
+		"noteGWFAQ": "Q: In the Road to Helm’s Deep Army List, if Gimli is taken as a Passenger on Legolas’ horse can he also lead a Warband?\nA: No.\n\nQ: In the Road to Helm’s Deep Army List, can Háma benefit from the Back on your horses special rule as he cannot normally have a horse?\nA: No.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -18486,7 +18708,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Aragorn (Strider)",
+					"name": "Aragorn (Streicher)",
 					"armyRules": {
 						"Bow": {
 							"limit": "count"
@@ -18506,14 +18728,14 @@
 					]
 				},
 				{
-					"name": "Legolas Greenleaf",
+					"name": "Legolas Grünblatt",
 					"armyRules": {
 						"Cavalry": true,
 						"Maximum": 1
 					},
 					"points": "120",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -18523,7 +18745,7 @@
 					]
 				},
 				{
-					"name": "Gimli, son of Glóin",
+					"name": "Gimli, Glóins Sohn",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -18552,7 +18774,7 @@
 					},
 					"points": "75",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					]
 				},
 				{
@@ -18562,7 +18784,7 @@
 					},
 					"points": "65",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -18570,7 +18792,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -18616,7 +18838,7 @@
 					},
 					"points": "16",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"optionalWarrior": [
 						{
@@ -18638,7 +18860,7 @@
 					},
 					"points": "13",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					]
 				}
 			]
@@ -18649,7 +18871,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Road to Rivendell",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18684,14 +18906,14 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Aragorn (Strider)",
+					"name": "Aragorn (Streicher)",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "160",
 					"options": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -18704,24 +18926,24 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Frodo Baggins",
+					"name": "Frodo Beutlin",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "55",
 					"options": [
 						{
-							"name": "Mithril Coat",
+							"name": "Mithrilkettenhemd",
 							"cost": "15"
 						},
 						{
-							"name": "Sting",
+							"name": "Stich",
 							"cost": "5"
 						}
 					]
 				},
 				{
-					"name": "Samwise Gamgee",
+					"name": "Samweis Gamdschie",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -18758,21 +18980,21 @@
 			],
 			"Independent Heroes": [
 				{
-					"name": "Meriadoc Brandybuck",
+					"name": "Meriadoc Brandybock",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "10"
 				},
 				{
-					"name": "Peregrin Took",
+					"name": "Peregrin Tuk",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "10"
 				},
 				{
-					"name": "Bill the Pony",
+					"name": "Lutz das Pony",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -18944,7 +19166,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -18983,7 +19205,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -19059,7 +19281,7 @@
 						"General": "Mandatory",
 						"Maximum": 1
 					},
-					"points": "60",
+					"points": "60 Points for Both",
 					"composition": [
 						{
 							"name": "Sharkey",
@@ -19120,7 +19342,7 @@
 					"points": "5",
 					"optionalWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -19152,7 +19374,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Survivors of Lake-town",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -19192,20 +19414,20 @@
 					"points": "150",
 					"mandatory": [
 						"Armour",
-						"Horse"
+						"Pferd"
 					]
 				}
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Gandalf the Grey",
+					"name": "Gandalf der Graue",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "170",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -19279,7 +19501,7 @@
 					"points": "5",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -19305,7 +19527,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Battle of the Five Armies",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -19381,7 +19603,7 @@
 					"points": "150",
 					"mandatory": [
 						"Armour",
-						"Horse"
+						"Pferd"
 					]
 				},
 				{
@@ -19396,20 +19618,20 @@
 							"cost": "30"
 						},
 						{
-							"name": "Heavy Armour",
+							"name": "Heavy armour",
 							"cost": "10"
 						}
 					]
 				},
 				{
-					"name": "Gandalf the Grey",
+					"name": "Gandalf der Graue",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "170",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -19466,7 +19688,7 @@
 					"points": "105",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -19738,7 +19960,7 @@
 					"armyRules": {
 						"Captains": [
 							"Bard the Bowman",
-							"Gandalf the Grey",
+							"Gandalf der Graue",
 							"Percy, Lake-town Archer",
 							"Hilda-Bianca",
 							"Bilbo Baggins, Master Burglar",
@@ -19748,7 +19970,7 @@
 					"points": "5",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -19792,7 +20014,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -19842,7 +20064,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Beornings",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -19982,7 +20204,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -20025,7 +20247,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -20095,7 +20317,7 @@
 					},
 					"points": "140",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -20114,7 +20336,7 @@
 					},
 					"points": "105",
 					"mandatory": [
-						"Horse"
+						"Pferd"
 					],
 					"options": [
 						{
@@ -20131,7 +20353,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Eagles",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -20256,7 +20478,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -20326,7 +20548,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -20335,7 +20557,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -20397,159 +20619,12 @@
 			]
 		}
 	},
-	"The Fellowship": {
-		"id": "fellowship",
-		"version": "2024",
-		"language": "en",
-		"name": "The Fellowship",
-		"alignment": "Good",
-		"source": [
-			{
-				"book": "Armies of the Lord of the Rings",
-				"page": "82-83"
-			}
-		],
-		"additionalRules": [
-			"The Fellowship is always deployed as a single Warband."
-		],
-		"specialRules": [
-			{
-				"name": "\"You have my sword\"",
-				"description": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule.\nAdditionally, a Fellowship Army can never be considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
-			},
-			{
-				"name": "The Bond of Fellowship",
-				"description": "Friendly models within 3\" of another friendly Fellowship model may re-roll a single failed To Wound Roll when making Strikes."
-			},
-			{
-				"name": "Traverse the Wilderness",
-				"description": "Friendly Fellowship models gain the Woodland Creature and Mountain Dweller special rules."
-			}
-		],
-		"armyRules": {
-			"Warband": "One"
-		},
-		"models": {
-			"Heroes of Legend": [
-				{
-					"name": "Gandalf the Grey",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "170"
-				}
-			],
-			"Heroes of Valour": [
-				{
-					"name": "Aragorn (Strider)",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "160",
-					"options": [
-						{
-							"name": "Bow",
-							"armyRules": {
-								"Bow": {
-									"limit": "ignore"
-								}
-							},
-							"cost": "5"
-						}
-					]
-				},
-				{
-					"name": "Legolas Greenleaf",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "100"
-				},
-				{
-					"name": "Gimli, son of Glóin",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "100"
-				},
-				{
-					"name": "Boromir of Gondor",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "95",
-					"options": [
-						{
-							"name": "Horse",
-							"cost": "20",
-							"armyRules": {
-								"Cavalry": true
-							}
-						},
-						{
-							"name": "Shield",
-							"cost": "5"
-						}
-					]
-				}
-			],
-			"Heroes of Fortitude": [
-				{
-					"name": "Frodo Baggins",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "55",
-					"options": [
-						{
-							"name": "Mithril Coat",
-							"cost": "15"
-						},
-						{
-							"name": "Sting",
-							"cost": "5"
-						}
-					]
-				},
-				{
-					"name": "Samwise Gamgee",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "40"
-				}
-			],
-			"Independent Heroes": [
-				{
-					"name": "Meriadoc Brandybuck",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "10"
-				},
-				{
-					"name": "Peregrin Took",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "10"
-				},
-				{
-					"name": "Bill the Pony",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "25"
-				}
-			]
-		}
-	},
 	"The Fiefdoms": {
 		"id": "fiefdoms",
 		"version": "2024",
 		"language": "en",
 		"name": "The Fiefdoms",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -20736,7 +20811,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Grey Company",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -20771,7 +20846,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Aragorn (Strider)",
+					"name": "Aragorn (Streicher)",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -20779,7 +20854,7 @@
 					"points": "160",
 					"options": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -20796,7 +20871,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Legolas Greenleaf",
+					"name": "Legolas Grünblatt",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -20813,7 +20888,7 @@
 					]
 				},
 				{
-					"name": "Gimli, son of Glóin",
+					"name": "Gimli, Glóins Sohn",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -20854,7 +20929,7 @@
 							"points": "80",
 							"options": [
 								{
-									"name": "Horse",
+									"name": "Pferd",
 									"cost": "20",
 									"armyRules": {
 										"Cavalry": true
@@ -20871,7 +20946,7 @@
 							"points": "80",
 							"options": [
 								{
-									"name": "Horse",
+									"name": "Pferd",
 									"cost": "20",
 									"armyRules": {
 										"Cavalry": true
@@ -20905,7 +20980,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Grief of Éomer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -20946,7 +21021,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						},
 						{
@@ -20986,7 +21061,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -21001,7 +21076,7 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -21012,7 +21087,7 @@
 							"cost": "5"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -21047,7 +21122,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -21072,7 +21147,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -21081,7 +21156,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -21175,7 +21250,7 @@
 					"points": "8",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn and shield",
+							"name": "War horn and shield",
 							"cost": "26"
 						},
 						{
@@ -21190,7 +21265,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -21199,7 +21274,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -21218,7 +21293,7 @@
 					"points": "15",
 					"options": [
 						{
-							"name": "Exchange lance and shield for banner",
+							"name": "Exchange shield and lance for banner",
 							"cost": "25"
 						}
 					]
@@ -21244,7 +21319,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Iron Hills",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -21415,7 +21490,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Last Alliance",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -21488,7 +21563,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -21508,7 +21583,7 @@
 					"points": "170",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -21537,7 +21612,7 @@
 							"cost": "30"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "5"
 						}
 					]
@@ -21576,7 +21651,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -21613,7 +21688,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -21648,7 +21723,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -21686,6 +21761,9 @@
 				"description": "Once per game, at the start of any Fight Phase, Suladan can use this special rule so long as he is alive and on the battlefield. If he does, then friendly Harad models gain the Bane of Kings special rule until the End Phase of the turn. This is treated as an Active ability belonging to Suladan."
 			}
 		],
+		"armyRules": {
+			"BowLimit": 2
+		},
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -21697,7 +21775,7 @@
 					"points": "120",
 					"options": [
 						{
-							"name": "Amoured Horse",
+							"name": "Armoured horse",
 							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
@@ -21716,7 +21794,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -21732,7 +21810,7 @@
 					"points": "70",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -21754,7 +21832,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -21863,7 +21941,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -21892,7 +21970,7 @@
 							}
 						},
 						{
-							"name": "Bow & war spear",
+							"name": "Bow and war spear",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -21901,7 +21979,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -21943,7 +22021,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Shire",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -21982,14 +22060,14 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Gandalf the Grey",
+					"name": "Gandalf der Graue",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "170",
 					"options": [
 						{
-							"name": "Gandalf’s Cart",
+							"name": "Gandalfs Karren",
 							"cost": "25"
 						}
 					]
@@ -22004,24 +22082,24 @@
 					"points": "45",
 					"options": [
 						{
-							"name": "Mithril Coat",
+							"name": "Mithrilkettenhemd",
 							"cost": "15"
 						},
 						{
-							"name": "Sting",
+							"name": "Stich",
 							"cost": "5"
 						}
 					]
 				},
 				{
-					"name": "Frodo Baggins",
+					"name": "Frodo Beutlin",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "55"
 				},
 				{
-					"name": "Samwise Gamgee",
+					"name": "Samweis Gamdschie",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -22074,14 +22152,14 @@
 			],
 			"Independent Heroes": [
 				{
-					"name": "Meriadoc Brandybuck",
+					"name": "Meriadoc Brandybock",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "10"
 				},
 				{
-					"name": "Peregrin Took",
+					"name": "Peregrin Tuk",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -22301,7 +22379,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The White Council",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -22345,7 +22423,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Gandalf the Grey",
+					"name": "Gandalf der Graue",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -22395,7 +22473,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Thorin’s Company",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -22445,7 +22523,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Gandalf the Grey",
+					"name": "Gandalf der Graue",
 					"armyRules": {
 						"Captain": "No",
 						"Captains": [
@@ -22503,7 +22581,7 @@
 					"name": "Gwaihir",
 					"armyRules": {
 						"Depends": [
-							"Gandalf the Grey"
+							"Gandalf der Graue"
 						],
 						"Maximum": 1,
 						"Monster": true
@@ -22629,7 +22707,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Sting",
+							"name": "Stich",
 							"cost": "5"
 						},
 						{
@@ -22759,7 +22837,7 @@
 							}
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -22802,7 +22880,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{
@@ -22874,7 +22952,7 @@
 					"points": "130",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -22889,7 +22967,7 @@
 					"points": "50",
 					"options": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -22923,7 +23001,7 @@
 				},
 				{
 					"name": "Corsair Bo’sun",
-					"points": "55",
+					"points": "50",
 					"options": [
 						{
 							"name": "Exchange spear for crossbow",
@@ -22958,7 +23036,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -22977,7 +23055,7 @@
 					"points": "8",
 					"mandatoryWarrior": [
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -23058,7 +23136,7 @@
 					"points": "110",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -23076,7 +23154,7 @@
 					"points": "80",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -23119,7 +23197,7 @@
 							"cost": "2"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -23132,7 +23210,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Light Shield",
+							"name": "Light shield",
 							"cost": "1"
 						},
 						{
@@ -23155,7 +23233,7 @@
 					"points": "6",
 					"mandatoryWarrior": [
 						{
-							"name": "Warhorn, shield and throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -23180,7 +23258,7 @@
 							"cost": "3"
 						},
 						{
-							"name": "Bow",
+							"name": "Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -23189,7 +23267,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						}
 					]
@@ -23256,7 +23334,7 @@
 					"points": "55",
 					"options": [
 						{
-							"name": "Horse",
+							"name": "Pferd",
 							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
@@ -23407,6 +23485,9 @@
 				"description": "In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard Army will automatically win the roll to choose who has Priority on the first turn. If both Armies have rules that allow them to do this, roll for Priority as normal.\nAdditionally, models from this Army may Charge on the turn they enter the board, even though they may not normally be allowed to do so. Models Charging in this manner do not need to take a Courage Test to Charge an enemy with the Terror special rule."
 			}
 		],
+		"armyRules": {
+			"ThrowingLimit": 2
+		},
 		"models": {
 			"Heroes of Valour": [
 				{
@@ -23464,7 +23545,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Shield",
+							"name": "Schild",
 							"cost": "1"
 						},
 						{

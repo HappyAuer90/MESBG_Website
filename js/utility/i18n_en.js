@@ -27,6 +27,7 @@ export default {
         crossLinksRules: "Enable Cross-Links for Rules",
         crossLinksProfiles: "Enable Cross-Links for Profiles",
         showGWFAQNotes: "Show GW FAQ Notes",
+        showSpecialRulesFromArmylists: "Show Profile's Special Rules in certain Armylists",
         includeLegacy: "Including Legacy",
         close: "Close"
     },
@@ -60,6 +61,7 @@ export default {
             warriorOptionals: "may have one of the following options for the listed points cost:",
             warriorMandatory: "must have one of the following options for the listed points cost:",
             specialRules: "Special Rules",
+            onlyArmylist: "only in Armylist:",
             magicalPowers: "Magical Powers",
             castingValue: "Casting Value",
             selectEntry: "Select an entry",
@@ -133,6 +135,7 @@ export default {
                 placeholder: "Search armylist...",
                 buildButton: "Build Armylist",
                 sources: "Sources",
+                gwFAQNotes: "GW FAQ Notes",
                 page: "Page",
                 additionalInformation: "Additional Information",
                 additionalRules: "Additional Rules",

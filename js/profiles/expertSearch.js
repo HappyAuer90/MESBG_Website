@@ -428,9 +428,19 @@ function applyFilters(profile) {
         state.filters.optionsMode
     )) return false;
 
-    // Special Rules
+    // Special Rules (inkl. Armylist Rules optional)
+    let specialRules = profile.specialRules || [];
+
+    if (
+        Settings.profileSettings.showSpecialRulesFromArmylists &&
+        profile.specialRulesArmylists
+    ) {
+        const armyRules = profile.specialRulesArmylists.map(r => r.name);
+        specialRules = [...specialRules, ...armyRules];
+    }
+
     if (!evaluateMultiSelectFilter(
-        profile.specialRules || [],
+        specialRules,
         state.filters.specialRules,
         state.filters.specialRulesMode
     )) return false;
@@ -461,11 +471,11 @@ function renderGeneralBox() {
         <select data-filter="alignment">
             <option value="">-- ${t("profiles.expert.select")} --</option>
             ${[
-        { value: "Good", label: t("profiles.expert.good") },
-        { value: "Evil", label: t("profiles.expert.evil") },
-        { value: "Neither", label: t("profiles.expert.neither") }].map(o =>
-        `<option value="${o.value}">${o.label}</option>`
-    ).join("")}
+            { value: "Good", label: t("profiles.expert.good") },
+            { value: "Evil", label: t("profiles.expert.evil") },
+            { value: "Neither", label: t("profiles.expert.neither") }].map(o =>
+                `<option value="${o.value}">${o.label}</option>`
+            ).join("")}
         </select>
                 </div>
 
@@ -476,15 +486,15 @@ function renderGeneralBox() {
         <select data-filter="source">
             <option value="">-- ${t("profiles.expert.select")} --</option>
             ${[
-        { value: "Armies of The Lord of the Rings", label: "Armies of The Lord of the Rings" },
-        { value: "Armies of The Hobbit", label: "Armies of The Hobbit" },
-        { value: "Armies of Middle-Earth", label: "Armies of Middle-Earth" },
-        { value: "Legacies of Middle-Earth - Forces of Good", label: "Legacies of Middle-Earth - Forces of Good" },
-        { value: "Legacies of Middle-Earth - Forces of Evil", label: "Legacies of Middle-Earth - Forces of Evil" },
-        { value: "Rules Manual", label: "Rules Manual" }
-    ] .map(o =>
-        `<option value="${o.value}">${o.label}</option>`
-    ).join("")}
+            { value: "Armies of The Lord of the Rings", label: "Armies of The Lord of the Rings" },
+            { value: "Armies of The Hobbit", label: "Armies of The Hobbit" },
+            { value: "Armies of Middle-Earth", label: "Armies of Middle-Earth" },
+            { value: "Legacies of Middle-Earth - Forces of Good", label: "Legacies of Middle-Earth - Forces of Good" },
+            { value: "Legacies of Middle-Earth - Forces of Evil", label: "Legacies of Middle-Earth - Forces of Evil" },
+            { value: "Rules Manual", label: "Rules Manual" }
+        ].map(o =>
+            `<option value="${o.value}">${o.label}</option>`
+        ).join("")}
         </select>
                 </div>
 
@@ -784,8 +794,8 @@ function renderDefinitionSuggestions(query, key, list) {
                 state.filters[key].push(result.value);
             }
 
-    renderSelectedChips(key);
-    renderResults();
+            renderSelectedChips(key);
+            renderResults();
 
             const input = state.container.querySelector(
                 `[data-autocomplete="${key}"]`

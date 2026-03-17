@@ -48,7 +48,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Aldor, Rohan Archer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -173,7 +173,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Alfrid the Councillor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -293,7 +293,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Anborn, Ranger of Ithilien",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -354,7 +354,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Angbor the Fearless",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -527,7 +527,7 @@
 		"magicalPowers": [
 			{
 				"name": "Instil Fear",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
@@ -687,7 +687,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Aragorn, King Elessar",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -750,7 +750,7 @@
 		],
 		"specialRules": [
 			"Pferdeherr",
-			"Mächtiger Held",
+			"Mighty Hero",
 			"Magieresistent",
 			"\"Stand, Men of the West\""
 		]
@@ -760,7 +760,7 @@
 		"version": "2024",
 		"language": "de",
 		"name": "Aragorn (Streicher)",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -837,9 +837,19 @@
 			}
 		],
 		"specialRules": [
-			"Pferdeherr",
 			"Mächtiger Held",
-			"Magieresistent"
+			"Magieresistent",
+			"Pferdeherr"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
 	"Aranarth, First Chieftain of the Dúnedain": {
@@ -847,7 +857,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Aranarth, First Chieftain of the Dúnedain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -911,7 +921,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Arathorn, Chieftain of the Dúnedain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -972,7 +982,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Argadir, Captain of Arnor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -1037,9 +1047,9 @@
 	},
 	"Armoured horse": {
 		"id": "armoured_horse",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Armoured horse",
 		"alignment": "Neither",
 		"source": [
@@ -1075,7 +1085,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Arvedui, Last King of Arnor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -1134,7 +1144,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Arwen Undómiel",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -1213,14 +1223,14 @@
 	},
 	"Asfaloth": {
 		"id": "asfaloth",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Asfaloth (Glorfindel can only take Asfaloth if Arwen is not in the same Army)"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Asfaloth",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -1268,11 +1278,11 @@
 	},
 	"Ashere": {
 		"id": "ashere",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Ashere",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -1370,7 +1380,7 @@
 		"magicalPowers": [
 			{
 				"name": "Fury (Spider)",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
@@ -1385,7 +1395,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Axeman of Lossarnach",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -1502,11 +1512,11 @@
 	},
 	"Bain, Son of Bard": {
 		"id": "bain_son_bard",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Bain, Son of Bard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -1558,7 +1568,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Baldo Tulpenny",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -1615,7 +1625,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Balin the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -1624,7 +1634,7 @@
 		],
 		"points": "40",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -1672,7 +1682,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Balin the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -1681,7 +1691,7 @@
 		],
 		"points": "60",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -1730,7 +1740,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Balin the Dwarf, King of Moria",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -1739,7 +1749,7 @@
 		],
 		"points": "110",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -1790,7 +1800,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Bandobras Took",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -1845,12 +1855,76 @@
 			"Clean strike"
 		]
 	},
+	"Bard II, Prince of Dale": {
+		"id": "bardii",
+		"version": "2024",
+		"language": "en",
+		"name": "Bard II, Prince of Dale",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "51"
+			}
+		],
+		"points": "100",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Dale"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "7",
+			"attacks": "3",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "2",
+			"fate": "2"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Schild"
+			},
+			{
+				"name": "Spear"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"heroicActions": [
+			"Heroische Verteidigung",
+			"Heroische Entschlossenheit",
+			"Heroischer Hieb"
+		],
+		"specialRules": [
+			"Wall of Blades"
+		]
+	},
 	"Bard the Bowman": {
 		"id": "bard_bowman",
 		"version": "2024",
 		"language": "en",
 		"name": "Bard the Bowman",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -1923,87 +1997,23 @@
 	},
 	"Bard’s Family": {
 		"id": "bard_family",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Bard’s Family",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
 				"page": "44-45"
 			}
 		],
-		"points": "60",
 		"note": "Bard’s Family is made up of Bain, son of Bard, and Sigrid & Tilda, and will count as three models. You may only include Bard’s Family in your Army if it also includes Bard the Bowman, in which case they must always be included as part of Bard’s Warband.\nIf any member of Bard’s Family is slain, then make a note of the model that killed them. For the remainder of the game, whenever Bard Activates if he can Charge an enemy model then he must do so; if he is able to Charge an enemy model that killed a member of his family, then he must prioritise that model to Charge. If when Bard Activates he can Charge multiple enemy models that have killed members of his family (if applicable), then he may choose which of them he must Charge.",
+		"points": "60",
 		"composition": [
 			"Bain, Son of Bard",
 			"Sigrid",
 			"Tilda"
-		]
-	},
-	"Bard II, Prince of Dale": {
-		"id": "bardii",
-		"version": "2024",
-		"language": "en",
-		"name": "Bard II, Prince of Dale",
-		"alignment": "Good",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "51"
-			}
-		],
-		"points": "100",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Dale"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "5",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "7",
-			"attacks": "3",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "2",
-			"fate": "2"
-		},
-		"wargear": [
-			{
-				"name": "Heavy armour"
-			},
-			{
-				"name": "Schild"
-			},
-			{
-				"name": "Spear"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroische Entschlossenheit",
-			"Heroischer Hieb"
-		],
-		"specialRules": [
-			"Wall of Blades"
 		]
 	},
 	"Barliman Butterbur": {
@@ -2011,7 +2021,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Barliman Butterbur",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -2023,7 +2033,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Gefährten"
+			"Mensch"
 		],
 		"unitTypes": [
 			"Held",
@@ -2173,12 +2183,13 @@
 	"Batllin’ Brandybucks": {
 		"id": "batllin_brandybucks",
 		"version": "2024",
+		"language": "en",
 		"name": "Batllin’ Brandybucks",
 		"linkedProfile": [
 			"Hobbit Militia",
 			"Meriadoc Brandybuck, Captain of the Shire"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -2198,7 +2209,7 @@
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry"
+			"Infanterie"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -2214,12 +2225,81 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon"
+				"name": "Handwaffe"
 			}
 		],
 		"specialRules": [
-			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)"
+			"Magieresistent",
+			"Steine werfen (Reichweite 8\", Stärke 1)"
+		]
+	},
+	"Baumbart": {
+		"id": "treebeard",
+		"version": "2024",
+		"language": "en",
+		"name": "Baumbart",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "24"
+			}
+		],
+		"points": "190",
+		"race": [
+			"Ent"
+		],
+		"faction": [
+			"Fangorn"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Monster",
+			"Einzigartig"
+		],
+		"baseSize": "60mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "8",
+			"shootValue": "3+",
+			"strength": "8",
+			"defence": "8",
+			"attacks": "4",
+			"wounds": "4",
+			"courage": "3+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "4",
+			"fate": "3"
+		},
+		"wargear": [
+			{
+				"name": "Roots and branches (hand weapon)"
+			}
+		],
+		"heroicActions": [
+			"Heroische Verteidigung",
+			"Heroischer Marsch",
+			"Heroische Stärke",
+			"Heroischer Hieb"
+		],
+		"options": [
+			{
+				"name": "Merry & Pippin",
+				"cost": "10"
+			}
+		],
+		"specialRules": [
+			"Dominant (5)",
+			"Fearless",
+			"Large Target",
+			"Terror",
+			"Steine werfen (Reichweite 18\", Stärke 10)",
+			"Waldbewohner",
+			"Bludgeon"
 		]
 	},
 	"Beechbone": {
@@ -2227,7 +2307,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Beechbone",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -2278,7 +2358,7 @@
 			"Fearless",
 			"Large Target",
 			"Terror",
-			"Steine werfen (Reichweite 18\", Stärke 10)",
+			"Steine werfen (Reichweite 18\", Strength 10)",
 			"Waldbewohner",
 			"Bludgeon",
 			"Deep-rooted Hatred"
@@ -2289,7 +2369,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Beorn",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -2349,7 +2429,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Beorn the Bear",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -2413,7 +2493,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Beorning",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -2454,8 +2534,7 @@
 		"options": [
 			{
 				"name": "Swap hand-and-a-half weapon for great bow",
-				"cost": "Free",
-				"type": "WARRIOR_OPTIONAL"
+				"cost": "Free"
 			}
 		],
 		"specialRules": [
@@ -2469,7 +2548,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Beregond, Guard of the Citadel",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -2537,7 +2616,6 @@
 			}
 		],
 		"points": "130",
-		"noteGWFAQ": "Q: Is the Three Trolls Campfire Open Ground, Impassable or something else?\nA: The Campfire is treated like an Objective Marker, though it doesn’t actually count as one for Scenario objectives.",
 		"race": [
 			"Troll"
 		],
@@ -2580,7 +2658,7 @@
 			"Dominant (3)",
 			"Large Target",
 			"Terror",
-			"Steine werfen (Reichweite 12\", Stärke 8)",
+			"Steine werfen (Reichweite 12\", Strength 8)",
 			"Roast ’em slowly",
 			"Keep ’em for later"
 		]
@@ -2590,7 +2668,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Bifur the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -2599,7 +2677,7 @@
 		],
 		"points": "45",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -2641,7 +2719,7 @@
 			"Heroische Stärke"
 		],
 		"specialRules": [
-			"Steine werfen (Reichweite 8\", Stärke 2)",
+			"Steine werfen (Reichweite 8\", Strength 2)",
 			"Embedded Axe"
 		]
 	},
@@ -2650,7 +2728,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Bifur the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -2659,7 +2737,7 @@
 		],
 		"points": "65",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -2699,16 +2777,16 @@
 		],
 		"specialRules": [
 			"Sworn Protector (Thorin)",
-			"Steine werfen (Reichweite 8\", Stärke 2)",
+			"Steine werfen (Reichweite 8\", Strength 2)",
 			"Embedded Axe"
 		]
 	},
-	"Bilbo Beutlin": {
+	"Bilbo Baggins": {
 		"id": "bilbo_baggins",
 		"version": "2024",
 		"language": "en",
-		"name": "Bilbo Beutlin",
-		"alignment": "Good",
+		"name": "Bilbo Baggins",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -2770,12 +2848,12 @@
 			"It has not yet awoken"
 		]
 	},
-	"Bilbo Beutlin, Alternder Hobbit": {
+	"Bilbo Baggins, Ageing Hobbit": {
 		"id": "bilbo_ageing",
 		"version": "2024",
 		"language": "en",
-		"name": "Bilbo Beutlin, Alternder Hobbit",
-		"alignment": "Good",
+		"name": "Bilbo Baggins, Ageing Hobbit",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -2843,12 +2921,12 @@
 			"Slip away"
 		]
 	},
-	"Bilbo Beutlin, Meisterdieb": {
+	"Bilbo Baggins, Master Burglar": {
 		"id": "bilbo_baggins_masterburglar",
 		"version": "2024",
 		"language": "en",
-		"name": "Bilbo Beutlin, Meisterdieb",
-		"alignment": "Good",
+		"name": "Bilbo Baggins, Master Burglar",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -2977,7 +3055,6 @@
 			}
 		],
 		"points": "150",
-		"noteGWFAQ": "Q: Is the Three Trolls Campfire Open Ground, Impassable or something else?\nA: The Campfire is treated like an Objective Marker, though it doesn’t actually count as one for Scenario objectives.",
 		"race": [
 			"Troll"
 		],
@@ -3020,7 +3097,7 @@
 			"Dominant (5)",
 			"Large Target",
 			"Terror",
-			"Steine werfen (Reichweite 12\", Stärke 8)",
+			"Steine werfen (Reichweite 12\", Strength 8)",
 			"Mince ’em fine",
 			"Keep ’em for later"
 		]
@@ -3030,7 +3107,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Birchseed",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -3080,7 +3157,7 @@
 			"Fearless",
 			"Large Target",
 			"Terror",
-			"Steine werfen (Reichweite 18\", Stärke 10)",
+			"Steine werfen (Reichweite 18\", Strength 10)",
 			"Waldbewohner",
 			"Bludgeon",
 			"Naturally Unhasty"
@@ -3311,13 +3388,11 @@
 		"options": [
 			{
 				"name": "Exchange lance for banner",
-				"cost": "25",
-				"type": "WARRIOR_OPTIONAL"
+				"cost": "25"
 			},
 			{
 				"name": "Exchange lance for war horn",
-				"cost": "25",
-				"type": "WARRIOR_OPTIONAL"
+				"cost": "25"
 			}
 		],
 		"specialRules": [
@@ -3450,7 +3525,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Blackroot Vale Archer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -3519,7 +3594,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Bofur the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -3528,7 +3603,7 @@
 		],
 		"points": "45",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -3575,7 +3650,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Bofur the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -3583,9 +3658,8 @@
 			}
 		],
 		"points": "65",
-		"noteGWFAQ": "Q: If, in an Erebor Reclaimed army, Bofur is upgraded with a Troll Brute, can the army still benefit from the “To the King!” special rule?\nA: No – it no longer includes only Infantry Hero models, so does not meet the requirements.",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -3714,7 +3788,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Bombur the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -3723,7 +3797,7 @@
 		],
 		"points": "45",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -3769,7 +3843,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Bombur the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -3778,7 +3852,7 @@
 		],
 		"points": "60",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -3828,7 +3902,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Boromir, Captain of the White Tower",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -3872,7 +3946,7 @@
 				"name": "Handwaffe"
 			},
 			{
-				"name": "Horn von Gondor"
+				"name": "Horn of Gondor"
 			}
 		],
 		"heroicActions": [
@@ -3904,7 +3978,7 @@
 		"version": "2024",
 		"language": "de",
 		"name": "Boromir von Gondor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -3973,6 +4047,16 @@
 		],
 		"specialRules": [
 			"\"Beschützt die Kleinen!\""
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
 	"Braga, Captain of the Guard": {
@@ -3980,7 +4064,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Braga, Captain of the Guard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -4038,7 +4122,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Brand, King of Dale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -4097,11 +4181,11 @@
 	},
 	"Brego": {
 		"id": "brego",
-		"type": "Mount",
 		"version": "2024",
 		"language": "de",
+		"type": "Mount",
 		"name": "Brego",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -4249,7 +4333,7 @@
 			},
 			{
 				"name": "Fury (Easterling)",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
@@ -4259,7 +4343,7 @@
 			},
 			{
 				"name": "Tremor",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "5+"
 			}
 		]
@@ -4320,7 +4404,7 @@
 			"Dominant (4)",
 			"General Hunter",
 			"Terror",
-			"Steine werfen (Reichweite 12\", Stärke 8)",
+			"Steine werfen (Reichweite 12\", Strength 8)",
 			"Lead by Example",
 			"Brutish Cunning"
 		]
@@ -4330,7 +4414,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Captain of Arnor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -4447,7 +4531,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Captain of Dale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -4505,7 +4589,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Captain of Dol Amroth",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -4570,7 +4654,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Captain of Minas Tirith",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -4628,7 +4712,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Captain of Númenor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -4683,7 +4767,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Captain of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -4985,7 +5069,7 @@
 		"specialRules": [
 			"Dominant (3)",
 			"Terror",
-			"Steine werfen (Reichweite 12\", Stärke 8)"
+			"Steine werfen (Reichweite 12\", Strength 8)"
 		]
 	},
 	"Celeborn, Lord of Lothlórien": {
@@ -4993,7 +5077,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Celeborn, Lord of Lothlórien",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -5059,7 +5143,7 @@
 			},
 			{
 				"name": "Aura of Dismay",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "4+"
 			},
 			{
@@ -5079,7 +5163,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Círdan of the Grey Havens",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -5133,7 +5217,7 @@
 		"magicalPowers": [
 			{
 				"name": "Fog of Disarray",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
@@ -5153,7 +5237,7 @@
 			},
 			{
 				"name": "Aura of Dismay",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "5+"
 			}
 		]
@@ -5163,7 +5247,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Cirion, Lieutnant of Amon Barad",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -5223,7 +5307,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Citadel Guard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -5283,7 +5367,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Clansman of Lamedon",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -5328,9 +5412,9 @@
 	},
 	"Corsair Ballista": {
 		"id": "corsair_ballista",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Corsair Ballista",
 		"alignment": "Evil",
 		"source": [
@@ -5339,18 +5423,19 @@
 				"page": "199"
 			}
 		],
-		"points": "70",
 		"note": "COMPOSITION\nA Corsair Ballista is a Small Siege Engine, and is crewed by three Corsair Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "70",
 		"composition": [
+			"Corsair Siege Veteran",
 			"Corsair Siege Crew",
 			"Corsair Ballista (Siege Engine)"
 		]
 	},
 	"Corsair Ballista (Siege Engine)": {
 		"id": "corsair_ballista_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Corsair Ballista (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -5665,9 +5750,9 @@
 	},
 	"Corsair Siege Crew": {
 		"id": "siege_crew_corsair",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Corsair Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -5698,6 +5783,56 @@
 			"wounds": "1",
 			"courage": "7+",
 			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Light armour"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		]
+	},
+	"Corsair Siege Veteran": {
+		"id": "siege_veteran_corsair",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Corsair Siege Veteran",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "199"
+			}
+		],
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Corsair",
+			"Umbar"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -5761,7 +5896,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Dáin Ironfoot, King under the Mountain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -5770,7 +5905,7 @@
 		],
 		"points": "130",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -5822,7 +5957,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Dáin Ironfoot, Lord of the Iron Hills",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -5831,7 +5966,7 @@
 		],
 		"points": "160",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -5953,11 +6088,11 @@
 	},
 	"Dale Siege Crew": {
 		"id": "dale_siege_crew",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Dale Siege Crew",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -5998,12 +6133,64 @@
 			"Hatred (Dragon)"
 		]
 	},
+	"Dale Siege Veteran": {
+		"id": "dale_veteran_crew",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Dale Siege Veteran",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "55"
+			}
+		],
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Dale"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Hatred (Dragon)"
+		]
+	},
 	"Damrod, Ranger of Ithilien": {
 		"id": "damrod",
 		"version": "2024",
 		"language": "en",
 		"name": "Damrod, Ranger of Ithilien",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -6123,9 +6310,9 @@
 	},
 	"Demolition Charge": {
 		"id": "demolitioncharge",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Demolition Charge",
 		"alignment": "Evil",
 		"source": [
@@ -6156,7 +6343,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Denethor, Steward of Gondor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -6214,7 +6401,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Déorwine, Chief of the King’s Knights",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -6279,12 +6466,113 @@
 			"For Théoden!"
 		]
 	},
+	"Der Dunkle Herrscher Sauron": {
+		"id": "sauron",
+		"version": "2024",
+		"language": "en",
+		"name": "Der Dunkle Herrscher Sauron",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "139"
+			}
+		],
+		"points": "400",
+		"race": [
+			"Spirit"
+		],
+		"faction": [
+			"Mordor"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Monster",
+			"Einzigartig"
+		],
+		"baseSize": "40mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "9",
+			"shootValue": "4+",
+			"strength": "8",
+			"defence": "10",
+			"attacks": "4",
+			"wounds": "5",
+			"courage": "3+",
+			"intelligence": "3+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "6",
+			"fate": "0"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Handwaffe"
+			},
+			{
+				"name": "The One Ring [Sauron]"
+			}
+		],
+		"heroicActions": [
+			"Heroische Herausforderung",
+			"Heroisches Kanalisieren",
+			"Heroische Stärke",
+			"Heroischer Hieb"
+		],
+		"specialRules": [
+			"Dominant (10)",
+			"Harbinger of Evil (18\")",
+			"Magieresistent",
+			"Terror",
+			"The Lord of the Rings",
+			"Unstoppable",
+			"Flames of Evil"
+		],
+		"magicalPowers": [
+			{
+				"name": "Compel",
+				"range": "18\"",
+				"castingValue": "3+"
+			},
+			{
+				"name": "Fog of Disarray",
+				"range": "Selbst",
+				"castingValue": "3+"
+			},
+			{
+				"name": "Lähmung",
+				"range": "18\"",
+				"castingValue": "3+"
+			},
+			{
+				"name": "Chill Soul",
+				"range": "12\"",
+				"castingValue": "4+"
+			},
+			{
+				"name": "Drain Courage",
+				"range": "18\"",
+				"castingValue": "4+"
+			},
+			{
+				"name": "Instil Fear",
+				"range": "Selbst",
+				"castingValue": "5+"
+			}
+		]
+	},
 	"Dori the Dwarf": {
 		"id": "dori_dwarf",
 		"version": "2024",
 		"language": "en",
 		"name": "Dori the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -6293,7 +6581,7 @@
 		],
 		"points": "55",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -6340,7 +6628,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Dori the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -6349,7 +6637,7 @@
 		],
 		"points": "75",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -6535,11 +6823,11 @@
 	},
 	"Drár": {
 		"id": "drar",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Drár",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -6547,7 +6835,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -6659,12 +6947,12 @@
 			},
 			{
 				"name": "Fury (Beast)",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
 				"name": "Writhing Vines",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "4+"
 			}
 		]
@@ -6674,7 +6962,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Duinhir, Lord of the Blackroot Vale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -7027,7 +7315,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Durin, King of Khazad-dûm",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -7036,7 +7324,7 @@
 		],
 		"points": "170",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -7101,7 +7389,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Dwalin the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -7110,7 +7398,7 @@
 		],
 		"points": "95",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -7163,7 +7451,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Dwalin the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -7172,7 +7460,7 @@
 		],
 		"points": "110",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -7227,7 +7515,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Dwarf Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -7236,7 +7524,7 @@
 		],
 		"points": "65",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -7287,7 +7575,7 @@
 			"Dwarf King (Iron Hills)",
 			"Dwarf King (Khazad-dûm)"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -7296,7 +7584,7 @@
 		],
 		"points": "85",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"See below"
@@ -7346,7 +7634,7 @@
 		"linkedProfile": [
 			"Dwarf King"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -7355,7 +7643,7 @@
 		],
 		"points": "85",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -7405,7 +7693,7 @@
 		"linkedProfile": [
 			"Dwarf King"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -7414,7 +7702,7 @@
 		],
 		"points": "85",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -7464,7 +7752,7 @@
 		"linkedProfile": [
 			"Dwarf King"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -7473,7 +7761,7 @@
 		],
 		"points": "85",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -7520,7 +7808,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Dwarf Ranger",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -7529,7 +7817,7 @@
 		],
 		"points": "8",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -7585,7 +7873,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Dwarf Shieldbearer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -7594,7 +7882,7 @@
 		],
 		"points": "60",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -7637,11 +7925,11 @@
 	},
 	"Dwarf Siege Crew": {
 		"id": "siege_crew_dwarf",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Dwarf Siege Crew",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -7649,7 +7937,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -7679,12 +7967,61 @@
 			}
 		]
 	},
+	"Dwarf Siege Veteran": {
+		"id": "siege_veteran_dwarf",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Dwarf Siege Veteran",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "67"
+			}
+		],
+		"race": [
+			"Dwarf"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		]
+	},
 	"Dwarf Warrior": {
 		"id": "warrior_dwarf",
 		"version": "2024",
 		"language": "en",
 		"name": "Dwarf Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -7693,7 +8030,7 @@
 		],
 		"points": "8",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -7752,31 +8089,32 @@
 	},
 	"Dwarven Ballista": {
 		"id": "dwarven_ballista",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Dwarven Ballista",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
 				"page": "67"
 			}
 		],
-		"points": "70",
 		"note": "COMPOSITION\nA Dwarven Ballista is a Small Siege Engine, and is crewed by two Dwarf Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "70",
 		"composition": [
+			"Dwarf Siege Veteran",
 			"Dwarf Siege Crew",
 			"Dwarven Ballista (Siege Engine)"
 		]
 	},
 	"Dwarven Ballista (Siege Engine)": {
 		"id": "dwarven_ballista_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Dwarven Ballista (Siege Engine)",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -7852,7 +8190,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Eärnur, Last King of Gondor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -7860,7 +8198,6 @@
 			}
 		],
 		"points": "110",
-		"noteGWFAQ": "Q: When does the Charge of Gondor special rule take effect? (Army List: Battle of Fornost)\nA: Once a Gondor Cavalry model has charged, they gain the benefit of this rule for the rest of turn. So, for rules such as Eärnur’s Master Duellist, he will be Fv 7 before he can potentially increase it at the start of a Combat.",
 		"race": [
 			"Mensch"
 		],
@@ -8231,7 +8568,7 @@
 			},
 			{
 				"name": "Fury (Easterling)",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
@@ -8315,7 +8652,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Elendil, High King of Gondor and Arnor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -8374,7 +8711,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Elfhelm, Captain of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -8443,11 +8780,11 @@
 	},
 	"Elladan": {
 		"id": "elladan",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Elladan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -8509,19 +8846,19 @@
 	},
 	"Elladan & Elrohir": {
 		"id": "elladan_elrohir",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Elladan & Elrohir",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
 				"page": "54-55"
 			}
 		],
-		"points": "160 Points for Both",
 		"note": "If you include Elladan & Elrohir in your army, then each of them may lead their own Warband. Both Elladan & Elrohir will count as separate Hero models for the purpose of any special rules. If you wish to upgrade Elladan & Elrohir with horses, the you must purchase horses for both of the Elven twins at the given costs.",
+		"points": "160 Points for Both",
 		"composition": [
 			"Elladan",
 			"Elrohir"
@@ -8529,11 +8866,11 @@
 	},
 	"Elrohir": {
 		"id": "elrohir",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Elrohir",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -8598,7 +8935,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Elrond, Master of Rivendell",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -8686,7 +9023,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ent",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -8727,7 +9064,7 @@
 			"Fearless",
 			"Large Target",
 			"Terror",
-			"Steine werfen (Reichweite 18\", Stärke 10)",
+			"Steine werfen (Reichweite 18\", Strength 10)",
 			"Waldbewohner",
 			"Bludgeon"
 		]
@@ -8737,7 +9074,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Éomer, Marshal of the Riddermark",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -8815,7 +9152,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Eorl the Young",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -8887,7 +9224,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Éowyn, Shieldmaiden of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -8966,7 +9303,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Erebor Dwarf Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -8975,7 +9312,7 @@
 		],
 		"points": "75",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -9021,7 +9358,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Erebor Dwarf Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -9030,7 +9367,7 @@
 		],
 		"points": "9",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -9085,7 +9422,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Erestor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -9142,7 +9479,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Erkenbrand, Captain of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -9215,7 +9552,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Faramir, Captain of Gondor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -9296,7 +9633,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Farmer Maggot",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -9351,7 +9688,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Farmer Tolman Cotton",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -9404,11 +9741,11 @@
 	},
 	"Felaróf": {
 		"id": "felaroth",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Felaróf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -9439,12 +9776,12 @@
 	},
 	"Fell Beast": {
 		"id": "fell_beast",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Armoured Fell Beast"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Fell Beast",
 		"alignment": "Evil",
 		"source": [
@@ -9492,9 +9829,9 @@
 	},
 	"Fell Warg": {
 		"id": "fell_warg",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Fell Warg",
 		"alignment": "Evil",
 		"source": [
@@ -9630,7 +9967,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Fíli the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -9639,7 +9976,7 @@
 		],
 		"points": "50",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -9690,7 +10027,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Fíli the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -9699,7 +10036,7 @@
 		],
 		"points": "70",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -9808,14 +10145,14 @@
 	},
 	"Firefoot": {
 		"id": "firefoot",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Firefoot with armour"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Firefoot",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -9850,7 +10187,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Fledgeling Great Eagle",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -9903,7 +10240,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Flói Stonehand",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -9912,7 +10249,7 @@
 		],
 		"points": "75",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -9957,11 +10294,11 @@
 	},
 	"Foe Spear Wielder": {
 		"id": "foespear_wielder",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Foe Spear Wielder",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -9969,7 +10306,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -10004,7 +10341,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Folco Boffin",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -10057,7 +10394,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Forlong the Fat",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -10180,7 +10517,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Fréaláf, First Marshal of the Riddermark",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -10305,7 +10642,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Fredegar ’Fatty’ Bolger",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -10423,7 +10760,7 @@
 		"version": "2024",
 		"language": "de",
 		"name": "Frodo Beutlin",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -10487,6 +10824,16 @@
 		"specialRules": [
 			"Magieresistent",
 			"Steine werfen (Reichweite 8\", Stärke 1)"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
 	"Frodo of the Nine Fingers": {
@@ -10494,7 +10841,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Frodo of the Nine Fingers",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -10561,7 +10908,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Galadhrim Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -10623,7 +10970,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Galadhrim Knight",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -10687,11 +11034,11 @@
 	},
 	"Galadhrim Steed": {
 		"id": "galadhrim_steed",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Galadhrim Steed",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -10728,7 +11075,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Galadhrim Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -10807,7 +11154,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Galadriel, Lady of Light",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -10885,7 +11232,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Galadriel, Lady of Lothlórien",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -10967,7 +11314,7 @@
 			},
 			{
 				"name": "Gleissendes Licht",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "4+"
 			},
 			{
@@ -10987,7 +11334,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Gamling, Captain of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -11057,7 +11404,7 @@
 		"version": "2024",
 		"language": "de",
 		"name": "Gandalf der Graue",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -11124,6 +11471,16 @@
 				"cost": "20"
 			}
 		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
+		],
 		"magicalPowers": [
 			{
 				"name": "Schutz der Valar",
@@ -11172,7 +11529,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Gandalf the White",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -11285,11 +11642,11 @@
 	},
 	"Gandalfs Karren": {
 		"id": "gandalf_cart",
-		"type": "Mount",
 		"version": "2024",
 		"language": "de",
+		"type": "Mount",
 		"name": "Gandalfs Karren",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -11391,7 +11748,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ghân-Buri-Ghân",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -11452,79 +11809,12 @@
 			"Forest Stalker"
 		]
 	},
-	"Gil-Galad, High King of the Noldor": {
-		"id": "gil_galad",
-		"version": "2024",
-		"language": "en",
-		"name": "Gil-Galad, High King of the Noldor",
-		"alignment": "Good",
-		"source": [
-			{
-				"book": "Armies of The Lord of the Rings",
-				"page": "69"
-			}
-		],
-		"points": "175",
-		"race": [
-			"Elb"
-		],
-		"faction": [
-			"Rivendell"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "9",
-			"shootValue": "3+",
-			"strength": "4",
-			"defence": "7",
-			"attacks": "3",
-			"wounds": "3",
-			"courage": "3+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "3",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Heavy armour"
-			},
-			{
-				"name": "Aiglos"
-			}
-		],
-		"heroicActions": [
-			"Heroische Herausforderung",
-			"Heroische Entschlossenheit",
-			"Heroische Stärke"
-		],
-		"options": [
-			{
-				"name": "Rivendell Warriors in Gil-galad’s Warband may be upgraded to King’s Guard for +1 point per model. King’s Guard have a Fight Value of 6.",
-				"type": "OPTIONAL_RULES"
-			}
-		],
-		"specialRules": [
-			"Terror",
-			"Waldbewohner",
-			"High King of the Elves",
-			"Lord of the West"
-		]
-	},
 	"Gildor Inglorion": {
 		"id": "gildor",
 		"version": "2024",
 		"language": "en",
 		"name": "Gildor Inglorion",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -11597,12 +11887,79 @@
 			}
 		]
 	},
+	"Gil-Galad, High King of the Noldor": {
+		"id": "gil_galad",
+		"version": "2024",
+		"language": "en",
+		"name": "Gil-Galad, High King of the Noldor",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "69"
+			}
+		],
+		"points": "175",
+		"race": [
+			"Elb"
+		],
+		"faction": [
+			"Rivendell"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "9",
+			"shootValue": "3+",
+			"strength": "4",
+			"defence": "7",
+			"attacks": "3",
+			"wounds": "3",
+			"courage": "3+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "3",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Aiglos"
+			}
+		],
+		"heroicActions": [
+			"Heroische Herausforderung",
+			"Heroische Entschlossenheit",
+			"Heroische Stärke"
+		],
+		"options": [
+			{
+				"name": "Rivendell Warriors in Gil-galad’s Warband may be upgraded to King’s Guard for +1 point per model. King’s Guard have a Fight Value of 6.",
+				"type": "OPTIONAL_RULES"
+			}
+		],
+		"specialRules": [
+			"Terror",
+			"Waldbewohner",
+			"High King of the Elves",
+			"Lord of the West"
+		]
+	},
 	"Gimli, Glóins Sohn": {
 		"id": "gimli_son_of_gloin",
 		"version": "2024",
 		"language": "de",
 		"name": "Gimli, Glóins Sohn",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -11665,6 +12022,16 @@
 		"specialRules": [
 			"Äxte der Zwerge!",
 			"\"Ich meinerseits sitze gerade stramm auf Nummer 43\""
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
 	"Girion, Lord of Dale": {
@@ -11672,7 +12039,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Girion, Lord of Dale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -11737,7 +12104,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Glóin the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -11746,7 +12113,7 @@
 		],
 		"points": "85",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -11797,7 +12164,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Glóin the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -11806,7 +12173,7 @@
 		],
 		"points": "100",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -11855,7 +12222,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Glorfindel, Lord of the West",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -12141,7 +12508,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Goldberry",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -12306,31 +12673,32 @@
 	},
 	"Gondor Avenger Bolt Thrower": {
 		"id": "gondor_bolt_thrower",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Gondor Avenger Bolt Thrower",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
 				"page": "36"
 			}
 		],
-		"points": "60",
 		"note": "COMPOSITION\nA Gondor Avenger Bolt Thrower is a Small Siege Engine, and is crewed by three Minas Tirith Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "60",
 		"composition": [
+			"Minas Tirith Siege Veteran",
 			"Minas Tirith Siege Crew",
 			"Gondor Avenger Bolt Thrower (Siege Engine)"
 		]
 	},
 	"Gondor Avenger Bolt Thrower (Siege Engine)": {
 		"id": "gondor_bolt_thrower_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Gondor Avenger Bolt Thrower (Siege Engine)",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -12360,31 +12728,32 @@
 	},
 	"Gondor Battlecry Trebuchet": {
 		"id": "gondor_trebuchet",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Gondor Battlecry Trebuchet",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
 				"page": "61"
 			}
 		],
-		"points": "100",
 		"note": "COMPOSITION\nA Gondor Battlecry Trebuchet is a Large Siege Engine, and is crewed by three Minas Tirith Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "100",
 		"composition": [
+			"Minas Tirith Siege Veteran",
 			"Minas Tirith Siege Crew",
 			"Gondor Battlecry Trebuchet (Siege Engine)"
 		]
 	},
 	"Gondor Battlecry Trebuchet (Siege Engine)": {
 		"id": "gondor_trebuchet_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Gondor Battlecry Trebuchet (Siege Engine)",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -12717,9 +13086,9 @@
 	},
 	"Great Beast": {
 		"id": "great_beast",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Great Beast",
 		"alignment": "Evil",
 		"source": [
@@ -12763,9 +13132,9 @@
 	},
 	"Great Beast of Gorgoroth": {
 		"id": "gorgoroth_beast",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Great Beast of Gorgoroth",
 		"alignment": "Evil",
 		"source": [
@@ -12774,8 +13143,8 @@
 				"page": "14"
 			}
 		],
-		"points": "175",
 		"note": "COMPOSITION\nA Great Beast of Gorgoroth compromises an Orc Commander, a Great Beast, and a Howdah, which use the profiles below:",
+		"points": "175",
 		"composition": [
 			"Orc Commander (Great Beast of Gorgoroth)",
 			"Great Beast",
@@ -12787,7 +13156,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Great Eagle",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -12837,21 +13206,20 @@
 	},
 	"Great Eagle (Radagast)": {
 		"id": "great_eagle_radagast",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Exchange Staff of Power for Great Eagle"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Great Eagle (Radagast)",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
 				"page": "73"
 			}
 		],
-		"noteGWFAQ": "Q: Do Gwaihir or a Great Eagle Mount for Radagast count towards the number of Great Eagles in your Army when working out how many Fledgeling Great Eagles you can take?\nA: Gwaihir does not count towards the number of Great Eagles as he does not use the Great Eagle profile. If Radagast takes a Great Eagle as a Mount, this will count towards the number of Great Eagles taken.",
 		"race": [
 			"Eagle"
 		],
@@ -12896,11 +13264,11 @@
 	},
 	"Great Elk": {
 		"id": "great_elk",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Great Elk",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -12938,7 +13306,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Grim Hammer Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -12947,7 +13315,7 @@
 		],
 		"points": "80",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -12996,7 +13364,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Grim Hammer Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -13005,7 +13373,7 @@
 		],
 		"points": "11",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -13097,7 +13465,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Grimbeorn",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -13164,7 +13532,7 @@
 		"linkedProfile": [
 			"Grimbeorn"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -13228,7 +13596,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Grimbold of Grimslade",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -13345,14 +13713,14 @@
 	},
 	"Grip, Fang and Wolf": {
 		"id": "grip_fang_wolf",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Grip, Fang and Wolf",
 		"linkedProfile": [
 			"Farmer Maggot"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -13516,7 +13884,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Guard of the Fountain Court",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -13568,7 +13936,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Guard of the Galadhrim Court",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -13621,12 +13989,13 @@
 	"Guardian of the King": {
 		"id": "guardian_king",
 		"version": "2024",
+		"language": "en",
 		"name": "Guardian of the King",
 		"linkedProfile": [
 			"Grim Hammer Warrior",
 			"Thrór, King under the Mountain"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -13646,7 +14015,7 @@
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry"
+			"Infanterie"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -13662,13 +14031,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour"
+				"name": "Schwere Zwergenrüstung"
 			},
 			{
 				"name": "Mattock"
 			},
 			{
-				"name": "Throwing weapons"
+				"name": "Wurfwaffen"
 			}
 		],
 		"specialRules": [
@@ -13806,8 +14175,8 @@
 				"page": "127"
 			}
 		],
-		"points": "180",
 		"note": "COMPOSITION\nA Gundabad Catapult Troll is an unusual Siege Engine in that it uses a combined profile for the entire model. As a result, the Catapult doesn’t have its own Defence and Wounds values and cannot be targeted separately; instead if the Troll is slain, the whole model is removed from play as a casualty. The Troll is considered to be the Siege Veteran, though it does not have any Might, Will or Fate Points.",
+		"points": "180",
 		"race": [
 			"Troll"
 		],
@@ -14157,7 +14526,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Gwaihir",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -14169,7 +14538,6 @@
 			}
 		],
 		"points": "150",
-		"noteGWFAQ": "Q: Do Gwaihir or a Great Eagle Mount for Radagast count towards the number of Great Eagles in your Army when working out how many Fledgeling Great Eagles you can take?\nA: Gwaihir does not count towards the number of Great Eagles as he does not use the Great Eagle profile. If Radagast takes a Great Eagle as a Mount, this will count towards the number of Great Eagles taken.",
 		"race": [
 			"Eagle"
 		],
@@ -14222,7 +14590,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Halbarad",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -14288,7 +14656,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Haldir, Galadhrim Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -14360,7 +14728,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Haleth, Prince of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -14430,7 +14798,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Haleth, Son of Háma",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -14547,15 +14915,15 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Háma, Captain of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
 				"page": "36"
 			}
 		],
-		"points": "60",
 		"noteGWFAQ": "Q: In the Road to Helm’s Deep Army List, can Háma benefit from the Back on your horses special rule as he cannot normally have a horse?\nA: No.",
+		"points": "60",
 		"race": [
 			"Mensch"
 		],
@@ -14606,7 +14974,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Háma, Prince of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -14675,7 +15043,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Hamfast ’Gaffer’ Gamgee",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -14788,9 +15156,9 @@
 	},
 	"Haradrim Commander": {
 		"id": "haradrim_commander",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Haradrim Commander",
 		"alignment": "Evil",
 		"source": [
@@ -15167,12 +15535,13 @@
 	"Hearthguard": {
 		"id": "hearthguard",
 		"version": "2024",
+		"language": "en",
 		"name": "Hearthguard",
 		"linkedProfile": [
 			"Durin, King of Khazad-dûm",
 			"Khazâd Guard"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -15192,7 +15561,7 @@
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry",
+			"Infanterie",
 			"Elite"
 		],
 		"baseSize": "25mm",
@@ -15209,13 +15578,13 @@
 		},
 		"wargear": [
 			{
-				"name": "Heavy Dwarf armour"
+				"name": "Schwere Zwergenrüstung"
 			},
 			{
 				"name": "Two-handed weapon"
 			},
 			{
-				"name": "Hand weapon"
+				"name": "Handwaffe"
 			}
 		],
 		"specialRules": [
@@ -15228,7 +15597,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Helm Hammerhand, King of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -15303,7 +15672,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Helm Hammerhand, Wraith of the Hornburg",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -15366,12 +15735,13 @@
 	"Helmingas": {
 		"id": "helmingas",
 		"version": "2024",
+		"language": "en",
 		"name": "Helmingas",
 		"linkedProfile": [
 			"Grimbold of Grimslade",
 			"Warrior of Rohan"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -15384,14 +15754,14 @@
 		],
 		"points": "7",
 		"race": [
-			"Man"
+			"Mensch"
 		],
 		"faction": [
 			"Rohan"
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry"
+			"Infanterie"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -15407,10 +15777,10 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour"
+				"name": "Rüstung"
 			},
 			{
-				"name": "Hand weapon"
+				"name": "Handwaffe"
 			}
 		],
 		"options": [
@@ -15430,12 +15800,12 @@
 				"type": "WARRIOR_MANDATORY"
 			},
 			{
-				"name": "Bow",
+				"name": "Bogen",
 				"cost": "1",
 				"type": "WARRIOR_MANDATORY"
 			},
 			{
-				"name": "Shield",
+				"name": "Schild",
 				"cost": "1",
 				"type": "WARRIOR_MANDATORY"
 			}
@@ -15449,7 +15819,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Héra, Daughter of Helm",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -15518,7 +15888,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Héra, the Bride of Death",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -15582,11 +15952,11 @@
 	},
 	"Herald": {
 		"id": "herald",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Herald",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -15594,7 +15964,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -15644,7 +16014,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Herald of the Dead",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -15705,7 +16075,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Hilda-Bianca",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -15935,7 +16305,7 @@
 		"specialRules": [
 			"Dominant (3)",
 			"Terror",
-			"Steine werfen (Reichweite 12\", Stärke 8)",
+			"Steine werfen (Reichweite 12\", Strength 8)",
 			"Brutish Cunning"
 		]
 	},
@@ -15944,7 +16314,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Hobbit Archer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -15999,7 +16369,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Hobbit Militia",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -16044,7 +16414,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Hobbit Shirriff",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -16090,7 +16460,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Holfoot Bracegirdle, Shirriff-Leader",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -16143,9 +16513,9 @@
 	},
 	"Howdah (Great Beast of Gorgoroth)": {
 		"id": "howdah_greatBeast",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Howdah (Great Beast of Gorgoroth)",
 		"alignment": "Evil",
 		"source": [
@@ -16171,9 +16541,9 @@
 	},
 	"Howdah (Royal War Mûmak)": {
 		"id": "howdah_royal",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Howdah (Royal War Mûmak)",
 		"alignment": "Evil",
 		"source": [
@@ -16197,9 +16567,9 @@
 	},
 	"Howdah (War Mûmak of Harad)": {
 		"id": "howdah",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Howdah (War Mûmak of Harad)",
 		"alignment": "Evil",
 		"source": [
@@ -16416,7 +16786,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Húrin the Tall, Warden of the Keys",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -16481,7 +16851,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ingold, Warden of the Rammas Echor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -16542,7 +16912,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Irolas, Captain of the Guard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -16601,7 +16971,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Iron Guard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -16610,7 +16980,7 @@
 		],
 		"points": "15",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -16648,31 +17018,32 @@
 	},
 	"Iron Hills Ballista": {
 		"id": "ironhills_ballista",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Iron Hills Ballista",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
 				"page": "30"
 			}
 		],
-		"points": "130",
 		"note": "COMPOSITION\nAn Iron Hills Ballista is a Large Siege Engine, and is crewed by four Iron Hills Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "130",
 		"composition": [
+			"Iron Hills Siege Veteran",
 			"Iron Hills Siege Crew",
 			"Iron Hills Ballista (Siege Engine)"
 		]
 	},
 	"Iron Hills Ballista (Siege Engine)": {
 		"id": "ironhills_ballista_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Iron Hills Ballista (Siege Engine)",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -16701,7 +17072,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Iron Hills Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -16710,7 +17081,7 @@
 		],
 		"points": "80",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -16770,13 +17141,13 @@
 	},
 	"Iron Hills Chariot": {
 		"id": "chariot_iron_hills",
+		"version": "2024",
+		"language": "en",
 		"alias": [
 			"Iron Hills Chariot (if the Captain dismounts from the Iron Hills Chariot, do not remove the Chariot from play. The Chariot will remain in play as a standard Iron Hills Chariot with the same number of Wounds remaining as it had before the Iron Hills Captain dismounted)"
 		],
-		"version": "2024",
-		"language": "en",
 		"name": "Iron Hills Chariot",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -16784,7 +17155,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -16827,7 +17198,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Iron Hills Goat Rider",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -16836,7 +17207,7 @@
 		],
 		"points": "20",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -16881,11 +17252,11 @@
 	},
 	"Iron Hills Siege Crew": {
 		"id": "siege_crew_iron_hills",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Iron Hills Siege Crew",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -16893,7 +17264,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -16923,12 +17294,61 @@
 			}
 		]
 	},
+	"Iron Hills Siege Veteran": {
+		"id": "siege_veteran_iron_hills",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Iron Hills Siege Veteran",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "30"
+			}
+		],
+		"race": [
+			"Dwarf"
+		],
+		"faction": [
+			"Iron Hills"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		]
+	},
 	"Iron Hills Warrior": {
 		"id": "warrior_iron_hills",
 		"version": "2024",
 		"language": "en",
 		"name": "Iron Hills Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -16937,7 +17357,7 @@
 		],
 		"points": "10",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -16999,11 +17419,11 @@
 	},
 	"Iron Shield Bearer": {
 		"id": "ironshield_bearer",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Iron Shield Bearer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -17011,7 +17431,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -17046,9 +17466,9 @@
 	},
 	"Isengard Assault Ballista": {
 		"id": "isengard_ballista",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Isengard Assault Ballista",
 		"alignment": "Evil",
 		"source": [
@@ -17057,18 +17477,19 @@
 				"page": "168"
 			}
 		],
-		"points": "75",
 		"note": "COMPOSITION\nAn Isengard Assault Ballista is a Large Siege Engine, and is crewed by three Uruk-hai Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "75",
 		"composition": [
+			"Uruk-hai Siege Veteran",
 			"Uruk-hai Siege Crew",
 			"Isengard Assault Ballista (Siege Engine)"
 		]
 	},
 	"Isengard Assault Ballista (Siege Engine)": {
 		"id": "isengard_ballista_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Isengard Assault Ballista (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -17218,7 +17639,7 @@
 		"magicalPowers": [
 			{
 				"name": "Fury (Isengard Orc)",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
@@ -17366,7 +17787,7 @@
 		"specialRules": [
 			"Dominant (3)",
 			"Terror",
-			"Steine werfen (Reichweite 12\", Stärke 8)"
+			"Steine werfen (Reichweite 12\", Strength 8)"
 		]
 	},
 	"Isengard Warg": {
@@ -17423,8 +17844,8 @@
 				"page": "171"
 			}
 		],
-		"points": "11",
 		"noteGWFAQ": "Q: When a Mordor/Isengard Warg Rider dismounts, what wargear does it get to keep?\nA: The wargear a Mordor/Isengard Warg Rider is allowed to keep will depend on the wargear they had whilst mounted, as described below:\n• Mordor/Isengard Warg Rider with shield and throwing spears\n→ Mordor/Isengard Orc Warrior with shield.\n• Mordor/Isengard Warg Rider with Orc bow\n→ Mordor/Isengard Orc Warrior with Orc bow.\n• Mordor/Isengard Warg Rider with shield\n→ Mordor/Isengard Orc Warrior with shield.\n• Mordor/Isengard Warg Rider with throwing spears\n→ Mordor/Isengard Orc Warrior with spear.",
+		"points": "11",
 		"race": [
 			"Orc"
 		],
@@ -17481,12 +17902,12 @@
 			}
 		]
 	},
-	"Isildur, Prinz von Númenor": {
+	"Isildur, Prince of Númenor": {
 		"id": "isildur",
 		"version": "2024",
 		"language": "en",
-		"name": "Isildur, Prinz von Númenor",
-		"alignment": "Good",
+		"name": "Isildur, Prince of Númenor",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -17614,7 +18035,7 @@
 			},
 			{
 				"name": "Fury (Mordor Orc)",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			}
 		]
@@ -17715,19 +18136,19 @@
 			},
 			{
 				"name": "Instil Fear",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "6+"
 			}
 		]
 	},
-	"Khandish Chariot (If the Khandish King dismounts, remove the Khandish Chariot from play)": {
+	"Khandish Chariot": {
 		"id": "chariot_khand",
+		"version": "2024",
+		"language": "en",
+		"type": "Chariot",
 		"alias": [
 			"Khandish Chariot (If the Khandish King dismounts, remove the Khandish Chariot from play)"
 		],
-		"type": "Chariot",
-		"version": "2024",
-		"language": "en",
 		"name": "Khandish Chariot",
 		"linkedProfile": [
 			"Khandish King"
@@ -18062,7 +18483,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Khazâd Guard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -18071,7 +18492,7 @@
 		],
 		"points": "12",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -18113,7 +18534,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Kíli the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -18122,7 +18543,7 @@
 		],
 		"points": "50",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -18173,7 +18594,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Kíli the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -18182,7 +18603,7 @@
 		],
 		"points": "70",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -18238,7 +18659,7 @@
 			"King of Men (Númenor)",
 			"King of Men (Rohan)"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18316,7 +18737,7 @@
 		"linkedProfile": [
 			"King of Men"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18394,7 +18815,7 @@
 		"linkedProfile": [
 			"King of Men"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18472,7 +18893,7 @@
 		"linkedProfile": [
 			"King of Men"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18552,7 +18973,7 @@
 		"linkedProfile": [
 			"King of Men"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18630,7 +19051,7 @@
 		"linkedProfile": [
 			"King of Men"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18638,7 +19059,6 @@
 			}
 		],
 		"points": "75",
-		"noteGWFAQ": "Q: If I take a Rohan King of Men in the Realms of Men Army List, can I include Rohirrim Traitors in the army? \nA: No.",
 		"race": [
 			"Mensch"
 		],
@@ -18705,19 +19125,19 @@
 	},
 	"King’s Champion": {
 		"id": "kings_champion",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "King’s Champion",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
 				"page": "16"
 			}
 		],
-		"points": "140",
 		"note": "A King’s Champion is made up of one King’s Champion and two Heralds, and will count as three models. The King’s Champion is always the Captain of the Warband with the two Heralds as its Followers taking up the first spaces in the King’s Champion’s Warband; Heralds always count as an Independent Hero in the King’s Champion’s Warband.",
+		"points": "140",
 		"composition": [
 			"King’s Champion (Hero)",
 			"Herald"
@@ -18725,11 +19145,11 @@
 	},
 	"King’s Champion (Hero)": {
 		"id": "kings_champion_hero",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "King’s Champion (Hero)",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -18737,7 +19157,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -18782,12 +19202,13 @@
 	"King’s Guard": {
 		"id": "kings_guard",
 		"version": "2024",
+		"language": "en",
 		"name": "King’s Guard",
 		"linkedProfile": [
 			"Gil-Galad, High King of the Noldor",
 			"Rivendell Warrior"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -18804,14 +19225,14 @@
 		],
 		"points": "10",
 		"race": [
-			"Elf"
+			"Elb"
 		],
 		"faction": [
 			"Rivendell"
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry"
+			"Infanterie"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -18840,7 +19261,7 @@
 				"type": "WARRIOR_OPTIONAL"
 			},
 			{
-				"name": "Elf bow",
+				"name": "Elbenbogen",
 				"cost": "2",
 				"type": "WARRIOR_OPTIONAL"
 			},
@@ -18850,13 +19271,13 @@
 				"type": "WARRIOR_OPTIONAL"
 			},
 			{
-				"name": "Shield",
+				"name": "Schild",
 				"cost": "1",
 				"type": "WARRIOR_OPTIONAL"
 			}
 		],
 		"specialRules": [
-			"Woodland Creature"
+			"Waldbewohner"
 		]
 	},
 	"King’s Huntsman": {
@@ -18864,7 +19285,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "King’s Huntsman",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -18923,7 +19344,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Knight of Arnor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -18979,7 +19400,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Knight of Dale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -19032,7 +19453,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Knight of Dol Amroth",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -19040,7 +19461,6 @@
 			}
 		],
 		"points": "11",
-		"noteGWFAQ": "Q: If a Knight of Dol Amroth is within 6\" of two Dol Amroth Heroes that have charged, do they benefit from multiple +1 bonuses To Wound?\nA: No. Unless explicitly stated, multiple instances of the same rule are not cumulative. In the above example, the Knight of Dol Amroth would only gain a +1 bonus To Wound. Another example is the Drums in the Deep special rule; a Moria Goblin model cannot benefit from multiple instances of it, no matter how many Moria Goblin Drums you have.",
 		"race": [
 			"Mensch"
 		],
@@ -19111,7 +19531,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Knight of Minas Tirith",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -19119,7 +19539,6 @@
 			}
 		],
 		"points": "15",
-		"noteGWFAQ": "Q: When does the Charge of Gondor special rule take effect? (Army List: Battle of Fornost)\nA: Once a Gondor Cavalry model has charged, they gain the benefit of this rule for the rest of turn. So, for rules such as Eärnur’s Master Duellist, he will be Fv 7 before he can potentially increase it at the start of a Combat.",
 		"race": [
 			"Mensch"
 		],
@@ -19174,7 +19593,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Knight of the White Tower",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -19232,7 +19651,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lake-town Guard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -19291,7 +19710,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lake-town Guard Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -19346,7 +19765,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lake-town Militia",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -19410,7 +19829,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lake-town Militia Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -19468,7 +19887,7 @@
 		"version": "2024",
 		"language": "de",
 		"name": "Legolas Grünblatt",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -19531,11 +19950,17 @@
 			}
 		],
 		"specialRules": [
-			"Scharfschütze",
-			"Waldbewohner",
 			"\"Ich zähle 42\"",
+			"Punktgenauer Schuss",
+			"Scharfschütze",
 			"Tödlicher Schuss",
-			"Punktgenauer Schuss"
+			"Waldbewohner"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
 	"Legolas Grünblatt, Prince of Mirkwood": {
@@ -19543,7 +19968,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Legolas Grünblatt, Prince of Mirkwood",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -19621,7 +20046,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lief, Page of Helm",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -19684,7 +20109,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lindir of Rivendell",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -19755,7 +20180,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lobelia Sackville-Beutlin",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -19864,13 +20289,14 @@
 	"Lórien Guard": {
 		"id": "lorienguard",
 		"version": "2024",
+		"language": "en",
 		"name": "Lórien Guard",
 		"linkedProfile": [
 			"Celeborn, Lord of Lothlórien",
 			"Galadriel, Lady of Lothlórien",
 			"Galadhrim Warrior"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -19887,14 +20313,14 @@
 		],
 		"points": "10",
 		"race": [
-			"Elf"
+			"Elb"
 		],
 		"faction": [
 			"Lothlórien"
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry"
+			"Infanterie"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -19928,7 +20354,7 @@
 				"type": "WARRIOR_OPTIONAL"
 			},
 			{
-				"name": "Elf bow",
+				"name": "Elbenbogen",
 				"cost": "2",
 				"type": "WARRIOR_OPTIONAL"
 			},
@@ -19943,13 +20369,13 @@
 				"type": "WARRIOR_OPTIONAL"
 			},
 			{
-				"name": "Shield",
+				"name": "Schild",
 				"cost": "1",
 				"type": "WARRIOR_OPTIONAL"
 			}
 		],
 		"specialRules": [
-			"Woodland Creature",
+			"Waldbewohner",
 			"Lórien Guard"
 		]
 	},
@@ -19958,7 +20384,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lothlórien Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -20016,7 +20442,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lothlórien Stormcaller",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -20089,7 +20515,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lothlórien Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -20158,7 +20584,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Lotho Sackville-Beutlin",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -20282,7 +20708,7 @@
 		"version": "2024",
 		"language": "de",
 		"name": "Lutz das Pony",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -20327,8 +20753,18 @@
 		"specialRules": [
 			"Furchtsam",
 			"Geregelte Mahlzeiten",
-			"Zweites Frühstück",
-			"Nur ein Pony"
+			"Nur ein Pony",
+			"Zweites Frühstück"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
 	"Mablung, Ranger of Ithilien": {
@@ -20336,7 +20772,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Mablung, Ranger of Ithilien",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -20396,7 +20832,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Madril, Captain of Ithilien",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -20782,7 +21218,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Malbeth the Seer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -20836,7 +21272,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Man-at-arms of Dol Amroth",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -20887,7 +21323,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Mardin, the King’s Ward",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -21005,7 +21441,7 @@
 		"linkedProfile": [
 			"Baumbart"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -21053,17 +21489,27 @@
 			}
 		],
 		"specialRules": [
+			"\"Für das Auenland!\"",
 			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"\"Für das Auenland!\""
+			"Steine werfen (Reichweite 8\", Stärke 1)"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
-	"Meriadoc Brandybock, Captain of the Shire": {
+	"Meriadoc Brandybuck, Captain of the Shire": {
 		"id": "meriadoc_brandybuck_captain",
 		"version": "2024",
 		"language": "en",
-		"name": "Meriadoc Brandybock, Captain of the Shire",
-		"alignment": "Good",
+		"name": "Meriadoc Brandybuck, Captain of the Shire",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -21071,7 +21517,6 @@
 			}
 		],
 		"points": "60",
-		"noteGWFAQ": "Q: If Pippin or Merry are taken as passengers in the Defenders of the Pelennor Army List, can they declare a free Heroic Combat while they are passengers? \nA: No – as per the Passenger rules, they cannot contribute to a Combat in any way.",
 		"race": [
 			"Hobbit"
 		],
@@ -21129,7 +21574,7 @@
 				"cost": "5"
 			},
 			{
-				"name": "If your Army includes Merry, you may upgrade any number of Hobbit Militia in his Warband to Batllin’ Brandybocks at the cost of +1 point per model. Battlin’ Brandybocks have a Strength of 3.",
+				"name": "If your Army includes Merry, you may upgrade any number of Hobbit Militia in his Warband to Batllin’ Brandybucks at the cost of +1 point per model. Battlin’ Brandybucks have a Strength of 3.",
 				"type": "OPTIONAL_RULES"
 			}
 		],
@@ -21138,15 +21583,15 @@
 			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
-	"Meriadoc Brandybock, Esquire of Rohan": {
+	"Meriadoc Brandybuck, Esquire of Rohan": {
 		"id": "meriadoc_brandybuck_rohan",
 		"version": "2024",
 		"language": "en",
-		"name": "Meriadoc Brandybock, Esquire of Rohan",
+		"name": "Meriadoc Brandybuck, Esquire of Rohan",
 		"linkedProfile": [
 			"Éowyn, Shieldmaiden of Rohan"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -21210,11 +21655,11 @@
 	},
 	"Minas Tirith Siege Crew": {
 		"id": "siege_crew_minas_tirith",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Minas Tirith Siege Crew",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -21256,12 +21701,65 @@
 			}
 		]
 	},
+	"Minas Tirith Siege Veteran": {
+		"id": "siege_veteran_minas_tirith",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Minas Tirith Siege Veteran",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "61"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "36"
+			}
+		],
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Gondor"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		]
+	},
 	"Mirkwood Elf Captain": {
 		"id": "captain_mirkwood",
 		"version": "2024",
 		"language": "en",
 		"name": "Mirkwood Elf Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -21316,15 +21814,15 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Mirkwood Elf Knight",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
 				"page": "67"
 			}
 		],
-		"points": "16",
 		"noteGWFAQ": "Q: The rules state that when a model Dismounts, it discards any wargear it is carrying that is not represented on the official dismounted model. What happens if the dismounted model has wargear that the mounted model didn’t have? For example, if a Mirkwood Elf Knight Dismounts, the dismounted models (Mirkwood Elf Warriors) all have options the Knight does not.\nA: In rare cases like this, the dismounted model gains wargear so it can be accurately represented by the model. In cases where multiple options are available, you must choose the option that sees the fewest pieces of wargear gained and choose the wargear that is the cheapest in points cost.\nFor example, in the case of the Mirkwood Elf Knight, it would Dismount and be represented by a Mirkwood Elf Warrior with a shield, as that is the option worth the fewest points – we presume the warrior found a discarded shield on the battlefield. In the given example, you cannot use a model with an Elf bow or Elven Glaive as they both cost more than a shield.",
+		"points": "16",
 		"race": [
 			"Elb"
 		],
@@ -21369,7 +21867,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Mirkwood Elf Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -21530,7 +22028,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Mirkwood Ranger",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -21582,7 +22080,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Mirkwood Ranger Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -21941,7 +22439,7 @@
 		"magicalPowers": [
 			{
 				"name": "Fury (Mordor Orc)",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
@@ -21958,9 +22456,9 @@
 	},
 	"Mordor Orc Siege Crew": {
 		"id": "siege_crew_mordor_orc",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mordor Orc Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -21994,6 +22492,59 @@
 			"wounds": "1",
 			"courage": "8+",
 			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		]
+	},
+	"Mordor Orc Siege Veteran": {
+		"id": "siege_veteran_mordor_orc",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Mordor Orc Siege Veteran",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "152"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "103"
+			}
+		],
+		"race": [
+			"Orc"
+		],
+		"faction": [
+			"Mordor"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -22135,9 +22686,9 @@
 	},
 	"Mordor Siege Bow": {
 		"id": "siege_bow_mordor",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Mordor Siege Bow",
 		"alignment": "Evil",
 		"source": [
@@ -22146,18 +22697,19 @@
 				"page": "103"
 			}
 		],
-		"points": "50",
 		"note": "COMPOSITION\nA Mordor Siege Bow is a Small Siege Engine, and is crewed by three Mordor Orc Siege Crew, one of which is a Siege Veteran, which use the profiles below:",
+		"points": "50",
 		"composition": [
+			"Mordor Orc Siege Veteran",
 			"Mordor Orc Siege Crew",
 			"Mordor Siege Bow (Siege Engine)"
 		]
 	},
 	"Mordor Siege Bow (Siege Engine)": {
 		"id": "siege_bow__mordor_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mordor Siege Bow (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -22191,9 +22743,9 @@
 	},
 	"Mordor Siege Troll": {
 		"id": "siege_crew_mordor_troll",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mordor Siege Troll",
 		"alignment": "Evil",
 		"source": [
@@ -22288,7 +22840,7 @@
 		"specialRules": [
 			"Dominant (3)",
 			"Terror",
-			"Steine werfen (Reichweite 12\", Stärke 8)"
+			"Steine werfen (Reichweite 12\", Strength 8)"
 		]
 	},
 	"Mordor Troll Chieftain": {
@@ -22347,7 +22899,7 @@
 		"specialRules": [
 			"Dominant (4)",
 			"Terror",
-			"Steine werfen (Reichweite 12\", Stärke 8)"
+			"Steine werfen (Reichweite 12\", Strength 8)"
 		]
 	},
 	"Mordor Uruk-hai": {
@@ -22466,9 +23018,9 @@
 	},
 	"Mordor War Catapult": {
 		"id": "war_catapult_mordor",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Mordor War Catapult",
 		"alignment": "Evil",
 		"source": [
@@ -22477,9 +23029,10 @@
 				"page": "152"
 			}
 		],
-		"points": "150",
 		"note": "COMPOSITION\nA Mordor War Catapult is a Large Siege Engine, and is crewed by three Mordor Orc Siege Crew, one of which is a Siege Veteran, and a Mordor Siege Troll, which use the profiles below:",
+		"points": "150",
 		"composition": [
+			"Mordor Orc Siege Veteran",
 			"Mordor Orc Siege Crew",
 			"Mordor Siege Troll",
 			"Mordor War Catapult (Siege Engine)"
@@ -22487,9 +23040,9 @@
 	},
 	"Mordor War Catapult (Siege Engine)": {
 		"id": "war_catapult_mordor_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mordor War Catapult (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -22538,8 +23091,8 @@
 				"page": "151"
 			}
 		],
-		"points": "11",
 		"noteGWFAQ": "Q: When a Mordor/Isengard Warg Rider dismounts, what wargear does it get to keep?\nA: The wargear a Mordor/Isengard Warg Rider is allowed to keep will depend on the wargear they had whilst mounted, as described below:\n• Mordor/Isengard Warg Rider with shield and throwing spears\n→ Mordor/Isengard Orc Warrior with shield.\n• Mordor/Isengard Warg Rider with Orc bow\n→ Mordor/Isengard Orc Warrior with Orc bow.\n• Mordor/Isengard Warg Rider with shield\n→ Mordor/Isengard Orc Warrior with shield.\n• Mordor/Isengard Warg Rider with throwing spears\n→ Mordor/Isengard Orc Warrior with spear.",
+		"points": "11",
 		"race": [
 			"Orc"
 		],
@@ -22701,9 +23254,9 @@
 	},
 	"Moria Blackshield Drum": {
 		"id": "drum_blackshield",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Moria Blackshield Drum",
 		"alignment": "Evil",
 		"source": [
@@ -22712,8 +23265,8 @@
 				"page": "18"
 			}
 		],
-		"points": "75",
 		"note": "A Moria Blackshield Drum is always purchased as one Moria Blackshield Drummer and one Moria Blackshield Drum Bearer, which count as two models; both of which use the profile below:",
+		"points": "75",
 		"specialRules": [
 			"Run and Drum",
 			"Take up the Drum [Moria Blackshield Drum]"
@@ -22832,7 +23385,7 @@
 			},
 			{
 				"name": "Tremor",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "5+"
 			}
 		]
@@ -22958,9 +23511,9 @@
 	},
 	"Moria Goblin Drum": {
 		"id": "moria_goblin_drum",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Moria Goblin Drum",
 		"alignment": "Evil",
 		"source": [
@@ -22969,8 +23522,8 @@
 				"page": "121"
 			}
 		],
-		"points": "75",
 		"note": "A Moria Goblin Drum is always purchased as two Moria Goblin Drummers, which count as two models. Moria Goblin Drummers use the profile below:",
+		"points": "75",
 		"specialRules": [
 			"Moria Goblin Drum",
 			"Drums in the Deep",
@@ -22982,9 +23535,9 @@
 	},
 	"Moria Goblin Drummer": {
 		"id": "moria_goblin_drummer",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Moria Goblin Drummer",
 		"alignment": "Evil",
 		"source": [
@@ -23139,12 +23692,12 @@
 		"magicalPowers": [
 			{
 				"name": "Fury (Moria Goblin)",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
 				"name": "Instil Fear",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "4+"
 			},
 			{
@@ -23220,9 +23773,9 @@
 	},
 	"Mûmak": {
 		"id": "mumak",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mûmak",
 		"alignment": "Evil",
 		"source": [
@@ -23297,9 +23850,9 @@
 	},
 	"Mûmak War Leader": {
 		"id": "mumak_war_leader",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Mûmak War Leader",
 		"alignment": "Evil",
 		"source": [
@@ -23308,8 +23861,8 @@
 				"page": "191"
 			}
 		],
-		"points": "400",
 		"note": "COMPOSITION\nThe Mûmak War Leader compromises the Mûmak War Leader, Royal War Mûmak, and a Howdah, which use the profiles below:",
+		"points": "400",
 		"composition": [
 			"Mûmak War Leader (Hero)",
 			"Royal War Mûmak",
@@ -23318,9 +23871,9 @@
 	},
 	"Mûmak War Leader (Hero)": {
 		"id": "mumak_leader_hero",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mûmak War Leader (Hero)",
 		"alignment": "Evil",
 		"source": [
@@ -23378,11 +23931,11 @@
 	},
 	"Múrin": {
 		"id": "murin",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Múrin",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -23390,7 +23943,7 @@
 			}
 		],
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Iron Hills"
@@ -23437,19 +23990,19 @@
 	},
 	"Múrin & Drár": {
 		"id": "murin_drar",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Múrin & Drár",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
 				"page": "18"
 			}
 		],
-		"points": "140 Points for Both",
 		"note": "If you include Múrin & Drár in your Army, then each of them may lead their own Warband. Both Múrin & Drár will count as separate Hero models for the purpose of any special rules.",
+		"points": "140 Points for Both",
 		"composition": [
 			"Múrin",
 			"Drár"
@@ -24165,12 +24718,13 @@
 	"Noldorin Exiles": {
 		"id": "noldorin_exiles",
 		"version": "2024",
+		"language": "en",
 		"name": "Noldorin Exiles",
 		"linkedProfile": [
 			"Gildor Inglorion",
 			"Lothlórien Warrior"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -24183,14 +24737,14 @@
 		],
 		"points": "9",
 		"race": [
-			"Elf"
+			"Elb"
 		],
 		"faction": [
 			"Rivendell"
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry"
+			"Infanterie"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -24209,7 +24763,7 @@
 				"name": "Elven hand-and-a-half weapon"
 			},
 			{
-				"name": "Elven cloak"
+				"name": "Elbenumhang"
 			}
 		],
 		"options": [
@@ -24219,7 +24773,7 @@
 				"type": "WARRIOR_OPTIONAL"
 			},
 			{
-				"name": "Elf bow",
+				"name": "Elbenbogen",
 				"cost": "2",
 				"type": "WARRIOR_OPTIONAL"
 			},
@@ -24235,7 +24789,7 @@
 			}
 		],
 		"specialRules": [
-			"Woodland Creature"
+			"Waldbewohner"
 		]
 	},
 	"Nori the Dwarf": {
@@ -24243,7 +24797,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Nori the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -24252,7 +24806,7 @@
 		],
 		"points": "55",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -24303,7 +24857,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Nori the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -24312,7 +24866,7 @@
 		],
 		"points": "75",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -24367,7 +24921,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Óin the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -24376,7 +24930,7 @@
 		],
 		"points": "50",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -24424,7 +24978,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Óin the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -24433,7 +24987,7 @@
 		],
 		"points": "60",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -24488,7 +25042,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Olwyn, Shieldmaiden of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -24554,9 +25108,9 @@
 	},
 	"Orc Commander (Great Beast of Gorgoroth)": {
 		"id": "orc_commander_great_beast",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Orc Commander (Great Beast of Gorgoroth)",
 		"alignment": "Evil",
 		"source": [
@@ -24606,9 +25160,9 @@
 	},
 	"Orc Commander (Troll Brute)": {
 		"id": "orc_commander",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Orc Commander (Troll Brute)",
 		"alignment": "Evil",
 		"source": [
@@ -24712,7 +25266,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ori the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -24721,7 +25275,7 @@
 		],
 		"points": "40",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -24767,7 +25321,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ori the Dwarf, Champion of Erebor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -24776,7 +25330,7 @@
 		],
 		"points": "50",
 		"race": [
-			"Zwerg"
+			"Dwarf"
 		],
 		"faction": [
 			"Erebor"
@@ -24828,7 +25382,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Orophin, Galadhrim Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -24885,7 +25439,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Osgiliath Veteran",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -24950,7 +25504,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Palace Guard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -25017,7 +25571,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Palace Guard Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -25081,7 +25635,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Paladin Took, Thain of the Shire",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -25143,7 +25697,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Percy, Lake-town Archer",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -25202,7 +25756,7 @@
 		"linkedProfile": [
 			"Baumbart"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -25250,9 +25804,19 @@
 			}
 		],
 		"specialRules": [
+			"\"Für das Auenland!\"",
 			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"\"Für das Auenland!\""
+			"Steine werfen (Reichweite 8\", Stärke 1)"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
 	"Peregrin Tuk, Captain of the Shire": {
@@ -25260,7 +25824,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Peregrin Tuk, Captain of the Shire",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -25268,7 +25832,6 @@
 			}
 		],
 		"points": "60",
-		"noteGWFAQ": "Q: If Pippin or Merry are taken as passengers in the Defenders of the Pelennor Army List, can they declare a free Heroic Combat while they are passengers? \nA: No – as per the Passenger rules, they cannot contribute to a Combat in any way.",
 		"race": [
 			"Hobbit"
 		],
@@ -25337,7 +25900,7 @@
 		"linkedProfile": [
 			"Gandalf the White"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -25396,10 +25959,10 @@
 		]
 	},
 	"Pferd": {
-		"id": "horse",
-		"type": "Mount",
+		"id": "Pferd",
 		"version": "2024",
 		"language": "de",
+		"type": "Mount",
 		"name": "Pferd",
 		"alignment": "Weder noch",
 		"source": [
@@ -25432,11 +25995,11 @@
 	},
 	"Pony": {
 		"id": "pony",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Pony",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Rules Manual",
@@ -25473,7 +26036,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Prince Imrahil of Dol Amroth",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -25543,7 +26106,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Radagast the Brown",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -25618,7 +26181,7 @@
 			},
 			{
 				"name": "Entsetzliche Ausstrahlung",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "3+"
 			},
 			{
@@ -25633,7 +26196,7 @@
 			},
 			{
 				"name": "Aura of Dismay",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "5+"
 			},
 			{
@@ -25643,24 +26206,24 @@
 			},
 			{
 				"name": "Writhing Vines",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "5+"
 			}
 		]
 	},
 	"Radagast’s Sleigh": {
 		"id": "radagast_sleigh",
+		"version": "2024",
+		"language": "en",
+		"type": "Chariot",
 		"alias": [
 			"Radagast’s Sleigh (If Radagast dismounts, remove the Sleigh from play)"
 		],
-		"type": "Chariot",
-		"version": "2024",
-		"language": "en",
 		"name": "Radagast’s Sleigh",
 		"linkedProfile": [
 			"Radagast the Brown"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -25699,7 +26262,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ranger of Arnor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -25766,7 +26329,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ranger of Gondor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -25833,7 +26396,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Ranger of the North",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -26018,7 +26581,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rider of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -26088,7 +26651,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rider of the Dead",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -26246,7 +26809,7 @@
 			},
 			{
 				"name": "Instil Fear",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "6+"
 			}
 		]
@@ -26309,10 +26872,6 @@
 		],
 		"options": [
 			{
-				"name": "When you take a Ringwraith in your Army, you must select one of the three following options which will determine the number of Attacks and Might, Will and Fate Points the Ringwraith has. These represent the Ringwraith at different times during the War of the Ring, and his differing levels of power.\n\t1 Attack, 0 Might, 7 Will, 0 Fate ................................60 points\n\t2 Attacks, 1 Might, 10 Will, 1 Fate ............................90 points\n\t2 Attacks, 2 Might, 14 Will, 2 Fate ...........................120 points\n\nA Ringwraith may also take the following options:",
-				"type": "OPTIONAL_RULES"
-			},
-			{
 				"name": "Armoured Fell Beast",
 				"cost": "70"
 			},
@@ -26357,7 +26916,7 @@
 			},
 			{
 				"name": "Instil Fear",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "6+"
 			}
 		]
@@ -26464,7 +27023,7 @@
 			},
 			{
 				"name": "Instil Fear",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "6+"
 			}
 		]
@@ -26571,7 +27130,7 @@
 			},
 			{
 				"name": "Instil Fear",
-				"range": "Selbst",
+				"range": "Self",
 				"castingValue": "6+"
 			}
 		]
@@ -26581,7 +27140,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rivendell Captain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -26651,7 +27210,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rivendell Knight",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -26724,7 +27283,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rivendell Stormcaller",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -26797,7 +27356,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rivendell Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -26870,7 +27429,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Robin Smallburrow, Hobbit Shirriff",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -26926,7 +27485,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rohan Outrider",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -26983,7 +27542,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rohan Royal Guard",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -27062,7 +27621,6 @@
 			}
 		],
 		"points": "6",
-		"noteGWFAQ": "Q: If I take a Rohan King of Men in the Realms of Men Army List, can I include Rohirrim Traitors in the army?\nA: No.",
 		"race": [
 			"Mensch"
 		],
@@ -27130,7 +27688,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rosie Cotton",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -27236,9 +27794,9 @@
 	},
 	"Royal Palanquin": {
 		"id": "palanquin",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Royal Palanquin",
 		"alignment": "Evil",
 		"source": [
@@ -27288,9 +27846,9 @@
 	},
 	"Royal War Mûmak": {
 		"id": "mumak_royal",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Royal War Mûmak",
 		"alignment": "Evil",
 		"source": [
@@ -27398,7 +27956,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Rúmil, Warden of Caras Galadhon",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -27521,7 +28079,7 @@
 		"version": "2024",
 		"language": "de",
 		"name": "Samweis Gamdschie",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -27576,9 +28134,19 @@
 			}
 		],
 		"specialRules": [
+			"\"Lass ihn los, du Scheusal!\"",
 			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"\"Lass ihn los, du Scheusal!\""
+			"Steine werfen (Reichweite 8\", Stärke 1)"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Bergbewohner",
+			"armylist": "Die Gefährten"
+		},
+		{
+			"name": "Waldbewohner",
+			"armylist": "Die Gefährten"
+		}
 		]
 	},
 	"Samwise the Brave": {
@@ -27586,7 +28154,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Samwise the Brave",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -27661,7 +28229,6 @@
 			}
 		],
 		"points": "170",
-		"noteGWFAQ": "Q: When using the Conjure Lightning ability of the Army of the White Hand Army List, can Saruman use Might to change To Wound Rolls?\nA: No.",
 		"race": [
 			"Zauberer"
 		],
@@ -27760,7 +28327,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Saruman the White",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -28113,11 +28680,11 @@
 	},
 	"Shadowfax": {
 		"id": "shadowfax",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Shadowfax",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -28217,9 +28784,9 @@
 	},
 	"Shank": {
 		"id": "shank",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Shank",
 		"alignment": "Evil",
 		"source": [
@@ -28274,9 +28841,9 @@
 	},
 	"Shank & Wrot, Orc Scavengers": {
 		"id": "shank_wrot",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Shank & Wrot, Orc Scavengers",
 		"alignment": "Evil",
 		"source": [
@@ -28285,8 +28852,8 @@
 				"page": "182-183"
 			}
 		],
-		"points": "150",
 		"note": "Shank & Wrot, Orc Scavengers, is made up of Shank, Wrot and a Snow Troll, and will count as three models. Shank is always the Captain of the Warband with Wrot and the Snow Troll as his Followers; Wrot always counts as an Independent Hero in Shank’s Warband. No other models may be part of Shank’s Warband.",
+		"points": "150",
 		"composition": [
 			"Shank",
 			"Wrot",
@@ -28295,9 +28862,9 @@
 	},
 	"Sharkey": {
 		"id": "sharkey",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Sharkey",
 		"alignment": "Evil",
 		"source": [
@@ -28369,9 +28936,9 @@
 	},
 	"Sharkey & Worm": {
 		"id": "sharkey_worm",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Sharkey & Worm",
 		"alignment": "Evil",
 		"source": [
@@ -28380,8 +28947,8 @@
 				"page": "110-111"
 			}
 		],
-		"points": "60 Points for Both",
 		"note": "Sharkey & Worm are always bought as a pair and count as two models. Sharkey is always the Captian of the Warband with Worm as the first Follower in his Warband. Worm counts as an Independent Hero in Sharkey’s Warband.",
+		"points": "60 Points for Both",
 		"composition": [
 			"Sharkey",
 			"Worm"
@@ -28461,7 +29028,6 @@
 			}
 		],
 		"points": "100",
-		"noteGWFAQ": "Q: If Shelob is included as part of the Cirith Ungol Army List and eats one friendly model does she gain bonuses for both “She is always hungry” and Swift Hunter?\nA: Yes.",
 		"race": [
 			"Spider"
 		],
@@ -28571,11 +29137,11 @@
 	},
 	"Sigrid": {
 		"id": "sigrid",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Sigrid",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -28711,7 +29277,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Sméagol",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -28818,9 +29384,9 @@
 	},
 	"Snow Troll": {
 		"id": "snowtroll",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Snow Troll",
 		"alignment": "Evil",
 		"source": [
@@ -28866,14 +29432,14 @@
 	},
 	"Snowmane": {
 		"id": "snowmane",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Snowmane with armour"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Snowmane",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -28911,7 +29477,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Son of Eorl",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Legacies of Middle-Earth - Forces of Good",
@@ -28963,11 +29529,11 @@
 	},
 	"Spectral Steed": {
 		"id": "spectral_steed",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Spectral Steed",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -29126,7 +29692,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Tauriel, Ranger of Mirkwood",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -29405,107 +29971,6 @@
 			}
 		]
 	},
-	"Der Dunkle Herrscher Sauron": {
-		"id": "sauron",
-		"version": "2024",
-		"language": "en",
-		"name": "Der Dunkle Herrscher Sauron",
-		"alignment": "Evil",
-		"source": [
-			{
-				"book": "Armies of The Lord of the Rings",
-				"page": "139"
-			}
-		],
-		"points": "400",
-		"race": [
-			"Spirit"
-		],
-		"faction": [
-			"Mordor"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Monster",
-			"Einzigartig"
-		],
-		"baseSize": "40mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "9",
-			"shootValue": "4+",
-			"strength": "8",
-			"defence": "10",
-			"attacks": "4",
-			"wounds": "5",
-			"courage": "3+",
-			"intelligence": "3+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "6",
-			"fate": "0"
-		},
-		"wargear": [
-			{
-				"name": "Heavy armour"
-			},
-			{
-				"name": "Handwaffe"
-			},
-			{
-				"name": "The One Ring [Sauron]"
-			}
-		],
-		"heroicActions": [
-			"Heroische Herausforderung",
-			"Heroisches Kanalisieren",
-			"Heroische Stärke",
-			"Heroischer Hieb"
-		],
-		"specialRules": [
-			"Dominant (10)",
-			"Harbinger of Evil (18\")",
-			"Magieresistent",
-			"Terror",
-			"The Lord of the Rings",
-			"Unstoppable",
-			"Flames of Evil"
-		],
-		"magicalPowers": [
-			{
-				"name": "Compel",
-				"range": "18\"",
-				"castingValue": "3+"
-			},
-			{
-				"name": "Fog of Disarray",
-				"range": "Selbst",
-				"castingValue": "3+"
-			},
-			{
-				"name": "Lähmung",
-				"range": "18\"",
-				"castingValue": "3+"
-			},
-			{
-				"name": "Chill Soul",
-				"range": "12\"",
-				"castingValue": "4+"
-			},
-			{
-				"name": "Drain Courage",
-				"range": "18\"",
-				"castingValue": "4+"
-			},
-			{
-				"name": "Instil Fear",
-				"range": "Selbst",
-				"castingValue": "5+"
-			}
-		]
-	},
 	"The Dark Marshal": {
 		"id": "dark_marshal",
 		"version": "2024",
@@ -29775,7 +30240,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Gatekeeper of Bree",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -30057,7 +30522,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The King of the Dead",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -30217,7 +30682,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "The Master of Lake-town",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -30852,9 +31317,9 @@
 	},
 	"The White Warg": {
 		"id": "white_warg",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "The White Warg",
 		"alignment": "Evil",
 		"source": [
@@ -31433,7 +31898,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Théoden, King of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -31513,7 +31978,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Théodred, Prince of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -31578,12 +32043,73 @@
 			"Reckless Charge"
 		]
 	},
+	"Thorin III Stonehelm": {
+		"id": "thorin_stonehelm",
+		"version": "2024",
+		"language": "en",
+		"name": "Thorin III Stonehelm",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "69"
+			}
+		],
+		"points": "110",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Erebor"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "9",
+			"attacks": "3",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "3",
+			"fate": "3"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Zwergenrüstung"
+			},
+			{
+				"name": "Schild"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"heroicActions": [
+			"Heroische Verteidigung",
+			"Heroische Stärke",
+			"Heroischer Hieb"
+		],
+		"specialRules": [
+			"Cool-headed"
+		]
+	},
 	"Thorin Oakenshield": {
 		"id": "thorin_oakenshield",
 		"version": "2024",
 		"language": "en",
 		"name": "Thorin Oakenshield",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -31652,7 +32178,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Thorin Oakenshield, King under the Mountain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -31715,73 +32241,12 @@
 			"Ancestral Fury"
 		]
 	},
-	"Thorin III Stonehelm": {
-		"id": "thorin_stonehelm",
-		"version": "2024",
-		"language": "en",
-		"name": "Thorin III Stonehelm",
-		"alignment": "Good",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "69"
-			}
-		],
-		"points": "110",
-		"race": [
-			"Zwerg"
-		],
-		"faction": [
-			"Erebor"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "9",
-			"attacks": "3",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "3",
-			"fate": "3"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Zwergenrüstung"
-			},
-			{
-				"name": "Schild"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroische Stärke",
-			"Heroischer Hieb"
-		],
-		"specialRules": [
-			"Cool-headed"
-		]
-	},
 	"Thráin, Son of Thrór": {
 		"id": "thrain",
 		"version": "2024",
 		"language": "en",
 		"name": "Thráin, Son of Thrór",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -31842,7 +32307,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Thráin the Broken",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -31893,7 +32358,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Thranduil, King of the Woodland Realm",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -31963,7 +32428,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Thrór, King under the Mountain",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -32100,11 +32565,11 @@
 	},
 	"Tilda": {
 		"id": "tilda",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Tilda",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -32154,7 +32619,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Tom Bombadil",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -32214,7 +32679,6 @@
 			}
 		],
 		"points": "120",
-		"noteGWFAQ": "Q: Is the Three Trolls Campfire Open Ground, Impassable or something else?\nA: The Campfire is treated like an Objective Marker, though it doesn’t actually count as one for Scenario objectives.",
 		"race": [
 			"Troll"
 		],
@@ -32265,13 +32729,14 @@
 	"Tookish Hunters": {
 		"id": "tookish_hunters",
 		"version": "2024",
+		"language": "en",
 		"name": "Tookish Hunters",
 		"linkedProfile": [
 			"Hobbit Archer",
 			"Paladin Took, Thain of the Shire",
 			"Peregrin Took, Captain of the Shire"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -32295,7 +32760,7 @@
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry"
+			"Infanterie"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
@@ -32311,7 +32776,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Hand weapon"
+				"name": "Handwaffe"
 			},
 			{
 				"name": "Short bow"
@@ -32325,85 +32790,16 @@
 			}
 		],
 		"specialRules": [
-			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
+			"Magieresistent",
+			"Steine werfen (Reichweite 8\", Stärke 1)",
 			"Tookish Hunters"
-		]
-	},
-	"Baumbart": {
-		"id": "treebeard",
-		"version": "2024",
-		"language": "en",
-		"name": "Baumbart",
-		"alignment": "Good",
-		"source": [
-			{
-				"book": "Armies of The Lord of the Rings",
-				"page": "24"
-			}
-		],
-		"points": "190",
-		"race": [
-			"Ent"
-		],
-		"faction": [
-			"Fangorn"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Monster",
-			"Einzigartig"
-		],
-		"baseSize": "60mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "8",
-			"shootValue": "3+",
-			"strength": "8",
-			"defence": "8",
-			"attacks": "4",
-			"wounds": "4",
-			"courage": "3+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "4",
-			"fate": "3"
-		},
-		"wargear": [
-			{
-				"name": "Roots and branches (hand weapon)"
-			}
-		],
-		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroischer Marsch",
-			"Heroische Stärke",
-			"Heroischer Hieb"
-		],
-		"options": [
-			{
-				"name": "Merry & Pippin",
-				"cost": "10"
-			}
-		],
-		"specialRules": [
-			"Dominant (5)",
-			"Fearless",
-			"Large Target",
-			"Terror",
-			"Steine werfen (Reichweite 18\", Stärke 10)",
-			"Waldbewohner",
-			"Bludgeon"
 		]
 	},
 	"Troll Brute": {
 		"id": "troll_brute",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Troll Brute",
 		"alignment": "Evil",
 		"source": [
@@ -32412,8 +32808,8 @@
 				"page": "125"
 			}
 		],
-		"points": "120",
 		"note": "COMPOSITION\nA Troll Brute compromises an Orc Commander, and the actual Troll Brute, which use the profiles below:",
+		"points": "120",
 		"composition": [
 			"Orc Commander (Troll Brute)",
 			"Troll Brute (War Beast)"
@@ -32421,12 +32817,12 @@
 	},
 	"Troll Brute (War Beast)": {
 		"id": "troll_brute_war_beast",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
 		"alias": [
 			"Troll Brute (see page 125, Bofur replaces the Orc Commander)"
 		],
-		"type": "Composition Model",
-		"version": "2024",
-		"language": "en",
 		"name": "Troll Brute (War Beast)",
 		"alignment": "Evil",
 		"source": [
@@ -32638,9 +33034,9 @@
 	},
 	"Uruk-hai Demolition Team": {
 		"id": "urukhai_demolitionteam",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Uruk-hai Demolition Team",
 		"alignment": "Evil",
 		"source": [
@@ -32649,8 +33045,8 @@
 				"page": "169"
 			}
 		],
-		"points": "80",
 		"note": "COMPOSITION\nAn Uruk-hai Demolition Team contains 2 Uruk-hai Engineers, 1 Uruk-hai Berserker with torch and 1 Demolition Charge, which use the profile below.",
+		"points": "80",
 		"composition": [
 			"Uruk-hai Engineer",
 			"Uruk-hai Berserker",
@@ -32711,9 +33107,9 @@
 	},
 	"Uruk-hai Engineer": {
 		"id": "urukhai_engineer",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Uruk-hai Engineer",
 		"alignment": "Evil",
 		"source": [
@@ -32943,9 +33339,9 @@
 	},
 	"Uruk-hai Siege Crew": {
 		"id": "siege_crew_urukhai",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Uruk-hai Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -32975,6 +33371,55 @@
 			"wounds": "1",
 			"courage": "7+",
 			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		]
+	},
+	"Uruk-hai Siege Veteran": {
+		"id": "siege_veteran_urukhai",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Uruk-hai Siege Veteran",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "168"
+			}
+		],
+		"race": [
+			"Uruk-hai"
+		],
+		"faction": [
+			"Isengard"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -33056,19 +33501,19 @@
 	},
 	"Vault Warden Team": {
 		"id": "vault_warden_team",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Vault Warden Team",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
 				"page": "66"
 			}
 		],
-		"points": "25",
 		"note": "A Vault Warden Team is always purchased as a pair of two models, one Iron Shield Bearer and one Foe Spear Wielder, which each using the relevant profile below:",
+		"points": "25",
 		"composition": [
 			"Iron Shield Bearer",
 			"Foe Spear Wielder"
@@ -33077,6 +33522,7 @@
 	"Venom- back Spider": {
 		"id": "venom_spider",
 		"version": "2024",
+		"language": "en",
 		"name": "Venom- back Spider",
 		"linkedProfile": [
 			"Ashrâk",
@@ -33102,8 +33548,8 @@
 		],
 		"unitTypes": [
 			"Warrior",
-			"Infantry",
-			"Beast"
+			"Infanterie",
+			"Bestie"
 		],
 		"baseSize": "40mm",
 		"characteristics": {
@@ -33241,11 +33687,11 @@
 	},
 	"War Boar": {
 		"id": "warboar",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "War Boar",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -33276,9 +33722,9 @@
 	},
 	"War Camel": {
 		"id": "warcamel",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "War Camel",
 		"alignment": "Evil",
 		"source": [
@@ -33365,11 +33811,11 @@
 	},
 	"War Goat": {
 		"id": "wargoat",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "War Goat",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -33404,9 +33850,9 @@
 	},
 	"War Mûmak of Harad": {
 		"id": "war_mumak",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "War Mûmak of Harad",
 		"alignment": "Evil",
 		"source": [
@@ -33415,8 +33861,8 @@
 				"page": "192-193"
 			}
 		],
-		"points": "250",
 		"note": "COMPOSITION\nA War Mûmak of Harad compromises a Haradrim Commander, Mûmak, and a Howdah, which use the profiles below:",
+		"points": "250",
 		"composition": [
 			"Haradrim Commander",
 			"Mûmak",
@@ -33425,9 +33871,9 @@
 	},
 	"Warg": {
 		"id": "warg",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Warg",
 		"alignment": "Evil",
 		"source": [
@@ -33470,8 +33916,8 @@
 				"page": "20"
 			}
 		],
-		"points": "35",
 		"note": "A Warg Marauder is an interesting Cavalry model that consists of three Moria Goblin Warriors riding a single Warg Mount. Two of the Moria Goblin Warriors are armed with an Orc bow, whilst the other is armed with a shield. This is treated as any other Cavalry model with the following exceptions:\n\t• Whilst the Moria Goblin Warrior with shield remains alive, all parts of the Cavalry model gain the bonus of +1 to their Defence.\n\t• The Warg Marauder only counts as a single model towards an Army’s Bow Limit.\n\t• If one Moria Goblin Warrior wishes to dismount, then they must all do so together.",
+		"points": "35",
 		"race": [
 			"Goblin"
 		],
@@ -33522,7 +33968,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Warrior of Arnor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -33645,7 +34091,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Warrior of Dale",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -33719,7 +34165,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Warrior of Minas Tirith",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -33793,7 +34239,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Warrior of Númenor",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -33854,7 +34300,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Warrior of Rohan",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -33928,7 +34374,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Warrior of the Dead",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -34106,12 +34552,13 @@
 	"Westfold Redshield": {
 		"id": "westfold_redshield",
 		"version": "2024",
+		"language": "en",
 		"name": "Westfold Redshield",
 		"linkedProfile": [
 			"Erkenbrand, Captain of Rohan",
 			"Rider of Rohan"
 		],
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Lord of the Rings",
@@ -34124,7 +34571,7 @@
 		],
 		"points": "15",
 		"race": [
-			"Man"
+			"Mensch"
 		],
 		"faction": [
 			"Rohan"
@@ -34147,19 +34594,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Armour"
+				"name": "Rüstung"
 			},
 			{
-				"name": "Shield"
+				"name": "Schild"
 			},
 			{
-				"name": "Hand weapon"
+				"name": "Handwaffe"
 			},
 			{
-				"name": "Bow"
+				"name": "Bogen"
 			},
 			{
-				"name": "Horse"
+				"name": "Pferd"
 			}
 		],
 		"options": [
@@ -34478,7 +34925,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Will Whitfoot, Mayor of Michel Delving",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -34531,19 +34978,19 @@
 	},
 	"Windlance": {
 		"id": "windlance",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Windlance",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
 				"page": "55"
 			}
 		],
-		"points": "70",
 		"note": "COMPOSITION\nA Windlance is a Small Siege Engine, and is crewed by two Dale Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "70",
 		"composition": [
 			"Dale Siege Crew",
 			"Windlance (Siege Engine)"
@@ -34551,11 +34998,11 @@
 	},
 	"Windlance (Siege Engine)": {
 		"id": "windlance_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Windlance (Siege Engine)",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -34583,7 +35030,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Wood Elf Sentinel",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -34631,9 +35078,9 @@
 	},
 	"Worm": {
 		"id": "worm",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Worm",
 		"alignment": "Evil",
 		"source": [
@@ -34686,7 +35133,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Woses Warrior",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
@@ -34738,9 +35185,9 @@
 	},
 	"Wrot": {
 		"id": "wrot",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Wrot",
 		"alignment": "Evil",
 		"source": [
@@ -34927,7 +35374,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Young Balin the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -34984,7 +35431,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Young Dwalin the Dwarf",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",
@@ -35043,7 +35490,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Young Thorin Oakenshield",
-		"alignment": "Good",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of The Hobbit",

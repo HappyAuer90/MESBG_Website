@@ -100,8 +100,8 @@
 		],
 		"specialRules": [
 			"Fearful",
-			"Unsteady Nerves",
-			"Lucky Shot"
+			"Lucky Shot",
+			"Unsteady Nerves"
 		]
 	},
 	"Aldrac, Warlord of Carn Dûm": {
@@ -163,9 +163,9 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Battle Frenzy",
 			"Mighty Blow",
-			"Warlord of Carn Dûm",
-			"Battle Frenzy"
+			"Warlord of Carn Dûm"
 		]
 	},
 	"Alfrid the Councillor": {
@@ -215,8 +215,8 @@
 			}
 		],
 		"specialRules": [
-			"Fearful",
-			"Dubious Counsel"
+			"Dubious Counsel",
+			"Fearful"
 		]
 	},
 	"Amdûr, Lord of Blades": {
@@ -281,11 +281,11 @@
 		],
 		"specialRules": [
 			"General Hunter",
-			"Unyielding Combat Stance",
+			"Herald of Victory",
 			"Phalanx",
 			"The Gleaming Horde",
-			"Herald of Victory",
-			"The Lord of Blades"
+			"The Lord of Blades",
+			"Unyielding Combat Stance"
 		]
 	},
 	"Anborn, Ranger of Ithilien": {
@@ -344,9 +344,9 @@
 			"Heroic Accuracy"
 		],
 		"specialRules": [
+			"Lethal Aim",
 			"Sharpshooter",
-			"Woodland Creature",
-			"Lethal Aim"
+			"Woodland Creature"
 		]
 	},
 	"Angbor the Fearless": {
@@ -404,9 +404,9 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Chief of Lamedon",
 			"Fearless",
-			"Mighty Blow",
-			"Chief of Lamedon"
+			"Mighty Blow"
 		]
 	},
 	"Angmar Orc Captain": {
@@ -840,6 +840,16 @@
 			"Horse Lord",
 			"Mighty Hero",
 			"Resistant to Magic"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Aranarth, First Chieftain of the Dúnedain": {
@@ -902,8 +912,8 @@
 		"specialRules": [
 			"Expert Shot",
 			"Hatred (Angmar)",
-			"Sharpshooter",
-			"Remnants of Arnor"
+			"Remnants of Arnor",
+			"Sharpshooter"
 		]
 	},
 	"Arathorn, Chieftain of the Dúnedain": {
@@ -963,8 +973,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Chieftain of the Dúnedain"
+			"Chieftain of the Dúnedain",
+			"Woodland Creature"
 		]
 	},
 	"Argadir, Captain of Arnor": {
@@ -1037,9 +1047,9 @@
 	},
 	"Armoured horse": {
 		"id": "armoured_horse",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Armoured horse",
 		"alignment": "Neither",
 		"source": [
@@ -1213,12 +1223,12 @@
 	},
 	"Asfaloth": {
 		"id": "asfaloth",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Asfaloth (Glorfindel can only take Asfaloth if Arwen is not in the same Army)"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Asfaloth",
 		"alignment": "Good",
 		"source": [
@@ -1268,9 +1278,9 @@
 	},
 	"Ashere": {
 		"id": "ashere",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Ashere",
 		"alignment": "Good",
 		"source": [
@@ -1502,9 +1512,9 @@
 	},
 	"Bain, Son of Bard": {
 		"id": "bain_son_bard",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Bain, Son of Bard",
 		"alignment": "Good",
 		"source": [
@@ -1603,11 +1613,11 @@
 			"Heroic Accuracy"
 		],
 		"specialRules": [
+			"Champion Stone Skipper",
+			"Master of Traps",
 			"Resistant to Magic",
 			"Sharpshooter",
-			"Throw Stones (range 8\", Strength 1)",
-			"Champion Stone Skipper",
-			"Master of Traps"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Balin the Dwarf": {
@@ -1721,8 +1731,8 @@
 			"Heroic Resolve"
 		],
 		"specialRules": [
-			"Sworn Protector (Thorin)",
-			"Longbeard"
+			"Longbeard",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"Balin the Dwarf, King of Moria": {
@@ -1839,10 +1849,74 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Clean strike",
 			"Leader (Hobbit Shirriff)",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"Clean strike"
+			"Throw Stones (range 8\", Strength 1)"
+		]
+	},
+	"Bard II, Prince of Dale": {
+		"id": "bardii",
+		"version": "2024",
+		"language": "en",
+		"name": "Bard II, Prince of Dale",
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "51"
+			}
+		],
+		"points": "100",
+		"race": [
+			"Man"
+		],
+		"faction": [
+			"Dale"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry",
+			"Unique"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "7",
+			"attacks": "3",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "2",
+			"fate": "2"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Shield"
+			},
+			{
+				"name": "Spear"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"heroicActions": [
+			"Heroic Defence",
+			"Heroic Resolve",
+			"Heroic Strike"
+		],
+		"specialRules": [
+			"Wall of Blades"
 		]
 	},
 	"Bard the Bowman": {
@@ -1911,21 +1985,21 @@
 			}
 		],
 		"specialRules": [
+			"Rapid Fire [Bard]",
 			"Sharpshooter",
+			"Swift Shot",
 			"Sworn Protector (Bain)",
 			"Sworn Protector (Sigrid)",
 			"Sworn Protector (Tilda)",
-			"Rapid Fire [Bard]",
-			"Swift Shot",
-			"Windlance Trained",
-			"The Black Arrow"
+			"The Black Arrow",
+			"Windlance Trained"
 		]
 	},
 	"Bard’s Family": {
 		"id": "bard_family",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Bard’s Family",
 		"alignment": "Good",
 		"source": [
@@ -1934,76 +2008,12 @@
 				"page": "44-45"
 			}
 		],
-		"points": "60",
 		"note": "Bard’s Family is made up of Bain, son of Bard, and Sigrid & Tilda, and will count as three models. You may only include Bard’s Family in your Army if it also includes Bard the Bowman, in which case they must always be included as part of Bard’s Warband.\nIf any member of Bard’s Family is slain, then make a note of the model that killed them. For the remainder of the game, whenever Bard Activates if he can Charge an enemy model then he must do so; if he is able to Charge an enemy model that killed a member of his family, then he must prioritise that model to Charge. If when Bard Activates he can Charge multiple enemy models that have killed members of his family (if applicable), then he may choose which of them he must Charge.",
+		"points": "60",
 		"composition": [
 			"Bain, Son of Bard",
 			"Sigrid",
 			"Tilda"
-		]
-	},
-	"Bard II, Prince of Dale": {
-		"id": "bardii",
-		"version": "2024",
-		"language": "en",
-		"name": "Bard II, Prince of Dale",
-		"alignment": "Good",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "51"
-			}
-		],
-		"points": "100",
-		"race": [
-			"Man"
-		],
-		"faction": [
-			"Dale"
-		],
-		"unitTypes": [
-			"Hero",
-			"Infantry",
-			"Unique"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "5",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "7",
-			"attacks": "3",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "2",
-			"fate": "2"
-		},
-		"wargear": [
-			{
-				"name": "Heavy armour"
-			},
-			{
-				"name": "Shield"
-			},
-			{
-				"name": "Spear"
-			},
-			{
-				"name": "Hand weapon"
-			}
-		],
-		"heroicActions": [
-			"Heroic Defence",
-			"Heroic Resolve",
-			"Heroic Strike"
-		],
-		"specialRules": [
-			"Wall of Blades"
 		]
 	},
 	"Barliman Butterbur": {
@@ -2165,9 +2175,9 @@
 			}
 		],
 		"specialRules": [
+			"Blinding Swarm",
 			"Cave Dweller",
-			"Fly [SpecialRule]",
-			"Blinding Swarm"
+			"Fly [SpecialRule]"
 		]
 	},
 	"Batllin’ Brandybucks": {
@@ -2275,14 +2285,14 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
+			"Bludgeon",
+			"Deep-rooted Hatred",
 			"Dominant (3)",
 			"Fearless",
 			"Large Target",
 			"Terror",
 			"Throw Stones (range 18\", Strength 10)",
-			"Woodland Creature",
-			"Bludgeon",
-			"Deep-rooted Hatred"
+			"Woodland Creature"
 		]
 	},
 	"Beorn": {
@@ -2341,8 +2351,8 @@
 			"Dominant (2)",
 			"Fearless",
 			"Resistant to Magic",
-			"Woodland Creature",
-			"Skin-changer [Beorn]"
+			"Skin-changer [Beorn]",
+			"Woodland Creature"
 		]
 	},
 	"Beorn the Bear": {
@@ -2397,16 +2407,16 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Berserk",
 			"Burly",
+			"Crushing Strength",
 			"Dominant (5)",
 			"Fearless",
 			"Monstrous Charge",
 			"Resistant to Magic",
-			"Terror",
-			"Woodland Creature",
 			"Skin-changer [Beorn the Bear]",
-			"Berserk",
-			"Crushing Strength"
+			"Terror",
+			"Woodland Creature"
 		]
 	},
 	"Beorning": {
@@ -2460,8 +2470,8 @@
 		],
 		"specialRules": [
 			"Burly",
-			"Woodland Creature",
-			"Followers of the Bear"
+			"Followers of the Bear",
+			"Woodland Creature"
 		]
 	},
 	"Beregond, Guard of the Citadel": {
@@ -2520,8 +2530,8 @@
 			"Heroic Accuracy"
 		],
 		"specialRules": [
-			"Bodyguard",
-			"An Unlikely Friendship"
+			"An Unlikely Friendship",
+			"Bodyguard"
 		]
 	},
 	"Bert the Troll": {
@@ -2577,11 +2587,11 @@
 		],
 		"specialRules": [
 			"Dominant (3)",
+			"Keep ’em for later",
 			"Large Target",
-			"Terror",
-			"Throw Stones (range 12\", Strength 8)",
 			"Roast ’em slowly",
-			"Keep ’em for later"
+			"Terror",
+			"Throw Stones (range 12\", Strength 8)"
 		]
 	},
 	"Bifur the Dwarf": {
@@ -2640,8 +2650,8 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
-			"Throw Stones (range 8\", Strength 2)",
-			"Embedded Axe"
+			"Embedded Axe",
+			"Throw Stones (range 8\", Strength 2)"
 		]
 	},
 	"Bifur the Dwarf, Champion of Erebor": {
@@ -2697,9 +2707,9 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
+			"Embedded Axe",
 			"Sworn Protector (Thorin)",
-			"Throw Stones (range 8\", Strength 2)",
-			"Embedded Axe"
+			"Throw Stones (range 8\", Strength 2)"
 		]
 	},
 	"Bilbo Baggins": {
@@ -2764,9 +2774,9 @@
 			}
 		],
 		"specialRules": [
+			"It has not yet awoken",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"It has not yet awoken"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Bilbo Baggins, Ageing Hobbit": {
@@ -2829,7 +2839,7 @@
 			},
 			{
 				"name": "Sting",
-				"cost": "15"
+				"cost": "5"
 			},
 			{
 				"name": "The One Ring",
@@ -2838,8 +2848,8 @@
 		],
 		"specialRules": [
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"Slip away"
+			"Slip away",
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Bilbo Baggins, Master Burglar": {
@@ -2900,9 +2910,9 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"It has not yet awoken",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"It has not yet awoken"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Bill Ferny": {
@@ -3013,8 +3023,18 @@
 		"specialRules": [
 			"Fearful",
 			"Official Meals",
-			"Second Breakfast",
-			"Only a Pony"
+			"Only a Pony",
+			"Second Breakfast"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Bill the Troll": {
@@ -3070,11 +3090,11 @@
 		],
 		"specialRules": [
 			"Dominant (5)",
+			"Keep ’em for later",
 			"Large Target",
-			"Terror",
-			"Throw Stones (range 12\", Strength 8)",
 			"Mince ’em fine",
-			"Keep ’em for later"
+			"Terror",
+			"Throw Stones (range 12\", Strength 8)"
 		]
 	},
 	"Birchseed": {
@@ -3128,14 +3148,14 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
+			"Bludgeon",
 			"Dominant (3)",
 			"Fearless",
 			"Large Target",
+			"Naturally Unhasty",
 			"Terror",
 			"Throw Stones (range 18\", Strength 10)",
-			"Woodland Creature",
-			"Bludgeon",
-			"Naturally Unhasty"
+			"Woodland Creature"
 		]
 	},
 	"Black Dragon Warrior": {
@@ -3560,8 +3580,8 @@
 			}
 		],
 		"specialRules": [
-			"Mountain Dweller",
-			"Dead-eye Shot"
+			"Dead-eye Shot",
+			"Mountain Dweller"
 		]
 	},
 	"Bofur the Dwarf": {
@@ -3682,8 +3702,8 @@
 			}
 		],
 		"specialRules": [
-			"Sworn Protector (Thorin)",
-			"Steadfast"
+			"Steadfast",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"Bolg, Spawn of Azog": {
@@ -3867,9 +3887,9 @@
 		],
 		"specialRules": [
 			"Dominant (2)",
-			"Sworn Protector (Thorin)",
 			"Lumbering",
-			"Raising Spirits"
+			"Raising Spirits",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"Boromir, Captain of the White Tower": {
@@ -4022,6 +4042,16 @@
 		],
 		"specialRules": [
 			"\"Protect the little ones!\""
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Braga, Captain of the Guard": {
@@ -4078,8 +4108,8 @@
 			"Heroic March"
 		],
 		"specialRules": [
-			"The Master’s Puppet",
-			"Captain of the Guard"
+			"Captain of the Guard",
+			"The Master’s Puppet"
 		]
 	},
 	"Brand, King of Dale": {
@@ -4146,9 +4176,9 @@
 	},
 	"Brego": {
 		"id": "brego",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Brego",
 		"alignment": "Good",
 		"source": [
@@ -4366,12 +4396,12 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Brutish Cunning",
 			"Dominant (4)",
 			"General Hunter",
-			"Terror",
-			"Throw Stones (range 12\", Strength 8)",
 			"Lead by Example",
-			"Brutish Cunning"
+			"Terror",
+			"Throw Stones (range 12\", Strength 8)"
 		]
 	},
 	"Captain of Arnor": {
@@ -4907,11 +4937,11 @@
 			}
 		],
 		"specialRules": [
+			"Automatons",
+			"Bound in Shadow",
 			"Terror",
 			"Will of Evil",
-			"Automatons",
-			"Will of the Necromancer",
-			"Bound in Shadow"
+			"Will of the Necromancer"
 		]
 	},
 	"Cave Drake": {
@@ -4966,16 +4996,16 @@
 		],
 		"specialRules": [
 			"Cave Dweller",
+			"Cornered Beast",
 			"Dominant (4)",
+			"Gaping Maw",
 			"Large Target",
 			"Monstrous Charge",
 			"Mountain Dweller",
+			"Protect the Nest",
 			"Resistant to Magic",
 			"Terror",
-			"Woodland Creature",
-			"Protect the Nest",
-			"Cornered Beast",
-			"Gaping Maw"
+			"Woodland Creature"
 		]
 	},
 	"Cave Troll": {
@@ -5095,10 +5125,10 @@
 			}
 		],
 		"specialRules": [
+			"Battle Wisdom",
 			"Terror",
-			"Woodland Creature",
 			"The Lord of Lórien",
-			"Battle Wisdom"
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -5176,8 +5206,8 @@
 		"specialRules": [
 			"Resistant to Magic",
 			"Terror",
-			"Woodland Creature",
-			"The Shipwright’s Power"
+			"The Shipwright’s Power",
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -5377,9 +5407,9 @@
 	},
 	"Corsair Ballista": {
 		"id": "corsair_ballista",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Corsair Ballista",
 		"alignment": "Evil",
 		"source": [
@@ -5388,18 +5418,19 @@
 				"page": "199"
 			}
 		],
-		"points": "70",
 		"note": "COMPOSITION\nA Corsair Ballista is a Small Siege Engine, and is crewed by three Corsair Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "70",
 		"composition": [
+			"Corsair Siege Veteran",
 			"Corsair Siege Crew",
 			"Corsair Ballista (Siege Engine)"
 		]
 	},
 	"Corsair Ballista (Siege Engine)": {
 		"id": "corsair_ballista_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Corsair Ballista (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -5419,9 +5450,9 @@
 			"wounds": "3"
 		},
 		"specialRules": [
+			"Bladed Bolts",
 			"Direct Shot",
-			"Piercing Shot",
-			"Bladed Bolts"
+			"Piercing Shot"
 		]
 	},
 	"Corsair Bo’sun": {
@@ -5714,9 +5745,9 @@
 	},
 	"Corsair Siege Crew": {
 		"id": "siege_crew_corsair",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Corsair Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -5747,6 +5778,56 @@
 			"wounds": "1",
 			"courage": "7+",
 			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Light armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		]
+	},
+	"Corsair Siege Veteran": {
+		"id": "siege_veteran_corsair",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Corsair Siege Veteran",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "199"
+			}
+		],
+		"race": [
+			"Man"
+		],
+		"faction": [
+			"Corsair",
+			"Umbar"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -5800,9 +5881,9 @@
 			}
 		],
 		"specialRules": [
+			"Cloud of Birds",
 			"Fly [SpecialRule]",
-			"Keen Sight",
-			"Cloud of Birds"
+			"Keen Sight"
 		]
 	},
 	"Dáin Ironfoot, King under the Mountain": {
@@ -5862,8 +5943,8 @@
 		],
 		"specialRules": [
 			"Fearless",
-			"Venerable",
-			"King Under the Mountain"
+			"King Under the Mountain",
+			"Venerable"
 		]
 	},
 	"Dáin Ironfoot, Lord of the Iron Hills": {
@@ -5930,10 +6011,10 @@
 		"specialRules": [
 			"Burly",
 			"Fearless",
-			"Lord of the Iron Hills",
-			"Fiery Temper",
 			"Fearsome Charge",
-			"Headbutt"
+			"Fiery Temper",
+			"Headbutt",
+			"Lord of the Iron Hills"
 		]
 	},
 	"Dalamyr, Fleetmaster of Umbar": {
@@ -5996,15 +6077,15 @@
 		"specialRules": [
 			"Backstabbers",
 			"Bane of Kings",
-			"Stalk Unseen",
-			"Prenatural Agility"
+			"Prenatural Agility",
+			"Stalk Unseen"
 		]
 	},
 	"Dale Siege Crew": {
 		"id": "dale_siege_crew",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Dale Siege Crew",
 		"alignment": "Good",
 		"source": [
@@ -6034,6 +6115,58 @@
 			"wounds": "1",
 			"courage": "7+",
 			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"specialRules": [
+			"Hatred (Dragon)"
+		]
+	},
+	"Dale Siege Veteran": {
+		"id": "dale_veteran_crew",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Dale Siege Veteran",
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "55"
+			}
+		],
+		"race": [
+			"Man"
+		],
+		"faction": [
+			"Dale"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -6103,8 +6236,8 @@
 			"Heroic Accuracy"
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Well-aimed Shot"
+			"Well-aimed Shot",
+			"Woodland Creature"
 		]
 	},
 	"Delgamar, Gatemaster of Umbar": {
@@ -6172,9 +6305,9 @@
 	},
 	"Demolition Charge": {
 		"id": "demolitioncharge",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Demolition Charge",
 		"alignment": "Evil",
 		"source": [
@@ -6253,9 +6386,9 @@
 			"Heroic Defence"
 		],
 		"specialRules": [
+			"Broken Mind",
 			"Leader (Citadel Guard)",
-			"Leader (Guard of the Fountain Court)",
-			"Broken Mind"
+			"Leader (Guard of the Fountain Court)"
 		]
 	},
 	"Déorwine, Chief of the King’s Knights": {
@@ -6322,10 +6455,10 @@
 		],
 		"specialRules": [
 			"Expert Rider",
+			"For Théoden!",
 			"Horse Lord",
 			"Leader (Royal Rohan Guard)",
-			"Sworn Protector (Théoden)",
-			"For Théoden!"
+			"Sworn Protector (Théoden)"
 		]
 	},
 	"Dori the Dwarf": {
@@ -6438,8 +6571,8 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
-			"Sworn Protector (Thorin)",
-			"A Good Sort [Champion]"
+			"A Good Sort [Champion]",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"Dragon": {
@@ -6577,16 +6710,16 @@
 			}
 		],
 		"specialRules": [
-			"Unyielding Combat Stance",
 			"Supreme Agility",
+			"Unyielding Combat Stance",
 			"Warrior of the Dragon Cult"
 		]
 	},
 	"Drár": {
 		"id": "drar",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Drár",
 		"alignment": "Good",
 		"source": [
@@ -6779,10 +6912,10 @@
 			"Heroic Defence"
 		],
 		"specialRules": [
-			"Mountain Dweller",
-			"Sharpshooter",
 			"Go for the eyes!",
-			"Lord of the Blackroot Vale"
+			"Lord of the Blackroot Vale",
+			"Mountain Dweller",
+			"Sharpshooter"
 		]
 	},
 	"Dunlending Chieftain": {
@@ -7066,9 +7199,9 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Callous Leadership",
 			"Cave Dweller",
-			"Iron Fist",
-			"Callous Leadership"
+			"Iron Fist"
 		]
 	},
 	"Durin, King of Khazad-dûm": {
@@ -7267,8 +7400,8 @@
 			"Burly",
 			"Fearless",
 			"Sworn Protector (Thorin)",
-			"Weapon Master",
-			"The King’s Axemen"
+			"The King’s Axemen",
+			"Weapon Master"
 		]
 	},
 	"Dwarf Captain": {
@@ -7686,9 +7819,9 @@
 	},
 	"Dwarf Siege Crew": {
 		"id": "siege_crew_dwarf",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Dwarf Siege Crew",
 		"alignment": "Good",
 		"source": [
@@ -7718,6 +7851,55 @@
 			"wounds": "1",
 			"courage": "6+",
 			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		]
+	},
+	"Dwarf Siege Veteran": {
+		"id": "siege_veteran_dwarf",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Dwarf Siege Veteran",
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "67"
+			}
+		],
+		"race": [
+			"Dwarf"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -7801,9 +7983,9 @@
 	},
 	"Dwarven Ballista": {
 		"id": "dwarven_ballista",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Dwarven Ballista",
 		"alignment": "Good",
 		"source": [
@@ -7812,18 +7994,19 @@
 				"page": "67"
 			}
 		],
-		"points": "70",
 		"note": "COMPOSITION\nA Dwarven Ballista is a Small Siege Engine, and is crewed by two Dwarf Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "70",
 		"composition": [
+			"Dwarf Siege Veteran",
 			"Dwarf Siege Crew",
 			"Dwarven Ballista (Siege Engine)"
 		]
 	},
 	"Dwarven Ballista (Siege Engine)": {
 		"id": "dwarven_ballista_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Dwarven Ballista (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -7843,8 +8026,8 @@
 			"wounds": "3"
 		},
 		"specialRules": [
-			"Direct Shot",
 			"Accurate",
+			"Direct Shot",
 			"Piercing Shot"
 		]
 	},
@@ -7891,9 +8074,9 @@
 		],
 		"specialRules": [
 			"Dominant (3)",
+			"Murderous Power",
 			"Resistant to Magic",
-			"Terror",
-			"Murderous Power"
+			"Terror"
 		]
 	},
 	"Eärnur, Last King of Gondor": {
@@ -8079,11 +8262,11 @@
 		],
 		"specialRules": [
 			"General Hunter",
-			"Unyielding Combat Stance",
+			"Leader of the Dragon Cult",
 			"Phalanx",
-			"The Gleaming Horde",
 			"Shield of Blades",
-			"Leader of the Dragon Cult"
+			"The Gleaming Horde",
+			"Unyielding Combat Stance"
 		]
 	},
 	"Easterling Kataphrakt": {
@@ -8413,8 +8596,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Resistant to Magic",
-			"High King of Gondor and Arnor"
+			"High King of Gondor and Arnor",
+			"Resistant to Magic"
 		]
 	},
 	"Elfhelm, Captain of Rohan": {
@@ -8491,9 +8674,9 @@
 	},
 	"Elladan": {
 		"id": "elladan",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Elladan",
 		"alignment": "Good",
 		"source": [
@@ -8549,17 +8732,17 @@
 			}
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Unbreakable Bond [Elladan]",
+			"Strength of Brotherhood [Elladan]",
 			"Twin Elven Blades",
-			"Strength of Brotherhood [Elladan]"
+			"Unbreakable Bond [Elladan]",
+			"Woodland Creature"
 		]
 	},
 	"Elladan & Elrohir": {
 		"id": "elladan_elrohir",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Elladan & Elrohir",
 		"alignment": "Good",
 		"source": [
@@ -8568,8 +8751,8 @@
 				"page": "54-55"
 			}
 		],
-		"points": "160 Points for Both",
 		"note": "If you include Elladan & Elrohir in your army, then each of them may lead their own Warband. Both Elladan & Elrohir will count as separate Hero models for the purpose of any special rules. If you wish to upgrade Elladan & Elrohir with horses, the you must purchase horses for both of the Elven twins at the given costs.",
+		"points": "160 Points for Both",
 		"composition": [
 			"Elladan",
 			"Elrohir"
@@ -8577,9 +8760,9 @@
 	},
 	"Elrohir": {
 		"id": "elrohir",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Elrohir",
 		"alignment": "Good",
 		"source": [
@@ -8635,10 +8818,10 @@
 			}
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Unbreakable Bond [Elrohir]",
+			"Strength of Brotherhood [Elrohir]",
 			"Twin Elven Blades",
-			"Strength of Brotherhood [Elrohir]"
+			"Unbreakable Bond [Elrohir]",
+			"Woodland Creature"
 		]
 	},
 	"Elrond, Master of Rivendell": {
@@ -8711,10 +8894,10 @@
 		],
 		"specialRules": [
 			"Expert Rider",
-			"Terror",
-			"Woodland Creature",
 			"Foresight of the Eldar",
-			"Lord of the West"
+			"Lord of the West",
+			"Terror",
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -8771,13 +8954,13 @@
 			}
 		],
 		"specialRules": [
+			"Bludgeon",
 			"Dominant (3)",
 			"Fearless",
 			"Large Target",
 			"Terror",
 			"Throw Stones (range 18\", Strength 10)",
-			"Woodland Creature",
-			"Bludgeon"
+			"Woodland Creature"
 		]
 	},
 	"Éomer, Marshal of the Riddermark": {
@@ -9331,12 +9514,12 @@
 			}
 		],
 		"specialRules": [
+			"\"A Chance for Faramir, Captain of Gondor to show his Quality\"",
 			"Leader (Citadel Guard)",
 			"Resistant to Magic",
 			"Sharpshooter",
-			"Woodland Creature",
-			"\"A Chance for Faramir, Captain of Gondor to show his Quality\"",
-			"Wizard’s Pupil"
+			"Wizard’s Pupil",
+			"Woodland Creature"
 		]
 	},
 	"Farmer Maggot": {
@@ -9389,9 +9572,9 @@
 			}
 		],
 		"specialRules": [
+			"\"Get out of my fields!\"",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"\"Get out of my fields!\""
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Farmer Tolman Cotton": {
@@ -9446,15 +9629,15 @@
 		],
 		"specialRules": [
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"\"This is our country\""
+			"\"This is our country\"",
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Felaróf": {
 		"id": "felaroth",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Felaróf",
 		"alignment": "Good",
 		"source": [
@@ -9487,12 +9670,12 @@
 	},
 	"Fell Beast": {
 		"id": "fell_beast",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Armoured Fell Beast"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Fell Beast",
 		"alignment": "Evil",
 		"source": [
@@ -9531,18 +9714,18 @@
 		],
 		"specialRules": [
 			"Dominant (3)",
+			"Feral",
 			"Fly [SpecialRule]",
 			"Large Target",
 			"Monstrous Charge",
-			"Terror",
-			"Feral"
+			"Terror"
 		]
 	},
 	"Fell Warg": {
 		"id": "fell_warg",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Fell Warg",
 		"alignment": "Evil",
 		"source": [
@@ -9593,6 +9776,7 @@
 				"page": "120"
 			}
 		],
+		"points": "8",
 		"race": [
 			"Warg"
 		],
@@ -9787,8 +9971,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Sworn Protector (Thorin)",
-			"Combat Synergy [Champion]"
+			"Combat Synergy [Champion]",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"Fimbul, Hunter Orc Captain": {
@@ -9856,12 +10040,12 @@
 	},
 	"Firefoot": {
 		"id": "firefoot",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Firefoot with armour"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Firefoot",
 		"alignment": "Good",
 		"source": [
@@ -10005,9 +10189,9 @@
 	},
 	"Foe Spear Wielder": {
 		"id": "foespear_wielder",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Foe Spear Wielder",
 		"alignment": "Good",
 		"source": [
@@ -10094,10 +10278,10 @@
 			}
 		],
 		"specialRules": [
-			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
 			"A Helpful Sort",
-			"High Spirits"
+			"High Spirits",
+			"Resistant to Magic",
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Forlong the Fat": {
@@ -10285,8 +10469,8 @@
 		"specialRules": [
 			"Expert Rider",
 			"Horse Lord",
-			"Mutual Respect",
-			"Lord of Harrowdale"
+			"Lord of Harrowdale",
+			"Mutual Respect"
 		]
 	},
 	"Freca, Lord of the West-March": {
@@ -10343,9 +10527,9 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
-			"Hatred (Rohan)",
+			"Claim the Throne",
 			"Dunlending Heritage",
-			"Claim the Throne"
+			"Hatred (Rohan)"
 		]
 	},
 	"Fredegar ’Fatty’ Bolger": {
@@ -10396,9 +10580,9 @@
 		],
 		"specialRules": [
 			"Dominant (2)",
+			"Live to fight another day",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"Live to fight another day"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Frída Tallspear": {
@@ -10461,9 +10645,9 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
+			"\"Go for the Horse!\"",
 			"Leader (Dunlending Huscarl)",
-			"Readied Stance",
-			"\"Go for the Horse!\""
+			"Readied Stance"
 		]
 	},
 	"Frodo Baggins": {
@@ -10535,6 +10719,16 @@
 		"specialRules": [
 			"Resistant to Magic",
 			"Throw Stones (range 8\", Strength 1)"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Frodo of the Nine Fingers": {
@@ -10599,9 +10793,9 @@
 			}
 		],
 		"specialRules": [
-			"Resistant to Magic",
+			"Home is the Hero",
 			"\"It will never really heal\"",
-			"Home is the Hero"
+			"Resistant to Magic"
 		]
 	},
 	"Galadhrim Captain": {
@@ -10735,9 +10929,9 @@
 	},
 	"Galadhrim Steed": {
 		"id": "galadhrim_steed",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Galadhrim Steed",
 		"alignment": "Good",
 		"source": [
@@ -10904,11 +11098,11 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"\"Go back to the void, from whence you came!\"",
 			"Terror",
-			"Woodland Creature",
 			"The Lady of Lórien",
 			"War Aspect",
-			"\"Go back to the void, from whence you came!\""
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -10994,8 +11188,8 @@
 		],
 		"specialRules": [
 			"Terror",
-			"Woodland Creature",
-			"The Lady of Lórien"
+			"The Lady of Lórien",
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -11172,6 +11366,16 @@
 				"cost": "20"
 			}
 		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
+		],
 		"magicalPowers": [
 			{
 				"name": "Protection of the Valar",
@@ -11333,9 +11537,9 @@
 	},
 	"Gandalf’s Cart": {
 		"id": "gandalf_cart",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Gandalf’s Cart",
 		"alignment": "Good",
 		"source": [
@@ -11429,9 +11633,9 @@
 			}
 		],
 		"specialRules": [
+			"Dunlending Commander",
 			"Hatred (Rohan)",
-			"Master of Battle (4+)",
-			"Dunlending Commander"
+			"Master of Battle (4+)"
 		]
 	},
 	"Ghân-Buri-Ghân": {
@@ -11491,80 +11695,13 @@
 			"Heroic March"
 		],
 		"specialRules": [
+			"Forest Stalker",
 			"Hatred (Goblin)",
 			"Hatred (Orc)",
 			"Hatred (Uruk-hai)",
 			"Poisoned Attacks (blowpipe)",
 			"Stalk Unseen",
-			"Woodland Creature",
-			"Forest Stalker"
-		]
-	},
-	"Gil-Galad, High King of the Noldor": {
-		"id": "gil_galad",
-		"version": "2024",
-		"language": "en",
-		"name": "Gil-Galad, High King of the Noldor",
-		"alignment": "Good",
-		"source": [
-			{
-				"book": "Armies of The Lord of the Rings",
-				"page": "69"
-			}
-		],
-		"points": "175",
-		"race": [
-			"Elf"
-		],
-		"faction": [
-			"Rivendell"
-		],
-		"unitTypes": [
-			"Hero",
-			"Infantry",
-			"Unique"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "9",
-			"shootValue": "3+",
-			"strength": "4",
-			"defence": "7",
-			"attacks": "3",
-			"wounds": "3",
-			"courage": "3+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "3",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Heavy armour"
-			},
-			{
-				"name": "Aiglos"
-			}
-		],
-		"heroicActions": [
-			"Heroic Challenge",
-			"Heroic Resolve",
-			"Heroic Strength"
-		],
-		"options": [
-			{
-				"name": "Rivendell Warriors in Gil-galad’s Warband may be upgraded to King’s Guard for +1 point per model. King’s Guard have a Fight Value of 6.",
-				"type": "OPTIONAL_RULES"
-			}
-		],
-		"specialRules": [
-			"Terror",
-			"Woodland Creature",
-			"High King of the Elves",
-			"Lord of the West"
+			"Woodland Creature"
 		]
 	},
 	"Gildor Inglorion": {
@@ -11645,6 +11782,73 @@
 			}
 		]
 	},
+	"Gil-Galad, High King of the Noldor": {
+		"id": "gil_galad",
+		"version": "2024",
+		"language": "en",
+		"name": "Gil-Galad, High King of the Noldor",
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "69"
+			}
+		],
+		"points": "175",
+		"race": [
+			"Elf"
+		],
+		"faction": [
+			"Rivendell"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry",
+			"Unique"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "9",
+			"shootValue": "3+",
+			"strength": "4",
+			"defence": "7",
+			"attacks": "3",
+			"wounds": "3",
+			"courage": "3+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "3",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Aiglos"
+			}
+		],
+		"heroicActions": [
+			"Heroic Challenge",
+			"Heroic Resolve",
+			"Heroic Strength"
+		],
+		"options": [
+			{
+				"name": "Rivendell Warriors in Gil-galad’s Warband may be upgraded to King’s Guard for +1 point per model. King’s Guard have a Fight Value of 6.",
+				"type": "OPTIONAL_RULES"
+			}
+		],
+		"specialRules": [
+			"High King of the Elves",
+			"Lord of the West",
+			"Terror",
+			"Woodland Creature"
+		]
+	},
 	"Gimli, son of Glóin": {
 		"id": "gimli_son_of_gloin",
 		"version": "2024",
@@ -11713,6 +11917,16 @@
 		"specialRules": [
 			"Axes of the Dwarves!",
 			"\"I myself am sitting pretty on 43\""
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Girion, Lord of Dale": {
@@ -11776,8 +11990,8 @@
 		],
 		"specialRules": [
 			"Hatred (Dragon)",
-			"Windlance Trained",
-			"Lord of Dale [Girion]"
+			"Lord of Dale [Girion]",
+			"Windlance Trained"
 		]
 	},
 	"Glóin the Dwarf": {
@@ -11894,8 +12108,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Sworn Protector (Thorin)",
-			"Axe Mastery"
+			"Axe Mastery",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"Glorfindel, Lord of the West": {
@@ -11965,12 +12179,12 @@
 		],
 		"specialRules": [
 			"Expert Rider",
+			"Hero of the Elves",
 			"Horse Lord",
+			"Lord of the West",
 			"Resistant to Magic",
 			"Terror",
-			"Woodland Creature",
-			"Hero of the Elves",
-			"Lord of the West"
+			"Woodland Creature"
 		]
 	},
 	"Goblin Captain": {
@@ -12231,9 +12445,9 @@
 			}
 		],
 		"specialRules": [
+			"Goldberry is waiting",
 			"River-daughter",
-			"Sing a Jolly Song [Goldberry]",
-			"Goldberry is waiting"
+			"Sing a Jolly Song [Goldberry]"
 		]
 	},
 	"Golfimbul, Orc Captain": {
@@ -12354,9 +12568,9 @@
 	},
 	"Gondor Avenger Bolt Thrower": {
 		"id": "gondor_bolt_thrower",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Gondor Avenger Bolt Thrower",
 		"alignment": "Good",
 		"source": [
@@ -12365,18 +12579,19 @@
 				"page": "36"
 			}
 		],
-		"points": "60",
 		"note": "COMPOSITION\nA Gondor Avenger Bolt Thrower is a Small Siege Engine, and is crewed by three Minas Tirith Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "60",
 		"composition": [
+			"Minas Tirith Siege Veteran",
 			"Minas Tirith Siege Crew",
 			"Gondor Avenger Bolt Thrower (Siege Engine)"
 		]
 	},
 	"Gondor Avenger Bolt Thrower (Siege Engine)": {
 		"id": "gondor_bolt_thrower_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Gondor Avenger Bolt Thrower (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -12408,9 +12623,9 @@
 	},
 	"Gondor Battlecry Trebuchet": {
 		"id": "gondor_trebuchet",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Gondor Battlecry Trebuchet",
 		"alignment": "Good",
 		"source": [
@@ -12419,18 +12634,19 @@
 				"page": "61"
 			}
 		],
-		"points": "100",
 		"note": "COMPOSITION\nA Gondor Battlecry Trebuchet is a Large Siege Engine, and is crewed by three Minas Tirith Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "100",
 		"composition": [
+			"Minas Tirith Siege Veteran",
 			"Minas Tirith Siege Crew",
 			"Gondor Battlecry Trebuchet (Siege Engine)"
 		]
 	},
 	"Gondor Battlecry Trebuchet (Siege Engine)": {
 		"id": "gondor_trebuchet_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Gondor Battlecry Trebuchet (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -12458,8 +12674,8 @@
 		],
 		"specialRules": [
 			"Arcing Shot",
-			"Static",
 			"Area Effect",
+			"Static",
 			"Wall-breaker"
 		]
 	},
@@ -12517,8 +12733,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Orcish Brawler",
-			"Adaptive Fighter"
+			"Adaptive Fighter",
+			"Orcish Brawler"
 		]
 	},
 	"Goroth, Captain of the Morannon": {
@@ -12575,8 +12791,8 @@
 		],
 		"specialRules": [
 			"Burly",
-			"Dominant (2)",
-			"\"Come here maggot!\""
+			"\"Come here maggot!\"",
+			"Dominant (2)"
 		]
 	},
 	"Gorûlf Ironskin": {
@@ -12634,8 +12850,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Leader (Dunlending Huscarl)",
-			"Ironskin"
+			"Ironskin",
+			"Leader (Dunlending Huscarl)"
 		]
 	},
 	"Gothmog, Lieutnant of Sauron": {
@@ -12765,9 +12981,9 @@
 	},
 	"Great Beast": {
 		"id": "great_beast",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Great Beast",
 		"alignment": "Evil",
 		"source": [
@@ -12811,9 +13027,9 @@
 	},
 	"Great Beast of Gorgoroth": {
 		"id": "gorgoroth_beast",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Great Beast of Gorgoroth",
 		"alignment": "Evil",
 		"source": [
@@ -12822,8 +13038,8 @@
 				"page": "14"
 			}
 		],
-		"points": "175",
 		"note": "COMPOSITION\nA Great Beast of Gorgoroth compromises an Orc Commander, a Great Beast, and a Howdah, which use the profiles below:",
+		"points": "175",
 		"composition": [
 			"Orc Commander (Great Beast of Gorgoroth)",
 			"Great Beast",
@@ -12885,12 +13101,12 @@
 	},
 	"Great Eagle (Radagast)": {
 		"id": "great_eagle_radagast",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Exchange Staff of Power for Great Eagle"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Great Eagle (Radagast)",
 		"alignment": "Good",
 		"source": [
@@ -12943,9 +13159,9 @@
 	},
 	"Great Elk": {
 		"id": "great_elk",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Great Elk",
 		"alignment": "Good",
 		"source": [
@@ -12976,8 +13192,8 @@
 			"intelligence": "7+"
 		},
 		"specialRules": [
-			"Woodland Creature",
-			"Majestic Steed"
+			"Majestic Steed",
+			"Woodland Creature"
 		]
 	},
 	"Grim Hammer Captain": {
@@ -13135,8 +13351,8 @@
 			}
 		],
 		"specialRules": [
-			"Wormtongue",
-			"A Traitor Within"
+			"A Traitor Within",
+			"Wormtongue"
 		]
 	},
 	"Grimbeorn": {
@@ -13197,10 +13413,10 @@
 			"Burly",
 			"Dominant (2)",
 			"Fearless",
+			"Leader of the Beornings",
 			"Resistant to Magic",
-			"Woodland Creature",
 			"Skin-changer [Grimbeorn]",
-			"Leader of the Beornings"
+			"Woodland Creature"
 		]
 	},
 	"Grimbeorn the Bear": {
@@ -13259,15 +13475,15 @@
 		],
 		"specialRules": [
 			"Burly",
+			"Crushing Strength",
 			"Dominant (5)",
 			"Fearless",
+			"Leader of the Beornings",
 			"Monstrous Charge",
 			"Resistant to Magic",
-			"Terror",
-			"Woodland Creature",
 			"Skin-changer [Grimbeorn the Bear]",
-			"Leader of the Beornings",
-			"Crushing Strength"
+			"Terror",
+			"Woodland Creature"
 		]
 	},
 	"Grimbold of Grimslade": {
@@ -13392,9 +13608,9 @@
 	},
 	"Grip, Fang and Wolf": {
 		"id": "grip_fang_wolf",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Grip, Fang and Wolf",
 		"linkedProfile": [
 			"Farmer Maggot"
@@ -13437,8 +13653,8 @@
 			}
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Loyal Hounds"
+			"Loyal Hounds",
+			"Woodland Creature"
 		]
 	},
 	"Grishnákh, Orc Captain": {
@@ -13661,8 +13877,8 @@
 			}
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Caras Galadhon Fighting Style"
+			"Caras Galadhon Fighting Style",
+			"Woodland Creature"
 		]
 	},
 	"Guardian of the King": {
@@ -13778,12 +13994,12 @@
 			"Dominant (5)",
 			"Fly [SpecialRule]",
 			"Harbinger of Evil (12\")",
+			"Immortal Hunger",
 			"Large Target",
 			"Monstrous Charge",
 			"Resistant to Magic",
-			"Terror",
 			"Strength of Body, Strength of Will",
-			"Immortal Hunger"
+			"Terror"
 		]
 	},
 	"Gundabad Berserker": {
@@ -13854,8 +14070,8 @@
 				"page": "127"
 			}
 		],
-		"points": "180",
 		"note": "COMPOSITION\nA Gundabad Catapult Troll is an unusual Siege Engine in that it uses a combined profile for the entire model. As a result, the Catapult doesn’t have its own Defence and Wounds values and cannot be targeted separately; instead if the Troll is slain, the whole model is removed from play as a casualty. The Troll is considered to be the Siege Veteran, though it does not have any Might, Will or Fate Points.",
+		"points": "180",
 		"race": [
 			"Troll"
 		],
@@ -13896,12 +14112,12 @@
 		"specialRules": [
 			"Ancient Enemies (Dwarf)",
 			"Ancient Enemies (Elf)",
-			"Dominant (5)",
-			"Large Target",
-			"Terror",
-			"Goblin Crew",
 			"Arcing Shot",
-			"Area Effect"
+			"Area Effect",
+			"Dominant (5)",
+			"Goblin Crew",
+			"Large Target",
+			"Terror"
 		]
 	},
 	"Gundabad Ogre": {
@@ -13949,8 +14165,8 @@
 			"Ancient Enemies (Dwarf)",
 			"Ancient Enemies (Elf)",
 			"Dominant (3)",
-			"Terror",
-			"Relentless Advance"
+			"Relentless Advance",
+			"Terror"
 		]
 	},
 	"Gundabad Orc Captain": {
@@ -14196,8 +14412,8 @@
 			"Heroic March"
 		],
 		"specialRules": [
-			"Master of Reserves",
-			"End the Race of Men"
+			"End the Race of Men",
+			"Master of Reserves"
 		]
 	},
 	"Gwaihir": {
@@ -14397,9 +14613,9 @@
 		],
 		"specialRules": [
 			"Expert Shot",
+			"One Final Blow",
 			"Sharpshooter",
-			"Woodland Creature",
-			"One Final Blow"
+			"Woodland Creature"
 		]
 	},
 	"Haleth, Prince of Rohan": {
@@ -14467,9 +14683,9 @@
 			}
 		],
 		"specialRules": [
+			"Defender of Edoras",
 			"Expert Rider",
-			"Horse Lord",
-			"Defender of Edoras"
+			"Horse Lord"
 		]
 	},
 	"Haleth, Son of Háma": {
@@ -14529,8 +14745,8 @@
 		],
 		"specialRules": [
 			"Fearful",
-			"\"There is always hope\"",
-			"Fight to the Last"
+			"Fight to the Last",
+			"\"There is always hope\""
 		]
 	},
 	"Half Troll": {
@@ -14601,8 +14817,8 @@
 				"page": "36"
 			}
 		],
-		"points": "60",
 		"noteGWFAQ": "Q: In the Road to Helm’s Deep Army List, can Háma benefit from the Back on your horses special rule as he cannot normally have a horse?\nA: No.",
+		"points": "60",
 		"race": [
 			"Man"
 		],
@@ -14643,9 +14859,9 @@
 			"Heroic Defence"
 		],
 		"specialRules": [
+			"Doorward of Meduseld",
 			"Leader (Rohan Royal Guard)",
-			"Sworn Protector (Théoden)",
-			"Doorward of Meduseld"
+			"Sworn Protector (Théoden)"
 		]
 	},
 	"Háma, Prince of Rohan": {
@@ -14764,9 +14980,9 @@
 			}
 		],
 		"specialRules": [
+			"\"Leave me flowers alone!\"",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"\"Leave me flowers alone!\""
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Haradrim Chieftain": {
@@ -14835,9 +15051,9 @@
 	},
 	"Haradrim Commander": {
 		"id": "haradrim_commander",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Haradrim Commander",
 		"alignment": "Evil",
 		"source": [
@@ -15207,8 +15423,8 @@
 			"Backstabbers",
 			"Bane of Kings",
 			"General Hunter",
-			"Stalk Unseen",
-			"Prenatural Agility"
+			"Prenatural Agility",
+			"Stalk Unseen"
 		]
 	},
 	"Hearthguard": {
@@ -15341,9 +15557,9 @@
 			"Burly",
 			"Expert Rider",
 			"Horse Lord",
+			"Into the Fray",
 			"Leader (Rohan Royal Guard)",
-			"The Hammerhand",
-			"Into the Fray"
+			"The Hammerhand"
 		]
 	},
 	"Helm Hammerhand, Wraith of the Hornburg": {
@@ -15401,14 +15617,14 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Berserk Rage",
 			"Burly",
 			"Dominant (4)",
 			"Fearless",
 			"Hatred (Dunland)",
 			"Mighty Blow",
-			"The Hammerhand",
 			"No Longer a Leader",
-			"Berserk Rage"
+			"The Hammerhand"
 		]
 	},
 	"Helmingas": {
@@ -15557,9 +15773,9 @@
 			}
 		],
 		"specialRules": [
+			"Daughter of Rohan",
 			"Expert Rider",
-			"Horse Lord",
-			"Daughter of Rohan"
+			"Horse Lord"
 		]
 	},
 	"Héra, the Bride of Death": {
@@ -15624,16 +15840,16 @@
 		],
 		"specialRules": [
 			"Fearless",
-			"Unyielding Combat Stance",
+			"Fury of the Hammerhand",
 			"The Warrior Bride",
-			"Fury of the Hammerhand"
+			"Unyielding Combat Stance"
 		]
 	},
 	"Herald": {
 		"id": "herald",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Herald",
 		"alignment": "Good",
 		"source": [
@@ -15982,10 +16198,10 @@
 			}
 		],
 		"specialRules": [
+			"Brutish Cunning",
 			"Dominant (3)",
 			"Terror",
-			"Throw Stones (range 12\", Strength 8)",
-			"Brutish Cunning"
+			"Throw Stones (range 12\", Strength 8)"
 		]
 	},
 	"Hobbit Archer": {
@@ -16184,17 +16400,17 @@
 			"Heroic March"
 		],
 		"specialRules": [
+			"Head Shirriff",
 			"Leader (Hobbit Shirriff)",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"Head Shirriff"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Horse": {
 		"id": "horse",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Horse",
 		"alignment": "Neither",
 		"source": [
@@ -16227,9 +16443,9 @@
 	},
 	"Howdah (Great Beast of Gorgoroth)": {
 		"id": "howdah_greatBeast",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Howdah (Great Beast of Gorgoroth)",
 		"alignment": "Evil",
 		"source": [
@@ -16255,9 +16471,9 @@
 	},
 	"Howdah (Royal War Mûmak)": {
 		"id": "howdah_royal",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Howdah (Royal War Mûmak)",
 		"alignment": "Evil",
 		"source": [
@@ -16281,9 +16497,9 @@
 	},
 	"Howdah (War Mûmak of Harad)": {
 		"id": "howdah",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Howdah (War Mûmak of Harad)",
 		"alignment": "Evil",
 		"source": [
@@ -16617,8 +16833,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Shieldwall",
-			"Resolute Fighter"
+			"Resolute Fighter",
+			"Shieldwall"
 		]
 	},
 	"Irolas, Captain of the Guard": {
@@ -16674,10 +16890,10 @@
 			"Heroic Defence"
 		],
 		"specialRules": [
-			"Leader (Citadel Guard)",
-			"Sworn Protector (Denethor)",
+			"Captain of the Citadel Guard",
 			"Defend the White City",
-			"Captain of the Citadel Guard"
+			"Leader (Citadel Guard)",
+			"Sworn Protector (Denethor)"
 		]
 	},
 	"Iron Guard": {
@@ -16732,9 +16948,9 @@
 	},
 	"Iron Hills Ballista": {
 		"id": "ironhills_ballista",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Iron Hills Ballista",
 		"alignment": "Good",
 		"source": [
@@ -16743,18 +16959,19 @@
 				"page": "30"
 			}
 		],
-		"points": "130",
 		"note": "COMPOSITION\nAn Iron Hills Ballista is a Large Siege Engine, and is crewed by four Iron Hills Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "130",
 		"composition": [
+			"Iron Hills Siege Veteran",
 			"Iron Hills Siege Crew",
 			"Iron Hills Ballista (Siege Engine)"
 		]
 	},
 	"Iron Hills Ballista (Siege Engine)": {
 		"id": "ironhills_ballista_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Iron Hills Ballista (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -16774,9 +16991,9 @@
 			"wounds": "4"
 		},
 		"specialRules": [
+			"Accurate",
 			"Arcing Shot",
 			"Area Effect",
-			"Accurate",
 			"The Old Twirly Whirlies"
 		]
 	},
@@ -16854,6 +17071,8 @@
 	},
 	"Iron Hills Chariot": {
 		"id": "chariot_iron_hills",
+		"version": "2024",
+		"language": "en",
 		"alias": [
 			"Iron Hills Chariot (if the Captain dismounts from the Iron Hills Chariot, do not remove the Chariot from play. The Chariot will remain in play as a standard Iron Hills Chariot with the same number of Wounds remaining as it had before the Iron Hills Captain dismounted)"
 		],
@@ -16865,6 +17084,7 @@
 				"page": "31"
 			}
 		],
+		"points": "170",
 		"race": [
 			"Dwarf"
 		],
@@ -16899,8 +17119,8 @@
 			}
 		],
 		"specialRules": [
-			"Dominant (4)",
 			"Chariot Charge [Iron Hills Chariot]",
+			"Dominant (4)",
 			"Dwarven Crew"
 		]
 	},
@@ -16963,9 +17183,9 @@
 	},
 	"Iron Hills Siege Crew": {
 		"id": "siege_crew_iron_hills",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Iron Hills Siege Crew",
 		"alignment": "Good",
 		"source": [
@@ -16995,6 +17215,55 @@
 			"wounds": "1",
 			"courage": "6+",
 			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		]
+	},
+	"Iron Hills Siege Veteran": {
+		"id": "siege_veteran_iron_hills",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Iron Hills Siege Veteran",
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "30"
+			}
+		],
+		"race": [
+			"Dwarf"
+		],
+		"faction": [
+			"Iron Hills"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -17081,9 +17350,9 @@
 	},
 	"Iron Shield Bearer": {
 		"id": "ironshield_bearer",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Iron Shield Bearer",
 		"alignment": "Good",
 		"source": [
@@ -17128,9 +17397,9 @@
 	},
 	"Isengard Assault Ballista": {
 		"id": "isengard_ballista",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Isengard Assault Ballista",
 		"alignment": "Evil",
 		"source": [
@@ -17139,18 +17408,19 @@
 				"page": "168"
 			}
 		],
-		"points": "75",
 		"note": "COMPOSITION\nAn Isengard Assault Ballista is a Large Siege Engine, and is crewed by three Uruk-hai Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "75",
 		"composition": [
+			"Uruk-hai Siege Veteran",
 			"Uruk-hai Siege Crew",
 			"Isengard Assault Ballista (Siege Engine)"
 		]
 	},
 	"Isengard Assault Ballista (Siege Engine)": {
 		"id": "isengard_ballista_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Isengard Assault Ballista (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -17170,10 +17440,10 @@
 			"wounds": "4"
 		},
 		"specialRules": [
-			"Direct Shot",
 			"Accurate",
-			"Raise the Ladders",
-			"Piercing Shot"
+			"Direct Shot",
+			"Piercing Shot",
+			"Raise the Ladders"
 		]
 	},
 	"Isengard Orc Captain": {
@@ -17505,8 +17775,8 @@
 				"page": "171"
 			}
 		],
-		"points": "11",
 		"noteGWFAQ": "Q: When a Mordor/Isengard Warg Rider dismounts, what wargear does it get to keep?\nA: The wargear a Mordor/Isengard Warg Rider is allowed to keep will depend on the wargear they had whilst mounted, as described below:\n• Mordor/Isengard Warg Rider with shield and throwing spears\n→ Mordor/Isengard Orc Warrior with shield.\n• Mordor/Isengard Warg Rider with Orc bow\n→ Mordor/Isengard Orc Warrior with Orc bow.\n• Mordor/Isengard Warg Rider with shield\n→ Mordor/Isengard Orc Warrior with shield.\n• Mordor/Isengard Warg Rider with throwing spears\n→ Mordor/Isengard Orc Warrior with spear.",
+		"points": "11",
 		"race": [
 			"Orc"
 		],
@@ -17764,10 +18034,10 @@
 			}
 		],
 		"specialRules": [
+			"Essence Leech",
 			"Harbinger of Evil (12\")",
 			"Terror",
-			"Will of Evil",
-			"Essence Leech"
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -17802,14 +18072,14 @@
 			}
 		]
 	},
-	"Khandish Chariot (If the Khandish King dismounts, remove the Khandish Chariot from play)": {
+	"Khandish Chariot": {
 		"id": "chariot_khand",
+		"version": "2024",
+		"language": "en",
+		"type": "Chariot",
 		"alias": [
 			"Khandish Chariot (If the Khandish King dismounts, remove the Khandish Chariot from play)"
 		],
-		"type": "Chariot",
-		"version": "2024",
-		"language": "en",
 		"name": "Khandish Chariot",
 		"linkedProfile": [
 			"Khandish King"
@@ -17843,8 +18113,8 @@
 			"intelligence": "7+"
 		},
 		"specialRules": [
-			"Dominant (3)",
-			"Chariot Charge [Khandish Chariot]"
+			"Chariot Charge [Khandish Chariot]",
+			"Dominant (3)"
 		]
 	},
 	"Khandish Charioteer": {
@@ -17901,8 +18171,8 @@
 			}
 		],
 		"specialRules": [
-			"Dominant (3)",
-			"Chariot Charge [Khandish Charioteer]"
+			"Chariot Charge [Khandish Charioteer]",
+			"Dominant (3)"
 		]
 	},
 	"Khandish Chieftain": {
@@ -18304,8 +18574,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Sworn Protector (Thorin)",
-			"Combat Synergy [Champion]"
+			"Combat Synergy [Champion]",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"King of Men": {
@@ -18786,9 +19056,9 @@
 	},
 	"King’s Champion": {
 		"id": "kings_champion",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "King’s Champion",
 		"alignment": "Good",
 		"source": [
@@ -18797,8 +19067,8 @@
 				"page": "16"
 			}
 		],
-		"points": "140",
 		"note": "A King’s Champion is made up of one King’s Champion and two Heralds, and will count as three models. The King’s Champion is always the Captain of the Warband with the two Heralds as its Followers taking up the first spaces in the King’s Champion’s Warband; Heralds always count as an Independent Hero in the King’s Champion’s Warband.",
+		"points": "140",
 		"composition": [
 			"King’s Champion (Hero)",
 			"Herald"
@@ -18806,9 +19076,9 @@
 	},
 	"King’s Champion (Hero)": {
 		"id": "kings_champion_hero",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "King’s Champion (Hero)",
 		"alignment": "Good",
 		"source": [
@@ -18996,8 +19266,8 @@
 			"Heroic Accuracy"
 		],
 		"specialRules": [
-			"Sharpshooter",
-			"Master Archer"
+			"Master Archer",
+			"Sharpshooter"
 		]
 	},
 	"Knight of Arnor": {
@@ -19476,7 +19746,7 @@
 				"type": "WARRIOR_MANDATORY"
 			},
 			{
-				"name": "Spears",
+				"name": "Spear",
 				"cost": "1",
 				"type": "WARRIOR_MANDATORY"
 			}
@@ -19611,11 +19881,17 @@
 			}
 		],
 		"specialRules": [
-			"Sharpshooter",
-			"Woodland Creature",
-			"\"Final Count, 42\"",
 			"Deadly Shot",
-			"Pinpoint Shot"
+			"\"Final Count, 42\"",
+			"Pinpoint Shot",
+			"Sharpshooter",
+			"Woodland Creature"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Legolas Greenleaf, Prince of Mirkwood": {
@@ -19689,11 +19965,11 @@
 			}
 		],
 		"specialRules": [
-			"Leader (Palace Guard)",
-			"Sharpshooter",
-			"Woodland Creature",
 			"Deadly Shot",
-			"Pinpoint Shot"
+			"Leader (Palace Guard)",
+			"Pinpoint Shot",
+			"Sharpshooter",
+			"Woodland Creature"
 		]
 	},
 	"Lief, Page of Helm": {
@@ -19813,9 +20089,9 @@
 			"Heroic Channelling"
 		],
 		"specialRules": [
-			"Woodland Creature",
 			"Songs of Elbereth",
-			"Wise Counsel"
+			"Wise Counsel",
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -19877,10 +20153,10 @@
 			}
 		],
 		"specialRules": [
-			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
+			"A Stern Scolding",
 			"Furious Tirade",
-			"A Stern Scolding"
+			"Resistant to Magic",
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Lord Thorne of the Wold": {
@@ -19936,9 +20212,9 @@
 			"Heroic Challenge"
 		],
 		"specialRules": [
+			"Edoras Shall Fall",
 			"Hatred (Rohan)",
-			"Traitor of Rohan",
-			"Edoras Shall Fall"
+			"Traitor of Rohan"
 		]
 	},
 	"Lórien Guard": {
@@ -20030,8 +20306,8 @@
 			}
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Lórien Guard"
+			"Lórien Guard",
+			"Woodland Creature"
 		]
 	},
 	"Lothlórien Captain": {
@@ -20144,8 +20420,8 @@
 			"Heroic Channelling"
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Powers of Nature"
+			"Powers of Nature",
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -20281,10 +20557,10 @@
 			}
 		],
 		"specialRules": [
-			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
+			"Considerable Wealth",
 			"Family Rivalry",
-			"Considerable Wealth"
+			"Resistant to Magic",
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Lurtz, Uruk-hai Scout Captain": {
@@ -20352,10 +20628,10 @@
 			}
 		],
 		"specialRules": [
-			"Sharpshooter",
 			"\"Find the Halflings\"",
-			"Shield Throw",
-			"Oblivious to Pain"
+			"Oblivious to Pain",
+			"Sharpshooter",
+			"Shield Throw"
 		]
 	},
 	"Mablung, Ranger of Ithilien": {
@@ -20414,8 +20690,8 @@
 			"Heroic Accuracy"
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Birdcalls"
+			"Birdcalls",
+			"Woodland Creature"
 		]
 	},
 	"Madril, Captain of Ithilien": {
@@ -20475,8 +20751,8 @@
 			"Heroic March"
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Master of Reserves"
+			"Master of Reserves",
+			"Woodland Creature"
 		]
 	},
 	"Mahûd Beastmaster Chieftain": {
@@ -20854,8 +21130,8 @@
 			"Heroic Resolve"
 		],
 		"specialRules": [
-			"Gift of Foresight",
-			"Foresight of the Eldar"
+			"Foresight of the Eldar",
+			"Gift of Foresight"
 		]
 	},
 	"Man-at-arms of Dol Amroth": {
@@ -20963,8 +21239,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Sworn Protector (Durin)",
-			"Durin’s Protector"
+			"Durin’s Protector",
+			"Sworn Protector (Durin)"
 		]
 	},
 	"Mauhûr": {
@@ -21080,9 +21356,19 @@
 			}
 		],
 		"specialRules": [
+			"\"For the Shire!\"",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"\"For the Shire!\""
+			"Throw Stones (range 8\", Strength 1)"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Meriadoc Brandybuck, Captain of the Shire": {
@@ -21236,9 +21522,9 @@
 	},
 	"Minas Tirith Siege Crew": {
 		"id": "siege_crew_minas_tirith",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Minas Tirith Siege Crew",
 		"alignment": "Good",
 		"source": [
@@ -21272,6 +21558,59 @@
 			"wounds": "1",
 			"courage": "7+",
 			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		]
+	},
+	"Minas Tirith Siege Veteran": {
+		"id": "siege_veteran_minas_tirith",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Minas Tirith Siege Veteran",
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "61"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "36"
+			}
+		],
+		"race": [
+			"Man"
+		],
+		"faction": [
+			"Gondor"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -21349,8 +21688,8 @@
 				"page": "67"
 			}
 		],
-		"points": "16",
 		"noteGWFAQ": "Q: The rules state that when a model Dismounts, it discards any wargear it is carrying that is not represented on the official dismounted model. What happens if the dismounted model has wargear that the mounted model didn’t have? For example, if a Mirkwood Elf Knight Dismounts, the dismounted models (Mirkwood Elf Warriors) all have options the Knight does not.\nA: In rare cases like this, the dismounted model gains wargear so it can be accurately represented by the model. In cases where multiple options are available, you must choose the option that sees the fewest pieces of wargear gained and choose the wargear that is the cheapest in points cost.\nFor example, in the case of the Mirkwood Elf Knight, it would Dismount and be represented by a Mirkwood Elf Warrior with a shield, as that is the option worth the fewest points – we presume the warrior found a discarded shield on the battlefield. In the given example, you cannot use a model with an Elf bow or Elven Glaive as they both cost more than a shield.",
+		"points": "16",
 		"race": [
 			"Elf"
 		],
@@ -21386,8 +21725,8 @@
 		],
 		"specialRules": [
 			"Expert Rider",
-			"Woodland Creature",
-			"King’s Knights"
+			"King’s Knights",
+			"Woodland Creature"
 		]
 	},
 	"Mirkwood Elf Warrior": {
@@ -21497,9 +21836,9 @@
 		],
 		"specialRules": [
 			"Poisoned Attacks (Fangs)",
+			"Spider Webs",
 			"Swift Movement",
-			"Terror",
-			"Spider Webs"
+			"Terror"
 		]
 	},
 	"Mirkwood Hunting Spider": {
@@ -21545,10 +21884,10 @@
 		],
 		"specialRules": [
 			"Poisoned Attacks (Fangs)",
+			"Silent Hunters",
 			"Stalk Unseen",
 			"Swift Movement",
-			"Terror",
-			"Silent Hunters"
+			"Terror"
 		]
 	},
 	"Mirkwood Ranger": {
@@ -21598,9 +21937,9 @@
 			}
 		],
 		"specialRules": [
+			"Knife Fighter",
 			"Sharpshooter",
-			"Woodland Creature",
-			"Knife Fighter"
+			"Woodland Creature"
 		]
 	},
 	"Mirkwood Ranger Captain": {
@@ -21658,9 +21997,9 @@
 			"Heroic Accuracy"
 		],
 		"specialRules": [
+			"Knife Fighter",
 			"Sharpshooter",
-			"Woodland Creature",
-			"Knife Fighter"
+			"Woodland Creature"
 		]
 	},
 	"Morannon Orc Captain": {
@@ -21984,9 +22323,9 @@
 	},
 	"Mordor Orc Siege Crew": {
 		"id": "siege_crew_mordor_orc",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mordor Orc Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -22020,6 +22359,59 @@
 			"wounds": "1",
 			"courage": "8+",
 			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		]
+	},
+	"Mordor Orc Siege Veteran": {
+		"id": "siege_veteran_mordor_orc",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Mordor Orc Siege Veteran",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "152"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "103"
+			}
+		],
+		"race": [
+			"Orc"
+		],
+		"faction": [
+			"Mordor"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -22161,9 +22553,9 @@
 	},
 	"Mordor Siege Bow": {
 		"id": "siege_bow_mordor",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Mordor Siege Bow",
 		"alignment": "Evil",
 		"source": [
@@ -22172,18 +22564,19 @@
 				"page": "103"
 			}
 		],
-		"points": "50",
 		"note": "COMPOSITION\nA Mordor Siege Bow is a Small Siege Engine, and is crewed by three Mordor Orc Siege Crew, one of which is a Siege Veteran, which use the profiles below:",
+		"points": "50",
 		"composition": [
+			"Mordor Orc Siege Veteran",
 			"Mordor Orc Siege Crew",
 			"Mordor Siege Bow (Siege Engine)"
 		]
 	},
 	"Mordor Siege Bow (Siege Engine)": {
 		"id": "siege_bow__mordor_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mordor Siege Bow (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -22210,16 +22603,16 @@
 			}
 		],
 		"specialRules": [
-			"Direct Shot",
 			"Accurate",
+			"Direct Shot",
 			"Piercing Shot"
 		]
 	},
 	"Mordor Siege Troll": {
 		"id": "siege_crew_mordor_troll",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mordor Siege Troll",
 		"alignment": "Evil",
 		"source": [
@@ -22492,9 +22885,9 @@
 	},
 	"Mordor War Catapult": {
 		"id": "war_catapult_mordor",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Mordor War Catapult",
 		"alignment": "Evil",
 		"source": [
@@ -22503,9 +22896,10 @@
 				"page": "152"
 			}
 		],
-		"points": "150",
 		"note": "COMPOSITION\nA Mordor War Catapult is a Large Siege Engine, and is crewed by three Mordor Orc Siege Crew, one of which is a Siege Veteran, and a Mordor Siege Troll, which use the profiles below:",
+		"points": "150",
 		"composition": [
+			"Mordor Orc Siege Veteran",
 			"Mordor Orc Siege Crew",
 			"Mordor Siege Troll",
 			"Mordor War Catapult (Siege Engine)"
@@ -22513,9 +22907,9 @@
 	},
 	"Mordor War Catapult (Siege Engine)": {
 		"id": "war_catapult_mordor_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mordor War Catapult (Siege Engine)",
 		"alignment": "Evil",
 		"source": [
@@ -22547,8 +22941,8 @@
 		],
 		"specialRules": [
 			"Arcing Shot",
-			"Troll Loader",
 			"Area Effect",
+			"Troll Loader",
 			"Wall-breaker"
 		]
 	},
@@ -22564,8 +22958,8 @@
 				"page": "151"
 			}
 		],
-		"points": "11",
 		"noteGWFAQ": "Q: When a Mordor/Isengard Warg Rider dismounts, what wargear does it get to keep?\nA: The wargear a Mordor/Isengard Warg Rider is allowed to keep will depend on the wargear they had whilst mounted, as described below:\n• Mordor/Isengard Warg Rider with shield and throwing spears\n→ Mordor/Isengard Orc Warrior with shield.\n• Mordor/Isengard Warg Rider with Orc bow\n→ Mordor/Isengard Orc Warrior with Orc bow.\n• Mordor/Isengard Warg Rider with shield\n→ Mordor/Isengard Orc Warrior with shield.\n• Mordor/Isengard Warg Rider with throwing spears\n→ Mordor/Isengard Orc Warrior with spear.",
+		"points": "11",
 		"race": [
 			"Orc"
 		],
@@ -22727,9 +23121,9 @@
 	},
 	"Moria Blackshield Drum": {
 		"id": "drum_blackshield",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Moria Blackshield Drum",
 		"alignment": "Evil",
 		"source": [
@@ -22738,8 +23132,8 @@
 				"page": "18"
 			}
 		],
-		"points": "75",
 		"note": "A Moria Blackshield Drum is always purchased as one Moria Blackshield Drummer and one Moria Blackshield Drum Bearer, which count as two models; both of which use the profile below:",
+		"points": "75",
 		"specialRules": [
 			"Run and Drum",
 			"Take up the Drum [Moria Blackshield Drum]"
@@ -22984,9 +23378,9 @@
 	},
 	"Moria Goblin Drum": {
 		"id": "moria_goblin_drum",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Moria Goblin Drum",
 		"alignment": "Evil",
 		"source": [
@@ -22995,8 +23389,8 @@
 				"page": "121"
 			}
 		],
-		"points": "75",
 		"note": "A Moria Goblin Drum is always purchased as two Moria Goblin Drummers, which count as two models. Moria Goblin Drummers use the profile below:",
+		"points": "75",
 		"specialRules": [
 			"Moria Goblin Drum",
 			"Drums in the Deep",
@@ -23008,9 +23402,9 @@
 	},
 	"Moria Goblin Drummer": {
 		"id": "moria_goblin_drummer",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Moria Goblin Drummer",
 		"alignment": "Evil",
 		"source": [
@@ -23100,8 +23494,8 @@
 			}
 		],
 		"specialRules": [
-			"Cave Dweller",
 			"Backstabbers",
+			"Cave Dweller",
 			"Stalk Unseen"
 		]
 	},
@@ -23246,9 +23640,9 @@
 	},
 	"Mûmak": {
 		"id": "mumak",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mûmak",
 		"alignment": "Evil",
 		"source": [
@@ -23314,18 +23708,18 @@
 			}
 		],
 		"specialRules": [
+			"Awesome Presence",
 			"Dominant (10)",
 			"Large Target",
 			"Terror",
-			"Trample [Mûmak]",
-			"Awesome Presence"
+			"Trample [Mûmak]"
 		]
 	},
 	"Mûmak War Leader": {
 		"id": "mumak_war_leader",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Mûmak War Leader",
 		"alignment": "Evil",
 		"source": [
@@ -23334,8 +23728,8 @@
 				"page": "191"
 			}
 		],
-		"points": "400",
 		"note": "COMPOSITION\nThe Mûmak War Leader compromises the Mûmak War Leader, Royal War Mûmak, and a Howdah, which use the profiles below:",
+		"points": "400",
 		"composition": [
 			"Mûmak War Leader (Hero)",
 			"Royal War Mûmak",
@@ -23344,9 +23738,9 @@
 	},
 	"Mûmak War Leader (Hero)": {
 		"id": "mumak_leader_hero",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Mûmak War Leader (Hero)",
 		"alignment": "Evil",
 		"source": [
@@ -23398,15 +23792,15 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Imposing Presence",
-			"High King of the South"
+			"High King of the South",
+			"Imposing Presence"
 		]
 	},
 	"Múrin": {
 		"id": "murin",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Múrin",
 		"alignment": "Good",
 		"source": [
@@ -23463,9 +23857,9 @@
 	},
 	"Múrin & Drár": {
 		"id": "murin_drar",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Múrin & Drár",
 		"alignment": "Good",
 		"source": [
@@ -23474,8 +23868,8 @@
 				"page": "18"
 			}
 		],
-		"points": "140 Points for Both",
 		"note": "If you include Múrin & Drár in your Army, then each of them may lead their own Warband. Both Múrin & Drár will count as separate Hero models for the purpose of any special rules.",
+		"points": "140 Points for Both",
 		"composition": [
 			"Múrin",
 			"Drár"
@@ -23615,8 +24009,8 @@
 		],
 		"specialRules": [
 			"Expert Shot",
-			"Poisoned Attacks (Orc bow)",
-			"Lethal Aim"
+			"Lethal Aim",
+			"Poisoned Attacks (Orc bow)"
 		]
 	},
 	"Nazgûl of Dol Guldur": {
@@ -23672,7 +24066,8 @@
 		},
 		"wargear": [
 			{
-				"name": "Each Nazgûl of Dol Guldur has their own Wargear and special rules as detailed over the linked Profiles"
+				"name": "Each Nazgûl of Dol Guldur has their own Wargear and special rules as detailed over the linked Profiles",
+				"type": "OPTIONAL_RULES"
 			}
 		],
 		"heroicActions": [
@@ -23681,9 +24076,9 @@
 		"specialRules": [
 			"Dominant (2)",
 			"Harbinger of Evil (12\")",
+			"One of Nine",
 			"Terror",
-			"Unholy Resurrection",
-			"One of Nine"
+			"Unholy Resurrection"
 		]
 	},
 	"Nazgûl of Dol Guldur: Khamûl the Easterling": {
@@ -23808,9 +24203,9 @@
 		"specialRules": [
 			"Dominant (2)",
 			"Harbinger of Evil (12\")",
+			"Spiritual Displacement",
 			"Terror",
-			"Unholy Resurrection",
-			"Spiritual Displacement"
+			"Unholy Resurrection"
 		]
 	},
 	"Nazgûl of Dol Guldur: The Dark Headsman": {
@@ -23871,9 +24266,9 @@
 		],
 		"specialRules": [
 			"Dominant (2)",
+			"Executioner",
 			"Harbinger of Evil (12\")",
 			"Terror",
-			"Executioner",
 			"Unholy Resurrection"
 		]
 	},
@@ -24062,10 +24457,10 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Angmar Arise",
 			"Dominant (2)",
 			"Harbinger of Evil (12\")",
 			"Terror",
-			"Angmar Arise",
 			"Unholy Resurrection"
 		]
 	},
@@ -24321,8 +24716,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Weapon Master",
-			"\"Just a couple of keepsakes\""
+			"\"Just a couple of keepsakes\"",
+			"Weapon Master"
 		]
 	},
 	"Nori the Dwarf, Champion of Erebor": {
@@ -24384,9 +24779,9 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"\"Just a couple of keepsakes\"",
 			"Sworn Protector (Thorin)",
-			"Weapon Master",
-			"\"Just a couple of keepsakes\""
+			"Weapon Master"
 		]
 	},
 	"Óin the Dwarf": {
@@ -24505,9 +24900,9 @@
 			"Heroic Defence"
 		],
 		"specialRules": [
-			"Sworn Protector (Thorin)",
 			"Healing Herbs",
-			"Reading the Portents"
+			"Reading the Portents",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"Olwyn, Shieldmaiden of Rohan": {
@@ -24575,15 +24970,15 @@
 		"specialRules": [
 			"Expert Rider",
 			"Horse Lord",
-			"Sworn Protector (Héra)",
-			"Stalwart Fighter"
+			"Stalwart Fighter",
+			"Sworn Protector (Héra)"
 		]
 	},
 	"Orc Commander (Great Beast of Gorgoroth)": {
 		"id": "orc_commander_great_beast",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Orc Commander (Great Beast of Gorgoroth)",
 		"alignment": "Evil",
 		"source": [
@@ -24633,9 +25028,9 @@
 	},
 	"Orc Commander (Troll Brute)": {
 		"id": "orc_commander",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Orc Commander (Troll Brute)",
 		"alignment": "Evil",
 		"source": [
@@ -24684,7 +25079,7 @@
 		],
 		"specialRules": [
 			"Ancient Enemies (Dwarf)",
-			"Ancient Enemy (Elf)"
+			"Ancient Enemies (Elf)"
 		]
 	},
 	"Orc Tracker": {
@@ -24784,9 +25179,9 @@
 			}
 		],
 		"specialRules": [
-			"Sharpshooter",
+			"Chronicler",
 			"Deadeye",
-			"Chronicler"
+			"Sharpshooter"
 		]
 	},
 	"Ori the Dwarf, Champion of Erebor": {
@@ -24845,9 +25240,9 @@
 			"Heroic Defence"
 		],
 		"specialRules": [
-			"Sworn Protector (Thorin)",
 			"Chronicler",
-			"Protect the Young"
+			"Protect the Young",
+			"Sworn Protector (Thorin)"
 		]
 	},
 	"Orophin, Galadhrim Captain": {
@@ -24903,8 +25298,8 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Whirl of Blades"
+			"Whirl of Blades",
+			"Woodland Creature"
 		]
 	},
 	"Osgiliath Veteran": {
@@ -25035,8 +25430,8 @@
 		],
 		"specialRules": [
 			"Bodyguard",
-			"Woodland Creature",
-			"The King’s Guard"
+			"The King’s Guard",
+			"Woodland Creature"
 		]
 	},
 	"Palace Guard Captain": {
@@ -25099,8 +25494,8 @@
 		"specialRules": [
 			"Bodyguard",
 			"Leader (Palace Guard)",
-			"Woodland Creature",
-			"The King’s Guard"
+			"The King’s Guard",
+			"Woodland Creature"
 		]
 	},
 	"Paladin Took, Thain of the Shire": {
@@ -25159,10 +25554,10 @@
 			}
 		],
 		"specialRules": [
+			"\"For Tuckborough!\"",
 			"Resistant to Magic",
 			"Throw Stones (range 8\", Strength 1)",
-			"\"To me, Shire-folk!\"",
-			"\"For Tuckborough!\""
+			"\"To me, Shire-folk!\""
 		]
 	},
 	"Percy, Lake-town Archer": {
@@ -25277,9 +25672,19 @@
 			}
 		],
 		"specialRules": [
+			"\"For the Shire!\"",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"\"For the Shire!\""
+			"Throw Stones (range 8\", Strength 1)"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Peregrin Took, Captain of the Shire": {
@@ -25350,9 +25755,9 @@
 			}
 		],
 		"specialRules": [
+			"Against all odds",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"Against all odds"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Peregrin Took, Guard of the Citadel": {
@@ -25423,9 +25828,9 @@
 	},
 	"Pony": {
 		"id": "pony",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Pony",
 		"alignment": "Good",
 		"source": [
@@ -25525,8 +25930,8 @@
 			}
 		],
 		"specialRules": [
-			"The Lineage of Númenor",
-			"\"Dol Amroth for Gondor!\""
+			"\"Dol Amroth for Gondor!\"",
+			"The Lineage of Númenor"
 		]
 	},
 	"Radagast the Brown": {
@@ -25596,10 +26001,10 @@
 			}
 		],
 		"specialRules": [
+			"Master of Birds",
 			"Mountain Dweller",
 			"Stalk Unseen",
-			"Woodland Creature",
-			"Master of Birds"
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -25641,12 +26046,12 @@
 	},
 	"Radagast’s Sleigh": {
 		"id": "radagast_sleigh",
+		"version": "2024",
+		"language": "en",
+		"type": "Chariot",
 		"alias": [
 			"Radagast’s Sleigh (If Radagast dismounts, remove the Sleigh from play)"
 		],
-		"type": "Chariot",
-		"version": "2024",
-		"language": "en",
 		"name": "Radagast’s Sleigh",
 		"linkedProfile": [
 			"Radagast the Brown"
@@ -25680,9 +26085,9 @@
 			"intelligence": "8+"
 		},
 		"specialRules": [
+			"Chariot Charge [Radagast’s Sleigh]",
 			"Dominant (3)",
-			"Woodland Creature",
-			"Chariot Charge [Radagast’s Sleigh]"
+			"Woodland Creature"
 		]
 	},
 	"Ranger of Arnor": {
@@ -26069,9 +26474,9 @@
 			}
 		],
 		"specialRules": [
+			"Arise, Riders of Rohan!",
 			"Expert Rider",
-			"Spear Mastery",
-			"Arise, Riders of Rohan!"
+			"Spear Mastery"
 		]
 	},
 	"Rider of the Dead": {
@@ -26758,8 +27163,8 @@
 			"Heroic Channelling"
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Powers of Nature"
+			"Powers of Nature",
+			"Woodland Creature"
 		],
 		"magicalPowers": [
 			{
@@ -26902,10 +27307,10 @@
 			"Heroic March"
 		],
 		"specialRules": [
+			"A nose for shortcuts",
 			"Leader (Hobbit Shirriff)",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"A nose for shortcuts"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Rohan Outrider": {
@@ -27030,10 +27435,10 @@
 			}
 		],
 		"specialRules": [
+			"Arise, Riders of Rohan!",
 			"Bodyguard",
 			"Expert Rider",
-			"Spear Mastery",
-			"Arise, Riders of Rohan!"
+			"Spear Mastery"
 		]
 	},
 	"Rohirrim Traitor": {
@@ -27159,10 +27564,10 @@
 		],
 		"specialRules": [
 			"Fearful",
-			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
 			"\"If I were to marry anyone, it would’ve been her\"",
-			"\"Sweet Maiden of the Golden Ale\""
+			"Resistant to Magic",
+			"\"Sweet Maiden of the Golden Ale\"",
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Rowan Thistlewood": {
@@ -27215,16 +27620,16 @@
 			"Heroic March"
 		],
 		"specialRules": [
-			"\"Put ’em in chains\"",
+			"\"Burn it down!\"",
 			"\"Let ’em have it!\"",
-			"\"Burn it down!\""
+			"\"Put ’em in chains\""
 		]
 	},
 	"Royal Palanquin": {
 		"id": "palanquin",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Royal Palanquin",
 		"alignment": "Evil",
 		"source": [
@@ -27266,17 +27671,17 @@
 			}
 		],
 		"specialRules": [
-			"The Palanquin",
 			"Fighting from the Palanquin",
+			"In the name of the Dragon Emperor",
 			"Standards of the Emperor",
-			"In the name of the Dragon Emperor"
+			"The Palanquin"
 		]
 	},
 	"Royal War Mûmak": {
 		"id": "mumak_royal",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Royal War Mûmak",
 		"alignment": "Evil",
 		"source": [
@@ -27315,11 +27720,11 @@
 			}
 		],
 		"specialRules": [
+			"Awesome Presence",
 			"Dominant (10)",
 			"Large Target",
 			"Terror",
-			"Trample [Royal War Mûmak]",
-			"Awesome Presence"
+			"Trample [Royal War Mûmak]"
 		]
 	},
 	"Ruffian": {
@@ -27375,8 +27780,8 @@
 			}
 		],
 		"specialRules": [
-			"\"Put ’em in chains\"",
-			"\"At ’em, Lads!\""
+			"\"At ’em, Lads!\"",
+			"\"Put ’em in chains\""
 		]
 	},
 	"Rúmil, Warden of Caras Galadhon": {
@@ -27435,8 +27840,8 @@
 			"Heroic Defence"
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Swift Parry"
+			"Swift Parry",
+			"Woodland Creature"
 		]
 	},
 	"Rutabi, General of the Dragon Legion": {
@@ -27497,9 +27902,9 @@
 		],
 		"specialRules": [
 			"Master of Battle (3+)",
-			"Unyielding Combat Stance",
 			"Phalanx",
-			"Show no mercy"
+			"Show no mercy",
+			"Unyielding Combat Stance"
 		]
 	},
 	"Samwise Gamgee": {
@@ -27562,9 +27967,19 @@
 			}
 		],
 		"specialRules": [
+			"\"Let him go or I’ll have you, Longshanks!\"",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"\"Let him go or I’ll have you, Longshanks!\""
+			"Throw Stones (range 8\", Strength 1)"
+		],
+		"specialRulesArmylists": [
+		{
+			"name": "Mountain Dweller",
+			"armylist": "The Fellowship"
+		},
+		{
+			"name": "Woodland Creature",
+			"armylist": "The Fellowship"
+		}
 		]
 	},
 	"Samwise the Brave": {
@@ -27630,8 +28045,8 @@
 			"Resistant to Magic",
 			"Sworn Protector (Frodo)",
 			"Sworn Protector (Rosie)",
-			"Throw Stones (range 8\", Strength 1)",
-			"\"There’s some good in this world, Mr Frodo, and it’s worth fighting for\""
+			"\"There’s some good in this world, Mr Frodo, and it’s worth fighting for\"",
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Saruman": {
@@ -27694,8 +28109,8 @@
 			}
 		],
 		"specialRules": [
-			"Voice of Curunír",
-			"Saruman’s Deceit"
+			"Saruman’s Deceit",
+			"Voice of Curunír"
 		],
 		"magicalPowers": [
 			{
@@ -27791,9 +28206,9 @@
 			"Heroic Defence"
 		],
 		"specialRules": [
-			"Voice of Curunír",
 			"Consuming Rivalry",
-			"Lord of the Istari"
+			"Lord of the Istari",
+			"Voice of Curunír"
 		],
 		"magicalPowers": [
 			{
@@ -27886,13 +28301,13 @@
 		],
 		"specialRules": [
 			"Dominant (5)",
+			"Drain Soul",
 			"Harbinger of Evil (18\")",
+			"He cannot yet take physical form",
+			"Master of the Nazgûl",
 			"Spectral Walk",
 			"Terror",
-			"Will of Evil",
-			"He cannot yet take physical form",
-			"Drain Soul",
-			"Master of the Nazgûl"
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -28088,19 +28503,19 @@
 		],
 		"specialRules": [
 			"Blades of the Dead",
-			"Dominant (3)",
-			"Spectral Walk",
-			"Terror",
 			"Conduit of Angmar",
+			"Dominant (3)",
+			"Ghostly Resolve",
+			"Spectral Walk",
 			"Swirling Mists",
-			"Ghostly Resolve"
+			"Terror"
 		]
 	},
 	"Shadowfax": {
 		"id": "shadowfax",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Shadowfax",
 		"alignment": "Good",
 		"source": [
@@ -28195,16 +28610,16 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Cleaving Blow",
 			"General Hunter",
-			"\"Hands off the shiny shirt; that’s mine!\"",
-			"Cleaving Blow"
+			"\"Hands off the shiny shirt; that’s mine!\""
 		]
 	},
 	"Shank": {
 		"id": "shank",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Shank",
 		"alignment": "Evil",
 		"source": [
@@ -28253,15 +28668,15 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Loot the Bodies",
-			"Call ’the Beast’"
+			"Call \"the Beast\"",
+			"Loot the Bodies"
 		]
 	},
 	"Shank & Wrot, Orc Scavengers": {
 		"id": "shank_wrot",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Shank & Wrot, Orc Scavengers",
 		"alignment": "Evil",
 		"source": [
@@ -28270,8 +28685,8 @@
 				"page": "182-183"
 			}
 		],
-		"points": "150",
 		"note": "Shank & Wrot, Orc Scavengers, is made up of Shank, Wrot and a Snow Troll, and will count as three models. Shank is always the Captain of the Warband with Wrot and the Snow Troll as his Followers; Wrot always counts as an Independent Hero in Shank’s Warband. No other models may be part of Shank’s Warband.",
+		"points": "150",
 		"composition": [
 			"Shank",
 			"Wrot",
@@ -28280,9 +28695,9 @@
 	},
 	"Sharkey": {
 		"id": "sharkey",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Sharkey",
 		"alignment": "Evil",
 		"source": [
@@ -28354,9 +28769,9 @@
 	},
 	"Sharkey & Worm": {
 		"id": "sharkey_worm",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Sharkey & Worm",
 		"alignment": "Evil",
 		"source": [
@@ -28365,8 +28780,8 @@
 				"page": "110-111"
 			}
 		],
-		"points": "60 Points for Both",
 		"note": "Sharkey & Worm are always bought as a pair and count as two models. Sharkey is always the Captian of the Warband with Worm as the first Follower in his Warband. Worm counts as an Independent Hero in Sharkey’s Warband.",
+		"points": "60 Points for Both",
 		"composition": [
 			"Sharkey",
 			"Worm"
@@ -28482,16 +28897,16 @@
 			}
 		],
 		"specialRules": [
+			"Caught in a web",
 			"Dominant (4)",
+			"Lone Hunter",
 			"Monstrous Charge",
+			"\"She hungers for sweeter meats\"",
+			"\"She is always hungry\"",
 			"Survival Instinct",
 			"Swift Movement",
 			"Terror",
-			"Venom",
-			"Lone Hunter",
-			"\"She is always hungry\"",
-			"\"She hungers for sweeter meats\"",
-			"Caught in a web"
+			"Venom"
 		]
 	},
 	"Sid Briarthorn": {
@@ -28547,17 +28962,17 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
-			"Terror (Hobbit)",
 			"Brawler",
-			"\"With me, lads!\"",
-			"\"Put ’em in chains\""
+			"\"Put ’em in chains\"",
+			"Terror (Hobbit)",
+			"\"With me, lads!\""
 		]
 	},
 	"Sigrid": {
 		"id": "sigrid",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Sigrid",
 		"alignment": "Good",
 		"source": [
@@ -28600,8 +29015,8 @@
 			}
 		],
 		"specialRules": [
-			"Fearful",
-			"\"Da! Down here!\""
+			"\"Da! Down here!\"",
+			"Fearful"
 		]
 	},
 	"Smaug": {
@@ -28656,21 +29071,21 @@
 		],
 		"specialRules": [
 			"Ancient Enemies (Dwarf)",
+			"Breathe Fire",
+			"Colossal Frame",
+			"Desolator of the North",
 			"Dominant (20)",
 			"Fearless",
 			"Fly [SpecialRule]",
 			"Harbinger of Evil (18\")",
+			"\"I am fire, I am death\"",
+			"Immovable Object",
 			"Large Target",
+			"Missing Scale",
 			"Monstrous Charge",
 			"Resistant to Magic",
 			"Terror",
-			"Breathe Fire",
-			"Immovable Object",
-			"Missing Scale",
-			"Unstoppable Momentum",
-			"\"I am fire, I am death\"",
-			"Colossal Frame",
-			"Desolator of the North"
+			"Unstoppable Momentum"
 		],
 		"magicalPowers": [
 			{
@@ -28739,9 +29154,9 @@
 		"specialRules": [
 			"Cave Dweller",
 			"Mountain Dweller",
-			"Stalk Unseen",
 			"\"Serve the Master of the Precious\"",
-			"\"Soft and quick and shadows we must be\""
+			"\"Soft and quick and shadows we must be\"",
+			"Stalk Unseen"
 		]
 	},
 	"Snaga, Orc Captain": {
@@ -28802,9 +29217,9 @@
 	},
 	"Snow Troll": {
 		"id": "snowtroll",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Snow Troll",
 		"alignment": "Evil",
 		"source": [
@@ -28843,19 +29258,19 @@
 		],
 		"specialRules": [
 			"Dominant (3)",
+			"Horned Charge",
 			"Mountain Dweller",
-			"Terror",
-			"Horned Charge"
+			"Terror"
 		]
 	},
 	"Snowmane": {
 		"id": "snowmane",
+		"version": "2024",
+		"language": "en",
+		"type": "Mount",
 		"alias": [
 			"Snowmane with armour"
 		],
-		"type": "Mount",
-		"version": "2024",
-		"language": "en",
 		"name": "Snowmane",
 		"alignment": "Good",
 		"source": [
@@ -28947,9 +29362,9 @@
 	},
 	"Spectral Steed": {
 		"id": "spectral_steed",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Spectral Steed",
 		"alignment": "Good",
 		"source": [
@@ -29028,10 +29443,10 @@
 			}
 		],
 		"specialRules": [
+			"A fell light is in them",
 			"Blades of the Dead",
 			"Spectral Walk",
-			"Terror",
-			"A fell light is in them"
+			"Terror"
 		]
 	},
 	"Suladân, the Serpent Lord": {
@@ -29099,10 +29514,10 @@
 			}
 		],
 		"specialRules": [
+			"Ascendent",
 			"Leader (Serpent Guard)",
 			"Leader (Serpent Rider)",
-			"Poisoned Attacks",
-			"Ascendent"
+			"Poisoned Attacks"
 		]
 	},
 	"Tauriel, Ranger of Mirkwood": {
@@ -29168,11 +29583,11 @@
 			}
 		],
 		"specialRules": [
+			"Blade Mistress",
 			"Expert Shot",
 			"Sharpshooter",
-			"Woodland Creature",
-			"Blade Mistress",
-			"Vengeful Fury"
+			"Vengeful Fury",
+			"Woodland Creature"
 		]
 	},
 	"Ted Sandyman": {
@@ -29222,9 +29637,9 @@
 			}
 		],
 		"specialRules": [
+			"A Bad Influence",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"A Bad Influence"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"The Balrog": {
@@ -29278,15 +29693,15 @@
 			}
 		],
 		"specialRules": [
+			"Demon of the Ancient World",
 			"Dominant (10)",
 			"Fearless",
+			"Flame of Udûn",
+			"Goblin Mastery",
 			"Harbinger of Evil (18\")",
 			"Large Target",
 			"Resistant to Magic",
-			"Terror",
-			"Goblin Mastery",
-			"Flame of Udûn",
-			"Demon of the Ancient World"
+			"Terror"
 		]
 	},
 	"The Betrayer": {
@@ -29352,9 +29767,9 @@
 		"specialRules": [
 			"Bane of Kings",
 			"Harbinger of Evil (12\")",
+			"Master of Poisons",
 			"Terror",
-			"Will of Evil",
-			"Master of Poisons"
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -29450,12 +29865,12 @@
 		],
 		"specialRules": [
 			"Dominant (10)",
+			"Flames of Evil",
 			"Harbinger of Evil (18\")",
 			"Resistant to Magic",
 			"Terror",
 			"The Lord of the Rings",
-			"Unstoppable",
-			"Flames of Evil"
+			"Unstoppable"
 		],
 		"magicalPowers": [
 			{
@@ -29551,9 +29966,9 @@
 		],
 		"specialRules": [
 			"Harbinger of Evil (12\")",
+			"Rule Through Fear",
 			"Terror",
-			"Will of Evil",
-			"Rule Through Fear"
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -29651,8 +30066,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Phalanx",
-			"Emperor of the Easterlings"
+			"Emperor of the Easterlings",
+			"Phalanx"
 		]
 	},
 	"The Dwimmerlaik": {
@@ -29717,9 +30132,9 @@
 		],
 		"specialRules": [
 			"Harbinger of Evil (12\")",
+			"Sap Fortitude",
 			"Terror",
-			"Will of Evil",
-			"Sap Fortitude"
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -29801,8 +30216,8 @@
 			}
 		],
 		"specialRules": [
-			"Gatekeeper",
-			"A Light in the Dark"
+			"A Light in the Dark",
+			"Gatekeeper"
 		]
 	},
 	"The Goblin King": {
@@ -29858,13 +30273,13 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
+			"Blubbery Mass",
 			"Burly",
 			"Cave Dweller",
-			"Resistant to Magic",
-			"Terror",
+			"Goblin Projectile",
 			"Relentless Advance",
-			"Blubbery Mass",
-			"Goblin Projectile"
+			"Resistant to Magic",
+			"Terror"
 		]
 	},
 	"The Goblin Scribe": {
@@ -30091,9 +30506,9 @@
 		],
 		"specialRules": [
 			"Blades of the Dead",
+			"Drain Soul",
 			"Spectral Walk",
 			"Terror",
-			"Drain Soul",
 			"The Dead and the Living"
 		]
 	},
@@ -30158,10 +30573,10 @@
 			}
 		],
 		"specialRules": [
+			"Combat Mimicry",
 			"Harbinger of Evil (12\")",
 			"Terror",
-			"Will of Evil",
-			"Combat Mimicry"
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -30313,8 +30728,8 @@
 		],
 		"specialRules": [
 			"Harbinger of Evil (6\")",
-			"Terror",
-			"Sense of impending doom"
+			"Sense of impending doom",
+			"Terror"
 		],
 		"magicalPowers": [
 			{
@@ -30395,9 +30810,9 @@
 		],
 		"specialRules": [
 			"Harbinger of Evil (12\")",
+			"Pall of Darkness",
 			"Terror",
-			"Will of Evil",
-			"Pall of Darkness"
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -30486,10 +30901,10 @@
 		],
 		"specialRules": [
 			"Blades of the Dead",
-			"Spectral Walk",
-			"Terror",
 			"Herald of Doom",
-			"Power of Angmar"
+			"Power of Angmar",
+			"Spectral Walk",
+			"Terror"
 		],
 		"magicalPowers": [
 			{
@@ -30569,10 +30984,10 @@
 		"specialRules": [
 			"Dominant (3)",
 			"Monstrous Charge",
+			"Progeny",
 			"Swift Movement",
 			"Terror",
-			"Venom",
-			"Progeny"
+			"Venom"
 		]
 	},
 	"The Tainted": {
@@ -30637,10 +31052,10 @@
 		],
 		"specialRules": [
 			"Harbinger of Evil (12\")",
-			"Terror",
-			"Will of Evil",
 			"Miasmatic Presence",
-			"Seeping Decay"
+			"Seeping Decay",
+			"Terror",
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -30735,11 +31150,11 @@
 			}
 		],
 		"specialRules": [
+			"Arcana Leech",
+			"Eternal Willpower",
 			"Harbinger of Evil (12\")",
 			"Terror",
-			"Will of Evil",
-			"Arcana Leech",
-			"Eternal Willpower"
+			"Will of Evil"
 		],
 		"magicalPowers": [
 			{
@@ -30823,22 +31238,22 @@
 		],
 		"specialRules": [
 			"Dominant (6)",
-			"Harbinger of Evil (12\")",
-			"Large Target",
-			"Resistant to Magic",
-			"Terror",
-			"Many Tentacles",
-			"Water Dweller",
+			"Dragged to the Depths",
 			"From the Deep",
 			"Grasping Tentacles",
-			"Dragged to the Depths"
+			"Harbinger of Evil (12\")",
+			"Large Target",
+			"Many Tentacles",
+			"Resistant to Magic",
+			"Terror",
+			"Water Dweller"
 		]
 	},
 	"The White Warg": {
 		"id": "white_warg",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "The White Warg",
 		"alignment": "Evil",
 		"source": [
@@ -30882,8 +31297,8 @@
 		"specialRules": [
 			"Fearless",
 			"Fell Sight",
-			"Terror",
-			"Pack Master"
+			"Pack Master",
+			"Terror"
 		]
 	},
 	"The Witch-king of Angmar": {
@@ -31486,9 +31901,9 @@
 		],
 		"specialRules": [
 			"Expert Rider",
+			"\"Forth, and Fear no Darkness\"",
 			"Horse Lord",
 			"Leader (Rohan Royal Guard)",
-			"\"Forth, and Fear no Darkness\"",
 			"\"The will of Men is easily corrupted\""
 		]
 	},
@@ -31560,6 +31975,67 @@
 			"Horse Lord",
 			"Leader (Rohan Royal Guard)",
 			"Reckless Charge"
+		]
+	},
+	"Thorin III Stonehelm": {
+		"id": "thorin_stonehelm",
+		"version": "2024",
+		"language": "en",
+		"name": "Thorin III Stonehelm",
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "69"
+			}
+		],
+		"points": "110",
+		"race": [
+			"Dwarf"
+		],
+		"faction": [
+			"Erebor"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry",
+			"Unique"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "9",
+			"attacks": "3",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "3",
+			"fate": "3"
+		},
+		"wargear": [
+			{
+				"name": "Heavy Dwarf armour"
+			},
+			{
+				"name": "Shield"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"heroicActions": [
+			"Heroic Defence",
+			"Heroic Strength",
+			"Heroic Strike"
+		],
+		"specialRules": [
+			"Cool-headed"
 		]
 	},
 	"Thorin Oakenshield": {
@@ -31693,71 +32169,10 @@
 			}
 		],
 		"specialRules": [
-			"Fearless",
-			"Hatred (Gundabad)",
+			"Ancestral Fury",
 			"Du Bekâr",
-			"Ancestral Fury"
-		]
-	},
-	"Thorin III Stonehelm": {
-		"id": "thorin_stonehelm",
-		"version": "2024",
-		"language": "en",
-		"name": "Thorin III Stonehelm",
-		"alignment": "Good",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "69"
-			}
-		],
-		"points": "110",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Erebor"
-		],
-		"unitTypes": [
-			"Hero",
-			"Infantry",
-			"Unique"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "9",
-			"attacks": "3",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "3",
-			"fate": "3"
-		},
-		"wargear": [
-			{
-				"name": "Heavy Dwarf armour"
-			},
-			{
-				"name": "Shield"
-			},
-			{
-				"name": "Hand weapon"
-			}
-		],
-		"heroicActions": [
-			"Heroic Defence",
-			"Heroic Strength",
-			"Heroic Strike"
-		],
-		"specialRules": [
-			"Cool-headed"
+			"Fearless",
+			"Hatred (Gundabad)"
 		]
 	},
 	"Thráin, Son of Thrór": {
@@ -31817,8 +32232,8 @@
 			"Heroic Strike"
 		],
 		"specialRules": [
-			"Hatred (Gundabad)",
-			"Durin’s Heir"
+			"Durin’s Heir",
+			"Hatred (Gundabad)"
 		]
 	},
 	"Thráin the Broken": {
@@ -31868,8 +32283,8 @@
 			}
 		],
 		"specialRules": [
-			"Shattered Spirit",
-			"Gandalf’s Intervention"
+			"Gandalf’s Intervention",
+			"Shattered Spirit"
 		]
 	},
 	"Thranduil, King of the Woodland Realm": {
@@ -31934,12 +32349,12 @@
 			}
 		],
 		"specialRules": [
-			"Expert Rider",
-			"Leader (Palace Guard)",
-			"Woodland Creature",
 			"Bladelord",
+			"\"Do not talk to me of Dragon fire\"",
+			"Expert Rider",
 			"Fury of the Elvenking",
-			"\"Do not talk to me of Dragon fire\""
+			"Leader (Palace Guard)",
+			"Woodland Creature"
 		]
 	},
 	"Thrór, King under the Mountain": {
@@ -32078,15 +32493,15 @@
 		],
 		"specialRules": [
 			"Leader (Dunlending Huscarl)",
-			"Mighty Blow",
-			"Lord of Dunland"
+			"Lord of Dunland",
+			"Mighty Blow"
 		]
 	},
 	"Tilda": {
 		"id": "tilda",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Tilda",
 		"alignment": "Good",
 		"source": [
@@ -32129,8 +32544,8 @@
 			}
 		],
 		"specialRules": [
-			"Fearful",
-			"\"Da! Down here!\""
+			"\"Da! Down here!\"",
+			"Fearful"
 		]
 	},
 	"Tom Bombadil": {
@@ -32180,9 +32595,9 @@
 			}
 		],
 		"specialRules": [
-			"Tom is Master",
 			"Sing a Jolly Song [Tom Bombadil]",
-			"Tom has his house to mind"
+			"Tom has his house to mind",
+			"Tom is Master"
 		]
 	},
 	"Tom the Troll": {
@@ -32237,12 +32652,12 @@
 		],
 		"specialRules": [
 			"Dominant (3)",
-			"Large Target",
-			"Terror",
-			"Throw Stones (range 12\", Strength 8)",
 			"Keep ’em for later",
+			"Large Target",
 			"Lingering Cold",
-			"Squash ’em into jelly"
+			"Squash ’em into jelly",
+			"Terror",
+			"Throw Stones (range 12\", Strength 8)"
 		]
 	},
 	"Tookish Hunters": {
@@ -32374,20 +32789,20 @@
 			}
 		],
 		"specialRules": [
+			"Bludgeon",
 			"Dominant (5)",
 			"Fearless",
 			"Large Target",
 			"Terror",
 			"Throw Stones (range 18\", Strength 10)",
-			"Woodland Creature",
-			"Bludgeon"
+			"Woodland Creature"
 		]
 	},
 	"Troll Brute": {
 		"id": "troll_brute",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Troll Brute",
 		"alignment": "Evil",
 		"source": [
@@ -32396,8 +32811,8 @@
 				"page": "125"
 			}
 		],
-		"points": "120",
 		"note": "COMPOSITION\nA Troll Brute compromises an Orc Commander, and the actual Troll Brute, which use the profiles below:",
+		"points": "120",
 		"composition": [
 			"Orc Commander (Troll Brute)",
 			"Troll Brute (War Beast)"
@@ -32405,12 +32820,12 @@
 	},
 	"Troll Brute (War Beast)": {
 		"id": "troll_brute_war_beast",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
 		"alias": [
 			"Troll Brute (see page 125, Bofur replaces the Orc Commander)"
 		],
-		"type": "Composition Model",
-		"version": "2024",
-		"language": "en",
 		"name": "Troll Brute (War Beast)",
 		"alignment": "Evil",
 		"source": [
@@ -32622,9 +33037,9 @@
 	},
 	"Uruk-hai Demolition Team": {
 		"id": "urukhai_demolitionteam",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Uruk-hai Demolition Team",
 		"alignment": "Evil",
 		"source": [
@@ -32633,8 +33048,8 @@
 				"page": "169"
 			}
 		],
-		"points": "80",
 		"note": "COMPOSITION\nAn Uruk-hai Demolition Team contains 2 Uruk-hai Engineers, 1 Uruk-hai Berserker with torch and 1 Demolition Charge, which use the profile below.",
+		"points": "80",
 		"composition": [
 			"Uruk-hai Engineer",
 			"Uruk-hai Berserker",
@@ -32695,9 +33110,9 @@
 	},
 	"Uruk-hai Engineer": {
 		"id": "urukhai_engineer",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Uruk-hai Engineer",
 		"alignment": "Evil",
 		"source": [
@@ -32927,9 +33342,9 @@
 	},
 	"Uruk-hai Siege Crew": {
 		"id": "siege_crew_urukhai",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Uruk-hai Siege Crew",
 		"alignment": "Evil",
 		"source": [
@@ -32959,6 +33374,55 @@
 			"wounds": "1",
 			"courage": "7+",
 			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		]
+	},
+	"Uruk-hai Siege Veteran": {
+		"id": "siege_veteran_urukhai",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Uruk-hai Siege Veteran",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "168"
+			}
+		],
+		"race": [
+			"Uruk-hai"
+		],
+		"faction": [
+			"Isengard"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
@@ -33040,9 +33504,9 @@
 	},
 	"Vault Warden Team": {
 		"id": "vault_warden_team",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Vault Warden Team",
 		"alignment": "Good",
 		"source": [
@@ -33051,8 +33515,8 @@
 				"page": "66"
 			}
 		],
-		"points": "25",
 		"note": "A Vault Warden Team is always purchased as a pair of two models, one Iron Shield Bearer and one Foe Spear Wielder, which each using the relevant profile below:",
+		"points": "25",
 		"composition": [
 			"Iron Shield Bearer",
 			"Foe Spear Wielder"
@@ -33109,11 +33573,11 @@
 		],
 		"specialRules": [
 			"Poisoned Attacks (Fangs)",
+			"Silent Hunters",
 			"Stalk Unseen",
 			"Swift Movement",
 			"Terror",
-			"Venom",
-			"Silent Hunters"
+			"Venom"
 		]
 	},
 	"Vraskû": {
@@ -33226,9 +33690,9 @@
 	},
 	"War Boar": {
 		"id": "warboar",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "War Boar",
 		"alignment": "Good",
 		"source": [
@@ -33261,9 +33725,9 @@
 	},
 	"War Camel": {
 		"id": "warcamel",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "War Camel",
 		"alignment": "Evil",
 		"source": [
@@ -33343,16 +33807,16 @@
 		],
 		"specialRules": [
 			"Dominant (2)",
+			"Slow-acting Venom",
 			"Terror",
-			"Venom",
-			"Slow-acting Venom"
+			"Venom"
 		]
 	},
 	"War Goat": {
 		"id": "wargoat",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "War Goat",
 		"alignment": "Good",
 		"source": [
@@ -33383,15 +33847,15 @@
 			"intelligence": "7+"
 		},
 		"specialRules": [
-			"Mountain Dweller",
-			"Devastating Charge"
+			"Devastating Charge",
+			"Mountain Dweller"
 		]
 	},
 	"War Mûmak of Harad": {
 		"id": "war_mumak",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "War Mûmak of Harad",
 		"alignment": "Evil",
 		"source": [
@@ -33400,8 +33864,8 @@
 				"page": "192-193"
 			}
 		],
-		"points": "250",
 		"note": "COMPOSITION\nA War Mûmak of Harad compromises a Haradrim Commander, Mûmak, and a Howdah, which use the profiles below:",
+		"points": "250",
 		"composition": [
 			"Haradrim Commander",
 			"Mûmak",
@@ -33410,9 +33874,9 @@
 	},
 	"Warg": {
 		"id": "warg",
-		"type": "Mount",
 		"version": "2024",
 		"language": "en",
+		"type": "Mount",
 		"name": "Warg",
 		"alignment": "Evil",
 		"source": [
@@ -33455,8 +33919,8 @@
 				"page": "20"
 			}
 		],
-		"points": "35",
 		"note": "A Warg Marauder is an interesting Cavalry model that consists of three Moria Goblin Warriors riding a single Warg Mount. Two of the Moria Goblin Warriors are armed with an Orc bow, whilst the other is armed with a shield. This is treated as any other Cavalry model with the following exceptions:\n\t• Whilst the Moria Goblin Warrior with shield remains alive, all parts of the Cavalry model gain the bonus of +1 to their Defence.\n\t• The Warg Marauder only counts as a single model towards an Army’s Bow Limit.\n\t• If one Moria Goblin Warrior wishes to dismount, then they must all do so together.",
+		"points": "35",
 		"race": [
 			"Goblin"
 		],
@@ -33498,8 +33962,8 @@
 		],
 		"specialRules": [
 			"Cave Dweller (Moria Goblin Warriors only)",
-			"On the Hunt",
-			"Lethal Union"
+			"Lethal Union",
+			"On the Hunt"
 		]
 	},
 	"Warrior of Arnor": {
@@ -34084,8 +34548,8 @@
 		],
 		"specialRules": [
 			"Fell Sight",
-			"Terror",
-			"Feral Charge"
+			"Feral Charge",
+			"Terror"
 		]
 	},
 	"Westfold Redshield": {
@@ -34161,9 +34625,9 @@
 			}
 		],
 		"specialRules": [
+			"Arise, Riders of Rohan!",
 			"Expert Rider",
 			"Spear Mastery",
-			"Arise, Riders of Rohan!",
 			"Westfold Redshield"
 		]
 	},
@@ -34280,9 +34744,9 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
+			"Bloodoath",
 			"Fearless",
 			"Hatred (Rohan)",
-			"Bloodoath",
 			"\"We will die for Saruman\""
 		]
 	},
@@ -34455,8 +34919,8 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
-			"Terror",
-			"Packlord"
+			"Packlord",
+			"Terror"
 		]
 	},
 	"Will Whitfoot, Mayor of Michel Delving": {
@@ -34510,16 +34974,16 @@
 		],
 		"specialRules": [
 			"Leader (Hobbit Shirriff)",
+			"Mayor of Michel Delving",
 			"Resistant to Magic",
-			"Throw Stones (range 8\", Strength 1)",
-			"Mayor of Michel Delving"
+			"Throw Stones (range 8\", Strength 1)"
 		]
 	},
 	"Windlance": {
 		"id": "windlance",
-		"type": "Composition",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition",
 		"name": "Windlance",
 		"alignment": "Good",
 		"source": [
@@ -34528,18 +34992,19 @@
 				"page": "55"
 			}
 		],
-		"points": "70",
 		"note": "COMPOSITION\nA Windlance is a Small Siege Engine, and is crewed by two Dale Siege Crew, one of which is a Siege Veteran, which use the profile below:",
+		"points": "70",
 		"composition": [
+			"Dale Siege Veteran",
 			"Dale Siege Crew",
 			"Windlance (Siege Engine)"
 		]
 	},
 	"Windlance (Siege Engine)": {
 		"id": "windlance_siege_engine",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Windlance (Siege Engine)",
 		"alignment": "Good",
 		"source": [
@@ -34559,8 +35024,8 @@
 			"wounds": "3"
 		},
 		"specialRules": [
-			"Direct Shot",
 			"Accurate",
+			"Direct Shot",
 			"Piercing Shot"
 		]
 	},
@@ -34611,15 +35076,15 @@
 			}
 		],
 		"specialRules": [
-			"Woodland Creature",
-			"Enchanting Song"
+			"Enchanting Song",
+			"Woodland Creature"
 		]
 	},
 	"Worm": {
 		"id": "worm",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Worm",
 		"alignment": "Evil",
 		"source": [
@@ -34662,8 +35127,8 @@
 			}
 		],
 		"specialRules": [
-			"Stalk Unseen",
 			"Broken Loyalties",
+			"Stalk Unseen",
 			"When He Sneaks"
 		]
 	},
@@ -34724,9 +35189,9 @@
 	},
 	"Wrot": {
 		"id": "wrot",
-		"type": "Composition Model",
 		"version": "2024",
 		"language": "en",
+		"type": "Composition Model",
 		"name": "Wrot",
 		"alignment": "Evil",
 		"source": [
@@ -35019,9 +35484,9 @@
 			"Heroic Strength"
 		],
 		"specialRules": [
+			"Dwarven Fury",
 			"Fearless",
-			"Weapon Master",
-			"Dwarven Fury"
+			"Weapon Master"
 		]
 	},
 	"Young Thorin Oakenshield": {

@@ -20,7 +20,8 @@ export const Settings = {
         enableDetailsLink: true,
         enableRulesLink: true,
         enableProfilesLink: true,
-        showGWFAQNotes: true 
+        showGWFAQNotes: true,
+        showSpecialRulesFromArmylists: true 
 							  
     },
     includeLegacy: true,
@@ -107,6 +108,10 @@ export function initSettingsUI() {
                 <label>
                     <input type="checkbox" id="showGWFAQNotes">
                     ${t("settings.showGWFAQNotes")}
+                </label><br>
+                <label>
+                    <input type="checkbox" id="showSpecialRulesFromArmylists">
+                    ${t("settings.showSpecialRulesFromArmylists")}
                 </label>
             </div>
 
@@ -185,6 +190,9 @@ export function initSettingsUI() {
 
     document.getElementById("showGWFAQNotes").checked =
         Settings.profileSettings.showGWFAQNotes;
+
+    document.getElementById("showSpecialRulesFromArmylists").checked =
+        Settings.profileSettings.showSpecialRulesFromArmylists;
 
 const legacyCheckbox = document.getElementById("includeLegacy");
 
@@ -273,6 +281,11 @@ legacyCheckbox.onchange = e => {
 
     document.getElementById("showGWFAQNotes").onchange = e => {
         Settings.profileSettings.showGWFAQNotes = e.target.checked;
+        Settings.save();
+    };
+
+    document.getElementById("showSpecialRulesFromArmylists").onchange = e => {
+        Settings.profileSettings.showSpecialRulesFromArmylists = e.target.checked;
         Settings.save();
     };
 
