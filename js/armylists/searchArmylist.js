@@ -320,8 +320,10 @@ function renderModelEntry(model) {
                 </div>
             </div>
 
-            ${renderMandatoryOptions(model.mandatoryWargear)}
-            ${renderOptionalOptions(model.optionalOptions)}
+            ${renderMandatoryOptions(model.mandatory)}
+            ${renderOptionalOptions(model.options)}
+            ${renderOptionalOptions(model.mandatoryWarrior)}
+            ${renderOptionalOptions(model.optionalWarrior)}
 
         </div>
     `;

@@ -842,14 +842,14 @@
 			"Resistant to Magic"
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Aranarth, First Chieftain of the Dúnedain": {
@@ -3027,14 +3027,14 @@
 			"Second Breakfast"
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Bill the Troll": {
@@ -4044,14 +4044,14 @@
 			"\"Protect the little ones!\""
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Braga, Captain of the Guard": {
@@ -5120,8 +5120,7 @@
 		],
 		"options": [
 			{
-				"name": "Galadhrim Warriors in Celeborn’s Warband may be upgraded to Lórien Guard for +1 point per model. Lórien Guard may re-roll To Wound Rolls of a natural 1 when making Strikes.",
-				"type": "OPTIONAL_RULES"
+				"name": "Lórien Guard Upgrade"
 			}
 		],
 		"specialRules": [
@@ -6457,7 +6456,7 @@
 			"Expert Rider",
 			"For Théoden!",
 			"Horse Lord",
-			"Leader (Royal Rohan Guard)",
+			"Leader (Rohan Royal Guard)",
 			"Sworn Protector (Théoden)"
 		]
 	},
@@ -9432,13 +9431,62 @@
 		],
 		"options": [
 			{
-				"name": "Riders of Rohan in Erkenbrand’s Warband may be upgraded to Westfold Redshields for +1 point per model. Westfold Redshields treat Erkenbrand as a banner.",
-				"type": "OPTIONAL_RULES"
+				"name": "Westfold Redshields Upgrade"
 			}
 		],
 		"specialRules": [
 			"Expert Rider",
 			"Horse Lord"
+		]
+	},
+	"Fang": {
+		"id": "fang",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Fang",
+		"linkedProfile": [
+			"Farmer Maggot"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "20"
+			}
+		],
+		"race": [
+			"Dog"
+		],
+		"faction": [
+			"Shire"
+		],
+		"unitTypes": [
+			"Infantry",
+			"Warrior",
+			"Beast",
+			"Unique"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "8\"",
+			"fightValue": "3",
+			"shootValue": "6+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Teeth and claws (hand weapon)"
+			}
+		],
+		"specialRules": [
+			"Loyal Hounds",
+			"Woodland Creature"
 		]
 	},
 	"Faramir, Captain of Gondor": {
@@ -10532,11 +10580,11 @@
 			"Hatred (Rohan)"
 		]
 	},
-	"Fredegar ’Fatty’ Bolger": {
+	"Fredegar 'Fatty' Bolger": {
 		"id": "fredegar_bolger",
 		"version": "2024",
 		"language": "en",
-		"name": "Fredegar ’Fatty’ Bolger",
+		"name": "Fredegar 'Fatty' Bolger",
 		"alignment": "Good",
 		"source": [
 			{
@@ -10721,14 +10769,14 @@
 			"Throw Stones (range 8\", Strength 1)"
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Frodo of the Nine Fingers": {
@@ -11182,8 +11230,7 @@
 				"cost": "25"
 			},
 			{
-				"name": "Galadhrim Warriors in Galadriel’s Warband may be upgraded to Lórien Guard for +1 point per model. Lórien Guard may re-roll To Wound Rolls of a natural 1 when making Strikes.",
-				"type": "OPTIONAL_RULES"
+				"name": "Lórien Guard Upgrade"
 			}
 		],
 		"specialRules": [
@@ -11367,14 +11414,14 @@
 			}
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		],
 		"magicalPowers": [
 			{
@@ -11747,7 +11794,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Elven weapon"
+				"name": "Elven hand weapon"
 			},
 			{
 				"name": "Elven cloak"
@@ -11761,8 +11808,7 @@
 		],
 		"options": [
 			{
-				"name": "Gildor can include Lothlórien Warriors in his Warband, even if they are not listed in the same Army List. Lothlórien Warriors in Gildor’s Warband must be upgraded to Noldorin Exiles for +1 point per model. Noldorin Exiles exchange the Lothlórien keyword for the Rivendell keyword and have a Move Value of 8\".",
-				"type": "OPTIONAL_RULES"
+				"name": "Noldorin Exiles Upgrade"
 			}
 		],
 		"specialRules": [
@@ -11838,8 +11884,7 @@
 		],
 		"options": [
 			{
-				"name": "Rivendell Warriors in Gil-galad’s Warband may be upgraded to King’s Guard for +1 point per model. King’s Guard have a Fight Value of 6.",
-				"type": "OPTIONAL_RULES"
+				"name": "King’s Guard Upgrade"
 			}
 		],
 		"specialRules": [
@@ -11919,14 +11964,14 @@
 			"\"I myself am sitting pretty on 43\""
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Girion, Lord of Dale": {
@@ -13540,8 +13585,7 @@
 		],
 		"options": [
 			{
-				"name": "Warriors of Rohan in Grimbold’s Warband may be upgraded to Helmingas for +1 point per model. Helmingas have a Strength of 4, rather than 3.",
-				"type": "OPTIONAL_RULES"
+				"name": "Helmingas Upgrade"
 			}
 		],
 		"specialRules": [
@@ -13606,12 +13650,12 @@
 			"Swap with me"
 		]
 	},
-	"Grip, Fang and Wolf": {
-		"id": "grip_fang_wolf",
+	"Grip": {
+		"id": "grip",
 		"version": "2024",
 		"language": "en",
-		"type": "Mount",
-		"name": "Grip, Fang and Wolf",
+		"type": "Composition Model",
+		"name": "Grip",
 		"linkedProfile": [
 			"Farmer Maggot"
 		],
@@ -13622,7 +13666,6 @@
 				"page": "20"
 			}
 		],
-		"note": "Grip, Fang and Wolf are individual models that each take up one space in Farmer Maggot’s Warband. They each have the same profile.",
 		"race": [
 			"Dog"
 		],
@@ -13655,6 +13698,29 @@
 		"specialRules": [
 			"Loyal Hounds",
 			"Woodland Creature"
+		]
+	},
+	"Grip, Fang and Wolf": {
+		"id": "grip_fang_wolf",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition",
+		"name": "Grip, Fang and Wolf",
+		"linkedProfile": [
+			"Farmer Maggot"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "20"
+			}
+		],
+		"note": "Grip, Fang and Wolf are individual models that each take up one space in Farmer Maggot’s Warband. They each have the same profile.",
+		"composition": [
+			"Grip",
+			"Fang",
+			"Wolf"
 		]
 	},
 	"Grishnákh, Orc Captain": {
@@ -13823,7 +13889,7 @@
 		],
 		"specialRules": [
 			"Bodyguard",
-			"Protection of the White Tree"
+			"Protectors of the White Tree"
 		]
 	},
 	"Guard of the Galadhrim Court": {
@@ -14817,7 +14883,6 @@
 				"page": "36"
 			}
 		],
-		"noteGWFAQ": "Q: In the Road to Helm’s Deep Army List, can Háma benefit from the Back on your horses special rule as he cannot normally have a horse?\nA: No.",
 		"points": "60",
 		"race": [
 			"Man"
@@ -14933,11 +14998,11 @@
 			"The Warrior Poet"
 		]
 	},
-	"Hamfast ’Gaffer’ Gamgee": {
+	"Hamfast 'Gaffer' Gamgee": {
 		"id": "hamfast_gamgee",
 		"version": "2024",
 		"language": "en",
-		"name": "Hamfast ’Gaffer’ Gamgee",
+		"name": "Hamfast 'Gaffer' Gamgee",
 		"alignment": "Good",
 		"source": [
 			{
@@ -18813,7 +18878,7 @@
 			}
 		],
 		"specialRules": [
-			"This model’s Stand Fast is increased to 12\" and will affect friendly Dale Hero models."
+			"King of Men (Dale)"
 		]
 	},
 	"King of Men (Gondor)": {
@@ -19888,10 +19953,10 @@
 			"Woodland Creature"
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Legolas Greenleaf, Prince of Mirkwood": {
@@ -21305,9 +21370,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Meriadoc Brandybuck",
-		"linkedProfile": [
-			"Treebeard"
-		],
 		"alignment": "Good",
 		"source": [
 			{
@@ -21361,14 +21423,14 @@
 			"Throw Stones (range 8\", Strength 1)"
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Meriadoc Brandybuck, Captain of the Shire": {
@@ -21455,9 +21517,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Meriadoc Brandybuck, Esquire of Rohan",
-		"linkedProfile": [
-			"Éowyn, Shieldmaiden of Rohan"
-		],
 		"alignment": "Good",
 		"source": [
 			{
@@ -24583,11 +24642,11 @@
 			"Scavenge"
 		]
 	},
-	"Noldorin Exiles": {
-		"id": "noldorin_exiles",
+	"Noldorin Exile": {
+		"id": "noldorin_exile",
 		"version": "2024",
 		"language": "en",
-		"name": "Noldorin Exiles",
+		"name": "Noldorin Exile",
 		"linkedProfile": [
 			"Gildor Inglorion",
 			"Lothlórien Warrior"
@@ -25549,8 +25608,7 @@
 		],
 		"options": [
 			{
-				"name": "If your Army includes Paladin, you may upgrade any number of Hobbit Archers in his Warband to Tookish Hunters at the cost of +1 point per model. Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
-				"type": "OPTIONAL_RULES"
+				"name": "Tookish Hunters Upgrade"
 			}
 		],
 		"specialRules": [
@@ -25621,9 +25679,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Peregrin Took",
-		"linkedProfile": [
-			"Treebeard"
-		],
 		"alignment": "Good",
 		"source": [
 			{
@@ -25677,14 +25732,14 @@
 			"Throw Stones (range 8\", Strength 1)"
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Peregrin Took, Captain of the Shire": {
@@ -25746,12 +25801,11 @@
 		],
 		"options": [
 			{
-				"name": "Elven cloak",
-				"cost": "5"
+				"name": "Tookish Hunters Upgrade"
 			},
 			{
-				"name": "If your Army includes Pippin, you may upgrade any number of Hobbit Archers in his Warband to Tookish Hunters at the cost of +1 point per model. Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
-				"type": "OPTIONAL_RULES"
+				"name": "Elven cloak",
+				"cost": "5"
 			}
 		],
 		"specialRules": [
@@ -25765,9 +25819,6 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Peregrin Took, Guard of the Citadel",
-		"linkedProfile": [
-			"Gandalf the White"
-		],
 		"alignment": "Good",
 		"source": [
 			{
@@ -27972,14 +28023,14 @@
 			"Throw Stones (range 8\", Strength 1)"
 		],
 		"specialRulesArmylists": [
-		{
-			"name": "Mountain Dweller",
-			"armylist": "The Fellowship"
-		},
-		{
-			"name": "Woodland Creature",
-			"armylist": "The Fellowship"
-		}
+			{
+				"name": "Mountain Dweller",
+				"armylist": "The Fellowship"
+			},
+			{
+				"name": "Woodland Creature",
+				"armylist": "The Fellowship"
+			}
 		]
 	},
 	"Samwise the Brave": {
@@ -32660,11 +32711,11 @@
 			"Throw Stones (range 12\", Strength 8)"
 		]
 	},
-	"Tookish Hunters": {
-		"id": "tookish_hunters",
+	"Tookish Hunter": {
+		"id": "tookish_hunter",
 		"version": "2024",
 		"language": "en",
-		"name": "Tookish Hunters",
+		"name": "Tookish Hunter",
 		"linkedProfile": [
 			"Hobbit Archer",
 			"Paladin Took, Thain of the Shire",
@@ -32726,7 +32777,7 @@
 		"specialRules": [
 			"Resistant to Magic",
 			"Throw Stones (range 8\", Strength 1)",
-			"Tookish Hunters"
+			"Tookish Hunter"
 		]
 	},
 	"Treebeard": {
@@ -34163,6 +34214,89 @@
 			"Hatred (Dragon)"
 		]
 	},
+	"Warrior of Harrowdale": {
+		"id": "warrior_harrowdale",
+		"version": "2024",
+		"language": "en",
+		"name": "Warrior of Harrowdale",
+		"linkedProfile": [
+			"Fréaláf, First Marshal of the Riddermark",
+			"Warrior of Rohan"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "43"
+			},
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "46"
+			}
+		],
+		"points": "6",
+		"race": [
+			"Man"
+		],
+		"faction": [
+			"Rohan"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"options": [
+			{
+				"name": "War horn, shield and throwing spears",
+				"cost": "28",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Banner",
+				"cost": "25",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Shield and throwing spears",
+				"cost": "3",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Bow",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Shield",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			}
+		],
+		"specialRules": [
+			"Spear Mastery",
+			"Warrior of Harrowdale"
+		]
+	},
 	"Warrior of Minas Tirith": {
 		"id": "warrior_minas_tirith",
 		"version": "2024",
@@ -34299,7 +34433,7 @@
 		]
 	},
 	"Warrior of Rohan": {
-		"id": "rohan_warrior",
+		"id": "warrior_rohan",
 		"version": "2024",
 		"language": "en",
 		"name": "Warrior of Rohan",
@@ -35027,6 +35161,56 @@
 			"Accurate",
 			"Direct Shot",
 			"Piercing Shot"
+		]
+	},
+	"Wolf": {
+		"id": "wolf",
+		"version": "2024",
+		"language": "en",
+		"type": "Composition Model",
+		"name": "Wolf",
+		"linkedProfile": [
+			"Farmer Maggot"
+		],
+		"alignment": "Good",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "20"
+			}
+		],
+		"race": [
+			"Dog"
+		],
+		"faction": [
+			"Shire"
+		],
+		"unitTypes": [
+			"Infantry",
+			"Warrior",
+			"Beast",
+			"Unique"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "8\"",
+			"fightValue": "3",
+			"shootValue": "6+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Teeth and claws (hand weapon)"
+			}
+		],
+		"specialRules": [
+			"Loyal Hounds",
+			"Woodland Creature"
 		]
 	},
 	"Wood Elf Sentinel": {

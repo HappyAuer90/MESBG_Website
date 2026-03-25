@@ -426,26 +426,38 @@ export function attachWarbandControls() {
 }
 function renderSelectedOptions(model) {
 
-    const all = [
-        ...(model.mandatory || []),
-        ...(model.selectedOptions?.map(o => o.name) || [])
-    ];
+    const mandatory = (model.mandatory || []).map(name => ({
+        name,
+        uiName: name
+    }));
+
+    const selected = (model.selectedOptions || []).map(o => ({
+        name: o.name,
+        uiName: o.uiName || o.name
+    }));
+
+    const all = [...mandatory, ...selected];
 
     if (!all.length) return "";
-    const allOptions = formatMandatoryWargear(all);
+
+    const displayNames = all.map(o => o.uiName);
+
     return `
         <div class="profile-selected-options">
-            ${allOptions}
+            ${formatMandatoryWargear(displayNames)}
         </div>
     `;
 }
 function renderAddOptionsSelect(model, wbIndex, type, wIndex = null) {
 
-    const entries = [
-        ...(model.options || []),
-        ...(model.optionalWarrior || []),
-        ...(model.mandatoryWarrior || [])
-    ];
+    let entries = [
+    ...(model.options || []),
+    ...(model.optionalWarrior || []),
+    ...(model.mandatoryWarrior || [])
+];
+
+//ExcludeOptions Filter
+entries = entries.filter(opt => !isOptionExcluded(model, opt));
 
     if (!entries.length) return "";
 
@@ -489,4 +501,14 @@ function createProfileLink(name, state) {
             ${name}
         </span>
     `;
+}
+function isOptionExcluded(model, option) {
+
+    if (!option.armyRules?.ExcludeOptions) return false;
+
+    const selectedNames = model.selectedOptions?.map(o => o.name) || [];
+
+    return option.armyRules.ExcludeOptions.some(excluded =>
+        selectedNames.includes(excluded)
+    );
 }

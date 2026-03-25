@@ -1,3 +1,4 @@
+import { t } from "../../utility/i18n.js";
 
 const tierPriority = {
     "Heroes of Legend": 4,
@@ -32,7 +33,9 @@ const tierPriority = {
 
         breakpoint = applyArmyRuleOverrides("Breakpoint", breakpoint, builder);
 
-        const broken = 1 + Math.floor(modelcount / breakpoint);
+        let broken = Math.floor(modelcount / breakpoint);
+        if (modelcount==0) (broken=0)
+            else broken+=1;
 
         return broken;
     },
@@ -513,7 +516,7 @@ function validateArmyDistributions(builder) {
             warnings.push({
                 type: "distributionMin",
                 message:
-                    `You need at least ${rule.min} of the following models:
+                    `${t("armylists.build.ValidateMin")} ${rule.min} ${t("armylists.build.ValidateFollowing")}:
 ${modelList}`
             });
 
@@ -526,7 +529,7 @@ ${modelList}`
             warnings.push({
                 type: "distributionMax",
                 message:
-                    `You may include at most ${rule.max} of the following models:
+                    `${t("armylists.build.ValidateMax")} ${rule.max} ${t("armylists.build.ValidateFollowing")}:
 ${modelList}`
             });
 
@@ -543,7 +546,7 @@ ${modelList}`
                 warnings.push({
                     type: "distributionMaxPer",
                     message:
-                        `${rule.group} cannot exceed ${rule.maxPer}`
+                        `${t("armylists.build.ValidateMaxPerOne")} ${rule.group} ${t("armylists.build.ValidateMaxPerTwo")} ${rule.maxPer}`
                 });
 
             }
@@ -561,7 +564,7 @@ ${modelList}`
                 warnings.push({
                     type: "distributionRatio",
                     message:
-                        `${rule.group} may only form ${Math.round(1 / rule.maxRatio * 100)}% of the army`
+                        `${rule.group} ${t("armylists.build.ValidateDistributionRatioOne")} ${Math.round(1 / rule.maxRatio * 100)}% ${t("armylists.build.ValidateDistributionRatioTwo")}`
                 });
 
             }
@@ -579,7 +582,7 @@ ${modelList}`
                 warnings.push({
                     type: "distributionExclusion",
                     message:
-                        `${rule.group} cannot be used together with ${rule.excludes}`
+                        `${rule.group} ${t("armylists.build.ValidateExcluded")} ${rule.excludes}`
                 });
 
             }
@@ -597,7 +600,7 @@ function validateBowLimit(stats) {
 
     return [{
         type: "bowLimit",
-        message: `Bow limit exceeded (${stats.bowCount}/${stats.bowLimit})`
+        message: `${t("armylists.build.ValidateBowlimit")} (${stats.bowCount}/${stats.bowLimit})`
     }];
 }
 function validateThrowingLimit(stats) {
@@ -606,7 +609,7 @@ function validateThrowingLimit(stats) {
 
     return [{
         type: "throwingLimit",
-        message: `Throwing weapon limit exceeded (${stats.throwingCount}/${stats.throwingLimit})`
+        message: `${t("armylists.build.ValidateThrowinglimit")} (${stats.throwingCount}/${stats.throwingLimit})`
     }];
 }
 function validateMandatoryWarriorOptions(builder) {
@@ -627,7 +630,7 @@ function validateMandatoryWarriorOptions(builder) {
 
                 warnings.push({
                     type: "mandatoryWarrior",
-                    message: `${w.name} in Warband ${wbIndex + 1} must select a mandatory option`
+                    message: `${w.name} ${t("armylists.build.ValidateMandatoryOne")} ${wbIndex + 1} ${t("armylists.build.ValidateMandatoryTwo")}`
                 });
 
             }
@@ -671,8 +674,7 @@ function validateSiegeEngineLimit(builder) {
         warnings.push({
             type: "siegeEngineLimit",
             message:
-                `Too many Siege Engines (${siegeWarbands}). ` +
-                `You may include at most ${validHeroes} Siege Engine warbands.`
+                `${t("armylists.build.ValidateSiegeEngine")} (${siegeWarbands}/${validHeroes}).`
         });
 
     }

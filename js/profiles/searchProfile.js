@@ -416,7 +416,8 @@ function renderDefaultList(left, right, entries, profile) {
 
     entries.forEach(entry => {
 
-        const name = typeof entry === "string" ? entry : entry.name;
+       const rawName = typeof entry === "string" ? entry : entry.name;
+       const displayName = stripBracketSuffix(rawName);
 
         const row = document.createElement("div");
         row.className = "entry-row";
@@ -427,9 +428,9 @@ function renderDefaultList(left, right, entries, profile) {
 
         const text = document.createElement("span");
         text.className = "clickable-entry";
-        text.textContent = name;
+        text.textContent = displayName;
 
-        text.onclick = () => handleEntryClick(name, right, profile);
+        text.onclick = () => handleEntryClick(rawName, right, profile);
 
         row.appendChild(bullet);
         row.appendChild(text);
@@ -455,7 +456,7 @@ function renderOptionsList(left, right, entries, profile) {
 
     optionalRules.forEach(rule => {
         const p = document.createElement("p");
-        p.textContent = rule.name;
+        p.innerHTML = formatText(rule.name);
         p.className = "option-rule-text";
         left.appendChild(p);
     });
@@ -929,18 +930,16 @@ function renderArmyListReferences(profile) {
     if (!state.armyLists) return "";
 
     const searchNames = new Set();
-    const matches = new Map(); // dedupe via list.id
+    const matches = new Map();
 
     /* =========================
        1) Basisname
     ========================== */
-
     searchNames.add(profile.name);
 
     /* =========================
        2) Linked Profiles
     ========================== */
-
     if (profile.linkedProfile) {
         profile.linkedProfile.forEach(name => {
             searchNames.add(name);
@@ -948,10 +947,8 @@ function renderArmyListReferences(profile) {
     }
 
     /* =========================
-       3) Composition-Suche
-       -> Welche Profiles enthalten dieses Profil in ihrer composition?
+       3) Composition Reverse Lookup
     ========================== */
-
     Object.values(state.profiles).forEach(p => {
         if (!p.composition) return;
 
@@ -959,6 +956,15 @@ function renderArmyListReferences(profile) {
             searchNames.add(p.name);
         }
     });
+
+    /* =========================
+       HELPER: SameAs prüfen
+    ========================== */
+    function hasSameAsMatch(armyRules) {
+        if (!armyRules || !armyRules.SameAs) return false;
+
+        return armyRules.SameAs.some(name => searchNames.has(name));
+    }
 
     /* =========================
        4) Armylisten durchsuchen
@@ -972,15 +978,55 @@ function renderArmyListReferences(profile) {
 
             entries.forEach(entry => {
 
+                let matched = false;
+                let isSameAsMatch = false;
+
+                /* =========================
+                   A) Direktes Model-Match
+                ========================== */
                 if (searchNames.has(entry.name)) {
+                    matched = true;
+                }
+
+                /* =========================
+                   B) SameAs → MODEL
+                ========================== */
+                if (!matched && hasSameAsMatch(entry.armyRules)) {
+                    matched = true;
+                    isSameAsMatch = true;
+                }
+
+                /* =========================
+                   C) SameAs → OPTIONS
+                ========================== */
+                if (!matched && entry.options) {
+                    entry.options.forEach(opt => {
+                        if (hasSameAsMatch(opt.armyRules)) {
+                            matched = true;
+                            isSameAsMatch = true;
+                        }
+                    });
+                }
+                /* =========================
+                   MATCH SPEICHERN
+                ========================== */
+                if (matched) {
 
                     if (!matches.has(list.id)) {
+
+                        let finalCategory = category
+                            .replace("Heroes", "Hero")
+                            .replace("Warriors", "Warrior");
+
+                        // Override für SameAs
+                        if (isSameAsMatch && !searchNames.has(entry.name)) {
+                            finalCategory = "Independent Hero";
+                        }
+
                         matches.set(list.id, {
                             id: list.id,
                             listName: list.name,
-                            category: category
-                                .replace("Heroes", "Hero")
-                                .replace("Warriors", "Warrior")
+                            category: finalCategory
                         });
                     }
 
@@ -997,17 +1043,17 @@ function renderArmyListReferences(profile) {
     const items = Array.from(matches.values())
         .map(m =>
             `<li class="entry-row">
-            <span class="entry-bullet">•</span>
-            <span class="clickable-entry armylist-link" data-id="${m.id}">
-                ${m.listName} (${m.category})
-            </span>
-        </li>`
+                <span class="entry-bullet">•</span>
+                <span class="clickable-entry armylist-link" data-id="${m.id}">
+                    ${m.listName} (${m.category})
+                </span>
+            </li>`
         )
         .join("");
 
     return `
         <div class="additional-block">
-            <h4 class="additional-list-title"> ${t("profiles.search.armyLists")}</h4>
+            <h4 class="additional-list-title">${t("profiles.search.armyLists")}</h4>
             <ul class="additional-list linked-list">
                 ${items}
             </ul>
@@ -1199,6 +1245,9 @@ function formatText(text) {
     return text
         .replace(/\n/g, "<br>")
         .replace(/\t/g, "&nbsp;&nbsp;&nbsp;&nbsp;");
+}
+function stripBracketSuffix(name) {
+    return name.replace(/\s*\[[^\]]*\]/g, "").trim();
 }
 function addArticle(name, type, capital) {
 

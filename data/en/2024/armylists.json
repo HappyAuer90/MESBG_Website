@@ -43,6 +43,9 @@
 				{
 					"name": "Halbarad",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "70"
@@ -51,6 +54,11 @@
 			"Independent Heroes": [
 				{
 					"name": "Ranger of the North",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						}
+					},
 					"points": "25",
 					"options": [
 						{
@@ -130,10 +138,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Spear",
@@ -147,10 +155,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -294,10 +302,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -449,10 +457,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Bow",
@@ -571,10 +579,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				}
@@ -589,10 +597,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -608,6 +616,9 @@
 				{
 					"name": "Háma, Prince of Rohan",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "70",
@@ -624,6 +635,10 @@
 				{
 					"name": "Fréaláf, First Marshal of the Riddermark",
 					"armyRules": {
+						"Followers": [
+							"Warrior of Harrowdale",
+							"Rider of Rohan"
+						],
 						"Maximum": 1
 					},
 					"points": "100",
@@ -681,6 +696,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -710,6 +726,9 @@
 				{
 					"name": "King’s Huntsman",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "55"
@@ -731,10 +750,59 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Shield and throwing spears",
+							"armyRules": {
+								"Throwing": {
+									"limit": "count"
+								}
+							},
+							"cost": "3"
+						},
+						{
+							"name": "Bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "1"
+						},
+						{
+							"name": "Shield",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Warrior of Harrowdale",
+					"armyRules": {
+						"Captains": [
+							"Fréaláf, First Marshal of the Riddermark"
+						]
+					},
+					"points": "6",
+					"mandatoryWarrior": [
+						{
+							"name": "War horn, shield and throwing spears",
+							"armyRules": {
+								"Throwing": {
+									"limit": "count"
+								}
+							},
+							"cost": "28"
+						},
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -772,10 +840,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -792,9 +860,7 @@
 					"name": "Rohan Royal Guard",
 					"armyRules": {
 						"Captains": [
-							"Helm Hammerhand, King of Rohan",
-							"Haleth, Prince of Rohan",
-							"Háma, Prince of Rohan"
+							"Helm Hammerhand, King of Rohan"
 						]
 					},
 					"points": "11",
@@ -928,7 +994,10 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100"
 				},
@@ -957,10 +1026,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -1112,10 +1181,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -1358,10 +1427,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield",
@@ -1752,10 +1821,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -1979,10 +2048,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Lance",
@@ -2079,10 +2148,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -2104,10 +2173,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -2208,10 +2277,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Exchange lance for banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Exchange lance for war horn",
@@ -2228,10 +2297,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Exchange shield for banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -2509,10 +2578,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield",
@@ -2570,10 +2639,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -2675,10 +2744,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Bow",
@@ -2909,6 +2978,11 @@
 			"Independent Heroes": [
 				{
 					"name": "Ranger of the North",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						}
+					},
 					"points": "25",
 					"options": [
 						{
@@ -2928,11 +3002,11 @@
 					"points": "8",
 					"optionalWarrior": [
 						{
-							"name": "Swap spear and shield for banner",
-							"cost": "25",
+							"name": "Swap shield and spear for banner",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -2949,10 +3023,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -3099,10 +3173,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -3322,6 +3396,9 @@
 				{
 					"name": "Legolas Greenleaf, Prince of Mirkwood",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "105"
@@ -3406,10 +3483,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Crossbow",
@@ -3539,10 +3616,23 @@
 					"options": [
 						{
 							"name": "Pippin (can only be taken if Gandalf is riding Shadowfax)",
+							"uiName": "Pippin",
+							"armyRules": {
+								"CountAs": 1,
+								"Depends": [
+									"Shadowfax"
+								],
+								"SameAs": [
+									"Peregrin Took, Guard of the Citadel"
+								]
+							},
 							"cost": "25"
 						},
 						{
 							"name": "Shadowfax",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "25"
 						}
 					]
@@ -3558,10 +3648,10 @@
 					"options": [
 						{
 							"name": "Horse",
-							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "20"
 						}
 					]
 				}
@@ -3575,12 +3665,11 @@
 					"points": "65"
 				},
 				{
-					"name": "Captain of Minas Tirith",
-					"points": "60"
-				},
-				{
 					"name": "Beregond, Guard of the Citadel",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "65"
@@ -3588,6 +3677,10 @@
 				{
 					"name": "Knight of the White Tower",
 					"points": "75"
+				},
+				{
+					"name": "Captain of Minas Tirith",
+					"points": "60"
 				}
 			],
 			"Independent Heroes": [
@@ -3616,10 +3709,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -3649,10 +3742,10 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -4038,10 +4131,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Lance",
@@ -4075,10 +4168,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -4165,10 +4258,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Exchange lance for banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Exchange lance for war horn",
@@ -4342,7 +4435,7 @@
 						"Cavalry": true,
 						"Followers": [
 							"Hobbit Militia",
-							"Tookish Hunters",
+							"Tookish Hunter",
 							"Hobbit Shirriff"
 						],
 						"Maximum": 1
@@ -4392,7 +4485,7 @@
 					"armyRules": {
 						"Followers": [
 							"Hobbit Militia",
-							"Tookish Hunters",
+							"Tookish Hunter",
 							"Hobbit Shirriff"
 						],
 						"Maximum": 1
@@ -4425,7 +4518,26 @@
 					"armyRules": {
 						"Maximum": 1
 					},
-					"points": "50"
+					"points": "50",
+					"composition": [
+						{
+							"name": "Farmer Maggot",
+							"compositionModel": "Captain",
+							"armyRules": {
+								"Maximum": 1
+							},
+							"points": "50"
+						},
+						{
+							"name": "Grip"
+						},
+						{
+							"name": "Fang"
+						},
+						{
+							"name": "Wolf"
+						}
+					]
 				},
 				{
 					"name": "Farmer Tolman Cotton",
@@ -4435,7 +4547,7 @@
 					"points": "35"
 				},
 				{
-					"name": "Hamfast ’Gaffer’ Gamgee",
+					"name": "Hamfast 'Gaffer' Gamgee",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -4451,7 +4563,7 @@
 			],
 			"Minor Heroes": [
 				{
-					"name": "Fredegar ’Fatty’ Bolger",
+					"name": "Fredegar 'Fatty' Bolger",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -4462,6 +4574,7 @@
 				{
 					"name": "Rosie Cotton",
 					"armyRules": {
+						"Banner": true,
 						"Maximum": 1
 					},
 					"points": "20"
@@ -4491,8 +4604,16 @@
 					"points": "5"
 				},
 				{
-					"name": "Hobbit Archer",
-					"points": "5",
+					"name": "Tookish Hunter",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
+						"Captains": [
+							"Paladin Took, Thain of the Shire"
+						]
+					},
+					"points": "6",
 					"optionalWarrior": [
 						{
 							"name": "War horn",
@@ -4501,13 +4622,13 @@
 					]
 				},
 				{
-					"name": "Tookish Hunters",
+					"name": "Hobbit Archer",
 					"armyRules": {
-						"Captains": [
-							"Paladin Took, Thain of the Shire"
-						]
+						"Bow": {
+							"limit": "count"
+						}
 					},
-					"points": "6",
+					"points": "5",
 					"optionalWarrior": [
 						{
 							"name": "War horn",
@@ -4575,10 +4696,10 @@
 					"options": [
 						{
 							"name": "Armoured horse and lance",
-							"cost": "30",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "30"
 						}
 					]
 				},
@@ -4633,6 +4754,9 @@
 				{
 					"name": "Ranger of the North",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Captains": [
 							"Aranarth, First Chieftain of the Dúnedain"
 						]
@@ -4667,10 +4791,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -4704,10 +4828,10 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -4724,10 +4848,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -4751,6 +4875,9 @@
 				{
 					"name": "Hobbit Archer",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"Aranarth, First Chieftain of the Dúnedain",
 							"Ranger of the North"
@@ -4819,6 +4946,11 @@
 			"Heroes of Fortitude": [
 				{
 					"name": "Ranger of the North",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						}
+					},
 					"points": "25",
 					"options": [
 						{
@@ -4839,6 +4971,11 @@
 				},
 				{
 					"name": "Hobbit Archer",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						}
+					},
 					"points": "5",
 					"optionalWarrior": [
 						{
@@ -5075,10 +5212,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -5198,6 +5335,9 @@
 						"Maximum": 1
 					},
 					"points": "160",
+					"mandatory": [
+						"Elven cloak"
+					],
 					"options": [
 						{
 							"name": "Bow",
@@ -5215,13 +5355,19 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Captain": "No",
 						"Captains": [
 							"Aragorn (Strider)"
 						],
 						"Maximum": 1
 					},
-					"points": "100"
+					"points": "100",
+					"mandatory": [
+						"Elven cloak"
+					]
 				},
 				{
 					"name": "Gimli, son of Glóin",
@@ -5230,9 +5376,15 @@
 						"Captains": [
 							"Aragorn (Strider)"
 						],
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
-					"points": "100"
+					"points": "100",
+					"mandatory": [
+						"Elven cloak"
+					]
 				},
 				{
 					"name": "Boromir of Gondor",
@@ -5244,6 +5396,9 @@
 						"Maximum": 1
 					},
 					"points": "95",
+					"mandatory": [
+						"Elven cloak"
+					],
 					"options": [
 						{
 							"name": "Shield",
@@ -5257,6 +5412,9 @@
 						"Maximum": 1
 					},
 					"points": "70",
+					"mandatory": [
+						"Elven cloak"
+					],
 					"options": [
 						{
 							"name": "Elf bow",
@@ -5301,7 +5459,10 @@
 						],
 						"Maximum": 1
 					},
-					"points": "40"
+					"points": "40",
+					"mandatory": [
+						"Elven cloak"
+					]
 				}
 			],
 			"Independent Heroes": [
@@ -5314,7 +5475,10 @@
 						],
 						"Maximum": 1
 					},
-					"points": "10"
+					"points": "10",
+					"mandatory": [
+						"Elven cloak"
+					]
 				},
 				{
 					"name": "Peregrin Took",
@@ -5325,7 +5489,10 @@
 						],
 						"Maximum": 1
 					},
-					"points": "10"
+					"points": "10",
+					"mandatory": [
+						"Elven cloak"
+					]
 				}
 			],
 			"Warriors": [
@@ -5340,10 +5507,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -5485,10 +5652,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -5880,10 +6047,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -5941,10 +6108,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -6060,6 +6227,9 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "100",
@@ -6077,7 +6247,10 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100",
 					"options": [
@@ -6118,6 +6291,9 @@
 					"options": [
 						{
 							"name": "Royal Standard of Rohan",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "40"
 						}
 					]
@@ -6128,6 +6304,7 @@
 					"options": [
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -6156,6 +6333,9 @@
 				{
 					"name": "King’s Huntsman",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "55"
@@ -6165,6 +6345,9 @@
 				{
 					"name": "Aldor, Rohan Archer",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "20"
@@ -6172,6 +6355,9 @@
 				{
 					"name": "Haleth, Son of Háma",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "30"
@@ -6193,10 +6379,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -6258,10 +6444,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -6373,6 +6559,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -6416,10 +6603,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -6454,10 +6641,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -6503,6 +6690,7 @@
 				{
 					"name": "Théoden, King of Rohan",
 					"armyRules": {
+						"Cavalry": true,
 						"Maximum": 1
 					},
 					"points": "110",
@@ -6538,6 +6726,16 @@
 					"options": [
 						{
 							"name": "Pippin (can only be taken if Gandalf is riding Shadowfax)",
+							"uiName": "Pippin",
+							"armyRules": {
+								"CountAs": 1,
+								"Depends": [
+									"Shadowfax"
+								],
+								"SameAs": [
+									"Peregrin Took, Guard of the Citadel"
+								]
+							},
 							"cost": "25"
 						},
 						{
@@ -6555,10 +6753,10 @@
 					"options": [
 						{
 							"name": "Armoured horse and lance",
-							"cost": "30",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "30"
 						}
 					]
 				}
@@ -6567,6 +6765,7 @@
 				{
 					"name": "Éomer, Marshal of the Riddermark",
 					"armyRules": {
+						"Cavalry": true,
 						"Maximum": 1
 					},
 					"points": "140",
@@ -6589,6 +6788,9 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "100",
@@ -6606,7 +6808,10 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100",
 					"options": [
@@ -6652,7 +6857,11 @@
 					"name": "Éowyn, Shieldmaiden of Rohan",
 					"armyRules": {
 						"Cavalry": true,
-						"Maximum": 1
+						"CountAs": 1,
+						"Maximum": 1,
+						"SameAs": [
+							"Meriadoc Brandybuck, Esquire of Rohan"
+						]
 					},
 					"points": "110",
 					"mandatory": [
@@ -6689,44 +6898,12 @@
 					"options": [
 						{
 							"name": "Royal Standard of Rohan",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "40"
 						}
 					]
-				},
-				{
-					"name": "Captain of Rohan",
-					"armyRules": {
-						"Cavalry": true
-					},
-					"points": "65",
-					"mandatory": [
-						"Horse"
-					],
-					"options": [
-						{
-							"name": "Exchange armour for heavy armour",
-							"cost": "5"
-						},
-						{
-							"name": "Shield",
-							"cost": "5"
-						}
-					]
-				},
-				{
-					"name": "Herald of the Dead",
-					"points": "70"
-				},
-				{
-					"name": "Irolas, Captain of the Guard",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "65"
-				},
-				{
-					"name": "Captain of Minas Tirith",
-					"points": "60"
 				},
 				{
 					"name": "Déorwine, Chief of the King’s Knights",
@@ -6747,7 +6924,10 @@
 				{
 					"name": "Elfhelm, Captain of Rohan",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "60",
 					"options": [
@@ -6761,6 +6941,38 @@
 					]
 				},
 				{
+					"name": "Captain of Rohan",
+					"armyRules": {
+						"Cavalry": true
+					},
+					"points": "65",
+					"mandatory": [
+						"Horse"
+					],
+					"options": [
+						{
+							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
+							"cost": "5"
+						},
+						{
+							"name": "Shield",
+							"cost": "5"
+						}
+					]
+				},
+				{
+					"name": "Herald of the Dead",
+					"points": "70"
+				},
+				{
+					"name": "Irolas, Captain of the Guard",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "65"
+				},
+				{
 					"name": "Ingold, Warden of the Rammas Echor",
 					"armyRules": {
 						"Maximum": 1
@@ -6770,22 +6982,23 @@
 				{
 					"name": "Beregond, Guard of the Citadel",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "65"
 				},
 				{
-					"name": "Captain of Dol Amroth",
-					"points": "65",
-					"options": [
-						{
-							"name": "Armoured horse and lance",
-							"cost": "30",
-							"armyRules": {
-								"Cavalry": true
-							}
-						}
-					]
+					"name": "Knight of the White Tower",
+					"armyRules": {
+						"Legacy": true
+					},
+					"points": "75"
+				},
+				{
+					"name": "Captain of Minas Tirith",
+					"points": "60"
 				},
 				{
 					"name": "Angbor the Fearless",
@@ -6797,23 +7010,42 @@
 				{
 					"name": "Duinhir, Lord of the Blackroot Vale",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "65"
 				},
 				{
+					"name": "Captain of Dol Amroth",
+					"points": "65",
+					"options": [
+						{
+							"name": "Armoured horse and lance",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "30"
+						}
+					]
+				},
+				{
 					"name": "Halbarad",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "70",
 					"options": [
 						{
 							"name": "Banner of Arwen Evenstar",
-							"cost": "40",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "40"
 						}
 					]
 				},
@@ -6827,45 +7059,14 @@
 						{
 							"name": "Elladan",
 							"compositionModel": "Captain",
-							"armyRules": {
-								"Maximum": 1
-							},
-							"points": "80",
-							"options": [
-								{
-									"name": "Horse",
-									"cost": "20",
-									"armyRules": {
-										"Cavalry": true
-									}
-								}
-							]
+							"points": "80"
 						},
 						{
 							"name": "Elrohir",
 							"compositionModel": "Captain",
-							"armyRules": {
-								"Maximum": 1
-							},
-							"points": "80",
-							"options": [
-								{
-									"name": "Horse",
-									"cost": "20",
-									"armyRules": {
-										"Cavalry": true
-									}
-								}
-							]
+							"points": "80"
 						}
 					]
-				},
-				{
-					"name": "Knight of the White Tower",
-					"armyRules": {
-						"Legacy": true
-					},
-					"points": "75"
 				}
 			],
 			"Independent Heroes": [
@@ -6885,6 +7086,10 @@
 				{
 					"name": "Ranger of the North",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
+						"Captain": "No",
 						"Captains": [
 							"Halbarad"
 						]
@@ -6906,14 +7111,17 @@
 				{
 					"name": "Rider of Rohan",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"Théoden, King of Rohan",
 							"Éomer, Marshal of the Riddermark",
 							"Éowyn, Shieldmaiden of Rohan",
 							"Gamling, Captain of Rohan",
-							"Captain of Rohan",
 							"Déorwine, Chief of the King’s Knights",
-							"Elfhelm, Captain of Rohan"
+							"Elfhelm, Captain of Rohan",
+							"Captain of Rohan"
 						],
 						"Cavalry": true
 					},
@@ -6921,10 +7129,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -6943,7 +7151,8 @@
 						"Captains": [
 							"Théoden, King of Rohan",
 							"Éomer, Marshal of the Riddermark",
-							"Gamling, Captain of Rohan"
+							"Gamling, Captain of Rohan",
+							"Déorwine, Chief of the King’s Knights"
 						],
 						"Cavalry": true
 					},
@@ -6978,10 +7187,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -7020,13 +7229,13 @@
 							"Húrin the Tall, Warden of the Keys",
 							"Forlong the Fat",
 							"Irolas, Captain of the Guard",
-							"Captain of Minas Tirith",
 							"Ingold, Warden of the Rammas Echor",
 							"Beregond, Guard of the Citadel",
-							"Captain of Dol Amroth",
+							"Knight of the White Tower",
+							"Captain of Minas Tirith",
 							"Angbor the Fearless",
 							"Duinhir, Lord of the Blackroot Vale",
-							"Knight of the White Tower"
+							"Captain of Dol Amroth"
 						]
 					},
 					"points": "8",
@@ -7037,10 +7246,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -7070,13 +7279,13 @@
 							"Húrin the Tall, Warden of the Keys",
 							"Forlong the Fat",
 							"Irolas, Captain of the Guard",
-							"Captain of Minas Tirith",
 							"Ingold, Warden of the Rammas Echor",
 							"Beregond, Guard of the Citadel",
-							"Captain of Dol Amroth",
+							"Knight of the White Tower",
+							"Captain of Minas Tirith",
 							"Angbor the Fearless",
 							"Duinhir, Lord of the Blackroot Vale",
-							"Knight of the White Tower"
+							"Captain of Dol Amroth"
 						],
 						"Cavalry": true
 					},
@@ -7084,10 +7293,10 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -7124,39 +7333,38 @@
 							"Húrin the Tall, Warden of the Keys",
 							"Forlong the Fat",
 							"Irolas, Captain of the Guard",
-							"Captain of Minas Tirith",
 							"Ingold, Warden of the Rammas Echor",
 							"Beregond, Guard of the Citadel",
-							"Captain of Dol Amroth",
+							"Knight of the White Tower",
+							"Captain of Minas Tirith",
 							"Angbor the Fearless",
 							"Duinhir, Lord of the Blackroot Vale",
-							"Knight of the White Tower"
+							"Captain of Dol Amroth"
 						]
 					},
 					"points": "11",
 					"optionalWarrior": [
 						{
 							"name": "Armoured horse and banner",
-							"cost": "33",
 							"armyRules": {
 								"Banner": true,
 								"Cavalry": true
-							}
+							},
+							"cost": "33"
 						},
 						{
 							"name": "Armoured horse and war horn",
-							"cost": "33",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "33"
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
-								"Banner": true,
-								"Cavalry": true
-							}
+								"Banner": true
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -7164,12 +7372,33 @@
 						},
 						{
 							"name": "Armoured horse and lance",
-							"cost": "9",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "9"
 						}
 					]
+				},
+				{
+					"name": "Man-at-arms of Dol Amroth",
+					"armyRules": {
+						"Captains": [
+							"Gandalf the White",
+							"Prince Imrahil of Dol Amroth",
+							"Húrin the Tall, Warden of the Keys",
+							"Forlong the Fat",
+							"Irolas, Captain of the Guard",
+							"Ingold, Warden of the Rammas Echor",
+							"Beregond, Guard of the Citadel",
+							"Knight of the White Tower",
+							"Captain of Minas Tirith",
+							"Angbor the Fearless",
+							"Duinhir, Lord of the Blackroot Vale",
+							"Captain of Dol Amroth"
+						],
+						"Legacy": true
+					},
+					"points": "10"
 				},
 				{
 					"name": "Axeman of Lossarnach",
@@ -7180,13 +7409,13 @@
 							"Húrin the Tall, Warden of the Keys",
 							"Forlong the Fat",
 							"Irolas, Captain of the Guard",
-							"Captain of Minas Tirith",
 							"Ingold, Warden of the Rammas Echor",
 							"Beregond, Guard of the Citadel",
-							"Captain of Dol Amroth",
+							"Knight of the White Tower",
+							"Captain of Minas Tirith",
 							"Angbor the Fearless",
 							"Duinhir, Lord of the Blackroot Vale",
-							"Knight of the White Tower"
+							"Captain of Dol Amroth"
 						]
 					},
 					"points": "9"
@@ -7200,13 +7429,13 @@
 							"Húrin the Tall, Warden of the Keys",
 							"Forlong the Fat",
 							"Irolas, Captain of the Guard",
-							"Captain of Minas Tirith",
 							"Ingold, Warden of the Rammas Echor",
 							"Beregond, Guard of the Citadel",
-							"Captain of Dol Amroth",
+							"Knight of the White Tower",
+							"Captain of Minas Tirith",
 							"Angbor the Fearless",
 							"Duinhir, Lord of the Blackroot Vale",
-							"Knight of the White Tower"
+							"Captain of Dol Amroth"
 						]
 					},
 					"points": "8"
@@ -7214,29 +7443,32 @@
 				{
 					"name": "Blackroot Vale Archer",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"Gandalf the White",
 							"Prince Imrahil of Dol Amroth",
 							"Húrin the Tall, Warden of the Keys",
 							"Forlong the Fat",
 							"Irolas, Captain of the Guard",
-							"Captain of Minas Tirith",
 							"Ingold, Warden of the Rammas Echor",
 							"Beregond, Guard of the Citadel",
-							"Captain of Dol Amroth",
+							"Knight of the White Tower",
+							"Captain of Minas Tirith",
 							"Angbor the Fearless",
 							"Duinhir, Lord of the Blackroot Vale",
-							"Knight of the White Tower"
+							"Captain of Dol Amroth"
 						]
 					},
 					"points": "8",
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -7247,27 +7479,6 @@
 							"cost": "1"
 						}
 					]
-				},
-				{
-					"name": "Man-at-arms of Dol Amroth",
-					"armyRules": {
-						"Captains": [
-							"Gandalf the White",
-							"Prince Imrahil of Dol Amroth",
-							"Húrin the Tall, Warden of the Keys",
-							"Forlong the Fat",
-							"Irolas, Captain of the Guard",
-							"Captain of Minas Tirith",
-							"Ingold, Warden of the Rammas Echor",
-							"Beregond, Guard of the Citadel",
-							"Captain of Dol Amroth",
-							"Angbor the Fearless",
-							"Duinhir, Lord of the Blackroot Vale",
-							"Knight of the White Tower"
-						],
-						"Legacy": true
-					},
-					"points": "10"
 				}
 			],
 			"Siege Engines": [
@@ -7812,10 +8023,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -8018,10 +8229,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -8129,10 +8340,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -8207,10 +8418,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -8244,6 +8455,9 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						}
 					]
@@ -8251,6 +8465,9 @@
 				{
 					"name": "Ranger of Gondor",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"Cirion, Lieutnant of Amon Barad",
 							"Captain of Minas Tirith"
@@ -8260,10 +8477,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -8320,6 +8537,13 @@
 					"options": [
 						{
 							"name": "Merry & Pippin",
+							"armyRules": {
+								"CountAs": 2,
+								"SameAs": [
+									"Meriadoc Brandybuck",
+									"Peregrin Took"
+								]
+							},
 							"cost": "10"
 						}
 					]
@@ -8564,10 +8788,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -8724,6 +8948,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -8750,6 +8975,7 @@
 					"options": [
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -8777,10 +9003,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -8820,10 +9046,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -8915,6 +9141,9 @@
 					"options": [
 						{
 							"name": "Brego",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -8924,7 +9153,10 @@
 				{
 					"name": "Elfhelm, Captain of Rohan",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "60",
 					"options": [
@@ -8950,6 +9182,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -8971,6 +9204,9 @@
 				{
 					"name": "King’s Huntsman",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "55"
@@ -8978,8 +9214,14 @@
 			],
 			"Warriors": [
 				{
-					"name": "Warrior of Rohan",
-					"points": "6",
+					"name": "Helmingas",
+					"armyRules": {
+						"Captains": [
+							"Grimbold of Grimslade"
+						],
+						"Legacy": true
+					},
+					"points": "7",
 					"mandatoryWarrior": [
 						{
 							"name": "War horn, shield and throwing spears",
@@ -8992,10 +9234,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -9022,14 +9264,8 @@
 					]
 				},
 				{
-					"name": "Helmingas",
-					"armyRules": {
-						"Captains": [
-							"Grimbold of Grimslade"
-						],
-						"Legacy": true
-					},
-					"points": "7",
+					"name": "Warrior of Rohan",
+					"points": "6",
 					"mandatoryWarrior": [
 						{
 							"name": "War horn, shield and throwing spears",
@@ -9042,10 +9278,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -9080,10 +9316,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -9136,6 +9372,9 @@
 				{
 					"name": "Rohan Outrider",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Legacy": true
 					},
 					"points": "8",
@@ -9215,10 +9454,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -9318,6 +9557,9 @@
 				{
 					"name": "Faramir, Captain of Gondor",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -9328,6 +9570,9 @@
 				{
 					"name": "Madril, Captain of Ithilien",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "60"
@@ -9335,6 +9580,9 @@
 				{
 					"name": "Damrod, Ranger of Ithilien",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "40"
@@ -9385,6 +9633,9 @@
 				{
 					"name": "Anborn, Ranger of Ithilien",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true,
 						"Maximum": 1
 					},
@@ -9393,6 +9644,9 @@
 				{
 					"name": "Mablung, Ranger of Ithilien",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true,
 						"Maximum": 1
 					},
@@ -9427,10 +9681,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -9460,20 +9714,28 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						}
 					]
 				},
 				{
 					"name": "Ranger of Gondor",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						}
+					},
 					"points": "8",
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -9651,10 +9913,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -9676,10 +9938,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -9913,10 +10175,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -10009,10 +10271,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				}
@@ -10040,10 +10302,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -10087,10 +10349,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Bow and war spear",
@@ -10152,10 +10414,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Easterling Halberd and shield",
@@ -10193,10 +10455,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Exchange shield for war drum",
@@ -10574,6 +10836,9 @@
 				{
 					"name": "Legolas Greenleaf, Prince of Mirkwood",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "105",
@@ -10901,10 +11166,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -10934,10 +11199,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Bow and war spear",
@@ -11065,10 +11330,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				}
@@ -11086,10 +11351,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				}
@@ -11101,10 +11366,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Easterling Halberd and shield",
@@ -11134,10 +11399,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Exchange shield for war drum",
@@ -11345,10 +11610,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -11423,10 +11688,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Spear",
@@ -11535,10 +11800,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -11690,14 +11955,27 @@
 					"options": [
 						{
 							"name": "Snowmane with armour",
+							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Snowmane"
+								]
+							},
 							"cost": "25"
 						},
 						{
 							"name": "Snowmane",
+							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Snowmane with armour"
+								]
+							},
 							"cost": "20"
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -11717,6 +11995,9 @@
 					"options": [
 						{
 							"name": "Brego",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -11734,10 +12015,22 @@
 					"options": [
 						{
 							"name": "Firefoot with armour",
+							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Firefoot"
+								]
+							},
 							"cost": "25"
 						},
 						{
 							"name": "Firefoot",
+							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Firefoot with armour"
+								]
+							},
 							"cost": "20"
 						},
 						{
@@ -11773,6 +12066,9 @@
 					"options": [
 						{
 							"name": "Royal Standard of Rohan",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "40"
 						},
 						{
@@ -11781,27 +12077,6 @@
 							"armyRules": {
 								"Cavalry": true
 							}
-						}
-					]
-				},
-				{
-					"name": "Captain of Rohan",
-					"points": "45",
-					"options": [
-						{
-							"name": "Horse",
-							"cost": "20",
-							"armyRules": {
-								"Cavalry": true
-							}
-						},
-						{
-							"name": "Exchange armour for heavy armour",
-							"cost": "5"
-						},
-						{
-							"name": "Shield",
-							"cost": "5"
 						}
 					]
 				},
@@ -11824,7 +12099,10 @@
 				{
 					"name": "Elfhelm, Captain of Rohan",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "60",
 					"options": [
@@ -11853,6 +12131,28 @@
 						"Maximum": 1
 					},
 					"points": "90"
+				},
+				{
+					"name": "Captain of Rohan",
+					"points": "45",
+					"options": [
+						{
+							"name": "Horse",
+							"cost": "20",
+							"armyRules": {
+								"Cavalry": true
+							}
+						},
+						{
+							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
+							"cost": "5"
+						},
+						{
+							"name": "Shield",
+							"cost": "5"
+						}
+					]
 				}
 			],
 			"Minor Heroes": [
@@ -11892,56 +12192,15 @@
 				{
 					"name": "King’s Huntsman",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "55"
 				}
 			],
 			"Warriors": [
-				{
-					"name": "Warrior of Rohan",
-					"points": "6",
-					"mandatoryWarrior": [
-						{
-							"name": "War horn, shield and throwing spears",
-							"armyRules": {
-								"Throwing": {
-									"limit": "count"
-								}
-							},
-							"cost": "28"
-						},
-						{
-							"name": "Banner",
-							"cost": "25",
-							"armyRules": {
-								"Banner": true
-							}
-						},
-						{
-							"name": "Shield and throwing spears",
-							"armyRules": {
-								"Throwing": {
-									"limit": "count"
-								}
-							},
-							"cost": "3"
-						},
-						{
-							"name": "Bow",
-							"armyRules": {
-								"Bow": {
-									"limit": "count"
-								}
-							},
-							"cost": "1"
-						},
-						{
-							"name": "Shield",
-							"cost": "1"
-						}
-					]
-				},
 				{
 					"name": "Helmingas",
 					"armyRules": {
@@ -11963,10 +12222,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -11993,30 +12252,46 @@
 					]
 				},
 				{
-					"name": "Rider of Rohan",
-					"armyRules": {
-						"Bow": {
-							"limit": "ignore"
-						},
-						"Cavalry": true
-					},
-					"points": "14",
-					"optionalWarrior": [
+					"name": "Warrior of Rohan",
+					"points": "6",
+					"mandatoryWarrior": [
 						{
-							"name": "Banner",
-							"cost": "25",
-							"armyRules": {
-								"Banner": true
-							}
-						},
-						{
-							"name": "Throwing spears",
+							"name": "War horn, shield and throwing spears",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
 								}
 							},
-							"cost": "2"
+							"cost": "28"
+						},
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Shield and throwing spears",
+							"armyRules": {
+								"Throwing": {
+									"limit": "count"
+								}
+							},
+							"cost": "3"
+						},
+						{
+							"name": "Bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "1"
+						},
+						{
+							"name": "Shield",
+							"cost": "1"
 						}
 					]
 				},
@@ -12036,10 +12311,38 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Throwing spears",
+							"armyRules": {
+								"Throwing": {
+									"limit": "count"
+								}
+							},
+							"cost": "2"
+						}
+					]
+				},
+				{
+					"name": "Rider of Rohan",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
+						"Cavalry": true
+					},
+					"points": "14",
+					"optionalWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -12059,7 +12362,9 @@
 							"Théoden, King of Rohan",
 							"Théodred, Prince of Rohan",
 							"Éomer, Marshal of the Riddermark",
-							"Gamling, Captain of Rohan"
+							"Háma, Captain of Rohan",
+							"Gamling, Captain of Rohan",
+							"Déorwine, Chief of the King’s Knights"
 						]
 					},
 					"points": "11",
@@ -12095,6 +12400,9 @@
 				{
 					"name": "Rohan Outrider",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Legacy": true
 					},
 					"points": "8",
@@ -12239,10 +12547,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -12255,10 +12563,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -12554,10 +12862,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Lance",
@@ -12571,10 +12879,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -12660,10 +12968,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				}
@@ -12699,10 +13007,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -12773,10 +13081,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -12813,10 +13121,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Easterling Halberd and shield",
@@ -12941,10 +13249,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Exchange shield for war drum",
@@ -12973,10 +13281,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Bow and war spear",
@@ -13208,14 +13516,17 @@
 					"options": [
 						{
 							"name": "Asfaloth",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
 							"name": "Horse",
-							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "20"
 						}
 					]
 				}
@@ -13227,6 +13538,14 @@
 						"Maximum": 1
 					},
 					"points": "75"
+				},
+				{
+					"name": "Erestor",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "85"
 				},
 				{
 					"name": "Rivendell Captain",
@@ -13247,14 +13566,6 @@
 							"cost": "5"
 						}
 					]
-				},
-				{
-					"name": "Erestor",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "85"
 				}
 			],
 			"Minor Heroes": [
@@ -13268,15 +13579,50 @@
 			],
 			"Warriors": [
 				{
+					"name": "King's Guard",
+					"armyRules": {
+						"Captains": [
+							"Gil-Galad, High King of the Noldor"
+						]
+					},
+					"points": "10",
+					"optionalWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Elf bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "2"
+						},
+						{
+							"name": "Shield and Elven spear",
+							"cost": "2"
+						},
+						{
+							"name": "Shield",
+							"cost": "1"
+						}
+					]
+				},
+				{
 					"name": "Rivendell Warrior",
 					"points": "9",
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -13306,6 +13652,9 @@
 					"optionalWarrior": [
 						{
 							"name": "Exchange Elven lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						},
 						{
@@ -13392,6 +13741,20 @@
 					]
 				},
 				{
+					"name": "Rúmil, Warden of Caras Galadhon",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "85"
+				},
+				{
+					"name": "Orophin, Galadhrim Captain",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "85"
+				},
+				{
 					"name": "Galadhrim Captain",
 					"points": "70",
 					"options": [
@@ -13408,21 +13771,12 @@
 				},
 				{
 					"name": "Lothlórien Captain",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						}
+					},
 					"points": "65"
-				},
-				{
-					"name": "Rúmil, Warden of Caras Galadhon",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "85"
-				},
-				{
-					"name": "Orophin, Galadhrim Captain",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "85"
 				},
 				{
 					"name": "Lothlórien Stormcaller",
@@ -13434,8 +13788,14 @@
 			],
 			"Warriors": [
 				{
-					"name": "Galadhrim Warrior",
-					"points": "9",
+					"name": "Lórien Guard",
+					"armyRules": {
+						"Captains": [
+							"Galadriel, Lady of Lothlórien",
+							"Celeborn, Lord of Lothlórien"
+						]
+					},
+					"points": "10",
 					"optionalWarrior": [
 						{
 							"name": "War horn and Elf Bow",
@@ -13448,10 +13808,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -13477,14 +13837,8 @@
 					]
 				},
 				{
-					"name": "Lórien Guard",
-					"armyRules": {
-						"Captains": [
-							"Galadriel, Lady of Lothlórien",
-							"Celeborn, Lord of Lothlórien"
-						]
-					},
-					"points": "10",
+					"name": "Galadhrim Warrior",
+					"points": "9",
 					"optionalWarrior": [
 						{
 							"name": "War horn and Elf Bow",
@@ -13497,10 +13851,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -13531,10 +13885,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -13561,15 +13915,14 @@
 					]
 				},
 				{
-					"name": "Wood Elf Sentinel",
-					"points": "25"
-				},
-				{
 					"name": "Guard of the Galadhrim Court",
 					"points": "12",
 					"optionalWarrior": [
 						{
 							"name": "Exchange Elven pike for banner and Elven hand weapon",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						}
 					]
@@ -13583,10 +13936,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -13602,6 +13955,10 @@
 							"cost": "1"
 						}
 					]
+				},
+				{
+					"name": "Wood Elf Sentinel",
+					"points": "25"
 				}
 			]
 		}
@@ -13689,10 +14046,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield",
@@ -13782,12 +14139,19 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
+				},
+				{
+					"name": "Prince Imrahil of Dol Amroth",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "160"
 				},
 				{
 					"name": "Gwaihir",
@@ -13799,13 +14163,6 @@
 						"Monster": true
 					},
 					"points": "150"
-				},
-				{
-					"name": "Prince Imrahil of Dol Amroth",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "160"
 				}
 			],
 			"Heroes of Valour": [
@@ -13818,6 +14175,16 @@
 					"options": [
 						{
 							"name": "Pippin (can only be taken if Gandalf is riding Shadowfax)",
+							"uiName": "Pippin",
+							"armyRules": {
+								"CountAs": 1,
+								"Depends": [
+									"Shadowfax"
+								],
+								"SameAs": [
+									"Peregrin Took, Guard of the Citadel"
+								]
+							},
 							"cost": "25"
 						},
 						{
@@ -13835,10 +14202,16 @@
 					"options": [
 						{
 							"name": "Firefoot with armour",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "25"
 						},
 						{
 							"name": "Firefoot",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -13859,6 +14232,9 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "100",
@@ -13883,7 +14259,10 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100",
 					"options": [
@@ -13896,8 +14275,22 @@
 			],
 			"Heroes of Fortitude": [
 				{
+					"name": "Beregond, Guard of the Citadel",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
+						"Maximum": 1
+					},
+					"points": "65"
+				},
+				{
 					"name": "Captain of Minas Tirith",
 					"points": "60"
+				},
+				{
+					"name": "Captain of Dol Amroth",
+					"points": "65"
 				},
 				{
 					"name": "Captain of Rohan",
@@ -13905,6 +14298,7 @@
 					"options": [
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -13912,17 +14306,6 @@
 							"cost": "5"
 						}
 					]
-				},
-				{
-					"name": "Beregond, Guard of the Citadel",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "65"
-				},
-				{
-					"name": "Captain of Dol Amroth",
-					"points": "65"
 				},
 				{
 					"name": "Elladan & Elrohir",
@@ -13934,36 +14317,12 @@
 						{
 							"name": "Elladan",
 							"compositionModel": "Captain",
-							"armyRules": {
-								"Maximum": 1
-							},
-							"points": "80",
-							"options": [
-								{
-									"name": "Horse",
-									"cost": "20",
-									"armyRules": {
-										"Cavalry": true
-									}
-								}
-							]
+							"points": "80"
 						},
 						{
 							"name": "Elrohir",
 							"compositionModel": "Captain",
-							"armyRules": {
-								"Maximum": 1
-							},
-							"points": "80",
-							"options": [
-								{
-									"name": "Horse",
-									"cost": "20",
-									"armyRules": {
-										"Cavalry": true
-									}
-								}
-							]
+							"points": "80"
 						}
 					]
 				}
@@ -14011,10 +14370,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -14036,6 +14395,30 @@
 					]
 				},
 				{
+					"name": "Knight of Dol Amroth",
+					"points": "11",
+					"optionalWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "War horn",
+							"cost": "25"
+						}
+					]
+				},
+				{
+					"name": "Man-at-arms of Dol Amroth",
+					"armyRules": {
+						"Legacy": true
+					},
+					"points": "10"
+				},
+				{
 					"name": "Warrior of Rohan",
 					"points": "6",
 					"mandatoryWarrior": [
@@ -14050,10 +14433,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -14089,30 +14472,6 @@
 						"Monster": true
 					},
 					"points": "100"
-				},
-				{
-					"name": "Knight of Dol Amroth",
-					"points": "11",
-					"optionalWarrior": [
-						{
-							"name": "Banner",
-							"cost": "25",
-							"armyRules": {
-								"Banner": true
-							}
-						},
-						{
-							"name": "War horn",
-							"cost": "25"
-						}
-					]
-				},
-				{
-					"name": "Man-at-arms of Dol Amroth",
-					"armyRules": {
-						"Legacy": true
-					},
-					"points": "10"
 				}
 			]
 		}
@@ -14278,10 +14637,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -14312,10 +14671,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -14473,10 +14832,6 @@
 					"points": "65"
 				},
 				{
-					"name": "Captain of Minas Tirith",
-					"points": "60"
-				},
-				{
 					"name": "Ingold, Warden of the Rammas Echor",
 					"armyRules": {
 						"Maximum": 1
@@ -14486,6 +14841,17 @@
 				{
 					"name": "Beregond, Guard of the Citadel",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
+						"Maximum": 1
+					},
+					"points": "65"
+				},
+				{
+					"name": "Cirion, Lieutnant of Amon Barad",
+					"armyRules": {
+						"Legacy": true,
 						"Maximum": 1
 					},
 					"points": "65"
@@ -14495,12 +14861,8 @@
 					"points": "75"
 				},
 				{
-					"name": "Cirion, Lieutnant of Amon Barad",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "65"
+					"name": "Captain of Minas Tirith",
+					"points": "60"
 				}
 			],
 			"Warriors": [
@@ -14514,10 +14876,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -14547,6 +14909,9 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						}
 					]
@@ -15020,10 +15385,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Crossbow",
@@ -15054,10 +15419,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield",
@@ -15239,6 +15604,7 @@
 				{
 					"name": "Théoden, King of Rohan",
 					"armyRules": {
+						"Cavalry": true,
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -15254,6 +15620,7 @@
 				{
 					"name": "Éomer, Marshal of the Riddermark",
 					"armyRules": {
+						"Cavalry": true,
 						"Maximum": 1
 					},
 					"points": "135",
@@ -15299,6 +15666,9 @@
 					"options": [
 						{
 							"name": "Royal Standard of Rohan",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "40"
 						}
 					]
@@ -15318,7 +15688,10 @@
 					"name": "Elfhelm, Captain of Rohan",
 					"armyRules": {
 						"Cavalry": true,
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "80",
 					"mandatory": [
@@ -15337,6 +15710,7 @@
 					"options": [
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -15351,7 +15725,11 @@
 					"name": "Éowyn, Shieldmaiden of Rohan",
 					"armyRules": {
 						"Cavalry": true,
-						"Maximum": 1
+						"CountAs": 1,
+						"Maximum": 1,
+						"SameAs": [
+							"Meriadoc Brandybuck, Esquire of Rohan"
+						]
 					},
 					"points": "110",
 					"mandatory": [
@@ -15389,10 +15767,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -15411,7 +15789,8 @@
 						"Captains": [
 							"Théoden, King of Rohan",
 							"Éomer, Marshal of the Riddermark",
-							"Gamling, Captain of Rohan"
+							"Gamling, Captain of Rohan",
+							"Déorwine, Anführer der Ritter des Königs"
 						],
 						"Cavalry": true
 					},
@@ -15438,6 +15817,9 @@
 				{
 					"name": "Rohan Outrider",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Cavalry": true,
 						"Legacy": true
 					},
@@ -15557,10 +15939,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield",
@@ -15781,6 +16163,9 @@
 				{
 					"name": "Legolas Greenleaf, Prince of Mirkwood",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"General": 2,
 						"Maximum": 1
 					},
@@ -16018,10 +16403,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -16130,6 +16515,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -16158,6 +16544,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -16186,6 +16573,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -16214,6 +16602,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -16242,6 +16631,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -16294,10 +16684,10 @@
 					"options": [
 						{
 							"name": "Armoured horse and lance",
-							"cost": "30",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "30"
 						}
 					]
 				},
@@ -16330,6 +16720,7 @@
 					"options": [
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -16343,6 +16734,9 @@
 				{
 					"name": "King’s Huntsman",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Depends": [
 							"King of Men (Rohan)"
 						],
@@ -16363,7 +16757,10 @@
 					"points": "8",
 					"optionalWarrior": [
 						{
-							"name": "Swap spear and shield for banner",
+							"name": "Swap shield and spear for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						}
 					]
@@ -16391,10 +16788,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -16418,10 +16815,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -16474,10 +16871,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -16513,6 +16910,9 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						}
 					]
@@ -16553,6 +16953,9 @@
 				{
 					"name": "Ranger of Gondor",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"King of Men (Gondor)",
 							"Captain of Minas Tirith",
@@ -16564,10 +16967,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -16624,25 +17027,25 @@
 					"optionalWarrior": [
 						{
 							"name": "Armoured horse and banner",
-							"cost": "33",
 							"armyRules": {
 								"Banner": true,
 								"Cavalry": true
-							}
+							},
+							"cost": "33"
 						},
 						{
 							"name": "Armoured horse and war horn",
-							"cost": "33",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "33"
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -16650,12 +17053,25 @@
 						},
 						{
 							"name": "Armoured horse and lance",
-							"cost": "9",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "9"
 						}
 					]
+				},
+				{
+					"name": "Man-at-arms of Dol Amroth",
+					"armyRules": {
+						"Captains": [
+							"King of Men (Gondor)",
+							"Captain of Minas Tirith",
+							"Captain of Dol Amroth",
+							"Knight of the White Tower"
+						],
+						"Legacy": true
+					},
+					"points": "10"
 				},
 				{
 					"name": "Axeman of Lossarnach",
@@ -16684,6 +17100,9 @@
 				{
 					"name": "Blackroot Vale Archer",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"King of Men (Gondor)",
 							"Captain of Minas Tirith",
@@ -16695,10 +17114,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -16709,19 +17128,6 @@
 							"cost": "1"
 						}
 					]
-				},
-				{
-					"name": "Man-at-arms of Dol Amroth",
-					"armyRules": {
-						"Captains": [
-							"King of Men (Gondor)",
-							"Captain of Minas Tirith",
-							"Captain of Dol Amroth",
-							"Knight of the White Tower"
-						],
-						"Legacy": true
-					},
-					"points": "10"
 				},
 				{
 					"name": "Warrior of Númenor",
@@ -16774,10 +17180,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -16817,10 +17223,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -16873,6 +17279,9 @@
 				{
 					"name": "Rohan Outrider",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"King of Men (Rohan)",
 							"Captain of Rohan",
@@ -17114,10 +17523,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -17227,14 +17636,17 @@
 					"options": [
 						{
 							"name": "Banner of Minas Tirith",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "40"
 						},
 						{
 							"name": "Horse",
-							"cost": "20",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "20"
 						},
 						{
 							"name": "Shield",
@@ -17247,6 +17659,9 @@
 				{
 					"name": "Faramir, Captain of Gondor",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "100"
@@ -17256,6 +17671,9 @@
 				{
 					"name": "Madril, Captain of Ithilien",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "60"
@@ -17276,10 +17694,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -17309,20 +17727,28 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						}
 					]
 				},
 				{
 					"name": "Ranger of Gondor",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						}
+					},
 					"points": "8",
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -17398,6 +17824,9 @@
 						"Maximum": 1
 					},
 					"points": "160",
+					"mandatory": [
+						"Andúril, Flame of the West"
+					],
 					"options": [
 						{
 							"name": "Elven cloak",
@@ -17410,6 +17839,9 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "100",
@@ -17427,7 +17859,10 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100",
 					"options": [
@@ -17459,10 +17894,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -17523,6 +17958,7 @@
 				{
 					"name": "Théoden, King of Rohan",
 					"armyRules": {
+						"Cavalry": true,
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -17538,6 +17974,7 @@
 				{
 					"name": "Aragorn (Strider)",
 					"armyRules": {
+						"Cavalry": true,
 						"Maximum": 1
 					},
 					"points": "185",
@@ -17549,6 +17986,9 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Cavalry": true,
 						"Maximum": 1
 					},
@@ -17579,6 +18019,9 @@
 					"options": [
 						{
 							"name": "Royal Standard of Rohan",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "40"
 						}
 					]
@@ -17595,6 +18038,7 @@
 					"options": [
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -17617,10 +18061,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -17696,6 +18140,7 @@
 				{
 					"name": "Éomer, Marshal of the Riddermark",
 					"armyRules": {
+						"Cavalry": true,
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -17709,7 +18154,7 @@
 							"name": "Throwing spears",
 							"armyRules": {
 								"Throwing": {
-									"limit": "count"
+									"limit": "ignore"
 								}
 							},
 							"cost": "5"
@@ -17721,6 +18166,7 @@
 				{
 					"name": "Gandalf the White",
 					"armyRules": {
+						"Cavalry": true,
 						"Maximum": 1
 					},
 					"points": "225",
@@ -17730,6 +18176,15 @@
 				}
 			],
 			"Heroes of Fortitude": [
+				{
+					"name": "Erkenbrand, Captain of Rohan",
+					"armyRules": {
+						"Cavalry": true,
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "90"
+				},
 				{
 					"name": "Captain of Rohan",
 					"armyRules": {
@@ -17742,6 +18197,7 @@
 					"options": [
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -17749,46 +18205,9 @@
 							"cost": "5"
 						}
 					]
-				},
-				{
-					"name": "Erkenbrand, Captain of Rohan",
-					"armyRules": {
-						"Cavalry": true,
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "90"
 				}
 			],
 			"Warriors": [
-				{
-					"name": "Rider of Rohan",
-					"armyRules": {
-						"Bow": {
-							"limit": "ignore"
-						},
-						"Cavalry": true
-					},
-					"points": "14",
-					"optionalWarrior": [
-						{
-							"name": "Banner",
-							"cost": "25",
-							"armyRules": {
-								"Banner": true
-							}
-						},
-						{
-							"name": "Throwing spears",
-							"armyRules": {
-								"Throwing": {
-									"limit": "count"
-								}
-							},
-							"cost": "2"
-						}
-					]
-				},
 				{
 					"name": "Westfold Redshield",
 					"armyRules": {
@@ -17805,10 +18224,38 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Throwing spears",
+							"armyRules": {
+								"Throwing": {
+									"limit": "count"
+								}
+							},
+							"cost": "2"
+						}
+					]
+				},
+				{
+					"name": "Rider of Rohan",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
+						"Cavalry": true
+					},
+					"points": "14",
+					"optionalWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -17859,6 +18306,7 @@
 				{
 					"name": "Théoden, King of Rohan",
 					"armyRules": {
+						"Cavalry": true,
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -17874,6 +18322,7 @@
 				{
 					"name": "Éomer, Marshal of the Riddermark",
 					"armyRules": {
+						"Cavalry": true,
 						"Maximum": 1
 					},
 					"points": "140",
@@ -17899,7 +18348,11 @@
 					"name": "Éowyn, Shieldmaiden of Rohan",
 					"armyRules": {
 						"Cavalry": true,
-						"Maximum": 1
+						"CountAs": 1,
+						"Maximum": 1,
+						"SameAs": [
+							"Meriadoc Brandybuck, Esquire of Rohan"
+						]
 					},
 					"points": "110",
 					"mandatory": [
@@ -17936,27 +18389,10 @@
 					"options": [
 						{
 							"name": "Royal Standard of Rohan",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "40"
-						}
-					]
-				},
-				{
-					"name": "Captain of Rohan",
-					"armyRules": {
-						"Cavalry": true
-					},
-					"points": "65",
-					"mandatory": [
-						"Horse"
-					],
-					"options": [
-						{
-							"name": "Exchange armour for heavy armour",
-							"cost": "5"
-						},
-						{
-							"name": "Shield",
-							"cost": "5"
 						}
 					]
 				},
@@ -17979,7 +18415,10 @@
 				{
 					"name": "Elfhelm, Captain of Rohan",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "60",
 					"options": [
@@ -17989,6 +18428,27 @@
 							"armyRules": {
 								"Cavalry": true
 							}
+						}
+					]
+				},
+				{
+					"name": "Captain of Rohan",
+					"armyRules": {
+						"Cavalry": true
+					},
+					"points": "65",
+					"mandatory": [
+						"Horse"
+					],
+					"options": [
+						{
+							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
+							"cost": "5"
+						},
+						{
+							"name": "Shield",
+							"cost": "5"
 						}
 					]
 				}
@@ -18006,10 +18466,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -18028,7 +18488,8 @@
 						"Captains": [
 							"Théoden, King of Rohan",
 							"Éomer, Marshal of the Riddermark",
-							"Gamling, Captain of Rohan"
+							"Gamling, Captain of Rohan",
+							"Déorwine, Chief of the King’s Knights"
 						],
 						"Cavalry": true
 					},
@@ -18348,26 +18809,6 @@
 					"points": "70"
 				},
 				{
-					"name": "Rivendell Captain",
-					"points": "70",
-					"options": [
-						{
-							"name": "Horse, Elf bow and Elven lance",
-							"armyRules": {
-								"Bow": {
-									"limit": "ignore"
-								},
-								"Cavalry": true
-							},
-							"cost": "30"
-						},
-						{
-							"name": "Shield",
-							"cost": "5"
-						}
-					]
-				},
-				{
 					"name": "Elladan & Elrohir",
 					"armyRules": {
 						"Maximum": 1
@@ -18386,9 +18827,6 @@
 						{
 							"name": "Elladan",
 							"compositionModel": "Captain",
-							"armyRules": {
-								"Maximum": 1
-							},
 							"points": "80",
 							"options": [
 								{
@@ -18403,9 +18841,6 @@
 						{
 							"name": "Elrohir",
 							"compositionModel": "Captain",
-							"armyRules": {
-								"Maximum": 1
-							},
 							"points": "80",
 							"options": [
 								{
@@ -18426,6 +18861,26 @@
 						"Maximum": 1
 					},
 					"points": "85"
+				},
+				{
+					"name": "Rivendell Captain",
+					"points": "70",
+					"options": [
+						{
+							"name": "Horse, Elf bow and Elven lance",
+							"armyRules": {
+								"Bow": {
+									"limit": "ignore"
+								},
+								"Cavalry": true
+							},
+							"cost": "30"
+						},
+						{
+							"name": "Shield",
+							"cost": "5"
+						}
+					]
 				}
 			],
 			"Minor Heroes": [
@@ -18467,10 +18922,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -18500,6 +18955,9 @@
 					"optionalWarrior": [
 						{
 							"name": "Exchange Elven lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						},
 						{
@@ -18547,6 +19005,7 @@
 				{
 					"name": "Théoden, King of Rohan",
 					"armyRules": {
+						"Cavalry": true,
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -18561,8 +19020,9 @@
 					"name": "Aragorn (Strider)",
 					"armyRules": {
 						"Bow": {
-							"limit": "count"
+							"limit": "ignore"
 						},
+						"Cavalry": true,
 						"Maximum": 1
 					},
 					"points": "185",
@@ -18580,6 +19040,9 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Cavalry": true,
 						"Maximum": 1
 					},
@@ -18597,7 +19060,13 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"armyRules": {
-						"Maximum": 1
+						"Captains": [
+							"Legolas Greenleaf"
+						],
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100",
 					"options": [
@@ -18639,6 +19108,7 @@
 					"options": [
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -18661,10 +19131,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -18682,6 +19152,7 @@
 					"armyRules": {
 						"Captains": [
 							"Théoden, King of Rohan",
+							"Háma, Captain of Rohan",
 							"Gamling, Captain of Rohan"
 						],
 						"Cavalry": true
@@ -18705,6 +19176,9 @@
 				{
 					"name": "Rohan Outrider",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Cavalry": true,
 						"Legacy": true
 					},
@@ -18867,6 +19341,9 @@
 				{
 					"name": "Goldberry",
 					"armyRules": {
+						"Depends": [
+							"Tom Bombadil"
+						],
 						"Maximum": 1
 					},
 					"points": "80"
@@ -18874,7 +19351,7 @@
 			],
 			"Warriors": [
 				{
-					"name": "Noldorin Exiles",
+					"name": "Noldorin Exile",
 					"armyRules": {
 						"Captains": [
 							"Gildor Inglorion"
@@ -18885,10 +19362,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -19001,10 +19478,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -19533,6 +20010,9 @@
 				{
 					"name": "Legolas Greenleaf, Prince of Mirkwood",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "105",
@@ -19751,10 +20231,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -20015,10 +20495,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				}
@@ -20087,10 +20567,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -20312,10 +20792,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				},
@@ -20373,10 +20853,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				}
@@ -20388,10 +20868,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Easterling Halberd and shield",
@@ -20421,10 +20901,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Exchange shield for war drum",
@@ -20533,6 +21013,9 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "100"
@@ -20656,10 +21139,10 @@
 					"options": [
 						{
 							"name": "Armoured horse and lance",
-							"cost": "30",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "30"
 						}
 					]
 				}
@@ -20682,6 +21165,9 @@
 				{
 					"name": "Duinhir, Lord of the Blackroot Vale",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "65"
@@ -20694,10 +21180,10 @@
 					"options": [
 						{
 							"name": "Armoured horse and lance",
-							"cost": "30",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "30"
 						}
 					]
 				}
@@ -20715,25 +21201,25 @@
 					"optionalWarrior": [
 						{
 							"name": "Armoured horse and banner",
-							"cost": "33",
 							"armyRules": {
 								"Banner": true,
 								"Cavalry": true
-							}
+							},
+							"cost": "33"
 						},
 						{
 							"name": "Armoured horse and war horn",
-							"cost": "33",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "33"
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -20741,10 +21227,10 @@
 						},
 						{
 							"name": "Armoured horse and lance",
-							"cost": "9",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "9"
 						}
 					]
 				},
@@ -20769,6 +21255,9 @@
 				{
 					"name": "Blackroot Vale Archer",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Depends": [
 							"Duinhir, Lord of the Blackroot Vale"
 						]
@@ -20777,10 +21266,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -20873,6 +21362,9 @@
 				{
 					"name": "Legolas Greenleaf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "100",
@@ -20890,7 +21382,10 @@
 				{
 					"name": "Gimli, son of Glóin",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100",
 					"options": [
@@ -20903,12 +21398,18 @@
 				{
 					"name": "Halbarad",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "70",
 					"options": [
 						{
 							"name": "Banner of Arwen Evenstar",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "40"
 						}
 					]
@@ -20960,6 +21461,11 @@
 			"Independent Heroes": [
 				{
 					"name": "Ranger of the North",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						}
+					},
 					"points": "25",
 					"options": [
 						{
@@ -21018,6 +21524,9 @@
 					"options": [
 						{
 							"name": "Firefoot with armour",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "25"
 						},
 						{
@@ -21044,10 +21553,10 @@
 					"options": [
 						{
 							"name": "Armoured horse and lance",
-							"cost": "30",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "30"
 						}
 					]
 				}
@@ -21084,6 +21593,7 @@
 						},
 						{
 							"name": "Exchange armour for heavy armour",
+							"uiName": "Heavy armour",
 							"cost": "5"
 						},
 						{
@@ -21098,10 +21608,10 @@
 					"options": [
 						{
 							"name": "Armoured horse and lance",
-							"cost": "30",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "30"
 						}
 					]
 				},
@@ -21132,10 +21642,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",
@@ -21174,10 +21684,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Throwing spears",
@@ -21204,25 +21714,25 @@
 					"optionalWarrior": [
 						{
 							"name": "Armoured horse and banner",
-							"cost": "33",
 							"armyRules": {
 								"Banner": true,
 								"Cavalry": true
-							}
+							},
+							"cost": "33"
 						},
 						{
 							"name": "Armoured horse and war horn",
-							"cost": "33",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "33"
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -21230,10 +21740,10 @@
 						},
 						{
 							"name": "Armoured horse and lance",
-							"cost": "9",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "9"
 						}
 					]
 				},
@@ -21255,10 +21765,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -21294,6 +21804,9 @@
 					"options": [
 						{
 							"name": "Exchange shield and lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						}
 					]
@@ -21417,10 +21930,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and spear",
@@ -21598,6 +22111,14 @@
 					"points": "70"
 				},
 				{
+					"name": "Erestor",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "85"
+				},
+				{
 					"name": "Rivendell Captain",
 					"points": "70",
 					"options": [
@@ -21616,14 +22137,6 @@
 							"cost": "5"
 						}
 					]
-				},
-				{
-					"name": "Erestor",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "85"
 				}
 			],
 			"Warriors": [
@@ -21632,7 +22145,8 @@
 					"armyRules": {
 						"Captains": [
 							"Elendil, High King of Gondor and Arnor",
-							"Isildur, Prince of Númenor"
+							"Isildur, Prince of Númenor",
+							"Captain of Númenor"
 						]
 					},
 					"points": "9",
@@ -21657,22 +22171,20 @@
 					]
 				},
 				{
-					"name": "Rivendell Warrior",
+					"name": "King’s Guard",
 					"armyRules": {
 						"Captains": [
-							"Gil-Galad, High King of the Noldor",
-							"Elrond, Master of Rivendell",
-							"Erestor"
+							"Gil-Galad, High King of the Noldor"
 						]
 					},
-					"points": "9",
+					"points": "10",
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -21694,20 +22206,23 @@
 					]
 				},
 				{
-					"name": "King’s Guard",
+					"name": "Rivendell Warrior",
 					"armyRules": {
 						"Captains": [
-							"Gil-Galad, High King of the Noldor"
+							"Gil-Galad, High King of the Noldor",
+							"Elrond, Master of Rivendell",
+							"Erestor",
+							"Rivendell Captain"
 						]
 					},
-					"points": "10",
+					"points": "9",
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Elf bow",
@@ -21776,10 +22291,10 @@
 					"options": [
 						{
 							"name": "Armoured horse",
-							"cost": "25",
 							"armyRules": {
 								"Cavalry": true
-							}
+							},
+							"cost": "25"
 						}
 					]
 				}
@@ -21931,10 +22446,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -21964,10 +22479,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Bow and war spear",
@@ -22037,16 +22552,16 @@
 				"description": "In this Army List, Bilbo carries the One Ring instead of Frodo."
 			},
 			{
-				"name": "This’ll be a night to remember\"",
-				"description": "Friendly models may re-roll failed Courage Tests.\nAdditionally, friendly models cannot have their Courage Tests reduced by the special rules or Magical Powers of enemy models."
+				"name": "\"This’ll be a night to remember\"",
+				"description": "Friendly models may re-roll failed Courage Tests. Additionally, friendly models cannot have their Courage Tests reduced by the special rules or Magical Powers of enemy models."
 			},
 			{
 				"name": "The Grey Wizard",
-				"description": "Friendly models may benefit from Gandalf’s Stand Fast.\nAdditionally, Gandalf may use two fireworks each Shoot Phase rather than one, though they must be different fireworks and must target different models."
+				"description": "Friendly models may benefit from Gandalf’s Stand Fast. Additionally, Gandalf may use two fireworks each Shoot Phase rather than one, though they must be different fireworks and must target different models."
 			},
 			{
 				"name": "A Long-expected Party",
-				"description": "Friendly models will pass a Fate Roll on a 3+ rather than a 4+.\nAdditionally, friendly models may re-roll failed Fate Rolls."
+				"description": "Friendly models will pass a Fate Roll on a 3+ rather than a 4+. Additionally, friendly models may re-roll failed Fate Rolls."
 			}
 		],
 		"armyRules": {
@@ -22080,6 +22595,9 @@
 						"Maximum": 1
 					},
 					"points": "45",
+					"mandatory": [
+						"The One Ring"
+					],
 					"options": [
 						{
 							"name": "Mithril Coat",
@@ -22106,20 +22624,6 @@
 					"points": "40"
 				},
 				{
-					"name": "Hamfast ’Gaffer’ Gamgee",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "35"
-				},
-				{
-					"name": "Farmer Maggot",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "50"
-				},
-				{
 					"name": "Paladin Took, Thain of the Shire",
 					"armyRules": {
 						"Maximum": 1
@@ -22134,7 +22638,40 @@
 					"points": "40"
 				},
 				{
+					"name": "Farmer Maggot",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "50",
+					"composition": [
+						{
+							"name": "Farmer Maggot",
+							"compositionModel": "Captain",
+							"armyRules": {
+								"Maximum": 1
+							},
+							"points": "50"
+						},
+						{
+							"name": "Grip"
+						},
+						{
+							"name": "Fang"
+						},
+						{
+							"name": "Wolf"
+						}
+					]
+				},
+				{
 					"name": "Farmer Tolman Cotton",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "35"
+				},
+				{
+					"name": "Hamfast 'Gaffer' Gamgee",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -22168,6 +22705,7 @@
 				{
 					"name": "Rosie Cotton",
 					"armyRules": {
+						"Banner": true,
 						"Maximum": 1
 					},
 					"points": "20"
@@ -22180,7 +22718,7 @@
 					"points": "20"
 				},
 				{
-					"name": "Fredegar ’Fatty’ Bolger",
+					"name": "Fredegar 'Fatty' Bolger",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -22200,8 +22738,16 @@
 					"points": "4"
 				},
 				{
-					"name": "Hobbit Archer",
-					"points": "5",
+					"name": "Tookish Hunter",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
+						"Captains": [
+							"Paladin Took, Thain of the Shire"
+						]
+					},
+					"points": "6",
 					"optionalWarrior": [
 						{
 							"name": "War horn",
@@ -22210,13 +22756,13 @@
 					]
 				},
 				{
-					"name": "Tookish Hunters",
+					"name": "Hobbit Archer",
 					"armyRules": {
-						"Captains": [
-							"Paladin Took, Thain of the Shire"
-						]
+						"Bow": {
+							"limit": "count"
+						}
 					},
-					"points": "6",
+					"points": "5",
 					"optionalWarrior": [
 						{
 							"name": "War horn",
@@ -22831,10 +23377,10 @@
 					"optionalWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield",
@@ -22865,10 +23411,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Orc bow",
@@ -23026,10 +23572,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "War horn",
@@ -23243,10 +23789,10 @@
 						},
 						{
 							"name": "Banner",
-							"cost": "25",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "25"
 						},
 						{
 							"name": "Shield and throwing spears",

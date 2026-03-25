@@ -920,7 +920,8 @@
 		"status": "Passive",
 		"description": "Friendly Lothlórien Warrior models within 3\" of Celeborn gain a bonus of +1 To Wound when making Strikes.",
 		"linkedRules": [
-			"Strikes"
+			"Strikes",
+			"Warrior"
 		]
 	},
 	"Battlefield Targets": {
@@ -2506,6 +2507,7 @@
 			"End Phase",
 			"Fight Phase",
 			"Fight Value",
+			"Heroic Actions",
 			"Move Phase",
 			"Will Point",
 			"Will Points"
@@ -2830,7 +2832,8 @@
 		"description": "Irolas may use the Shielding special rule even though he is not armed with a shield. If Irolas elects to shield, and wins the ensuing Combat, he may make a single Strike against one enemy model that was involved in the Combat.",
 		"linkedDetails": [
 			"shield",
-			"Shielding"
+			"Shielding",
+			"to shield|Shielding"
 		],
 		"linkedRules": [
 			"Combat",
@@ -3857,7 +3860,6 @@
 		],
 		"linkedRules": [
 			"Shoot Phase",
-			"Shooting Attack",
 			"Shooting Attacks",
 			"special rule"
 		]
@@ -4453,6 +4455,7 @@
 		"linkedRules": [
 			"Combat",
 			"Fight Phase",
+			"Heroic Actions",
 			"Move",
 			"special rule"
 		]
@@ -4464,6 +4467,9 @@
 		"name": "\"For Tuckborough!\"",
 		"status": "Passive",
 		"description": "Friendly Tookish Hunters within 6\" of Paladin gain a bonus of +1 To Wound when making Strikes.",
+		"linkedProfiles": [
+			"Tookish Hunters|Tookish Hunter"
+		],
 		"linkedRules": [
 			"Strikes"
 		]
@@ -5259,9 +5265,6 @@
 		"type": "wargear",
 		"version": "2024",
 		"language": "en",
-		"alias": [
-			"heavy Dwarf armour"
-		],
 		"name": "Heavy Dwarf armour",
 		"description": "A model wearing heavy Dwarf armour will add 3 to their Defence characteristic.\n\nWhere a model is listed as having a type of armour in its profile, then the improvement in its Defence characteristic will already have been included in their profile. If a model has the opportunity to upgrade one type of armour to another, then they will replace one with the other – they will not get the Defence benefits of both.",
 		"linkedRules": [
@@ -5311,6 +5314,21 @@
 		],
 		"linkedRules": [
 			"Unique"
+		]
+	},
+	"Helmingas Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Helmingas Upgrade",
+		"description": "Warriors of Rohan in Grimbold’s Warband may be upgraded to Helmingas for +1 point per model. Helmingas have a Strength of 4, rather than 3.",
+		"linkedProfiles": [
+			"Helmingas",
+			"Warriors of Rohan|Warrior of Rohan"
+		],
+		"linkedRules": [
+			"Strength",
+			"Warband"
 		]
 	},
 	"Herald of Doom": {
@@ -5682,7 +5700,8 @@
 		"status": "Active",
 		"description": "This is a Unique hand weapon. Additionally, if a model armed with Herugrim is involved in a Drawn Combat where the Combat is tied at this model’s Fight Value (i.e., both sides have Fight Value 5 as their highest, or whatever Fight Value Théoden reaches should he declare a Heroic Strike), then instead of rolling off to see who wins, this model wins instead. If both sides have a similar special rule, roll off as normal.",
 		"linkedDetails": [
-			"hand weapon"
+			"hand weapon",
+			"Heroic Strike"
 		],
 		"linkedRules": [
 			"Combat",
@@ -5950,7 +5969,7 @@
 		"language": "en",
 		"name": "\"I shall kill you if you touch him!\"",
 		"status": "Active",
-		"description": " Whilst within 3\" of Théoden, Éowyn may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, if Théoden is slain and removed as a casualty, make a note of the enemy model that killed Théoden. For the remainder of the game, Éowyn gains the Fearless special rule and must re-roll all failed To Wound Rolls when making Strikes against the model who slew Théoden.",
+		"description": "Whilst within 3\" of Théoden, Éowyn may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, if Théoden is slain and removed as a casualty, make a note of the enemy model that killed Théoden. For the remainder of the game, Éowyn gains the Fearless special rule and must re-roll all failed To Wound Rolls when making Strikes against the model who slew Théoden.",
 		"linkedDetails": [
 			"Fearless"
 		],
@@ -6399,6 +6418,18 @@
 			"Will Points"
 		]
 	},
+	"King of Men (Dale)": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Kingdoms of Men",
+		"status": "Passive",
+		"description": "This model’s Stand Fast is increased to 12\" and will affect friendly Dale Hero models.",
+		"linkedRules": [
+			"Hero",
+			"Stand Fast"
+		]
+	},
 	"King Under the Mountain": {
 		"type": "specialrule",
 		"version": "2024",
@@ -6440,6 +6471,21 @@
 			"Stand Fast",
 			"Strength",
 			"Wounds"
+		]
+	},
+	"King’s Guard Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "King’s Guard Upgrade",
+		"description": "Rivendell Warriors in Gil-galad’s Warband may be upgraded to King’s Guard for +1 point per model. King’s Guard have a Fight Value of 6.",
+		"linkedProfiles": [
+			"King’s Guard",
+			"Rivendell Warriors|Rivendell Warrior"
+		],
+		"linkedRules": [
+			"Fight Value",
+			"Warband"
 		]
 	},
 	"King’s Knights": {
@@ -6596,7 +6642,6 @@
 			"Heavy Object",
 			"Make Way",
 			"Move",
-			"Objects",
 			"re-roll",
 			"Siege Engine",
 			"Strikes",
@@ -6753,9 +6798,6 @@
 		"type": "wargear",
 		"version": "2024",
 		"language": "en",
-		"alias": [
-			"light shield"
-		],
 		"name": "Light shield",
 		"description": "A model with a light shield does not gain a bonus to its Defence. However, it may use the Shielding special rule.",
 		"linkedDetails": [
@@ -6977,6 +7019,7 @@
 			"Shieldwall"
 		],
 		"linkedProfiles": [
+			"Warriors of Harrowdale|Warrior of Harrowdale",
 			"Warriors of Rohan|Warrior of Rohan"
 		],
 		"linkedRules": [
@@ -7099,7 +7142,25 @@
 		"description": "Lórien Guard may re-roll To Wound Rolls of a natural 1 when making Strikes.",
 		"linkedRules": [
 			"natural",
+			"re-roll",
 			"Strikes"
+		]
+	},
+	"Lórien Guard Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Lórien Guard Upgrade",
+		"description": "Galadhrim Warriors in Galadriel’s Warband may be upgraded to Lórien Guard for +1 point per model. Lórien Guard may re-roll To Wound Rolls of a natural 1 when making Strikes.",
+		"linkedProfiles": [
+			"Galadhrim Warriors|Galadhrim Warrior",
+			"Lórien Guard"
+		],
+		"linkedRules": [
+			"natural",
+			"re-roll",
+			"Strikes",
+			"Warband"
 		]
 	},
 	"Loyal Hounds": {
@@ -7522,6 +7583,7 @@
 			"End Phase",
 			"Fight Phase",
 			"Fight Value",
+			"Heroic Actions",
 			"special rule",
 			"Warrior",
 			"Will Point"
@@ -7737,13 +7799,11 @@
 			"Missile Weapon"
 		],
 		"name": "Missile Weapons",
-		"status": "Passive",
 		"description": "Missile Weapons are used during the Shoot Phase to make Shooting Attacks, and come in all shapes and sizes. If a model has a Missile Weapon it will be listed in their profile; some models may be able to purchase Missile Weapons. In some cases, a model may be armed with multiple Missile Weapons. In these instances, their controlling player must decide which Missile Weapon is being used to make the Shooting Attack before rolling To Hit – they cannot use both.\n\nAll Missile Weapons have a range and a Strength, which are used when measuring the range of the Shooting Attack and when making any To Wound Rolls for successful hits caused by the Missile Weapon.\n\nList of common Missile Weapons:\n\n• Bow\n• Crossbow\n• Blowpipe\n• Sling\n• Throwing weapons (including throwing spears)",
 		"linkedDetails": [
 			"Bow|Bow [Definition]",
 			"Blowpipe",
 			"Crossbow",
-			"Blowpipe",
 			"Sling",
 			"throwing spears",
 			"Throwing weapons"
@@ -7911,9 +7971,6 @@
 		"status": "Active",
 		"description": "If a model with this special rule Charges into Combat, then it will increase its Attacks characteristic by 1 during the ensuing Fight Phase.\n\nAdditionally, if this model Charges and subsequently wins the Duel Roll, then all enemy models involved in the Combat with a Strength characteristic lower than this model, will be immediately knocked Prone before this model makes Strikes. Cavalry models will automatically count as suffering the Knocked Flying result on the Thrown Rider Chart.",
 		"descriptionGWFAQ": "Q: If a Cavalry model with the Monstrous Charge special rule Charges into Combat, do they gain +1 Attack or +2?\nA: They will gain +1 Attack; the two special rules do not stack.",
-		"linkedDetails": [
-			"Monstrous Charge special rule|Monstrous Charge"
-		],
 		"linkedRules": [
 			"Attack",
 			"Attacks",
@@ -7928,6 +7985,9 @@
 			"Strength",
 			"Strikes",
 			"Thrown Rider"
+		],
+		"excludeFromLinking": [
+			"Monstrous Charge special rule"
 		]
 	},
 	"Morgul Blade": {
@@ -8239,8 +8299,23 @@
 		"linkedRules": [
 			"natural",
 			"re-roll",
-			"Shooting Attacks|Shooting Attack: To Wound Roll",
+			"Shooting Attacks",
 			"Strikes"
+		]
+	},
+	"Noldorin Exiles Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Noldorin Exiles Upgrade",
+		"description": "Gildor can include Lothlórien Warriors in his Warband, even if they are not listed in the same Army List. Lothlórien Warriors in Gildor’s Warband must be upgraded to Noldorin Exiles for +1 point per model. Noldorin Exiles exchange the Lothlórien keyword for the Rivendell keyword and have a Move Value of 8\".",
+		"linkedProfiles": [
+			"Lothlórien Warriors|Lothlórien Warrior",
+			"Noldorin Exiles|Noldorin Exile"
+		],
+		"linkedRules": [
+			"Move Value",
+			"Warband"
 		]
 	},
 	"Objective Markers": {
@@ -9104,11 +9179,11 @@
 			"To Hit Roll"
 		]
 	},
-	"Protection of the White Tree": {
+	"Protectors of the White Tree": {
 		"type": "specialrule",
 		"version": "2024",
 		"language": "en",
-		"name": "Protection of the White Tree",
+		"name": "Protectors of the White Tree",
 		"status": "Passive",
 		"description": "If this model is within 6\" of a friendly Gondor General, it is treated as having the Dominant (2) special rule.",
 		"linkedDetails": [
@@ -10090,8 +10165,7 @@
 			"Cavalry Charge",
 			"Combat",
 			"Defence",
-			"Prone",
-			"special rule"
+			"Prone"
 		]
 	},
 	"Shoot Phase": {
@@ -10394,6 +10468,9 @@
 			"turn",
 			"Will Point",
 			"Wound"
+		],
+		"excludeFromLinking": [
+			"a Wound"
 		]
 	},
 	"Skin-changer [Beorn]": {
@@ -12290,18 +12367,6 @@
 			"re-roll"
 		]
 	},
-	"This model’s Stand Fast is increased to 12\" and will affect friendly Dale Hero models.": {
-		"type": "specialrule",
-		"version": "2024",
-		"language": "en",
-		"name": "This model’s Stand Fast is increased to 12\" and will affect friendly Dale Hero models.",
-		"status": "Passive",
-		"description": "This model’s Stand Fast is increased to 12\" and will affect friendly Dale Hero models.",
-		"linkedRules": [
-			"Hero",
-			"Stand Fast"
-		]
-	},
 	"Throw Stones": {
 		"type": "specialrule",
 		"version": "2024",
@@ -12321,7 +12386,6 @@
 		"version": "2024",
 		"language": "en",
 		"alias": [
-			"Horse and throwing spears",
 			"throwing spears"
 		],
 		"name": "Throwing spears",
@@ -12509,7 +12573,24 @@
 		"status": "Aktiv",
 		"description": "Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
 		"linkedRules": [
+			"re-roll",
 			"Shooting Attacks"
+		]
+	},
+	"Tookish Hunters Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Tookish Hunters Upgrade",
+		"description": "If your Army includes Paladin, you may upgrade any number of Hobbit Archers in his Warband to Tookish Hunters at the cost of +1 point per model. Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
+		"linkedProfiles": [
+			"Hobbit Archers|Hobbit Archer",
+			"Tookish Hunters|Tookish Hunter"
+		],
+		"linkedRules": [
+			"re-roll",
+			"Shooting Attacks",
+			"Warband"
 		]
 	},
 	"Torozûl": {
@@ -13499,6 +13580,25 @@
 			"Hero"
 		]
 	},
+	"Warrior of Harrowdale": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Warrior of Harrowdale",
+		"status": "Passive",
+		"description": "Warriors of Harrowdale that can draw Line of Sight to Fréaláf may re-roll any failed Intelligence Tests and gain the Shieldwall special rule.",
+		"linkedDetails": [
+			"Shieldwall"
+		],
+		"linkedProfiles": [
+			"Fréaláf|Fréaláf, First Marshal of the Riddermark"
+		],
+		"linkedRules": [
+			"Intelligence Tests",
+			"Line of Sight",
+			"re-roll"
+		]
+	},
 	"Warrior of the Dragon Cult": {
 		"type": "specialrule",
 		"version": "2024",
@@ -13542,8 +13642,8 @@
 		"linkedDetails": [
 			"banner",
 			"heavy armour",
-			"heavy Dwarf armour",
-			"light shield",
+			"heavy Dwarf armour|Heavy Dwarf armour",
+			"light shield|Light shield",
 			"shield"
 		],
 		"linkedRules": [
@@ -13619,10 +13719,27 @@
 		"status": "Aktiv",
 		"description": "Westfold Redshields treat Erkenbrand as a banner.",
 		"linkedDetails": [
-			"Banner"
+			"banner"
 		],
 		"linkedProfiles": [
-			"Erkenbrand, Captain of Rohan"
+			"Erkenbrand|Erkenbrand, Captain of Rohan"
+		]
+	},
+	"Westfold Redshields Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Westfold Redshields Upgrade",
+		"description": "Riders of Rohan in Erkenbrand’s Warband may be upgraded to Westfold Redshields for +1 point per model. Westfold Redshields treat Erkenbrand as a banner.",
+		"linkedDetails": [
+			"banner"
+		],
+		"linkedProfiles": [
+			"Riders of Rohan|Rider of Rohan",
+			"Westfold Redshields|Westfold Redshield"
+		],
+		"linkedRules": [
+			"Warband"
 		]
 	},
 	"When He Sneaks": {
@@ -13900,7 +14017,8 @@
 			"Line of Sight",
 			"Magical Power",
 			"Prone",
-			"Thrown Rider"
+			"Thrown Rider",
+			"water feature"
 		]
 	},
 	"Writhing Vines": {

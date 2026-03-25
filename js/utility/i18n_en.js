@@ -180,7 +180,20 @@ export default {
                 Followers: "Followers",
                 addFollower: "Add Follower",
                 mandatoryWarning: "Option has to be taken",
-                addOption: "Add Option"
+                addOption: "Add Option",
+                ValidateMin: "You need at least",
+                ValidateMax: "You may include at most",
+                ValidateFollowing: "of the following models",
+                ValidateMaxPerOne: "You can not have more",
+                ValidateMaxPerTwo: "than",
+                ValidateDistributionRatioOne: "may only form",
+                ValidateDistributionRatioTwo: "of the army",
+                ValidateExcluded: "cannot be used together with",
+                ValidateThrowinglimit: "Throwing weapon limit exceeded",
+                ValidateBowlimit: "Bow limit exceeded",
+                ValidateMandatoryOne: "in Warband",
+                ValidateMandatoryTwo: "must select a mandatory option",
+                ValidateSiegeEngine: "You can not have more Siege Engines than Heroes of Fortitude or higher."
             },
             all: {
                 good: "Good",
