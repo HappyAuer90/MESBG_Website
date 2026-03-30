@@ -650,13 +650,26 @@ TEST 6 – ALPHABETICAL ORDER
        TEST 10 – ALIAS USAGE SUMMARY
     ========================= */
 
-    Object.entries(aliasUsageCounter).forEach(([alias, count]) => {
-        if (count <= 1) {
-            report.weakAliasUsage.push(
-                `Alias "${alias}" referenced ${count} time(s)`
-            );
-        }
-    });
+   Object.entries(aliasUsageCounter).forEach(([alias, count]) => {
+
+    if (count > 1) return;
+
+    // Definition finden, zu der das Alias gehört
+    const parentKey = aliasMap[alias];
+    const parentDef = definitions[parentKey];
+
+    let usedInProfiles = false;
+
+    if (parentDef) {
+        usedInProfiles = isAliasUsedInProfiles(alias, parentDef.type);
+    }
+
+    if (!usedInProfiles) {
+        report.weakAliasUsage.push(
+            `Alias "${alias}" referenced ${count} time(s) and not used in profiles`
+        );
+    }
+});
 
     showErrorReport(report);
 }
@@ -718,6 +731,7 @@ function renderTestBlock(title, errors) {
 function normalizeKey(str) {
     return str
         .replace(/\[.*?\]/g, "")     // entfernt alles in [...]
+        .replace(/\(.*?\)/g, "")     // entfernt alles in (...)
         .trim()
         .toLowerCase();
 }
@@ -736,4 +750,69 @@ function normalizeAlphabetical(str) {
         .replace(/[^a-zA-Z0-9 ]/g, "")        // entfernt Sonderzeichen, aber NICHT Leerzeichen
         .toLowerCase()
         .trim();
+}
+
+function isAliasUsedInProfiles(alias, defType) {
+
+    if (!state.profiles) return false;
+
+    const lowerAlias = alias.toLowerCase();
+
+    for (const profile of Object.values(state.profiles)) {
+
+        // =========================
+        // WARGEAR + OPTIONS
+        // =========================
+        if (defType === "wargear") {
+
+            // wargear
+            if (profile.wargear) {
+                for (const wg of profile.wargear) {
+                    if (wg.name?.toLowerCase().includes(lowerAlias)) {
+                        return true;
+                    }
+                }
+            }
+
+            // options
+            if (profile.options) {
+                for (const opt of profile.options) {
+                    if (opt.name?.toLowerCase().includes(lowerAlias)) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        // =========================
+        // SPECIAL RULES
+        // =========================
+        if (defType === "specialrule") {
+
+            if (profile.specialRules) {
+                for (const rule of profile.specialRules) {
+                    if (rule.toLowerCase().includes(lowerAlias)) {
+                        return true;
+                    }
+                }
+            }
+        }
+        
+
+        // =========================
+        // MAGICAL POWERS
+        // =========================
+        if (defType === "magicalpower") {
+
+            if (profile.magicalPowers) {
+                for (const magic of profile.magicalPowers) {
+                    if (magic.name?.toLowerCase().includes(lowerAlias)) {
+                        return true;
+                    }
+                }
+            }
+        }
+    }
+
+    return false;
 }

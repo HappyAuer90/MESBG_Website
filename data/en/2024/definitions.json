@@ -211,7 +211,7 @@
 		"language": "en",
 		"name": "Accurate",
 		"status": "Active",
-		"description": "{Character}, will only Scatter 3\" rather than 6\".",
+		"description": "{Character} will only Scatter 3\" rather than 6\".",
 		"linkedRules": [
 			"Scatter"
 		]
@@ -319,7 +319,7 @@
 		"language": "en",
 		"name": "Ancient Enemies (X)",
 		"status": "Active",
-		"description": "A model with this special rule must re-roll To Wound Rolls of a natural 1 when making Strikes against a model with the keywords listed in brackets in that model’s profile. So, a model with the Ancient Enemies (Elf) special rule would reroll To Wound Rolls of a natural 1 against Elf models.",
+		"description": "A model with this special rule must re-roll To Wound Rolls of a natural 1 when making Strikes against a model with the keywords listed in brackets in that model’s profile. So, a model with the Ancient Enemies (Elf) special rule would re-roll To Wound Rolls of a natural 1 against Elf models.",
 		"linkedRules": [
 			"natural",
 			"re-roll",
@@ -369,8 +369,8 @@
 		"linkedRules": [
 			"casts a Magical Power|Making a Casting Roll",
 			"End Phase",
+			"Heroic Actions",
 			"Move Phase",
-			"special rule",
 			"Will Point"
 		]
 	},
@@ -559,6 +559,23 @@
 			"special rule",
 			"Strength",
 			"Wounds"
+		]
+	},
+	"Attacking the Charge": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Attacking the Charge",
+		"description": "A Demolition Charge can be shot at and attacked as normal, and has a Defence of 7 and 3 Wounds. Each time a Demolition Charge suffers a Wound, roll a D6. On a 6, the Demolition Charge goes off; roll on the Demolition Table. If a Demolition Charge is Wounded by the explosion of another Demolition Charge, it will go off on the roll of a 4+ rather than a 6. If a Demolition Charge loses its last Wound and does not go off, it simply breaks and is removed from play. If, during the End Phase of a turn, an enemy model is in base contact with a Demolition Charge, that model hasn’t done anything during that turn except Move (i.e., has notmade a shooting attack, Cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can disable the Demolition Charge – remove it from play.",
+		"linkedRules": [
+			"Cast a Magical Power",
+			"Combat",
+			"Defence",
+			"End Phase",
+			"Magical Power",
+			"Move",
+			"shot|Shooting Attack",
+			"shooting attack"
 		]
 	},
 	"Aura of Command": {
@@ -1099,7 +1116,6 @@
 		"linkedRules": [
 			"Fight Phase",
 			"Magical Power",
-			"Strength",
 			"Strikes"
 		]
 	},
@@ -1539,7 +1555,7 @@
 		"language": "en",
 		"name": "Call \"the Beast\"",
 		"status": "Active",
-		"description": "Shank may spend a Will Point at the start of his Activation to use this ability. If he does, then if the Snow Troll is within 6\" of Shank and not Engaged in Combat, then it must Charge during its Activation if possible and, until the end of the turn gains the Fearless special rule and may reroll failed To Wound Rolls when making Strikes.",
+		"description": "Shank may spend a Will Point at the start of his Activation to use this ability. If he does, then if the Snow Troll is within 6\" of Shank and not Engaged in Combat, then it must Charge during its Activation if possible and, until the end of the turn gains the Fearless special rule and may re-roll failed To Wound Rolls when making Strikes.",
 		"linkedDetails": [
 			"Fearless"
 		],
@@ -2270,7 +2286,7 @@
 		"name": "Cleaving Blow",
 		"status": "Active",
 		"description": "If this model rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1.",
-		"descriptionGWFAQ": "Q: How does the Mordor Uruk-Hai Cleaving Blow special rule work in cases where you need to roll a 6+ followed by a further dice?\nA: It will trigger if either of the dice rolled are a natural 6.",
+		"descriptionGWFAQ": "Q: How does the Mordor Uruk-hai Cleaving Blow special rule work in cases where you need to roll a 6+ followed by a further dice?\nA: It will trigger if either of the dice rolled are a natural 6.",
 		"linkedRules": [
 			"natural",
 			"Strike"
@@ -2370,7 +2386,7 @@
 			"End Phase",
 			"Fight Phase",
 			"Fight Value",
-			"special rule",
+			"Heroic Actions",
 			"Strength",
 			"Will Point"
 		]
@@ -2662,7 +2678,7 @@
 		"language": "en",
 		"name": "Crushing Strength",
 		"status": "Brutal Power Attack",
-		"description": "If {character}, wins a Duel Roll he can choose to use this Brutal Power Attack. If he does, choose a single enemy model involved in the Combat. The chosen model immediately suffers a Strength 10 hit. If the To Wound Roll is successful (even if the Wound is prevented), the model immediately suffers another Strength 10 hit, and so on until either {character}, fails a To Wound Roll, or the chosen model is slain and removed as a casualty.",
+		"description": "If {character} wins a Duel Roll he can choose to use this Brutal Power Attack. If he does, choose a single enemy model involved in the Combat. The chosen model immediately suffers a Strength 10 hit. If the To Wound Roll is successful (even if the Wound is prevented), the model immediately suffers another Strength 10 hit, and so on until either {character} fails a To Wound Roll, or the chosen model is slain and removed as a casualty.",
 		"linkedRules": [
 			"Brutal Power Attack",
 			"Combat",
@@ -2871,7 +2887,8 @@
 		],
 		"linkedRules": [
 			"special rules",
-			"turn"
+			"turn",
+			"Wounds"
 		]
 	},
 	"Deploying a Siege Engine": {
@@ -2898,6 +2915,27 @@
 		"linkedRules": [
 			"turn",
 			"Will Point"
+		]
+	},
+	"Detonating the Charge": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Detonating the Charge",
+		"description": "During the Fight Phase, after any Heroic Combats have been resolved, a model with a torch can attempt to detonate the Demolition Charge if they are in base contact with it and are not Engaged in Combat. A model may only attempt to detonate a Demolition Charge if the resulting explosion would hit a Siege Target or at least two enemy models. A model that wishes to detonate the Demolition Charge must first take a Courage Test. If the test is failed, the Demolition Charge cannot be detonated. If the test is passed, the Demolition Charge will go off – roll on the Detonation Table below:\nDETONATION TABLE\n\t1 Dud – The Demolition Charge is faulty and does not explode. Remove it from play.\n\t2-5 Instant Reaction – The Demolition Charge explodes. All models (friend and foe) within 2\" of the Demolition Charge suffer D6 Wounds. Cavalry models suffer these Wounds on both the rider and the Mount. Models with Fate Points or special rules that can prevent Wounds must make a roll for each Wound suffered; a successful roll to prevent a Wound will only stop one, not all Wounds.\n\t6 Titanic Explosion - The Demolition Charge explodes as described above, with the exception that models take 2D6 Wounds rather than D6.\nA model without a torch can still attempt to detonate a Demolition Charge, though it will be harder to do. Any model from the same army as the Demolition Charge can attempt to detonate it by taking a Courage Test as described above. However, if the test is passed, roll a D6 – the Demolition Charge will only go off on the roll of a natural 6.",
+		"linkedDetails": [
+			"Heroic Combats|Heroic Combat"
+		],
+		"linkedRules": [
+			"Cavalry",
+			"Combat",
+			"Courage Test",
+			"Fate Points",
+			"Fight Phase",
+			"Mount",
+			"natural",
+			"Siege Target",
+			"special rules"
 		]
 	},
 	"Devastating Charge": {
@@ -3208,7 +3246,7 @@
 		"language": "en",
 		"name": "Dunlending War Axe",
 		"status": "Active",
-		"description": "This can be used as either a spear or a two-handed weapon",
+		"description": "This can be used as either a spear or a two-handed weapon.",
 		"linkedDetails": [
 			"spear",
 			"two-handed weapon"
@@ -3220,7 +3258,7 @@
 		"language": "en",
 		"name": "Durin’s Axe",
 		"status": "Active",
-		"description": "This is a Unique Master-forged two-handed weapon. Additionally, {character}, may re-roll a single D6 when making a Duel Roll.",
+		"description": "This is a Unique Master-forged two-handed weapon. Additionally, {character} may re-roll a single D6 when making a Duel Roll.",
 		"linkedDetails": [
 			"Master-forged two-handed weapon"
 		],
@@ -3748,6 +3786,7 @@
 			"End Phase",
 			"Fight Phase",
 			"Fight Value",
+			"Heroic Actions",
 			"Mount",
 			"Strength",
 			"Will Point"
@@ -4098,8 +4137,7 @@
 		"linkedRules": [
 			"Cavalry",
 			"Charge",
-			"Combat",
-			"Strength"
+			"Combat"
 		]
 	},
 	"Fiery Temper": {
@@ -4431,7 +4469,7 @@
 		"language": "en",
 		"name": "\"For the Shire!\"",
 		"status": "Active",
-		"description": "Whilst within 3\" of Boromir of Gondor, {character}, may spend Boromir’s Might Points as if they were his own.",
+		"description": "Whilst within 3\" of Boromir of Gondor, {character} may spend Boromir’s Might Points as if they were his own.",
 		"linkedProfiles": [
 			"Boromir of Gondor"
 		],
@@ -4480,7 +4518,7 @@
 		"language": "en",
 		"name": "Foresight of the Eldar",
 		"status": "Passive",
-		"description": "At the start of the game, before either side deploys, roll a D6 and make a note of the result – this is the number of Foresight Points that {character}, has for the battle. During the roll for Priority, so long as he is alive and on the battlefield, {character}, can spend these Foresight Points to increase the roll on his controlling player’s roll for Priority. For each Foresight Point spent, increase the dice roll by 1, to a maximum of 6.",
+		"description": "At the start of the game, before either side deploys, roll a D6 and make a note of the result – this is the number of Foresight Points that {character} has for the battle. During the roll for Priority, so long as he is alive and on the battlefield, {character} can spend these Foresight Points to increase the roll on his controlling player’s roll for Priority. For each Foresight Point spent, increase the dice roll by 1, to a maximum of 6.",
 		"linkedRules": [
 			"roll for Priority"
 		]
@@ -5127,7 +5165,6 @@
 		"description": "An enemy model within the range shown in brackets in this model’s profile suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect. A model with this special rule is unaffected by the Harbinger of Evil special rule of enemy models.",
 		"linkedRules": [
 			"Courage Tests",
-			"special rule",
 			"special rules"
 		]
 	},
@@ -5241,6 +5278,7 @@
 		"status": "Active",
 		"description": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardûsh can choose a single friendly Orc Warrior model within 6\" of himself. If he does, the chosen model is removed as a casualty and Kardûsh immediately regains D3 Will Points spent earlier in the battle.",
 		"linkedRules": [
+			"Heroic Actions",
 			"Move Phase",
 			"Warrior",
 			"Will Points"
@@ -5797,7 +5835,7 @@
 		"language": "en",
 		"name": "Horn of the Hammerhand",
 		"status": "Active",
-		"description": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, {character}, can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of {character}, suffer a -1 penalty to any Courage Test they are required to make.",
+		"description": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, {character} can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of {character} suffer a -1 penalty to any Courage Test they are required to make.",
 		"linkedDetails": [
 			"war horn"
 		],
@@ -6422,7 +6460,7 @@
 		"type": "specialrule",
 		"version": "2024",
 		"language": "en",
-		"name": "Kingdoms of Men",
+		"name": "King of Men (Dale)",
 		"status": "Passive",
 		"description": "This model’s Stand Fast is increased to 12\" and will affect friendly Dale Hero models.",
 		"linkedRules": [
@@ -6606,7 +6644,8 @@
 		"status": "Passive",
 		"description": "This model may only include Black Dragon Warrior models in their Warband.",
 		"linkedRules": [
-			"Warband"
+			"Warband",
+			"Warrior"
 		]
 	},
 	"Leaping": {
@@ -6705,7 +6744,7 @@
 		"language": "en",
 		"name": "Lethal Aim",
 		"status": "Active",
-		"description": "Each turn, {character}, gains a free Might Point that can only be spent during a shooting attack on either a To Hit Roll, a To Wound Roll, or an In The Way Test. If this free Might Point is not spent by the end of the turn, it is lost.",
+		"description": "Each turn, {character} gains a free Might Point that can only be spent during a shooting attack on either a To Hit Roll, a To Wound Roll, or an In The Way Test. If this free Might Point is not spent by the end of the turn, it is lost.",
 		"linkedRules": [
 			"In The Way Test",
 			"Might Point",
@@ -7448,16 +7487,16 @@
 		"language": "en",
 		"name": "Master of Poisons",
 		"status": "Passive",
-		"description": "At the start of the Move Phase, before the Declare Heroic Actions step, the Betrayer may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly models with the Poisoned Attacks special rule within 6\" of the Betrayer may re-roll all failed To Wound rolls for their Poisoned Attacks, rather than just To Wound rolls of a natural 1",
+		"description": "At the start of the Move Phase, before the Declare Heroic Actions step, the Betrayer may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly models with the Poisoned Attacks special rule within 6\" of the Betrayer may re-roll all failed To Wound rolls for their Poisoned Attacks, rather than just To Wound rolls of a natural 1.",
 		"linkedDetails": [
-			"Poisoned Attacks special rule|Poisoned Attacks"
+			"Poisoned Attacks"
 		],
 		"linkedRules": [
 			"End Phase",
+			"Heroic Actions",
 			"Move Phase",
 			"natural",
 			"re-roll",
-			"special rule",
 			"Will Point"
 		]
 	},
@@ -7467,7 +7506,7 @@
 		"language": "en",
 		"name": "Master of Reserves",
 		"status": "Passive",
-		"description": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for {character},’s Warband by +1 or -1, even if he is not on the battlefield. If {character}, is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -1.",
+		"description": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for {character}’s Warband by +1 or -1, even if he is not on the battlefield. If {character} is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -1.",
 		"linkedRules": [
 			"Warband",
 			"Warbands"
@@ -7538,8 +7577,7 @@
 		"version": "2024",
 		"language": "en",
 		"alias": [
-			"Master-forged two-handed weapon",
-			"Master-forged two-handed weapons"
+			"Master-forged two-handed weapon"
 		],
 		"name": "Master-forged weapon",
 		"description": "Some weapons may be classed as Master-forged. A model using a Master-forged weapon doesn’t suffer the -1 penalty to the Duel Roll for using it as a two-handed weapon.",
@@ -7691,7 +7729,6 @@
 			"End Phase",
 			"Heroic Actions",
 			"Move Phase",
-			"special rule",
 			"Stand Fast",
 			"Warrior",
 			"Will Point"
@@ -8150,6 +8187,17 @@
 			"Magical Powers",
 			"special rule",
 			"special rules"
+		]
+	},
+	"Moving the Charge": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Moving the Charge",
+		"description": "The Demolition Charge is a Heavy Object on a 25mm base, and is Moved in the same manner as any other Heavy Object.",
+		"linkedRules": [
+			"Heavy Object",
+			"Moved"
 		]
 	},
 	"Murderous Power": {
@@ -8672,10 +8720,10 @@
 		"description": "At the start of the Move Phase, before the Declare Heroic Actions step, the Shadow Lord may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, Shooting Attacks that target the Shadow Lord, or any model within 6\" of him, will only ever hit on the roll of a 6.",
 		"linkedRules": [
 			"End Phase",
+			"Heroic Actions",
 			"hit|Shooting Attack: To Hit Roll",
 			"Move Phase",
 			"Shooting Attacks",
-			"special rule",
 			"Will Point"
 		]
 	},
@@ -8796,10 +8844,14 @@
 		"language": "en",
 		"name": "Piercing Shot",
 		"status": "Active",
-		"description": "A model that is hit by the shot of {character}, will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strength of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then simply move the other models the minimum distance possible to allow the flung model to be placed where it has landed.",
+		"description": "A model that is hit by the shot of {character} will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strength of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then simply move the other models the minimum distance possible to allow the flung model to be placed where it has landed.",
 		"linkedRules": [
 			"Prone",
 			"Strength"
+		],
+		"excludeFromLinking": [
+			"Strength 5",
+			"Strength 6"
 		]
 	},
 	"Piercing Talons": {
@@ -8929,6 +8981,9 @@
 		],
 		"linkedRules": [
 			"Wound"
+		],
+		"excludeFromLinking": [
+			"the Wound"
 		]
 	},
 	"Pluck": {
@@ -9007,7 +9062,7 @@
 		"language": "en",
 		"name": "Prenatural Agility",
 		"status": "Active",
-		"description": "{Character}, can never count as Trapped whilst still standing",
+		"description": "{Character} can never count as Trapped whilst still standing.",
 		"linkedRules": [
 			"Trapped"
 		]
@@ -9676,7 +9731,7 @@
 		"linkedRules": [
 			"End Phase",
 			"Fight Phase",
-			"special rule",
+			"Heroic Actions",
 			"Warrior",
 			"Will Point"
 		]
@@ -9723,10 +9778,10 @@
 			"End Phase",
 			"Hero",
 			"Heroic Action",
+			"Heroic Actions",
 			"Intelligence Test",
 			"Might Point",
 			"Move Phase",
-			"special rule",
 			"Will Point"
 		]
 	},
@@ -9863,9 +9918,9 @@
 			"Charged",
 			"Combat",
 			"Fight Phase",
+			"Heroic Actions",
 			"Mount",
 			"natural",
-			"special rule",
 			"turn"
 		]
 	},
@@ -9950,6 +10005,7 @@
 		"status": "Passive",
 		"description": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardûsh’s controlling player can choose to remove him from the battlefield as a casualty if he is within 6\" of a friendly Ringwraith. If they do, then a single friendly Ringwraith model within 6\" of where Kardûsh was immediately regains D6 Will Points spent earlier in the battle.",
 		"linkedRules": [
+			"Heroic Actions",
 			"Move Phase",
 			"Will Points"
 		]
@@ -11646,13 +11702,16 @@
 		"description": "This model gains the Shieldwall special rule whilst they have the Cavalry keyword, and may still benefit from the special rule whilst mounted. The bonus of +1 Defence is applied to both rider and Mount. Hero models with this special rule that do not have a shield will still benefit from this special rule.",
 		"linkedDetails": [
 			"shield",
-			"Shieldwall special rule|Shieldwall"
+			"Shieldwall"
 		],
 		"linkedRules": [
 			"Cavalry",
 			"Defence",
 			"Mount",
 			"special rule"
+		],
+		"excludeFromLinking": [
+			"special rule whilst"
 		]
 	},
 	"The Goblin King’s Command": {
@@ -12153,7 +12212,8 @@
 			"banner"
 		],
 		"linkedRules": [
-			"Duel Rolls"
+			"Duel Rolls",
+			"Unique"
 		]
 	},
 	"The Serpent’s Weapon": {
@@ -12227,9 +12287,10 @@
 		"language": "en",
 		"name": "\"The time of the Orc has come\"",
 		"status": "Active",
-		"description": "Once per game, at the start of any Fight Phase, Gothmog can declare he is using this ability. Until the end of the turn, friendly Mordor Orc models within 12\" of Gothmog may reroll any failed To Wound Rolls when making Strikes.",
+		"description": "Once per game, at the start of any Fight Phase, Gothmog can declare he is using this ability. Until the end of the turn, friendly Mordor Orc models within 12\" of Gothmog may re-roll any failed To Wound Rolls when making Strikes.",
 		"linkedRules": [
 			"Fight Phase",
+			"re-roll",
 			"Strikes",
 			"turn"
 		]
@@ -12509,7 +12570,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "To Wound Chart",
-		"description": "Compare the Strength (Rows) of the Model/Weapon with the Defence (Columns) of the target on the To Wound Chart. The result indicates the minimum dice roll required to inflict a Wound on the target.\n\nA score of a 6+/4+, 6+/5+ or 6+/6+ means you must roll a single dice and score a 6+, followed by a further dice which must score a 4+, 5+ or a 6+ respectively. In these instances, both dice rolls are individual rolls and so either (or both) can be rerolled as the result of a relevant special rule or ability.\n\nA \"-\" on the chart means that model cannot wound that target – they are just too tough to be harmed. If the dice roll is not high enough, no Wound is inflicted.\n\nDefence\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10\nStrength\n1\t4+\t5+\t5+\t6+\t6+\t6+/4+\t6+/5+\t6+/6+\t-\t-\n2\t4+\t4+\t5+\t5+\t6+\t6+\t6+/4+\t6+/5+\t6+/6+\t-\n3\t3+\t4+\t4+\t5+\t5+\t6+\t6+\t6+/4+\t6+/5+\t6+/6+\n4\t3+\t3+\t4+\t4+\t5+\t5+\t6+\t6+\t6+/4+\t6+/5+\n5\t3+\t3+\t3+\t4+\t4+\t5+\t5+\t6+\t6+\t6+/4+\n6\t3+\t3+\t3+\t3+\t4+\t4+\t5+\t5+\t6+\t6+\n7\t3+\t3+\t3+\t3+\t3+\t4+\t4+\t5+\t5+\t6+\n8\t3+\t3+\t3+\t3+\t3+\t3+\t4+\t4+\t5+\t5+\n9\t3+\t3+\t3+\t3+\t3+\t3+\t4+\t4+\t5+\n10\t3+\t3+\t3+\t3+\t3+\t3+\t3+\t3+\t4+\t4+",
+		"description": "Compare the Strength (Rows) of the Model/Weapon with the Defence (Columns) of the target on the To Wound Chart. The result indicates the minimum dice roll required to inflict a Wound on the target.\n\nA score of a 6+/4+, 6+/5+ or 6+/6+ means you must roll a single dice and score a 6+, followed by a further dice which must score a 4+, 5+ or a 6+ respectively. In these instances, both dice rolls are individual rolls and so either (or both) can be re-rolled as the result of a relevant special rule or ability.\n\nA \"-\" on the chart means that model cannot wound that target – they are just too tough to be harmed. If the dice roll is not high enough, no Wound is inflicted.\n\nDefence\t1\t2\t3\t4\t5\t6\t7\t8\t9\t10\nStrength\n1\t4+\t5+\t5+\t6+\t6+\t6+/4+\t6+/5+\t6+/6+\t-\t-\n2\t4+\t4+\t5+\t5+\t6+\t6+\t6+/4+\t6+/5+\t6+/6+\t-\n3\t3+\t4+\t4+\t5+\t5+\t6+\t6+\t6+/4+\t6+/5+\t6+/6+\n4\t3+\t3+\t4+\t4+\t5+\t5+\t6+\t6+\t6+/4+\t6+/5+\n5\t3+\t3+\t3+\t4+\t4+\t5+\t5+\t6+\t6+\t6+/4+\n6\t3+\t3+\t3+\t3+\t4+\t4+\t5+\t5+\t6+\t6+\n7\t3+\t3+\t3+\t3+\t3+\t4+\t4+\t5+\t5+\t6+\n8\t3+\t3+\t3+\t3+\t3+\t3+\t4+\t4+\t5+\t5+\n9\t3+\t3+\t3+\t3+\t3+\t3+\t4+\t4+\t5+\n10\t3+\t3+\t3+\t3+\t3+\t3+\t3+\t3+\t4+\t4+",
 		"linkedRules": [
 			"Defence",
 			"special rule",
@@ -12775,7 +12836,7 @@
 		"language": "en",
 		"name": "Tremor",
 		"duration": "Instant",
-		"description": "Draw an imaginary 1mm line that extends D3+3\" directly away from the caster in a direction chosen by the caster. This Magical Power targets every model (friend or foe) that lies under the line. Each target immediately suffers one Strength 4 hit and is knocked Prone; if the target was a Cavalry model, they will automatically count as suffering the Knocked Flying result on the Thrown Rider Chart. If a target is Engaged in Combat, then all other models in the same Combat are also considered to be a target – make sure to Pair Off Combats before working out which models are a target. Models with the Fly special rule can never be a target of this Magical Power under any circumstances",
+		"description": "Draw an imaginary 1mm line that extends D3+3\" directly away from the caster in a direction chosen by the caster. This Magical Power targets every model (friend or foe) that lies under the line. Each target immediately suffers one Strength 4 hit and is knocked Prone; if the target was a Cavalry model, they will automatically count as suffering the Knocked Flying result on the Thrown Rider Chart. If a target is Engaged in Combat, then all other models in the same Combat are also considered to be a target – make sure to Pair Off Combats before working out which models are a target. Models with the Fly special rule can never be a target of this Magical Power under any circumstances.",
 		"linkedDetails": [
 			"Fly|Fly [SpecialRule]"
 		],
@@ -12904,7 +12965,7 @@
 		"language": "en",
 		"name": "Twin Elven Blades",
 		"status": "Active",
-		"description": "Whilst he has the Infantry Keyword, {character}, can choose to fight in one of the three following ways. He must declare which way he is fighting at the start of a Combat, before any dice are rolled:\n• This model can fight with 3 Attacks rather than 2.\n• This model can use his Elven weapons as Elven hand-and-a-half weapons.\n• This model can use his Elven weapons to parry, which counts as Shielding.",
+		"description": "Whilst he has the Infantry Keyword, {character} can choose to fight in one of the three following ways. He must declare which way he is fighting at the start of a Combat, before any dice are rolled:\n• This model can fight with 3 Attacks rather than 2.\n• This model can use his Elven weapons as Elven hand-and-a-half weapons.\n• This model can use his Elven weapons to parry, which counts as Shielding.",
 		"linkedDetails": [
 			"Elven weapons",
 			"Elven hand-and-a-half weapons",
@@ -13220,6 +13281,23 @@
 			"Strikes"
 		]
 	},
+	"Venom-back Spiders Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Venom-back Spiders Upgrade",
+		"description": "Mirkwood Hunting Spiders in Ashrâk’s Warband may be upgraded to Venom-back Spiders for +2 points per model. Venom-back Spiders gain the Venom special rule.",
+		"linkedDetails": [
+			"Venom"
+		],
+		"linkedProfiles": [
+			"Mirkwood Hunting Spiders|Mirkwood Hunting Spider",
+			"Venom-back Spiders|Venom-back Spider"
+		],
+		"linkedRules": [
+			"Warband"
+		]
+	},
 	"Vilya": {
 		"type": "wargear",
 		"version": "2024",
@@ -13242,7 +13320,7 @@
 		"description": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rule cannot Shoot in the Shoot Phase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases.",
 		"linkedDetails": [
 			"Heroic Combat",
-			"Terror special rule|Terror"
+			"Terror"
 		],
 		"linkedRules": [
 			"Activation",
@@ -13252,7 +13330,6 @@
 			"Move",
 			"Shoot",
 			"Shoot Phase",
-			"special rule",
 			"turn"
 		]
 	},
@@ -13290,7 +13367,7 @@
 		"language": "en",
 		"name": "Wall-breaker",
 		"status": "Active",
-		"description": "When Rolling to Wound against a Siege Target, {character}, makes 2 To Wound Rolls and picks the highest. Additionally, a successful To Wound Roll against a Siege Target will do D3 Wounds rather than 1.",
+		"description": "When Rolling to Wound against a Siege Target, {character} makes 2 To Wound Rolls and picks the highest. Additionally, a successful To Wound Roll against a Siege Target will do D3 Wounds rather than 1.",
 		"linkedRules": [
 			"Siege Target",
 			"To Wound|Siege Engines: Rolling to Wound"
@@ -13449,13 +13526,14 @@
 			"Swap shield for war drum"
 		],
 		"name": "War drum (X)",
-		"description": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n\n• A model with a war drum that declares a Heroic March must always shout At the Double.\n\n• The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n\n• The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\n\nAs a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn.",
+		"description": "A model with a war drum may use it during the Declare Heroic Actions step of each Move Phase to declare a Heroic March for free, without spending a Might Point, even if they are not a Hero. This free Heroic March has the following exceptions:\n\n• A model with a war drum that declares a Heroic March must always shout At the Double.\n• The range of this At the Double is 12\" rather than 6\". Additionally, friendly models must finish their Activation within 12\" rather than 6\".\n• The Heroic March declared when a model uses a war drum will only affect friendly models with the same keywords as the ones shown in brackets after the war drum. So if a model has a war drum (Mordor) then it will only affect models with the Mordor keyword.\nAs a war drum allows a model to declare a free Heroic March, models cannot be affected by both a war drum and a normal Heroic March in the same turn.",
 		"linkedDetails": [
 			"Heroic March"
 		],
 		"linkedRules": [
 			"Activation",
 			"Hero",
+			"Heroic Actions",
 			"Might Point",
 			"Move Phase",
 			"turn"
@@ -13682,7 +13760,7 @@
 		"language": "en",
 		"name": "Weapon Master",
 		"status": "Active",
-		"description": "{Character}, is never considered to be Unarmed.",
+		"description": "{Character, is never considered to be Unarmed.",
 		"linkedDetails": [
 			"Unarmed"
 		]
@@ -13859,7 +13937,7 @@
 		"status": "Passive",
 		"description": "This model must give up 1 Will Point during the End Phase if it has been involved in one or more Combats that turn; if it is in base contact with an enemy model, it is involved in that Combat – it cannot choose not to fight! Should this model be reduced to 0 Will Points, it is immediately banished and removed as a casualty. A model with this special rule cannot use their last Will Point to Cast a Magical Power or use a special rule if by doing so they would be reduced to 0 Will Points.\n\nAdditionally, this model ignores the Invisible special rule and, if it was involved in a Combat with an Invisible model that turn, does not give up a Will Point during the End Phase.",
 		"linkedDetails": [
-			"Invisible special rule|Invisible"
+			"Invisible"
 		],
 		"linkedRules": [
 			"Cast a Magical Power",
@@ -13868,7 +13946,12 @@
 			"End Phase",
 			"special rule",
 			"turn",
-			"Will Point"
+			"Will Point",
+			"Will Points"
+		],
+		"excludeFromLinking": [
+			"this special rule",
+			"special rule and"
 		]
 	},
 	"Will of the Necromancer": {
@@ -13889,7 +13972,7 @@
 		"language": "en",
 		"name": "Windlance Trained",
 		"status": "Passive",
-		"description": "If {character}, is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, {character}, may Move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, {character}, gains a bonus of +1 to any rolls on the Scatter Table.",
+		"description": "If {character} is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, {character} may Move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, {character} gains a bonus of +1 to any rolls on the Scatter Table.",
 		"descriptionGWFAQ": "Q: If Bard or Girion are upgraded to take a Windlance, and also have a Warband, how does the Warband deploy in Scenarios that use the Maelstrom of Battle special rule?\nA: The Siege Engine will be deployed first following the normal rules for deploying a Siege Engine in a Scenario using Maelstrom of Battle. The Warband will then be deployed within 6\" of either Bard or Girion; however, every model in the Warband must be wholly within 6\" of the edge of the board.",
 		"linkedProfiles": [
 			"Windlance|Windlance (Siege Engine)"

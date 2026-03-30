@@ -233,6 +233,9 @@
 				{
 					"name": "Orc Tracker",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Legacy": true
 					},
 					"points": "6"
@@ -1107,6 +1110,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -1132,20 +1138,6 @@
 					"points": "55"
 				},
 				{
-					"name": "Morannon Orc Captain",
-					"points": "55",
-					"options": [
-						{
-							"name": "Shield",
-							"cost": "5"
-						},
-						{
-							"name": "Two-handed weapon",
-							"cost": "5"
-						}
-					]
-				},
-				{
 					"name": "Goroth, Captain of the Morannon",
 					"armyRules": {
 						"Legacy": true,
@@ -1160,6 +1152,20 @@
 						"Maximum": 1
 					},
 					"points": "60"
+				},
+				{
+					"name": "Morannon Orc Captain",
+					"points": "55",
+					"options": [
+						{
+							"name": "Shield",
+							"cost": "5"
+						},
+						{
+							"name": "Two-handed weapon",
+							"cost": "5"
+						}
+					]
 				}
 			],
 			"Minor Heroes": [
@@ -1169,6 +1175,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -1733,6 +1742,11 @@
 						{
 							"name": "Armoured Fell Beast",
 							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Fell Beast",
+									"Horse"
+								],
 								"Monster": true
 							},
 							"cost": "70"
@@ -1740,6 +1754,11 @@
 						{
 							"name": "Fell Beast",
 							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Armoured Fell Beast",
+									"Horse"
+								],
 								"Monster": true
 							},
 							"cost": "50"
@@ -1752,7 +1771,11 @@
 							"name": "Horse",
 							"cost": "20",
 							"armyRules": {
-								"Cavalry": true
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Armoured Fell Beast",
+									"Fell Beast"
+								]
 							}
 						},
 						{
@@ -1778,6 +1801,10 @@
 						{
 							"name": "Armoured Fell Beast",
 							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Fell Beast"
+								],
 								"Monster": true
 							},
 							"cost": "70"
@@ -1785,6 +1812,10 @@
 						{
 							"name": "Fell Beast",
 							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Armoured Fell Beast"
+								],
 								"Monster": true
 							},
 							"cost": "50"
@@ -1804,6 +1835,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -2314,6 +2348,9 @@
 				{
 					"name": "Orc Tracker",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Legacy": true
 					},
 					"points": "6"
@@ -2476,11 +2513,38 @@
 			],
 			"Heroes of Fortitude": [
 				{
+					"name": "Vraskû",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "70"
+				},
+				{
 					"name": "Wild Man Oathmaker",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "55"
+				},
+				{
+					"name": "Gorûlf Ironskin",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "70"
+				},
+				{
+					"name": "Frída Tallspear",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "70"
 				},
 				{
 					"name": "Isengard Orc Captain",
@@ -2503,30 +2567,6 @@
 				{
 					"name": "Uruk-hai Scout Captain",
 					"points": "55"
-				},
-				{
-					"name": "Vraskû",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "70"
-				},
-				{
-					"name": "Gorûlf Ironskin",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "70"
-				},
-				{
-					"name": "Frída Tallspear",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "70"
 				},
 				{
 					"name": "Dunlending Chieftain",
@@ -2553,6 +2593,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -2708,27 +2751,6 @@
 					]
 				},
 				{
-					"name": "Crebain",
-					"points": "20"
-				},
-				{
-					"name": "Isengard Troll",
-					"armyRules": {
-						"Monster": true
-					},
-					"points": "100",
-					"optionalWarrior": [
-						{
-							"name": "Swap shield for war drum (Isengard)",
-							"cost": "25"
-						},
-						{
-							"name": "Spear",
-							"cost": "5"
-						}
-					]
-				},
-				{
 					"name": "Feral Uruk-hai",
 					"armyRules": {
 						"Legacy": true
@@ -2787,6 +2809,27 @@
 						"Legacy": true
 					},
 					"points": "11"
+				},
+				{
+					"name": "Isengard Troll",
+					"armyRules": {
+						"Monster": true
+					},
+					"points": "100",
+					"optionalWarrior": [
+						{
+							"name": "Swap shield for war drum (Isengard)",
+							"cost": "25"
+						},
+						{
+							"name": "Spear",
+							"cost": "5"
+						}
+					]
+				},
+				{
+					"name": "Crebain",
+					"points": "20"
 				}
 			]
 		}
@@ -3244,6 +3287,9 @@
 				{
 					"name": "Orc Tracker",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Legacy": true
 					},
 					"points": "6"
@@ -3303,7 +3349,7 @@
 					"points": "20"
 				},
 				{
-					"name": "Venom- back Spider",
+					"name": "Venom-back Spider",
 					"armyRules": {
 						"Captains": [
 							"Ashrâk"
@@ -3512,6 +3558,23 @@
 					"points": "15"
 				},
 				{
+					"name": "Isengard Troll",
+					"armyRules": {
+						"Monster": true
+					},
+					"points": "100",
+					"optionalWarrior": [
+						{
+							"name": "Swap shield for war drum (Isengard)",
+							"cost": "25"
+						},
+						{
+							"name": "Spear",
+							"cost": "5"
+						}
+					]
+				},
+				{
 					"name": "Uruk-hai Demolition Team",
 					"points": "80",
 					"composition": [
@@ -3530,7 +3593,9 @@
 							"name": "Uruk-hai Berserker"
 						}
 					]
-				},
+				}
+			],
+			"Siege Engines": [
 				{
 					"name": "Isengard Assault Ballista",
 					"points": "75",
@@ -3552,23 +3617,6 @@
 						{
 							"name": "Uruk-hai Siege Crew",
 							"amount": 2
-						}
-					]
-				},
-				{
-					"name": "Isengard Troll",
-					"armyRules": {
-						"Monster": true
-					},
-					"points": "100",
-					"optionalWarrior": [
-						{
-							"name": "Swap shield for war drum (Isengard)",
-							"cost": "25"
-						},
-						{
-							"name": "Spear",
-							"cost": "5"
 						}
 					]
 				}
@@ -4150,6 +4198,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -4276,6 +4327,9 @@
 				{
 					"name": "Orc Tracker",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Legacy": true
 					},
 					"points": "6"
@@ -5617,6 +5671,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -5699,6 +5756,9 @@
 				{
 					"name": "Orc Tracker",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"Gorbag, Orc Captain",
 							"Mordor Orc Captain",
@@ -5742,13 +5802,28 @@
 				"description": "After both sides have been deployed, but before the first turn of the game, a single Corsair Ballista may make a shooting attack following all the normal rules for doing so."
 			}
 		],
+		"armyRules": {
+			"ArmyDistributions": [
+				{
+					"group": "corsairGeneral",
+					"models": [
+						"Dalamyr, Fleetmaster of Umbar",
+						"Corsair Captain"
+					],
+					"min": 1
+				}
+			]
+		},
 		"models": {
 			"Heroes of Legend": [
 				{
 					"name": "Dalamyr, Fleetmaster of Umbar",
 					"armyRules": {
 						"General": 2,
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "100"
 				}
@@ -5757,7 +5832,10 @@
 				{
 					"name": "Delgamar, Gatemaster of Umbar",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "75"
 				}
@@ -5766,8 +5844,7 @@
 				{
 					"name": "Corsair Captain",
 					"armyRules": {
-						"Captain": "Mandatory",
-						"General": 2
+						"General": 1
 					},
 					"points": "55",
 					"options": [
@@ -5775,7 +5852,7 @@
 							"name": "Exchange two-handed weapon for crossbow",
 							"armyRules": {
 								"Bow": {
-									"limit": "count"
+									"limit": "ignore"
 								}
 							},
 							"cost": "Free"
@@ -5790,7 +5867,7 @@
 							"name": "Exchange spear for crossbow",
 							"armyRules": {
 								"Bow": {
-									"limit": "count"
+									"limit": "ignore"
 								}
 							},
 							"cost": "Free"
@@ -5829,6 +5906,11 @@
 				},
 				{
 					"name": "Corsair Crossbowman",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						}
+					},
 					"points": "10"
 				},
 				{
@@ -7624,15 +7706,15 @@
 			],
 			"Minor Heroes": [
 				{
+					"name": "Moria Goblin Shaman",
+					"points": "45"
+				},
+				{
 					"name": "Moria Blackshield Shaman",
 					"armyRules": {
 						"Legacy": true
 					},
 					"points": "50"
-				},
-				{
-					"name": "Moria Goblin Shaman",
-					"points": "45"
 				}
 			],
 			"Independent Heroes": [
@@ -7671,19 +7753,19 @@
 					]
 				},
 				{
-					"name": "Cave Troll",
+					"name": "Moria Goblin Prowler",
+					"points": "7"
+				},
+				{
+					"name": "Moria Blackshield Warrior",
 					"armyRules": {
-						"Monster": true
+						"Legacy": true
 					},
-					"points": "75",
-					"mandatoryWarrior": [
+					"points": "8",
+					"optionalWarrior": [
 						{
-							"name": "Hand-and-a-half weapon",
-							"cost": "5"
-						},
-						{
-							"name": "Troll Spear",
-							"cost": "5"
+							"name": "Spear",
+							"cost": "1"
 						}
 					]
 				},
@@ -7702,27 +7784,32 @@
 							}
 						},
 						{
-							"name": "Moria Blackshield Drummer",
-							"amount": 2
-						}
-					]
-				},
-				{
-					"name": "Moria Blackshield Warrior",
-					"armyRules": {
-						"Legacy": true
-					},
-					"points": "8",
-					"optionalWarrior": [
+							"name": "Moria Blackshield Drummer"
+						},
 						{
-							"name": "Spear",
-							"cost": "1"
+							"name": "Moria Blackshield Drum Bearer"
 						}
 					]
 				},
 				{
-					"name": "Moria Goblin Prowler",
-					"points": "7"
+					"name": "Cave Troll",
+					"armyRules": {
+						"Monster": true,
+						"Throwing": {
+							"limit": "count"
+						}
+					},
+					"points": "75",
+					"mandatoryWarrior": [
+						{
+							"name": "Hand-and-a-half weapon",
+							"cost": "5"
+						},
+						{
+							"name": "Troll Spear",
+							"cost": "5"
+						}
+					]
 				}
 			]
 		}
@@ -8622,6 +8709,9 @@
 					"options": [
 						{
 							"name": "War Camel",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "25"
 						}
 					]
@@ -8637,6 +8727,9 @@
 					"options": [
 						{
 							"name": "War Camel",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "25"
 						},
 						{
@@ -8859,6 +8952,9 @@
 				{
 					"name": "Orc Tracker",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Legacy": true
 					},
 					"points": "6"
@@ -10036,6 +10132,9 @@
 					"options": [
 						{
 							"name": "War Camel",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "25"
 						}
 					]
@@ -10110,7 +10209,7 @@
 							"cost": "15"
 						},
 						{
-							"name": "Rappeling Lines",
+							"name": "Rappelling Lines",
 							"cost": "10"
 						}
 					],
@@ -10148,7 +10247,7 @@
 									"cost": "15"
 								},
 								{
-									"name": "Rappeling Lines",
+									"name": "Rappelling Lines",
 									"cost": "10"
 								}
 							],
@@ -10225,6 +10324,9 @@
 					"options": [
 						{
 							"name": "War Camel",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "25"
 						},
 						{
@@ -10478,6 +10580,9 @@
 					"optionalWarrior": [
 						{
 							"name": "Exchange shield for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						},
 						{
@@ -10961,6 +11066,11 @@
 				},
 				{
 					"name": "Wood Elf Sentinel",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						}
+					},
 					"points": "25"
 				}
 			]
@@ -11106,7 +11216,7 @@
 							"cost": "15"
 						},
 						{
-							"name": "Rappeling Lines",
+							"name": "Rappelling Lines",
 							"cost": "10"
 						}
 					],
@@ -11144,7 +11254,7 @@
 									"cost": "15"
 								},
 								{
-									"name": "Rappeling Lines",
+									"name": "Rappelling Lines",
 									"cost": "10"
 								}
 							],
@@ -11422,6 +11532,9 @@
 					"optionalWarrior": [
 						{
 							"name": "Exchange shield for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						},
 						{
@@ -12466,6 +12579,7 @@
 				{
 					"name": "The Witch-king of Angmar (Option 3)",
 					"armyRules": {
+						"Cavalry": true,
 						"Maximum": 1,
 						"Monster": true
 					},
@@ -12490,6 +12604,7 @@
 				{
 					"name": "Ringwraith (Option 3)",
 					"armyRules": {
+						"Cavalry": true,
 						"Maximum": 8,
 						"Monster": true
 					},
@@ -12501,72 +12616,6 @@
 						{
 							"name": "Morgul Blade",
 							"cost": "10"
-						}
-					]
-				},
-				{
-					"name": "Gothmog, Lieutnant of Sauron",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "120",
-					"options": [
-						{
-							"name": "Warg",
-							"cost": "20"
-						},
-						{
-							"name": "Shield",
-							"cost": "5"
-						}
-					]
-				},
-				{
-					"name": "Mûmak War Leader",
-					"points": "400",
-					"composition": [
-						{
-							"name": "Mûmak War Leader (Hero)",
-							"compositionModel": "Captain",
-							"points": "400"
-						},
-						{
-							"name": "Royal War Mûmak",
-							"armyRules": {
-								"NotCount": "Warband"
-							}
-						}
-					]
-				},
-				{
-					"name": "Amdûr, Lord of Blades",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "135",
-					"options": [
-						{
-							"name": "Armoured horse",
-							"armyRules": {
-								"Cavalry": true
-							},
-							"cost": "25"
-						}
-					]
-				},
-				{
-					"name": "Suladân, the Serpent Lord",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "120",
-					"options": [
-						{
-							"name": "Armoured horse",
-							"armyRules": {
-								"Cavalry": true
-							},
-							"cost": "25"
 						}
 					]
 				},
@@ -12707,6 +12756,59 @@
 					]
 				},
 				{
+					"name": "Gothmog, Lieutnant of Sauron",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "120",
+					"options": [
+						{
+							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "20"
+						},
+						{
+							"name": "Shield",
+							"cost": "5"
+						}
+					]
+				},
+				{
+					"name": "Mûmak War Leader",
+					"points": "400",
+					"composition": [
+						{
+							"name": "Mûmak War Leader (Hero)",
+							"compositionModel": "Captain",
+							"points": "400"
+						},
+						{
+							"name": "Royal War Mûmak",
+							"armyRules": {
+								"NotCount": "Warband"
+							}
+						}
+					]
+				},
+				{
+					"name": "Suladân, the Serpent Lord",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "120",
+					"options": [
+						{
+							"name": "Armoured horse",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "25"
+						}
+					]
+				},
+				{
 					"name": "Haradrim King",
 					"armyRules": {
 						"Legacy": true
@@ -12729,6 +12831,22 @@
 						"Maximum": 1
 					},
 					"points": "130"
+				},
+				{
+					"name": "Amdûr, Lord of Blades",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "135",
+					"options": [
+						{
+							"name": "Armoured horse",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "25"
+						}
+					]
 				}
 			],
 			"Heroes of Fortitude": [
@@ -12747,6 +12865,29 @@
 					"points": "55"
 				},
 				{
+					"name": "Goroth, Captain of the Morannon",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "85"
+				},
+				{
+					"name": "Zagdûsh, Orc Captain",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "60"
+				},
+				{
+					"name": "Râza, Fang of the Serpent",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "75"
+				},
+				{
 					"name": "Morannon Orc Captain",
 					"points": "55",
 					"options": [
@@ -12757,6 +12898,43 @@
 						{
 							"name": "Two-handed weapon",
 							"cost": "5"
+						}
+					]
+				},
+				{
+					"name": "Black Númenórean Marshal",
+					"points": "70",
+					"options": [
+						{
+							"name": "Armoured horse",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Lance",
+							"cost": "5"
+						}
+					]
+				},
+				{
+					"name": "Great Beast of Gorgoroth",
+					"armyRules": {
+						"Legacy": true
+					},
+					"points": "175",
+					"composition": [
+						{
+							"name": "Orc Commander (Great Beast of Gorgoroth)",
+							"compositionModel": "Captain",
+							"points": "175"
+						},
+						{
+							"name": "Great Beast",
+							"armyRules": {
+								"NotCount": "Warband"
+							}
 						}
 					]
 				},
@@ -12804,7 +12982,7 @@
 							"cost": "15"
 						},
 						{
-							"name": "Rappeling Lines",
+							"name": "Rappelling Lines",
 							"cost": "10"
 						}
 					],
@@ -12842,7 +13020,7 @@
 									"cost": "15"
 								},
 								{
-									"name": "Rappeling Lines",
+									"name": "Rappelling Lines",
 									"cost": "10"
 								}
 							],
@@ -12853,25 +13031,16 @@
 					]
 				},
 				{
-					"name": "Easterling Captain",
-					"points": "60"
+					"name": "Hâsharin",
+					"points": "80"
 				},
 				{
-					"name": "Black Númenórean Marshal",
-					"points": "70",
-					"options": [
-						{
-							"name": "Armoured horse",
-							"armyRules": {
-								"Cavalry": true
-							},
-							"cost": "25"
-						},
-						{
-							"name": "Lance",
-							"cost": "5"
-						}
-					]
+					"name": "Haradrim Taskmaster",
+					"points": "45"
+				},
+				{
+					"name": "Easterling Captain",
+					"points": "60"
 				},
 				{
 					"name": "Easterling War Priest",
@@ -12892,57 +13061,6 @@
 						"Cavalry": true
 					},
 					"points": "90"
-				},
-				{
-					"name": "Râza, Fang of the Serpent",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "75"
-				},
-				{
-					"name": "Hâsharin",
-					"points": "80"
-				},
-				{
-					"name": "Haradrim Taskmaster",
-					"points": "45"
-				},
-				{
-					"name": "Goroth, Captain of the Morannon",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "85"
-				},
-				{
-					"name": "Zagdûsh, Orc Captain",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "60"
-				},
-				{
-					"name": "Great Beast of Gorgoroth",
-					"armyRules": {
-						"Legacy": true
-					},
-					"points": "175",
-					"composition": [
-						{
-							"name": "Orc Commander (Great Beast of Gorgoroth)",
-							"compositionModel": "Captain",
-							"points": "175"
-						},
-						{
-							"name": "Great Beast",
-							"armyRules": {
-								"NotCount": "Warband"
-							}
-						}
-					]
 				}
 			],
 			"Minor Heroes": [
@@ -12952,6 +13070,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -12960,8 +13081,7 @@
 					"name": "Easterling Dragon Knight",
 					"armyRules": {
 						"Followers": [
-							"Black Dragon Warrior",
-							"Dragon Cult Acolyte"
+							"Black Dragon Warrior"
 						]
 					},
 					"points": "70",
@@ -12983,7 +13103,6 @@
 						"Captains": [
 							"The Witch-king of Angmar (Option 3)",
 							"Ringwraith (Option 3)",
-							"Gothmog, Lieutnant of Sauron",
 							"Khamûl the Easterling",
 							"The Tainted",
 							"The Dwimmerlaik",
@@ -12993,12 +13112,13 @@
 							"The Undying",
 							"The Betrayer",
 							"The Knight of Umbar",
+							"Gothmog, Lieutnant of Sauron",
 							"Guritz, Master of Reserves",
 							"Gothmog’s Enforcer",
-							"Morannon Orc Captain",
-							"Black Númenórean Marshal",
 							"Goroth, Captain of the Morannon",
 							"Zagdûsh, Orc Captain",
+							"Morannon Orc Captain",
+							"Black Númenórean Marshal",
 							"Great Beast of Gorgoroth",
 							"Mordor Orc Shaman"
 						]
@@ -13027,12 +13147,11 @@
 					]
 				},
 				{
-					"name": "Mordor Troll",
+					"name": "Black Númenórean Knight",
 					"armyRules": {
 						"Captains": [
 							"The Witch-king of Angmar (Option 3)",
 							"Ringwraith (Option 3)",
-							"Gothmog, Lieutnant of Sauron",
 							"Khamûl the Easterling",
 							"The Tainted",
 							"The Dwimmerlaik",
@@ -13042,12 +13161,83 @@
 							"The Undying",
 							"The Betrayer",
 							"The Knight of Umbar",
+							"Gothmog, Lieutnant of Sauron",
 							"Guritz, Master of Reserves",
 							"Gothmog’s Enforcer",
-							"Morannon Orc Captain",
-							"Black Númenórean Marshal",
 							"Goroth, Captain of the Morannon",
 							"Zagdûsh, Orc Captain",
+							"Morannon Orc Captain",
+							"Black Númenórean Marshal",
+							"Great Beast of Gorgoroth",
+							"Mordor Orc Shaman"
+						],
+						"Cavalry": true
+					},
+					"points": "20",
+					"optionalWarrior": [
+						{
+							"name": "Exchange lance for banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Exchange lance for war horn",
+							"cost": "25"
+						}
+					]
+				},
+				{
+					"name": "Black Númenórean Warrior",
+					"armyRules": {
+						"Captains": [
+							"The Witch-king of Angmar (Option 3)",
+							"Ringwraith (Option 3)",
+							"Khamûl the Easterling",
+							"The Tainted",
+							"The Dwimmerlaik",
+							"The Dwimmerlaik",
+							"The Dark Marshal",
+							"The Shadow Lord",
+							"The Undying",
+							"The Betrayer",
+							"The Knight of Umbar",
+							"Gothmog, Lieutnant of Sauron",
+							"Guritz, Master of Reserves",
+							"Gothmog’s Enforcer",
+							"Goroth, Captain of the Morannon",
+							"Zagdûsh, Orc Captain",
+							"Morannon Orc Captain",
+							"Black Númenórean Marshal",
+							"Great Beast of Gorgoroth",
+							"Mordor Orc Shaman"
+						]
+					},
+					"points": "10"
+				},
+				{
+					"name": "Mordor Troll",
+					"armyRules": {
+						"Captains": [
+							"The Witch-king of Angmar (Option 3)",
+							"Ringwraith (Option 3)",
+							"Khamûl the Easterling",
+							"The Tainted",
+							"The Dwimmerlaik",
+							"The Dwimmerlaik",
+							"The Dark Marshal",
+							"The Shadow Lord",
+							"The Undying",
+							"The Betrayer",
+							"The Knight of Umbar",
+							"Gothmog, Lieutnant of Sauron",
+							"Guritz, Master of Reserves",
+							"Gothmog’s Enforcer",
+							"Goroth, Captain of the Morannon",
+							"Zagdûsh, Orc Captain",
+							"Morannon Orc Captain",
+							"Black Númenórean Marshal",
 							"Great Beast of Gorgoroth",
 							"Mordor Orc Shaman"
 						],
@@ -13066,13 +13256,13 @@
 					"armyRules": {
 						"Captains": [
 							"Mûmak War Leader (Hero)",
-							"Suladân, the Serpent Lord",
 							"The Betrayer",
+							"Suladân, the Serpent Lord",
 							"Haradrim King",
 							"The Golden King of Abrakhân",
+							"Râza, Fang of the Serpent",
 							"Haradrim Chieftain",
 							"Haradrim Commander",
-							"Râza, Fang of the Serpent",
 							"Hâsharin",
 							"Haradrim Taskmaster"
 						]
@@ -13106,172 +13296,17 @@
 					]
 				},
 				{
-					"name": "Easterling Warrior",
-					"armyRules": {
-						"Captains": [
-							"Amdûr, Lord of Blades",
-							"Khamûl the Easterling",
-							"Easterling Captain",
-							"Easterling War Priest",
-							"Easterling Kataphrakt Captain",
-							"Easterling Dragon Knight"
-						]
-					},
-					"points": "8",
-					"mandatoryWarrior": [
-						{
-							"name": "Banner",
-							"armyRules": {
-								"Banner": true
-							},
-							"cost": "25"
-						},
-						{
-							"name": "Easterling Halberd and shield",
-							"cost": "2"
-						},
-						{
-							"name": "Bow",
-							"armyRules": {
-								"Bow": {
-									"limit": "count"
-								}
-							},
-							"cost": "1"
-						},
-						{
-							"name": "Shield",
-							"cost": "1"
-						}
-					]
-				},
-				{
-					"name": "Black Númenórean Knight",
-					"armyRules": {
-						"Captains": [
-							"The Witch-king of Angmar (Option 3)",
-							"Ringwraith (Option 3)",
-							"Gothmog, Lieutnant of Sauron",
-							"Khamûl the Easterling",
-							"The Tainted",
-							"The Dwimmerlaik",
-							"The Dwimmerlaik",
-							"The Dark Marshal",
-							"The Shadow Lord",
-							"The Undying",
-							"The Betrayer",
-							"The Knight of Umbar",
-							"Guritz, Master of Reserves",
-							"Gothmog’s Enforcer",
-							"Morannon Orc Captain",
-							"Black Númenórean Marshal",
-							"Goroth, Captain of the Morannon",
-							"Zagdûsh, Orc Captain",
-							"Great Beast of Gorgoroth",
-							"Mordor Orc Shaman"
-						],
-						"Cavalry": true
-					},
-					"points": "20",
-					"optionalWarrior": [
-						{
-							"name": "Exchange lance for banner",
-							"cost": "25"
-						},
-						{
-							"name": "Exchange lance for war horn",
-							"cost": "25"
-						}
-					]
-				},
-				{
-					"name": "Black Númenórean Warrior",
-					"armyRules": {
-						"Captains": [
-							"The Witch-king of Angmar (Option 3)",
-							"Ringwraith (Option 3)",
-							"Gothmog, Lieutnant of Sauron",
-							"Khamûl the Easterling",
-							"The Tainted",
-							"The Dwimmerlaik",
-							"The Dwimmerlaik",
-							"The Dark Marshal",
-							"The Shadow Lord",
-							"The Undying",
-							"The Betrayer",
-							"The Knight of Umbar",
-							"Guritz, Master of Reserves",
-							"Gothmog’s Enforcer",
-							"Morannon Orc Captain",
-							"Black Númenórean Marshal",
-							"Goroth, Captain of the Morannon",
-							"Zagdûsh, Orc Captain",
-							"Great Beast of Gorgoroth",
-							"Mordor Orc Shaman"
-						]
-					},
-					"points": "10"
-				},
-				{
-					"name": "Black Dragon Warrior",
-					"armyRules": {
-						"Captains": [
-							"Amdûr, Lord of Blades",
-							"Easterling Dragon Knight"
-						]
-					},
-					"points": "10",
-					"optionalWarrior": [
-						{
-							"name": "Exchange shield for banner",
-							"cost": "25"
-						},
-						{
-							"name": "Easterlinh Halberd",
-							"cost": "1"
-						}
-					]
-				},
-				{
-					"name": "Easterling Kataphrakt",
-					"armyRules": {
-						"Captains": [
-							"Amdûr, Lord of Blades",
-							"Khamûl the Easterling",
-							"Easterling Captain",
-							"Easterling War Priest",
-							"Easterling Kataphrakt Captain",
-							"Easterling Dragon Knight"
-						],
-						"Cavalry": true
-					},
-					"points": "15",
-					"optionalWarrior": [
-						{
-							"name": "Banner",
-							"armyRules": {
-								"Banner": true
-							},
-							"cost": "25"
-						},
-						{
-							"name": "Exchange shield for war drum",
-							"cost": "25"
-						}
-					]
-				},
-				{
 					"name": "Haradrim Raider",
 					"armyRules": {
 						"Captains": [
 							"Mûmak War Leader (Hero)",
-							"Suladân, the Serpent Lord",
 							"The Betrayer",
+							"Suladân, the Serpent Lord",
 							"Haradrim King",
 							"The Golden King of Abrakhân",
+							"Râza, Fang of the Serpent",
 							"Haradrim Chieftain",
 							"Haradrim Commander",
-							"Râza, Fang of the Serpent",
 							"Hâsharin",
 							"Haradrim Taskmaster"
 						],
@@ -13315,13 +13350,13 @@
 					"armyRules": {
 						"Captains": [
 							"Mûmak War Leader (Hero)",
-							"Suladân, the Serpent Lord",
 							"The Betrayer",
+							"Suladân, the Serpent Lord",
 							"Haradrim King",
 							"The Golden King of Abrakhân",
+							"Râza, Fang of the Serpent",
 							"Haradrim Chieftain",
 							"Haradrim Commander",
-							"Râza, Fang of the Serpent",
 							"Hâsharin",
 							"Haradrim Taskmaster"
 						],
@@ -13334,13 +13369,13 @@
 					"armyRules": {
 						"Captains": [
 							"Mûmak War Leader (Hero)",
-							"Suladân, the Serpent Lord",
 							"The Betrayer",
+							"Suladân, the Serpent Lord",
 							"Haradrim King",
 							"The Golden King of Abrakhân",
+							"Râza, Fang of the Serpent",
 							"Haradrim Chieftain",
 							"Haradrim Commander",
-							"Râza, Fang of the Serpent",
 							"Hâsharin",
 							"Haradrim Taskmaster"
 						],
@@ -13360,6 +13395,95 @@
 						{
 							"name": "Twin Blades",
 							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Easterling Warrior",
+					"armyRules": {
+						"Captains": [
+							"Amdûr, Lord of Blades",
+							"Khamûl the Easterling",
+							"Easterling Captain",
+							"Easterling War Priest",
+							"Easterling Kataphrakt Captain"
+						]
+					},
+					"points": "8",
+					"mandatoryWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Easterling Halberd and shield",
+							"cost": "2"
+						},
+						{
+							"name": "Bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "1"
+						},
+						{
+							"name": "Shield",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Black Dragon Warrior",
+					"armyRules": {
+						"Captains": [
+							"Amdûr, Lord of Blades",
+							"Easterling Dragon Knight"
+						]
+					},
+					"points": "10",
+					"optionalWarrior": [
+						{
+							"name": "Exchange shield for banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Easterling Halberd",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Easterling Kataphrakt",
+					"armyRules": {
+						"Captains": [
+							"Amdûr, Lord of Blades",
+							"Khamûl the Easterling",
+							"Easterling Captain",
+							"Easterling War Priest",
+							"Easterling Kataphrakt Captain"
+						],
+						"Cavalry": true
+					},
+					"points": "15",
+					"optionalWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Exchange shield for war drum",
+							"cost": "25"
 						}
 					]
 				}
@@ -13579,7 +13703,7 @@
 			],
 			"Warriors": [
 				{
-					"name": "King's Guard",
+					"name": "King’s Guard",
 					"armyRules": {
 						"Captains": [
 							"Gil-Galad, High King of the Noldor"
@@ -13646,6 +13770,9 @@
 				{
 					"name": "Rivendell Knight",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Cavalry": true
 					},
 					"points": "20",
@@ -13958,6 +14085,11 @@
 				},
 				{
 					"name": "Wood Elf Sentinel",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						}
+					},
 					"points": "25"
 				}
 			]
@@ -14000,6 +14132,9 @@
 				{
 					"name": "Lurtz, Uruk-hai Scout Captain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -14021,16 +14156,16 @@
 					"points": "75"
 				},
 				{
-					"name": "Uruk-hai Scout Captain",
-					"points": "55"
-				},
-				{
 					"name": "Mauhûr",
 					"armyRules": {
 						"Legacy": true,
 						"Maximum": 1
 					},
 					"points": "65"
+				},
+				{
+					"name": "Uruk-hai Scout Captain",
+					"points": "55"
 				}
 			],
 			"Independent Heroes": [
@@ -14518,6 +14653,11 @@
 						{
 							"name": "Armoured Fell Beast",
 							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Fell Beast",
+									"Horse"
+								],
 								"Monster": true
 							},
 							"cost": "70"
@@ -14525,6 +14665,11 @@
 						{
 							"name": "Fell Beast",
 							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Armoured Fell Beast",
+									"Horse"
+								],
 								"Monster": true
 							},
 							"cost": "50"
@@ -14537,7 +14682,11 @@
 							"name": "Horse",
 							"cost": "20",
 							"armyRules": {
-								"Cavalry": true
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Armoured Fell Beast",
+									"Fell Beast"
+								]
 							}
 						},
 						{
@@ -14562,6 +14711,10 @@
 						{
 							"name": "Fell Beast",
 							"armyRules": {
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Horse"
+								],
 								"Monster": true
 							},
 							"cost": "50"
@@ -14570,7 +14723,10 @@
 							"name": "Horse",
 							"cost": "20",
 							"armyRules": {
-								"Cavalry": true
+								"Cavalry": true,
+								"ExcludeOptions": [
+									"Fell Beast"
+								]
 							}
 						},
 						{
@@ -14581,6 +14737,14 @@
 				}
 			],
 			"Heroes of Fortitude": [
+				{
+					"name": "Kardûsh the Firecaller",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "65"
+				},
 				{
 					"name": "Mordor Orc Captain",
 					"points": "45"
@@ -14602,14 +14766,6 @@
 				{
 					"name": "Mordor Orc Taskmaster",
 					"points": "45"
-				},
-				{
-					"name": "Kardûsh the Firecaller",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "65"
 				}
 			],
 			"Minor Heroes": [
@@ -14619,6 +14775,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -14717,6 +14876,9 @@
 				{
 					"name": "Orc Tracker",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Legacy": true
 					},
 					"points": "6"
@@ -15187,7 +15349,10 @@
 				{
 					"name": "Cave Troll",
 					"armyRules": {
-						"Monster": true
+						"Monster": true,
+						"Throwing": {
+							"limit": "count"
+						}
 					},
 					"points": "75",
 					"mandatoryWarrior": [
@@ -15243,8 +15408,10 @@
 							}
 						},
 						{
-							"name": "Moria Blackshield Drummer",
-							"amount": 2
+							"name": "Moria Blackshield Drummer"
+						},
+						{
+							"name": "Moria Blackshield Drum Bearer"
 						}
 					]
 				},
@@ -15333,20 +15500,23 @@
 			],
 			"Heroes of Fortitude": [
 				{
+					"name": "Vraskû",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "70"
+				},
+				{
 					"name": "Uruk-hai Captain",
 					"points": "65"
 				},
 				{
 					"name": "Uruk-hai Scout Captain",
 					"points": "55"
-				},
-				{
-					"name": "Vraskû",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "70"
 				}
 			],
 			"Minor Heroes": [
@@ -16377,6 +16547,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -16391,6 +16564,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -18949,6 +19125,9 @@
 				{
 					"name": "Rivendell Knight",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Cavalry": true
 					},
 					"points": "20",
@@ -20487,8 +20666,18 @@
 		"models": {
 			"Heroes of Valour": [
 				{
+					"name": "Mordor Troll Chieftain (General)",
+					"armyRules": {
+						"General": "Mandatory",
+						"Maximum": 1,
+						"Monster": true
+					},
+					"points": "150"
+				},
+				{
 					"name": "The Mouth of Sauron",
 					"armyRules": {
+						"Captain": "Mandatory",
 						"Maximum": 1
 					},
 					"points": "75",
@@ -20507,7 +20696,6 @@
 				{
 					"name": "Mordor Troll Chieftain",
 					"armyRules": {
-						"General": "Mandatory",
 						"Monster": true
 					},
 					"points": "150"
@@ -20555,6 +20743,9 @@
 					"options": [
 						{
 							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -20924,6 +21115,9 @@
 					"optionalWarrior": [
 						{
 							"name": "Exchange shield for banner",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "25"
 						},
 						{
@@ -22390,7 +22584,7 @@
 							"cost": "15"
 						},
 						{
-							"name": "Rappeling Lines",
+							"name": "Rappelling Lines",
 							"cost": "10"
 						}
 					],
@@ -22428,7 +22622,7 @@
 									"cost": "15"
 								},
 								{
-									"name": "Rappeling Lines",
+									"name": "Rappelling Lines",
 									"cost": "10"
 								}
 							],
@@ -23321,6 +23515,14 @@
 			],
 			"Heroes of Fortitude": [
 				{
+					"name": "Mauhûr",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "65"
+				},
+				{
 					"name": "Grishnákh, Orc Captain",
 					"armyRules": {
 						"Maximum": 1
@@ -23341,14 +23543,6 @@
 				{
 					"name": "Isengard Orc Captain",
 					"points": "45"
-				},
-				{
-					"name": "Mauhûr",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "65"
 				}
 			],
 			"Minor Heroes": [
@@ -24049,6 +24243,9 @@
 			"Heroes of Fortitude": [
 				{
 					"name": "Isengard Orc Captain",
+					"armyRules": {
+						"Cavalry": true
+					},
 					"points": "65",
 					"mandatory": [
 						"Warg"
@@ -24058,6 +24255,9 @@
 			"Minor Heroes": [
 				{
 					"name": "Isengard Orc Shaman",
+					"armyRules": {
+						"Cavalry": true
+					},
 					"points": "70",
 					"mandatory": [
 						"Warg"

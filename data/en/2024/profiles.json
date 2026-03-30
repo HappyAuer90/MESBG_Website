@@ -1368,8 +1368,7 @@
 		],
 		"options": [
 			{
-				"name": "Mirkwood Hunting Spiders in Ashrâk’s Warband may be upgraded to Venom- back Spiders for +2 points per model. Venom-back Spiders gain the Venom special rule.",
-				"type": "OPTIONAL_RULES"
+				"name": "Venom-back Spiders Upgrade"
 			}
 		],
 		"specialRules": [
@@ -6315,21 +6314,12 @@
 				"page": "169"
 			}
 		],
-		"baseSize": "105mm oval",
+		"baseSize": "25mm",
 		"wargear": [],
-		"options": [
-			{
-				"name": "Moving the Charge\nThe Demolition Charge is a Heavy Object on a 25mm base, and is Moved in the same manner as any other Heavy Object.",
-				"type": "OPTIONAL_RULES"
-			},
-			{
-				"name": "Detonating the Charge\nDuring the Fight Phase, after any Heroic Combats have been resolved, a model with a torch can attempt to detonate the Demolition Charge if they are in base contact with it and are not Engaged in Combat. A model may only attempt to detonate a Demolition Charge if the resulting explosion would hit a Siege Target or at least two enemy models. A model that wishes to detonate the Demolition Charge must first take a Courage Test. If the test is failed, the Demolition Charge cannot be detonated. If the test is passed, the Demolition Charge will go off – roll on the Detonation Table below:\nDETONATION TABLE\n\t1 Dud – The Demolition Charge is faulty and does not explode. Remove it from play.\n\t2-5 Instant Reaction – The Demolition Charge explodes. All models (friend and foe) within 2\" of the Demolition Charge suffer D6 Wounds. Cavalry models suffer these Wounds on both the rider and the Mount. Models with Fate Points or special rules that can prevent Wounds must make a roll for each Wound suffered; a successful roll to prevent a Wound will only stop one, not all Wounds.\n\t6 Titanic Explosion - The Demolition Charge explodes as described above, with the exception that models take 2D6 Wounds rather than D6.\nA model without a torch can still attempt to detonate a Demolition Charge, though it will be harder to do. Any model from the same army as the Demolition Charge can attempt to detonate it by taking a Courage Test as described above. However, if the test is passed, roll a D6 – the Demolition Charge will only go off on the roll of a natural 6.",
-				"type": "OPTIONAL_RULES"
-			},
-			{
-				"name": "Attacking the Charge\nA Demolition Charge can be shot at and attacked as normal, and has a Defence of 7 and 3 Wounds. Each time a Demolition Charge suffers a Wound, roll a D6. On a 6, the Demolition Charge goes off; roll on the Demolition Table. If a Demolition Charge is Wounded by the explosion of another Demolition Charge, it will go off on the roll of a 4+ rather than a 6. If a Demolition Charge loses its last Wound and does not go off, it simply breaks and is removed from play. If, during the End Phase of a turn, an enemy model is in base contact with a Demolition Charge, that model hasn’tdone anything during that turn except Move (i.e., has notmade a shooting attack, Cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can disable the Demolition Charge – remove it from play.",
-				"type": "OPTIONAL_RULES"
-			}
+		"specialRules": [
+			"Moving the Charge",
+			"Detonating the Charge",
+			"Attacking the Charge"
 		]
 	},
 	"Denethor, Steward of Gondor": {
@@ -17573,7 +17563,7 @@
 		]
 	},
 	"Isengard Orc Shaman": {
-		"id": "shaman_iengard_orc",
+		"id": "shaman_isengard_orc",
 		"version": "2024",
 		"language": "en",
 		"name": "Isengard Orc Shaman",
@@ -22828,6 +22818,67 @@
 			"Throw Stones (range 12\", Strength 8)"
 		]
 	},
+	"Mordor Troll Chieftain (General)": {
+		"id": "mordor_troll_chieftain_general",
+		"version": "2024",
+		"language": "en",
+		"name": "Mordor Troll Chieftain (General)",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Armies of The Lord of the Rings",
+				"page": "155"
+			}
+		],
+		"points": "150",
+		"race": [
+			"Troll"
+		],
+		"faction": [
+			"Mordor"
+		],
+		"unitTypes": [
+			"Hero",
+			"Infantry",
+			"Monster",
+			"Unique"
+		],
+		"baseSize": "60mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "8",
+			"shootValue": "4+",
+			"strength": "7",
+			"defence": "8",
+			"attacks": "3",
+			"wounds": "4",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "2",
+			"fate": "2"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"heroicActions": [
+			"Heroic Strength",
+			"Heroic Strike"
+		],
+		"specialRules": [
+			"Dominant (4)",
+			"Fearless",
+			"Terror",
+			"Throw Stones (range 12\", Strength 8)"
+		]
+	},
 	"Mordor Uruk-hai": {
 		"id": "mordor_urukhai",
 		"version": "2024",
@@ -23198,7 +23249,55 @@
 			"Take up the Drum [Moria Blackshield Drum]"
 		],
 		"composition": [
-			"Moria Blackshield Drummer"
+			"Moria Blackshield Drummer",
+			"Moria Blackshield Drum Bearer"
+		]
+	},
+	"Moria Blackshield Drum Bearer": {
+		"id": "drummbearer_blackshield",
+		"version": "2024",
+		"language": "en",
+		"name": "Moria Blackshield Drum Bearer",
+		"alignment": "Evil",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "18"
+			}
+		],
+		"race": [
+			"Goblin"
+		],
+		"faction": [
+			"Moria"
+		],
+		"unitTypes": [
+			"Warrior",
+			"Infantry"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "2",
+			"shootValue": "5+",
+			"strength": "3",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Heavy armour"
+			},
+			{
+				"name": "Hand weapon"
+			}
+		],
+		"specialRules": [
+			"Cave Dweller",
+			"Hatred (Dwarf)"
 		]
 	},
 	"Moria Blackshield Drummer": {
@@ -26645,7 +26744,7 @@
 		],
 		"options": [
 			{
-				"name": "When you take a Ringwraith in your Army, you must select one of the three following options which will determine the number of Attacks and Might, Will and Fate Points the Ringwraith has. These represent the Ringwraith at different times during the War of the Ring, and his differing levels of power.\n\t1 Attack, 0 Might, 7 Will, 0 Fate ................................60 points\n\t2 Attacks, 1 Might, 10 Will, 1 Fate ............................90 points\n\t2 Attacks, 2 Might, 14 Will, 2 Fate ...........................120 points\n\nA Ringwraith may also take the following options:",
+				"name": "When you take a Ringwraith in your Army, you must select one of the three following options which will determine the number of Attacks and Might, Will and Fate Points the Ringwraith has. These represent the Ringwraith at different times during the War of the Ring, and his differing levels of power.\n\t1 Attack, 0 Might, 7 Will, 0 Fate: 60 points\n\t2 Attacks, 1 Might, 10 Will, 1 Fate: .90 points\n\t2 Attacks, 2 Might, 14 Will, 2 Fate: 120 points\n\nA Ringwraith may also take the following options:",
 				"type": "OPTIONAL_RULES"
 			},
 			{
@@ -31417,7 +31516,7 @@
 		],
 		"options": [
 			{
-				"name": "When you take the Witch-king of Angmar in your Army, you must select one of the three following options which will determine the number of Attacks and Might, Will and Fate Points the Witch-king has. These represent the Witch-king at different times during the War of the Ring, and his differing levels of power.\n\t• 1 Attack, 1 Might, 10 Will, 1 Fate ................................80 points\n\t• 2 Attacks, 2 Might, 14 Will, 2 Fate ..........................120 points\n\t• 3 Attacks, 3 Might, 18 Will, 3 Fate ...........................150 points\n\nThe Witch-king may also take the following options:",
+				"name": "When you take the Witch-king of Angmar in your Army, you must select one of the three following options which will determine the number of Attacks and Might, Will and Fate Points the Witch-king has. These represent the Witch-king at different times during the War of the Ring, and his differing levels of power.\n\t• 1 Attack, 1 Might, 10 Will, 1 Fate: 80 points\n\t• 2 Attacks, 2 Might, 14 Will, 2 Fate: 120 points\n\t• 3 Attacks, 3 Might, 18 Will, 3 Fate: 150 points\n\nThe Witch-king may also take the following options:",
 				"type": "OPTIONAL_RULES"
 			},
 			{
@@ -33573,11 +33672,11 @@
 			"Foe Spear Wielder"
 		]
 	},
-	"Venom- back Spider": {
+	"Venom-back Spider": {
 		"id": "venom_spider",
 		"version": "2024",
 		"language": "en",
-		"name": "Venom- back Spider",
+		"name": "Venom-back Spider",
 		"linkedProfile": [
 			"Ashrâk",
 			"Mirkwood Hunting Spider"

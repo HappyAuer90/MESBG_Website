@@ -141,8 +141,11 @@ function renderWarbandCaptainGrid(wb, index, isPrint = false) {
 function renderWarbandFollowers(wb, index, isPrint = false) {
 
     const limit = Rules.getWarbandLimit(wb, state.builder);
-    const currentCount = wb.followers.reduce((s, w) => s + w.count, 0);
-    const limitReached = currentCount >= limit;
+    const totalFollowers = wb.followers.reduce((s, w) => s + w.count, 0);
+    const ignoredFollowers = countRuleModelsInWarband(wb, "NotCount");
+    const effectiveCount = totalFollowers - ignoredFollowers;
+
+    const limitReached = effectiveCount >= limit;
 
     return `
         <div class="warband-followers-grid ${isPrint ? "print-mode" : ""}">
@@ -396,9 +399,11 @@ export function attachWarbandControls() {
             const wb = state.builder.warbands[wbIndex];
 
             const limit = Rules.getWarbandLimit(wb, state.builder);
-            const current = wb.followers.reduce((s, w) => s + w.count, 0);
+            const totalFollowers = wb.followers.reduce((s, w) => s + w.count, 0);
+            const ignoredFollowers = countRuleModelsInWarband(wb, "NotCount");
+            const effectiveCount = totalFollowers - ignoredFollowers;
 
-            if (current >= limit) return;
+            if (effectiveCount >= limit) return;
 
             wb.followers[wIndex].count++;
             rerenderArmyList();
