@@ -186,8 +186,11 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Arathorn, Chieftain of the Dúnedain",
+					"name": "Arathorn, Stammesführer der Dúnedain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -1002,7 +1005,7 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Aldrac, Warlord of Carn Dûm",
+					"name": "Aldrac, Kriegsherr von Carn Dûm",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -1012,7 +1015,7 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Fráecht, Vassal of the Witch-king",
+					"name": "Fráecht, Vassal des Hexenkönigs",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -1023,7 +1026,7 @@
 					"points": "55"
 				},
 				{
-					"name": "Angmar Orc Captain",
+					"name": "Angmar-Orkhauptmann",
 					"points": "45"
 				}
 			],
@@ -1046,7 +1049,7 @@
 					]
 				},
 				{
-					"name": "Angmar Orc Warrior",
+					"name": "Angmar-Orkkrieger",
 					"points": "5",
 					"mandatoryWarrior": [
 						{
@@ -1080,7 +1083,7 @@
 					]
 				},
 				{
-					"name": "Angmar Warg Rider",
+					"name": "Angmar-Wargreiter",
 					"armyRules": {
 						"Cavalry": true
 					},
@@ -1120,7 +1123,7 @@
 					]
 				},
 				{
-					"name": "Hill Troll",
+					"name": "Bergtroll",
 					"armyRules": {
 						"Monster": true
 					},
@@ -1171,7 +1174,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Brand, King of Dale",
+					"name": "Brand, König von Thal",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -1181,7 +1184,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Bard II, Prince of Dale",
+					"name": "Bard II, Prinz von Thal",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -1230,7 +1233,7 @@
 					]
 				},
 				{
-					"name": "Ritter von Dale",
+					"name": "Ritter von Thal",
 					"points": "11"
 				}
 			],
@@ -1474,7 +1477,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Dáin Ironfoot, King under the Mountain",
+					"name": "Dáin Eisenfuß, König unter dem Berg",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -1483,7 +1486,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Thorin III Stonehelm",
+					"name": "Thorin III Steinhelm",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -1497,7 +1500,7 @@
 					"points": "110"
 				},
 				{
-					"name": "Dwarf King (Erebor)",
+					"name": "Zwergenkönig (Erebor)",
 					"points": "85"
 				}
 			],
@@ -1564,11 +1567,11 @@
 					"points": "10",
 					"mandatoryWarrior": [
 						{
-							"name": "Banner and shield",
-							"cost": "26",
+							"name": "Standarte und Schild",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "26"
 						},
 						{
 							"name": "Standarte",
@@ -1727,11 +1730,11 @@
 					"points": "9",
 					"mandatoryWarrior": [
 						{
-							"name": "Banner and shield",
-							"cost": "26",
+							"name": "Standarte und Schild",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "26"
 						},
 						{
 							"name": "Standarte",
@@ -2299,7 +2302,7 @@
 					]
 				},
 				{
-					"name": "Razgûsh, War Leader of the North",
+					"name": "Razgûsh, Heerführer des Nordens",
 					"armyRules": {
 						"Legacy": true,
 						"Maximum": 1
@@ -2444,7 +2447,7 @@
 					]
 				},
 				{
-					"name": "Muzgúr, Orc Shaman",
+					"name": "Muzgúr, Orkschamane",
 					"armyRules": {
 						"Legacy": true,
 						"Maximum": 1
@@ -2767,7 +2770,7 @@
 				"description": "Friendly Erebor models gain a bonus of +1 To Wound when making Strikes against an enemy model that is in possession of an Objective Marker.\nAdditionally, Friendly Erebor models that are within their deployment zone may re-roll To Wound Rolls of a natural 1 when making Strikes."
 			},
 			{
-				"description": "An Army of Thrór Army may have up to 50% of its Warrior models armed with throwing weapons rather than the usual 33%."
+				"description": "An Army of Thrór Army may have up to 50% of its Warrior models armed with Wurfwaffen rather than the usual 33%."
 			}
 		],
 		"armyRules": {
@@ -2813,13 +2816,13 @@
 					"points": "90"
 				},
 				{
-					"name": "Dwarf King (Erebor)",
+					"name": "Zwergenkönig (Erebor)",
 					"points": "85"
 				}
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Erebor Dwarf Captain",
+					"name": "Erebor Hauptmann der Zwerge",
 					"points": "75"
 				},
 				{
@@ -2829,7 +2832,7 @@
 			],
 			"Warriors": [
 				{
-					"name": "Erebor Dwarf Warrior",
+					"name": "Erebor Krieger der Zwerge",
 					"points": "9",
 					"mandatoryWarrior": [
 						{
@@ -2891,7 +2894,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Arvedui, Last King of Arnor",
+					"name": "Arvedui, Letzter König von Arnor",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -2901,8 +2904,11 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Aranarth, First Chieftain of the Dúnedain",
+					"name": "Aranarth, Erster Stammesführer der Dúnedain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "80"
@@ -2910,7 +2916,7 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Malbeth the Seer",
+					"name": "Malbeth der Seher",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -3028,7 +3034,7 @@
 				{
 					"group": "uniqueGoblin",
 					"models": [
-						"Drûzhag the Beastcaller",
+						"Drûzhag der Bestienrufer",
 						"Ashrâk"
 					],
 					"min": 1
@@ -3036,20 +3042,20 @@
 				{
 					"group": "Goblin models",
 					"models": [
-						"Drûzhag the Beastcaller",
+						"Drûzhag der Bestienrufer",
 						"Ashrâk",
 						"Moria-Goblinhauptmann",
 						"Moria-Goblinschamane",
 						"Moria-Goblinkrieger",
 						"Moria-Goblinplünderer",
-						"Warg Marauder"
+						"Warg-Beutereiter"
 					],
 					"maxPer": "Ork models"
 				},
 				{
 					"group": "Ork models",
 					"models": [
-						"Muzgúr, Orc Shaman",
+						"Muzgúr, Orkschamane",
 						"Mordor-Orkhauptmann",
 						"Mordor-Orkschamane",
 						"Mordor-Orkkrieger",
@@ -3063,7 +3069,7 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Muzgúr, Orc Shaman",
+					"name": "Muzgúr, Orkschamane",
 					"armyRules": {
 						"General": "Mandatory",
 						"Legacy": true,
@@ -3072,7 +3078,7 @@
 					"points": "70"
 				},
 				{
-					"name": "Drûzhag the Beastcaller",
+					"name": "Drûzhag der Bestienrufer",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -3116,7 +3122,7 @@
 					"points": "45"
 				},
 				{
-					"name": "Wild Warg Chieftain",
+					"name": "Grimwarg",
 					"points": "80"
 				}
 			],
@@ -3233,8 +3239,12 @@
 					"points": "7"
 				},
 				{
-					"name": "Warg Marauder",
+					"name": "Warg-Beutereiter",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
+						"Cavalry": true,
 						"Legacy": true
 					},
 					"points": "35"
@@ -3243,7 +3253,7 @@
 					"name": "Mirkwood Giant Spider",
 					"armyRules": {
 						"Captains": [
-							"Drûzhag the Beastcaller",
+							"Drûzhag der Bestienrufer",
 							"Ashrâk"
 						]
 					},
@@ -3253,7 +3263,7 @@
 					"name": "Düsterwald-Jagdspinne",
 					"armyRules": {
 						"Captains": [
-							"Drûzhag the Beastcaller",
+							"Drûzhag der Bestienrufer",
 							"Ashrâk"
 						]
 					},
@@ -3270,7 +3280,7 @@
 					"points": "22"
 				},
 				{
-					"name": "Bat Swarm",
+					"name": "Fledermausschwarm",
 					"points": "35"
 				}
 			]
@@ -4396,11 +4406,11 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Meriadoc Brandybock, Hauptmann von the Shire",
+					"name": "Meriadoc Brandybock, Hauptmann des Auenlandes",
 					"armyRules": {
 						"Cavalry": true,
 						"Followers": [
-							"Batllin’ Brandybucks",
+							"Streitbarer Brandybock",
 							"Hobbitbogenschütze",
 							"Hobbit-Landbüttel"
 						],
@@ -4420,7 +4430,7 @@
 					]
 				},
 				{
-					"name": "Peregrin Tuk, Hauptmann von the Shire",
+					"name": "Peregrin Tuk, Hauptmann des Auenlandes",
 					"armyRules": {
 						"Captain": "Mandatory",
 						"Cavalry": true,
@@ -4442,7 +4452,7 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Frodo of the Nine Fingers",
+					"name": "Frodo der Neunfingrige",
 					"armyRules": {
 						"Captain": "Mandatory",
 						"Cavalry": true,
@@ -4457,7 +4467,7 @@
 					]
 				},
 				{
-					"name": "Samwise the Brave",
+					"name": "Samweis der Beherzte",
 					"armyRules": {
 						"Captain": "Mandatory",
 						"Cavalry": true,
@@ -4491,14 +4501,14 @@
 					"points": "40"
 				},
 				{
-					"name": "Holfoot Bracegirdle, Shirriff-Leader",
+					"name": "Holfuß Straffgürtel, Anführer der Landbüttel",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "40"
 				},
 				{
-					"name": "Robin Smallburrow, Hobbit-Landbüttel",
+					"name": "Rudolf Kleinbau, Hobbit-Landbüttel",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -4545,7 +4555,7 @@
 					"points": "35"
 				},
 				{
-					"name": "Baldo Tulpenny",
+					"name": "Baldo Tulpfennig",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -4591,7 +4601,7 @@
 					"points": "4"
 				},
 				{
-					"name": "Batllin’ Brandybucks",
+					"name": "Streitbarer Brandybock",
 					"points": "5"
 				},
 				{
@@ -4632,8 +4642,8 @@
 					"armyRules": {
 						"Captains": [
 							"Willi Weißfuß, Bürgermeister von Michelbinge",
-							"Holfoot Bracegirdle, Shirriff-Leader",
-							"Robin Smallburrow, Hobbit-Landbüttel"
+							"Holfuß Straffgürtel, Anführer der Landbüttel",
+							"Rudolf Kleinbau, Hobbit-Landbüttel"
 						]
 					},
 					"points": "5"
@@ -4678,7 +4688,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Eärnur, Last King of Gondor",
+					"name": "Eärnur, Letzter König von Gondor",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1
@@ -4704,15 +4714,18 @@
 					"options": [
 						{
 							"name": "Asfaloth",
-							"cost": "25"
+							"cost": "20"
 						}
 					]
 				}
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Aranarth, First Chieftain of the Dúnedain",
+					"name": "Aranarth, Erster Stammesführer der Dúnedain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "80"
@@ -4749,7 +4762,7 @@
 							"limit": "ignore"
 						},
 						"Captains": [
-							"Aranarth, First Chieftain of the Dúnedain"
+							"Aranarth, Erster Stammesführer der Dúnedain"
 						]
 					},
 					"points": "25",
@@ -4770,7 +4783,7 @@
 					"name": "Krieger von Minas Tirith",
 					"armyRules": {
 						"Captains": [
-							"Eärnur, Last King of Gondor",
+							"Eärnur, Letzter König von Gondor",
 							"Hauptmann von Minas Tirith"
 						]
 					},
@@ -4810,7 +4823,7 @@
 					"name": "Ritter von Minas Tirith",
 					"armyRules": {
 						"Captains": [
-							"Eärnur, Last King of Gondor",
+							"Eärnur, Letzter König von Gondor",
 							"Hauptmann von Minas Tirith"
 						],
 						"Cavalry": true
@@ -4870,7 +4883,7 @@
 							"limit": "count"
 						},
 						"Captains": [
-							"Aranarth, First Chieftain of the Dúnedain",
+							"Aranarth, Erster Stammesführer der Dúnedain",
 							"Waldläufer des Nordens"
 						]
 					},
@@ -4898,12 +4911,12 @@
 			}
 		],
 		"additionalRules": [
-			"A Battle of Greenfields Army muss immer Bandobras Tookenthalten, welcher immer der General der Armee ist."
+			"A Battle of Greenfields Army muss immer Bandobras Tukenthalten, welcher immer der General der Armee ist."
 		],
 		"specialRules": [
 			{
 				"name": "The Bullroarer",
-				"description": "Bandobras Took may declare a Heroic Combat each turn for free."
+				"description": "Bandobras Tuk may declare a Heroic Combat each turn for free."
 			},
 			{
 				"name": "They’re dangerous folk, wandering the wilds",
@@ -4924,7 +4937,7 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Bandobras Took",
+					"name": "Bandobras Tuk",
 					"armyRules": {
 						"Cavalry": true,
 						"General": "Mandatory",
@@ -4979,7 +4992,7 @@
 					"name": "Hobbit-Landbüttel",
 					"armyRules": {
 						"Captains": [
-							"Bandobras Took"
+							"Bandobras Tuk"
 						]
 					},
 					"points": "5"
@@ -5171,7 +5184,7 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Buhrdûr, Hill Troll Chieftain",
+					"name": "Buhrdûr, Häuptling der Bergtrolle",
 					"armyRules": {
 						"General": "Mandatory",
 						"Maximum": 1,
@@ -5182,23 +5195,23 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Angmar Orc Captain",
+					"name": "Angmar-Orkhauptmann",
 					"points": "45"
 				},
 				{
-					"name": "Wild Warg Chieftain",
+					"name": "Grimwarg",
 					"points": "80"
 				}
 			],
 			"Minor Heroes": [
 				{
-					"name": "Angmar Orc Shaman",
+					"name": "Angmar-Orkschamane",
 					"points": "50"
 				}
 			],
 			"Warriors": [
 				{
-					"name": "Angmar Orc Warrior",
+					"name": "Angmar-Orkkrieger",
 					"points": "5",
 					"mandatoryWarrior": [
 						{
@@ -5232,7 +5245,7 @@
 					]
 				},
 				{
-					"name": "Angmar Warg Rider",
+					"name": "Angmar-Wargreiter",
 					"armyRules": {
 						"Cavalry": true
 					},
@@ -5272,11 +5285,11 @@
 					]
 				},
 				{
-					"name": "Wild Warg",
+					"name": "Wilder Warg",
 					"points": "7"
 				},
 				{
-					"name": "Hill Troll",
+					"name": "Bergtroll",
 					"points": "75"
 				}
 			]
@@ -6072,21 +6085,21 @@
 					"points": "110",
 					"options": [
 						{
-							"name": "Feuerfuss mit Rüstung",
+							"name": "Feuerfuß mit Rüstung",
 							"armyRules": {
 								"Cavalry": true,
 								"ExcludeOptions": [
-									"Feuerfuss"
+									"Feuerfuß"
 								]
 							},
 							"cost": "25"
 						},
 						{
-							"name": "Feuerfuss",
+							"name": "Feuerfuß",
 							"armyRules": {
 								"Cavalry": true,
 								"ExcludeOptions": [
-									"Feuerfuss mit Rüstung"
+									"Feuerfuß mit Rüstung"
 								]
 							},
 							"cost": "20"
@@ -6925,8 +6938,8 @@
 				{
 					"group": "uniqueErebor",
 					"models": [
-						"Dáin Ironfoot, King under the Mountain",
-						"Thorin III Stonehelm",
+						"Dáin Eisenfuß, König unter dem Berg",
+						"Thorin III Steinhelm",
 						"Dwalin the Dwarf, Champion of Erebor",
 						"Bifur the Dwarf, Champion of Erebor",
 						"Bofur the Dwarf, Champion of Erebor",
@@ -6939,8 +6952,8 @@
 				{
 					"group": "uniqueDale",
 					"models": [
-						"Brand, King of Dale",
-						"Bard II, Prince of Dale"
+						"Brand, König von Thal",
+						"Bard II, Prinz von Thal"
 					],
 					"min": 1
 				}
@@ -6949,14 +6962,14 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Dáin Ironfoot, King under the Mountain",
+					"name": "Dáin Eisenfuß, König unter dem Berg",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "130"
 				},
 				{
-					"name": "Brand, King of Dale",
+					"name": "Brand, König von Thal",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -6965,7 +6978,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Thorin III Stonehelm",
+					"name": "Thorin III Steinhelm",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -6979,7 +6992,7 @@
 					"points": "110"
 				},
 				{
-					"name": "Bard II, Prince of Dale",
+					"name": "Bard II, Prinz von Thal",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -7042,8 +7055,8 @@
 					"name": "Iron Hills Warrior",
 					"armyRules": {
 						"Captains": [
-							"Dáin Ironfoot, King under the Mountain",
-							"Thorin III Stonehelm",
+							"Dáin Eisenfuß, König unter dem Berg",
+							"Thorin III Steinhelm",
 							"Dwalin the Dwarf, Champion of Erebor",
 							"Bifur the Dwarf, Champion of Erebor",
 							"Bofur the Dwarf, Champion of Erebor",
@@ -7056,11 +7069,11 @@
 					"points": "10",
 					"mandatoryWarrior": [
 						{
-							"name": "Banner and shield",
-							"cost": "26",
+							"name": "Standarte und Schild",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "26"
 						},
 						{
 							"name": "Standarte",
@@ -7092,8 +7105,8 @@
 					"name": "Iron Hills Goat Rider",
 					"armyRules": {
 						"Captains": [
-							"Dáin Ironfoot, King under the Mountain",
-							"Thorin III Stonehelm",
+							"Dáin Eisenfuß, König unter dem Berg",
+							"Thorin III Steinhelm",
 							"Dwalin the Dwarf, Champion of Erebor",
 							"Bifur the Dwarf, Champion of Erebor",
 							"Bofur the Dwarf, Champion of Erebor",
@@ -7116,8 +7129,8 @@
 					"name": "Krieger von Dale",
 					"armyRules": {
 						"Captains": [
-							"Brand, King of Dale",
-							"Bard II, Prince of Dale",
+							"Brand, König von Thal",
+							"Bard II, Prinz von Thal",
 							"Hauptmann von Dale"
 						]
 					},
@@ -7154,11 +7167,11 @@
 					]
 				},
 				{
-					"name": "Ritter von Dale",
+					"name": "Ritter von Thal",
 					"armyRules": {
 						"Captains": [
-							"Brand, King of Dale",
-							"Bard II, Prince of Dale",
+							"Brand, König von Thal",
+							"Bard II, Prinz von Thal",
 							"Hauptmann von Dale"
 						]
 					},
@@ -8220,7 +8233,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Dragon",
+					"name": "Drache",
 					"armyRules": {
 						"General": "Mandatory",
 						"Monster": true
@@ -8228,23 +8241,23 @@
 					"points": "200",
 					"options": [
 						{
-							"name": "Breathe Fire",
+							"name": "Drachenzunge",
 							"cost": "50"
 						},
 						{
-							"name": "Fly",
+							"name": "Feuer speien [Wargear]",
 							"cost": "50"
 						},
 						{
-							"name": "Superior Intellect",
+							"name": "Fliegen [Wargear]",
 							"cost": "50"
 						},
 						{
-							"name": "Tough Hide",
+							"name": "Schuppenhaut",
 							"cost": "50"
 						},
 						{
-							"name": "Wyrm Magic",
+							"name": "Überlegener Intellekt",
 							"cost": "50"
 						}
 					]
@@ -8252,7 +8265,7 @@
 			],
 			"Minor Heroes": [
 				{
-					"name": "Cave Drake",
+					"name": "Höhlendrache",
 					"armyRules": {
 						"Monster": true
 					},
@@ -8303,7 +8316,7 @@
 					"points": "140",
 					"mandatory": [
 						"Schild",
-						"Feuerfuss mit Rüstung"
+						"Feuerfuß mit Rüstung"
 					],
 					"options": [
 						{
@@ -8443,7 +8456,7 @@
 			"An Erebor & Dale Army muss Girion and at least one Unique Erebor Hero.",
 			"Erebor Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdenan Erebor Hero.",
 			"Dale Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Dale Hero.",
-			"Ignore the usual rules for Bow Limit and Throwing Weapon Limit in this Army List. Instead, a maximum of 50% of your Dale Warrior models can have a bow, and a maximum of 50% of your Erebor Warrior models can have throwing weapons."
+			"Ignore the usual rules for Bow Limit and Throwing Weapon Limit in this Army List. Instead, a maximum of 50% of your Dale Warrior models can have a bow, and a maximum of 50% of your Erebor Warrior models can have Wurfwaffen."
 		],
 		"specialRules": [
 			{
@@ -8526,7 +8539,7 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Erebor Dwarf Captain",
+					"name": "Erebor Hauptmann der Zwerge",
 					"points": "75"
 				},
 				{
@@ -8540,7 +8553,7 @@
 			],
 			"Warriors": [
 				{
-					"name": "Erebor Dwarf Warrior",
+					"name": "Erebor Krieger der Zwerge",
 					"armyRules": {
 						"Captains": [
 							"Thrór, King under the Mountain",
@@ -8548,7 +8561,7 @@
 							"Young Thorin Oakenshield",
 							"Young Balin the Dwarf",
 							"Young Dwalin the Dwarf",
-							"Erebor Dwarf Captain",
+							"Erebor Hauptmann der Zwerge",
 							"Grim Hammer Captain"
 						]
 					},
@@ -8577,7 +8590,7 @@
 							"Young Thorin Oakenshield",
 							"Young Balin the Dwarf",
 							"Young Dwalin the Dwarf",
-							"Erebor Dwarf Captain",
+							"Erebor Hauptmann der Zwerge",
 							"Grim Hammer Captain"
 						],
 						"Throwing": {
@@ -8636,7 +8649,7 @@
 					]
 				},
 				{
-					"name": "Ritter von Dale",
+					"name": "Ritter von Thal",
 					"armyRules": {
 						"Captains": [
 							"Girion, Lord of Dale",
@@ -8808,7 +8821,10 @@
 					"points": "10",
 					"mandatoryWarrior": [
 						{
-							"name": "Banner and shield",
+							"name": "Standarte und Schild",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "26"
 						},
 						{
@@ -8854,7 +8870,7 @@
 		],
 		"additionalRules": [
 			"The General of an Expedition to the East Army must always be a Unique Hero.",
-			"Dwarf Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Dwarf Hero.",
+			"Krieger der Zwerge -Modelle können nur in der Kriegerschar von aufgenommen werdena Dwarf Hero.",
 			"Gondor Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Gondor Hero."
 		],
 		"specialRules": [
@@ -8913,7 +8929,7 @@
 			],
 			"Warriors": [
 				{
-					"name": "Dwarf Warrior",
+					"name": "Krieger der Zwerge",
 					"armyRules": {
 						"Captains": [
 							"Múrin",
@@ -8934,7 +8950,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Dwarf bow",
+							"name": "Zwergenbogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -8953,7 +8969,7 @@
 					]
 				},
 				{
-					"name": "Dwarf Ranger",
+					"name": "Waldläufer der Zwerge",
 					"armyRules": {
 						"Captains": [
 							"Múrin",
@@ -8963,7 +8979,7 @@
 					"points": "8",
 					"mandatoryWarrior": [
 						{
-							"name": "Dwarf longbow",
+							"name": "Zwergenlangbogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -8972,7 +8988,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Throwing weapons",
+							"name": "Wurfwaffen",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -9331,7 +9347,7 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Razgûsh, War Leader of the North",
+					"name": "Razgûsh, Heerführer des Nordens",
 					"armyRules": {
 						"General": "Mandatory",
 						"Legacy": true,
@@ -9340,7 +9356,7 @@
 					"points": "120"
 				},
 				{
-					"name": "The Spider Queen",
+					"name": "Die Spinnenkönigin",
 					"armyRules": {
 						"Legacy": true,
 						"Maximum": 1,
@@ -9465,7 +9481,7 @@
 					"points": "20"
 				},
 				{
-					"name": "Bat Swarm",
+					"name": "Fledermausschwarm",
 					"points": "35"
 				},
 				{
@@ -9488,7 +9504,7 @@
 			}
 		],
 		"additionalRules": [
-			"A Fields of Celebrant Army muss immer Eorl the Youngenthalten, welcher immer der General der Armee ist.",
+			"A Fields of Celebrant Army muss immer Eorl der Junge enthalten, welcher immer der General der Armee ist.",
 			"A Fields of Celebrant Army muss immer a King of Men, which must choose the Gondor keyword as part of its Kingdoms of Men special rule. No other Kings of Men can be taken.",
 			"Rohan Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Rohan Hero.",
 			"Gondor Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Gondor Hero."
@@ -9513,12 +9529,15 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Eorl the Young",
+					"name": "Eorl der Junge",
 					"armyRules": {
 						"Cavalry": true,
 						"General": "Mandatory",
 						"Legacy": true,
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "120"
 				}
@@ -9587,7 +9606,7 @@
 					"name": "Reiter von Rohan",
 					"armyRules": {
 						"Captains": [
-							"Eorl the Young",
+							"Eorl der Junge",
 							"Hauptmann von Rohan"
 						],
 						"Cavalry": true
@@ -9613,10 +9632,10 @@
 					]
 				},
 				{
-					"name": "Son of Eorl",
+					"name": "Sohn Eorls",
 					"armyRules": {
 						"Captains": [
-							"Eorl the Young"
+							"Eorl der Junge"
 						],
 						"Cavalry": true,
 						"Legacy": true
@@ -10335,7 +10354,7 @@
 					]
 				},
 				{
-					"name": "Ritter von Dale",
+					"name": "Ritter von Thal",
 					"points": "11"
 				}
 			],
@@ -10959,14 +10978,17 @@
 					]
 				},
 				{
-					"name": "Khandish King",
+					"name": "König von Khand",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "100",
 					"options": [
 						{
-							"name": "Khandish Chariot (If the Khandish King dismounts, remove the Khandish Chariot from play)",
+							"name": "Streitwagen von Khand (Wenn der König von Khand absitzt, entferne den Streitwagen von Khand aus dem Spiel)",
 							"cost": "35"
 						}
 					]
@@ -11163,8 +11185,11 @@
 					]
 				},
 				{
-					"name": "Khandish Chieftain",
+					"name": "Häuptling von Khand",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "55",
@@ -11185,7 +11210,7 @@
 					"armyRules": {
 						"Followers": [
 							"Krieger der Schwarzen Drachen",
-							"Dragon Cult Acolyte"
+							"Akolyth des Drachenkults"
 						]
 					},
 					"points": "70",
@@ -11411,7 +11436,7 @@
 					]
 				},
 				{
-					"name": "Dragon Cult Acolyte",
+					"name": "Akolyth des Drachenkults",
 					"armyRules": {
 						"Captains": [
 							"Amdûr, Herr der Klingen",
@@ -11420,12 +11445,15 @@
 							"Hauptmann der Kataphrakte der Ostlinge",
 							"Kriegspriester der Ostlinge",
 							"Drachenritter der Ostlinge"
-						]
+						],
+						"Throwing": {
+							"limit": "count"
+						}
 					},
 					"points": "11"
 				},
 				{
-					"name": "War Drake of Rhûn",
+					"name": "Kriegsdrache von Rhûn",
 					"armyRules": {
 						"Captains": [
 							"Amdûr, Herr der Klingen",
@@ -11641,18 +11669,18 @@
 					]
 				},
 				{
-					"name": "Khandish Warrior",
+					"name": "Krieger von Khand",
 					"armyRules": {
 						"Captains": [
-							"Khandish King",
-							"Khandish Chieftain"
+							"König von Khand",
+							"Häuptling von Khand"
 						],
 						"Legacy": true
 					},
 					"points": "8",
 					"optionalWarrior": [
 						{
-							"name": "Exchange hand-and-a-half weapon for bow",
+							"name": "Tausche Anderthalbhänderwaffe gegen Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -11663,11 +11691,14 @@
 					]
 				},
 				{
-					"name": "Khandish Horseman",
+					"name": "Reiter von Khand",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
-							"Khandish King",
-							"Khandish Chieftain"
+							"König von Khand",
+							"Häuptling von Khand"
 						],
 						"Cavalry": true,
 						"Legacy": true
@@ -11675,18 +11706,18 @@
 					"points": "14"
 				},
 				{
-					"name": "Khandish Charioteer",
+					"name": "Streitwagenlenker von Khand",
 					"armyRules": {
 						"Captains": [
-							"Khandish King",
-							"Khandish Chieftain"
+							"König von Khand",
+							"Häuptling von Khand"
 						],
 						"Legacy": true
 					},
 					"points": "40",
 					"optionalWarrior": [
 						{
-							"name": "Exchange hand-and-a-half weapon for bow",
+							"name": "Tausche Anderthalbhänderwaffe gegen Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -12217,8 +12248,9 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "The Dragon Emperor of Rhûn",
+					"name": "Der Drachenkaiser von Rhûn",
 					"armyRules": {
+						"Banner": true,
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -12227,7 +12259,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Rutabi, General of the Dragon Legion",
+					"name": "Rutabi, General der Drachenlegion",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -12236,7 +12268,7 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Brórgîr the Conjurer",
+					"name": "Brórgîr der Beschwörer",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -12273,7 +12305,7 @@
 					"armyRules": {
 						"Followers": [
 							"Krieger der Schwarzen Drachen",
-							"Dragon Cult Acolyte"
+							"Akolyth des Drachenkults"
 						]
 					},
 					"points": "70",
@@ -12343,7 +12375,7 @@
 					"name": "Krieger der Schwarzen Drachen",
 					"armyRules": {
 						"Captains": [
-							"The Dragon Emperor of Rhûn",
+							"Der Drachenkaiser von Rhûn",
 							"Drachenritter der Ostlinge"
 						]
 					},
@@ -12363,17 +12395,20 @@
 					]
 				},
 				{
-					"name": "Dragon Cult Acolyte",
+					"name": "Akolyth des Drachenkults",
 					"armyRules": {
 						"Captains": [
-							"The Dragon Emperor of Rhûn",
+							"Der Drachenkaiser von Rhûn",
 							"Drachenritter der Ostlinge"
-						]
+						],
+						"Throwing": {
+							"limit": "count"
+						}
 					},
 					"points": "11"
 				},
 				{
-					"name": "War Drake of Rhûn",
+					"name": "Kriegsdrache von Rhûn",
 					"points": "20"
 				}
 			]
@@ -12414,8 +12449,8 @@
 				{
 					"group": "Carn Dûm models",
 					"models": [
-						"Aldrac, Warlord of Carn Dûm",
-						"Fráecht, Vassal of the Witch-king",
+						"Aldrac, Kriegsherr von Carn Dûm",
+						"Fráecht, Vassal des Hexenkönigs",
 						"Hauptmann von Carn Dûm",
 						"Krieger von Carn Dûm"
 					],
@@ -12449,14 +12484,14 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "The Shadow of Rhudaur",
+					"name": "Der Schatten von Rhudaur",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "80"
 				},
 				{
-					"name": "Aldrac, Warlord of Carn Dûm",
+					"name": "Aldrac, Kriegsherr von Carn Dûm",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -12506,11 +12541,11 @@
 					"points": "50"
 				},
 				{
-					"name": "Angmar Orc Captain",
+					"name": "Angmar-Orkhauptmann",
 					"points": "45"
 				},
 				{
-					"name": "Fráecht, Vassal of the Witch-king",
+					"name": "Fráecht, Vassal des Hexenkönigs",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -12521,23 +12556,23 @@
 					"points": "55"
 				},
 				{
-					"name": "Shade",
+					"name": "Schatten",
 					"points": "75"
 				}
 			],
 			"Minor Heroes": [
 				{
-					"name": "Angmar Orc Shaman",
+					"name": "Angmar-Orkschamane",
 					"points": "50"
 				},
 				{
-					"name": "Barrow-wight",
+					"name": "Grabunhold",
 					"points": "50"
 				}
 			],
 			"Warriors": [
 				{
-					"name": "Angmar Orc Warrior",
+					"name": "Angmar-Orkkrieger",
 					"points": "5",
 					"mandatoryWarrior": [
 						{
@@ -12571,7 +12606,7 @@
 					]
 				},
 				{
-					"name": "Angmar Warg Rider",
+					"name": "Angmar-Wargreiter",
 					"armyRules": {
 						"Cavalry": true
 					},
@@ -12632,7 +12667,7 @@
 					]
 				},
 				{
-					"name": "Werewolf",
+					"name": "Werwolf",
 					"points": "25"
 				}
 			]
@@ -12651,7 +12686,7 @@
 			}
 		],
 		"additionalRules": [
-			"If a Dwarf King is your General, they gain the Leader (Khazad Guard) special rule."
+			"If a Zwergenkönig is your General, they gain the Leader (Khazad Guard) special rule."
 		],
 		"specialRules": [
 			{
@@ -12660,7 +12695,7 @@
 			},
 			{
 				"name": "Steadfast Warriors",
-				"description": "Friendly Dwarf Captains, Dwarf Warriors and Dwarf Rangers gain the Dominant (2) special rule."
+				"description": "Friendly Hauptmann der Zwerges, Krieger der Zwerges and Waldläufer der Zwerges gain the Dominant (2) special rule."
 			},
 			{
 				"name": "The Stubbornness of Dwarves",
@@ -12674,7 +12709,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Durin, King of Khazad-dûm",
+					"name": "Durin, König von Khazad-dûm",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -12683,42 +12718,50 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Mardin, the King’s Ward",
+					"name": "Mardin, Beschützer des Königs",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "80"
 				},
 				{
-					"name": "Dwarf King (Khazad-dûm)",
+					"name": "Zwergenkönig (Khazad-dûm)",
+					"armyRules": {
+						"Throwing": {
+							"limit": "ignore"
+						}
+					},
 					"points": "85"
 				}
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Dwarf Captain",
+					"name": "Hauptmann der Zwerge",
 					"points": "65"
 				},
 				{
-					"name": "King’s Champion",
+					"name": "Champion des Königs",
 					"armyRules": {
 						"Legacy": true
 					},
 					"points": "140",
 					"composition": [
 						{
-							"name": "King’s Champion (Held)",
+							"name": "Champion des Königs (Held)",
 							"compositionModel": "Captain",
 							"points": "140"
 						},
 						{
-							"name": "Herald",
+							"name": "Herold",
+							"armyRules": {
+								"Banner": true
+							},
 							"amount": 2
 						}
 					]
 				},
 				{
-					"name": "Dwarf Shieldbearer",
+					"name": "Schildträger",
 					"armyRules": {
 						"Legacy": true
 					},
@@ -12727,7 +12770,7 @@
 			],
 			"Warriors": [
 				{
-					"name": "Dwarf Warrior",
+					"name": "Krieger der Zwerge",
 					"points": "8",
 					"mandatoryWarrior": [
 						{
@@ -12742,7 +12785,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Dwarf bow",
+							"name": "Zwergenbogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -12761,11 +12804,11 @@
 					]
 				},
 				{
-					"name": "Dwarf Ranger",
+					"name": "Waldläufer der Zwerge",
 					"points": "8",
 					"mandatoryWarrior": [
 						{
-							"name": "Dwarf longbow",
+							"name": "Zwergenlangbogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -12774,7 +12817,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Throwing weapons",
+							"name": "Wurfwaffen",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -12789,48 +12832,53 @@
 					]
 				},
 				{
-					"name": "Khazâd Guard",
+					"name": "Khazâdwache",
 					"armyRules": {
 						"Captains": [
-							"Durin, King of Khazad-dûm"
+							"Durin, König von Khazad-dûm"
 						]
 					},
 					"points": "12"
 				},
 				{
-					"name": "Hearthguard",
+					"name": "Thronwache",
 					"armyRules": {
 						"Captains": [
-							"Durin, King of Khazad-dûm"
+							"Durin, König von Khazad-dûm"
 						]
 					},
 					"points": "14"
 				},
 				{
-					"name": "Iron Guard",
+					"name": "Eisenwache",
+					"armyRules": {
+						"Throwing": {
+							"limit": "count"
+						}
+					},
 					"points": "15"
 				},
 				{
-					"name": "Vault Warden Team",
+					"name": "Tunnelkämpfertrupp",
 					"points": "25",
 					"composition": [
 						{
-							"name": "Iron Shield Bearer",
+							"name": "Eisenschildträger",
 							"points": "25"
 						},
 						{
-							"name": "Foe Spear Wielder"
+							"name": "Feindspeerträger"
 						}
 					]
 				}
 			],
 			"Siege Engines": [
 				{
-					"name": "Dwarven Ballista",
+					"name": "Zwergenballista",
 					"points": "70",
 					"composition": [
 						{
-							"name": "Dwarf Belagerungsexperte",
+							"name": "Zwergen-Belagerungsexperte",
 							"compositionModel": "Captain",
 							"armyRules": {
 								"Followers": []
@@ -12838,13 +12886,13 @@
 							"points": "70"
 						},
 						{
-							"name": "Dwarven Ballista (Belagerungsmaschine)",
+							"name": "Zwergenballista (Belagerungsmaschine)",
 							"armyRules": {
 								"NotCount": "Army"
 							}
 						},
 						{
-							"name": "Dwarf Belagerungsbesatzung"
+							"name": "Zwergen-Belagerungsbesatzung"
 						}
 					]
 				}
@@ -13214,7 +13262,7 @@
 					]
 				},
 				{
-					"name": "Ritter von Dale",
+					"name": "Ritter von Thal",
 					"armyRules": {
 						"Captains": [
 							"König der Menschen (Dale)",
@@ -14204,7 +14252,7 @@
 					"points": "125",
 					"options": [
 						{
-							"name": "Mirror of Galadriel",
+							"name": "Galadriels Spiegel",
 							"cost": "25"
 						}
 					]
@@ -14626,8 +14674,8 @@
 					"models": [
 						"Gepanzertes Pferd",
 						"Schattenfell",
-						"Feuerfuss mit Rüstung",
-						"Feuerfuss",
+						"Feuerfuß mit Rüstung",
+						"Feuerfuß",
 						"Pferd"
 					],
 					"excludes": "Eagle models"
@@ -14714,14 +14762,14 @@
 					"points": "110",
 					"options": [
 						{
-							"name": "Feuerfuss mit Rüstung",
+							"name": "Feuerfuß mit Rüstung",
 							"armyRules": {
 								"Cavalry": true
 							},
 							"cost": "25"
 						},
 						{
-							"name": "Feuerfuss",
+							"name": "Feuerfuß",
 							"armyRules": {
 								"Cavalry": true
 							},
@@ -16611,37 +16659,37 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Durbûrz, Goblin-King of Moria",
+					"name": "Durbûrz, der Goblinkönig von Moria",
 					"armyRules": {
 						"Maximum": 1
 					},
 					"points": "75"
 				},
 				{
-					"name": "Dragon",
+					"name": "Drache",
 					"armyRules": {
 						"Monster": true
 					},
 					"points": "200",
 					"options": [
 						{
-							"name": "Breathe Fire",
+							"name": "Drachenzunge",
 							"cost": "50"
 						},
 						{
-							"name": "Fly",
+							"name": "Feuer speien [Wargear]",
 							"cost": "50"
 						},
 						{
-							"name": "Superior Intellect",
+							"name": "Fliegen [Wargear]",
 							"cost": "50"
 						},
 						{
-							"name": "Tough Hide",
+							"name": "Schuppenhaut",
 							"cost": "50"
 						},
 						{
-							"name": "Wyrm Magic",
+							"name": "Überlegener Intellekt",
 							"cost": "50"
 						}
 					]
@@ -16649,7 +16697,7 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Drûzhag the Beastcaller",
+					"name": "Drûzhag der Bestienrufer",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -16700,7 +16748,7 @@
 					"points": "45"
 				},
 				{
-					"name": "Cave Drake",
+					"name": "Höhlendrache",
 					"armyRules": {
 						"Monster": true
 					},
@@ -16754,18 +16802,18 @@
 					"points": "7"
 				},
 				{
-					"name": "Moria Goblin Drum",
+					"name": "Trommel der Moria-Goblins",
 					"points": "75",
 					"composition": [
 						{
-							"name": "Moria Goblin Drum",
+							"name": "Trommel der Moria-Goblins",
 							"points": "75",
 							"armyRules": {
 								"NotCount": "Army"
 							}
 						},
 						{
-							"name": "Moria Goblin Drummer",
+							"name": "Trommler der Moria-Goblins",
 							"amount": 2
 						}
 					]
@@ -16791,10 +16839,10 @@
 					]
 				},
 				{
-					"name": "Bat Swarm",
+					"name": "Fledermausschwarm",
 					"armyRules": {
 						"Captains": [
-							"Drûzhag the Beastcaller"
+							"Drûzhag der Bestienrufer"
 						]
 					},
 					"points": "35"
@@ -16803,7 +16851,7 @@
 					"name": "Düsterwald-Jagdspinne",
 					"armyRules": {
 						"Captains": [
-							"Drûzhag the Beastcaller"
+							"Drûzhag der Bestienrufer"
 						]
 					},
 					"points": "20"
@@ -16812,7 +16860,7 @@
 					"name": "Fell Warg (Beast)",
 					"armyRules": {
 						"Captains": [
-							"Drûzhag the Beastcaller"
+							"Drûzhag der Bestienrufer"
 						]
 					},
 					"points": "8"
@@ -16853,14 +16901,18 @@
 					]
 				},
 				{
-					"name": "Warg Marauder",
+					"name": "Warg-Beutereiter",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
+						"Cavalry": true,
 						"Legacy": true
 					},
 					"points": "35"
 				},
 				{
-					"name": "Dweller in the Dark",
+					"name": "Schatten aus der Tiefe",
 					"armyRules": {
 						"Legacy": true,
 						"Monster": true
@@ -17165,7 +17217,7 @@
 		],
 		"additionalRules": [
 			"A Paths of the Drúadan Army muss immer Theodenenthalten, welcher immer der General der Armee ist.",
-			"A Paths of the Druadan Army muss immer Ghan-buri-Ghan and a Warband of at least 12 Woses Warriors.",
+			"A Paths of the Druadan Army muss immer Ghan-buri-Ghan and a Warband of at least 12 Wasa-Krieger.",
 			"Reiter von Rohan zählen nicht gegen die Bogenbegrenzung deiner Armee."
 		],
 		"specialRules": [
@@ -17185,9 +17237,9 @@
 		"armyRules": {
 			"ArmyDistributions": [
 				{
-					"group": "Woses Warriors",
+					"group": "Wasa-Krieger",
 					"models": [
-						"Woses Warrior"
+						"Wasa-Krieger"
 					],
 					"min": 12
 				}
@@ -17219,7 +17271,7 @@
 					},
 					"points": "135",
 					"mandatory": [
-						"Feuerfuss mit Rüstung"
+						"Feuerfuß mit Rüstung"
 					],
 					"options": [
 						{
@@ -17405,7 +17457,7 @@
 					]
 				},
 				{
-					"name": "Woses Warrior",
+					"name": "Wasa-Krieger",
 					"points": "9"
 				},
 				{
@@ -17528,7 +17580,10 @@
 					"points": "9",
 					"mandatoryWarrior": [
 						{
-							"name": "Banner and shield",
+							"name": "Standarte und Schild",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "26"
 						},
 						{
@@ -18072,7 +18127,7 @@
 					]
 				},
 				{
-					"name": "Hill Troll",
+					"name": "Bergtroll",
 					"armyRules": {
 						"Monster": true
 					},
@@ -18117,7 +18172,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Balin the Dwarf, King of Moria",
+					"name": "Balin der Zwerg, König von Moria",
 					"armyRules": {
 						"General": "Mandatory",
 						"Legacy": true,
@@ -18128,13 +18183,18 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Dwarf King (Khazad-dûm)",
+					"name": "Zwergenkönig (Khazad-dûm)",
+					"armyRules": {
+						"Throwing": {
+							"limit": "ignore"
+						}
+					},
 					"points": "85"
 				}
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Flói Stonehand",
+					"name": "Flói Steinhand",
 					"armyRules": {
 						"Legacy": true,
 						"Maximum": 1
@@ -18156,23 +18216,26 @@
 					"points": "60"
 				},
 				{
-					"name": "Dwarf Captain",
+					"name": "Hauptmann der Zwerge",
 					"points": "65"
 				},
 				{
-					"name": "King’s Champion",
+					"name": "Champion des Königs",
 					"armyRules": {
 						"Legacy": true
 					},
 					"points": "140",
 					"composition": [
 						{
-							"name": "King’s Champion (Held)",
+							"name": "Champion des Königs (Held)",
 							"compositionModel": "Captain",
 							"points": "140"
 						},
 						{
-							"name": "Herald",
+							"name": "Herold",
+							"armyRules": {
+								"Banner": true
+							},
 							"amount": 2
 						}
 					]
@@ -18180,7 +18243,7 @@
 			],
 			"Minor Heroes": [
 				{
-					"name": "Dwarf Shieldbearer",
+					"name": "Schildträger",
 					"armyRules": {
 						"Legacy": true
 					},
@@ -18189,7 +18252,7 @@
 			],
 			"Warriors": [
 				{
-					"name": "Dwarf Warrior",
+					"name": "Krieger der Zwerge",
 					"points": "8",
 					"mandatoryWarrior": [
 						{
@@ -18204,7 +18267,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Dwarf bow",
+							"name": "Zwergenbogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -18223,11 +18286,11 @@
 					]
 				},
 				{
-					"name": "Dwarf Ranger",
+					"name": "Waldläufer der Zwerge",
 					"points": "8",
 					"mandatoryWarrior": [
 						{
-							"name": "Dwarf longbow",
+							"name": "Zwergenlangbogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -18236,7 +18299,7 @@
 							"cost": "1"
 						},
 						{
-							"name": "Throwing weapons",
+							"name": "Wurfwaffen",
 							"armyRules": {
 								"Throwing": {
 									"limit": "count"
@@ -18251,16 +18314,21 @@
 					]
 				},
 				{
-					"name": "Khazâd Guard",
+					"name": "Khazâdwache",
 					"armyRules": {
 						"Captains": [
-							"Balin the Dwarf, King of Moria"
+							"Balin der Zwerg, König von Moria"
 						]
 					},
 					"points": "12"
 				},
 				{
-					"name": "Iron Guard",
+					"name": "Eisenwache",
+					"armyRules": {
+						"Throwing": {
+							"limit": "count"
+						}
+					},
 					"points": "15"
 				}
 			]
@@ -18501,7 +18569,7 @@
 					"points": "160",
 					"options": [
 						{
-							"name": "Banner of Minas Tirith",
+							"name": "Banner von Minas Tirith",
 							"armyRules": {
 								"Banner": true
 							},
@@ -18789,6 +18857,141 @@
 			]
 		}
 	},
+	"Scharka’s Rogues": {
+		"id": "sharkeys_rogues",
+		"version": "2024",
+		"language": "en",
+		"name": "Scharka’s Rogues",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "162-163"
+			}
+		],
+		"additionalRules": [
+			"A Scharka’s Rogues Army muss immer Scharkaenthalten, welcher immer der General der Armee ist.",
+			"Hobbit Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Hobbit Hero.",
+			"This Army may include Warbands of 10-12 Ruffians without a Hero to lead them. In these Warbands, nominate a single Warrior model to count as the Warband’s Captain for the purpose of deployment. These Warbands may only be included after all other available Hero models have been included in the Army."
+		],
+		"specialRules": [
+			{
+				"name": "\"You do what Scharka says!\"",
+				"description": "Scharka’s Stand Fast will cover the entire battlefield, regardless of range."
+			},
+			{
+				"name": "Strength in Numbers",
+				"description": "Whilst this Army is not Broken, friendly Ruffian models gain a +1 bonus to any Courage Tests they are required to take."
+			},
+			{
+				"name": "The Wizard’s Command",
+				"description": "Friendly Ruffian models within 6\" of Scharka may use his Courage instead of their own when taking Courage Tests."
+			},
+			{
+				"name": "Scharka’s Wrath",
+				"description": "Scharka gains the Hatred (Hobbit) special rule."
+			},
+			{
+				"name": "The Chief’s Whips",
+				"description": "Friendly Ruffian gain a bonus of +1 To Hit when making a shooting attack with a whip."
+			}
+		],
+		"models": {
+			"Heroes of Legend": [
+				{
+					"name": "Scharka & Wurm",
+					"armyRules": {
+						"General": "Mandatory",
+						"Maximum": 1
+					},
+					"points": "60 Points for Both",
+					"composition": [
+						{
+							"name": "Scharka",
+							"compositionModel": "Captain",
+							"points": "60"
+						},
+						{
+							"name": "Wurm"
+						}
+					]
+				}
+			],
+			"Heroes of Valour": [
+				{
+					"name": "Sid Schwarzdorn",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "50"
+				}
+			],
+			"Heroes of Fortitude": [
+				{
+					"name": "Rowan Distelholz",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "45"
+				},
+				{
+					"name": "Lutz Farning",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "40"
+				},
+				{
+					"name": "Lotho Sackheim-Beutlin",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "30"
+				},
+				{
+					"name": "Timm Sandigmann",
+					"armyRules": {
+						"Followers": [
+							"Hobbitmilizionär"
+						],
+						"Maximum": 1
+					},
+					"points": "30"
+				}
+			],
+			"Warriors": [
+				{
+					"name": "Strolch",
+					"points": "5",
+					"optionalWarrior": [
+						{
+							"name": "Bogen",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "1"
+						},
+						{
+							"name": "Peitsche",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Hobbitmilizionär",
+					"armyRules": {
+						"Captains": [
+							"Lotho Sackheim-Beutlin",
+							"Timm Sandigmann"
+						]
+					},
+					"points": "4"
+				}
+			]
+		}
+	},
 	"Shadows of Angmar": {
 		"id": "shadow_angmar",
 		"version": "2024",
@@ -18818,7 +19021,7 @@
 		"models": {
 			"Heroes of Legend": [
 				{
-					"name": "Gûlavhar, the Terror of Arnor",
+					"name": "Gûlavhar, Schrecken von Arnor",
 					"armyRules": {
 						"Maximum": 1,
 						"Monster": true
@@ -18828,7 +19031,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "The Shadow of Rhudaur",
+					"name": "Der Schatten von Rhudaur",
 					"armyRules": {
 						"Maximum": 1
 					},
@@ -18844,31 +19047,31 @@
 					"points": "50"
 				},
 				{
-					"name": "Angmar Orc Captain",
+					"name": "Angmar-Orkhauptmann",
 					"points": "45"
 				},
 				{
-					"name": "Shade",
+					"name": "Schatten",
 					"points": "75"
 				},
 				{
-					"name": "Wild Warg Chieftain",
+					"name": "Grimwarg",
 					"points": "80"
 				}
 			],
 			"Minor Heroes": [
 				{
-					"name": "Angmar Orc Shaman",
+					"name": "Angmar-Orkschamane",
 					"points": "50"
 				},
 				{
-					"name": "Barrow-wight",
+					"name": "Grabunhold",
 					"points": "50"
 				}
 			],
 			"Warriors": [
 				{
-					"name": "Angmar Orc Warrior",
+					"name": "Angmar-Orkkrieger",
 					"points": "5",
 					"mandatoryWarrior": [
 						{
@@ -18902,7 +19105,7 @@
 					]
 				},
 				{
-					"name": "Angmar Warg Rider",
+					"name": "Angmar-Wargreiter",
 					"armyRules": {
 						"Cavalry": true
 					},
@@ -18946,147 +19149,12 @@
 					"points": "15"
 				},
 				{
-					"name": "Wild Warg",
+					"name": "Wilder Warg",
 					"points": "7"
 				},
 				{
-					"name": "Werewolf",
+					"name": "Werwolf",
 					"points": "25"
-				}
-			]
-		}
-	},
-	"Sharkey’s Rogues": {
-		"id": "sharkeys_rogues",
-		"version": "2024",
-		"language": "en",
-		"name": "Sharkey’s Rogues",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "162-163"
-			}
-		],
-		"additionalRules": [
-			"A Sharkey’s Rogues Army muss immer Sharkeyenthalten, welcher immer der General der Armee ist.",
-			"Hobbit Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Hobbit Hero.",
-			"This Army may include Warbands of 10-12 Ruffians without a Hero to lead them. In these Warbands, nominate a single Warrior model to count as the Warband’s Captain for the purpose of deployment. These Warbands may only be included after all other available Hero models have been included in the Army."
-		],
-		"specialRules": [
-			{
-				"name": "\"You do what Sharkey says!\"",
-				"description": "Sharkey’s Stand Fast will cover the entire battlefield, regardless of range."
-			},
-			{
-				"name": "Strength in Numbers",
-				"description": "Whilst this Army is not Broken, friendly Ruffian models gain a +1 bonus to any Courage Tests they are required to take."
-			},
-			{
-				"name": "The Wizard’s Command",
-				"description": "Friendly Ruffian models within 6\" of Sharkey may use his Courage instead of their own when taking Courage Tests."
-			},
-			{
-				"name": "Sharkey’s Wrath",
-				"description": "Sharkey gains the Hatred (Hobbit) special rule."
-			},
-			{
-				"name": "The Chief’s Whips",
-				"description": "Friendly Ruffian gain a bonus of +1 To Hit when making a shooting attack with a whip."
-			}
-		],
-		"models": {
-			"Heroes of Legend": [
-				{
-					"name": "Sharkey & Worm",
-					"armyRules": {
-						"General": "Mandatory",
-						"Maximum": 1
-					},
-					"points": "60 Points for Both",
-					"composition": [
-						{
-							"name": "Sharkey",
-							"compositionModel": "Captain",
-							"points": "60"
-						},
-						{
-							"name": "Worm"
-						}
-					]
-				}
-			],
-			"Heroes of Valour": [
-				{
-					"name": "Sid Briarthorn",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "50"
-				}
-			],
-			"Heroes of Fortitude": [
-				{
-					"name": "Rowan Thistlewood",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "45"
-				},
-				{
-					"name": "Bill Ferny",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "40"
-				},
-				{
-					"name": "Lotho Sackheim-Beutlin",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "30"
-				},
-				{
-					"name": "Ted Sandyman",
-					"armyRules": {
-						"Followers": [
-							"Hobbitmilizionär"
-						],
-						"Maximum": 1
-					},
-					"points": "30"
-				}
-			],
-			"Warriors": [
-				{
-					"name": "Ruffian",
-					"points": "5",
-					"optionalWarrior": [
-						{
-							"name": "Bogen",
-							"armyRules": {
-								"Bow": {
-									"limit": "count"
-								}
-							},
-							"cost": "1"
-						},
-						{
-							"name": "Peitsche",
-							"cost": "1"
-						}
-					]
-				},
-				{
-					"name": "Hobbitmilizionär",
-					"armyRules": {
-						"Captains": [
-							"Lotho Sackheim-Beutlin",
-							"Ted Sandyman"
-						]
-					},
-					"points": "4"
 				}
 			]
 		}
@@ -19258,7 +19326,7 @@
 		],
 		"additionalRules": [
 			"Elf Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdenan Elf Hero.",
-			"Dwarf Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Dwarf Hero.",
+			"Krieger der Zwerge -Modelle können nur in der Kriegerschar von aufgenommen werdena Dwarf Hero.",
 			"Lake-town Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdena Lake-town Hero, or in the Warband of Gandalf the Grey or Bilbo Baggins.",
 			"Eagle Warrior -Modelle können nur in der Kriegerschar von aufgenommen werdenan Eagle Hero, or in the Warband of Radagast the Brown or Beorn.",
 			"The Battle of Five Armies may not include more Fledgeling Great Eagles than Great Eagles."
@@ -19621,7 +19689,10 @@
 					"points": "10",
 					"mandatoryWarrior": [
 						{
-							"name": "Banner and shield",
+							"name": "Standarte und Schild",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "26"
 						},
 						{
@@ -19833,11 +19904,11 @@
 			],
 			"Warriors": [
 				{
-					"name": "Beorning",
+					"name": "Beorninger",
 					"points": "20",
 					"optionalWarrior": [
 						{
-							"name": "Swap hand-and-a-half weapon for great bow",
+							"name": "Tausche Anderthalbhänderwaffe gegen Kriegsbogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -19945,7 +20016,7 @@
 					"armyRules": {
 						"Followers": [
 							"Krieger der Schwarzen Drachen",
-							"Dragon Cult Acolyte"
+							"Akolyth des Drachenkults"
 						]
 					},
 					"points": "70",
@@ -20035,17 +20106,20 @@
 					]
 				},
 				{
-					"name": "Dragon Cult Acolyte",
+					"name": "Akolyth des Drachenkults",
 					"armyRules": {
 						"Captains": [
 							"Amdûr, Herr der Klingen",
 							"Drachenritter der Ostlinge"
-						]
+						],
+						"Throwing": {
+							"limit": "count"
+						}
 					},
 					"points": "11"
 				},
 				{
-					"name": "War Drake of Rhûn",
+					"name": "Kriegsdrache von Rhûn",
 					"points": "20"
 				}
 			]
@@ -20076,7 +20150,7 @@
 				"description": "If a Friendly Hero Charges into Combat, then during the Fight Phase, friendly Infantry models within 6\" of the Hero that share both of the same Faction Keywords as the Hero gain an additional +1 bonus To Wound when making Strikes."
 			}
 		],
-		"noteGWFAQ": "Q: If a Knight of Dol Amroth is within 6\" of two Dol Amroth Heroes that have charged, do they benefit from multiple +1 bonuses To Wound?\nA: No. Unless explicitly stated, multiple instances of the same rule are not cumulative. In the above example, the Knight of Dol Amroth would only gain a +1 bonus To Wound. Another example is the Drums in the Deep special rule; a Moria Goblin model cannot benefit from multiple instances of it, no matter how many Moria Goblin Drums you have.",
+		"noteGWFAQ": "Q: If a Knight of Dol Amroth is within 6\" of two Dol Amroth Heroes that have charged, do they benefit from multiple +1 bonuses To Wound?\nA: No. Unless explicitly stated, multiple instances of the same rule are not cumulative. In the above example, the Knight of Dol Amroth would only gain a +1 bonus To Wound. Another example is the Drums in the Deep special rule; a Moria Goblin model cannot benefit from multiple instances of it, no matter how many Trommel der Moria-Goblinss you have.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -20472,7 +20546,7 @@
 					"points": "110",
 					"options": [
 						{
-							"name": "Feuerfuss mit Rüstung",
+							"name": "Feuerfuß mit Rüstung",
 							"armyRules": {
 								"Cavalry": true
 							},
@@ -20828,7 +20902,7 @@
 			],
 			"Heroes of Valour": [
 				{
-					"name": "Dwarf King (Iron Hills)",
+					"name": "Zwergenkönig (Eisenberge)",
 					"points": "85"
 				}
 			],
@@ -20874,7 +20948,10 @@
 					"points": "10",
 					"mandatoryWarrior": [
 						{
-							"name": "Banner and shield",
+							"name": "Standarte und Schild",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "26"
 						},
 						{
@@ -21232,11 +21309,11 @@
 			]
 		}
 	},
-	"The Spider Queen’s Brood": {
+	"Die Spinnenkönigin’s Brood": {
 		"id": "spiderqueen_brood",
 		"version": "2024",
 		"language": "en",
-		"name": "The Spider Queen’s Brood",
+		"name": "Die Spinnenkönigin’s Brood",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -21245,7 +21322,7 @@
 			}
 		],
 		"additionalRules": [
-			"The Spider Queen’s Brood Army muss immer The Spider Queenenthalten, welcher immer der General der Armee ist.",
+			"Die Spinnenkönigin’s Brood Army muss immer Die Spinnenköniginenthalten, welcher immer der General der Armee ist.",
 			"Friendly models can still pick up Objective Markers even though they have the Beast keyword."
 		],
 		"specialRules": [
@@ -21276,7 +21353,7 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "The Spider Queen",
+					"name": "Die Spinnenkönigin",
 					"armyRules": {
 						"General": "Mandatory",
 						"Legacy": true,
@@ -21296,7 +21373,7 @@
 					"points": "20"
 				},
 				{
-					"name": "Bat Swarm",
+					"name": "Fledermausschwarm",
 					"points": "35"
 				},
 				{
@@ -21521,7 +21598,7 @@
 					"points": "140",
 					"mandatory": [
 						"Schild",
-						"Feuerfuss mit Rüstung"
+						"Feuerfuß mit Rüstung"
 					],
 					"options": [
 						{
@@ -22704,13 +22781,13 @@
 			}
 		],
 		"additionalRules": [
-			"A Variags of Khand Army muss immer a Khandish Kingenthalten, welcher immer der General der Armee ist.",
-			"Khandish Horsemen and Khandish Charioteers zählen nicht gegen die Bogenbegrenzung deiner Armee."
+			"A Variags of Khand Army muss immer a König von Khandenthalten, welcher immer der General der Armee ist.",
+			"Khandish Horsemen and Streitwagenlenker von Khands zählen nicht gegen die Bogenbegrenzung deiner Armee."
 		],
 		"specialRules": [
 			{
 				"name": "High King of Khand",
-				"description": "The Khandish King that is your General gains an additional Might Point.\nAdditionally, so long as he is alive and on the battlefield, your General counts as a banner for the purpose of Victory Points."
+				"description": "The König von Khand that is your General gains an additional Might Point.\nAdditionally, so long as he is alive and on the battlefield, your General counts as a banner for the purpose of Victory Points."
 			},
 			{
 				"name": "Khandish Fury",
@@ -22723,15 +22800,18 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Khandish King",
+					"name": "König von Khand",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"General": "Mandatory",
 						"Legacy": true
 					},
 					"points": "100",
 					"options": [
 						{
-							"name": "Khandish Chariot",
+							"name": "Streitwagen von Khand",
 							"cost": "35"
 						}
 					]
@@ -22739,8 +22819,11 @@
 			],
 			"Heroes of Fortitude": [
 				{
-					"name": "Khandish Chieftain",
+					"name": "Häuptling von Khand",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "55",
@@ -22757,14 +22840,14 @@
 			],
 			"Warriors": [
 				{
-					"name": "Khandish Warrior",
+					"name": "Krieger von Khand",
 					"armyRules": {
 						"Legacy": true
 					},
 					"points": "8",
 					"optionalWarrior": [
 						{
-							"name": "Exchange hand-and-a-half weapon for bow",
+							"name": "Tausche Anderthalbhänderwaffe gegen Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "count"
@@ -22775,10 +22858,10 @@
 					]
 				},
 				{
-					"name": "Khandish Horseman",
+					"name": "Reiter von Khand",
 					"armyRules": {
 						"Bow": {
-							"limit": "ignore"
+							"limit": "count"
 						},
 						"Cavalry": true,
 						"Legacy": true
@@ -22786,14 +22869,14 @@
 					"points": "14"
 				},
 				{
-					"name": "Khandish Charioteer",
+					"name": "Streitwagenlenker von Khand",
 					"armyRules": {
 						"Legacy": true
 					},
 					"points": "40",
 					"optionalWarrior": [
 						{
-							"name": "Exchange hand-and-a-half weapon for bow",
+							"name": "Tausche Anderthalbhänderwaffe gegen Bogen",
 							"armyRules": {
 								"Bow": {
 									"limit": "ignore"
@@ -23104,7 +23187,7 @@
 					"points": "140",
 					"mandatory": [
 						"Schild",
-						"Feuerfuss mit Rüstung"
+						"Feuerfuß mit Rüstung"
 					],
 					"options": [
 						{
@@ -24228,13 +24311,13 @@
 			}
 		],
 		"additionalRules": [
-			"Werewolves may benefit from the Heroic Actions and Stand Fast of friendly Wild Warg Chieftains even though they do not have the Warg keyword.",
+			"Werewolves may benefit from the Heroic Actions and Stand Fast of friendly Grimwargs even though they do not have the Warg keyword.",
 			"Friendly models can still pick up Objective Markers even though they have the Beast keyword."
 		],
 		"specialRules": [
 			{
 				"name": "Leader of the Pack",
-				"description": "The Wild Warg Chieftain that is your General gains an additional point each of Might, Will and Fate."
+				"description": "The Grimwarg that is your General gains an additional point each of Might, Will and Fate."
 			},
 			{
 				"name": "Feral Charge",
@@ -24252,13 +24335,13 @@
 		"models": {
 			"Heroes of Valour": [
 				{
-					"name": "Wild Warg Chieftain",
+					"name": "Grimwarg",
 					"points": "80"
 				}
 			],
 			"Warriors": [
 				{
-					"name": "Wild Warg",
+					"name": "Wilder Warg",
 					"points": "7"
 				},
 				{
@@ -24266,7 +24349,7 @@
 					"points": "8"
 				},
 				{
-					"name": "Werewolf",
+					"name": "Werwolf",
 					"points": "25"
 				}
 			]

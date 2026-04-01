@@ -1,4 +1,57 @@
 {
+	"Akolyth des Drachenkults": {
+		"id": "dragon_cult_acolyte",
+		"version": "2024",
+		"language": "de",
+		"name": "Akolyth des Drachenkults",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "146"
+			}
+		],
+		"points": "11",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Ostling",
+			"Schwarzer Drache"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "2",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Handwaffen"
+			},
+			{
+				"name": "Wurfwaffen"
+			}
+		],
+		"specialRules": [
+			"Krieger des Drachenkults",
+			"Überragende Beweglichkeit",
+			"Unüberwindlich"
+		]
+	},
 	"Aldor, Schütze aus Rohan": {
 		"id": "aldor",
 		"version": "2024",
@@ -60,11 +113,11 @@
 			"Schwache Nerven"
 		]
 	},
-	"Aldrac, Warlord of Carn Dûm": {
+	"Aldrac, Kriegsherr von Carn Dûm": {
 		"id": "aldrac",
 		"version": "2024",
-		"language": "en",
-		"name": "Aldrac, Warlord of Carn Dûm",
+		"language": "de",
+		"name": "Aldrac, Kriegsherr von Carn Dûm",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -119,9 +172,9 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
+			"Kriegsherr von Carn Dûm",
 			"Mächtiger Hieb",
-			"Warlord of Carn Dûm",
-			"Battle Frenzy"
+			"Schlachtrausch"
 		]
 	},
 	"Alfrid the Councillor": {
@@ -301,8 +354,8 @@
 		],
 		"specialRules": [
 			"Scharfschütze",
-			"Waldbewohner",
-			"Tödliches Zielen"
+			"Tödliches Zielen",
+			"Waldbewohner"
 		]
 	},
 	"Angbor der Furchtlose": {
@@ -356,8 +409,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroischer Hieb"
+			"Heroischer Hieb",
+			"Heroischer Marsch"
 		],
 		"specialRules": [
 			"Furchtlos",
@@ -365,11 +418,11 @@
 			"Mächtiger Hieb"
 		]
 	},
-	"Angmar Orc Captain": {
+	"Angmar-Orkhauptmann": {
 		"id": "captain_angmar_orc",
 		"version": "2024",
-		"language": "en",
-		"name": "Angmar Orc Captain",
+		"language": "de",
+		"name": "Angmar-Orkhauptmann",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -420,11 +473,82 @@
 			"Heroischer Marsch"
 		]
 	},
-	"Angmar Orc Shaman": {
+	"Angmar-Orkkrieger": {
+		"id": "warrior_angmar_orc",
+		"version": "2024",
+		"language": "de",
+		"name": "Angmar-Orkkrieger",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "133"
+			}
+		],
+		"points": "5",
+		"race": [
+			"Ork"
+		],
+		"faction": [
+			"Angmar"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "5+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"options": [
+			{
+				"name": "Standarte",
+				"cost": "25",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Orkbogen",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Schild",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Speer",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Zweihändige Waffe",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			}
+		]
+	},
+	"Angmar-Orkschamane": {
 		"id": "shaman_angmar_orc",
 		"version": "2024",
-		"language": "en",
-		"name": "Angmar Orc Shaman",
+		"language": "de",
+		"name": "Angmar-Orkschamane",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -498,82 +622,11 @@
 			}
 		]
 	},
-	"Angmar Orc Warrior": {
-		"id": "warrior_angmar_orc",
-		"version": "2024",
-		"language": "en",
-		"name": "Angmar Orc Warrior",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "133"
-			}
-		],
-		"points": "5",
-		"race": [
-			"Ork"
-		],
-		"faction": [
-			"Angmar"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "3",
-			"shootValue": "5+",
-			"strength": "3",
-			"defence": "4",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "8+",
-			"intelligence": "8+"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"options": [
-			{
-				"name": "Standarte",
-				"cost": "25",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Orkbogen",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Schild",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Speer",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Zweihändige Waffe",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			}
-		]
-	},
-	"Angmar Warg Rider": {
+	"Angmar-Wargreiter": {
 		"id": "warg_rider_angmar",
 		"version": "2024",
-		"language": "en",
-		"name": "Angmar Warg Rider",
+		"language": "de",
+		"name": "Angmar-Wargreiter",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -693,10 +746,10 @@
 		"heroicActions": [
 			"Heroische Entschlossenheit",
 			"Heroische Herausforderung",
-			"Heroischer Hieb",
-			"Heroischer Marsch",
 			"Heroische Stärke",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Hieb",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -705,10 +758,10 @@
 			}
 		],
 		"specialRules": [
-			"Pferdeherr",
+			"\"Haltet Stand, Männer des Westens\"",
 			"Mächtiger Held",
 			"Magieresistent",
-			"\"Haltet Stand, Männer des Westens\""
+			"Pferdeherr"
 		]
 	},
 	"Aragorn (Streicher)": {
@@ -762,13 +815,13 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Zielgenauigkeit",
-			"Heroische Herausforderung",
-			"Heroische Verteidigung",
-			"Heroischer Marsch",
 			"Heroische Entschlossenheit",
+			"Heroische Herausforderung",
 			"Heroische Stärke",
-			"Heroischer Hieb"
+			"Heroische Verteidigung",
+			"Heroische Zielgenauigkeit",
+			"Heroischer Hieb",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -808,11 +861,11 @@
 			}
 		]
 	},
-	"Aranarth, First Chieftain of the Dúnedain": {
+	"Aranarth, Erster Stammesführer der Dúnedain": {
 		"id": "aranarth",
 		"version": "2024",
-		"language": "en",
-		"name": "Aranarth, First Chieftain of the Dúnedain",
+		"language": "de",
+		"name": "Aranarth, Erster Stammesführer der Dúnedain",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -869,14 +922,14 @@
 			"Exzellenter Schütze",
 			"Hass (Angmar)",
 			"Scharfschütze",
-			"Remnants of Arnor"
+			"Überreste von Arnor"
 		]
 	},
-	"Arathorn, Chieftain of the Dúnedain": {
+	"Arathorn, Stammesführer der Dúnedain": {
 		"id": "arathorn",
 		"version": "2024",
-		"language": "en",
-		"name": "Arathorn, Chieftain of the Dúnedain",
+		"language": "de",
+		"name": "Arathorn, Stammesführer der Dúnedain",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -929,14 +982,14 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Waldbewohner",
-			"Chieftain of the Dúnedain"
+			"Stammesführer der Dúnedain",
+			"Waldbewohner"
 		]
 	},
 	"Argadir, Hauptmann von Arnor": {
 		"id": "argadir",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Argadir, Hauptmann von Arnor",
 		"alignment": "Gut",
 		"source": [
@@ -1049,11 +1102,11 @@
 			}
 		]
 	},
-	"Arvedui, Last King of Arnor": {
+	"Arvedui, Letzter König von Arnor": {
 		"id": "arvedui",
 		"version": "2024",
-		"language": "en",
-		"name": "Arvedui, Last King of Arnor",
+		"language": "de",
+		"name": "Arvedui, Letzter König von Arnor",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -1099,13 +1152,13 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
 			"Heroische Stärke",
+			"Heroische Verteidigung",
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Hass (Angmar)",
-			"The King in the North"
+			"Der König des Nordens",
+			"Hass (Angmar)"
 		]
 	},
 	"Arwen Undómiel": {
@@ -1160,8 +1213,8 @@
 		],
 		"heroicActions": [
 			"Heroische Entschlossenheit",
-			"Heroisches Kanalisieren",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -1193,7 +1246,7 @@
 	"Asfaloth": {
 		"id": "asfaloth",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"type": "Mount",
 		"alias": [
 			"Asfaloth (Glorfindel kann Asfaloth nur ausrüsten wenn Arwen nicht in der selben Armee is)"
@@ -1342,8 +1395,8 @@
 		],
 		"specialRules": [
 			"Höhlenbewohner",
-			"Tödliche Berührung",
-			"Spinnenbrut"
+			"Spinnenbrut",
+			"Tödliche Berührung"
 		],
 		"magicalPowers": [
 			{
@@ -1589,11 +1642,11 @@
 			"Family Bond"
 		]
 	},
-	"Baldo Tulpenny": {
+	"Baldo Tulpfennig": {
 		"id": "baldo_tulpenny",
 		"version": "2024",
-		"language": "en",
-		"name": "Baldo Tulpenny",
+		"language": "de",
+		"name": "Baldo Tulpfennig",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -1639,11 +1692,71 @@
 			"Heroische Zielgenauigkeit"
 		],
 		"specialRules": [
+			"Champion im Steinehüpfen",
 			"Magieresistent",
+			"Meister der Fallen",
 			"Scharfschütze",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"Champion Stone Skipper",
-			"Master of Traps"
+			"Steine werfen (Reichweite 8\", Stärke 1)"
+		]
+	},
+	"Balin der Zwerg, König von Moria": {
+		"id": "balin_dwarf_king",
+		"version": "2024",
+		"language": "de",
+		"name": "Balin der Zwerg, König von Moria",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Good",
+				"page": "15"
+			}
+		],
+		"points": "110",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "8",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "3",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Zwergenrüstung"
+			},
+			{
+				"name": "Durins Axt"
+			}
+		],
+		"heroicActions": [
+			"Heroische Entschlossenheit",
+			"Heroische Verteidigung",
+			"Heroischer Hieb",
+			"Heroischer Marsch"
+		],
+		"specialRules": [
+			"Anführer (Khazâdwache)",
+			"Langbart"
 		]
 	},
 	"Balin the Dwarf": {
@@ -1660,7 +1773,7 @@
 		],
 		"points": "40",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -1700,7 +1813,7 @@
 			"Heroische Entschlossenheit"
 		],
 		"specialRules": [
-			"Longbeard"
+			"Langbart"
 		]
 	},
 	"Balin the Dwarf, Champion of Erebor": {
@@ -1717,7 +1830,7 @@
 		],
 		"points": "60",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -1758,74 +1871,14 @@
 		],
 		"specialRules": [
 			"Eidwache (Thorin)",
-			"Longbeard"
+			"Langbart"
 		]
 	},
-	"Balin the Dwarf, King of Moria": {
-		"id": "balin_dwarf_king",
-		"version": "2024",
-		"language": "en",
-		"name": "Balin the Dwarf, King of Moria",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Good",
-				"page": "15"
-			}
-		],
-		"points": "110",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "8",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "3",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Zwergenrüstung"
-			},
-			{
-				"name": "Durin’s Axe"
-			}
-		],
-		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroischer Marsch",
-			"Heroische Entschlossenheit",
-			"Heroischer Hieb"
-		],
-		"specialRules": [
-			"Anführer (Khazâd Guard)",
-			"Longbeard"
-		]
-	},
-	"Bandobras Took": {
+	"Bandobras Tuk": {
 		"id": "bandobras_took",
 		"version": "2024",
-		"language": "en",
-		"name": "Bandobras Took",
+		"language": "de",
+		"name": "Bandobras Tuk",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -1877,15 +1930,15 @@
 		"specialRules": [
 			"Anführer (Hobbit-Landbüttel)",
 			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"Clean strike"
+			"Sauberer Schlag",
+			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
-	"Bard II, Prince of Dale": {
+	"Bard II, Prinz von Thal": {
 		"id": "bardii",
 		"version": "2024",
-		"language": "en",
-		"name": "Bard II, Prince of Dale",
+		"language": "de",
+		"name": "Bard II, Prinz von Thal",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -1898,7 +1951,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Dale"
+			"Thal"
 		],
 		"unitTypes": [
 			"Held",
@@ -1937,12 +1990,12 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
 			"Heroische Entschlossenheit",
+			"Heroische Verteidigung",
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Wall of Blades"
+			"Klingenwall"
 		]
 	},
 	"Bard the Bowman": {
@@ -1991,7 +2044,7 @@
 				"name": "Handwaffe"
 			},
 			{
-				"name": "Great bow"
+				"name": "Kriegsbogen"
 			}
 		],
 		"heroicActions": [
@@ -2006,7 +2059,7 @@
 				"cost": "50"
 			},
 			{
-				"name": "Exchange great bow for armour and horse",
+				"name": "Tausche Kriegsbogen gegen Rüstung und Pferd",
 				"cost": "20"
 			}
 		],
@@ -2040,168 +2093,6 @@
 			"Bain, Son of Bard",
 			"Sigrid",
 			"Tilda"
-		]
-	},
-	"Barrow-wight": {
-		"id": "barrowwight",
-		"version": "2024",
-		"language": "en",
-		"name": "Barrow-wight",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "131"
-			}
-		],
-		"points": "50",
-		"race": [
-			"Geist"
-		],
-		"faction": [
-			"Angmar"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "3",
-			"shootValue": "5+",
-			"strength": "3",
-			"defence": "7",
-			"attacks": "1",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "6+"
-		},
-		"characteristicsHero": {
-			"might": "0",
-			"will": "5",
-			"fate": "0"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Todesklingen",
-			"Geisterschritt",
-			"Entsetzlich"
-		],
-		"magicalPowers": [
-			{
-				"name": "Paralyse",
-				"range": "6\"",
-				"castingValue": "3+"
-			}
-		]
-	},
-	"Bat Swarm": {
-		"id": "bat_swarm",
-		"version": "2024",
-		"language": "en",
-		"name": "Bat Swarm",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "119"
-			}
-		],
-		"points": "35",
-		"race": [
-			"Bat"
-		],
-		"faction": [
-			"Moria"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie",
-			"Bestie",
-			"Schwarm"
-		],
-		"baseSize": "40mm",
-		"characteristics": {
-			"move": "12\"",
-			"fightValue": "1",
-			"shootValue": "6+",
-			"strength": "3",
-			"defence": "3",
-			"attacks": "2",
-			"wounds": "4",
-			"courage": "8+",
-			"intelligence": "9+"
-		},
-		"wargear": [
-			{
-				"name": "Klauen und Zähne (Handwaffen)"
-			}
-		],
-		"specialRules": [
-			"Höhlenbewohner",
-			"Fliegen [SpecialRule]",
-			"Blinding Swarm"
-		]
-	},
-	"Batllin’ Brandybucks": {
-		"id": "batllin_brandybucks",
-		"version": "2024",
-		"language": "en",
-		"name": "Batllin’ Brandybucks",
-		"linkedProfile": [
-			"Hobbitmilizionär",
-			"Meriadoc Brandybock, Hauptmann von the Shire"
-		],
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "13"
-			},
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "20"
-			}
-		],
-		"points": "5",
-		"race": [
-			"Hobbit"
-		],
-		"faction": [
-			"Auenland"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "4\"",
-			"fightValue": "1",
-			"shootValue": "3+",
-			"strength": "3",
-			"defence": "3",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "7+",
-			"intelligence": "8+"
-		},
-		"wargear": [
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
 	"Bauer Maggot": {
@@ -2255,8 +2146,8 @@
 		],
 		"specialRules": [
 			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"\"Get out of my fields!\""
+			"\"Runter von meinen Feldern!\"",
+			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
 	"Bauer Tolman Hüttinger": {
@@ -2306,8 +2197,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Herausforderung",
-			"Heroische Entschlossenheit"
+			"Heroische Entschlossenheit",
+			"Heroische Herausforderung"
 		],
 		"specialRules": [
 			"\"Das ist unser Land\"",
@@ -2363,10 +2254,10 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Hieb",
-			"Heroischer Marsch",
 			"Heroische Stärke",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Hieb",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -2494,7 +2385,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Beorning"
+			"Beorninger"
 		],
 		"unitTypes": [
 			"Held",
@@ -2534,14 +2425,14 @@
 			"Furchtlos",
 			"Magieresistent",
 			"Waldbewohner",
-			"Skin-changer [Beorn]"
+			"Gestaltwandler [Beorn]"
 		]
 	},
-	"Beorn the Bear": {
+	"Beorn der Bär": {
 		"id": "beorn_bear",
 		"version": "2024",
 		"language": "en",
-		"name": "Beorn the Bear",
+		"name": "Beorn der Bär",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -2553,7 +2444,7 @@
 			"Bear"
 		],
 		"faction": [
-			"Beorning"
+			"Beorninger"
 		],
 		"unitTypes": [
 			"Held",
@@ -2596,16 +2487,16 @@
 			"Magieresistent",
 			"Entsetzlich",
 			"Waldbewohner",
-			"Skin-changer [Beorn the Bear]",
+			"Gestaltwandler [Beorn der Bär]",
 			"Berserk",
-			"Crushing Strength"
+			"Vernichtende Stärke"
 		]
 	},
-	"Beorning": {
+	"Beorninger": {
 		"id": "beorning",
 		"version": "2024",
-		"language": "en",
-		"name": "Beorning",
+		"language": "de",
+		"name": "Beorninger",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -2618,7 +2509,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Beorning"
+			"Beorninger"
 		],
 		"unitTypes": [
 			"Krieger",
@@ -2646,14 +2537,14 @@
 		],
 		"options": [
 			{
-				"name": "Swap hand-and-a-half weapon for great bow",
+				"name": "Tausche Anderthalbhänderwaffe gegen Kriegsbogen",
 				"cost": "Kostenlos"
 			}
 		],
 		"specialRules": [
+			"Anhänger des Bären",
 			"Bullig",
-			"Waldbewohner",
-			"Followers of the Bear"
+			"Waldbewohner"
 		]
 	},
 	"Beregond, Wache der Veste": {
@@ -2790,6 +2681,54 @@
 		],
 		"specialRules": [
 			"Hass (Rohan)"
+		]
+	},
+	"Bergtroll": {
+		"id": "hill_troll",
+		"version": "2024",
+		"language": "de",
+		"name": "Bergtroll",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "127"
+			}
+		],
+		"points": "75",
+		"race": [
+			"Troll"
+		],
+		"faction": [
+			"Angmar"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie",
+			"Monster"
+		],
+		"baseSize": "50mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "6",
+			"defence": "6",
+			"attacks": "3",
+			"wounds": "3",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Brutale List",
+			"Dominant (3)",
+			"Entsetzlich",
+			"Steine werfen (Reichweite 12\", Strength 8)"
 		]
 	},
 	"Berserker der Uruk-hai": {
@@ -2971,7 +2910,7 @@
 		],
 		"points": "45",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -3031,7 +2970,7 @@
 		],
 		"points": "65",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -3278,64 +3217,6 @@
 			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
-	"Bill Ferny": {
-		"id": "bill_ferny",
-		"version": "2024",
-		"language": "en",
-		"name": "Bill Ferny",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "112"
-			}
-		],
-		"points": "40",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Ruffian"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "3",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "4",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "7+",
-			"intelligence": "7+"
-		},
-		"characteristicsHero": {
-			"might": "1",
-			"will": "1",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Handwaffe"
-			},
-			{
-				"name": "Peitsche"
-			}
-		],
-		"heroicActions": [
-			"Heroische Herausforderung"
-		],
-		"specialRules": [
-			"Hass (Hobbit)",
-			"\"Put ’em in chains\"",
-			"Sharkey’s Spy"
-		]
-	},
 	"Bill the Troll": {
 		"id": "bill_troll",
 		"version": "2024",
@@ -3471,7 +3352,7 @@
 		],
 		"points": "45",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -3527,7 +3408,7 @@
 		],
 		"points": "65",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -3645,8 +3526,8 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
-			"Ancient Enemies (Elf)",
+			"Uralte Feindschaft (Dwarf)",
+			"Uralte Feindschaft (Elf)",
 			"Bullig",
 			"The Bringer of Death"
 		]
@@ -3686,7 +3567,7 @@
 		],
 		"points": "45",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -3741,7 +3622,7 @@
 		],
 		"points": "60",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -3840,8 +3721,8 @@
 		],
 		"heroicActions": [
 			"Heroische Herausforderung",
-			"Heroischer Hieb",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -3915,10 +3796,10 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroischer Marsch",
 			"Heroische Stärke",
-			"Heroischer Hieb"
+			"Heroische Verteidigung",
+			"Heroischer Hieb",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -4006,11 +3887,11 @@
 			"Hauptmann der Wache"
 		]
 	},
-	"Brand, King of Dale": {
+	"Brand, König von Thal": {
 		"id": "brand",
 		"version": "2024",
-		"language": "en",
-		"name": "Brand, King of Dale",
+		"language": "de",
+		"name": "Brand, König von Thal",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -4023,7 +3904,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Dale"
+			"Thal"
 		],
 		"unitTypes": [
 			"Held",
@@ -4064,8 +3945,8 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Lord of Dale [Brand]",
-			"Stoic Fighter"
+			"Fürst von Thal [Brand]",
+			"Stoischer Kämpfer"
 		]
 	},
 	"Brego": {
@@ -4110,60 +3991,11 @@
 			"Trittsicheres Ross"
 		]
 	},
-	"Broodling": {
-		"id": "broodling",
-		"version": "2024",
-		"language": "en",
-		"name": "Broodling",
-		"linkedProfile": [
-			"The Spider Queen"
-		],
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "41"
-			}
-		],
-		"race": [
-			"Spinne"
-		],
-		"faction": [
-			"Dol Guldur"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie",
-			"Bestie",
-			"Schwarm"
-		],
-		"baseSize": "40mm",
-		"characteristics": {
-			"move": "10\"",
-			"fightValue": "2",
-			"shootValue": "6+",
-			"strength": "3",
-			"defence": "3",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "8+",
-			"intelligence": "8+"
-		},
-		"wargear": [
-			{
-				"name": "Fangs (hand weapons)"
-			}
-		],
-		"specialRules": [
-			"Vergiftete Waffen",
-			"Flinke Bewegung"
-		]
-	},
-	"Brórgîr the Conjurer": {
+	"Brórgîr der Beschwörer": {
 		"id": "brorgir",
 		"version": "2024",
-		"language": "en",
-		"name": "Brórgîr the Conjurer",
+		"language": "de",
+		"name": "Brórgîr der Beschwörer",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -4212,7 +4044,7 @@
 			"Heroisches Kanalisieren"
 		],
 		"specialRules": [
-			"Sorcerous Adept"
+			"Versierter Zauberer"
 		],
 		"magicalPowers": [
 			{
@@ -4299,11 +4131,11 @@
 			"Waldbewohner"
 		]
 	},
-	"Buhrdûr, Hill Troll Chieftain": {
+	"Buhrdûr, Häuptling der Bergtrolle": {
 		"id": "buhrdur",
 		"version": "2024",
-		"language": "en",
-		"name": "Buhrdûr, Hill Troll Chieftain",
+		"language": "de",
+		"name": "Buhrdûr, Häuptling der Bergtrolle",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -4352,12 +4184,12 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
+			"Brutale List",
 			"Dominant (4)",
-			"Generaljäger",
 			"Entsetzlich",
+			"Generaljäger",
 			"Steine werfen (Reichweite 12\", Strength 8)",
-			"Lead by Example",
-			"Brutish Cunning"
+			"Von vorne führen"
 		]
 	},
 	"Castellan of Dol Guldur": {
@@ -4419,70 +4251,6 @@
 			"Bound in Shadow"
 		]
 	},
-	"Cave Drake": {
-		"id": "cave_drake",
-		"version": "2024",
-		"language": "en",
-		"name": "Cave Drake",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "123"
-			}
-		],
-		"points": "150",
-		"race": [
-			"Drake"
-		],
-		"faction": [
-			"Moria"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Monster",
-			"Bestie"
-		],
-		"baseSize": "100mm",
-		"characteristics": {
-			"move": "8\"",
-			"fightValue": "7",
-			"shootValue": "5+",
-			"strength": "7",
-			"defence": "7",
-			"attacks": "4",
-			"wounds": "6",
-			"courage": "6+",
-			"intelligence": "7+"
-		},
-		"characteristicsHero": {
-			"might": "1",
-			"will": "3",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Klauen und Zähne (Handwaffen)"
-			}
-		],
-		"heroicActions": [
-			"Heroische Verteidigung"
-		],
-		"specialRules": [
-			"Höhlenbewohner",
-			"Dominant (4)",
-			"Großes Ziel",
-			"Monströser Ansturm",
-			"Bergbewohner",
-			"Magieresistent",
-			"Entsetzlich",
-			"Waldbewohner",
-			"Protect the Nest",
-			"Cornered Beast",
-			"Gaping Maw"
-		]
-	},
 	"Celeborn, Herr von Lothlórien": {
 		"id": "celeborn",
 		"version": "2024",
@@ -4530,9 +4298,9 @@
 			}
 		],
 		"heroicActions": [
+			"Heroische Verteidigung",
 			"Heroischer Hieb",
-			"Heroisches Kanalisieren",
-			"Heroische Verteidigung"
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -4540,8 +4308,8 @@
 			}
 		],
 		"specialRules": [
-			"Entsetzlich",
 			"Der Herr von Lórien",
+			"Entsetzlich",
 			"Kampfweisheit",
 			"Waldbewohner"
 		],
@@ -4566,6 +4334,82 @@
 				"range": "Self\"",
 				"castingValue": "4+"
 			}
+		]
+	},
+	"Champion des Königs": {
+		"id": "kings_champion",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition",
+		"name": "Champion des Königs",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Good",
+				"page": "16"
+			}
+		],
+		"note": "Ein Champion des Königs besteht aus einem Champion des Königs und zwei Herolden und zählt als drei Modelle. Der Champion des Königs ist stets der Hauptmann der Kriegerschar, wobei die beiden Herolde als seine Gefolgschaft die ersten Plätze in der Kriegerschar des Königs einnehmen; Herolde zählen in der Kriegerschar des Königs immer als Unabhängiger Held.",
+		"points": "140",
+		"composition": [
+			"Champion des Königs (Held)",
+			"Herold"
+		]
+	},
+	"Champion des Königs (Held)": {
+		"id": "kings_champion_hero",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Champion des Königs (Held)",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Good",
+				"page": "16"
+			}
+		],
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "5",
+			"defence": "7",
+			"attacks": "3",
+			"wounds": "2",
+			"courage": "5+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Zwergenrüstung"
+			},
+			{
+				"name": "Handwaffen"
+			}
+		],
+		"heroicActions": [
+			"Heroische Stärke",
+			"Heroischer Hieb"
+		],
+		"specialRules": [
+			"Des Herolds Pflicht"
 		]
 	},
 	"Círdan von den Grauen Anfurten": {
@@ -4760,11 +4604,11 @@
 			"Vogelschwarm"
 		]
 	},
-	"Dáin Ironfoot, King under the Mountain": {
+	"Dáin Eisenfuß, König unter dem Berg": {
 		"id": "dain_ironfoot_king",
 		"version": "2024",
-		"language": "en",
-		"name": "Dáin Ironfoot, King under the Mountain",
+		"language": "de",
+		"name": "Dáin Eisenfuß, König unter dem Berg",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -4774,7 +4618,7 @@
 		],
 		"points": "130",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -4810,15 +4654,15 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Herausforderung",
 			"Heroische Entschlossenheit",
+			"Heroische Herausforderung",
 			"Heroische Stärke",
 			"Heroischer Hieb"
 		],
 		"specialRules": [
+			"Ehrwürdig",
 			"Furchtlos",
-			"Venerable",
-			"King Under the Mountain"
+			"König unter dem Berg"
 		]
 	},
 	"Dáin Ironfoot, Lord of the Iron Hills": {
@@ -4835,10 +4679,10 @@
 		],
 		"points": "160",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Held",
@@ -4949,9 +4793,9 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
+			"Fluch der Könige",
 			"Geschmeidig wie eine Viper",
 			"Meuchler",
-			"Fluch der Könige",
 			"Wie ein Schatten"
 		]
 	},
@@ -4972,7 +4816,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Dale"
+			"Thal"
 		],
 		"unitTypes": [
 			"Krieger",
@@ -5019,7 +4863,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Dale"
+			"Thal"
 		],
 		"unitTypes": [
 			"Held",
@@ -5467,6 +5311,73 @@
 			}
 		]
 	},
+	"Der Drachenkaiser von Rhûn": {
+		"id": "dragon_emperor",
+		"version": "2024",
+		"language": "de",
+		"name": "Der Drachenkaiser von Rhûn",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "140"
+			}
+		],
+		"points": "200",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Ostling",
+			"Schwarzer Drache"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "7",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "7",
+			"attacks": "3",
+			"wounds": "3",
+			"courage": "4+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "3",
+			"fate": "3"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Die Gleve des Kaisers"
+			},
+			{
+				"name": "Helm des Drachenkaisers"
+			},
+			{
+				"name": "Kaiserliche Sänfte"
+			}
+		],
+		"heroicActions": [
+			"Heroische Entschlossenheit",
+			"Heroische Stärke",
+			"Heroische Verteidigung",
+			"Heroischer Hieb"
+		],
+		"specialRules": [
+			"Kaiser der Ostlinge",
+			"Phalanx"
+		]
+	},
 	"Der Dunkle Herrscher Sauron": {
 		"id": "sauron",
 		"version": "2024",
@@ -5522,18 +5433,18 @@
 		],
 		"heroicActions": [
 			"Heroische Herausforderung",
+			"Heroische Stärke",
 			"Heroischer Hieb",
-			"Heroisches Kanalisieren",
-			"Heroische Stärke"
+			"Heroisches Kanalisieren"
 		],
 		"specialRules": [
 			"Bote des Unheils (18\")",
 			"Der Herr der Ringe",
+			"Die Flammen des Bösen",
 			"Dominant (10)",
 			"Entsetzlich",
 			"Magieresistent",
-			"Unaufhaltsam",
-			"Die Flammen des Bösen"
+			"Unaufhaltsam"
 		],
 		"magicalPowers": [
 			{
@@ -5882,9 +5793,9 @@
 		"heroicActions": [
 			"Heroische Entschlossenheit",
 			"Heroische Herausforderung",
+			"Heroische Stärke",
 			"Heroischer Hieb",
-			"Heroisches Kanalisieren",
-			"Heroische Stärke"
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -6016,9 +5927,9 @@
 		"heroicActions": [
 			"Heroische Entschlossenheit",
 			"Heroische Herausforderung",
+			"Heroische Stärke",
 			"Heroischer Hieb",
-			"Heroisches Kanalisieren",
-			"Heroische Stärke"
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -6146,9 +6057,9 @@
 		"heroicActions": [
 			"Heroische Entschlossenheit",
 			"Heroische Herausforderung",
+			"Heroische Stärke",
 			"Heroischer Hieb",
-			"Heroisches Kanalisieren",
-			"Heroische Stärke"
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -6276,9 +6187,9 @@
 		"heroicActions": [
 			"Heroische Entschlossenheit",
 			"Heroische Herausforderung",
+			"Heroische Stärke",
 			"Heroischer Hieb",
-			"Heroisches Kanalisieren",
-			"Heroische Stärke"
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -6403,11 +6314,11 @@
 			"Heroischer Marsch"
 		],
 		"specialRules": [
+			"Die Toten und die Lebenden",
 			"Entsetzlich",
 			"Geisterschritt",
-			"Todesklingen",
 			"Seelenraub",
-			"Die Toten und die Lebenden"
+			"Todesklingen"
 		]
 	},
 	"Der Ritter von Umbar": {
@@ -6506,6 +6417,88 @@
 				"name": "Furcht erregen",
 				"range": "Selbst",
 				"castingValue": "6+"
+			}
+		]
+	},
+	"Der Schatten von Rhudaur": {
+		"id": "shadow_rhudaur",
+		"version": "2024",
+		"language": "de",
+		"name": "Der Schatten von Rhudaur",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "128"
+			}
+		],
+		"points": "80",
+		"race": [
+			"Geist"
+		],
+		"faction": [
+			"Angmar"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "7",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "5",
+			"fate": "2"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"heroicActions": [
+			"Heroische Herausforderung"
+		],
+		"specialRules": [
+			"Die Macht von Angmar",
+			"Entsetzlich",
+			"Geisterschritt",
+			"Todesklingen",
+			"Vorbote des Unheils"
+		],
+		"magicalPowers": [
+			{
+				"name": "Mutraub",
+				"range": "6\"",
+				"castingValue": "3+"
+			},
+			{
+				"name": "Nebel der Verwirrung",
+				"range": "Selbst",
+				"castingValue": "3+"
+			},
+			{
+				"name": "Fluch",
+				"range": "6\"",
+				"castingValue": "4+"
+			},
+			{
+				"name": "Kraftraub",
+				"range": "6\"",
+				"castingValue": "5+"
 			}
 		]
 	},
@@ -6917,6 +6910,67 @@
 			"Wasserbewohner"
 		]
 	},
+	"Die Spinnenkönigin": {
+		"id": "spider_queen",
+		"version": "2024",
+		"language": "de",
+		"name": "Die Spinnenkönigin",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "41"
+			}
+		],
+		"points": "120",
+		"race": [
+			"Spinne"
+		],
+		"faction": [
+			"Dol Guldur"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Monster",
+			"Bestie",
+			"Einzigartig"
+		],
+		"baseSize": "60mm",
+		"characteristics": {
+			"move": "10\"",
+			"fightValue": "6",
+			"shootValue": "6+",
+			"strength": "6",
+			"defence": "4",
+			"attacks": "2",
+			"wounds": "3",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "3",
+			"fate": "0"
+		},
+		"wargear": [
+			{
+				"name": "Riesige Giftzähne (Handwaffen)"
+			}
+		],
+		"heroicActions": [
+			"Heroische Verteidigung",
+			"Heroischer Hieb"
+		],
+		"specialRules": [
+			"Dominant (3)",
+			"Entsetzlich",
+			"Flinke Bewegung",
+			"Gift",
+			"Monströser Ansturm",
+			"Nachkommen"
+		]
+	},
 	"Dori the Dwarf": {
 		"id": "dori_dwarf",
 		"version": "2024",
@@ -6931,7 +6985,7 @@
 		],
 		"points": "55",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -6987,7 +7041,7 @@
 		],
 		"points": "75",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -7029,6 +7083,93 @@
 		"specialRules": [
 			"Eidwache (Thorin)",
 			"A Good Sort [Champion]"
+		]
+	},
+	"Drache": {
+		"id": "Drache",
+		"version": "2024",
+		"language": "de",
+		"name": "Drache",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "122"
+			}
+		],
+		"points": "200",
+		"race": [
+			"Drache"
+		],
+		"faction": [
+			"Moria"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Monster"
+		],
+		"baseSize": "130mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "8",
+			"shootValue": "2+",
+			"strength": "7",
+			"defence": "7",
+			"attacks": "4",
+			"wounds": "7",
+			"courage": "6+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "3",
+			"will": "3",
+			"fate": "3"
+		},
+		"wargear": [
+			{
+				"name": "Klauen und Zähne (Handwaffen)"
+			}
+		],
+		"heroicActions": [
+			"Heroische Entschlossenheit",
+			"Heroische Verteidigung",
+			"Heroisches Kanalisieren"
+		],
+		"options": [
+			{
+				"name": "Ein Drache darf bis zu zwei der folgenden Optionen wählen:",
+				"type": "OPTIONAL_RULES"
+			},
+			{
+				"name": "Drachenzunge",
+				"cost": "50"
+			},
+			{
+				"name": "Feuer speien [Wargear]",
+				"cost": "50"
+			},
+			{
+				"name": "Fliegen [Wargear]",
+				"cost": "50"
+			},
+			{
+				"name": "Schuppenhaut",
+				"cost": "50"
+			},
+			{
+				"name": "Überlegener Intellekt",
+				"cost": "50"
+			}
+		],
+		"specialRules": [
+			"Bote des Unheils (12\")",
+			"Dominant (5)",
+			"Entsetzlich",
+			"Großes Ziel",
+			"Magieresistent",
+			"Monströser Ansturm",
+			"Überlebensinstinkt"
 		]
 	},
 	"Drachenritter der Ostlinge": {
@@ -7098,150 +7239,10 @@
 			"Unüberwindlich"
 		]
 	},
-	"Dragon": {
-		"id": "dragon",
-		"version": "2024",
-		"language": "en",
-		"name": "Dragon",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "122"
-			}
-		],
-		"points": "200",
-		"race": [
-			"Dragon"
-		],
-		"faction": [
-			"Moria"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Monster"
-		],
-		"baseSize": "130mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "8",
-			"shootValue": "2+",
-			"strength": "7",
-			"defence": "7",
-			"attacks": "4",
-			"wounds": "7",
-			"courage": "6+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "3",
-			"fate": "3"
-		},
-		"wargear": [
-			{
-				"name": "Klauen und Zähne (Handwaffen)"
-			}
-		],
-		"heroicActions": [
-			"Heroisches Kanalisieren",
-			"Heroische Verteidigung",
-			"Heroische Entschlossenheit"
-		],
-		"options": [
-			{
-				"name": "A Dragon may select up to two of the following options:",
-				"type": "OPTIONAL_RULES"
-			},
-			{
-				"name": "Breathe Fire [Wargear]",
-				"cost": "50"
-			},
-			{
-				"name": "Fly [Wargear]",
-				"cost": "50"
-			},
-			{
-				"name": "Superior Intellect",
-				"cost": "50"
-			},
-			{
-				"name": "Tough Hide",
-				"cost": "50"
-			},
-			{
-				"name": "Wyrm Magic",
-				"cost": "50"
-			}
-		],
-		"specialRules": [
-			"Dominant (5)",
-			"Bote des Unheils (12\")",
-			"Großes Ziel",
-			"Monströser Ansturm",
-			"Magieresistent",
-			"Überlebensinstinkt",
-			"Entsetzlich"
-		]
-	},
-	"Dragon Cult Acolyte": {
-		"id": "dragon_cult_acolyte",
-		"version": "2024",
-		"language": "en",
-		"name": "Dragon Cult Acolyte",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "146"
-			}
-		],
-		"points": "11",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Ostling",
-			"Schwarzer Drache"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "4",
-			"attacks": "2",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Handwaffen"
-			},
-			{
-				"name": "Wurfwaffen"
-			}
-		],
-		"specialRules": [
-			"Unüberwindlich",
-			"Supreme Agility",
-			"Krieger des Drachenkults"
-		]
-	},
 	"Drár": {
 		"id": "drar",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"type": "Composition Model",
 		"name": "Drár",
 		"alignment": "Gut",
@@ -7252,10 +7253,10 @@
 			}
 		],
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Held",
@@ -7281,7 +7282,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Dwarf armour"
+				"name": "Zwergenrüstung"
 			},
 			{
 				"name": "Handwaffe"
@@ -7294,16 +7295,16 @@
 			"Heroische Zielgenauigkeit"
 		],
 		"specialRules": [
-			"Exzellenter Schütze",
 			"Bergbewohner",
+			"Exzellenter Schütze",
 			"Scharfschütze"
 		]
 	},
-	"Drûzhag the Beastcaller": {
+	"Drûzhag der Bestienrufer": {
 		"id": "druzhag",
 		"version": "2024",
-		"language": "en",
-		"name": "Drûzhag the Beastcaller",
+		"language": "de",
+		"name": "Drûzhag der Bestienrufer",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -7349,12 +7350,12 @@
 			}
 		],
 		"heroicActions": [
-			"Heroisches Kanalisieren",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroisches Kanalisieren"
 		],
 		"specialRules": [
 			"Höhlenbewohner",
-			"Master of the Dark Wild"
+			"Meister der Dunklen Wildnis"
 		],
 		"magicalPowers": [
 			{
@@ -7436,16 +7437,16 @@
 		],
 		"specialRules": [
 			"Bergbewohner",
+			"Herr des Schwarzgrundtals",
 			"Scharfschütze",
-			"Zielt auf ihre Augen!",
-			"Herr des Schwarzgrundtals"
+			"Zielt auf ihre Augen!"
 		]
 	},
-	"Durbûrz, Goblin-King of Moria": {
+	"Durbûrz, der Goblinkönig von Moria": {
 		"id": "durburz",
 		"version": "2024",
-		"language": "en",
-		"name": "Durbûrz, Goblin-King of Moria",
+		"language": "de",
+		"name": "Durbûrz, der Goblinkönig von Moria",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -7491,21 +7492,21 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
 			"Heroische Entschlossenheit",
+			"Heroische Verteidigung",
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Höhlenbewohner",
-			"Iron Fist",
-			"Callous Leadership"
+			"Eiserne Faust",
+			"Gefühllose Führung",
+			"Höhlenbewohner"
 		]
 	},
-	"Durin, King of Khazad-dûm": {
+	"Durin, König von Khazad-dûm": {
 		"id": "durin",
 		"version": "2024",
-		"language": "en",
-		"name": "Durin, King of Khazad-dûm",
+		"language": "de",
+		"name": "Durin, König von Khazad-dûm",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -7515,7 +7516,7 @@
 		],
 		"points": "170",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -7544,19 +7545,19 @@
 		},
 		"wargear": [
 			{
-				"name": "Exquisite Mithril Armour"
+				"name": "Exquisite Mithrilrüstung"
 			},
 			{
-				"name": "The Ring of Durin"
+				"name": "Durins Ring"
 			},
 			{
-				"name": "The Crown of Kings"
+				"name": "Die Krone der Könige"
 			},
 			{
-				"name": "Durin’s Axe"
+				"name": "Durins Axt"
 			},
 			{
-				"name": "The Horn of Zirakzigil"
+				"name": "Das Horn von Zirakzigil"
 			}
 		],
 		"heroicActions": [
@@ -7566,13 +7567,12 @@
 		],
 		"options": [
 			{
-				"name": "Khazâd Guard in Durin’s Warband may be upgraded to Hearthguard for +2 points per model. Hearthguard have the Burly special rule.",
-				"type": "OPTIONAL_RULES"
+				"name": "Thronwachen Aufwertung"
 			}
 		],
 		"specialRules": [
-			"Furchtlos",
-			"Anführer (Khazâd Guard)"
+			"Anführer (Khazâdwache)",
+			"Furchtlos"
 		]
 	},
 	"Düsterwald-Jagdspinne": {
@@ -7613,11 +7613,11 @@
 		},
 		"wargear": [
 			{
-				"name": "Fänge (Handwaffe)"
+				"name": "Reißzähne (Handwaffe)"
 			}
 		],
 		"specialRules": [
-			"Vergiftete Waffen (Fangs)",
+			"Vergiftete Waffen (Reißzähne)",
 			"Wie ein Schatten",
 			"Flinke Bewegung",
 			"Entsetzlich",
@@ -7638,7 +7638,7 @@
 		],
 		"points": "95",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -7700,7 +7700,7 @@
 		],
 		"points": "110",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -7750,686 +7750,11 @@
 			"The King’s Axemen"
 		]
 	},
-	"Dwarf Belagerungsbesatzung": {
-		"id": "siege_crew_dwarf",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "Dwarf Belagerungsbesatzung",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "67"
-			}
-		],
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "6",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		]
-	},
-	"Dwarf Belagerungsexperte": {
-		"id": "siege_veteran_dwarf",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "Dwarf Belagerungsexperte",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "67"
-			}
-		],
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "6",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"characteristicsHero": {
-			"might": "1",
-			"will": "1",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		]
-	},
-	"Dwarf Captain": {
-		"id": "captain_dwarf",
-		"version": "2024",
-		"language": "en",
-		"name": "Dwarf Captain",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "63"
-			}
-		],
-		"points": "65",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "5",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "8",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "5+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "1",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Schild"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"heroicActions": [
-			"Heroischer Marsch"
-		]
-	},
-	"Dwarf King": {
-		"id": "dwarf_king",
-		"version": "2024",
-		"language": "en",
-		"name": "Dwarf King",
-		"linkedProfile": [
-			"Dwarf King (Erebor)",
-			"Dwarf King (Iron Hills)",
-			"Dwarf King (Khazad-dûm)"
-		],
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of The Hobbit",
-				"page": "41"
-			}
-		],
-		"points": "85",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Siehe unten"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "8",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "2",
-			"fate": "2"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Zwergenrüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			}
-		],
-		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Entschlossenheit"
-		],
-		"specialRules": [
-			"Dwarven Lords"
-		]
-	},
-	"Dwarf King (Erebor)": {
-		"id": "dwarf_king_erebor",
-		"version": "2024",
-		"language": "en",
-		"name": "Dwarf King (Erebor)",
-		"linkedProfile": [
-			"Dwarf King"
-		],
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of The Hobbit",
-				"page": "41"
-			}
-		],
-		"points": "85",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Erebor"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "8",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "2",
-			"fate": "2"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Zwergenrüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			}
-		],
-		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Entschlossenheit"
-		],
-		"specialRules": [
-			"Ancient Enemies (Ork)"
-		]
-	},
-	"Dwarf King (Iron Hills)": {
-		"id": "dwarf_king_iron_hills",
-		"version": "2024",
-		"language": "en",
-		"name": "Dwarf King (Iron Hills)",
-		"linkedProfile": [
-			"Dwarf King"
-		],
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of The Hobbit",
-				"page": "41"
-			}
-		],
-		"points": "85",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Iron Hills"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "8",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "2",
-			"fate": "2"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Zwergenrüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			}
-		],
-		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Entschlossenheit"
-		],
-		"specialRules": [
-			"Furchtlos"
-		]
-	},
-	"Dwarf King (Khazad-dûm)": {
-		"id": "dwarf_king_khazaddum)",
-		"version": "2024",
-		"language": "en",
-		"name": "Dwarf King (Khazad-dûm)",
-		"linkedProfile": [
-			"Dwarf King"
-		],
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of The Hobbit",
-				"page": "41"
-			}
-		],
-		"points": "85",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "8",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "2",
-			"fate": "2"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Zwergenrüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			},
-			{
-				"name": "Wurfwaffen"
-			}
-		],
-		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Entschlossenheit"
-		]
-	},
-	"Dwarf Ranger": {
-		"id": "ranger_dwarf",
-		"version": "2024",
-		"language": "en",
-		"name": "Dwarf Ranger",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "65"
-			}
-		],
-		"points": "8",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "4",
-			"shootValue": "3+",
-			"strength": "3",
-			"defence": "5",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"options": [
-			{
-				"name": "Zwergenlangbogen",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Wurfwaffen",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Zweihändige Waffe",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			}
-		],
-		"specialRules": [
-			"Bergbewohner",
-			"Mountain Fighters"
-		]
-	},
-	"Dwarf Shieldbearer": {
-		"id": "dwarf_shieldbearer",
-		"version": "2024",
-		"language": "en",
-		"name": "Dwarf Shieldbearer",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Good",
-				"page": "17"
-			}
-		],
-		"points": "60",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "5",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "8",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"characteristicsHero": {
-			"might": "1",
-			"will": "0",
-			"fate": "0"
-		},
-		"wargear": [
-			{
-				"name": "Dwarf armour"
-			},
-			{
-				"name": "Schild"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Zur Verteidigung des Königs [Dwarf Shieldbearer]"
-		]
-	},
-	"Dwarf Warrior": {
-		"id": "warrior_dwarf",
-		"version": "2024",
-		"language": "en",
-		"name": "Dwarf Warrior",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "63"
-			}
-		],
-		"points": "8",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "6",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"options": [
-			{
-				"name": "Standarte",
-				"cost": "25",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Kriegshorn",
-				"cost": "25",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Zwergenbogen",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Schild",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			},
-			{
-				"name": "Zweihändige Waffe",
-				"cost": "1",
-				"type": "WARRIOR_MANDATORY"
-			}
-		]
-	},
-	"Dwarven Ballista": {
-		"id": "dwarven_ballista",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition",
-		"name": "Dwarven Ballista",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "67"
-			}
-		],
-		"note": "BESATZUNG\nA Dwarven Ballista ist eine Kleine Belagerungsmaschine, mit einer Besatzung aus zwei Dwarf Belagerungsbesatzung, wobei einer ein Belagerungsexperte ist, welche das folgende Profil verwenden:",
-		"points": "70",
-		"composition": [
-			"Dwarf Belagerungsexperte",
-			"Dwarf Belagerungsbesatzung",
-			"Dwarven Ballista (Belagerungsmaschine)"
-		]
-	},
-	"Dwarven Ballista (Belagerungsmaschine)": {
-		"id": "dwarven_ballista_siege_engine",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "Dwarven Ballista (Belagerungsmaschine)",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "67"
-			}
-		],
-		"unitTypes": [
-			"Belagerungsmaschine"
-		],
-		"baseSize": "40mm",
-		"characteristicsSiegeEngine": {
-			"range": "6\"-48\"",
-			"strength": "9",
-			"defence": "10",
-			"wounds": "3"
-		},
-		"specialRules": [
-			"Direktes Schießen",
-			"Treffsicher",
-			"Aufspießen"
-		]
-	},
-	"Dweller in the Dark": {
-		"id": "dweller_dark",
-		"version": "2024",
-		"language": "en",
-		"name": "Dweller in the Dark",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "21"
-			}
-		],
-		"points": "80",
-		"race": [
-			"Geist"
-		],
-		"faction": [
-			"Moria"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie",
-			"Monster"
-		],
-		"baseSize": "60mm",
-		"characteristics": {
-			"move": "8\"",
-			"fightValue": "7",
-			"shootValue": "4+",
-			"strength": "5",
-			"defence": "5",
-			"attacks": "3",
-			"wounds": "3",
-			"courage": "3+",
-			"intelligence": "8+"
-		},
-		"wargear": [
-			{
-				"name": "Claws and teeth (Hand weapons)"
-			}
-		],
-		"specialRules": [
-			"Dominant (3)",
-			"Magieresistent",
-			"Entsetzlich",
-			"Murderous Power"
-		]
-	},
-	"Eärnur, Last King of Gondor": {
+	"Eärnur, Letzter König von Gondor": {
 		"id": "eärnur",
 		"version": "2024",
-		"language": "en",
-		"name": "Eärnur, Last King of Gondor",
+		"language": "de",
+		"name": "Eärnur, Letzter König von Gondor",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -8478,8 +7803,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Herausforderung",
 			"Heroische Entschlossenheit",
+			"Heroische Herausforderung",
 			"Heroischer Hieb"
 		],
 		"options": [
@@ -8489,8 +7814,8 @@
 			}
 		],
 		"specialRules": [
-			"A Fool’s Challenge",
-			"Master Duellist"
+			"Eine Herausforderung für Narren",
+			"Meisterduellant"
 		]
 	},
 	"Eidsprecher der Wilden Menschen": {
@@ -8550,6 +7875,103 @@
 			"\"Wir sterben für Saruman\""
 		]
 	},
+	"Eisenschildträger": {
+		"id": "ironshield_bearer",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Eisenschildträger",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "66"
+			}
+		],
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "9",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			},
+			{
+				"name": "Eisenschild"
+			}
+		]
+	},
+	"Eisenwache": {
+		"id": "iron_guard",
+		"version": "2024",
+		"language": "de",
+		"name": "Eisenwache",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "64"
+			}
+		],
+		"points": "15",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "2",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			},
+			{
+				"name": "Wurfwaffen"
+			}
+		],
+		"specialRules": [
+			"Bergbewohner"
+		]
+	},
 	"Elendil, Hochkönig von Gondor und Arnor": {
 		"id": "elendil",
 		"version": "2024",
@@ -8601,8 +8023,8 @@
 		],
 		"heroicActions": [
 			"Heroische Herausforderung",
-			"Heroischer Hieb",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroischer Hieb"
 		],
 		"specialRules": [
 			"Hochkönig von Gondor und Arnor",
@@ -8665,9 +8087,9 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Marsch",
 			"Heroische Verteidigung",
-			"Heroische Zielgenauigkeit"
+			"Heroische Zielgenauigkeit",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -8824,8 +8246,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Hieb",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -8910,8 +8332,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Hieb",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -9115,8 +8537,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Hieb",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -9143,11 +8565,11 @@
 			"Pferdeherr"
 		]
 	},
-	"Eorl the Young": {
+	"Eorl der Junge": {
 		"id": "eorl",
 		"version": "2024",
-		"language": "en",
-		"name": "Eorl the Young",
+		"language": "de",
+		"name": "Eorl der Junge",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -9202,16 +8624,16 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
 			"Heroische Entschlossenheit",
 			"Heroische Stärke",
+			"Heroische Verteidigung",
 			"Heroischer Hieb"
 		],
 		"specialRules": [
+			"Anführer (Sohn Eorls)",
 			"Exzellenter Reiter",
+			"Held der Legende",
 			"Pferdeherr",
-			"Anführer (Son of Eorl)",
-			"Legendary Hero",
 			"Speer-Beherschung"
 		]
 	},
@@ -9263,8 +8685,8 @@
 		],
 		"heroicActions": [
 			"Heroische Entschlossenheit",
-			"Heroischer Hieb",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -9290,15 +8712,15 @@
 		],
 		"specialRules": [
 			"Exzellenter Reiter",
-			"Pferdeherr",
-			"\"Ich töte dich, wenn du ihn anrührst!\""
+			"\"Ich töte dich, wenn du ihn anrührst!\"",
+			"Pferdeherr"
 		]
 	},
-	"Erebor Dwarf Captain": {
+	"Erebor Hauptmann der Zwerge": {
 		"id": "captain_erebor_dwarf",
 		"version": "2024",
 		"language": "en",
-		"name": "Erebor Dwarf Captain",
+		"name": "Erebor Hauptmann der Zwerge",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -9308,7 +8730,7 @@
 		],
 		"points": "75",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -9349,11 +8771,11 @@
 			"Bergbewohner"
 		]
 	},
-	"Erebor Dwarf Warrior": {
+	"Erebor Krieger der Zwerge": {
 		"id": "warrior_erebor_dwarf",
 		"version": "2024",
 		"language": "en",
-		"name": "Erebor Dwarf Warrior",
+		"name": "Erebor Krieger der Zwerge",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -9363,7 +8785,7 @@
 		],
 		"points": "9",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -9529,8 +8951,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -9722,9 +9144,9 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Zielgenauigkeit",
-			"Heroische Verteidigung",
 			"Heroische Entschlossenheit",
+			"Heroische Verteidigung",
+			"Heroische Zielgenauigkeit",
 			"Heroischer Hieb"
 		],
 		"options": [
@@ -9750,10 +9172,54 @@
 			"Zauberschüler"
 		]
 	},
+	"Feindspeerträger": {
+		"id": "foespear_wielder",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Feindspeerträger",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "66"
+			}
+		],
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Feindspeer"
+			}
+		]
+	},
 	"Felaróf": {
 		"id": "felaroth",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"type": "Mount",
 		"name": "Felaróf",
 		"alignment": "Gut",
@@ -9821,11 +9287,11 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (Handwaffe)"
+				"name": "Klauen und Zähne (Handwaffe)"
 			}
 		],
 		"specialRules": [
-			"Fell Sight"
+			"Glühende Augen"
 		]
 	},
 	"Fell Warg (Beast)": {
@@ -9865,11 +9331,11 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (Handwaffe)"
+				"name": "Klauen und Zähne (Handwaffe)"
 			}
 		],
 		"specialRules": [
-			"Fell Sight"
+			"Glühende Augen"
 		]
 	},
 	"Feuerfuß": {
@@ -9925,7 +9391,7 @@
 		],
 		"points": "50",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -9985,7 +9451,7 @@
 		],
 		"points": "70",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -10092,11 +9558,59 @@
 			"Hunt Master"
 		]
 	},
-	"Flói Stonehand": {
+	"Fledermausschwarm": {
+		"id": "bat_swarm",
+		"version": "2024",
+		"language": "de",
+		"name": "Fledermausschwarm",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "119"
+			}
+		],
+		"points": "35",
+		"race": [
+			"Fledermaus"
+		],
+		"faction": [
+			"Moria"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie",
+			"Bestie",
+			"Schwarm"
+		],
+		"baseSize": "40mm",
+		"characteristics": {
+			"move": "12\"",
+			"fightValue": "1",
+			"shootValue": "6+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "2",
+			"wounds": "4",
+			"courage": "8+",
+			"intelligence": "9+"
+		},
+		"wargear": [
+			{
+				"name": "Klauen und Zähne (Handwaffen)"
+			}
+		],
+		"specialRules": [
+			"Blendender Schwarm",
+			"Fliegen [SpecialRule]",
+			"Höhlenbewohner"
+		]
+	},
+	"Flói Steinhand": {
 		"id": "floi_stonehand",
 		"version": "2024",
-		"language": "en",
-		"name": "Flói Stonehand",
+		"language": "de",
+		"name": "Flói Steinhand",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -10106,7 +9620,7 @@
 		],
 		"points": "75",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -10145,52 +9659,8 @@
 			"Heroische Entschlossenheit"
 		],
 		"specialRules": [
-			"Loremaster",
-			"The Living Lore"
-		]
-	},
-	"Foe Speer Wielder": {
-		"id": "foespear_wielder",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "Foe Speer Wielder",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "66"
-			}
-		],
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "6",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Foe Speer"
-			}
+			"Lebendiges Wissen",
+			"Meister der Lehren"
 		]
 	},
 	"Folko Boffin": {
@@ -10309,11 +9779,11 @@
 			"Herr von Lossarnach"
 		]
 	},
-	"Fráecht, Vassal of the Witch-king": {
+	"Fráecht, Vassal des Hexenkönigs": {
 		"id": "fraecht",
 		"version": "2024",
-		"language": "en",
-		"name": "Fráecht, Vassal of the Witch-king",
+		"language": "de",
+		"name": "Fráecht, Vassal des Hexenkönigs",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -10366,7 +9836,7 @@
 			"Heroische Entschlossenheit"
 		],
 		"specialRules": [
-			"Incantations of Power"
+			"Beschwörungen der Macht"
 		]
 	},
 	"Fréaláf, Erster Marschall der Riddermark": {
@@ -10603,8 +10073,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroische Verteidigung"
 		],
 		"specialRules": [
 			"Anführer (Huscarl der Dunländer)",
@@ -10693,11 +10163,11 @@
 			}
 		]
 	},
-	"Frodo of the Nine Fingers": {
+	"Frodo der Neunfingrige": {
 		"id": "frodo_nine_fingers",
 		"version": "2024",
-		"language": "en",
-		"name": "Frodo of the Nine Fingers",
+		"language": "de",
+		"name": "Frodo der Neunfingrige",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -10755,9 +10225,9 @@
 			}
 		],
 		"specialRules": [
-			"Magieresistent",
-			"\"It will never really heal\"",
-			"Home is the Hero"
+			"Der Held ist zurück",
+			"\"Es wird niemals wirklich verheilen\"",
+			"Magieresistent"
 		]
 	},
 	"Galadhrim-Ross": {
@@ -10849,8 +10319,8 @@
 		],
 		"heroicActions": [
 			"Heroische Entschlossenheit",
-			"Heroisches Kanalisieren",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -11027,8 +10497,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -11104,10 +10574,10 @@
 			}
 		],
 		"heroicActions": [
-			"Heroisches Kanalisieren",
-			"Heroische Verteidigung",
 			"Heroische Entschlossenheit",
-			"Heroischer Hieb"
+			"Heroische Verteidigung",
+			"Heroischer Hieb",
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -11226,9 +10696,9 @@
 		],
 		"heroicActions": [
 			"Heroische Entschlossenheit",
+			"Heroische Verteidigung",
 			"Heroischer Hieb",
-			"Heroisches Kanalisieren",
-			"Heroische Verteidigung"
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -11468,8 +10938,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -11565,8 +11035,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroische Entschlossenheit"
+			"Heroische Entschlossenheit",
+			"Heroische Verteidigung"
 		],
 		"specialRules": [
 			"Gerstenmann Butterblume, zu Ihren Diensten",
@@ -11626,7 +11096,7 @@
 	"Ghân-Buri-Ghân": {
 		"id": "ghan_bur_ghan",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Ghân-Buri-Ghân",
 		"alignment": "Gut",
 		"source": [
@@ -11684,9 +11154,9 @@
 			"Hass (Ork)",
 			"Hass (Uruk-hai)",
 			"Vergiftete Waffen (Blasrohr)",
-			"Wie ein Schatten",
 			"Waldbewohner",
-			"Forest Stalker"
+			"Waldpirscher",
+			"Wie ein Schatten"
 		]
 	},
 	"Giftrückenspinne": {
@@ -11735,16 +11205,16 @@
 		},
 		"wargear": [
 			{
-				"name": "Fänge (Handwaffe)"
+				"name": "Reißzähne (Handwaffe)"
 			}
 		],
 		"specialRules": [
-			"Vergiftete Waffen (Fangs)",
-			"Wie ein Schatten",
-			"Flinke Bewegung",
 			"Entsetzlich",
+			"Flinke Bewegung",
 			"Gift",
-			"Leise Jäger"
+			"Leise Jäger",
+			"Vergiftete Waffen (Reißzähne)",
+			"Wie ein Schatten"
 		]
 	},
 	"Gildor Inglorion": {
@@ -11797,10 +11267,10 @@
 			}
 		],
 		"heroicActions": [
-			"Heroisches Kanalisieren",
 			"Heroische Entschlossenheit",
+			"Heroische Verteidigung",
 			"Heroischer Marsch",
-			"Heroische Verteidigung"
+			"Heroisches Kanalisieren"
 		],
 		"options": [
 			{
@@ -11970,11 +11440,11 @@
 			}
 		]
 	},
-	"Girion, Lord of Dale": {
+	"Girion, Fürst von Thal": {
 		"id": "girion_dale",
 		"version": "2024",
 		"language": "en",
-		"name": "Girion, Lord of Dale",
+		"name": "Girion, Fürst von Thal",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -11987,7 +11457,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Dale"
+			"Thal"
 		],
 		"unitTypes": [
 			"Held",
@@ -12032,7 +11502,7 @@
 		"specialRules": [
 			"Hass (Dragon)",
 			"Windlanze Trained",
-			"Lord of Dale [Girion]"
+			"Fürst von Thal [Girion]"
 		]
 	},
 	"Glóin the Dwarf": {
@@ -12049,7 +11519,7 @@
 		],
 		"points": "85",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -12109,7 +11579,7 @@
 		],
 		"points": "100",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -12205,8 +11675,8 @@
 		"heroicActions": [
 			"Heroische Entschlossenheit",
 			"Heroische Herausforderung",
-			"Heroischer Hieb",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -12486,15 +11956,15 @@
 			}
 		],
 		"specialRules": [
-			"Tochter des Flusses",
+			"Goldbeere wartet",
 			"Sing ein fröhliches Lied [Goldbeere]",
-			"Goldbeere wartet"
+			"Tochter des Flusses"
 		]
 	},
 	"Golfimbul, Orkhauptmann": {
 		"id": "golfimbul",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Golfimbul, Orkhauptmann",
 		"alignment": "Böse",
 		"source": [
@@ -12551,7 +12021,7 @@
 			}
 		],
 		"specialRules": [
-			"Impressive Girth"
+			"Beeindruckender Umfang"
 		]
 	},
 	"Gollum": {
@@ -12714,10 +12184,10 @@
 			}
 		],
 		"specialRules": [
-			"Indirekter Beschuss",
-			"Statisch",
 			"Flächenwirkung",
-			"Mauerbrecher"
+			"Indirekter Beschuss",
+			"Mauerbrecher",
+			"Statisch"
 		]
 	},
 	"Gorbag, Orkhauptmann": {
@@ -12886,9 +12356,9 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Hieb",
 			"Heroische Stärke",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Hieb"
 		],
 		"specialRules": [
 			"Anführer (Huscarl der Dunländer)",
@@ -12945,8 +12415,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -13018,6 +12488,67 @@
 		],
 		"specialRules": [
 			"Gothmogs Rechte Hand"
+		]
+	},
+	"Grabunhold": {
+		"id": "barrowwight",
+		"version": "2024",
+		"language": "de",
+		"name": "Grabunhold",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "131"
+			}
+		],
+		"points": "50",
+		"race": [
+			"Geist"
+		],
+		"faction": [
+			"Angmar"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "5+",
+			"strength": "3",
+			"defence": "7",
+			"attacks": "1",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "0",
+			"will": "5",
+			"fate": "0"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Entsetzlich",
+			"Geisterschritt",
+			"Todesklingen"
+		],
+		"magicalPowers": [
+			{
+				"name": "Paralyse",
+				"range": "6\"",
+				"castingValue": "3+"
+			}
 		]
 	},
 	"Great Eagle (Radagast)": {
@@ -13204,7 +12735,7 @@
 		],
 		"points": "80",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -13245,7 +12776,7 @@
 			"Heroischer Marsch"
 		],
 		"specialRules": [
-			"Ancient Enemies (Ork)"
+			"Uralte Feindschaft (Ork)"
 		]
 	},
 	"Grim Hammer Warrior": {
@@ -13262,7 +12793,7 @@
 		],
 		"points": "11",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -13295,7 +12826,7 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Ork)"
+			"Uralte Feindschaft (Ork)"
 		]
 	},
 	"Gríma Schlangenzunge": {
@@ -13352,7 +12883,7 @@
 	"Grimbeorn": {
 		"id": "grimbeorn",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Grimbeorn",
 		"alignment": "Gut",
 		"source": [
@@ -13366,7 +12897,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Beorning"
+			"Beorninger"
 		],
 		"unitTypes": [
 			"Held",
@@ -13395,29 +12926,29 @@
 				"name": "Zweihändige Waffe"
 			},
 			{
-				"name": "Great bow"
+				"name": "Kriegsbogen"
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
 			"Heroische Stärke",
+			"Heroische Verteidigung",
 			"Heroischer Hieb"
 		],
 		"specialRules": [
+			"Anführer der Beorninger",
 			"Bullig",
 			"Dominant (2)",
 			"Furchtlos",
+			"Gestaltwandler [Grimbeorn]",
 			"Magieresistent",
-			"Waldbewohner",
-			"Skin-changer [Grimbeorn]",
-			"Leader of the Beornings"
+			"Waldbewohner"
 		]
 	},
-	"Grimbeorn the Bear": {
+	"Grimbeorn der Bär": {
 		"id": "grimbeorn_bear",
 		"version": "2024",
-		"language": "en",
-		"name": "Grimbeorn the Bear",
+		"language": "de",
+		"name": "Grimbeorn der Bär",
 		"linkedProfile": [
 			"Grimbeorn"
 		],
@@ -13432,7 +12963,7 @@
 			"Bear"
 		],
 		"faction": [
-			"Beorning"
+			"Beorninger"
 		],
 		"unitTypes": [
 			"Held",
@@ -13463,21 +12994,21 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
 			"Heroische Stärke",
+			"Heroische Verteidigung",
 			"Heroischer Hieb"
 		],
 		"specialRules": [
+			"Anführer der Beorninger",
 			"Bullig",
 			"Dominant (5)",
-			"Furchtlos",
-			"Monströser Ansturm",
-			"Magieresistent",
 			"Entsetzlich",
-			"Waldbewohner",
-			"Skin-changer [Grimbeorn the Bear]",
-			"Leader of the Beornings",
-			"Crushing Strength"
+			"Furchtlos",
+			"Gestaltwandler [Grimbeorn der Bär]",
+			"Magieresistent",
+			"Monströser Ansturm",
+			"Vernichtende Stärke",
+			"Waldbewohner"
 		]
 	},
 	"Grimbold von Grimslade": {
@@ -13539,6 +13070,61 @@
 		],
 		"specialRules": [
 			"Mächtiger Hieb"
+		]
+	},
+	"Grimwarg": {
+		"id": "wild_warg_chieftain",
+		"version": "2024",
+		"language": "de",
+		"name": "Grimwarg",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "134"
+			}
+		],
+		"points": "80",
+		"race": [
+			"Warg"
+		],
+		"faction": [
+			"Angmar"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Bestie"
+		],
+		"baseSize": "40mm",
+		"characteristics": {
+			"move": "10\"",
+			"fightValue": "5",
+			"shootValue": "5+",
+			"strength": "6",
+			"defence": "5",
+			"attacks": "3",
+			"wounds": "3",
+			"courage": "6+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "2",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Klauen und Zähne (Handwaffen)"
+			}
+		],
+		"heroicActions": [
+			"Heroische Stärke",
+			"Heroischer Marsch"
+		],
+		"specialRules": [
+			"Entsetzlich",
+			"Rudelführer"
 		]
 	},
 	"Grinnah, Goblin Jailer": {
@@ -13805,7 +13391,7 @@
 		],
 		"points": "12",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -13838,14 +13424,14 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Ork)"
+			"Uralte Feindschaft (Ork)"
 		]
 	},
-	"Gûlavhar, the Terror of Arnor": {
+	"Gûlavhar, Schrecken von Arnor": {
 		"id": "gulavhar",
 		"version": "2024",
-		"language": "en",
-		"name": "Gûlavhar, the Terror of Arnor",
+		"language": "de",
+		"name": "Gûlavhar, Schrecken von Arnor",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -13889,19 +13475,19 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroische Verteidigung"
 		],
 		"specialRules": [
-			"Dominant (5)",
-			"Fliegen [SpecialRule]",
 			"Bote des Unheils (12\")",
-			"Großes Ziel",
-			"Monströser Ansturm",
-			"Magieresistent",
+			"Dominant (5)",
 			"Entsetzlich",
-			"Strength of Body, Strength of Will",
-			"Immortal Hunger"
+			"Fliegen [SpecialRule]",
+			"Großes Ziel",
+			"Magieresistent",
+			"Monströser Ansturm",
+			"Stark im Körper, stark im Geist",
+			"Unstillbarer Durst"
 		]
 	},
 	"Gundabad Berserker": {
@@ -13955,8 +13541,8 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
-			"Ancient Enemies (Elf)",
+			"Uralte Feindschaft (Dwarf)",
+			"Uralte Feindschaft (Elf)",
 			"Schmerzunempfindlich"
 		]
 	},
@@ -14012,8 +13598,8 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
-			"Ancient Enemies (Elf)",
+			"Uralte Feindschaft (Dwarf)",
+			"Uralte Feindschaft (Elf)",
 			"Dominant (5)",
 			"Großes Ziel",
 			"Entsetzlich",
@@ -14064,8 +13650,8 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
-			"Ancient Enemies (Elf)",
+			"Uralte Feindschaft (Dwarf)",
+			"Uralte Feindschaft (Elf)",
 			"Dominant (3)",
 			"Entsetzlich",
 			"Relentless Advance"
@@ -14126,8 +13712,8 @@
 			"Heroischer Marsch"
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
-			"Ancient Enemies (Elf)"
+			"Uralte Feindschaft (Dwarf)",
+			"Uralte Feindschaft (Elf)"
 		]
 	},
 	"Gundabad Orc Warrior": {
@@ -14175,7 +13761,7 @@
 		],
 		"options": [
 			{
-				"name": "Banner and shield",
+				"name": "Standarte und Schild",
 				"cost": "26",
 				"type": "WARRIOR_MANDATORY"
 			},
@@ -14196,8 +13782,8 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
-			"Ancient Enemies (Elf)"
+			"Uralte Feindschaft (Dwarf)",
+			"Uralte Feindschaft (Elf)"
 		]
 	},
 	"Gundabad Troll": {
@@ -14251,8 +13837,8 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
-			"Ancient Enemies (Elf)",
+			"Uralte Feindschaft (Dwarf)",
+			"Uralte Feindschaft (Elf)",
 			"Dominant (4)",
 			"Großes Ziel",
 			"Entsetzlich"
@@ -14435,8 +14021,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Hieb",
-			"Heroische Zielgenauigkeit"
+			"Heroische Zielgenauigkeit",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -14551,9 +14137,9 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Hieb",
 			"Heroische Stärke",
-			"Heroische Zielgenauigkeit"
+			"Heroische Zielgenauigkeit",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -14818,8 +14404,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroische Zielgenauigkeit",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroische Zielgenauigkeit"
 		],
 		"options": [
 			{
@@ -14828,16 +14414,16 @@
 			}
 		],
 		"specialRules": [
+			"Der Kriegerpoet",
 			"Exzellenter Reiter",
 			"Pferdeherr",
-			"Scharfschütze",
-			"Der Kriegerpoet"
+			"Scharfschütze"
 		]
 	},
 	"Hamfast 'Der Alte Ohm' Gamdschie": {
 		"id": "hamfast_gamgee",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Hamfast 'Der Alte Ohm' Gamdschie",
 		"alignment": "Gut",
 		"source": [
@@ -14939,8 +14525,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Hieb",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Hieb"
 		],
 		"specialRules": [
 			"Fluch der Könige",
@@ -15181,8 +14767,8 @@
 			}
 		],
 		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -15266,6 +14852,67 @@
 		],
 		"specialRules": [
 			"Hass (Rohan)"
+		]
+	},
+	"Häuptling von Khand": {
+		"id": "chieftain_kandish",
+		"version": "2024",
+		"language": "de",
+		"name": "Häuptling von Khand",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "36"
+			}
+		],
+		"points": "55",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Khand"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "5",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			},
+			{
+				"name": "Bogen"
+			}
+		],
+		"heroicActions": [
+			"Heroischer Marsch"
+		],
+		"options": [
+			{
+				"name": "Pferd",
+				"cost": "20"
+			}
 		]
 	},
 	"Hauptmann der Galadhrim": {
@@ -15627,8 +15274,8 @@
 			"Heroischer Marsch"
 		],
 		"specialRules": [
-			"Höhlenbewohner",
-			"Hass (Zwerg)"
+			"Hass (Zwerg)",
+			"Höhlenbewohner"
 		]
 	},
 	"Hauptmann der Ostlinge": {
@@ -15860,10 +15507,65 @@
 			"Waldbewohner"
 		]
 	},
+	"Hauptmann der Zwerge": {
+		"id": "captain_dwarf",
+		"version": "2024",
+		"language": "de",
+		"name": "Hauptmann der Zwerge",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "63"
+			}
+		],
+		"points": "65",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "8",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "5+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Schild"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"heroicActions": [
+			"Heroischer Marsch"
+		]
+	},
 	"Hauptmann von Arnor": {
 		"id": "captain_arnor",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Hauptmann von Arnor",
 		"alignment": "Gut",
 		"source": [
@@ -15921,7 +15623,7 @@
 	"Hauptmann von Carn Dûm": {
 		"id": "captain_carndum",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Hauptmann von Carn Dûm",
 		"alignment": "Böse",
 		"source": [
@@ -15974,7 +15676,7 @@
 			"Heroischer Marsch"
 		],
 		"specialRules": [
-			"Glory Seekers"
+			"Ruhmsucher"
 		]
 	},
 	"Hauptmann von Dale": {
@@ -15994,7 +15696,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Dale"
+			"Thal"
 		],
 		"unitTypes": [
 			"Held",
@@ -16283,66 +15985,6 @@
 			"Pferdeherr"
 		]
 	},
-	"Hearthguard": {
-		"id": "hearthguard",
-		"version": "2024",
-		"language": "en",
-		"name": "Hearthguard",
-		"linkedProfile": [
-			"Durin, King of Khazad-dûm",
-			"Khazâd Guard"
-		],
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "61"
-			},
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "64"
-			}
-		],
-		"points": "14",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie",
-			"Elite"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "5",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "7",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Zwergenrüstung"
-			},
-			{
-				"name": "Zweihändige Waffe"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Leibwächter",
-			"Bullig"
-		]
-	},
 	"Helm Hammerhand, Geist der Hornburg": {
 		"id": "helm_hammerhand_wraith",
 		"version": "2024",
@@ -16465,8 +16107,8 @@
 		],
 		"heroicActions": [
 			"Heroische Herausforderung",
-			"Heroischer Hieb",
-			"Heroische Stärke"
+			"Heroische Stärke",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -16478,8 +16120,8 @@
 			"Anführer (Königliche Wache von Rohan)",
 			"Bullig",
 			"Die Hammerhand",
-			"Ins Getümmel",
 			"Exzellenter Reiter",
+			"Ins Getümmel",
 			"Pferdeherr"
 		]
 	},
@@ -16616,8 +16258,8 @@
 		],
 		"heroicActions": [
 			"Heroische Herausforderung",
-			"Heroischer Hieb",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -16686,8 +16328,8 @@
 		],
 		"heroicActions": [
 			"Heroische Entschlossenheit",
-			"Heroischer Hieb",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroischer Hieb"
 		],
 		"options": [
 			{
@@ -16701,12 +16343,12 @@
 			"Tochter Rohans"
 		]
 	},
-	"Herald": {
+	"Herold": {
 		"id": "herald",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"type": "Composition Model",
-		"name": "Herald",
+		"name": "Herold",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -16715,7 +16357,7 @@
 			}
 		],
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -16743,7 +16385,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Dwarf armour"
+				"name": "Zwergenrüstung"
 			},
 			{
 				"name": "Schild"
@@ -16756,8 +16398,8 @@
 			}
 		],
 		"specialRules": [
-			"The Herald’s Duty",
-			"The Life Guard"
+			"Der Lebenswächter",
+			"Des Herolds Pflicht"
 		]
 	},
 	"Herold der Toten": {
@@ -16932,58 +16574,10 @@
 			"\"Stand by our Men!\""
 		]
 	},
-	"Hill Troll": {
-		"id": "hill_troll",
-		"version": "2024",
-		"language": "en",
-		"name": "Hill Troll",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "127"
-			}
-		],
-		"points": "75",
-		"race": [
-			"Troll"
-		],
-		"faction": [
-			"Angmar"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie",
-			"Monster"
-		],
-		"baseSize": "50mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "6",
-			"defence": "6",
-			"attacks": "3",
-			"wounds": "3",
-			"courage": "7+",
-			"intelligence": "7+"
-		},
-		"wargear": [
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Dominant (3)",
-			"Entsetzlich",
-			"Steine werfen (Reichweite 12\", Strength 8)",
-			"Brutish Cunning"
-		]
-	},
 	"Hobbitbogenschütze": {
 		"id": "hobbit_archer",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Hobbitbogenschütze",
 		"alignment": "Gut",
 		"source": [
@@ -17126,6 +16720,70 @@
 			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
+	"Höhlendrache": {
+		"id": "cave_drake",
+		"version": "2024",
+		"language": "de",
+		"name": "Höhlendrache",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "123"
+			}
+		],
+		"points": "150",
+		"race": [
+			"Drachenartig"
+		],
+		"faction": [
+			"Moria"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Monster",
+			"Bestie"
+		],
+		"baseSize": "100mm",
+		"characteristics": {
+			"move": "8\"",
+			"fightValue": "7",
+			"shootValue": "5+",
+			"strength": "7",
+			"defence": "7",
+			"attacks": "4",
+			"wounds": "6",
+			"courage": "6+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "3",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Klauen und Zähne (Handwaffen)"
+			}
+		],
+		"heroicActions": [
+			"Heroische Verteidigung"
+		],
+		"specialRules": [
+			"Bergbewohner",
+			"Dominant (4)",
+			"Entsetzlich",
+			"Großes Ziel",
+			"Höhlenbewohner",
+			"In die Enge getriebenes Biest",
+			"Klaffendes Maul",
+			"Magieresistent",
+			"Monströser Ansturm",
+			"Schutz des Nests",
+			"Waldbewohner"
+		]
+	},
 	"Höhlentroll": {
 		"id": "cave_troll",
 		"version": "2024",
@@ -17185,11 +16843,11 @@
 			"Steine werfen (Reichweite 12\", Strength 8)"
 		]
 	},
-	"Holfoot Bracegirdle, Shirriff-Leader": {
+	"Holfuß Straffgürtel, Anführer der Landbüttel": {
 		"id": "holfoot_bracegirdle",
 		"version": "2024",
-		"language": "en",
-		"name": "Holfoot Bracegirdle, Shirriff-Leader",
+		"language": "de",
+		"name": "Holfuß Straffgürtel, Anführer der Landbüttel",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -17237,8 +16895,8 @@
 		"specialRules": [
 			"Anführer (Hobbit-Landbüttel)",
 			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"Head Shirriff"
+			"Oberster Landbüttel",
+			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
 	"Howdah (Große Gorgoroth-Bestie)": {
@@ -17572,7 +17230,7 @@
 			}
 		],
 		"specialRules": [
-			"Zur Verteidigung des Königs [Húrin]",
+			"Verteidigt den König [Húrin]",
 			"Befehlskette"
 		]
 	},
@@ -17748,56 +17406,6 @@
 			"Verteidigt die Weiße Stadt"
 		]
 	},
-	"Iron Guard": {
-		"id": "iron_guard",
-		"version": "2024",
-		"language": "en",
-		"name": "Iron Guard",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "64"
-			}
-		],
-		"points": "15",
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "6",
-			"attacks": "2",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			},
-			{
-				"name": "Wurfwaffen"
-			}
-		],
-		"specialRules": [
-			"Bergbewohner"
-		]
-	},
 	"Iron Hills Ballista": {
 		"id": "ironhills_ballista",
 		"version": "2024",
@@ -17863,10 +17471,10 @@
 			}
 		],
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Krieger",
@@ -17907,10 +17515,10 @@
 			}
 		],
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Held",
@@ -17956,10 +17564,10 @@
 		],
 		"points": "80",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Held",
@@ -18029,15 +17637,16 @@
 				"page": "31"
 			}
 		],
+		"points": "170",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Krieger",
-			"Chariot"
+			"Streitwagen"
 		],
 		"baseSize": "170mm oval",
 		"characteristics": {
@@ -18082,10 +17691,10 @@
 		],
 		"points": "20",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Krieger",
@@ -18139,10 +17748,10 @@
 		],
 		"points": "10",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Krieger",
@@ -18170,7 +17779,7 @@
 		],
 		"options": [
 			{
-				"name": "Banner and shield",
+				"name": "Standarte und Schild",
 				"cost": "26",
 				"type": "WARRIOR_MANDATORY"
 			},
@@ -18197,53 +17806,6 @@
 		],
 		"specialRules": [
 			"Schildwall"
-		]
-	},
-	"Iron Shield Bearer": {
-		"id": "ironshield_bearer",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "Iron Shield Bearer",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "66"
-			}
-		],
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "9",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			},
-			{
-				"name": "Iron Shield"
-			}
 		]
 	},
 	"Isengart-Belagerungsballista": {
@@ -18865,6 +18427,58 @@
 			"Monströser Ansturm"
 		]
 	},
+	"Kaiserliche Sänfte": {
+		"id": "palanquin",
+		"version": "2024",
+		"language": "de",
+		"type": "Mount",
+		"name": "Kaiserliche Sänfte",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "141"
+			}
+		],
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Ostling"
+		],
+		"unitTypes": [
+			"Reittier"
+		],
+		"baseSize": "80mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "6",
+			"attacks": "*",
+			"wounds": "6",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Schilde"
+			},
+			{
+				"name": "Handwaffen"
+			}
+		],
+		"specialRules": [
+			"Die Sänfte",
+			"Im Namen des Drachenkaisers",
+			"Standarten des Kaisers",
+			"Von der Sänfte aus kämpfen"
+		]
+	},
 	"Kankra": {
 		"id": "shelob",
 		"version": "2024",
@@ -18910,7 +18524,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Fänge (Handwaffe)"
+				"name": "Reißzähne (Handwaffe)"
 			}
 		],
 		"specialRules": [
@@ -19227,348 +18841,11 @@
 			}
 		]
 	},
-	"Khandish Chariot": {
-		"id": "chariot_khand",
-		"version": "2024",
-		"language": "en",
-		"type": "Chariot",
-		"alias": [
-			"Khandish Chariot (If the Khandish King dismounts, remove the Khandish Chariot from play)"
-		],
-		"name": "Khandish Chariot",
-		"linkedProfile": [
-			"Khandish King"
-		],
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "35"
-			}
-		],
-		"race": [
-			"Pferd"
-		],
-		"faction": [
-			"Khand"
-		],
-		"unitTypes": [
-			"Chariot"
-		],
-		"baseSize": "60mm",
-		"characteristics": {
-			"move": "10\"",
-			"fightValue": "2",
-			"shootValue": "6+",
-			"strength": "3",
-			"defence": "7",
-			"attacks": "1",
-			"wounds": "3",
-			"courage": "7+",
-			"intelligence": "7+"
-		},
-		"specialRules": [
-			"Dominant (3)",
-			"Streitwagenansturm [Khandish Chariot]"
-		]
-	},
-	"Khandish Charioteer": {
-		"id": "charioteer_kandish",
-		"version": "2024",
-		"language": "en",
-		"name": "Khandish Charioteer",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "37"
-			}
-		],
-		"points": "40",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Khand"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Chariot"
-		],
-		"baseSize": "60mm",
-		"characteristics": {
-			"move": "10\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "7",
-			"attacks": "1",
-			"wounds": "3",
-			"courage": "7+",
-			"intelligence": "7+"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"options": [
-			{
-				"name": "Exchange Hand-and-a-half weapon for a bow",
-				"cost": "Kostenlos",
-				"type": "WARRIOR_OPTIONAL"
-			}
-		],
-		"specialRules": [
-			"Dominant (3)",
-			"Streitwagenansturm [Khandish Charioteer]"
-		]
-	},
-	"Khandish Chieftain": {
-		"id": "chieftain_kandish",
-		"version": "2024",
-		"language": "en",
-		"name": "Khandish Chieftain",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "36"
-			}
-		],
-		"points": "55",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Khand"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "5",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "5",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "1",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			},
-			{
-				"name": "Bogen"
-			}
-		],
-		"heroicActions": [
-			"Heroischer Marsch"
-		],
-		"options": [
-			{
-				"name": "Pferd",
-				"cost": "20"
-			}
-		]
-	},
-	"Khandish Horseman": {
-		"id": "horseman_kandish",
-		"version": "2024",
-		"language": "en",
-		"name": "Khandish Horseman",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "37"
-			}
-		],
-		"points": "14",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Khand"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Kavallerie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "4",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "7+",
-			"intelligence": "7+"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			},
-			{
-				"name": "Handwaffe"
-			},
-			{
-				"name": "Bogen"
-			},
-			{
-				"name": "Pferd"
-			}
-		]
-	},
-	"Khandish King": {
-		"id": "king_kandish",
-		"version": "2024",
-		"language": "en",
-		"name": "Khandish King",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "35"
-			}
-		],
-		"points": "100",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Khand"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "5",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "6",
-			"attacks": "3",
-			"wounds": "2",
-			"courage": "5+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "2",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			},
-			{
-				"name": "Bogen"
-			}
-		],
-		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Entschlossenheit",
-			"Heroischer Hieb"
-		],
-		"options": [
-			{
-				"name": "Khandish Chariot (If the Khandish King dismounts, remove the Khandish Chariot from play)",
-				"cost": "35"
-			}
-		],
-		"specialRules": [
-			"Commanding Presence"
-		]
-	},
-	"Khandish Warrior": {
-		"id": "warrior_kandish",
-		"version": "2024",
-		"language": "en",
-		"name": "Khandish Warrior",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "36"
-			}
-		],
-		"points": "8",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Khand"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "4",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "7+",
-			"intelligence": "7+"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Anderthalbhänderwaffe"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"options": [
-			{
-				"name": "Exchange Hand-and-a-half weapon for a bow",
-				"cost": "Kostenlos",
-				"type": "WARRIOR_OPTIONAL"
-			}
-		]
-	},
-	"Khazâd Guard": {
+	"Khazâdwache": {
 		"id": "khazad_guard",
 		"version": "2024",
-		"language": "en",
-		"name": "Khazâd Guard",
+		"language": "de",
+		"name": "Khazâdwache",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -19578,7 +18855,7 @@
 		],
 		"points": "12",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Khazad-dûm"
@@ -19629,7 +18906,7 @@
 		],
 		"points": "50",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -19689,7 +18966,7 @@
 		],
 		"points": "70",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -19731,82 +19008,6 @@
 		"specialRules": [
 			"Eidwache (Thorin)",
 			"Combat Synergy [Champion]"
-		]
-	},
-	"King’s Champion": {
-		"id": "kings_champion",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition",
-		"name": "King’s Champion",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Good",
-				"page": "16"
-			}
-		],
-		"note": "A King’s Champion is made up of one King’s Champion and two Heralds, and will count as three models. The King’s Champion is always the Hauptmann von the Warband with the two Heralds as its Followers taking up the first spaces in the King’s Champion’s Warband; Heralds always count as an Independent Hero in the King’s Champion’s Warband.",
-		"points": "140",
-		"composition": [
-			"King’s Champion (Held)",
-			"Herald"
-		]
-	},
-	"King’s Champion (Held)": {
-		"id": "kings_champion_hero",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "King’s Champion (Held)",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Good",
-				"page": "16"
-			}
-		],
-		"race": [
-			"Dwarf"
-		],
-		"faction": [
-			"Khazad-dûm"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "6",
-			"shootValue": "4+",
-			"strength": "5",
-			"defence": "7",
-			"attacks": "3",
-			"wounds": "2",
-			"courage": "5+",
-			"intelligence": "6+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "1",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Dwarf armour"
-			},
-			{
-				"name": "Handwaffen"
-			}
-		],
-		"heroicActions": [
-			"Heroische Stärke",
-			"Heroischer Hieb"
-		],
-		"specialRules": [
-			"The Herald’s Duty"
 		]
 	},
 	"Klankrieger von Lamedon": {
@@ -20163,7 +19364,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Dale"
+			"Thal"
 		],
 		"unitTypes": [
 			"Held",
@@ -20457,6 +19658,72 @@
 			"Anführer (Königliche Wache von Rohan)",
 			"Exzellenter Reiter",
 			"Pferdeherr"
+		]
+	},
+	"König von Khand": {
+		"id": "king_kandish",
+		"version": "2024",
+		"language": "de",
+		"name": "König von Khand",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "35"
+			}
+		],
+		"points": "100",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Khand"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "3",
+			"wounds": "2",
+			"courage": "5+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "2",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			},
+			{
+				"name": "Bogen"
+			}
+		],
+		"heroicActions": [
+			"Heroischer Marsch",
+			"Heroische Entschlossenheit",
+			"Heroischer Hieb"
+		],
+		"options": [
+			{
+				"name": "Streitwagen von Khand (Wenn der König von Khand absitzt, entferne den Streitwagen von Khand aus dem Spiel)",
+				"cost": "35"
+			}
+		],
+		"specialRules": [
+			"Inspirierender Anführer"
 		]
 	},
 	"Königliche Wache von Rohan": {
@@ -21479,10 +20746,81 @@
 			"Waldbewohner"
 		]
 	},
+	"Krieger der Zwerge": {
+		"id": "warrior_dwarf",
+		"version": "2024",
+		"language": "de",
+		"name": "Krieger der Zwerge",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "63"
+			}
+		],
+		"points": "8",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "6",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"options": [
+			{
+				"name": "Standarte",
+				"cost": "25",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Kriegshorn",
+				"cost": "25",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Zwergenbogen",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Schild",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Zweihändige Waffe",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			}
+		]
+	},
 	"Krieger von Arnor": {
 		"id": "warrior_arnor",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Krieger von Arnor",
 		"alignment": "Gut",
 		"source": [
@@ -21542,7 +20880,7 @@
 	"Krieger von Carn Dûm": {
 		"id": "warrior_carndum",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Krieger von Carn Dûm",
 		"alignment": "Böse",
 		"source": [
@@ -21599,7 +20937,7 @@
 			}
 		],
 		"specialRules": [
-			"Glory Seekers"
+			"Ruhmsucher"
 		]
 	},
 	"Krieger von Dale": {
@@ -21619,7 +20957,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Dale"
+			"Thal"
 		],
 		"unitTypes": [
 			"Krieger",
@@ -21757,6 +21095,60 @@
 		"specialRules": [
 			"Krieger von Hagtal",
 			"Speer-Beherschung"
+		]
+	},
+	"Krieger von Khand": {
+		"id": "warrior_kandish",
+		"version": "2024",
+		"language": "de",
+		"name": "Krieger von Khand",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "36"
+			}
+		],
+		"points": "8",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Khand"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"options": [
+			{
+				"name": "Tausche Anderthalbhänderwaffe gegen Bogen",
+				"cost": "Kostenlos",
+				"type": "WARRIOR_OPTIONAL"
+			}
 		]
 	},
 	"Krieger von Minas Tirith": {
@@ -21966,6 +21358,57 @@
 		],
 		"specialRules": [
 			"Speer-Beherschung"
+		]
+	},
+	"Kriegsdrache von Rhûn": {
+		"id": "war_drake",
+		"version": "2024",
+		"language": "de",
+		"name": "Kriegsdrache von Rhûn",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "149"
+			}
+		],
+		"points": "20",
+		"race": [
+			"Drachenartig"
+		],
+		"faction": [
+			"Ostling"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie",
+			"Bestie"
+		],
+		"baseSize": "40mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "6+",
+			"strength": "4",
+			"defence": "5",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "6+",
+			"intelligence": "9+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Klauen und Zähne (Handwaffen)"
+			}
+		],
+		"specialRules": [
+			"Dominant (2)",
+			"Entsetzlich",
+			"Gift",
+			"Langsam wirkendes Gift"
 		]
 	},
 	"Kriegskamel": {
@@ -22805,7 +22248,7 @@
 	"Lotho Sackheim-Beutlin": {
 		"id": "lotho_Sackheim_baggins",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Lotho Sackheim-Beutlin",
 		"alignment": "Gut",
 		"source": [
@@ -22988,6 +22431,64 @@
 				"name": "Waldbewohner",
 				"armylist": "Die Gefährten"
 			}
+		]
+	},
+	"Lutz Farning": {
+		"id": "bill_ferny",
+		"version": "2024",
+		"language": "de",
+		"name": "Lutz Farning",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "112"
+			}
+		],
+		"points": "40",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Strolch"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "4",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Handwaffe"
+			},
+			{
+				"name": "Peitsche"
+			}
+		],
+		"heroicActions": [
+			"Heroische Herausforderung"
+		],
+		"specialRules": [
+			"Hass (Hobbit)",
+			"\"Legt sie in Ketten\"",
+			"Scharkas Spion"
 		]
 	},
 	"Maat der Korsaren": {
@@ -23179,11 +22680,11 @@
 			"Waldbewohner"
 		]
 	},
-	"Malbeth the Seer": {
+	"Malbeth der Seher": {
 		"id": "malbeth",
 		"version": "2024",
-		"language": "en",
-		"name": "Malbeth the Seer",
+		"language": "de",
+		"name": "Malbeth der Seher",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -23229,15 +22730,15 @@
 			"Heroische Entschlossenheit"
 		],
 		"specialRules": [
-			"Gift of Foresight",
+			"Gabe der Vorsehung",
 			"Weitsicht der Eldar"
 		]
 	},
-	"Mardin, the King’s Ward": {
+	"Mardin, Beschützer des Königs": {
 		"id": "mardin",
 		"version": "2024",
-		"language": "en",
-		"name": "Mardin, the King’s Ward",
+		"language": "de",
+		"name": "Mardin, Beschützer des Königs",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -23287,8 +22788,8 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Eidwache (Durin)",
-			"Durin’s Protector"
+			"Durins Beschützer",
+			"Eidwache (Durin)"
 		]
 	},
 	"Marschall der Schwarzen Númenórer": {
@@ -23537,11 +23038,11 @@
 			}
 		]
 	},
-	"Meriadoc Brandybock, Hauptmann von the Shire": {
+	"Meriadoc Brandybock, Hauptmann des Auenlandes": {
 		"id": "meriadoc_brandybuck_captain",
 		"version": "2024",
-		"language": "en",
-		"name": "Meriadoc Brandybock, Hauptmann von the Shire",
+		"language": "de",
+		"name": "Meriadoc Brandybock, Hauptmann des Auenlandes",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -23589,13 +23090,13 @@
 				"name": "Pony"
 			},
 			{
-				"name": "Horn of the Riddermark"
+				"name": "Horn der Riddermark"
 			}
 		],
 		"heroicActions": [
 			"Heroische Herausforderung",
-			"Heroischer Marsch",
-			"Heroischer Hieb"
+			"Heroischer Hieb",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -23607,8 +23108,7 @@
 				"cost": "5"
 			},
 			{
-				"name": "If your Army includes Merry, you may upgrade any number of Hobbit Militia in his Warband to Batllin’ Brandybucks at the cost of +1 point per model. Battlin’ Brandybucks have a Strength of 3.",
-				"type": "OPTIONAL_RULES"
+				"name": "Streitbare Brandybocks Aufwertung"
 			}
 		],
 		"specialRules": [
@@ -23994,11 +23494,11 @@
 		},
 		"wargear": [
 			{
-				"name": "Fänge (Handwaffe)"
+				"name": "Reißzähne (Handwaffe)"
 			}
 		],
 		"specialRules": [
-			"Vergiftete Waffen (Fangs)",
+			"Vergiftete Waffen (Reißzähne)",
 			"Flinke Bewegung",
 			"Entsetzlich",
 			"Spider Webs"
@@ -25305,77 +24805,6 @@
 			"Höhlenbewohner"
 		]
 	},
-	"Moria Goblin Drum": {
-		"id": "moria_goblin_drum",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition",
-		"name": "Moria Goblin Drum",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "121"
-			}
-		],
-		"note": "A Moria Goblin Drum is always purchased as two Moria Goblin Drummers, which count as two models. Moria Goblin Drummers use the profile below:",
-		"points": "75",
-		"specialRules": [
-			"Moria Goblin Drum",
-			"Drums in the Deep",
-			"Die Trommel aufheben [Moria Goblin Drum]"
-		],
-		"composition": [
-			"Moria Goblin Drummer"
-		]
-	},
-	"Moria Goblin Drummer": {
-		"id": "moria_goblin_drummer",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "Moria Goblin Drummer",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "121"
-			}
-		],
-		"race": [
-			"Goblin"
-		],
-		"faction": [
-			"Moria"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "5\"",
-			"fightValue": "2",
-			"shootValue": "5+",
-			"strength": "3",
-			"defence": "4",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "8+",
-			"intelligence": "8+"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Höhlenbewohner"
-		]
-	},
 	"Moria-Goblinkrieger": {
 		"id": "warrior_moria_goblin",
 		"version": "2024",
@@ -25786,7 +25215,7 @@
 	"Múrin": {
 		"id": "murin",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"type": "Composition Model",
 		"name": "Múrin",
 		"alignment": "Gut",
@@ -25797,10 +25226,10 @@
 			}
 		],
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
-			"Iron Hills"
+			"Eisenberge"
 		],
 		"unitTypes": [
 			"Held",
@@ -25826,7 +25255,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Dwarf armour"
+				"name": "Zwergenrüstung"
 			},
 			{
 				"name": "Schild"
@@ -25845,7 +25274,7 @@
 	"Múrin & Drár": {
 		"id": "murin_drar",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"type": "Composition",
 		"name": "Múrin & Drár",
 		"alignment": "Gut",
@@ -25855,18 +25284,18 @@
 				"page": "18"
 			}
 		],
-		"note": "If you include Múrin & Drár in your Army, then each of them may lead their own Warband. Both Múrin & Drár will count as separate Hero models for the purpose of any special rules.",
-		"points": "140 Points for Both",
+		"note": "Wenn du Múrin und Drár in deine Armee aufnimmst, kann jeder von ihnen seine eigene Kriegerschar anführen. Múrin und Drár gelten für alle Sonderregeln als separate Helden-Modelle.",
+		"points": "140 Punkte für Beide",
 		"composition": [
 			"Múrin",
 			"Drár"
 		]
 	},
-	"Muzgúr, Orc Shaman": {
+	"Muzgúr, Orkschamane": {
 		"id": "muzgur",
 		"version": "2024",
-		"language": "en",
-		"name": "Muzgúr, Orc Shaman",
+		"language": "de",
+		"name": "Muzgúr, Orkschamane",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -25915,11 +25344,11 @@
 			}
 		],
 		"heroicActions": [
-			"Heroisches Kanalisieren",
-			"Heroische Verteidigung"
+			"Heroische Verteidigung",
+			"Heroisches Kanalisieren"
 		],
 		"specialRules": [
-			"Power from Death"
+			"Macht aus dem Tod"
 		],
 		"magicalPowers": [
 			{
@@ -26053,7 +25482,8 @@
 		},
 		"wargear": [
 			{
-				"name": "Each Nazgûl of Dol Guldur has their own Wargear and special rules as detailed over the linked Profiles"
+				"name": "Each Nazgûl of Dol Guldur has their own Wargear and special rules as detailed over the linked Profiles",
+				"type": "OPTIONAL_RULES"
 			}
 		],
 		"heroicActions": [
@@ -26516,7 +25946,7 @@
 	"Nazthák, Orkhauptmann": {
 		"id": "nazthak",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Nazthák, Orkhauptmann",
 		"alignment": "Böse",
 		"source": [
@@ -26566,7 +25996,7 @@
 			"Heroische Verteidigung"
 		],
 		"specialRules": [
-			"Scavenge"
+			"Plündern"
 		]
 	},
 	"Nori the Dwarf": {
@@ -26583,7 +26013,7 @@
 		],
 		"points": "55",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -26643,7 +26073,7 @@
 		],
 		"points": "75",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -26707,7 +26137,7 @@
 		],
 		"points": "50",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -26764,7 +26194,7 @@
 		],
 		"points": "60",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -26897,7 +26327,7 @@
 		],
 		"points": "40",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Thorin’s Company"
@@ -26952,7 +26382,7 @@
 		],
 		"points": "50",
 		"race": [
-			"Dwarf"
+			"Zwerg"
 		],
 		"faction": [
 			"Erebor"
@@ -27051,8 +26481,8 @@
 			"Heroischer Marsch"
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
-			"Ancient Enemies (Elf)"
+			"Uralte Feindschaft (Dwarf)",
+			"Uralte Feindschaft (Elf)"
 		]
 	},
 	"Orkmeister (Große Gorgoroth-Bestie)": {
@@ -27595,7 +27025,7 @@
 	"Peregrin Tuk, Hauptmann des Auenlandes": {
 		"id": "peregrin_took_captain",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Peregrin Tuk, Hauptmann des Auenlandes",
 		"alignment": "Gut",
 		"source": [
@@ -27646,8 +27076,8 @@
 		],
 		"heroicActions": [
 			"Heroische Zielgenauigkeit",
-			"Heroischer Marsch",
-			"Heroischer Hieb"
+			"Heroischer Hieb",
+			"Heroischer Marsch"
 		],
 		"options": [
 			{
@@ -27655,14 +27085,13 @@
 				"cost": "5"
 			},
 			{
-				"name": "If your Army includes Pippin, you may upgrade any number of Hobbit Archers in his Warband to Tookish Hunters at the cost of +1 point per model. Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
-				"type": "OPTIONAL_RULES"
+				"name": "Tuksche Jäger Aufwertung"
 			}
 		],
 		"specialRules": [
+			"Allen Widrigkeiten zum Trotz",
 			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"Against all odds"
+			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
 	"Peregrin Tuk, Wache der Veste": {
@@ -27855,7 +27284,7 @@
 	"Pony": {
 		"id": "pony",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"type": "Mount",
 		"name": "Pony",
 		"alignment": "Gut",
@@ -27887,7 +27316,7 @@
 			"intelligence": "7+"
 		},
 		"specialRules": [
-			"Timid"
+			"Scheu"
 		]
 	},
 	"Prinz Imrahil von Dol Amroth": {
@@ -28117,7 +27546,7 @@
 			"Siehe Reiter"
 		],
 		"unitTypes": [
-			"Chariot"
+			"Streitwagen"
 		],
 		"baseSize": "120mm oval",
 		"characteristics": {
@@ -28197,11 +27626,11 @@
 			"Fluch der Könige"
 		]
 	},
-	"Razgûsh, War Leader of the North": {
+	"Razgûsh, Heerführer des Nordens": {
 		"id": "razgush",
 		"version": "2024",
-		"language": "en",
-		"name": "Razgûsh, War Leader of the North",
+		"language": "de",
+		"name": "Razgûsh, Heerführer des Nordens",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -28243,7 +27672,7 @@
 				"name": "Schwere Rüstung"
 			},
 			{
-				"name": "Bone-breaker"
+				"name": "Knochenbrecher"
 			},
 			{
 				"name": "Schild"
@@ -28254,10 +27683,10 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Elfbane",
+			"Die Bestien des Düsterwalds",
+			"Elbfluch",
 			"Hass (Elf)",
-			"The Beasts of Mirkwood",
-			"War Leader of the North"
+			"Heerführer des Nordens"
 		]
 	},
 	"Reiter der Dunländer": {
@@ -28504,6 +27933,59 @@
 			"Entsetzlich",
 			"Geisterschritt",
 			"Todesklingen"
+		]
+	},
+	"Reiter von Khand": {
+		"id": "horseman_kandish",
+		"version": "2024",
+		"language": "de",
+		"name": "Reiter von Khand",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "37"
+			}
+		],
+		"points": "14",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Khand"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Kavallerie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			},
+			{
+				"name": "Handwaffe"
+			},
+			{
+				"name": "Bogen"
+			},
+			{
+				"name": "Pferd"
+			}
 		]
 	},
 	"Reiter von Rohan": {
@@ -29191,7 +28673,7 @@
 	"Ritter von Arnor": {
 		"id": "knight_arnor",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Ritter von Arnor",
 		"alignment": "Gut",
 		"source": [
@@ -29315,59 +28797,6 @@
 		"specialRules": [
 			"Exzellenter Reiter",
 			"Waldbewohner"
-		]
-	},
-	"Ritter von Dale": {
-		"id": "knight_dale",
-		"version": "2024",
-		"language": "en",
-		"name": "Ritter von Dale",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "51"
-			}
-		],
-		"points": "11",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Dale"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "6",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "6+",
-			"intelligence": "7+"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Schild"
-			},
-			{
-				"name": "Speer"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Wall of Blades"
 		]
 	},
 	"Ritter von Dol Amroth": {
@@ -29510,60 +28939,57 @@
 			"Schildwall"
 		]
 	},
-	"Robin Smallburrow, Hobbit-Landbüttel": {
-		"id": "robin_smallburrow",
+	"Ritter von Thal": {
+		"id": "knight_dale",
 		"version": "2024",
-		"language": "en",
-		"name": "Robin Smallburrow, Hobbit-Landbüttel",
+		"language": "de",
+		"name": "Ritter von Thal",
 		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
-				"page": "16"
+				"page": "51"
 			}
 		],
-		"points": "25",
+		"points": "11",
 		"race": [
-			"Hobbit"
+			"Mensch"
 		],
 		"faction": [
-			"Auenland"
+			"Thal"
 		],
 		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
+			"Krieger",
+			"Infanterie"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
-			"move": "4\"",
-			"fightValue": "3",
-			"shootValue": "3+",
-			"strength": "2",
-			"defence": "3",
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "6",
 			"attacks": "1",
-			"wounds": "2",
-			"courage": "7+",
+			"wounds": "1",
+			"courage": "6+",
 			"intelligence": "7+"
-		},
-		"characteristicsHero": {
-			"might": "1",
-			"will": "1",
-			"fate": "1"
 		},
 		"wargear": [
 			{
-				"name": "Anderthalbhänderwaffe"
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Schild"
+			},
+			{
+				"name": "Speer"
+			},
+			{
+				"name": "Handwaffe"
 			}
 		],
-		"heroicActions": [
-			"Heroischer Marsch"
-		],
 		"specialRules": [
-			"Anführer (Hobbit-Landbüttel)",
-			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"A nose for shortcuts"
+			"Klingenwall"
 		]
 	},
 	"Rohirrim-Verräter": {
@@ -29774,11 +29200,11 @@
 			"Speer-Beherschung"
 		]
 	},
-	"Rowan Thistlewood": {
+	"Rowan Distelholz": {
 		"id": "rowan_thistlewood",
 		"version": "2024",
-		"language": "en",
-		"name": "Rowan Thistlewood",
+		"language": "de",
+		"name": "Rowan Distelholz",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -29791,7 +29217,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Ruffian"
+			"Strolch"
 		],
 		"unitTypes": [
 			"Held",
@@ -29824,118 +29250,65 @@
 			"Heroischer Marsch"
 		],
 		"specialRules": [
-			"\"Put ’em in chains\"",
-			"\"Let ’em have it!\"",
-			"\"Burn it down!\""
+			"\"Lass sie es haben!\"",
+			"\"Legt sie in Ketten\"",
+			"\"Brennt es nieder!\""
 		]
 	},
-	"Royal Palanquin": {
-		"id": "palanquin",
+	"Rudolf Kleinbau, Hobbit-Landbüttel": {
+		"id": "robin_smallburrow",
 		"version": "2024",
-		"language": "en",
-		"type": "Mount",
-		"name": "Royal Palanquin",
-		"alignment": "Böse",
+		"language": "de",
+		"name": "Rudolf Kleinbau, Hobbit-Landbüttel",
+		"alignment": "Gut",
 		"source": [
 			{
 				"book": "Armies of Middle-Earth",
-				"page": "141"
+				"page": "16"
 			}
 		],
+		"points": "25",
 		"race": [
-			"Mensch"
+			"Hobbit"
 		],
 		"faction": [
-			"Ostling"
+			"Auenland"
 		],
 		"unitTypes": [
-			"Reittier"
-		],
-		"baseSize": "80mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "6",
-			"attacks": "*",
-			"wounds": "6",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "Schilde"
-			},
-			{
-				"name": "Handwaffen"
-			}
-		],
-		"specialRules": [
-			"The Palanquin",
-			"Fighting from the Palanquin",
-			"Standards of the Emperor",
-			"In the name of the Dragon Emperor"
-		]
-	},
-	"Ruffian": {
-		"id": "ruffian",
-		"version": "2024",
-		"language": "en",
-		"name": "Ruffian",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "115"
-			}
-		],
-		"points": "5",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Ruffian"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
+			"Held",
+			"Infanterie",
+			"Einzigartig"
 		],
 		"baseSize": "25mm",
 		"characteristics": {
-			"move": "6\"",
-			"fightValue": "2",
-			"shootValue": "5+",
-			"strength": "3",
+			"move": "4\"",
+			"fightValue": "3",
+			"shootValue": "3+",
+			"strength": "2",
 			"defence": "3",
 			"attacks": "1",
-			"wounds": "1",
-			"courage": "8+",
-			"intelligence": "8+"
+			"wounds": "2",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
 		},
 		"wargear": [
 			{
-				"name": "Handwaffe"
+				"name": "Anderthalbhänderwaffe"
 			}
 		],
-		"options": [
-			{
-				"name": "Bogen",
-				"cost": "1",
-				"type": "WARRIOR_OPTIONAL"
-			},
-			{
-				"name": "Peitsche",
-				"cost": "1",
-				"type": "WARRIOR_OPTIONAL"
-			}
+		"heroicActions": [
+			"Heroischer Marsch"
 		],
 		"specialRules": [
-			"\"Put ’em in chains\"",
-			"\"At ’em, Lads!\""
+			"Anführer (Hobbit-Landbüttel)",
+			"Ein Gespür für Abkürzungen",
+			"Magieresistent",
+			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
 	"Rúmil, Wächter der Caras Galadhon": {
@@ -29998,11 +29371,11 @@
 			"Flinke Parade"
 		]
 	},
-	"Rutabi, General of the Dragon Legion": {
+	"Rutabi, General der Drachenlegion": {
 		"id": "rutabi",
 		"version": "2024",
-		"language": "en",
-		"name": "Rutabi, General of the Dragon Legion",
+		"language": "de",
+		"name": "Rutabi, General der Drachenlegion",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -30055,10 +29428,77 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
+			"Keine Gnade",
 			"Meister der Schlachten (3+)",
-			"Unüberwindlich",
 			"Phalanx",
-			"Show no mercy"
+			"Unüberwindlich"
+		]
+	},
+	"Samweis der Beherzte": {
+		"id": "samwise_brave",
+		"version": "2024",
+		"language": "de",
+		"name": "Samweis der Beherzte",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "12"
+			}
+		],
+		"points": "60",
+		"race": [
+			"Hobbit"
+		],
+		"faction": [
+			"Auenland"
+		],
+		"unitTypes": [
+			"Held",
+			"Kavallerie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "4\"",
+			"fightValue": "3",
+			"shootValue": "3+",
+			"strength": "2",
+			"defence": "3",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "5+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "2",
+			"fate": "3"
+		},
+		"wargear": [
+			{
+				"name": "Stich"
+			},
+			{
+				"name": "Pony"
+			}
+		],
+		"heroicActions": [
+			"Heroische Entschlossenheit",
+			"Heroischer Hieb"
+		],
+		"options": [
+			{
+				"name": "Elbenumhang",
+				"cost": "5"
+			}
+		],
+		"specialRules": [
+			"Eidwache (Frodo)",
+			"Eidwache (Rosie)",
+			"\"Es gibt etwas Gutes in dieser Welt, Herr Frodo. Und dafür lohnt es sich zu kämpfen\"",
+			"Magieresistent",
+			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
 	"Samweis Gamdschie": {
@@ -30134,73 +29574,6 @@
 				"name": "Waldbewohner",
 				"armylist": "Die Gefährten"
 			}
-		]
-	},
-	"Samwise the Brave": {
-		"id": "samwise_brave",
-		"version": "2024",
-		"language": "en",
-		"name": "Samwise the Brave",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "12"
-			}
-		],
-		"points": "60",
-		"race": [
-			"Hobbit"
-		],
-		"faction": [
-			"Auenland"
-		],
-		"unitTypes": [
-			"Held",
-			"Kavallerie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "4\"",
-			"fightValue": "3",
-			"shootValue": "3+",
-			"strength": "2",
-			"defence": "3",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "2",
-			"fate": "3"
-		},
-		"wargear": [
-			{
-				"name": "Stich"
-			},
-			{
-				"name": "Pony"
-			}
-		],
-		"heroicActions": [
-			"Heroische Entschlossenheit",
-			"Heroischer Hieb"
-		],
-		"options": [
-			{
-				"name": "Elbenumhang",
-				"cost": "5"
-			}
-		],
-		"specialRules": [
-			"Magieresistent",
-			"Eidwache (Frodo)",
-			"Eidwache (Rosie)",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"\"There’s some good in this world, Mr Frodo, and it’s worth fighting for\""
 		]
 	},
 	"Saruman": {
@@ -30445,7 +29818,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Spectral hands (hand weapons)"
+				"name": "Spectral hands (Handwaffen)"
 			}
 		],
 		"heroicActions": [
@@ -30736,6 +30109,203 @@
 			}
 		]
 	},
+	"Scharka": {
+		"id": "sharkey",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Scharka",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "110"
+			}
+		],
+		"race": [
+			"Zauberer"
+		],
+		"faction": [
+			"Isengart"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "2",
+			"courage": "6+",
+			"intelligence": "3+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "4",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Handwaffe"
+			},
+			{
+				"name": "Zweihändige Waffe"
+			}
+		],
+		"heroicActions": [
+			"Heroisches Kanalisieren"
+		],
+		"specialRules": [
+			"Hass (Hobbit)",
+			"\"Wer die Hand gegen mich erhebt, den soll mein Fluch treffen\""
+		],
+		"magicalPowers": [
+			{
+				"name": "Beherrschung",
+				"range": "12\"",
+				"castingValue": "3+"
+			},
+			{
+				"name": "Entsetzliche Ausstrahlung",
+				"range": "Selbst",
+				"castingValue": "3+"
+			},
+			{
+				"name": "Lähmung",
+				"range": "12\"",
+				"castingValue": "3+"
+			}
+		]
+	},
+	"Scharka & Wurm": {
+		"id": "sharkey_worm",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition",
+		"name": "Scharka & Wurm",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "110-111"
+			}
+		],
+		"note": "Scharka und Wurm werden immer zusammen gekauft und zählen als zwei Modelle. Scharka ist stets der Anführer der Kriegerschar, wobei Wurm der erste Gefolgsmann in seiner Kriegerschar ist. Wurm zählt in Scharka's Kriegerschar als Unabhängiger Held.",
+		"points": "60 Punkte für Beide",
+		"composition": [
+			"Scharka",
+			"Wurm"
+		]
+	},
+	"Schatten": {
+		"id": "shade",
+		"version": "2024",
+		"language": "de",
+		"name": "Schatten",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "130"
+			}
+		],
+		"points": "75",
+		"race": [
+			"Geist"
+		],
+		"faction": [
+			"Angmar"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "40mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "1",
+			"shootValue": "6+",
+			"strength": "1",
+			"defence": "8",
+			"attacks": "2",
+			"wounds": "3",
+			"courage": "5+",
+			"intelligence": "8+"
+		},
+		"characteristicsHero": {
+			"might": "0",
+			"will": "4",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Eine Verschmelzung von greifenden Geisterhänden (Handwaffen)"
+			}
+		],
+		"specialRules": [
+			"Dominant (3)",
+			"Entsetzlich",
+			"Geisterhafte Entschlossenheit",
+			"Geisterschritt",
+			"Leiter von Angmar",
+			"Todesklingen",
+			"Wirbelnde Nebel"
+		]
+	},
+	"Schatten aus der Tiefe": {
+		"id": "dweller_dark",
+		"version": "2024",
+		"language": "de",
+		"name": "Schatten aus der Tiefe",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "21"
+			}
+		],
+		"points": "80",
+		"race": [
+			"Geist"
+		],
+		"faction": [
+			"Moria"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie",
+			"Monster"
+		],
+		"baseSize": "60mm",
+		"characteristics": {
+			"move": "8\"",
+			"fightValue": "7",
+			"shootValue": "4+",
+			"strength": "5",
+			"defence": "5",
+			"attacks": "3",
+			"wounds": "3",
+			"courage": "3+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Klauen und Zähne (Handwaffen)"
+			}
+		],
+		"specialRules": [
+			"Dominant (3)",
+			"Entsetzlich",
+			"Magieresistent",
+			"Mörderische Kraft"
+		]
+	},
 	"Schattenfell": {
 		"id": "shadowfax",
 		"version": "2024",
@@ -30778,6 +30348,61 @@
 		},
 		"specialRules": [
 			"Anführer der Mearas"
+		]
+	},
+	"Schildträger": {
+		"id": "dwarf_shieldbearer",
+		"version": "2024",
+		"language": "de",
+		"name": "Schildträger",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Good",
+				"page": "17"
+			}
+		],
+		"points": "60",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "8",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "0",
+			"fate": "0"
+		},
+		"wargear": [
+			{
+				"name": "Zwergenrüstung"
+			},
+			{
+				"name": "Schild"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Verteidigt den König [Schildträger]"
 		]
 	},
 	"Schlangengardist": {
@@ -31143,61 +30768,6 @@
 			"Entsetzliches Antlitz"
 		]
 	},
-	"Shade": {
-		"id": "shade",
-		"version": "2024",
-		"language": "en",
-		"name": "Shade",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "130"
-			}
-		],
-		"points": "75",
-		"race": [
-			"Geist"
-		],
-		"faction": [
-			"Angmar"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie"
-		],
-		"baseSize": "40mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "1",
-			"shootValue": "6+",
-			"strength": "1",
-			"defence": "8",
-			"attacks": "2",
-			"wounds": "3",
-			"courage": "5+",
-			"intelligence": "8+"
-		},
-		"characteristicsHero": {
-			"might": "0",
-			"will": "4",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "An amalgamation of grasping spectral hands (hand weapons)"
-			}
-		],
-		"specialRules": [
-			"Todesklingen",
-			"Dominant (3)",
-			"Geisterschritt",
-			"Entsetzlich",
-			"Conduit of Angmar",
-			"Swirling Mists",
-			"Ghostly Resolve"
-		]
-	},
 	"Shagrath, Hauptmann von Cirith Ungol": {
 		"id": "shagrath",
 		"version": "2024",
@@ -31336,100 +30906,6 @@
 			"Schneetroll"
 		]
 	},
-	"Sharkey": {
-		"id": "sharkey",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "Sharkey",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "110"
-			}
-		],
-		"race": [
-			"Zauberer"
-		],
-		"faction": [
-			"Isengart"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "4",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "4",
-			"attacks": "1",
-			"wounds": "2",
-			"courage": "6+",
-			"intelligence": "3+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "4",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Handwaffe"
-			},
-			{
-				"name": "Zweihändige Waffe"
-			}
-		],
-		"heroicActions": [
-			"Heroisches Kanalisieren"
-		],
-		"specialRules": [
-			"Hass (Hobbit)",
-			"\"Whoever strikes me shall be accursed\""
-		],
-		"magicalPowers": [
-			{
-				"name": "Beherrschung",
-				"range": "12\"",
-				"castingValue": "3+"
-			},
-			{
-				"name": "Entsetzliche Ausstrahlung",
-				"range": "Selbst",
-				"castingValue": "3+"
-			},
-			{
-				"name": "Lähmung",
-				"range": "12\"",
-				"castingValue": "3+"
-			}
-		]
-	},
-	"Sharkey & Worm": {
-		"id": "sharkey_worm",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition",
-		"name": "Sharkey & Worm",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "110-111"
-			}
-		],
-		"note": "Sharkey & Worm are always bought as a pair and count as two models. Sharkey is always the Captian of the Warband with Worm as the first Follower in his Warband. Worm counts as an Independent Hero in Sharkey’s Warband.",
-		"points": "60 Points for Both",
-		"composition": [
-			"Sharkey",
-			"Worm"
-		]
-	},
 	"Sharku, Hauptmann der Wargreiter": {
 		"id": "sharku",
 		"version": "2024",
@@ -31491,11 +30967,11 @@
 			"Zorn des Rudels"
 		]
 	},
-	"Sid Briarthorn": {
+	"Sid Schwarzdorn": {
 		"id": "sid_briarthorn",
 		"version": "2024",
-		"language": "en",
-		"name": "Sid Briarthorn",
+		"language": "de",
+		"name": "Sid Schwarzdorn",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -31508,7 +30984,7 @@
 			"Mensch"
 		],
 		"faction": [
-			"Ruffian"
+			"Strolch"
 		],
 		"unitTypes": [
 			"Held",
@@ -31545,9 +31021,9 @@
 		],
 		"specialRules": [
 			"Entsetzlich (Hobbit)",
-			"Brawler",
-			"\"With me, lads!\"",
-			"\"Put ’em in chains\""
+			"\"Kommt mit mir, Jungs!!\"",
+			"\"Legt sie in Ketten\"",
+			"Raufer"
 		]
 	},
 	"Sigrid": {
@@ -31615,7 +31091,7 @@
 		],
 		"points": "700",
 		"race": [
-			"Dragon"
+			"Drache"
 		],
 		"faction": [
 			"Erebor"
@@ -31645,14 +31121,14 @@
 		},
 		"wargear": [
 			{
-				"name": "Razor-sharp teeth and maßive talons (hand weapons)"
+				"name": "Razor-sharp teeth and maßive talons (Handwaffen)"
 			}
 		],
 		"heroicActions": [
 			"Heroische Herausforderung"
 		],
 		"specialRules": [
-			"Ancient Enemies (Dwarf)",
+			"Uralte Feindschaft (Dwarf)",
 			"Dominant (20)",
 			"Furchtlos",
 			"Fliegen [SpecialRule]",
@@ -31797,11 +31273,11 @@
 			"Listiger Verstand"
 		]
 	},
-	"Son of Eorl": {
+	"Sohn Eorls": {
 		"id": "son_eorl",
 		"version": "2024",
-		"language": "en",
-		"name": "Son of Eorl",
+		"language": "de",
+		"name": "Sohn Eorls",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -31849,7 +31325,269 @@
 		],
 		"specialRules": [
 			"Exzellenter Reiter",
-			"Riders of Eorl"
+			"Eorls Reiter"
+		]
+	},
+	"Spinnenbrut": {
+		"id": "broodling",
+		"version": "2024",
+		"language": "de",
+		"name": "Spinnenbrut",
+		"linkedProfile": [
+			"Die Spinnenkönigin"
+		],
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "41"
+			}
+		],
+		"race": [
+			"Spinne"
+		],
+		"faction": [
+			"Dol Guldur"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie",
+			"Bestie",
+			"Schwarm"
+		],
+		"baseSize": "40mm",
+		"characteristics": {
+			"move": "10\"",
+			"fightValue": "2",
+			"shootValue": "6+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Reißzähne (Handwaffen)"
+			}
+		],
+		"specialRules": [
+			"Flinke Bewegung",
+			"Vergiftete Waffen"
+		]
+	},
+	"Streitbarer Brandybock": {
+		"id": "battlin_brandybucks",
+		"version": "2024",
+		"language": "de",
+		"name": "Streitbarer Brandybock",
+		"linkedProfile": [
+			"Hobbitmilizionär",
+			"Meriadoc Brandybock, Hauptmann des Auenlandes"
+		],
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "13"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "20"
+			}
+		],
+		"points": "5",
+		"race": [
+			"Hobbit"
+		],
+		"faction": [
+			"Auenland"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "4\"",
+			"fightValue": "1",
+			"shootValue": "3+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Magieresistent",
+			"Steine werfen (Reichweite 8\", Stärke 1)"
+		]
+	},
+	"Streitwagen von Khand": {
+		"id": "chariot_khand",
+		"version": "2024",
+		"language": "de",
+		"type": "Chariot",
+		"alias": [
+			"Streitwagen von Khand (Wenn der König von Khand absitzt, entferne den Streitwagen von Khand aus dem Spiel)"
+		],
+		"name": "Streitwagen von Khand",
+		"linkedProfile": [
+			"König von Khand"
+		],
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "35"
+			}
+		],
+		"race": [
+			"Pferd"
+		],
+		"faction": [
+			"Khand"
+		],
+		"unitTypes": [
+			"Streitwagen"
+		],
+		"baseSize": "60mm",
+		"characteristics": {
+			"move": "10\"",
+			"fightValue": "2",
+			"shootValue": "6+",
+			"strength": "3",
+			"defence": "7",
+			"attacks": "1",
+			"wounds": "3",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"specialRules": [
+			"Dominant (3)",
+			"Streitwagenansturm [Streitwagen von Khand]"
+		]
+	},
+	"Streitwagenlenker von Khand": {
+		"id": "charioteer_kandish",
+		"version": "2024",
+		"language": "de",
+		"name": "Streitwagenlenker von Khand",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Legacies of Middle-Earth - Forces of Evil",
+				"page": "37"
+			}
+		],
+		"points": "40",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Khand"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Streitwagen"
+		],
+		"baseSize": "60mm",
+		"characteristics": {
+			"move": "10\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "7",
+			"attacks": "1",
+			"wounds": "3",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"options": [
+			{
+				"name": "Tausche Anderthalbhänderwaffe gegen Bogen",
+				"cost": "Kostenlos",
+				"type": "WARRIOR_OPTIONAL"
+			}
+		],
+		"specialRules": [
+			"Dominant (3)",
+			"Streitwagenansturm [Streitwagenlenker von Khand]"
+		]
+	},
+	"Strolch": {
+		"id": "ruffian",
+		"version": "2024",
+		"language": "de",
+		"name": "Strolch",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "115"
+			}
+		],
+		"points": "5",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Strolch"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "2",
+			"shootValue": "5+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"options": [
+			{
+				"name": "Bogen",
+				"cost": "1",
+				"type": "WARRIOR_OPTIONAL"
+			},
+			{
+				"name": "Peitsche",
+				"cost": "1",
+				"type": "WARRIOR_OPTIONAL"
+			}
+		],
+		"specialRules": [
+			"\"Legt sie in Ketten\"",
+			"\"Auf sie, Jungs!\""
 		]
 	},
 	"Sturmrufer der Galadhrim": {
@@ -32139,125 +31877,6 @@
 			"Vengeful Fury"
 		]
 	},
-	"Ted Sandyman": {
-		"id": "ted_sandyman",
-		"version": "2024",
-		"language": "en",
-		"name": "Ted Sandyman",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "115"
-			}
-		],
-		"points": "30",
-		"race": [
-			"Hobbit"
-		],
-		"faction": [
-			"Auenland"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "4\"",
-			"fightValue": "2",
-			"shootValue": "3+",
-			"strength": "2",
-			"defence": "3",
-			"attacks": "1",
-			"wounds": "2",
-			"courage": "7+",
-			"intelligence": "7+"
-		},
-		"characteristicsHero": {
-			"might": "1",
-			"will": "1",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Magieresistent",
-			"Steine werfen (Reichweite 8\", Stärke 1)",
-			"A Bad Influence"
-		]
-	},
-	"The Dragon Emperor of Rhûn": {
-		"id": "dragon_emperor",
-		"version": "2024",
-		"language": "en",
-		"name": "The Dragon Emperor of Rhûn",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "140"
-			}
-		],
-		"points": "200",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Ostling",
-			"Schwarzer Drache"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "7",
-			"shootValue": "4+",
-			"strength": "4",
-			"defence": "7",
-			"attacks": "3",
-			"wounds": "3",
-			"courage": "4+",
-			"intelligence": "4+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "3",
-			"fate": "3"
-		},
-		"wargear": [
-			{
-				"name": "Schwere Rüstung"
-			},
-			{
-				"name": "The Emperor’s Glaive"
-			},
-			{
-				"name": "Helm of the Dragon Emperor"
-			},
-			{
-				"name": "Royal Palanquin"
-			}
-		],
-		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroische Entschlossenheit",
-			"Heroische Stärke",
-			"Heroischer Hieb"
-		],
-		"specialRules": [
-			"Phalanx",
-			"Emperor of the Easterlings"
-		]
-	},
 	"The Goblin King": {
 		"id": "goblin_king",
 		"version": "2024",
@@ -32487,149 +32106,6 @@
 			"Save the Gold!"
 		]
 	},
-	"The Shadow of Rhudaur": {
-		"id": "shadow_rhudaur",
-		"version": "2024",
-		"language": "en",
-		"name": "The Shadow of Rhudaur",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "128"
-			}
-		],
-		"points": "80",
-		"race": [
-			"Geist"
-		],
-		"faction": [
-			"Angmar"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "5",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "7",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "4+",
-			"intelligence": "5+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "5",
-			"fate": "2"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"heroicActions": [
-			"Heroische Herausforderung"
-		],
-		"specialRules": [
-			"Todesklingen",
-			"Geisterschritt",
-			"Entsetzlich",
-			"Herald of Doom",
-			"Power of Angmar"
-		],
-		"magicalPowers": [
-			{
-				"name": "Mutraub",
-				"range": "6\"",
-				"castingValue": "3+"
-			},
-			{
-				"name": "Nebel der Verwirrung",
-				"range": "Selbst",
-				"castingValue": "3+"
-			},
-			{
-				"name": "Fluch",
-				"range": "6\"",
-				"castingValue": "4+"
-			},
-			{
-				"name": "Kraftraub",
-				"range": "6\"",
-				"castingValue": "5+"
-			}
-		]
-	},
-	"The Spider Queen": {
-		"id": "spider_queen",
-		"version": "2024",
-		"language": "en",
-		"name": "The Spider Queen",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Legacies of Middle-Earth - Forces of Evil",
-				"page": "41"
-			}
-		],
-		"points": "120",
-		"race": [
-			"Spinne"
-		],
-		"faction": [
-			"Dol Guldur"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Monster",
-			"Bestie",
-			"Einzigartig"
-		],
-		"baseSize": "60mm",
-		"characteristics": {
-			"move": "10\"",
-			"fightValue": "6",
-			"shootValue": "6+",
-			"strength": "6",
-			"defence": "4",
-			"attacks": "2",
-			"wounds": "3",
-			"courage": "6+",
-			"intelligence": "6+"
-		},
-		"characteristicsHero": {
-			"might": "3",
-			"will": "3",
-			"fate": "0"
-		},
-		"wargear": [
-			{
-				"name": "Large venomus fangs (hand weapons)"
-			}
-		],
-		"heroicActions": [
-			"Heroische Verteidigung",
-			"Heroischer Hieb"
-		],
-		"specialRules": [
-			"Dominant (3)",
-			"Monströser Ansturm",
-			"Flinke Bewegung",
-			"Entsetzlich",
-			"Gift",
-			"Progeny"
-		]
-	},
 	"The White Warg": {
 		"id": "white_warg",
 		"version": "2024",
@@ -32677,7 +32153,7 @@
 		],
 		"specialRules": [
 			"Furchtlos",
-			"Fell Sight",
+			"Glühende Augen",
 			"Entsetzlich",
 			"Pack Master"
 		]
@@ -32832,11 +32308,11 @@
 			"Waghalsiger Angriff"
 		]
 	},
-	"Thorin III Stonehelm": {
+	"Thorin III Steinhelm": {
 		"id": "thorin_stonehelm",
 		"version": "2024",
-		"language": "en",
-		"name": "Thorin III Stonehelm",
+		"language": "de",
+		"name": "Thorin III Steinhelm",
 		"alignment": "Gut",
 		"source": [
 			{
@@ -32890,7 +32366,7 @@
 			"Heroischer Hieb"
 		],
 		"specialRules": [
-			"Cool-headed"
+			"Kühler Kopf"
 		]
 	},
 	"Thorin Oakenshield": {
@@ -33079,7 +32555,7 @@
 				"name": "Meisterliche Zweihändige Waffe"
 			},
 			{
-				"name": "The Ring of Durin (only if your army does not include Thrór)"
+				"name": "Durins Ring (only if your army does not include Thrór)"
 			}
 		],
 		"heroicActions": [
@@ -33212,6 +32688,66 @@
 			"\"Do not talk to me of Dragon fire\""
 		]
 	},
+	"Thronwache": {
+		"id": "hearthguard",
+		"version": "2024",
+		"language": "de",
+		"name": "Thronwache",
+		"linkedProfile": [
+			"Durin, König von Khazad-dûm",
+			"Khazâdwache"
+		],
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "61"
+			},
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "64"
+			}
+		],
+		"points": "14",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie",
+			"Elite"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "5",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "7",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Zwergenrüstung"
+			},
+			{
+				"name": "Zweihändige Waffe"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Bullig",
+			"Leibwächter"
+		]
+	},
 	"Thrór, King under the Mountain": {
 		"id": "thror",
 		"version": "2024",
@@ -33255,7 +32791,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Mithril armour"
+				"name": "Mithrilrüstung"
 			},
 			{
 				"name": "Schild"
@@ -33267,7 +32803,7 @@
 				"name": "The Arkenstone"
 			},
 			{
-				"name": "The Ring of Durin"
+				"name": "Durins Ring"
 			}
 		],
 		"heroicActions": [
@@ -33281,7 +32817,7 @@
 			}
 		],
 		"specialRules": [
-			"Ancient Enemies (Ork)"
+			"Uralte Feindschaft (Ork)"
 		]
 	},
 	"Thrydan Wolfsfluch": {
@@ -33401,6 +32937,58 @@
 		"specialRules": [
 			"Furchtsam",
 			"\"Da! Down here!\""
+		]
+	},
+	"Timm Sandigmann": {
+		"id": "ted_sandyman",
+		"version": "2024",
+		"language": "de",
+		"name": "Timm Sandigmann",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "115"
+			}
+		],
+		"points": "30",
+		"race": [
+			"Hobbit"
+		],
+		"faction": [
+			"Auenland"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "4\"",
+			"fightValue": "2",
+			"shootValue": "3+",
+			"strength": "2",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "2",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Ein schlechter Einfluss",
+			"Magieresistent",
+			"Steine werfen (Reichweite 8\", Stärke 1)"
 		]
 	},
 	"Tom Bombadil": {
@@ -33585,6 +33173,30 @@
 			"Zertrampeln [Troll Brute]"
 		]
 	},
+	"Trommel der Moria-Goblins": {
+		"id": "moria_goblin_drum",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition",
+		"name": "Trommel der Moria-Goblins",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "121"
+			}
+		],
+		"note": "Eine Trommel der Moria-Goblins wird immer als zwei Trommler der Moria-Goblins gekauft, was als zwei Modelle zählt; Trommler der Moria-Goblins benutzen das untere Profil:",
+		"points": "75",
+		"specialRules": [
+			"Trommel der Moria-Goblins",
+			"Trommeln in der Tiefe",
+			"Die Trommel aufheben [Trommel der Moria-Goblins]"
+		],
+		"composition": [
+			"Trommler der Moria-Goblins"
+		]
+	},
 	"Trommel der Moria-Schwarzschilde": {
 		"id": "drum_blackshield",
 		"version": "2024",
@@ -33598,7 +33210,7 @@
 				"page": "18"
 			}
 		],
-		"note": "Eine Trommel der Moria-Schwarzschilde wird immer als ein Trommler der Moria-Schwarzschilde und einen Trommelträger der Moria-Schwarzschilde, was als zwei Modelle zählt; beide benutzen das untere Profil:",
+		"note": "Eine Trommel der Moria-Schwarzschilde wird immer als ein Trommler der Moria-Schwarzschilde und einen Trommelträger der Moria-Schwarzschilde gekauft, was als zwei Modelle zählt; beide benutzen das untere Profil:",
 		"points": "75",
 		"specialRules": [
 			"Rennen und Trommeln",
@@ -33654,6 +33266,53 @@
 		"specialRules": [
 			"Höhlenbewohner",
 			"Hass (Zwerg)"
+		]
+	},
+	"Trommler der Moria-Goblins": {
+		"id": "moria_goblin_drummer",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Trommler der Moria-Goblins",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "121"
+			}
+		],
+		"race": [
+			"Goblin"
+		],
+		"faction": [
+			"Moria"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "2",
+			"shootValue": "5+",
+			"strength": "3",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Höhlenbewohner"
 		]
 	},
 	"Trommler der Moria-Schwarzschilde": {
@@ -33876,6 +33535,26 @@
 			"Tukscher Jäger"
 		]
 	},
+	"Tunnelkämpfertrupp": {
+		"id": "vault_warden_team",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition",
+		"name": "Tunnelkämpfertrupp",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "66"
+			}
+		],
+		"note": "Ein Tunnelkämpfertrupp wird immer paarweise aus zwei Modellen erworben, einem Eisenschildträger und einem Feindspeerträger, die jeweils das unten stehende Profil verwenden:",
+		"points": "25",
+		"composition": [
+			"Eisenschildträger",
+			"Feindspeerträger"
+		]
+	},
 	"Uglúk, Hauptmann der Kundschafter der Uruk-hai": {
 		"id": "ugluk",
 		"version": "2024",
@@ -33936,26 +33615,6 @@
 		"specialRules": [
 			"Köpfer",
 			"\"Ab sofort steht wieder Fleisch auf den Speiseplan, Jungs!\""
-		]
-	},
-	"Vault Warden Team": {
-		"id": "vault_warden_team",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition",
-		"name": "Vault Warden Team",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "66"
-			}
-		],
-		"note": "A Vault Warden Team is always purchased as a pair of two models, one Iron Shield Bearer and one Foe Speer Wielder, which each using the relevant profile below:",
-		"points": "25",
-		"composition": [
-			"Iron Shield Bearer",
-			"Foe Speer Wielder"
 		]
 	},
 	"Vraskû": {
@@ -34475,6 +34134,71 @@
 			"Stolz von Dol Amroth"
 		]
 	},
+	"Waldläufer der Zwerge": {
+		"id": "ranger_dwarf",
+		"version": "2024",
+		"language": "de",
+		"name": "Waldläufer der Zwerge",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "65"
+			}
+		],
+		"points": "8",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "3+",
+			"strength": "3",
+			"defence": "5",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"options": [
+			{
+				"name": "Zwergenlangbogen",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Wurfwaffen",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			},
+			{
+				"name": "Zweihändige Waffe",
+				"cost": "1",
+				"type": "WARRIOR_MANDATORY"
+			}
+		],
+		"specialRules": [
+			"Bergbewohner",
+			"Bergkämpfer"
+		]
+	},
 	"Waldläufer des Nordens": {
 		"id": "ranger_north",
 		"version": "2024",
@@ -34540,7 +34264,7 @@
 	"Waldläufer von Arnor": {
 		"id": "ranger_arnor",
 		"version": "2024",
-		"language": "en",
+		"language": "de",
 		"name": "Waldläufer von Arnor",
 		"alignment": "Gut",
 		"source": [
@@ -34685,7 +34409,7 @@
 		],
 		"points": "25",
 		"race": [
-			"Bat"
+			"Fledermaus"
 		],
 		"faction": [
 			"Gundabad"
@@ -34709,7 +34433,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Razor-sharp teeth and talons (hand weapons)"
+				"name": "Razor-sharp teeth and talons (Handwaffen)"
 			}
 		],
 		"specialRules": [
@@ -34752,57 +34476,6 @@
 			"courage": "7+",
 			"intelligence": "9+"
 		}
-	},
-	"War Drake of Rhûn": {
-		"id": "war_drake",
-		"version": "2024",
-		"language": "en",
-		"name": "War Drake of Rhûn",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "149"
-			}
-		],
-		"points": "20",
-		"race": [
-			"Drake"
-		],
-		"faction": [
-			"Ostling"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie",
-			"Bestie"
-		],
-		"baseSize": "40mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "4",
-			"shootValue": "6+",
-			"strength": "4",
-			"defence": "5",
-			"attacks": "2",
-			"wounds": "2",
-			"courage": "6+",
-			"intelligence": "9+"
-		},
-		"wargear": [
-			{
-				"name": "Rüstung"
-			},
-			{
-				"name": "Klauen und Zähne (Handwaffen)"
-			}
-		],
-		"specialRules": [
-			"Dominant (2)",
-			"Entsetzlich",
-			"Gift",
-			"Slow-acting Venom"
-		]
 	},
 	"War Goat": {
 		"id": "wargoat",
@@ -34878,11 +34551,11 @@
 			"intelligence": "8+"
 		}
 	},
-	"Warg Marauder": {
+	"Warg-Beutereiter": {
 		"id": "warg_marauder",
 		"version": "2024",
-		"language": "en",
-		"name": "Warg Marauder",
+		"language": "de",
+		"name": "Warg-Beutereiter",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -34890,7 +34563,7 @@
 				"page": "20"
 			}
 		],
-		"note": "A Warg Marauder is an interesting Cavalry model that consists of three Moria-Goblinkriegers riding a single Warg Mount. Two of the Moria-Goblinkriegers are armed with an Orc bow, whilst the other is armed with a shield. This is treated as any other Cavalry model with the following exceptions:\n\t• Whilst the Moria-Goblinkrieger with shield remains alive, all parts of the Cavalry model gain the bonus of +1 to their Defence.\n\t• The Warg Marauder only counts as a single model towards an Army’s Bow Limit.\n\t• If one Moria-Goblinkrieger wishes to dismount, then they must all do so together.",
+		"note": "Ein Warg-Beutereiter ist ein interessantes Kavallerie-Modell, bestehend aus drei Moria-Goblinkriegern auf einem einzigen Warg. Zwei der Moria-Goblinkrieger sind mit einem Orkbogen bewaffnet, der dritte mit einem Schild. Dieses Modell wird wie jedes andere Kavallerie-Modell behandelt, mit folgenden Ausnahmen:\n\t• Solange der Moria-Goblinkrieger mit Schild lebt, erhalten alle Teile des Kavallerie-Modells einen Bonus von +1 auf ihre Verteidigung.\n\t• Der Warg-Beutereiter zählt nur als ein einzelnes Modell für das Bogenlimit einer Armee.\n\t• Wenn ein Moria-Goblinkrieger absteigen möchte, müssen alle gleichzeitig absteigen.",
 		"points": "35",
 		"race": [
 			"Goblin"
@@ -34932,16 +34605,71 @@
 			}
 		],
 		"specialRules": [
-			"Höhlenbewohner (Moria-Goblinkriegers only)",
-			"On the Hunt",
-			"Lethal Union"
+			"Auf Beutezug",
+			"Höhlenbewohner (nur Moria-Goblinkrieger)",
+			"Tödlicher Pakt"
 		]
 	},
-	"Werewolf": {
+	"Wasa-Krieger": {
+		"id": "warrior_woses",
+		"version": "2024",
+		"language": "de",
+		"name": "Wasa-Krieger",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "25"
+			}
+		],
+		"points": "9",
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Drúadan"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "3+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "7+",
+			"intelligence": "7+"
+		},
+		"wargear": [
+			{
+				"name": "Handwaffe"
+			},
+			{
+				"name": "Speer"
+			},
+			{
+				"name": "Blasrohr"
+			}
+		],
+		"specialRules": [
+			"Hass (Goblin)",
+			"Hass (Ork)",
+			"Hass (Uruk-hai)",
+			"Vergiftete Waffen (Blasrohr)",
+			"Waldbewohner",
+			"Wie ein Schatten"
+		]
+	},
+	"Werwolf": {
 		"id": "werewolf",
 		"version": "2024",
-		"language": "en",
-		"name": "Werewolf",
+		"language": "de",
+		"name": "Werwolf",
 		"alignment": "Böse",
 		"source": [
 			{
@@ -34979,106 +34707,9 @@
 			}
 		],
 		"specialRules": [
-			"Fell Sight",
 			"Entsetzlich",
-			"Feral Charge"
-		]
-	},
-	"Wild Warg": {
-		"id": "wild_warg",
-		"version": "2024",
-		"language": "en",
-		"name": "Wild Warg",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "134"
-			}
-		],
-		"points": "7",
-		"race": [
-			"Warg"
-		],
-		"faction": [
-			"Angmar"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie",
-			"Bestie"
-		],
-		"baseSize": "40mm",
-		"characteristics": {
-			"move": "10\"",
-			"fightValue": "3",
-			"shootValue": "6+",
-			"strength": "4",
-			"defence": "4",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "8+",
-			"intelligence": "8+"
-		},
-		"wargear": [
-			{
-				"name": "Klauen und Zähne (Handwaffen)"
-			}
-		]
-	},
-	"Wild Warg Chieftain": {
-		"id": "wild_warg_chieftain",
-		"version": "2024",
-		"language": "en",
-		"name": "Wild Warg Chieftain",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "134"
-			}
-		],
-		"points": "80",
-		"race": [
-			"Warg"
-		],
-		"faction": [
-			"Angmar"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Bestie"
-		],
-		"baseSize": "40mm",
-		"characteristics": {
-			"move": "10\"",
-			"fightValue": "5",
-			"shootValue": "5+",
-			"strength": "6",
-			"defence": "5",
-			"attacks": "3",
-			"wounds": "3",
-			"courage": "6+",
-			"intelligence": "7+"
-		},
-		"characteristicsHero": {
-			"might": "2",
-			"will": "2",
-			"fate": "1"
-		},
-		"wargear": [
-			{
-				"name": "Klauen und Zähne (Handwaffen)"
-			}
-		],
-		"heroicActions": [
-			"Heroischer Marsch",
-			"Heroische Stärke"
-		],
-		"specialRules": [
-			"Entsetzlich",
-			"Packlord"
+			"Glühende Augen",
+			"Wilder Angriff"
 		]
 	},
 	"Wilder Mensch von Dunland": {
@@ -35203,6 +34834,48 @@
 		"specialRules": [
 			"Hass (Man)",
 			"Schmerzunempfindlich"
+		]
+	},
+	"Wilder Warg": {
+		"id": "wild_warg",
+		"version": "2024",
+		"language": "de",
+		"name": "Wilder Warg",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "134"
+			}
+		],
+		"points": "7",
+		"race": [
+			"Warg"
+		],
+		"faction": [
+			"Angmar"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie",
+			"Bestie"
+		],
+		"baseSize": "40mm",
+		"characteristics": {
+			"move": "10\"",
+			"fightValue": "3",
+			"shootValue": "6+",
+			"strength": "4",
+			"defence": "4",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"wargear": [
+			{
+				"name": "Klauen und Zähne (Handwaffen)"
+			}
 		]
 	},
 	"Willi Weißfuß, Bürgermeister von Michelbinge": {
@@ -35360,113 +35033,6 @@
 			"Waldbewohner"
 		]
 	},
-	"Worm": {
-		"id": "worm",
-		"version": "2024",
-		"language": "en",
-		"type": "Composition Model",
-		"name": "Worm",
-		"alignment": "Böse",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "111"
-			}
-		],
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Isengart"
-		],
-		"unitTypes": [
-			"Held",
-			"Infanterie",
-			"Einzigartig"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "3",
-			"shootValue": "4+",
-			"strength": "3",
-			"defence": "3",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "8+",
-			"intelligence": "8+"
-		},
-		"characteristicsHero": {
-			"might": "0",
-			"will": "0",
-			"fate": "0"
-		},
-		"wargear": [
-			{
-				"name": "Handwaffe"
-			}
-		],
-		"specialRules": [
-			"Wie ein Schatten",
-			"Broken Loyalties",
-			"When He Sneaks"
-		]
-	},
-	"Woses Warrior": {
-		"id": "warrior_woses",
-		"version": "2024",
-		"language": "en",
-		"name": "Woses Warrior",
-		"alignment": "Gut",
-		"source": [
-			{
-				"book": "Armies of Middle-Earth",
-				"page": "25"
-			}
-		],
-		"points": "9",
-		"race": [
-			"Mensch"
-		],
-		"faction": [
-			"Drúadan"
-		],
-		"unitTypes": [
-			"Krieger",
-			"Infanterie"
-		],
-		"baseSize": "25mm",
-		"characteristics": {
-			"move": "6\"",
-			"fightValue": "3",
-			"shootValue": "3+",
-			"strength": "3",
-			"defence": "3",
-			"attacks": "1",
-			"wounds": "1",
-			"courage": "7+",
-			"intelligence": "7+"
-		},
-		"wargear": [
-			{
-				"name": "Handwaffe"
-			},
-			{
-				"name": "Speer"
-			},
-			{
-				"name": "Blasrohr"
-			}
-		],
-		"specialRules": [
-			"Hass (Goblin)",
-			"Hass (Ork)",
-			"Hass (Uruk-hai)",
-			"Vergiftete Waffen (Blasrohr)",
-			"Wie ein Schatten",
-			"Waldbewohner"
-		]
-	},
 	"Wrot": {
 		"id": "wrot",
 		"version": "2024",
@@ -35590,6 +35156,58 @@
 			"Der Usurpatorkönig"
 		]
 	},
+	"Wurm": {
+		"id": "worm",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Wurm",
+		"alignment": "Böse",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "111"
+			}
+		],
+		"race": [
+			"Mensch"
+		],
+		"faction": [
+			"Isengart"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie",
+			"Einzigartig"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "6\"",
+			"fightValue": "3",
+			"shootValue": "4+",
+			"strength": "3",
+			"defence": "3",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "8+",
+			"intelligence": "8+"
+		},
+		"characteristicsHero": {
+			"might": "0",
+			"will": "0",
+			"fate": "0"
+		},
+		"wargear": [
+			{
+				"name": "Handwaffe"
+			}
+		],
+		"specialRules": [
+			"Treuebruch",
+			"Wenn er schleicht",
+			"Wie ein Schatten"
+		]
+	},
 	"Yazneg, Hunter Orc Captain": {
 		"id": "yazneg",
 		"version": "2024",
@@ -35707,7 +35325,7 @@
 			"Heroische Entschlossenheit"
 		],
 		"specialRules": [
-			"Longbeard"
+			"Langbart"
 		]
 	},
 	"Young Dwalin the Dwarf": {
@@ -35886,6 +35504,387 @@
 		],
 		"specialRules": [
 			"Rücksichtsloser Kämpfer"
+		]
+	},
+	"Zwergenballista": {
+		"id": "dwarven_ballista",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition",
+		"name": "Zwergenballista",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "67"
+			}
+		],
+		"note": "BESATZUNG\nEine Zwergenballista ist eine Kleine Belagerungsmaschine, mit einer Besatzung aus zwei Krieger der Zwergen, wobei einer ein Belagerungsexperte ist, welche das folgende Profil verwenden:",
+		"points": "70",
+		"composition": [
+			"Zwergen-Belagerungsexperte",
+			"Zwergen-Belagerungsbesatzung",
+			"Zwergenballista (Belagerungsmaschine)"
+		]
+	},
+	"Zwergenballista (Belagerungsmaschine)": {
+		"id": "dwarven_ballista_siege_engine",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Zwergenballista (Belagerungsmaschine)",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "67"
+			}
+		],
+		"unitTypes": [
+			"Belagerungsmaschine"
+		],
+		"baseSize": "40mm",
+		"characteristicsSiegeEngine": {
+			"range": "6\"-48\"",
+			"strength": "9",
+			"defence": "10",
+			"wounds": "3"
+		},
+		"specialRules": [
+			"Aufspießen",
+			"Direktes Schießen",
+			"Treffsicher"
+		]
+	},
+	"Zwergen-Belagerungsbesatzung": {
+		"id": "siege_crew_dwarf",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Zwergen-Belagerungsbesatzung",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "67"
+			}
+		],
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Krieger",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		]
+	},
+	"Zwergen-Belagerungsexperte": {
+		"id": "siege_veteran_dwarf",
+		"version": "2024",
+		"language": "de",
+		"type": "Composition Model",
+		"name": "Zwergen-Belagerungsexperte",
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of Middle-Earth",
+				"page": "67"
+			}
+		],
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "4",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "6",
+			"attacks": "1",
+			"wounds": "1",
+			"courage": "6+",
+			"intelligence": "6+"
+		},
+		"characteristicsHero": {
+			"might": "1",
+			"will": "1",
+			"fate": "1"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Rüstung"
+			},
+			{
+				"name": "Handwaffe"
+			}
+		]
+	},
+	"Zwergenkönig": {
+		"id": "dwarf_king",
+		"version": "2024",
+		"language": "de",
+		"name": "Zwergenkönig",
+		"linkedProfile": [
+			"Zwergenkönig (Erebor)",
+			"Zwergenkönig (Eisenberge)",
+			"Zwergenkönig (Khazad-dûm)"
+		],
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "41"
+			}
+		],
+		"points": "85",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Siehe unten"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "8",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "2",
+			"fate": "2"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Zwergenrüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			}
+		],
+		"heroicActions": [
+			"Heroischer Marsch",
+			"Heroische Entschlossenheit"
+		],
+		"specialRules": [
+			"Herren der Zwerge"
+		]
+	},
+	"Zwergenkönig (Eisenberge)": {
+		"id": "dwarf_king_iron_hills",
+		"version": "2024",
+		"language": "de",
+		"name": "Zwergenkönig (Eisenberge)",
+		"linkedProfile": [
+			"Zwergenkönig"
+		],
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "41"
+			}
+		],
+		"points": "85",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Eisenberge"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "8",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "2",
+			"fate": "2"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Zwergenrüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			}
+		],
+		"heroicActions": [
+			"Heroischer Marsch",
+			"Heroische Entschlossenheit"
+		],
+		"specialRules": [
+			"Furchtlos"
+		]
+	},
+	"Zwergenkönig (Erebor)": {
+		"id": "dwarf_king_erebor",
+		"version": "2024",
+		"language": "de",
+		"name": "Zwergenkönig (Erebor)",
+		"linkedProfile": [
+			"Zwergenkönig"
+		],
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "41"
+			}
+		],
+		"points": "85",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Erebor"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "8",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "2",
+			"fate": "2"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Zwergenrüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			}
+		],
+		"heroicActions": [
+			"Heroischer Marsch",
+			"Heroische Entschlossenheit"
+		],
+		"specialRules": [
+			"Uralte Feindschaft (Ork)"
+		]
+	},
+	"Zwergenkönig (Khazad-dûm)": {
+		"id": "dwarf_king_khazaddum)",
+		"version": "2024",
+		"language": "de",
+		"name": "Zwergenkönig (Khazad-dûm)",
+		"linkedProfile": [
+			"Zwergenkönig"
+		],
+		"alignment": "Gut",
+		"source": [
+			{
+				"book": "Armies of The Hobbit",
+				"page": "41"
+			}
+		],
+		"points": "85",
+		"race": [
+			"Zwerg"
+		],
+		"faction": [
+			"Khazad-dûm"
+		],
+		"unitTypes": [
+			"Held",
+			"Infanterie"
+		],
+		"baseSize": "25mm",
+		"characteristics": {
+			"move": "5\"",
+			"fightValue": "6",
+			"shootValue": "4+",
+			"strength": "4",
+			"defence": "8",
+			"attacks": "2",
+			"wounds": "2",
+			"courage": "4+",
+			"intelligence": "4+"
+		},
+		"characteristicsHero": {
+			"might": "2",
+			"will": "2",
+			"fate": "2"
+		},
+		"wargear": [
+			{
+				"name": "Schwere Zwergenrüstung"
+			},
+			{
+				"name": "Anderthalbhänderwaffe"
+			},
+			{
+				"name": "Wurfwaffen"
+			}
+		],
+		"heroicActions": [
+			"Heroischer Marsch",
+			"Heroische Entschlossenheit"
 		]
 	}
 }

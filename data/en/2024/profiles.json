@@ -2179,11 +2179,11 @@
 			"Fly [SpecialRule]"
 		]
 	},
-	"Batllin’ Brandybucks": {
-		"id": "batllin_brandybucks",
+	"Battlin’ Brandybuck": {
+		"id": "battlin_brandybucks",
 		"version": "2024",
 		"language": "en",
-		"name": "Batllin’ Brandybucks",
+		"name": "Battlin’ Brandybuck",
 		"linkedProfile": [
 			"Hobbit Militia",
 			"Meriadoc Brandybuck, Captain of the Shire"
@@ -7258,8 +7258,7 @@
 		],
 		"options": [
 			{
-				"name": "Khazâd Guard in Durin’s Warband may be upgraded to Hearthguard for +2 points per model. Hearthguard have the Burly special rule.",
-				"type": "OPTIONAL_RULES"
+				"name": "Hearthguard Upgrade"
 			}
 		],
 		"specialRules": [
@@ -8058,7 +8057,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Claws and teeth (Hand weapons)"
+				"name": "Claws and teeth (hand weapons)"
 			}
 		],
 		"specialRules": [
@@ -18220,7 +18219,7 @@
 		],
 		"options": [
 			{
-				"name": "Exchange Hand-and-a-half weapon for a bow",
+				"name": "Exchange hand-and-a-half weapon for a bow",
 				"cost": "Free",
 				"type": "WARRIOR_OPTIONAL"
 			}
@@ -18458,7 +18457,7 @@
 		],
 		"options": [
 			{
-				"name": "Exchange Hand-and-a-half weapon for a bow",
+				"name": "Exchange hand-and-a-half weapon for a bow",
 				"cost": "Free",
 				"type": "WARRIOR_OPTIONAL"
 			}
@@ -21493,8 +21492,7 @@
 				"cost": "5"
 			},
 			{
-				"name": "If your Army includes Merry, you may upgrade any number of Hobbit Militia in his Warband to Batllin’ Brandybucks at the cost of +1 point per model. Battlin’ Brandybucks have a Strength of 3.",
-				"type": "OPTIONAL_RULES"
+				"name": "Battlin’ Brandybucks Upgrade"
 			}
 		],
 		"specialRules": [
@@ -25900,11 +25898,11 @@
 		],
 		"options": [
 			{
-				"name": "Tookish Hunters Upgrade"
-			},
-			{
 				"name": "Elven cloak",
 				"cost": "5"
+			},
+			{
+				"name": "Tookish Hunters Upgrade"
 			}
 		],
 		"specialRules": [

@@ -33,6 +33,9 @@
 				{
 					"name": "Arathorn, Chieftain of the Dúnedain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -1022,10 +1025,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner and shield",
-							"cost": "26",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "26"
 						},
 						{
 							"name": "Banner",
@@ -1429,10 +1432,10 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner and shield",
-							"cost": "26",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "26"
 						},
 						{
 							"name": "Banner",
@@ -2992,6 +2995,9 @@
 				{
 					"name": "Aranarth, First Chieftain of the Dúnedain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "80"
@@ -3324,6 +3330,10 @@
 				{
 					"name": "Warg Marauder",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
+						"Cavalry": true,
 						"Legacy": true
 					},
 					"points": "35"
@@ -4463,7 +4473,7 @@
 					"armyRules": {
 						"Cavalry": true,
 						"Followers": [
-							"Batllin’ Brandybucks",
+							"Battlin’ Brandybuck",
 							"Hobbit Archer",
 							"Hobbit Shirriff"
 						],
@@ -4654,7 +4664,7 @@
 					"points": "4"
 				},
 				{
-					"name": "Batllin’ Brandybucks",
+					"name": "Battlin’ Brandybuck",
 					"points": "5"
 				},
 				{
@@ -4776,6 +4786,9 @@
 				{
 					"name": "Aranarth, First Chieftain of the Dúnedain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "80"
@@ -6122,7 +6135,6 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner and shield",
-							"cost": "26",
 							"armyRules": {
 								"Banner": true
 							}
@@ -8312,6 +8324,9 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner and shield",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "26"
 						},
 						{
@@ -9021,7 +9036,10 @@
 						"Cavalry": true,
 						"General": "Mandatory",
 						"Legacy": true,
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "120"
 				}
@@ -10142,6 +10160,9 @@
 				{
 					"name": "Khandish King",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "100",
@@ -10346,6 +10367,9 @@
 				{
 					"name": "Khandish Chieftain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "55",
@@ -10601,7 +10625,10 @@
 							"Easterling Kataphrakt Captain",
 							"Easterling War Priest",
 							"Easterling Dragon Knight"
-						]
+						],
+						"Throwing": {
+							"limit": "count"
+						}
 					},
 					"points": "11"
 				},
@@ -10846,6 +10873,9 @@
 				{
 					"name": "Khandish Horseman",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
 						"Captains": [
 							"Khandish King",
 							"Khandish Chieftain"
@@ -11400,6 +11430,7 @@
 				{
 					"name": "The Dragon Emperor of Rhûn",
 					"armyRules": {
+						"Banner": true,
 						"General": "Mandatory",
 						"Maximum": 1
 					},
@@ -11549,7 +11580,10 @@
 						"Captains": [
 							"The Dragon Emperor of Rhûn",
 							"Easterling Dragon Knight"
-						]
+						],
+						"Throwing": {
+							"limit": "count"
+						}
 					},
 					"points": "11"
 				},
@@ -11872,6 +11906,11 @@
 				},
 				{
 					"name": "Dwarf King (Khazad-dûm)",
+					"armyRules": {
+						"Throwing": {
+							"limit": "ignore"
+						}
+					},
 					"points": "85"
 				}
 			],
@@ -11894,6 +11933,9 @@
 						},
 						{
 							"name": "Herald",
+							"armyRules": {
+								"Banner": true
+							},
 							"amount": 2
 						}
 					]
@@ -11989,6 +12031,11 @@
 				},
 				{
 					"name": "Iron Guard",
+					"armyRules": {
+						"Throwing": {
+							"limit": "count"
+						}
+					},
 					"points": "15"
 				},
 				{
@@ -15431,6 +15478,10 @@
 				{
 					"name": "Warg Marauder",
 					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
+						"Cavalry": true,
 						"Legacy": true
 					},
 					"points": "35"
@@ -16105,6 +16156,9 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner and shield",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "26"
 						},
 						{
@@ -17634,6 +17688,11 @@
 			"Heroes of Valour": [
 				{
 					"name": "Dwarf King (Khazad-dûm)",
+					"armyRules": {
+						"Throwing": {
+							"limit": "ignore"
+						}
+					},
 					"points": "85"
 				}
 			],
@@ -17678,6 +17737,9 @@
 						},
 						{
 							"name": "Herald",
+							"armyRules": {
+								"Banner": true
+							},
 							"amount": 2
 						}
 					]
@@ -17766,6 +17828,11 @@
 				},
 				{
 					"name": "Iron Guard",
+					"armyRules": {
+						"Throwing": {
+							"limit": "count"
+						}
+					},
 					"points": "15"
 				}
 			]
@@ -20406,6 +20473,9 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner and shield",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "26"
 						},
 						{
@@ -21132,7 +21202,10 @@
 						"Captains": [
 							"Amdûr, Lord of Blades",
 							"Easterling Dragon Knight"
-						]
+						],
+						"Throwing": {
+							"limit": "count"
+						}
 					},
 					"points": "11"
 				},
@@ -22120,6 +22193,9 @@
 					"mandatoryWarrior": [
 						{
 							"name": "Banner and shield",
+							"armyRules": {
+								"Banner": true
+							},
 							"cost": "26"
 						},
 						{
@@ -24053,6 +24129,9 @@
 				{
 					"name": "Khandish King",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"General": "Mandatory",
 						"Legacy": true
 					},
@@ -24069,6 +24148,9 @@
 				{
 					"name": "Khandish Chieftain",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Legacy": true
 					},
 					"points": "55",
@@ -24106,7 +24188,7 @@
 					"name": "Khandish Horseman",
 					"armyRules": {
 						"Bow": {
-							"limit": "ignore"
+							"limit": "count"
 						},
 						"Cavalry": true,
 						"Legacy": true

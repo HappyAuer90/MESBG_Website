@@ -958,6 +958,21 @@
 			"Siege Engine"
 		]
 	},
+	"Battlin’ Brandybucks Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Battlin’ Brandybucks Upgrade",
+		"description": "If your Army includes Merry, you may upgrade any number of Hobbit Militia in his Warband to Battlin’ Brandybucks at the cost of +1 point per model. Battlin’ Brandybucks have a Strength of 3.",
+		"linkedProfiles": [
+			"Battlin’ Brandybucks|Battlin’ Brandybuck",
+			"Hobbit Militia"
+		],
+		"linkedRules": [
+			"Strength",
+			"Warband"
+		]
+	},
 	"Beast": {
 		"type": "rule",
 		"version": "2024",
@@ -1306,7 +1321,7 @@
 		"language": "en",
 		"alias": [
 			"bow",
-			"Exchange Hand-and-a-half weapon for a bow"
+			"Exchange hand-and-a-half weapon for a bow"
 		],
 		"name": "Bow",
 		"description": "Range 24\", Strength 2\n\nA model can make a Shooting Attack with a bow during the Shoot Phase provided it has not Moved over half its Move Value during the preceding Move Phase.",
@@ -1394,7 +1409,7 @@
 		"language": "en",
 		"name": "Breathe Fire",
 		"status": "Active",
-		"description": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit suffers a Strength 10 hit and if they suffer a Wound from this hit, which is not prevented, they are automatically slain. Additionally, all other models (friend and foe) within 2\" are immediately Set Ablaze – though they will not be automatically slain if wounded. This is a fire- based attack",
+		"description": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit suffers a Strength 10 hit and if they suffer a Wound from this hit, which is not prevented, they are automatically slain. Additionally, all other models (friend and foe) within 2\" are immediately Set Ablaze – though they will not be automatically slain if wounded. This is a fire- based attack.",
 		"linkedDetails": [
 			"bow|Bow [Definition]",
 			"Set Ablaze"
@@ -1595,6 +1610,7 @@
 			"Duel Roll",
 			"End Phase",
 			"Fight Phase",
+			"Heroic Actions",
 			"Strikes",
 			"Supporting"
 		]
@@ -3296,6 +3312,7 @@
 		"linkedRules": [
 			"Combat",
 			"Fight Phase",
+			"Heroic Actions",
 			"Move",
 			"special rule"
 		]
@@ -4529,7 +4546,7 @@
 		"language": "en",
 		"name": "Forest Stalker",
 		"status": "Passive",
-		"description": "Whenever a friendly Druadan model within 6\" of Ghan-buri-Ghan that is within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored.",
+		"description": "Whenever a friendly Drúadan model within 6\" of Ghân-Buri-Ghân that is within a piece of woodland terrain suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored.",
 		"linkedRules": [
 			"natural"
 		]
@@ -4725,6 +4742,10 @@
 			"Combat",
 			"Strikes",
 			"Wound"
+		],
+		"excludeFromLinking": [
+			"this Wound",
+			"Wound and"
 		]
 	},
 	"Gatekeeper": {
@@ -5282,6 +5303,23 @@
 			"Move Phase",
 			"Warrior",
 			"Will Points"
+		]
+	},
+	"Hearthguard Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Hearthguard Upgrade",
+		"description": "Khazâd Guard in Durin’s Warband may be upgraded to Hearthguard for +2 points per model. Hearthguard have the Burly special rule.",
+		"linkedDetails": [
+			"Burly"
+		],
+		"linkedProfiles": [
+			"Hearthguard",
+			"Khazâd Guard"
+		],
+		"linkedRules": [
+			"Warband"
 		]
 	},
 	"Heavy armour": {
@@ -6143,6 +6181,7 @@
 			"Combat",
 			"Fight Phase",
 			"General",
+			"Heroic Actions",
 			"Move",
 			"special rule"
 		]
@@ -6714,6 +6753,7 @@
 			"Charge",
 			"Fight Phase",
 			"Hero",
+			"Heroic Actions",
 			"Move",
 			"special rule"
 		]
@@ -7566,10 +7606,13 @@
 			"Moving",
 			"Objective Marker",
 			"Prone",
-			"Strength,|Characteristic: Strength",
+			"Strength",
 			"Swarm",
 			"Trapped",
 			"War Beast"
+		],
+		"excludeFromLinking": [
+			"a Strength"
 		]
 	},
 	"Master-forged weapon": {
@@ -8762,8 +8805,7 @@
 			"Prone",
 			"Shooting Attacks",
 			"Strikes",
-			"Swim",
-			"turn"
+			"Swim"
 		]
 	},
 	"Passengers": {
@@ -9131,7 +9173,8 @@
 			"Heroic Move"
 		],
 		"linkedProfiles": [
-			"Broodling"
+			"Broodling",
+			"Broodlings|Broodling"
 		],
 		"linkedRules": [
 			"Activate",
@@ -10569,6 +10612,9 @@
 			"Line of Sight",
 			"Will",
 			"Wounds"
+		],
+		"excludeFromLinking": [
+			"Beorn the Bear"
 		]
 	},
 	"Skin-changer [Grimbeorn]": {
@@ -10611,6 +10657,9 @@
 			"Line of Sight",
 			"Will",
 			"Wounds"
+		],
+		"excludeFromLinking": [
+			"Grimbeorn the Bear"
 		]
 	},
 	"\"Slay their Horses!\"": {
@@ -11468,6 +11517,7 @@
 		"status": "Active",
 		"description": "At the start of the Shoot Phase, before the Declare Heroic Actions step, a Shade may spend a Will Point to use this ability. If it does, then for the remainder of the turn, enemy models will suffer a -1 penalty To Hit when making a shooting attack that targets a friendly model within 6\" of the Shade. If the enemy model making the shooting attack is also within 12\" of the Shade, they will suffer a -2 penalty To Hit instead.",
 		"linkedRules": [
+			"Heroic Actions",
 			"Shoot Phase",
 			"shooting attack",
 			"To Hit",
@@ -12106,7 +12156,7 @@
 		"language": "en",
 		"name": "The Palanquin",
 		"status": "Passive",
-		"description": "The Royal Palanquin is a Mount, however, it does not act like a Cavalry model and does not provide the Cavalry keyword to the Dragon Emperor. Instead, the whole model is treated as an Infantry model.\n\nIf a special rule or Magical Power would affect a Cavalry model, and will affect both the rider and the Mount of a model, then this will still affect both the Dragon Emperor and the Palanquin as normal. If a special rule or Magical Power would affect a Cavalry model, and will affect either the rider or the Mount of a model, then the player using the special rule or Magical Power may still choose either the Dragon Emperor or the Palanquin to be affected.\n\nWhilst the Palanquin has 3 or more Wounds remaining it will Move as normal. If it is reduced to 2 Wounds, then its Move Value is reduced to 3\". If it only has a single Wound remaining then it cannot Move at all.\n\nWhen the Palanquin is hit by a shooting attack, the shooter must take an In The Way Test to see if the Dragon Emperor or the Palanquin itself are hit. However, for this In The Way Test a roll of a 1-4 will hit the Royal Palanquin and a 5+ will hit the Dragon Emperor. A model with the Sharpshooter special rule may still target either rider or Mount as normal.\n\nThe Palanquin is always treated as a single Mount, rather than multiple single models. If the Dragon Emperor dismounts from the Palanquin, or is slain whilst riding the Palanquin, then replace the Palanquin with a number of Black Dragon Warriors with shield equal to the number of Wounds the Palanquin currently has remaining – they do not need to take Courage Tests as a result of being a Separated Mount. These models should be placed within the footprint of the Palanquin.\n\nThe Royal Palanquin cannot be knocked Prone for any reason, with the exception of if it is hit by the Direct Hit of a Siege Engine.\n\nThe Royal Palanquin, and any model riding it, cannot be affected by the Hurl or Barge Brutal Power Attacks, and cannot be forced back by Magical Powers (such as Call Winds) or by being flung back by the effects of a Siege Engine.\n\nThe Royal Palanquin has the Dominant (X) special rule, where X is the number of Wounds remaining",
+		"description": "The Royal Palanquin is a Mount, however, it does not act like a Cavalry model and does not provide the Cavalry keyword to the Dragon Emperor. Instead, the whole model is treated as an Infantry model.\n\nIf a special rule or Magical Power would affect a Cavalry model, and will affect both the rider and the Mount of a model, then this will still affect both the Dragon Emperor and the Palanquin as normal. If a special rule or Magical Power would affect a Cavalry model, and will affect either the rider or the Mount of a model, then the player using the special rule or Magical Power may still choose either the Dragon Emperor or the Palanquin to be affected.\n\nWhilst the Palanquin has 3 or more Wounds remaining it will Move as normal. If it is reduced to 2 Wounds, then its Move Value is reduced to 3\". If it only has a single Wound remaining then it cannot Move at all.\n\nWhen the Palanquin is hit by a shooting attack, the shooter must take an In The Way Test to see if the Dragon Emperor or the Palanquin itself are hit. However, for this In The Way Test a roll of a 1-4 will hit the Royal Palanquin and a 5+ will hit the Dragon Emperor. A model with the Sharpshooter special rule may still target either rider or Mount as normal.\n\nThe Palanquin is always treated as a single Mount, rather than multiple single models. If the Dragon Emperor dismounts from the Palanquin, or is slain whilst riding the Palanquin, then replace the Palanquin with a number of Black Dragon Warriors with shield equal to the number of Wounds the Palanquin currently has remaining – they do not need to take Courage Tests as a result of being a Separated Mount. These models should be placed within the footprint of the Palanquin.\n\nThe Royal Palanquin cannot be knocked Prone for any reason, with the exception of if it is hit by the Direct Hit of a Siege Engine.\n\nThe Royal Palanquin, and any model riding it, cannot be affected by the Hurl or Barge Brutal Power Attacks, and cannot be forced back by Magical Powers (such as Call Winds) or by being flung back by the effects of a Siege Engine.\n\nThe Royal Palanquin has the Dominant (X) special rule, where X is the number of Wounds remaining.",
 		"linkedDetails": [
 			"Barge",
 			"Call Winds",
@@ -12412,6 +12462,7 @@
 		"linkedRules": [
 			"Combat",
 			"Fight Phase",
+			"Heroic Actions",
 			"Move",
 			"special rule"
 		]
@@ -12643,7 +12694,7 @@
 		"version": "2024",
 		"language": "en",
 		"name": "Tookish Hunters Upgrade",
-		"description": "If your Army includes Paladin, you may upgrade any number of Hobbit Archers in his Warband to Tookish Hunters at the cost of +1 point per model. Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
+		"description": "If your Army includes {character}, you may upgrade any number of Hobbit Archers in his Warband to Tookish Hunters at the cost of +1 point per model. Tookish Hunters may re-roll To Wound Rolls of a 1 when making Shooting Attacks.",
 		"linkedProfiles": [
 			"Hobbit Archers|Hobbit Archer",
 			"Tookish Hunters|Tookish Hunter"
@@ -14131,7 +14182,6 @@
 		],
 		"linkedRules": [
 			"Cast",
-			"Magical Powers",
 			"turn",
 			"Will Point"
 		]

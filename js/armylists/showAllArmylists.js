@@ -349,7 +349,7 @@ function validateArmyRules(rules, context) {
 
                         model.mandatory.forEach(mand => {
 
-                            const profileOpt = profile.options?.find(o => o.name === mand);
+                            const profileOpt = profile.options?.find(o => normalizeName(o.name) === normalizeName(mand));
 
                             // ❌ Mandatory existiert nicht
                             if (!profileOpt) {
@@ -386,7 +386,7 @@ function validateArmyRules(rules, context) {
 
                         arr.forEach(opt => {
 
-                            const profileOpt = profile.options?.find(o => o.name === opt.name);
+                            const profileOpt = profile.options?.find(o => normalizeName(o.name) === normalizeName(opt.name));
 
                             if (!profileOpt) {
                                 report.optionValidation.push(
@@ -511,6 +511,11 @@ function renderTestBlock(title, errors) {
    UTIL
 ========================= */
 
+function normalizeName(str) {
+    return str
+        .replace(/\(.*?\)/g, "")
+        .trim();
+}
 function normalizeAlphabetical(str) {
     return str
         .normalize("NFD")
