@@ -1,16 +1,25 @@
 export default {
     main: {
         title: "MESBG ONLINE TOOL",
+
         profiles: "Profiles",
-        rules: "Rules",
-        armylists: "Armylists",
         searchProfile: "Search Profile",
         expertSearch: "Expert Search",
         showAllProfiles: "Show All Profiles",
+
+        rules: "Rules",
         showAllRules: "Show All Rules",
+
+        armylists: "Armylists",
         searchArmylist: "Search Armylist",
         showAllArmylists: "Show All Armylists",
-        buildArmylist: "Build Armylist"
+        buildArmylist: "Build Armylist",
+
+        scenarios: "Scenarios",
+        matchedPlay: "Matched Play",
+
+        simulations: "Simulations",
+        warriorSimulations: "Warrior Simulations"
     },
     settings: {
         title: "Settings",
@@ -117,9 +126,9 @@ export default {
             magicalPowers: "Magical Powers"
         },
         all: {
-            title: "Show All Profiles",
             good: "Good",
-            evil: "Evil"
+            evil: "Evil",
+            Hero: "Hero"
         }
     },
 

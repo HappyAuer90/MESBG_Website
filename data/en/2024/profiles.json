@@ -3696,7 +3696,7 @@
 		],
 		"options": [
 			{
-				"name": "Troll Brute (see page 125, Bofur replaces the Orc Commander)",
+				"name": "Troll Brute (Bofur replaces the Orc Commander)",
 				"cost": "100"
 			}
 		],
@@ -5146,7 +5146,7 @@
 			},
 			{
 				"name": "Writhing Vines",
-				"range": "Self\"",
+				"range": "Self",
 				"castingValue": "4+"
 			}
 		]
@@ -11154,7 +11154,7 @@
 			},
 			{
 				"name": "Instil Fear",
-				"range": "Self\"",
+				"range": "Self",
 				"castingValue": "4+"
 			}
 		]
@@ -11250,7 +11250,7 @@
 			},
 			{
 				"name": "Fog of Disarray",
-				"range": "Self\"",
+				"range": "Self",
 				"castingValue": "4+"
 			},
 			{
@@ -14220,7 +14220,7 @@
 			"Ancient Enemies (Dwarf)",
 			"Ancient Enemies (Elf)",
 			"Dominant (3)",
-			"Relentless Advance",
+			"Relentless Advance [Gundabad Ogre]",
 			"Terror"
 		]
 	},
@@ -21990,7 +21990,7 @@
 		]
 	},
 	"Mirkwood Ranger Captain": {
-		"id": "captain_Mirkwood_ranger",
+		"id": "captain_mirkwood_ranger",
 		"version": "2024",
 		"language": "en",
 		"name": "Mirkwood Ranger Captain",
@@ -24222,7 +24222,7 @@
 		},
 		"wargear": [
 			{
-				"name": "Each Nazgûl of Dol Guldur has their own Wargear and special rules as detailed over the linked Profiles",
+				"name": "Each Nazgûl of Dol Guldur has their own Wargear and special rules as detailed over the linked Profiles.",
 				"type": "OPTIONAL_RULES"
 			}
 		],
@@ -30425,7 +30425,7 @@
 			"Burly",
 			"Cave Dweller",
 			"Goblin Projectile",
-			"Relentless Advance",
+			"Relentless Advance [The Goblin King]",
 			"Resistant to Magic",
 			"Terror"
 		]
@@ -32569,8 +32569,7 @@
 		],
 		"options": [
 			{
-				"name": "Grim Hammer Warriors in Thrór’s Warband may be upgraded to Guardians of the King for +1 point per model. Guardians of the King have a Strength of 4.",
-				"type": "OPTIONAL_RULES"
+				"name": "Guardians of the King Upgrade"
 			}
 		],
 		"specialRules": [
@@ -32972,7 +32971,7 @@
 		"language": "en",
 		"type": "Composition Model",
 		"alias": [
-			"Troll Brute (see page 125, Bofur replaces the Orc Commander)"
+			"Troll Brute (Bofur replaces the Orc Commander)"
 		],
 		"name": "Troll Brute (War Beast)",
 		"alignment": "Evil",

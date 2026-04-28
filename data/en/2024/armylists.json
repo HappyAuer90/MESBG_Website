@@ -272,7 +272,7 @@
 			},
 			{
 				"name": "Stoic Defence",
-				"description": "Once per game, at the start of any Move Phase before the Declare Heroic Actions step, you may declare you are using this ability. If you do, then during the Move Phase friendly models cannot Move during their Activation (but can otherwise act normally).\nAdditionally, until the End Phase of the turn, friendly models gain the Dominant (2) special rule and may re-roll any failed To Wound Rolls when making Strikes."
+				"description": "Once per game, at the start of any Move Phase before the Declare Heroic Actions step, you may declare you are using this ability. If you do, then during the Move Phase friendly models cannot Move during their Activation (but can otherwise act normally). Additionally, until the End Phase of the turn, friendly models gain the Dominant (2) special rule and may re-roll any failed To Wound Rolls when making Strikes."
 			}
 		],
 		"models": {
@@ -972,14 +972,20 @@
 				{
 					"name": "Bofur the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "65"
 				},
 				{
 					"name": "Nori the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "75"
 				},
@@ -1090,7 +1096,7 @@
 		"specialRules": [
 			{
 				"name": "The Destruction of Men",
-				"description": "The range of Gothmog’s \"The Age of Men is Over\" special rule is increased to 12\".\nAdditionally, the range of Gothmog’s \"The Time of the Orc has come\" special rule is increased to battlefield wide."
+				"description": "The range of Gothmog’s \"The Age of Men is Over\" special rule is increased to 12\". Additionally, the range of Gothmog’s \"The Time of the Orc has come\" special rule is increased to battlefield wide."
 			},
 			{
 				"name": "Tyrannical Rule",
@@ -1339,7 +1345,7 @@
 			},
 			{
 				"name": "The Horn of Gorgoroth",
-				"description": "Once per game, after Priority has been determined, as long as your General is alive and on the battlefield they can order the Horn of Gorgoroth to be blown. Until the End of the turn, all friendly Gundabad models gain a bonus of +2 to any Courage Tests they are required to take.\nAdditionally, until the end of the turn, all enemy models on the battlefield suffer a -2 penalty to any Courage Tests they are required to take. Note that this is not cumulative with other rules that confer similar penalties."
+				"description": "Once per game, after Priority has been determined, as long as your General is alive and on the battlefield they can order the Horn of Gorgoroth to be blown. Until the End of the turn, all friendly Gundabad models gain a bonus of +2 to any Courage Tests they are required to take. Additionally, until the end of the turn, all enemy models on the battlefield suffer a -2 penalty to any Courage Tests they are required to take. Note that this is not cumulative with other rules that confer similar penalties."
 			},
 			{
 				"name": "Raise the Banners",
@@ -1375,6 +1381,9 @@
 					"options": [
 						{
 							"name": "Fell Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -1412,6 +1421,7 @@
 						{
 							"name": "Troll Brute (War Beast)",
 							"armyRules": {
+								"Monster": true,
 								"NotCount": "Warband"
 							}
 						}
@@ -1522,7 +1532,7 @@
 			},
 			{
 				"name": "\"I Shall Protect You\"",
-				"description": "Tauriel may include Kíli, Fíli, Bofur and Óin in her Warband.\nAdditionally, if Tauriel is within 3\" of a friendly Dwarf model who is Engaged in Combat, she gains a bonus of +1 To Wound when making Strikes."
+				"description": "Tauriel may include Kíli, Fíli, Bofur and Óin in her Warband. Additionally, if Tauriel is within 3\" of a friendly Dwarf model who is Engaged in Combat, she gains a bonus of +1 To Wound when making Strikes."
 			},
 			{
 				"name": "Stubborn to a Fault",
@@ -1588,6 +1598,9 @@
 				{
 					"name": "Kíli the Dwarf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Captains": [
 							"Tauriel, Ranger of Mirkwood"
 						],
@@ -1601,7 +1614,10 @@
 						"Captains": [
 							"Tauriel, Ranger of Mirkwood"
 						],
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "50"
 				},
@@ -2856,7 +2872,7 @@
 			},
 			{
 				"name": "Erebor Treasure Hoard",
-				"description": "Friendly Erebor models gain a bonus of +1 To Wound when making Strikes against an enemy model that is in possession of an Objective Marker.\nAdditionally, Friendly Erebor models that are within their deployment zone may re-roll To Wound Rolls of a natural 1 when making Strikes."
+				"description": "Friendly Erebor models gain a bonus of +1 To Wound when making Strikes against an enemy model that is in possession of an Objective Marker. Additionally, Friendly Erebor models that are within their deployment zone may re-roll To Wound Rolls of a natural 1 when making Strikes."
 			},
 			{
 				"description": "An Army of Thrór Army may have up to 50% of its Warrior models armed with throwing weapons rather than the usual 33%."
@@ -2916,6 +2932,11 @@
 				},
 				{
 					"name": "Grim Hammer Captain",
+					"armyRules": {
+						"Throwing": {
+							"limit": "ignore"
+						}
+					},
 					"points": "80"
 				}
 			],
@@ -2946,6 +2967,18 @@
 						}
 					},
 					"points": "11"
+				},
+				{
+					"name": "Guardian of the King",
+					"armyRules": {
+						"Captains": [
+							"Thrór, King under the Mountain"
+						],
+						"Throwing": {
+							"limit": "count"
+						}
+					},
+					"points": "12"
 				}
 			]
 		}
@@ -3394,11 +3427,11 @@
 		"specialRules": [
 			{
 				"name": "Orcrist",
-				"description": "Legolas begins the game with Orcrist – no points are paid for Orcrist, it is free.\nAdditionally, at the start of any Fight Phase, if Legolas is within 6\" of Thorin and Thorin is Engaged in Combat, then Legolas can throw Orcrist to Thorin. From that point on, Thorin carries Orcrist instead of Legolas."
+				"description": "Legolas begins the game with Orcrist – no points are paid for Orcrist, it is free. Additionally, at the start of any Fight Phase, if Legolas is within 6\" of Thorin and Thorin is Engaged in Combat, then Legolas can throw Orcrist to Thorin. From that point on, Thorin carries Orcrist instead of Legolas."
 			},
 			{
 				"name": "The Line of Durin",
-				"description": "Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\nAdditionally, Kíli and Fíli increase their Attacks to 3 in this Army List."
+				"description": "Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive. Additionally, Kíli and Fíli increase their Attacks to 3 in this Army List."
 			},
 			{
 				"name": "The King’s Protector",
@@ -3406,7 +3439,7 @@
 			},
 			{
 				"name": "Heroes of Mirkwood",
-				"description": "Legolas increases his Fight Value to 7 and his Attacks to 3.\nAdditionally, Tauriel must re-roll all failed To Wound Rolls when making Strikes."
+				"description": "Legolas increases his Fight Value to 7 and his Attacks to 3. Additionally, Tauriel must re-roll all failed To Wound Rolls when making Strikes."
 			},
 			{
 				"name": "Throwing Stones",
@@ -3504,7 +3537,7 @@
 			},
 			{
 				"name": "Break the Walls",
-				"description": "Friendly Isengard Assault Ballistae may re-roll To Hit and Scatter Rolls of a 1.\nAdditionally, when a friendly Demolition Charge is detonated, you may roll two dice on the Detonation Table rather than one and pick either result."
+				"description": "Friendly Isengard Assault Ballistae may re-roll To Hit and Scatter Rolls of a 1. Additionally, when a friendly Demolition Charge is detonated, you may roll two dice on the Detonation Table rather than one and pick either result."
 			}
 		],
 		"armyRules": {
@@ -3952,6 +3985,9 @@
 					"options": [
 						{
 							"name": "The White Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "50"
 						}
 					]
@@ -3967,6 +4003,9 @@
 					"options": [
 						{
 							"name": "Fell Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -3991,6 +4030,9 @@
 					"options": [
 						{
 							"name": "Fell Warg and lance",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "25"
 						}
 					]
@@ -4004,6 +4046,9 @@
 					"options": [
 						{
 							"name": "Fell Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -4021,6 +4066,9 @@
 					"options": [
 						{
 							"name": "Fell Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -4777,7 +4825,7 @@
 					"options": [
 						{
 							"name": "Asfaloth",
-							"cost": "25"
+							"cost": "20"
 						}
 					]
 				}
@@ -5081,7 +5129,7 @@
 		"specialRules": [
 			{
 				"name": "Wulf’s Revenge",
-				"description": "Whenever Wulf Moves, he must always Charge an enemy model if possible.\nAdditionally, once per game Wulf may declare a Heroic Challenge for free, though this Heroic Challenge must target the enemy General. Wulf may still do this even if the enemy General has a lower Heroic Tier."
+				"description": "Whenever Wulf Moves, he must always Charge an enemy model if possible. Additionally, once per game Wulf may declare a Heroic Challenge for free, though this Heroic Challenge must target the enemy General. Wulf may still do this even if the enemy General has a lower Heroic Tier."
 			},
 			{
 				"name": "The Promise of Wealth",
@@ -5382,7 +5430,7 @@
 			},
 			{
 				"name": "\"You have my sword\"",
-				"description": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule.\nAdditionally, a Breaking of the Fellowship Army can never be considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
+				"description": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Breaking of the Fellowship Army can never be considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
 			},
 			{
 				"name": "Blessing of Galadriel",
@@ -6075,14 +6123,20 @@
 				{
 					"name": "Bofur the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "65"
 				},
 				{
 					"name": "Nori the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "75"
 				},
@@ -6137,7 +6191,8 @@
 							"name": "Banner and shield",
 							"armyRules": {
 								"Banner": true
-							}
+							},
+							"cost": "26"
 						},
 						{
 							"name": "Banner",
@@ -6263,11 +6318,11 @@
 		"specialRules": [
 			{
 				"name": "Allies ’til the End",
-				"description": "Haldir treats both Aragorn and Théoden as a banner with a range of 6\".\nAdditionally, whilst within 6\" of either Aragorn or Théoden, Haldir automatically passes all Courage Tests and may re-roll failed To Wound Rolls when making Strikes."
+				"description": "Haldir treats both Aragorn and Théoden as a banner with a range of 6\". Additionally, whilst within 6\" of either Aragorn or Théoden, Haldir automatically passes all Courage Tests and may re-roll failed To Wound Rolls when making Strikes."
 			},
 			{
 				"name": "\"Fall Back to the Keep!\"",
-				"description": "If this Army is Broken, friendly Warrior models gain a bonus of +1 to any Courage Tests they are required to take.\nAdditionally, if this Army is Broken, friendly Warrior models within 6\" of Théoden may re-roll failed Courage Tests."
+				"description": "If this Army is Broken, friendly Warrior models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, if this Army is Broken, friendly Warrior models within 6\" of Théoden may re-roll failed Courage Tests."
 			},
 			{
 				"name": "\"Give them a Volley\"",
@@ -7666,11 +7721,11 @@
 		"specialRules": [
 			{
 				"name": "Drums in the Deep",
-				"description": "Once per game, at the start of any Move Phase, a Depths of Moria player can declare they are using this special rule. If they do, until the End Phase of the turn, enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take.\n\nAdditionally, until the End Phase of the turn, friendly Moria Goblin models count as being in range of a banner."
+				"description": "Once per game, at the start of any Move Phase, a Depths of Moria player can declare they are using this special rule. If they do, until the End Phase of the turn, enemy models suffer a -1 penalty to any Courage Tests they are required to take, whilst friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take.\n Additionally, until the End Phase of the turn, friendly Moria Goblin models count as being in range of a banner."
 			},
 			{
 				"name": "Dominion of the Balrog",
-				"description": "Friendly Moria Goblin models within 6\" of the Balrog gain a bonus of +1 to their Fight Value.\nAdditionally, so long as the Balrog has at least 6 Wounds remaining, a Depths of Moria Army can never count as being Broken. Should the Balrog have 5 or fewer Wounds remaining, a Depths of Moria Army will Break as normal. However, should the Balrog ever be removed as a casualty, a Depths of Moria Army will immediately count as being Broken."
+				"description": "Friendly Moria Goblin models within 6\" of the Balrog gain a bonus of +1 to their Fight Value. Additionally, so long as the Balrog has at least 6 Wounds remaining, a Depths of Moria Army can never count as being Broken. Should the Balrog have 5 or fewer Wounds remaining, a Depths of Moria Army will Break as normal. However, should the Balrog ever be removed as a casualty, a Depths of Moria Army will immediately count as being Broken."
 			},
 			{
 				"name": "Shadow…",
@@ -8046,6 +8101,11 @@
 				},
 				{
 					"name": "Grim Hammer Captain",
+					"armyRules": {
+						"Throwing": {
+							"limit": "ignore"
+						}
+					},
 					"points": "80"
 				},
 				{
@@ -8178,7 +8238,7 @@
 		"specialRules": [
 			{
 				"name": "\"The Dwarves, they’re rallying\"",
-				"description": "Any Infantry Hero in this Army may declare a Heroic March, even if it is not listed as one of their Heroic Actions.\nAdditionally, Infantry models in this Army list can still charge after participating in a Heroic March."
+				"description": "Any Infantry Hero in this Army may declare a Heroic March, even if it is not listed as one of their Heroic Actions. Additionally, Infantry models in this Army list can still charge after participating in a Heroic March."
 			},
 			{
 				"name": "Family Ties",
@@ -8254,7 +8314,10 @@
 				{
 					"name": "Bofur the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "65",
 					"options": [
@@ -8274,14 +8337,20 @@
 				{
 					"name": "Ori the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "50"
 				},
 				{
 					"name": "Nori the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "75"
 				},
@@ -9022,7 +9091,7 @@
 			},
 			{
 				"name": "The Charge of Eorl",
-				"description": "Once per game, at the start of any friendly Activation Phase, Eorl can use this special rule so long as he is alive and on the battlefield, and has the Cavalry keyword. If he does, then until the end of the turn all friendly Cavalry models must Charge when they Move if able.\nAdditionally, until the end of the turn, friendly Cavalry models that Charged this turn may re-roll any failed To Wound rolls when making Strikes."
+				"description": "Once per game, at the start of any friendly Activation Phase, Eorl can use this special rule so long as he is alive and on the battlefield, and has the Cavalry keyword. If he does, then until the end of the turn all friendly Cavalry models must Charge when they Move if able. Additionally, until the end of the turn, friendly Cavalry models that Charged this turn may re-roll any failed To Wound rolls when making Strikes."
 			}
 		],
 		"armyRules": {
@@ -9527,11 +9596,11 @@
 			},
 			{
 				"name": "Bring down the Dragon",
-				"description": "Friendly Dale models may apply their Hatred (Dragon) special rule to their shooting attacks.\nAdditionally, friendly Dale models may re-roll failed To Hit Rolls when making a shooting attack targeting a Monster model."
+				"description": "Friendly Dale models may apply their Hatred (Dragon) special rule to their shooting attacks. Additionally, friendly Dale models may re-roll failed To Hit Rolls when making a shooting attack targeting a Monster model."
 			},
 			{
 				"name": "Girion’s Last Stand",
-				"description": "Girion gains the Fearless special rule.\nAdditionally, friendly Dale models that can draw Line of Sight to Girion gain a bonus of +1 to any Courage Tests they are required to take."
+				"description": "Girion gains the Fearless special rule. Additionally, friendly Dale models that can draw Line of Sight to Girion gain a bonus of +1 to any Courage Tests they are required to take."
 			},
 			{
 				"name": "Defenders of Dale",
@@ -11883,7 +11952,7 @@
 			},
 			{
 				"name": "Dwarven Mirrors",
-				"description": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight. Enemy models targeting a friendly model within 6\" of a Dwarven Mirror Marker with a shooting attack suffers a -1 penalty to the To Hit Roll.\nAdditionally, Orc models, Goblin models, or models with the Cave Dweller special rule, suffer a -1 penalty to any Courage Tests they are required to take whilst they are within 6\" of a Dwarven Mirror Marker. If during the End Phase of a turn, an enemy model is in base contact with a Dwarven Mirror Marker, that model hasn’t done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Dwarven Mirror Marker from play. Models cannot overlap a Dwarven Mirror Marker for any reason, though a War Beast or Chariot that Moves into base contact with one (via Trample or Chariot Charge respectively) will immediately remove it from play and may carry on as normal."
+				"description": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight. Enemy models targeting a friendly model within 6\" of a Dwarven Mirror Marker with a shooting attack suffers a -1 penalty to the To Hit Roll. Additionally, Orc models, Goblin models, or models with the Cave Dweller special rule, suffer a -1 penalty to any Courage Tests they are required to take whilst they are within 6\" of a Dwarven Mirror Marker. If during the End Phase of a turn, an enemy model is in base contact with a Dwarven Mirror Marker, that model hasn’t done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Dwarven Mirror Marker from play. Models cannot overlap a Dwarven Mirror Marker for any reason, though a War Beast or Chariot that Moves into base contact with one (via Trample or Chariot Charge respectively) will immediately remove it from play and may carry on as normal."
 			}
 		],
 		"models": {
@@ -14160,7 +14229,7 @@
 		"specialRules": [
 			{
 				"name": "Relentless March",
-				"description": "Friendly models increase their Move Value to 8\".\nAdditionally, friendly models gain the Woodland Creature special rule."
+				"description": "Friendly models increase their Move Value to 8\". Additionally, friendly models gain the Woodland Creature special rule."
 			},
 			{
 				"name": "\"You do not know pain, you do not know fear\"",
@@ -14955,7 +15024,7 @@
 			},
 			{
 				"name": "\"Is there a captain here who still has the courage to do his lord’s will?\"",
-				"description": "If your Army includes both Faramir and Denethor, then whilst Denethor is alive and on the battlefield, Faramir will automatically pass all Courage Tests he is required to make.\nAdditionally, whilst Denethor is alive and on the battlefield, when Faramir Moves he must Charge if able to do so."
+				"description": "If your Army includes both Faramir and Denethor, then whilst Denethor is alive and on the battlefield, Faramir will automatically pass all Courage Tests he is required to make. Additionally, whilst Denethor is alive and on the battlefield, when Faramir Moves he must Charge if able to do so."
 			},
 			{
 				"name": "Faramir’s Charge",
@@ -15228,7 +15297,7 @@
 			},
 			{
 				"name": "Durburz’s Will",
-				"description": "Once per game, at the start of his Activation, Durburz may declare he is using this ability. If he does, Durburz may not Move during his Activation; however, all friendly Moria Goblin models gain a bonus of +2 to their Move Value until the End Phase of the turn.\nAdditionally, in a turn in which Durburz uses this ability, all friendly Moria Goblin models within 6\" of him automatically pass any Courage Tests required when attempting to Charge a model with the Terror special rule."
+				"description": "Once per game, at the start of his Activation, Durburz may declare he is using this ability. If he does, Durburz may not Move during his Activation; however, all friendly Moria Goblin models gain a bonus of +2 to their Move Value until the End Phase of the turn. Additionally, in a turn in which Durburz uses this ability, all friendly Moria Goblin models within 6\" of him automatically pass any Courage Tests required when attempting to Charge a model with the Terror special rule."
 			}
 		],
 		"models": {
@@ -15519,7 +15588,7 @@
 			},
 			{
 				"name": "Isengard Unleashed",
-				"description": "During the first turn of the game, each friendly Uruk-hai Hero may declare a Heroic March for free.\nAdditionally, Uruk-hai Captains gain Heroic Strike."
+				"description": "During the first turn of the game, each friendly Uruk-hai Hero may declare a Heroic March for free. Additionally, Uruk-hai Captains gain Heroic Strike."
 			},
 			{
 				"name": "\"There will be no dawn for Men\"",
@@ -15710,7 +15779,7 @@
 			},
 			{
 				"name": "The Line of Kings",
-				"description": "If they have the Unique keyword, your General gains the General Hunter special rule.\nAdditionally, your General must always acccept a Heroic Challenge directed at them."
+				"description": "If they have the Unique keyword, your General gains the General Hunter special rule. Additionally, your General must always acccept a Heroic Challenge directed at them."
 			}
 		],
 		"models": {
@@ -16078,7 +16147,7 @@
 			},
 			{
 				"name": "Thráin’s Imprisonment",
-				"description": "Thráin the Broken is an Evil model in this Army.\nAdditionally, if Thráin fails his Intelligence Test for his Shattered Spirit special rule whilst within 6\" of the Keeper of the Dungeons, then he will count as passing the test instead, though will not count as rolling a double."
+				"description": "Thráin the Broken is an Evil model in this Army. Additionally, if Thráin fails his Intelligence Test for his Shattered Spirit special rule whilst within 6\" of the Keeper of the Dungeons, then he will count as passing the test instead, though will not count as rolling a double."
 			},
 			{
 				"name": "Wizard Hunters",
@@ -16122,6 +16191,9 @@
 					"options": [
 						{
 							"name": "Fell Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -16351,11 +16423,11 @@
 		"specialRules": [
 			{
 				"name": "Knife Mastery",
-				"description": "Friendly Elf models may re-roll To Wound Rolls of a natural 1 when making Strikes.\nAdditionally, friendly Elf models may use the Shielding special rule, however, they cannot use their Knife Fighters or Blade Mistress special rules in a turn in which they elect to Shield."
+				"description": "Friendly Elf models may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, friendly Elf models may use the Shielding special rule, however, they cannot use their Knife Fighters or Blade Mistress special rules in a turn in which they elect to Shield."
 			},
 			{
 				"name": "The Prince of Mirkwood",
-				"description": "Legolas gains the Knife Fighters special rule (see page 69)."
+				"description": "Legolas gains the Knife Fighters special rule."
 			},
 			{
 				"name": "Dwarven Resilience",
@@ -16367,7 +16439,7 @@
 			},
 			{
 				"name": "\"If you think I’m giving you a weapon Dwarf, you are sorely mistaken\"",
-				"description": "Friendly Dwarf models cannot benefit from the Heroic Actions or Stand Fast of friendly Elf models and friendly Elf models cannot benefit from the Heroic Actions or Stand Fast of friendly Dwarf models.\nAdditionally, Tauriel’s Vengeful Fzry special rule does not apply in this Army List."
+				"description": "Friendly Dwarf models cannot benefit from the Heroic Actions or Stand Fast of friendly Elf models and friendly Elf models cannot benefit from the Heroic Actions or Stand Fast of friendly Dwarf models. Additionally, Tauriel’s Vengeful Fury special rule does not apply in this Army List."
 			}
 		],
 		"armyRules": {
@@ -16439,6 +16511,9 @@
 				{
 					"name": "Kíli the Dwarf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Maximum": 1
 					},
 					"points": "50"
@@ -16446,7 +16521,10 @@
 				{
 					"name": "Fíli the Dwarf",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "50"
 				},
@@ -16522,7 +16600,10 @@
 				{
 					"name": "Glóin the Dwarf",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "85"
 				},
@@ -17708,7 +17789,10 @@
 				{
 					"name": "Ori the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "50"
 				},
@@ -18185,7 +18269,7 @@
 		"specialRules": [
 			{
 				"name": "\"Now for wrath, now for ruin and the red dawn\"",
-				"description": "When a friendly Cavalry model Moves, it must Charge if able.\nAdditionally, on a turn in which a friendly Cavalry model Charges, they gain a bonus of +1 to their Strength and may re-roll any 1s during a Duel Roll that turn."
+				"description": "When a friendly Cavalry model Moves, it must Charge if able. Additionally, on a turn in which a friendly Cavalry model Charges, they gain a bonus of +1 to their Strength and may re-roll any 1s during a Duel Roll that turn."
 			},
 			{
 				"name": "\"The horn of Helm Hammerhand shall sound in the deep; one last time\"",
@@ -18773,7 +18857,7 @@
 		"specialRules": [
 			{
 				"name": "Power of the Necromancer",
-				"description": "Friendly models gain the Resistant to Magic special rule.\nAdditionally, the Necromancer can attempt to Cast two Magical Powers when he Activates rather than one; however, he may not attempt to Cast the same Magical Power twice, or target the same enemy model twice."
+				"description": "Friendly models gain the Resistant to Magic special rule. Additionally, the Necromancer can attempt to Cast two Magical Powers when he Activates rather than one; however, he may not attempt to Cast the same Magical Power twice, or target the same enemy model twice."
 			},
 			{
 				"name": "\"His spirit has lost none of its potency\"",
@@ -18866,6 +18950,9 @@
 					"options": [
 						{
 							"name": "Fell Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						},
 						{
@@ -19238,7 +19325,7 @@
 			},
 			{
 				"name": "Legolas & Gimli",
-				"description": "If your Army contains both Legolas and Gimli, then Gimli will start the game as a Passenger on Legolas’ horse and will use the rule for Passengers. Whilst Gimli is mounted on Legolas’ horse, Legolas increases his Attacks to 3 and may use Gimli’s Might, Will and Fate as if it was his own, though he cannot use Gimli’s Might to improve To Hit, To Wound, or In The Way Tests when making a shooting attack.\nAdditionally, if Gimli dismounts from Legolas’ horse during Legolas’ Move, then after Legolas’ Activation has finished, Gimli may Activate as normal even though the rules for Passengers would not normally allow him to."
+				"description": "If your Army contains both Legolas and Gimli, then Gimli will start the game as a Passenger on Legolas’ horse and will use the rule for Passengers. Whilst Gimli is mounted on Legolas’ horse, Legolas increases his Attacks to 3 and may use Gimli’s Might, Will and Fate as if it was his own, though he cannot use Gimli’s Might to improve To Hit, To Wound, or In The Way Tests when making a shooting attack. Additionally, if Gimli dismounts from Legolas’ horse during Legolas’ Move, then after Legolas’ Activation has finished, Gimli may Activate as normal even though the rules for Passengers would not normally allow him to."
 			},
 			{
 				"name": "Back on your horses",
@@ -19455,7 +19542,7 @@
 		"specialRules": [
 			{
 				"name": "\"We do not stop ’til nightfall\"",
-				"description": "Aragorn may declare a Heroic March each turn for free.\nAdditionally, friendly models that begin their Activation within 6\" of Aragorn gain the Woodland Creature special rule until the end of the turn."
+				"description": "Aragorn may declare a Heroic March each turn for free. Additionally, friendly models that begin their Activation within 6\" of Aragorn gain the Woodland Creature special rule until the end of the turn."
 			},
 			{
 				"name": "\"I’m the faster rider. I’ll take him\"",
@@ -19960,7 +20047,7 @@
 		"specialRules": [
 			{
 				"name": "Saviour of Lake-town",
-				"description": "Other friendly Lake-town models within 6\" of Bard gain a bonus of +1 to their Fight Value.\nAdditionally, other friendly Lake-town models treat Bard as a banner with a range of 6\". Alfrid does not benefit from this special rule."
+				"description": "Other friendly Lake-town models within 6\" of Bard gain a bonus of +1 to their Fight Value. Additionally, other friendly Lake-town models treat Bard as a banner with a range of 6\". Alfrid does not benefit from this special rule."
 			},
 			{
 				"name": "Heir of Dale",
@@ -20308,7 +20395,10 @@
 				{
 					"name": "Bofur the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "65",
 					"options": [
@@ -20328,14 +20418,20 @@
 				{
 					"name": "Ori the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "50"
 				},
 				{
 					"name": "Nori the Dwarf, Champion of Erebor",
 					"armyRules": {
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "75"
 				},
@@ -21030,7 +21126,7 @@
 		"specialRules": [
 			{
 				"name": "No quarter was asked...",
-				"description": "Friendly Easterling models gain a bonus of +1 to any Courage Tests they are required to take once their Army is Broken.\nAdditionally, once per game in Scenarios in which a dice is rolled to see when the game ends, you may choose to have the dice re-rolled if the Scenario ends before you wish it to."
+				"description": "Friendly Easterling models gain a bonus of +1 to any Courage Tests they are required to take once their Army is Broken. Additionally, once per game in Scenarios in which a dice is rolled to see when the game ends, you may choose to have the dice re-rolled if the Scenario ends before you wish it to."
 			},
 			{
 				"name": "Press the advantage",
@@ -21768,11 +21864,11 @@
 		"specialRules": [
 			{
 				"name": "Eomer’s Wrath",
-				"description": "Eomer is always treated as being under the effects of his The Price of Grief special rule.\nAdditionally, Eomer gains a bonus of +1 to his Fight Value on a turn in which he Charges."
+				"description": "Eomer is always treated as being under the effects of his The Price of Grief special rule. Additionally, Eomer gains a bonus of +1 to his Fight Value on a turn in which he Charges."
 			},
 			{
 				"name": "Fear no enemy",
-				"description": "Eomer gains the Fearless special rule.\nAdditionally, friendly Rohan models that can draw Line of Sight to Eomer automatically pass any Courage Tests they are required to take."
+				"description": "Eomer gains the Fearless special rule. Additionally, friendly Rohan models that can draw Line of Sight to Eomer automatically pass any Courage Tests they are required to take."
 			},
 			{
 				"name": "Ride of Dol Amroth",
@@ -23075,7 +23171,7 @@
 			},
 			{
 				"name": "\"Worse are the Webs\"",
-				"description": "After both sides have deployed, but before the first turn begins, a player using this Army List may place four 25mm Web Markers on the board. Web Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or within 9\" of another Web Marker. Any non-Spider model within 3\" of a Web Marker is considered to be in Difficult Terrain.\nAdditionally, Spider models do not need Line of Sight to Charge a model within 3\" of a Web Marker."
+				"description": "After both sides have deployed, but before the first turn begins, a player using this Army List may place four 25mm Web Markers on the board. Web Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or within 9\" of another Web Marker. Any non-Spider model within 3\" of a Web Marker is considered to be in Difficult Terrain. Additionally, Spider models do not need Line of Sight to Charge a model within 3\" of a Web Marker."
 			},
 			{
 				"name": "Protect the Queen",
@@ -23144,12 +23240,12 @@
 		],
 		"specialRules": [
 			{
-				"name": "The Campfire ",
+				"name": "The Campfire",
 				"description": "After both Armies have been deployed, you may place the Campfire anywhere on the battlefield outside of your opponent’s deployment zone. The Campfire is on an 80mm base, and must be placed flat on the battlefield. Friendly Troll models treat the Campfire as a banner with a range of 6\", and gain the Resistant to Magic special rule and a bonus of +1 to any Courage Tests whilst within 6\" of it."
 			},
 			{
 				"name": "A Troll’s Hoard",
-				"description": "The Three Trolls Army works in an unusual way in that they are allowed to purchase additional special rules. Each of the special rules listed below can be purchased for 50 points, allowing The Three Trolls to be taken at many different points values and not just at 400 points.\n• Full Bellies – Bill, Bert and Tom increase their starting Might, Will and Fate Points to 3.\n• Stone Troll Endurance – Each time Bill, Bert or Tom is wounded, roll a D6. On a natural 6, the Wound is ignored.\n• Nothing like a warm fire – The range of the Campfire’s effects are increased from 6\" to 18\".\nAdditionally, as long as there are no enemy models in base contact with the Campfire at the end of the game, the Campfire will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\n• Rumbling Momentum – Bill, Bert and Tom increase their Attacks to 4 on a turn in which they Charge.\n• Bowl them over – Instead of using their Throw Stones special rule as normal, Bill, Bert and Tom may use stones in the same way as a Throwing Weapon. These have a Strength of 8 and a range of 12\".\nAdditionally, Bill, Bertband Tom may re-roll the dice when determining the HurlbDistance when using the Hurl Brutal Power Attack.\n• Dominant presence – Whilst either Bill, Bert or Tom are within 3\" of an Objective Marker, they are automatically considered to be holding it and the opposition are considered to have no models within range of the Objective Marker. If models from both sides have a special rule that confers this effect, and the applicable models are within range of the same Objective Marker, then neither Army will get their corresponding special rule.\n• Savvy Fighters – Bill, Bert and Tom all gain Heroic Strike if they didn’t already have it.\nAdditionally, whenever an enemy model Engaged in Combat with Bill, Bert or Tom declares a Heroic Strike, roll a D6. On a 4+, the Troll in the\nsame fight may declare a Heroic Strike for free.\n• Tasty Livestock – After both sides have deployed, but before the first turn begins, a player using The Three Trolls may place four 25mm Livestock Markers on the board. Livestock Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or another Livestock Marker. If, during their Activation, Bill, Bert or Tom are within 3\" of a friendly Livestock Marker they can remove it from the battlefield and immediately regain 1 Wound lost earlier in the battle.\n• Cover of Darkness – At the start of each game using this Army List, you may choose for the Scenario to take place at night if you wish.\nAdditionally, Bill, Bert and Tom gain the Cave Dweller special rule.\n• Troll Cunning – Bill, Bert and Tom can never be Trapped whilst still standing.\nAdditionally, Bill, Bert and Tom may re-roll any failed To Wound Rolls when making Strikes against a Trapped model.\n• Kitchen Utensils – Bill, Bert and Tom may re-roll any To Wound Rolls of a natural 1 when making Strikes.\n• \"That’s Mine That Is!\" – At the start of their Activation, Bill, Bert or Tom may place a single 25mm Stash Marker in base contact with themself. Each Troll may only have a single Stash Marker on the board at a time. If a Stash Marker is within range of an Objective Marker, then it will count as a single friendly Warrior model for the purposes of working out how many models control that Objective Marker. An enemy model may remove a Stash Marker if they are in base contact with it during the End Phase of any turn, provided they have not Cast any Magical Powers, used a Missile Weapon, been Engaged in Combat, Supported a Combat, been rendered unable to Move that turn due to a special rule or result of a test (such as a Thrown Rider test) or been under the effects of an enemy Magical Power that turn."
+				"description": "The Three Trolls Army works in an unusual way in that they are allowed to purchase additional special rules. Each of the special rules listed below can be purchased for 50 points, allowing The Three Trolls to be taken at many different points values and not just at 400 points.\n\n• Full Bellies – Bill, Bert and Tom increase their starting Might, Will and Fate Points to 3.\n• Stone Troll Endurance – Each time Bill, Bert or Tom is wounded, roll a D6. On a natural 6, the Wound is ignored.\n• Nothing like a warm fire – The range of the Campfire’s effects are increased from 6\" to 18\". Additionally, as long as there are no enemy models in base contact with the Campfire at the end of the game, the Campfire will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive.\n• Rumbling Momentum – Bill, Bert and Tom increase their Attacks to 4 on a turn in which they Charge.\n• Bowl them over – Instead of using their Throw Stones special rule as normal, Bill, Bert and Tom may use stones in the same way as a Throwing Weapon. These have a Strength of 8 and a range of 12\". Additionally, Bill, Bertband Tom may re-roll the dice when determining the HurlbDistance when using the Hurl Brutal Power Attack.\n• Dominant presence – Whilst either Bill, Bert or Tom are within 3\" of an Objective Marker, they are automatically considered to be holding it and the opposition are considered to have no models within range of the Objective Marker. If models from both sides have a special rule that confers this effect, and the applicable models are within range of the same Objective Marker, then neither Army will get their corresponding special rule.\n• Savvy Fighters – Bill, Bert and Tom all gain Heroic Strike if they didn’t already have it. Additionally, whenever an enemy model Engaged in Combat with Bill, Bert or Tom declares a Heroic Strike, roll a D6. On a 4+, the Troll in the\nsame fight may declare a Heroic Strike for free.\n• Tasty Livestock – After both sides have deployed, but before the first turn begins, a player using The Three Trolls may place four 25mm Livestock Markers on the board. Livestock Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or another Livestock Marker. If, during their Activation, Bill, Bert or Tom are within 3\" of a friendly Livestock Marker they can remove it from the battlefield and immediately regain 1 Wound lost earlier in the battle.\n• Cover of Darkness – At the start of each game using this Army List, you may choose for the Scenario to take place at night if you wish. Additionally, Bill, Bert and Tom gain the Cave Dweller special rule.\n• Troll Cunning – Bill, Bert and Tom can never be Trapped whilst still standing. Additionally, Bill, Bert and Tom may re-roll any failed To Wound Rolls when making Strikes against a Trapped model.\n• Kitchen Utensils – Bill, Bert and Tom may re-roll any To Wound Rolls of a natural 1 when making Strikes.\n• \"That’s Mine That Is!\" – At the start of their Activation, Bill, Bert or Tom may place a single 25mm Stash Marker in base contact with themself. Each Troll may only have a single Stash Marker on the board at a time. If a Stash Marker is within range of an Objective Marker, then it will count as a single friendly Warrior model for the purposes of working out how many models control that Objective Marker. An enemy model may remove a Stash Marker if they are in base contact with it during the End Phase of any turn, provided they have not Cast any Magical Powers, used a Missile Weapon, been Engaged in Combat, Supported a Combat, been rendered unable to Move that turn due to a special rule or result of a test (such as a Thrown Rider test) or been under the effects of an enemy Magical Power that turn."
 			}
 		],
 		"noteGWFAQ": "Q: Is the Three Trolls Campfire Open Ground, Impassable or something else?\nA: The Campfire is treated like an Objective Marker, though it doesn’t actually count as one for Scenario objectives.",
@@ -23352,6 +23448,9 @@
 				{
 					"name": "Kíli the Dwarf",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Captain": "No",
 						"Captains": [
 							"Thorin Oakenshield"
@@ -23367,7 +23466,10 @@
 						"Captains": [
 							"Thorin Oakenshield"
 						],
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "50"
 				},
@@ -23507,7 +23609,10 @@
 						"Captains": [
 							"Thorin Oakenshield"
 						],
-						"Maximum": 1
+						"Maximum": 1,
+						"Throwing": {
+							"limit": "ignore"
+						}
 					},
 					"points": "85"
 				},
@@ -23567,7 +23672,7 @@
 		"specialRules": [
 			{
 				"name": "\"Their pace has quickened\"",
-				"description": "Friendly Uruk-hai models increase their Move Value to 8\".\nAdditionally, friendly Uruk-hai models gain the Woodland Creature special rule."
+				"description": "Friendly Uruk-hai models increase their Move Value to 8\". Additionally, friendly Uruk-hai models gain the Woodland Creature special rule."
 			},
 			{
 				"name": "\"Get a fire going\"",
@@ -24114,7 +24219,7 @@
 		"specialRules": [
 			{
 				"name": "High King of Khand",
-				"description": "The Khandish King that is your General gains an additional Might Point.\nAdditionally, so long as he is alive and on the battlefield, your General counts as a banner for the purpose of Victory Points."
+				"description": "The Khandish King that is your General gains an additional Might Point. Additionally, so long as he is alive and on the battlefield, your General counts as a banner for the purpose of Victory Points."
 			},
 			{
 				"name": "Khandish Fury",
@@ -24304,7 +24409,7 @@
 			},
 			{
 				"name": "Ambush",
-				"description": "In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard Army will automatically win the roll to choose who has Priority on the first turn. If both Armies have rules that allow them to do this, roll for Priority as normal.\nAdditionally, models from this Army may Charge on the turn they enter the board, even though they may not normally be allowed to do so. Models Charging in this manner do not need to take a Courage Test to Charge an enemy with the Terror special rule."
+				"description": "In Scenarios that use the Maelstrom of Battle special rule, a Wolves of Isengard Army will automatically win the roll to choose who has Priority on the first turn. If both Armies have rules that allow them to do this, roll for Priority as normal. Additionally, models from this Army may Charge on the turn they enter the board, even though they may not normally be allowed to do so. Models Charging in this manner do not need to take a Courage Test to Charge an enemy with the Terror special rule."
 			}
 		],
 		"armyRules": {

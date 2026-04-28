@@ -17,6 +17,10 @@ import { initArmylistsSearch, onArmylistsSearchNavigate } from "./armylists/sear
 import { initArmylistsBuild, onArmylistsBuildNavigate } from "./armylists/buildarmylist/renderPage.js";
 import { initArmylistsAll } from "./armylists/showAllArmylists.js";
 
+import { initMatchedPlay} from "./scenarios/matchedPlay.js";
+
+import { initWarriorSimulations} from "./simulations/warriors.js";
+
 
 /* =========================
    GLOBAL STATE
@@ -39,7 +43,13 @@ const MAIN_CATEGORIES = {
     },
     armylists: {
         labelKey: "main.armylists"
-    }
+    },
+    /*scenarios: {
+        labelKey: "main.scenarios"
+    },
+    simulations: {
+        labelKey: "main.simulations"
+    }*/
 };
 
 const VIEWS = {
@@ -86,7 +96,21 @@ const VIEWS = {
             init: initArmylistsAll,
             container: null
         }
-    }
+    }/*,
+    scenarios: {
+        matchedPlay: {
+            labelKey: "main.matchedPlay",
+            init: initMatchedPlay,
+            container: null
+        }
+    },
+    simulations: {
+        warrior: {
+            labelKey: "main.warriorSimulations",
+            init: initWarriorSimulations,
+            container: null
+        }
+    }*/
 };
 
 let activeMain = null;

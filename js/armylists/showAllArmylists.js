@@ -25,7 +25,7 @@ export async function initArmylistsAll(container) {
 
     const entries = Object.entries(state.armylists);
 
-    const alignments = ["Good", "Evil"];
+    const alignments = [t("armylists.all.good"), t("armylists.all.evil")];
 
     container.innerHTML = `
         <div class="armylists-all">

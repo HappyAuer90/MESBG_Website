@@ -2421,6 +2421,7 @@
 		"linkedRules": [
 			"Duel Roll",
 			"Fight Phase",
+			"Heroic Actions",
 			"Moving",
 			"re-roll",
 			"turn",
@@ -2753,6 +2754,7 @@
 			"Duel Roll",
 			"Fight Phase",
 			"Fight Value",
+			"Heroic Actions",
 			"Move",
 			"re-roll",
 			"special rule"
@@ -3041,7 +3043,7 @@
 		"status": "Active",
 		"description": "At the beginning of his Activation, Thranduil can spend a Will Point to use this special rule. If he does, then until the end of the turn Thranduil has the Terror special rule. Additionally, if Thranduil has the Infantry Keyword when he uses this special rule, then each enemy model within 3\" of him, that is not Engaged in Combat, must take a Courage Test in an order chosen by Thranduil’s controlling player. If the test is failed, they must immediately Move Directly Away from Thranduil as far as they can, up to the limit of their Move Value. Models Moved by this special rule cannot Move again during the turn, but may otherwise act normally.",
 		"linkedDetails": [
-			"Terror special rule|Terror"
+			"Terror"
 		],
 		"linkedRules": [
 			"Activation",
@@ -3050,9 +3052,13 @@
 			"Infantry",
 			"Move",
 			"Move Value",
+			"Moved",
 			"special rule",
 			"turn",
 			"Will Point"
+		],
+		"excludeFromLinking": [
+			"special rule. A"
 		]
 	},
 	"\"Dol Amroth for Gondor!\"": {
@@ -3380,9 +3386,6 @@
 		"name": "Dwarven Crew",
 		"status": "Active",
 		"description": "Any Iron Hills Warrior that ends their Activation in base contact with an Iron Hills Chariot may join its crew. If it does, remove the Iron Hills Warrior from the board as a Casualty. The Iron Hills Chariot then immediately regains a single Wound lost earlier in the battle.",
-		"linkedProfiles": [
-			"Iron Hills Warrior"
-		],
 		"linkedRules": [
 			"Activation",
 			"Wound"
@@ -3639,8 +3642,7 @@
 		"description": "If a model fights with an Elven two-handed weapon in a Combat, they will be more likely to win the Duel Roll in the result of a Drawn Combat. In these instances, a Good model armed with an Elven two-handed weapon will win the roll-off on a 3+, whilst an Evil model armed with an Elven two-handed weapon will win the roll-off on a 1-4. If both sides have an Elven weapon, neither side gains the benefit.\n\nA Elven two-handed weapon is the kind that requires two hands to wield; as a result, a model wielding a two-handed weapon cannot use any other wargear that would also require the use of a hand (such as a shield) in the same Combat in which they use a two-handed weapon. If the only Melee Weapon a model carries is a two-handed weapon, then they must use it in a Combat – they cannot choose not to.\n\nWhen a model fights with a two-handed weapon in a Combat, they suffer a -1 penalty to their Duel Roll. However, if the model rolls a natural 6 for their Duel Roll, they do not suffer this penalty. When a model with a two-handed weapon makes a Strike against an enemy model, they apply a +1 modifier to their To Wound Roll – so a 3 would become a 4, a 4 would become a 5, and so on. In the case of when two rolls are required (such as needing a 6+/4+), this will affect both rolls.",
 		"linkedDetails": [
 			"Elven weapon",
-			"shield",
-			"two-handed weapon"
+			"shield"
 		],
 		"linkedRules": [
 			"Combat",
@@ -3684,6 +3686,7 @@
 		"linkedRules": [
 			"Combat",
 			"Duel Roll",
+			"Heroic Actions",
 			"Intelligence Test",
 			"Move Phase",
 			"Strike",
@@ -3870,7 +3873,7 @@
 		"language": "en",
 		"name": "Executioner",
 		"status": "Active",
-		"description": "If this model rolls a natural 6 during a Duel Roll, then any Strikes it makes during that Combat have the Mighty Blow special rule",
+		"description": "If this model rolls a natural 6 during a Duel Roll, then any Strikes it makes during that Combat have the Mighty Blow special rule.",
 		"linkedDetails": [
 			"Mighty Blow"
 		],
@@ -5079,6 +5082,21 @@
 			"Moved",
 			"Shoot Phase",
 			"Shooting Attack"
+		]
+	},
+	"Guardians of the King Upgrade": {
+		"type": "wargear",
+		"version": "2024",
+		"language": "en",
+		"name": "Guardians of the King Upgrade",
+		"description": "Grim Hammer Warriors in Thrór’s Warband may be upgraded to Guardians of the King for +1 point per model. Guardians of the King have a Strength of 4.",
+		"linkedProfiles": [
+			"Grim Hammer Warriors|Grim Hammer Warrior",
+			"Guardians of the King|Guardian of the King"
+		],
+		"linkedRules": [
+			"Strength",
+			"Warband"
 		]
 	},
 	"Gúthwinë": {
@@ -7158,6 +7176,7 @@
 		"description": "At the beginning of each Move Phase, before the Declare Heroic Actions Step, Saruman may choose a single enemy model within 6\" and Line of Sight. The chosen model must immediately take an Intelligence Test. If the test is failed, the chosen model cannot be Activated that turn.",
 		"linkedRules": [
 			"Activated",
+			"Heroic Actions",
 			"Intelligence Test",
 			"Line of Sight",
 			"Move Phase",
@@ -7676,9 +7695,9 @@
 		"language": "en",
 		"name": "Mercenary Ambush",
 		"status": "Active",
-		"description": "Warbands led by a Goblin Mercenary Captain that contain only Goblin Mercenaries do not have to be deployed at the start of the game. Instead, they may be kept in reserve if their controlling player wishes.\nIf they are kept in reserve, then from turn 2 onwards at the end of each of their controlling player’s Activation Phases, the Goblin Mercenary Captain must take an Intelligence Test. If the test is passed, then their controlling player may decide whether or not they arrive.\nIf the test is failed, then the opposing player may decide whether or not they arrive. When the Goblin Mercenaries arrive, their controlling player places the Warband fully within or in base contact with an eligible terrain piece on the board. For a terrain piece to be eligible it needs to be large enough for the entire Warband to hide in or behind, such as a wood, building, rocky outcrop, etc. It is important to discuss with your opponent before the game begins exactly what counts as an eligible terrain piece.\nIModels placed on the board in this manner cannot be placed in the Control Zones of enemy models, and cannot Move during that turn but may otherwise act normally. If the entire Warband cannot be placed as described above, then the Warband may Move onto the board from any table edge via the rules for Reinforcements.",
+		"description": "Warbands led by a Goblin Mercenary Captain that contain only Goblin Mercenaries do not have to be deployed at the start of the game. Instead, they may be kept in reserve if their controlling player wishes.\nIf they are kept in reserve, then from turn 2 onwards at the end of each of their controlling player’s Activation Phases, the Goblin Mercenary Captain must take an Intelligence Test. If the test is passed, then their controlling player may decide whether or not they arrive.\nIf the test is failed, then the opposing player may decide whether or not they arrive. When the Goblin Mercenaries arrive, their controlling player places the Warband fully within or in base contact with an eligible terrain piece on the board. For a terrain piece to be eligible it needs to be large enough for the entire Warband to hide in or behind, such as a wood, building, rocky outcrop, etc. It is important to discuss with your opponent before the game begins exactly what counts as an eligible terrain piece.\nModels placed on the board in this manner cannot be placed in the Control Zones of enemy models, and cannot Move during that turn but may otherwise act normally. If the entire Warband cannot be placed as described above, then the Warband may Move onto the board from any table edge via the rules for Reinforcements.",
 		"linkedRules": [
-			"Activation",
+			"Activation Phases|Activation Phase",
 			"Control Zones",
 			"Intelligence Test",
 			"Move",
@@ -8012,6 +8031,7 @@
 		"linkedRules": [
 			"Fight Phase",
 			"Fight Value",
+			"Heroic Actions",
 			"special rule",
 			"turn",
 			"Will Point"
@@ -9259,7 +9279,8 @@
 			"two-handed weapon"
 		],
 		"linkedRules": [
-			"Duel Roll"
+			"Duel Roll",
+			"Hero"
 		]
 	},
 	"Protection of the Valar": {
@@ -9484,7 +9505,7 @@
 			"Warband"
 		]
 	},
-	"Relentless Advance": {
+	"Relentless Advance [Gundabad Ogre]": {
 		"type": "specialrule",
 		"version": "2024",
 		"language": "en",
@@ -9493,6 +9514,22 @@
 		"description": "This model may Move through friendly Orc, Goblin or Bat models when they Charge into Combat, though not when forced to Move by the effects of an enemy Magical Power or special rule. Each friendly model Moved through in this way immediately suffers a Strength 3 hit. This model may finish its Move overlapping friendly models, though any friendly models it finishes its Move overlapping will automatically be slain.",
 		"linkedRules": [
 			"Charge",
+			"Combat",
+			"Magical Power",
+			"Move",
+			"Moved",
+			"special rule"
+		]
+	},
+	"Relentless Advance [The Goblin King]": {
+		"type": "specialrule",
+		"version": "2024",
+		"language": "en",
+		"name": "Relentless Advance",
+		"status": "Active",
+		"description": "The Goblin King may Move through friendly Goblin models when he Charges into Combat, though not when forced to Move by the effects of an enemy Magical Power or special rule. Each friendly Goblin model Moved through in this way immediately suffers a Strength 3 hit. The Goblin King may finish its Move overlapping friendly models, though any friendly models it finishes its Move overlapping will automatically be slain.",
+		"linkedRules": [
+			"Charges",
 			"Combat",
 			"Magical Power",
 			"Move",
@@ -10099,6 +10136,7 @@
 			"Activation Phase",
 			"Attacks",
 			"Combat",
+			"Heroic Actions",
 			"In The Way",
 			"Intelligence Test",
 			"Magical Powers",
@@ -10952,6 +10990,7 @@
 		"status": "Active",
 		"description": "An Army may include up to two Abyssal Knights. At the start of the Move Phase, before the Declare Heroic Actions Step, the controlling player may remove one of the Abyssal Knights from the battlefield and place them anywhere within 3\" of the other Abyssal Knight (only one of the Abyssal Knights can use this special rule each turn). A model may not be placed in base contact with an enemy model as part of this special rule. This does not count as Moving.",
 		"linkedRules": [
+			"Heroic Actions",
 			"Move Phase",
 			"Moving",
 			"special rule"
@@ -11135,14 +11174,14 @@
 		"name": "Steadfast",
 		"status": "Passive",
 		"description": "Whenever a friendly Thorin’s Company model within 3\" of Bofur is affected by an enemy special rule or Magical Power, they may roll a D6. On a 3+, the model will ignore its effects. In the case of a Magical Power, any Resist Tests must be made before using this special rule.",
-		"descriptionGWFAQ": "Q: What rules are affected by Bofur’s Steadfast special rule?\nA: If a model is directly affected by a special rule, then they can attempt to ignore its effects via Steadfast. These can be special rules that directly target Bofur, such as the War Bat’s Pluck special rule. It can also be rules that indirectly target them, such as the bonus of +1 To Wound effect from a War Bat’s Piercing Talons or the ability for Azog To Wound on a natural 3+ via his I am the Master special rule.\nIt does not ignore rules that benefit an enemy model but don’t directly affect the model. For example, Steadfast cannot ignore a Hunter Orc Warriors’ Savage Hunters special rule, even if that model will be making Strikes against a model benefiting from Steadfast – only the Hunter Orc is affected, even if the end result is more dice rolled against your model! Similarly, rules such as The Three Trolls Kitchen Utensils cannot be ignored, as it is the Trolls that are re-rolling any dice of a natural 1. The Steadfast Roll is made when a special rule is triggered. For example, you would only test if Steadfast allows a model to ignore the Harbinger of Evil (X) rule when they take a Courage Test while within range. The benefits of Steadfast only apply for that test as well – the next Courage Test would require another Steadfast Roll.\nThe Steadfast rule does not negate a special rule – it simply means the model ignores its effect. So a War Bat would still make To Wound Rolls against the model, just without the +1 To Wound Roll if Steadfast applied, and the War Bat would get the bonuses against models not benefiting from Steadfast. Similarly, it only allows a model to ignore the parts of a rule that affect them, not the entire rule. For example, Steadfast will allow a model to attempt to ignore the part of the Pits of Dol Guldur Surprise Attack which stops models from declaring Heroic Moves. If the Steadfast Roll is successful, that model can declare Heroic Moves but it does not stop Azog’s controlling player from winning Priority; all other models you control must have each separately passed a Steadfast Roll to be able to declare Heroic moves.\nLastly, Steadfast does not apply to every rule – for example, it cannot be used against Strikes. If in doubt, look for a big header that says ‘Special Rules’ above the rule you are hoping to negate.",
+		"descriptionGWFAQ": "Q: What rules are affected by Bofur’s Steadfast special rule?\nA: If a model is directly affected by a special rule, then they can attempt to ignore its effects via Steadfast. These can be special rules that directly target Bofur, such as the War Bat’s Pluck special rule. It can also be rules that indirectly target them, such as the bonus of +1 To Wound effect from a War Bat’s Piercing Talons or the ability for Azog To Wound on a natural 3+ via his I am the Master special rule.\nIt does not ignore rules that benefit an enemy model but don’t directly affect the model. For example, Steadfast cannot ignore a Hunter Orc Warriors’ Savage Hunters special rule, even if that model will be making Strikes against a model benefiting from Steadfast – only the Hunter Orc is affected, even if the end result is more dice rolled against your model! Similarly, rules such as The Three Trolls Kitchen Utensils cannot be ignored, as it is the Trolls that are re-rolling any dice of a natural 1. The Steadfast Roll is made when a special rule is triggered. For example, you would only test if Steadfast allows a model to ignore the Harbinger of Evil (X) rule when they take a Courage Test while within range. The benefits of Steadfast only apply for that test as well – the next Courage Test would require another Steadfast Roll.\nThe Steadfast rule does not negate a special rule – it simply means the model ignores its effect. So a War Bat would still make To Wound Rolls against the model, just without the +1 To Wound Roll if Steadfast applied, and the War Bat would get the bonuses against models not benefiting from Steadfast. Similarly, it only allows a model to ignore the parts of a rule that affect them, not the entire rule. For example, Steadfast will allow a model to attempt to ignore the part of the Pits of Dol Guldur Surprise Attack which stops models from declaring Heroic Moves. If the Steadfast Roll is successful, that model can declare Heroic Moves but it does not stop Azog’s controlling player from winning Priority; all other models you control must have each separately passed a Steadfast Roll to be able to declare Heroic Moves.\nLastly, Steadfast does not apply to every rule – for example, it cannot be used against Strikes. If in doubt, look for a big header that says \"Special Rules\" above the rule you are hoping to negate.",
 		"linkedDetails": [
-			"I am the Master special rule|I am the Master",
 			"Harbinger of Evil",
+			"I am the Master",
 			"Heroic Moves|Heroic Move",
 			"Piercing Talons",
-			"Pluck special rule|Pluck",
-			"Savage Hunters special rule|Savage Hunters"
+			"Pluck",
+			"Savage Hunters"
 		],
 		"linkedProfiles": [
 			"Azog|Azog the Defiler",
@@ -11403,6 +11442,7 @@
 		"description": "At the start of the Fight Phase, before the Declare Heroic Actions Step, Grinnah can choose a friendly Goblin model on a 25mm base within 3\" and swap places with it. This does not count as Moving.",
 		"linkedRules": [
 			"Fight Phase",
+			"Heroic Actions",
 			"Moving"
 		]
 	},
@@ -12065,7 +12105,7 @@
 		"status": "Active",
 		"description": "This is a Unique shield. Additionally, if Thorin elects to shield with the Oakenshield and wins the Combat, then he may inflict a single Strength 4 hit on one enemy model involved in the Combat.",
 		"linkedDetails": [
-			"shield"
+			"shield|Shielding"
 		],
 		"linkedRules": [
 			"Combat",
@@ -13140,7 +13180,7 @@
 		"language": "en",
 		"name": "Unholy Resurrection",
 		"status": "Passive",
-		"description": "If this model is slain, instead of removing them as a casualty place a 25mm Marker where they were slain – models may not overlap these Markers for any reason. During the Priority Phase of each turn, after Priority has been determined, roll a D6 for this model’s Marker. On a 3+, immediately place this model anywhere within 3\" of the Marker, so long as it is not in base contact with the Marker. If this is not possible, place this model where their Marker was. In either case, remove the Marker after rolling. On a 1-2, the model is slain and removed as a casualty – remove the Marker from the board. Whilst the Nazgûl of Dol Guldur are in range of the Necromancer’s Master of the Nazgûl special rule (depending on how many Will Points he has remaining), the Necromancer can spend his Will Points to improve this roll. For each Will Point the Necromancer spends in this way, improve the Unholy Resurrection roll by 1. Whilst the Marker is in play, this model counts as on the board for the purpose of determining whether your Army is Broken or reduced to 25%. However, a Marker cannot hold Objectives and the model will still count as being slain for the purpose of any special rules that come into effect when a model is slain, such as a Heroic Combat. If this model is slain by a Magical Power or an Elven weapon, then they suffer a -1 penalty to their rolls for this special rule. When the game ends, any Markers on the board are removed and the models associated with them count as a casualty.",
+		"description": "If this model is slain, instead of removing them as a casualty place a 25mm Marker where they were slain – models may not overlap these Markers for any reason. During the Priority Phase of each turn, after Priority has been determined, roll a D6 for this model’s Marker. On a 3+, immediately place this model anywhere within 3\" of the Marker, so long as it is not in base contact with the Marker. If this is not possible, place this model where their Marker was. In either case, remove the Marker after rolling. On a 1-2, the model is slain and removed as a casualty – remove the Marker from the board. Whilst the Nazgûl of Dol Guldur are in range of the Necromancer’s Master of the Nazgûl special rule (depending on how many Will Points he has remaining), the Necromancer can spend his Will Points to improve this roll. For each Will Point the Necromancer spends in this way, improve the Unholy Resurrection roll by 1.\nWhilst the Marker is in play, this model counts as on the board for the purpose of determining whether your Army is Broken or reduced to 25%. However, a Marker cannot hold Objectives and the model will still count as being slain for the purpose of any special rules that come into effect when a model is slain, such as a Heroic Combat.\nIf this model is slain by a Magical Power or an Elven weapon, then they suffer a -1 penalty to their rolls for this special rule.\nWhen the game ends, any Markers on the board are removed and the models associated with them count as a casualty.",
 		"descriptionGWFAQ": "Q: If a Nazgûl of Dol Guldur is resurrected via their Unholy Resurrection special rule, do any Might, Will and Fate Points that were spent remain spent?\nA: Yes.\n\nQ: If a Nazgûl of Dol Guldur is slain by an Elf bow, do they suffer a -1 penalty when rolling for the Unholy Resurrection rule?\nA: Yes.\nThe rules for Elven weapons state that “Any weapon with the word ‘Elf’ in its name is automatically considered to be an Elven weapon.” As an Elf bow has the word Elf in its name, it is an Elven weapon, which applies the -1 modifier.",
 		"linkedDetails": [
 			"Elf bow",
@@ -13189,6 +13229,7 @@
 		"status": "Active",
 		"description": "At the start of the Move Phase, before the Declare Heroic Actions Step, the controlling player may remove the Lingering Shadow from the battlefield and place them anywhere within 3\" of where they were. The Lingering Shadow may not be placed in base contact with an enemy model as part of this special rule. This does not count as Moving.",
 		"linkedRules": [
+			"Heroic Actions",
 			"Move Phase",
 			"Moving",
 			"special rule"

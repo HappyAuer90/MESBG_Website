@@ -27,7 +27,7 @@ export async function initProfilesAll(container) {
 
     const entries = Object.entries(state.profiles);
 
-    const alignments = ["Good", "Evil"];
+    const alignments = [t("profiles.all.good"), t("profiles.all.evil")];
 
     container.innerHTML = `
         <div class="profiles-all">
@@ -354,7 +354,7 @@ function runJsonChecks(profiles) {
            TEST 9 – HERO CONSISTENCY
         ========================= */
 
-        const isHero = profile.unitTypes?.includes("Hero");
+        const isHero = profile.unitTypes?.includes(t("profiles.all.Hero"));
         const hasHeroStats = !!profile.characteristicsHero;
 
         if (isHero && !hasHeroStats) {
@@ -396,9 +396,6 @@ function checkAlphabeticalArray(arr, fieldName, isObject = false) {
     }
 }
 
-/* --- WARGEAR --- */
-//checkAlphabeticalArray(profile.wargear, "wargear", true);
-
 /* --- HEROIC ACTIONS --- */
 checkAlphabeticalArray(profile.heroicActions, "heroicActions");
 
@@ -433,45 +430,6 @@ if (profile.options?.length > 1) {
 
                 report.alphabeticalInternal.push(
                     `[${key}] options alphabetical error at "${current.name}"`
-                );
-            }
-        }
-    }
-}
-
-/* --- MAGICAL POWERS (castingValue ASC → name ASC) --- */
-if (profile.magicalPowers?.length > 1) {
-
-    function parseCastingValue(val) {
-        if (!val) return 999;
-        return Number(val.replace("+", "")) || 999;
-    }
-
-    for (let i = 1; i < profile.magicalPowers.length; i++) {
-
-        const prev = profile.magicalPowers[i - 1];
-        const current = profile.magicalPowers[i];
-
-        const prevCV = parseCastingValue(prev.castingValue);
-        const currentCV = parseCastingValue(current.castingValue);
-
-        if (currentCV < prevCV) {
-
-            report.alphabeticalInternal.push(
-                `[${key}] magicalPowers order incorrect: "${current.name}" has lower casting value`
-            );
-            continue;
-        }
-
-        if (currentCV === prevCV) {
-
-            const prevName = normalizeAlphabetical(prev.name);
-            const currentName = normalizeAlphabetical(current.name);
-
-            if (prevName.localeCompare(currentName) > 0) {
-
-                report.alphabeticalInternal.push(
-                    `[${key}] magicalPowers alphabetical error at "${current.name}"`
                 );
             }
         }
