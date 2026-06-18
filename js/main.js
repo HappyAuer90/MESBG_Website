@@ -17,9 +17,9 @@ import { initArmylistsSearch, onArmylistsSearchNavigate } from "./armylists/sear
 import { initArmylistsBuild, onArmylistsBuildNavigate } from "./armylists/buildarmylist/renderPage.js";
 import { initArmylistsAll } from "./armylists/showAllArmylists.js";
 
-import { initMatchedPlay} from "./scenarios/matchedPlay.js";
+/*import { initMatchedPlay} from "./scenarios/matchedPlay.js";
 
-import { initWarriorSimulations} from "./simulations/warriors.js";
+/*import { initWarriorSimulations} from "./simulations/warriors.js";
 
 
 /* =========================
