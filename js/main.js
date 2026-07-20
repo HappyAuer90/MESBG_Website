@@ -1,58 +1,110 @@
 import { Settings, initSettingsUI } from "./settings.js";
 import { t } from "./utility/i18n.js";
 import { applyThemeColors } from "./utility/theme.js";
+import { initGlobalDebugButton, removeGlobalDebugButton, updateGlobalDebugButton } from "./debug.js";
+
+const debug = true; // Set to true to enable debug features
 
 
 /* =========================
    IMPORT VIEWS
 ========================= */
 
+import { initRulesManual} from "./rules/rulesManual.js";
+import { initRulesAll} from "./rules/showAllRules.js";
+
 import { initProfilesSearch, onProfilesSearchNavigate } from "./profiles/searchProfile.js";
 import { initProfilesExpert } from "./profiles/expertSearch.js";
 import { initProfilesAll } from "./profiles/showAllProfiles.js";
 
-import { initRulesAll} from "./rules/showAllRules.js";
-
 import { initArmylistsSearch, onArmylistsSearchNavigate } from "./armylists/searchArmylist.js";
-import { initArmylistsBuild, onArmylistsBuildNavigate } from "./armylists/buildarmylist/renderPage.js";
+/* import { initArmylistsBuild, onArmylistsBuildNavigate } from "./armylists/buildarmylist/renderPage.js";*/
 import { initArmylistsAll } from "./armylists/showAllArmylists.js";
-
-/*import { initMatchedPlay} from "./scenarios/matchedPlay.js";
-
-/*import { initWarriorSimulations} from "./simulations/warriors.js";
 
 
 /* =========================
    GLOBAL STATE
 ========================= */
 
-Settings.load();
-applyThemeColors();
-
 const content = document.getElementById("content");
 const subNav = document.getElementById("subCategories");
 const mainNav = document.getElementById("mainCategories");
 const titleEl = document.getElementById("appTitle");
 
+Settings.load();
+applyTranslations();
+applyThemeColors();
+if (debug) {
+    initGlobalDebugButton();
+} else {
+    removeGlobalDebugButton();
+}
+
+function updateTitle() {
+    const baseTitle = t("main.title");
+    const version = Settings.version || "";
+    titleEl.textContent = version ? `${baseTitle} (Version: ${version})` : baseTitle;
+}
+
+function applyTranslations() {
+    document.documentElement.lang = Settings.language;
+
+    document.querySelectorAll("[data-i18n-key]").forEach(el => {
+        const key = el.getAttribute("data-i18n-key");
+        const translated = t(key);
+
+        if (!translated) return;
+
+        const target = el.getAttribute("data-i18n-attr") || "textContent";
+
+        if (target === "textContent") {
+            el.textContent = translated;
+        } else {
+            el.setAttribute(target, translated);
+        }
+    });
+
+    updateLanguageButton();
+    updateGlobalDebugButton();
+    updateTitle();
+}
+
+function updateLanguageButton() {
+    const btn = document.getElementById("languageToggleBtn");
+    if (!btn) return;
+
+    const isGerman = Settings.language === "de";
+    btn.textContent = isGerman ? "🇩🇪" : "🇬🇧";
+    btn.setAttribute("aria-label", isGerman ? t("accessibility.switchToEnglish") : t("accessibility.switchToGerman"));
+    btn.setAttribute("title", isGerman ? t("accessibility.switchToEnglish") : t("accessibility.switchToGerman"));
+}
+
 const MAIN_CATEGORIES = {
-    profiles: {
-        labelKey: "main.profiles"
-    },
     rules: {
         labelKey: "main.rules"
+    },
+    profiles: {
+        labelKey: "main.profiles"
     },
     armylists: {
         labelKey: "main.armylists"
     },
-    /*scenarios: {
-        labelKey: "main.scenarios"
-    },
-    simulations: {
-        labelKey: "main.simulations"
-    }*/
 };
 
 const VIEWS = {
+    
+    rules: {
+        manual: {
+            labelKey: "main.showRulesManual",
+            init: initRulesManual,
+            container: null
+        },
+        all: {
+            labelKey: "main.showAllRules",
+            init: initRulesAll,
+            container: null
+        }
+    },
     profiles: {
         search: {
             labelKey: "main.searchProfile",
@@ -71,13 +123,6 @@ const VIEWS = {
             container: null
         }
     },
-    rules: {
-        all: {
-            labelKey: "main.showAllRules",
-            init: initRulesAll,
-            container: null
-        }
-    },
     armylists: {
         search: {
             labelKey: "main.searchArmylist",
@@ -85,32 +130,18 @@ const VIEWS = {
             onNavigate: onArmylistsSearchNavigate,
             container: null
         },
-        build: {
+       /* build: {
             labelKey: "main.buildArmylist",
             init: initArmylistsBuild,
             onNavigate: onArmylistsBuildNavigate,
             container: null
-        },
+        },*/
         all: {
             labelKey: "main.showAllArmylists",
             init: initArmylistsAll,
             container: null
         }
-    }/*,
-    scenarios: {
-        matchedPlay: {
-            labelKey: "main.matchedPlay",
-            init: initMatchedPlay,
-            container: null
-        }
-    },
-    simulations: {
-        warrior: {
-            labelKey: "main.warriorSimulations",
-            init: initWarriorSimulations,
-            container: null
-        }
-    }*/
+    }
 };
 
 let activeMain = null;
@@ -217,7 +248,13 @@ function renderSubNav() {
         subNav.appendChild(btn);
     });
 }
-titleEl.textContent = t("main.title");
+updateTitle();
+
+document.getElementById("languageToggleBtn").onclick = () => {
+    Settings.language = Settings.language === "de" ? "en" : "de";
+    Settings.save();
+    location.reload();
+};
 
 document.getElementById("settingsBtn").onclick = () => {
     document.getElementById("settingsModal").classList.remove("hidden");
@@ -232,4 +269,4 @@ document.getElementById("globalForwardBtn").onclick = () => {
     navigateForward();
 };
 
-navigate("profiles", "search");
+navigate("rules", "manual");

@@ -1,5 +1,5 @@
 import { Settings } from "../settings.js";
-import { loadArmyLists, loadProfiles } from "../utility/dataLoader.js";
+import { loadArmyLists, loadProfiles, loadDefinitions } from "../utility/dataLoader.js";
 import { t } from "../utility/i18n.js";
 import { navigate } from "../main.js";
 
@@ -11,6 +11,7 @@ let state = {
     mode: "interactive",
     armyLists: null,
     profiles: null,
+    definitions: null,
     profileByName: null,
     container: null,
 
@@ -75,6 +76,10 @@ export async function initArmylistsSearch(container, params = {}) {
         Object.values(state.profiles).forEach(p => {
             state.profileByName[p.name] = p.id;
         });
+    }
+
+    if (!state.definitions) {
+        state.definitions = await loadDefinitions(Settings.version);
     }
 
     const input = container.querySelector("#armylistSearchInput");
@@ -259,13 +264,17 @@ function renderAdditionalInformationBox(armylist) {
                 ${hasSpecial ? `
                     <h4 class="armylist-information-title">${t("armylists.search.specialRules")}</h4>
                     <ul class="armylist-information-list">
-                        ${armylist.specialRules.map(rule => `
+                        ${armylist.specialRules.map(rule => {
+                            const resolvedRule = resolveArmyRule(rule);
+
+                            return `
                             <li>
-                                <strong>${rule.name}</strong><br>
-                                ${rule.description}
+                                <strong>${resolvedRule.name}</strong><br>
+                                ${formatText(resolvedRule.description)}
                             </li>
                             <br></br>
-                        `).join("")}
+                        `;
+                        }).join("")}
                     </ul>
                 ` : ""}
 
@@ -404,4 +413,24 @@ function addPoints(rawCost) {
     }
 
     return `${numericValue} ${t("armylists.search.points")}`;
+}
+
+function resolveArmyRule(ruleEntry) {
+    if (!ruleEntry) {
+        return { name: "", description: "" };
+    }
+
+    if (typeof ruleEntry === "object") {
+        return {
+            name: ruleEntry.name || "",
+            description: ruleEntry.description || ""
+        };
+    }
+
+    const definition = state.definitions?.[ruleEntry];
+
+    return {
+        name: definition?.name || ruleEntry,
+        description: definition?.description || ""
+    };
 }

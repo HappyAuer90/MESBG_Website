@@ -2,13 +2,14 @@ export default {
     main: {
         title: "MESBG ONLINE TOOL",
 
+        rules: "Rules",
+        showRulesManual: "Rules Manual",
+        showAllRules: "Show All Rules",
+
         profiles: "Profiles",
         searchProfile: "Search Profile",
         expertSearch: "Expert Search",
         showAllProfiles: "Show All Profiles",
-
-        rules: "Rules",
-        showAllRules: "Show All Rules",
 
         armylists: "Armylists",
         searchArmylist: "Search Armylist",
@@ -21,9 +22,17 @@ export default {
         simulations: "Simulations",
         warriorSimulations: "Warrior Simulations"
     },
+    accessibility: {
+        openSettings: "Open settings",
+        goBack: "Go back",
+        goForward: "Go forward",
+        noScript: "This application requires JavaScript to load and navigate its content.",
+        runDebugChecks: "Run JSON debug checks",
+        switchToEnglish: "Switch to English",
+        switchToGerman: "Switch to German"
+    },
     settings: {
         title: "Settings",
-        general: "General",
         graphics: "Graphics",
         profiles: "Profiles",
         version: "Version",
@@ -39,6 +48,28 @@ export default {
         showSpecialRulesFromArmylists: "Show Profile's Special Rules in certain Armylists",
         includeLegacy: "Including Legacy",
         close: "Close"
+    },
+
+    rules: {
+        manual: {
+            chapters: "Chapters",
+            rules: "Rules",
+            references: "References",
+            gwFaq: "GW FAQ",
+            selectRule: "Select a rule from the overview to display its content.",
+            noDefinitionFound: "No matching definition was found for this entry.",
+            selectReference: "Select a reference to inspect it here.",
+            noProfileDescription: "No profile description available."
+        },
+        all: {
+            Character: "This Unit",
+            character: "this Unit",
+            usedBy: "Used By",
+            usedByArmyLists: "Army Lists",
+            usedByProfiles: "Profiles",
+            usedAsWargear: "As wargear on the following profiles",
+            usedAsOption: "As an option on the following profiles"
+        }
     },
 
     profiles: {
@@ -129,13 +160,6 @@ export default {
             good: "Good",
             evil: "Evil",
             Hero: "Hero"
-        }
-    },
-
-    rules: {
-        all: {
-            Character: "This Unit",
-            character: "this Unit"
         }
     },
 

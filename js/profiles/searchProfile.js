@@ -561,7 +561,7 @@ function handleEntryClick(name, rightPanel, profile) {
 
     const result = findDefinition(name);
     if (!result) {
-        rightPanel.innerHTML = `<p>No definition found.</p>`;
+        rightPanel.innerHTML = `<p>${t("profiles.search.noDefinitionFound")}</p>`;
         return;
     }
 
@@ -688,7 +688,7 @@ function renderRightPanel(panel) {
         Settings.profileSettings.showGWFAQNotes && def.descriptionGWFAQ
             ? `
             <div class="definition-block gwfaq-block">
-                <h4 class="gwfaq-title">GW FAQ</h4>
+                <h4 class="gwfaq-title">${t("rules.manual.gwFaq")}</h4>
                 <p class="definition-text-gwfaq"></p>
             </div>
             `

@@ -1,12 +1,11 @@
-/* =========================
-   LAYOUT (renderLayout)
-========================= */
-
+/* Layout spacing */
 .expert-search {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 30px;
     align-items: start;
+    padding: 0 0 var(--page-padding);
+    box-sizing: border-box;
 }
 
 .expert-left,

@@ -1,0 +1,1741 @@
+{
+	"chapters": [
+		{
+			"title": "Einleitung",
+			"sections": [
+				{
+					"title": "Einleitung",
+					"rules": [
+						{
+							"title": "Einleitung",
+							"definition": "Einleitung"
+						},
+						{
+							"title": "Mittelerde in Miniatur",
+							"definition": "Mittelerde in Miniatur"
+						},
+						{
+							"title": "Wie man dieses Regelbuch benutzt",
+							"definition": "Wie man dieses Regelbuch benutzt"
+						},
+						{
+							"title": "Das Spiel",
+							"definition": "Das Spiel"
+						},
+						{
+							"title": "Aufbau des Schlachtfelds",
+							"definition": "Aufbau des Schlachtfelds"
+						}
+					]
+				},
+				{
+					"title": "Kennwerte",
+					"rules": [
+						{
+							"title": "Kennwerte",
+							"definition": "Eigenschaften"
+						},
+						{
+							"title": "Bewegungswert",
+							"definition": "Profilwert: Bewegungswert"
+						},
+						{
+							"title": "Nahkampfwert",
+							"definition": "Profilwert: Nahkampfwert"
+						},
+						{
+							"title": "Fernkampfwert",
+							"definition": "Profilwert: Fernkampfwert"
+						},
+						{
+							"title": "Stärke",
+							"definition": "Profilwert: Stärke"
+						},
+						{
+							"title": "Verteidigung",
+							"definition": "Profilwert: Verteidigung"
+						},
+						{
+							"title": "Attacken",
+							"definition": "Profilwert: Attacken"
+						},
+						{
+							"title": "Lebenspunkte",
+							"definition": "Unterstützen"
+						},
+						{
+							"title": "Mut",
+							"definition": "Profilwert: Mut"
+						},
+						{
+							"title": "Intelligenz",
+							"definition": "Profilwert: Intelligenz"
+						}
+					]
+				},
+				{
+					"title": "Was Sie zum Spielen benötigen",
+					"rules": [
+						{
+							"title": "Was Sie zum Spielen benötigen",
+							"definition": "Was du zum Spielen brauchst"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Die Regeln",
+			"sections": [
+				{
+					"title": "Die wichtigste Regel",
+					"rules": [
+						{
+							"title": "Die wichtigste Regel",
+							"definition": "Die wichtigste Regel"
+						}
+					]
+				},
+				{
+					"title": "Verhaltenskodex",
+					"rules": [
+						{
+							"title": "Verhaltenskodex",
+							"definition": "Verhaltenskodex"
+						}
+					]
+				},
+				{
+					"title": "Grundprinzipien",
+					"rules": [
+						{
+							"title": "Gut gegen Böse",
+							"definition": "Gut gegen Böse"
+						},
+						{
+							"title": "Befreundete und feindliche Modelle",
+							"definition": "Befreundete und feindliche Modelle"
+						},
+						{
+							"title": "Zugrunde",
+							"definition": "Spielzüge"
+						},
+						{
+							"title": "Würfel werfen",
+							"definition": "Würfeln"
+						},
+						{
+							"title": "Schräg liegende Würfel",
+							"definition": "Schräg liegende Würfel"
+						},
+						{
+							"title": "W6, W3, 2W6",
+							"definition": "W6, W3, 2W6"
+						},
+						{
+							"title": "Würfelboni und Malus",
+							"definition": "Würfelmodifikatoren"
+						},
+						{
+							"title": "Wiederholungswürfe",
+							"definition": "Wiederholungswürfe"
+						},
+						{
+							"title": "Natürliche Würfel",
+							"definition": "Natürliche Würfe"
+						},
+						{
+							"title": "Sichtlinie",
+							"definition": "Sichtlinie"
+						},
+						{
+							"title": "Entfernungsmessung",
+							"definition": "Messen"
+						},
+						{
+							"title": "Reichweite und völlig innerhalb",
+							"definition": "Innerhalb und vollständig innerhalb"
+						},
+						{
+							"title": "Schlüsselwörter",
+							"definition": "Schlüsselwörter"
+						},
+						{
+							"title": "Modelle und Basen",
+							"definition": "Modelle und Bases"
+						},
+						{
+							"title": "Direkt auf etwas zu/von etwas weg",
+							"definition": "Direkt auf etwas zu/von etwas weg"
+						},
+						{
+							"title": "Auswahl von Modellen/Zielen",
+							"definition": "Modelle/Ziele auswählen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Zugablauf",
+			"sections": [
+				{
+					"rules": [
+						{
+							"title": "Zugablauf",
+							"definition": "Zug"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Prioritätsphase",
+			"sections": [
+				{
+					"title": "Prioritätsphase",
+					"rules": [
+						{
+							"title": "Prioritätsphase",
+							"definition": "Prioritätsphase"
+						}
+					]
+				},
+				{
+					"title": "Priorität auswürfeln",
+					"rules": [
+						{
+							"title": "Priorität auswürfeln",
+							"definition": "Priorität"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Bewegungsphase",
+			"sections": [
+				{
+					"title": "Bewegungsphase",
+					"rules": [
+						{
+							"title": "Bewegungsphase",
+							"definition": "Bewegungsphase"
+						}
+					]
+				},
+				{
+					"title": "Aktivierungsphase",
+					"rules": [
+						{
+							"title": "Aktivierungsphase",
+							"definition": "Aktivierungsphase"
+						}
+					]
+				},
+				{
+					"title": "Modelle Bewegen",
+					"rules": [
+						{
+							"title": "Modelle Bewegen",
+							"definition": "Modelle Bewegen"
+						},
+						{
+							"title": "Vom Spielbrett Bewegen",
+							"definition": "Vom Spielbrett Bewegen"
+						},
+						{
+							"title": "Modelle, die sich nicht Bewegen können",
+							"definition": "Modelle, die sich nicht bewegen können"
+						}
+					]
+				},
+				{
+					"title": "Kontrollzone",
+					"rules": [
+						{
+							"title": "Kontrollzone",
+							"definition": "Kontrollzone"
+						}
+					]
+				},
+				{
+					"title": "Feinde Angreifen",
+					"rules": [
+						{
+							"title": "Feinde Angreifen",
+							"definition": "Feinde Angreifen"
+						}
+					]
+				},
+				{
+					"title": "Gelände",
+					"rules": [
+						{
+							"title": "Offenes Gelände",
+							"definition": "Offenes Gelände"
+						},
+						{
+							"title": "Schwieriges Gelände",
+							"definition": "Schwieriges Gelände"
+						},
+						{
+							"title": "Hindernisse",
+							"definition": "Hindernisse"
+						}
+					]
+				},
+				{
+					"title": "Hochsprung",
+					"rules": [
+						{
+							"title": "Hochsprung",
+							"definition": "Hochspringen"
+						}
+					]
+				},
+				{
+					"title": "Weitsprung",
+					"rules": [
+						{
+							"title": "Weitsprung",
+							"definition": "Weitspringen"
+						}
+					]
+				},
+				{
+					"title": "Klettern",
+					"rules": [
+						{
+							"title": "Klettern",
+							"definition": "Klettern"
+						},
+						{
+							"title": "Fallschaden",
+							"definition": "Fallschaden"
+						}
+					]
+				},
+				{
+					"title": "Modelle am Boden",
+					"rules": [
+						{
+							"title": "Modelle am Boden",
+							"definition": "Modelle am Boden"
+						}
+					]
+				},
+				{
+					"title": "Verstärkungen",
+					"rules": [
+						{
+							"title": "Verstärkungen",
+							"definition": "Verstärkungen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Fernkampfphase",
+			"sections": [
+				{
+					"title": "Fernkampfphase",
+					"rules": [
+						{
+							"title": "Fernkampfphase",
+							"definition": "Fernkampfphase"
+						}
+					]
+				},
+				{
+					"title": "Wie man schießt",
+					"rules": [
+						{
+							"title": "Wie man schießt",
+							"definition": "Schussangriff"
+						}
+					]
+				},
+				{
+					"title": "Wer kann schießen",
+					"rules": [
+						{
+							"title": "Wer kann schießen",
+							"definition": "Wer schießen kann"
+						},
+						{
+							"title": "Bewegung und Schießen",
+							"definition": "Bewegung und Schießen"
+						}
+					]
+				},
+				{
+					"title": "Trefferwurf",
+					"rules": [
+						{
+							"title": "Trefferwurf",
+							"definition": "Schussangriff: Trefferwurf"
+						}
+					]
+				},
+				{
+					"title": "Im Weg",
+					"rules": [
+						{
+							"title": "Im Weg",
+							"definition": "Im Weg"
+						},
+						{
+							"title": "Schießen von hinter Deckung",
+							"definition": "Schießen aus der Deckung"
+						},
+						{
+							"title": "Schießen von hinter Freunden",
+							"definition": "Schießen hinter befreundeten Modellen"
+						},
+						{
+							"title": "Beschuss von im Nahkampf gebundenen Modellen",
+							"definition": "Beschuss von im Nahkampf gebundenen Modellen"
+						}
+					]
+				},
+				{
+					"title": "Verwundungswurf",
+					"rules": [
+						{
+							"title": "Verwundungswurf",
+							"definition": "Schussangriff: Verwundungswurf"
+						},
+						{
+							"title": "Verwundungstabelle",
+							"definition": "Verwundungstabelle"
+						}
+					]
+				},
+				{
+					"title": "Wunden notieren und Gefallene entfernen",
+					"rules": [
+						{
+							"title": "Wunden notieren und Gefallene entfernen",
+							"definition": "Wunden notieren und Verluste entfernen"
+						}
+					]
+				},
+				{
+					"title": "Schüsse zusammen abfeuern",
+					"rules": [
+						{
+							"title": "Schüsse zusammen abfeuern",
+							"definition": "Gemeinsam schießen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Nahkampfphase",
+			"sections": [
+				{
+					"title": "Nahkampfphase",
+					"rules": [
+						{
+							"title": "Nahkampfphase",
+							"definition": "Nahkampfphase"
+						}
+					]
+				},
+				{
+					"title": "Nahkämpfe ordnen",
+					"rules": [
+						{
+							"title": "Nahkämpfe ordnen",
+							"definition": "Nahkämpfe Ordnen"
+						}
+					]
+				},
+				{
+					"title": "Wann kämpft man",
+					"rules": [
+						{
+							"title": "Wann kämpft man",
+							"definition": "Wann kämpfen"
+						}
+					]
+				},
+				{
+					"title": "Nahkampf auflösen",
+					"rules": [
+						{
+							"title": "Nahkampf auflösen",
+							"definition": "Nahkampf"
+						},
+						{
+							"title": "Zweikampfwurf",
+							"definition": "Zweikampfwurf"
+						},
+						{
+							"title": "Unentschieden",
+							"definition": "Unentschieden"
+						},
+						{
+							"title": "Zurückweichen",
+							"definition": "Zurückweichen"
+						},
+						{
+							"title": "Eingekreist",
+							"definition": "Eingekreist"
+						},
+						{
+							"title": "Platz machen",
+							"definition": "Platz Machen"
+						},
+						{
+							"title": "Schläge",
+							"definition": "Zuschlagen"
+						},
+						{
+							"title": "Mehrere Nahkämpfe",
+							"definition": "Mehrfachkämpfe"
+						}
+					]
+				},
+				{
+					"title": "Positionen verteidigen",
+					"rules": [
+						{
+							"title": "Barrieren",
+							"definition": "Barrieren"
+						},
+						{
+							"title": "Durchgänge",
+							"definition": "Türöffnungen"
+						},
+						{
+							"title": "Erhöhte Positionen",
+							"definition": "Erhöhte Positionen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Mut und Intelligenz",
+			"sections": [
+				{
+					"title": "Mut",
+					"rules": [
+						{
+							"title": "Mut",
+							"definition": "Muttest"
+						},
+						{
+							"title": "Aufgeriebene Armee",
+							"definition": "Aufgeriebene Armee"
+						},
+						{
+							"title": "Haltet Stand",
+							"definition": "Haltet Stand"
+						}
+					]
+				},
+				{
+					"title": "Intelligenz",
+					"rules": [
+						{
+							"title": "Intelligenz",
+							"definition": "Intelligenztest"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Modelltypen",
+			"sections": [
+				{
+					"title": "Modelltypen",
+					"rules": [
+						{
+							"title": "Infanterie",
+							"definition": "Infanterie"
+						},
+						{
+							"title": "Kavallerie",
+							"definition": "Kavallerie"
+						},
+						{
+							"title": "Reittier",
+							"definition": "Reittier"
+						},
+						{
+							"title": "Monster",
+							"definition": "Monster"
+						},
+						{
+							"title": "Kriegsbestie",
+							"definition": "Kriegsbestie"
+						},
+						{
+							"title": "Streitwagen",
+							"definition": "Streitwagen"
+						},
+						{
+							"title": "Belagerungsmaschine",
+							"definition": "Belagerungsmaschine"
+						},
+						{
+							"title": "Held",
+							"definition": "Held"
+						},
+						{
+							"title": "Krieger",
+							"definition": "Krieger"
+						},
+						{
+							"title": "Einzigartig",
+							"definition": "Einzigartig"
+						},
+						{
+							"title": "Bestie",
+							"definition": "Bestie"
+						},
+						{
+							"title": "Schwarm",
+							"definition": "Schwarm"
+						},
+						{
+							"title": "Elite",
+							"definition": "Elite"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Kavallerie",
+			"sections": [
+				{
+					"title": "Was ist ein Kavallerie-Modell?",
+					"rules": [
+						{
+							"title": "Was ist ein Kavallerie-Modell?",
+							"definition": "Kavallerie"
+						}
+					]
+				},
+				{
+					"title": "Kavallerie und Bewegung",
+					"rules": [
+						{
+							"title": "Kavallerie und Bewegung",
+							"definition": "Kavallerie und Bewegung"
+						},
+						{
+							"title": "Abgetrennte Reittiere",
+							"definition": "Getrennte Reittiere"
+						},
+						{
+							"title": "Absitzen",
+							"definition": "Absitzen"
+						}
+					]
+				},
+				{
+					"title": "Kavallerie und Schießen",
+					"rules": [
+						{
+							"title": "Kavallerie und Schießen",
+							"definition": "Kavallerie und Schießen"
+						},
+						{
+							"title": "Abgeworfener Reiter",
+							"definition": "Abgeworfener Reiter"
+						}
+					]
+				},
+				{
+					"title": "Kavallerie und Nahkampf",
+					"rules": [
+						{
+							"title": "Kavallerie und Nahkampf",
+							"definition": "Kavallerie und Nahkampf"
+						}
+					]
+				},
+				{
+					"title": "Kavallerie und Sonderregeln",
+					"rules": [
+						{
+							"title": "Kavallerie und Sonderregeln",
+							"definition": "Kavallerie und Sonderregeln"
+						}
+					]
+				},
+				{
+					"title": "Kavallerie und Magie",
+					"rules": [
+						{
+							"title": "Kavallerie und Magie",
+							"definition": "Kavallerie und Magie"
+						}
+					]
+				},
+				{
+					"title": "Kavallerie und Moralschwelle",
+					"rules": [
+						{
+							"title": "Kavallerie und Moralschwelle",
+							"definition": "Kavallerie und Auflösungsgrenzen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Heroes",
+			"sections": [
+				{
+					"title": "Heldentum, Willenskraft und Schicksal",
+					"rules": [
+						{
+							"title": "Heldentum, Willenskraft und Schicksal",
+							"definition": "Held"
+						}
+					]
+				},
+				{
+					"title": "Heldentum",
+					"rules": [
+						{
+							"title": "Heldentum",
+							"definition": "Heldentum"
+						},
+						{
+							"title": "Würfelwürfe modifizieren",
+							"definition": "Würfelwürfe modifizieren"
+						}
+					]
+				},
+				{
+					"title": "Heroische Taten",
+					"rules": [
+						{
+							"title": "Heroische Taten",
+							"definition": "Heroische Taten"
+						}
+					]
+				},
+				{
+					"title": "Universelle Heroische Taten",
+					"rules": [
+						{
+							"title": "Heroische Bewegung",
+							"definition": "Heroische Bewegung"
+						},
+						{
+							"title": "Heroisches Schießen",
+							"definition": "Heroisches Schießen"
+						},
+						{
+							"title": "Heroischer Nahkampf",
+							"definition": "Heroischer Nahkampf"
+						}
+					]
+				},
+				{
+					"title": "Spezialisierte Heroische Taten",
+					"rules": [
+						{
+							"title": "Heroische Kanalisation",
+							"definition": "Heroisches Kanalisieren"
+						},
+						{
+							"title": "Heroischer Marsch",
+							"definition": "Heroischer Marsch"
+						},
+						{
+							"title": "Heroische Entschlossenheit",
+							"definition": "Heroische Entschlossenheit"
+						},
+						{
+							"title": "Heroische Zielgenauigkeit",
+							"definition": "Heroische Zielgenauigkeit"
+						},
+						{
+							"title": "Heroische Herausforderung",
+							"definition": "Heroische Herausforderung"
+						},
+						{
+							"title": "Heroische Verteidigung",
+							"definition": "Heroische Verteidigung"
+						},
+						{
+							"title": "Heroische Stärke",
+							"definition": "Heroische Stärke"
+						},
+						{
+							"title": "Heroischer Hieb",
+							"definition": "Heroischer Hieb"
+						}
+					]
+				},
+				{
+					"title": "Willenskraft",
+					"rules": [
+						{
+							"title": "Willenskraft",
+							"definition": "Willenskraft"
+						}
+					]
+				},
+				{
+					"title": "Schicksal",
+					"rules": [
+						{
+							"title": "Schicksal",
+							"definition": "Schicksal"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Monsters",
+			"sections": [
+				{
+					"title": "Monster und Kavallerie",
+					"rules": [
+						{
+							"title": "Monster",
+							"definition": "Monster"
+						}
+					]
+				},
+				{
+					"title": "Attacken mit Brutaler Kraft",
+					"rules": [
+						{
+							"title": "Attacken mit Brutaler Kraft",
+							"definition": "Attacken mit Brutaler Kraft"
+						},
+						{
+							"title": "Zerreißen",
+							"definition": "Zerreißen"
+						},
+						{
+							"title": "Zurückdrängen",
+							"definition": "Zurückdrängen"
+						},
+						{
+							"title": "Schleudern",
+							"definition": "Schleudern"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "War Beasts",
+			"sections": [
+				{
+					"title": "Was ist eine Kriegsbestie",
+					"rules": [
+						{
+							"title": "Was ist eine Kriegsbestie",
+							"definition": "Kriegsbestie"
+						},
+						{
+							"title": "Howdah",
+							"definition": "Kriegsbestien und die Howdah"
+						}
+					]
+				},
+				{
+					"title": "Kriegsbestien und Bewegung",
+					"rules": [
+						{
+							"title": "Kriegsbestien und Bewegung",
+							"definition": "Zertrampeln"
+						}
+					]
+				},
+				{
+					"title": "Kriegsbestien und Magie",
+					"rules": [
+						{
+							"title": "Kriegsbestien und Magie",
+							"definition": "Kriegsbestien und Magie"
+						}
+					]
+				},
+				{
+					"title": "Kriegsbestien und Schießen",
+					"rules": [
+						{
+							"title": "Kriegsbestien und Schießen",
+							"definition": "Kriegsbestien und Fernkampf"
+						}
+					]
+				},
+				{
+					"title": "Kriegsbestien und Nahkampf",
+					"rules": [
+						{
+							"title": "Kriegsbestien und Nahkampf",
+							"definition": "Kriegsbestien und Nahkampf"
+						}
+					]
+				},
+				{
+					"title": "Kriegsbestien und Schaden",
+					"rules": [
+						{
+							"title": "Kriegsbestien und Schaden",
+							"definition": "Stampede"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Chariots",
+			"sections": [
+				{
+					"title": "Streitwagen und Bewegung",
+					"rules": [
+						{
+							"title": "Streitwagen und Bewegung",
+							"definition": "Streitwagenangriff"
+						}
+					]
+				},
+				{
+					"title": "Streitwagen und Magie",
+					"rules": [
+						{
+							"title": "Streitwagen und Magie",
+							"definition": "Streitwagen und Magie"
+						}
+					]
+				},
+				{
+					"title": "Streitwagen und Schießen",
+					"rules": [
+						{
+							"title": "Streitwagen und Schießen",
+							"definition": "Streitwagen und Schießen"
+						}
+					]
+				},
+				{
+					"title": "Streitwagen und Nahkampf",
+					"rules": [
+						{
+							"title": "Streitwagen und Nahkampf",
+							"definition": "Streitwagen und Nahkampf"
+						}
+					]
+				},
+				{
+					"title": "Streitwagen und Helden",
+					"rules": [
+						{
+							"title": "Streitwagen und Helden",
+							"definition": "Streitwagen und Helden"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Waffen und Kriegsausrüstung",
+			"sections": [
+				{
+					"title": "Waffen",
+					"rules": [
+						{
+							"title": "",
+							"definition": ""
+						}
+					]
+				},
+				{
+					"title": "Nahkampfwaffen",
+					"rules": [
+						{
+							"title": "Handwaffe",
+							"definition": "Handwaffe"
+						},
+						{
+							"title": "Zweihändige Waffe",
+							"definition": "Zweihändige Waffe"
+						},
+						{
+							"title": "Anderthalbhänderwaffe",
+							"definition": "Anderthalbhänderwaffe"
+						},
+						{
+							"title": "Unbewaffnete Modelle",
+							"definition": "Unbewaffnet"
+						},
+						{
+							"title": "Speer",
+							"definition": "Speer"
+						},
+						{
+							"title": "Unterstützung",
+							"definition": "Unterstützen"
+						},
+						{
+							"title": "Pike",
+							"definition": "Pike"
+						},
+						{
+							"title": "Lanze",
+							"definition": "Lanze"
+						},
+						{
+							"title": "Kriegsspeer",
+							"definition": "Kriegsspeer"
+						},
+						{
+							"title": "Stab der Macht",
+							"definition": "Stab der Macht"
+						},
+						{
+							"title": "Peitsche",
+							"definition": "Peitsche"
+						},
+						{
+							"title": "Elbenwaffe",
+							"definition": "Elbenwaffe"
+						},
+						{
+							"title": "Meisterlich geschmiedet",
+							"definition": "Meistergeschmiedete Waffe"
+						}
+					]
+				},
+				{
+					"title": "Fernkampfwaffen",
+					"rules": [
+						{
+							"title": "Fernkampfwaffen",
+							"definition": "Fernkampfwaffen"
+						},
+						{
+							"title": "Bogen",
+							"definition": "Bogen"
+						},
+						{
+							"title": "Armbrust",
+							"definition": "Armbrust"
+						},
+						{
+							"title": "Blasrohr",
+							"definition": "Blasrohr"
+						},
+						{
+							"title": "Schleuder",
+							"definition": "Schleuder"
+						},
+						{
+							"title": "Wurfwaffen",
+							"definition": "Wurfwaffen"
+						}
+					]
+				},
+				{
+					"title": "Kriegsausrüstung",
+					"rules": [
+						{
+							"title": "Standarte",
+							"definition": "Standarte"
+						},
+						{
+							"title": "Elbischer Umhang",
+							"definition": "Elbenmantel"
+						},
+						{
+							"title": "Kriegstrommel (X)",
+							"definition": "Kriegstrommel"
+						},
+						{
+							"title": "Kriegshorn",
+							"definition": "Kriegshorn"
+						}
+					]
+				},
+				{
+					"title": "Rüstung",
+					"rules": [
+						{
+							"title": "Rüstung",
+							"definition": "Rüstung"
+						},
+						{
+							"title": "Leichte Rüstung",
+							"definition": "Leichte Rüstung"
+						},
+						{
+							"title": "Schwere Rüstung",
+							"definition": "Schwere Rüstung"
+						},
+						{
+							"title": "Schwere Zwergische Rüstung",
+							"definition": "Schwere Zwergenrüstung"
+						},
+						{
+							"title": "Mithril-Rüstung",
+							"definition": "Mithrilrüstung"
+						}
+					]
+				},
+				{
+					"title": "Schilde",
+					"rules": [
+						{
+							"title": "Schilde",
+							"definition": "Schild"
+						},
+						{
+							"title": "Schildblock",
+							"definition": "Schildblock"
+						},
+						{
+							"title": "Leichter Schild",
+							"definition": "Leichter Schild"
+						}
+					]
+				},
+				{
+					"title": "Der Eine Ring",
+					"rules": [
+						{
+							"title": "Der Eine Ring",
+							"definition": "Der Eine Ring"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Magie",
+			"sections": [
+				{
+					"title": "Einsatz Magischer Kräfte",
+					"rules": [
+						{
+							"title": "Magische Kräfte",
+							"definition": "Magische Kräfte"
+						},
+						{
+							"title": "Zauberwurf ablegen",
+							"definition": "Einen Zauberwurf machen"
+						},
+						{
+							"title": "Widerstehen gegen Magische Kraft",
+							"definition": "Einem magischen Effekt widerstehen"
+						},
+						{
+							"title": "Dauer Magischer Kräfte",
+							"definition": "Dauer Magischer Kräfte"
+						}
+					]
+				},
+				{
+					"title": "Liste der Magischen Kräfte",
+					"rules": [
+						{
+							"title": "Aura des Befehls",
+							"definition": "Aura des Heldenmuts"
+						},
+						{
+							"title": "Aura der Bestürzung",
+							"definition": "Aura des Schreckens"
+						},
+						{
+							"title": "Verbannung",
+							"definition": "Verbannung"
+						},
+						{
+							"title": "Schwarzer Pfeil",
+							"definition": "Schwarzer Pfeil"
+						},
+						{
+							"title": "Klingenwut",
+							"definition": "Klingenwut"
+						},
+						{
+							"title": "Segen der Valar",
+							"definition": "Segen der Valar"
+						},
+						{
+							"title": "Blendend Licht",
+							"definition": "Gleißendes Licht"
+						},
+						{
+							"title": "Winde rufen",
+							"definition": "Winde rufen"
+						},
+						{
+							"title": "Frostige Seele",
+							"definition": "Kalte Seele"
+						},
+						{
+							"title": "Felsen einstürzen",
+							"definition": "Felsen einstürzen"
+						},
+						{
+							"title": "Beherrschung",
+							"definition": "Beherrschung"
+						},
+						{
+							"title": "Fluch",
+							"definition": "Fluch"
+						},
+						{
+							"title": "Mut abziehen",
+							"definition": "Mut rauben"
+						},
+						{
+							"title": "Klingen verzaubern",
+							"definition": "Klingen verzaubern"
+						},
+						{
+							"title": "Bestie aufstacheln",
+							"definition": "Bestie erzürnen"
+						},
+						{
+							"title": "Flammenausbruch",
+							"definition": "Flammenstoß"
+						},
+						{
+							"title": "Nebel der Verwirrung",
+							"definition": "Nebel der Verwirrung"
+						},
+						{
+							"title": "Magie vereiteln",
+							"definition": "Magie vereiteln"
+						},
+						{
+							"title": "Geist stärken",
+							"definition": "Geist stärken"
+						},
+						{
+							"title": "Wahnsinn",
+							"definition": "Zorn"
+						},
+						{
+							"title": "Angst einjagen",
+							"definition": "Furcht einflößen"
+						},
+						{
+							"title": "Nature’s Wrath",
+							"definition": "Zorn der Natur"
+						},
+						{
+							"title": "Pferdepanik",
+							"definition": "Panikpferd"
+						},
+						{
+							"title": "Lähmung",
+							"definition": "Paralyse"
+						},
+						{
+							"title": "Schutz der Valar",
+							"definition": "Schutz der Valar"
+						},
+						{
+							"title": "Wiederbelebung",
+							"definition": "Erneuern"
+						},
+						{
+							"title": "Zauberschlag",
+							"definition": "Zauberstoß"
+						},
+						{
+							"title": "Willenskraft stärken",
+							"definition": "Willenskraft stärken"
+						},
+						{
+							"title": "Schreckens Aura",
+							"definition": "Schreckliche Aura"
+						},
+						{
+							"title": "Transfix",
+							"definition": "Lähmung"
+						},
+						{
+							"title": "Beben",
+							"definition": "Beben"
+						},
+						{
+							"title": "Welken",
+							"definition": "Verdorren"
+						},
+						{
+							"title": "Zorn des Bruinen",
+							"definition": "Zorn des Bruinen"
+						},
+						{
+							"title": "Ringelnde Ranken",
+							"definition": "Wuchernde Ranken"
+						},
+						{
+							"title": "Dein Stab ist zerbrochen",
+							"definition": "Dein Stab ist zerbrochen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Sonderregeln",
+			"sections": [
+				{
+					"title": "Aktive & Passive Sonderregeln",
+					"rules": [
+						{
+							"title": "Aktive & Passive Sonderregeln",
+							"definition": "Sonderregeln"
+						}
+					]
+				},
+				{
+					"title": "Liste der Sonderregeln",
+					"rules": [
+						{
+							"title": "Alte Feinde (X)",
+							"definition": "Uralte Feinde (X)"
+						},
+						{
+							"title": "Meuchler",
+							"definition": "Meuchler"
+						},
+						{
+							"title": "Königsbane",
+							"definition": "Königsbane"
+						},
+						{
+							"title": "Fluchwaffen",
+							"definition": "Fluchwaffen"
+						},
+						{
+							"title": "Klingen der Toten",
+							"definition": "Klingen der Toten"
+						},
+						{
+							"title": "Leibwächter",
+							"definition": "Leibwächter"
+						},
+						{
+							"title": "Bullig",
+							"definition": "Bullig"
+						},
+						{
+							"title": "Höhlenbewohner",
+							"definition": "Höhlenbewohner"
+						},
+						{
+							"title": "Dominant (X)",
+							"definition": "Dominant"
+						},
+						{
+							"title": "Pferdebeherrscher",
+							"definition": "Geübter Reiter"
+						},
+						{
+							"title": "Scharfschütze",
+							"definition": "Scharfschütze"
+						},
+						{
+							"title": "Furchtsam",
+							"definition": "Furchtsam"
+						},
+						{
+							"title": "Furchtlos",
+							"definition": "Furchtlos"
+						},
+						{
+							"title": "Fernes Sehen",
+							"definition": "Finsterblick"
+						},
+						{
+							"title": "Fliegen",
+							"definition": "Fliegen [SpecialRule]"
+						},
+						{
+							"title": "Generaljäger",
+							"definition": "Generaljäger"
+						},
+						{
+							"title": "Bote des Unheils",
+							"definition": "Bote des Unheils"
+						},
+						{
+							"title": "Hass",
+							"definition": "Hass"
+						},
+						{
+							"title": "Pferdeherr",
+							"definition": "Pferdeherr"
+						},
+						{
+							"title": "Unsichtbar",
+							"definition": "Unsichtbar"
+						},
+						{
+							"title": "Großes Ziel",
+							"definition": "Großes Ziel"
+						},
+						{
+							"title": "Anführer (X)",
+							"definition": "Anführer"
+						},
+						{
+							"title": "Kriegsmeister",
+							"definition": "Kriegsmeister"
+						},
+						{
+							"title": "Mächtiger Hieb",
+							"definition": "Mächtiger Hieb"
+						},
+						{
+							"title": "Mächtiger Held",
+							"definition": "Mächtiger Held"
+						},
+						{
+							"title": "Monströser Angriff",
+							"definition": "Monströser Angriff"
+						},
+						{
+							"title": "Bergbewohner",
+							"definition": "Bergbewohner"
+						},
+						{
+							"title": "Vergiftete Waffen",
+							"definition": "Vergiftete Waffen"
+						},
+						{
+							"title": "Magieresistent",
+							"definition": "Magieresistent"
+						},
+						{
+							"title": "In Brand setzen",
+							"definition": "In Brand setzen"
+						},
+						{
+							"title": "Scharfschütze",
+							"definition": "Scharfschütze"
+						},
+						{
+							"title": "Schildwall",
+							"definition": "Schildwall"
+						},
+						{
+							"title": "Spektrales Gehen",
+							"definition": "Spektraler Gang"
+						},
+						{
+							"title": "Verborgen stalken",
+							"definition": "Ungesehen lauern"
+						},
+						{
+							"title": "Überlebenstrieb",
+							"definition": "Überlebensinstinkt"
+						},
+						{
+							"title": "Schnelle Bewegung",
+							"definition": "Schnelle Bewegung"
+						},
+						{
+							"title": "Eidwache",
+							"definition": "Eidwache"
+						},
+						{
+							"title": "Entsetzlich",
+							"definition": "Entsetzlich"
+						},
+						{
+							"title": "Steine werfen",
+							"definition": "Steine werfen"
+						},
+						{
+							"title": "Feige",
+							"definition": "Feige"
+						},
+						{
+							"title": "Unerschütterliche Kampfposition",
+							"definition": "Unerschütterliche Kampfhaltung"
+						},
+						{
+							"title": "Gift",
+							"definition": "Gift"
+						},
+						{
+							"title": "Der Wille des Bösen",
+							"definition": "Der Wille des Bösen"
+						},
+						{
+							"title": "Waldbewohner",
+							"definition": "Waldbewohner"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Erweiterte Regeln",
+			"sections": [
+				{
+					"title": "Wassergeländestücke",
+					"rules": [
+						{
+							"title": "Wassergeländestücke",
+							"definition": "Wassergeländestücke"
+						}
+					]
+				},
+				{
+					"title": "Objekte tragen",
+					"rules": [
+						{
+							"title": "Objekte tragen",
+							"definition": "Objekte"
+						},
+						{
+							"title": "Leichte Objekte",
+							"definition": "Leichte Objekte"
+						},
+						{
+							"title": "Schwere Objekte",
+							"definition": "Schwere Objekte"
+						}
+					]
+				},
+				{
+					"title": "Passagiere",
+					"rules": [
+						{
+							"title": "Passagiere",
+							"definition": "Passagiere"
+						}
+					]
+				},
+				{
+					"title": "Wachposten",
+					"rules": [
+						{
+							"title": "Wachposten",
+							"definition": "Wachposten"
+						}
+					]
+				},
+				{
+					"title": "Kämpfe bei Nacht",
+					"rules": [
+						{
+							"title": "Kämpfe bei Nacht",
+							"definition": "Kämpfe bei Nacht"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Belagerungsmaschinen",
+			"sections": [
+				{
+					"title": "Belagerungsmaschinen",
+					"rules": [
+						{
+							"title": "Belagerungsmaschinen",
+							"definition": "Belagerungsmaschine"
+						}
+					]
+				},
+				{
+					"title": "Belagerungsmaschine aufstellen",
+					"rules": [
+						{
+							"title": "Belagerungsmaschine aufstellen",
+							"definition": "Belagerungsmaschinen und Aufstellung"
+						}
+					]
+				},
+				{
+					"title": "Belagerungsmaschinen und Bewegung",
+					"rules": [
+						{
+							"title": "Belagerungsmaschinen und Bewegung",
+							"definition": "Belagerungsmaschinen und Bewegung"
+						}
+					]
+				},
+				{
+					"title": "Belagerungsmaschinen und Schießen",
+					"rules": [
+						{
+							"title": "Schlachtfeldziele",
+							"definition": "Schlachtfeldziele"
+						},
+						{
+							"title": "Belagerungsziele",
+							"definition": "Belagerungsziele"
+						},
+						{
+							"title": "Belagerungsmaschine abfeuern",
+							"definition": "Belagerungsmaschinen und Schießen"
+						},
+						{
+							"title": "Abweichen",
+							"definition": "Abweichen"
+						},
+						{
+							"title": "Schuss im Bogen",
+							"definition": "Schuss im Bogen"
+						},
+						{
+							"title": "Direkter Schuss",
+							"definition": "Direkter Schuss"
+						},
+						{
+							"title": "Unausgebildete Besatzung",
+							"definition": "Unausgebildete Besatzung"
+						},
+						{
+							"title": "Verwundungswurf",
+							"definition": "Belagerungsmaschinen und Verwundung"
+						}
+					]
+				},
+				{
+					"title": "Belagerungsmaschine Angreifen",
+					"rules": [
+						{
+							"title": "Belagerungsmaschine Angreifen",
+							"definition": "Eine Belagerungsmaschine Angreifen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Belagerungen",
+			"sections": [
+				{
+					"title": "Burgen und Festungen",
+					"rules": [
+						{
+							"title": "Burgen und Festungen",
+							"definition": "Burgen und Festungen"
+						},
+						{
+							"title": "Tore und Türen Angreifen",
+							"definition": "Tore und Türen angreifen"
+						},
+						{
+							"title": "Bewegung in der Festung",
+							"definition": "Bewegung in der Festung"
+						},
+						{
+							"title": "Die Festung stürmen",
+							"definition": "Die Festung stürmen"
+						}
+					]
+				},
+				{
+					"title": "Ausrüstung für Angreifer und Verteidiger",
+					"rules": [
+						{
+							"title": "Ausrüstung für Angreifer und Verteidiger",
+							"definition": "Ausrüstung für Angreifer und Verteidiger"
+						}
+					]
+				},
+				{
+					"title": "Die große Belagerung",
+					"rules": [
+						{
+							"title": "Die große Belagerung",
+							"definition": "Die große Belagerung"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Narratives Spiel",
+			"sections": [
+				{
+					"title": "Narratives Spiel",
+					"rules": [
+						{
+							"title": "Narratives Spiel",
+							"definition": "Narratives Spiel"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Ausgewogenes Spiel",
+			"sections": [
+				{
+					"title": "Punktwerte",
+					"rules": [
+						{
+							"title": "Punktwerte",
+							"definition": "Punktwerte"
+						}
+					]
+				},
+				{
+					"title": "Armee für Ausgewogenes Spiel bauen",
+					"rules": [
+						{
+							"title": "Armeeliste wählen",
+							"definition": "Eine Armeeliste auswählen"
+						},
+						{
+							"title": "Kriegerscharen",
+							"definition": "Kriegerscharen"
+						},
+						{
+							"title": "Bogenlimit und Wurfwaffenlimit",
+							"definition": "Bogenlimit und Wurfwaffenlimit"
+						},
+						{
+							"title": "General",
+							"definition": "General"
+						},
+						{
+							"title": "Heldenstufe",
+							"definition": "Heldenstufe"
+						}
+					]
+				},
+				{
+					"title": "Ausgewogene Spiele",
+					"rules": [
+						{
+							"title": "Ausgewogene Spiele",
+							"definition": "Ausgewogene Spiele"
+						}
+					]
+				},
+				{
+					"title": "Prinzipien des Ausgewogenen Spiels",
+					"rules": [
+						{
+							"title": "Prinzipien des Ausgewogenen Spiels",
+							"definition": "Prinzipien des Ausgewogenen Spiels"
+						}
+					]
+				}
+			]
+		}
+	]
+}

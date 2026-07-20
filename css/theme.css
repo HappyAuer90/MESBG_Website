@@ -6,4 +6,8 @@
     /* Interactive */
     --color-headColor: red;
     --color-link: #4da3ff;
+
+    /* Layout spacing */
+    --page-padding: 24px;
+    --page-padding-mobile: 16px;
 }

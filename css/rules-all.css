@@ -1,13 +1,12 @@
-/* ======================================================
-   ROOT CONTAINER
-====================================================== */
-
+/* Layout spacing */
 .rules-all {
     display: flex;
     flex-direction: column;
     height: 100%;
     background: var(--mode-background);
     color: var(--color-writing);
+    padding: 0 0 var(--page-padding);
+    box-sizing: border-box;
 }
 
 /* ======================================================
@@ -50,6 +49,19 @@
 /* ======================================================
    LEFT PANEL
 ====================================================== */
+
+@media (max-width: 768px) {
+    .rules-layout {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .rules-list {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--mode-writing);
+    }
+}
 
 .rules-list {
     overflow-y: auto; /* Scroll nur für die linke Liste */
@@ -163,6 +175,52 @@
     margin-top: 16px;
 }
 
+.rules-ownership-block {
+    border-top: 1px solid var(--mode-writing);
+    padding-top: 16px;
+    margin-top: 18px;
+}
+
+.rules-ownership-separator {
+    display: none;
+}
+
+.rules-ownership-title {
+    margin: 0 0 12px;
+    color: var(--color-headColor);
+}
+
+.rules-ownership-section + .rules-ownership-section {
+    margin-top: 16px;
+}
+
+.rules-ownership-section h4 {
+    margin: 0 0 8px;
+}
+
+.rules-ownership-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.rules-ownership-list li + li {
+    margin-top: 4px;
+}
+
+.rules-owner-link {
+    border: none;
+    background: none;
+    padding: 0;
+    color: var(--color-link);
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+}
+
+.rules-owner-link:hover {
+    text-decoration: underline;
+}
+
 /* ======================================================
    LINK SYSTEM
 ====================================================== */
@@ -221,6 +279,17 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+}
+
+.debug-section + .debug-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.18);
+}
+
+.debug-section-count {
+    font-size: 0.9em;
+    opacity: 0.8;
 }
 
 .debug-close {

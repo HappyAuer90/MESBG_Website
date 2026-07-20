@@ -1,9 +1,8 @@
-/* ======================================================
-   ROOT CONTAINER
-====================================================== */
-
+/* Layout spacing */
 .profiles-search {
     position: relative;
+    padding: 0 0 var(--page-padding);
+    box-sizing: border-box;
 }
 
 
@@ -174,6 +173,31 @@
 }
 @media (max-width: 768px) {
     .half-width {
+        width: 100%;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .profile-title,
+    .profile-points {
+        font-size: 28px;
+        padding: 6px 0;
+    }
+
+    .search-wrapper {
+        max-width: 100%;
+    }
+
+    .profile-search-bar {
+        flex-wrap: wrap;
+    }
+
+    #profileSearchInput,
+    #profileBackBtn {
         width: 100%;
     }
 }

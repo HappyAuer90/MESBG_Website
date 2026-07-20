@@ -1,12 +1,27 @@
+/* Layout spacing */
 .armylists-all {
     display: flex;
     flex-direction: column;
     height: 100%;
     background: var(--mode-background);
     color: var(--color-writing);
+    padding: 0 0 var(--page-padding);
+    box-sizing: border-box;
 }
 
 /* FILTER */
+
+@media (max-width: 768px) {
+    .armylists-layout {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .armylists-filter {
+        padding: 12px;
+        gap: 10px;
+    }
+}
 
 .armylists-filter {
     padding: 12px 16px;

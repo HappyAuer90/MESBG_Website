@@ -1,9 +1,8 @@
-/* ======================================================
-   ROOT
-====================================================== */
-
+/* Layout spacing */
 .armylists-build {
     position: relative;
+    padding: 0 0 var(--page-padding);
+    box-sizing: border-box;
 }
 
 /* ======================================================
@@ -91,6 +90,20 @@
 /* ======================================================
    MAIN LAYOUT (renderArmyListBuilder)
 ====================================================== */
+
+@media (max-width: 768px) {
+    .armylist-build-layout {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .armylist-build-left,
+    .armylist-build-right {
+        width: 100%;
+        border-left: none;
+        padding-left: 0;
+    }
+}
 
 .armylist-build-layout {
     display: flex;

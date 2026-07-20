@@ -1,0 +1,1741 @@
+{
+    "chapters": [
+        {
+            "title": "Introduction",
+            "sections": [
+                {
+                    "title": "Introduction",
+                    "rules": [
+                        {
+                            "title": "Introduction",
+                            "definition": "Introduction"
+                        },
+                        {
+                            "title": "Middle-Earth in Miniature",
+                            "definition": "Middle-Earth in Miniature"
+                        },
+                        {
+                            "title": "How to use this Rules Manual",
+                            "definition": "How to use this Rules Manual"
+                        },
+                        {
+                            "title": "Playing the Game",
+                            "definition": "Playing the Game"
+                        },
+                        {
+                            "title": "Setting up the Battlefield",
+                            "definition": "Setting up the Battlefield"
+                        }
+                    ]
+                },
+                {
+                    "title": "Characteristics",
+                    "rules": [
+                        {
+                            "title": "Characteristics",
+                            "definition": "Characteristics"
+                        },
+                        {
+                            "title": "Move Value",
+                            "definition": "Characteristic: Move Value"
+                        },
+                        {
+                            "title": "Fight Value",
+                            "definition": "Characteristic: Fight Value"
+                        },
+                        {
+                            "title": "Shoot Value",
+                            "definition": "Characteristic: Shoot Value"
+                        },
+                        {
+                            "title": "Strength",
+                            "definition": "Characteristic: Strength"
+                        },
+                        {
+                            "title": "Defence",
+                            "definition": "Characteristic: Defence"
+                        },
+                        {
+                            "title": "Attacks",
+                            "definition": "Characteristic: Attacks"
+                        },
+                        {
+                            "title": "Wounds",
+                            "definition": "Characteristic: Wounds"
+                        },
+                        {
+                            "title": "Courage",
+                            "definition": "Characteristic: Courage"
+                        },
+                        {
+                            "title": "Intelligence",
+                            "definition": "Characteristic: Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "title": "What do you need to play",
+                    "rules": [
+                        {
+                            "title": "What do you need to play",
+                            "definition": "What do you need to play"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The Rules",
+            "sections": [
+                {
+                    "title": "The Most Important Rule",
+                    "rules": [
+                        {
+                            "title": "The Most Important Rule",
+                            "definition": "The Most Important Rule"
+                        }
+                    ]
+                },
+                {
+                    "title": "Code of Conduct",
+                    "rules": [
+                        {
+                            "title": "Code of Conduct",
+                            "definition": "Code of Conduct"
+                        }
+                    ]
+                },
+                {
+                    "title": "Basic Principles",
+                    "rules": [
+                        {
+                            "title": "Good vs. Evil",
+                            "definition": "Good vs. Evil"
+                        },
+                        {
+                            "title": "Friendly and Enemy",
+                            "definition": "Friendly and Enemy"
+                        },
+                        {
+                            "title": "Turns",
+                            "definition": "Turns"
+                        },
+                        {
+                            "title": "Rolling Dice",
+                            "definition": "Rolling Dice"
+                        },
+                        {
+                            "title": "Cocked Dice",
+                            "definition": "Cocked Dice"
+                        },
+                        {
+                            "title": "D6, D3, 2D6",
+                            "definition": "D6, D3, 2D6"
+                        },
+                        {
+                            "title": "Dice Modifiers",
+                            "definition": "Dice Modifiers"
+                        },
+                        {
+                            "title": "Re-Rolls",
+                            "definition": "Re-Rolls"
+                        },
+                        {
+                            "title": "Natural Rolls",
+                            "definition": "Natural Rolls"
+                        },
+                        {
+                            "title": "Line of Sight",
+                            "definition": "Line of Sight"
+                        },
+                        {
+                            "title": "Measuring",
+                            "definition": "Measuring"
+                        },
+                        {
+                            "title": "Within and wholly within",
+                            "definition": "Within and wholly within"
+                        },
+                        {
+                            "title": "Keywords",
+                            "definition": "Keywords"
+                        },
+                        {
+                            "title": "Models and Bases",
+                            "definition": "Models and Bases"
+                        },
+                        {
+                            "title": "Directly towards/away",
+                            "definition": "Directly towards/away"
+                        },
+                        {
+                            "title": "Choosing models/objectives",
+                            "definition": "Choosing models/objectives"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Turn Sequence",
+            "sections": [
+                {
+                    "rules": [
+                        {
+                            "title": "Turn Sequence",
+                            "definition": "Turn"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Priority Phase",
+            "sections": [
+                {
+                    "title": "Priority Phase",
+                    "rules": [
+                        {
+                            "title": "Priority Phase",
+                            "definition": "Priority Phase"
+                        }
+                    ]
+                },
+                {
+                    "title": "Roll for Priority",
+                    "rules": [
+                        {
+                            "title": "Roll for Priority",
+                            "definition": "Priority"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Move Phase",
+            "sections": [
+                {
+                    "title": "Move Phase",
+                    "rules": [
+                        {
+                            "title": "Move Phase",
+                            "definition": "Move Phase"
+                        }
+                    ]
+                },
+                {
+                    "title": "Activation Phase",
+                    "rules": [
+                        {
+                            "title": "Activation Phase",
+                            "definition": "Activation Phase"
+                        }
+                    ]
+                },
+                {
+                    "title": "Moving Models",
+                    "rules": [
+                        {
+                            "title": "Moving Models",
+                            "definition": "Moving Models"
+                        },
+                        {
+                            "title": "Moving Off the Board",
+                            "definition": "Moving Off the Board"
+                        },
+                        {
+                            "title": "Models unable to Move",
+                            "definition": "Models unable to Move"
+                        }
+                    ]
+                },
+                {
+                    "title": "Control Zones",
+                    "rules": [
+                        {
+                            "title": "Control Zones",
+                            "definition": "Control Zones"
+                        }
+                    ]
+                },
+                {
+                    "title": "Charging Enemies",
+                    "rules": [
+                        {
+                            "title": "Charging Enemies",
+                            "definition": "Charge"
+                        }
+                    ]
+                },
+                {
+                    "title": "Terrain",
+                    "rules": [
+                        {
+                            "title": "Open Ground",
+                            "definition": "Open Ground"
+                        },
+                        {
+                            "title": "Difficult Terrain",
+                            "definition": "Difficult Terrain"
+                        },
+                        {
+                            "title": "Obstacles",
+                            "definition": "Obstacles"
+                        }
+                    ]
+                },
+                {
+                    "title": "Jumping",
+                    "rules": [
+                        {
+                            "title": "Jumping",
+                            "definition": "Jumping"
+                        }
+                    ]
+                },
+                {
+                    "title": "Leaping",
+                    "rules": [
+                        {
+                            "title": "Leaping",
+                            "definition": "Leaping"
+                        }
+                    ]
+                },
+                {
+                    "title": "Climbing",
+                    "rules": [
+                        {
+                            "title": "Climbing",
+                            "definition": "Climbing"
+                        },
+                        {
+                            "title": "Falling Damage",
+                            "definition": "Falling Damage"
+                        }
+                    ]
+                },
+                {
+                    "title": "Prone Models",
+                    "rules": [
+                        {
+                            "title": "Prone Models",
+                            "definition": "Prone Models"
+                        }
+                    ]
+                },
+                {
+                    "title": "Reinforcements",
+                    "rules": [
+                        {
+                            "title": "Reinforcements",
+                            "definition": "Reinforcements"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Shoot Phase",
+            "sections": [
+                {
+                    "title": "Shoot Phase",
+                    "rules": [
+                        {
+                            "title": "Shoot Phase",
+                            "definition": "Shoot Phase"
+                        }
+                    ]
+                },
+                {
+                    "title": "How to Shoot",
+                    "rules": [
+                        {
+                            "title": "How to Shoot",
+                            "definition": "Shooting Attack"
+                        }
+                    ]
+                },
+                {
+                    "title": "Who can Shoot",
+                    "rules": [
+                        {
+                            "title": "Who can Shoot",
+                            "definition": "Who can Shoot"
+                        },
+                        {
+                            "title": "Moving and Shooting",
+                            "definition": "Moving and Shooting"
+                        }
+                    ]
+                },
+                {
+                    "title": "Rolling to Hit",
+                    "rules": [
+                        {
+                            "title": "Rolling to Hit",
+                            "definition": "Shooting Attack: To Hit Roll"
+                        }
+                    ]
+                },
+                {
+                    "title": "In the Way",
+                    "rules": [
+                        {
+                            "title": "In the Way",
+                            "definition": "In the Way"
+                        },
+                        {
+                            "title": "Shooting from behind Cover",
+                            "definition": "Shooting from behind Cover"
+                        },
+                        {
+                            "title": "Shooting from behind Friends",
+                            "definition": "Shooting from behind Friends"
+                        },
+                        {
+                            "title": "Shooting into a Combat",
+                            "definition": "Shooting into a Combat"
+                        }
+                    ]
+                },
+                {
+                    "title": "Rolling to Wound",
+                    "rules": [
+                        {
+                            "title": "Rolling to Wound",
+                            "definition": "Shooting Attack: To Wound Roll"
+                        },
+                        {
+                            "title": "To Wound Chart",
+                            "definition": "To Wound Chart"
+                        }
+                    ]
+                },
+                {
+                    "title": "Record Wounds and Remove Casualties",
+                    "rules": [
+                        {
+                            "title": "Record Wounds and Remove Casualties",
+                            "definition": "Record Wounds and Remove Casualties"
+                        }
+                    ]
+                },
+                {
+                    "title": "Taking Shots Together",
+                    "rules": [
+                        {
+                            "title": "Taking Shots Together",
+                            "definition": "Taking Shots Together"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Fight Phase",
+            "sections": [
+                {
+                    "title": "Fight Phase",
+                    "rules": [
+                        {
+                            "title": "Fight Phase",
+                            "definition": "Fight Phase"
+                        }
+                    ]
+                },
+                {
+                    "title": "Pairing Off Combats",
+                    "rules": [
+                        {
+                            "title": "Pairing Off Combats",
+                            "definition": "Pairing Off Combats"
+                        }
+                    ]
+                },
+                {
+                    "title": "When to Fight",
+                    "rules": [
+                        {
+                            "title": "When to Fight",
+                            "definition": "When to Fight"
+                        }
+                    ]
+                },
+                {
+                    "title": "Resolving a Combat",
+                    "rules": [
+                        {
+                            "title": "Resolving a Combat",
+                            "definition": "Combat"
+                        },
+                        {
+                            "title": "Duel Roll",
+                            "definition": "Duel Roll"
+                        },
+                        {
+                            "title": "Drawn Combat",
+                            "definition": "Drawn Combat"
+                        },
+                        {
+                            "title": "Back Away",
+                            "definition": "Back Away"
+                        },
+                        {
+                            "title": "Trapped",
+                            "definition": "Trapped"
+                        },
+                        {
+                            "title": "Make Way",
+                            "definition": "Make Way"
+                        },
+                        {
+                            "title": "Winner make Strikes",
+                            "definition": "Strikes"
+                        },
+                        {
+                            "title": "Multiple Combats",
+                            "definition": "Multiple Combats"
+                        }
+                    ]
+                },
+                {
+                    "title": "Defend Positions",
+                    "rules": [
+                        {
+                            "title": "Barriers",
+                            "definition": "Barriers"
+                        },
+                        {
+                            "title": "Doorways",
+                            "definition": "Doorways"
+                        },
+                        {
+                            "title": "Elevated Positions",
+                            "definition": "Elevated Positions"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Courage and Intelligence",
+            "sections": [
+                {
+                    "title": "Courage",
+                    "rules": [
+                        {
+                            "title": "Courage",
+                            "definition": "Courage Test"
+                        },
+                        {
+                            "title": "Broken Army",
+                            "definition": "Broken Army"
+                        },
+                        {
+                            "title": "Stand Fast",
+                            "definition": "Stand Fast"
+                        }
+                    ]
+                },
+                {
+                    "title": "Intelligence",
+                    "rules": [
+                        {
+                            "title": "Intelligence",
+                            "definition": "Intelligence Test"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Unit Types",
+            "sections": [
+                {
+                    "title": "Unit Types",
+                    "rules": [
+                        {
+                            "title": "Infantry",
+                            "definition": "Infantry"
+                        },
+                        {
+                            "title": "Cavalry",
+                            "definition": "Cavalry"
+                        },
+                        {
+                            "title": "Mount",
+                            "definition": "Mount"
+                        },
+                        {
+                            "title": "Monster",
+                            "definition": "Monster"
+                        },
+                        {
+                            "title": "War Beast",
+                            "definition": "War Beast"
+                        },
+                        {
+                            "title": "Chariot",
+                            "definition": "Chariot"
+                        },
+                        {
+                            "title": "Siege Engine",
+                            "definition": "Siege Engine"
+                        },
+                        {
+                            "title": "Hero",
+                            "definition": "Hero"
+                        },
+                        {
+                            "title": "Warrior",
+                            "definition": "Warrior"
+                        },
+                        {
+                            "title": "Unique",
+                            "definition": "Unique"
+                        },
+                        {
+                            "title": "Beast",
+                            "definition": "Beast"
+                        },
+                        {
+                            "title": "Swarm",
+                            "definition": "Swarm"
+                        },
+                        {
+                            "title": "Elite",
+                            "definition": "Elite"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Cavalry",
+            "sections": [
+                {
+                    "title": "What is a Cavalry Model?",
+                    "rules": [
+                        {
+                            "title": "What is a Cavalry Model?",
+                            "definition": "Cavalry"
+                        }
+                    ]
+                },
+                {
+                    "title": "Cavalry and Movement",
+                    "rules": [
+                        {
+                            "title": "Cavalry and Movement",
+                            "definition": "Cavalry and Movement"
+                        },
+                        {
+                            "title": "Separated Mounts",
+                            "definition": "Separated Mounts"
+                        },
+                        {
+                            "title": "Dismounting",
+                            "definition": "Dismounting"
+                        }
+                    ]
+                },
+                {
+                    "title": "Cavalry and Shooting",
+                    "rules": [
+                        {
+                            "title": "Cavalry and Shooting",
+                            "definition": "Cavalry and Shooting"
+                        },
+                        {
+                            "title": "Thrown Rider",
+                            "definition": "Thrown Rider"
+                        }
+                    ]
+                },
+                {
+                    "title": "Cavalry and Combat",
+                    "rules": [
+                        {
+                            "title": "Cavalry and Combat",
+                            "definition": "Cavalry and Combat"
+                        }
+                    ]
+                },
+                {
+                    "title": "Cavalry and Special Rules",
+                    "rules": [
+                        {
+                            "title": "Cavalry and Special Rules",
+                            "definition": "Cavalry and Special Rules"
+                        }
+                    ]
+                },
+                {
+                    "title": "Cavalry and Magic",
+                    "rules": [
+                        {
+                            "title": "Cavalry and Magic",
+                            "definition": "Cavalry and Magic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Cavalry and Break Points",
+                    "rules": [
+                        {
+                            "title": "Cavalry and Break Points",
+                            "definition": "Cavalry and Break Points"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Heroes",
+            "sections": [
+                {
+                    "title": "Might, Will and Fate",
+                    "rules": [
+                        {
+                            "title": "Might, Will and Fate",
+                            "definition": "Hero"
+                        }
+                    ]
+                },
+                {
+                    "title": "Might",
+                    "rules": [
+                        {
+                            "title": "Might",
+                            "definition": "Might"
+                        },
+                        {
+                            "title": "Modify Dice Rolls",
+                            "definition": "Modify Dice Rolls"
+                        }
+                    ]
+                },
+                {
+                    "title": "Heroic Actions",
+                    "rules": [
+                        {
+                            "title": "Heroic Actions",
+                            "definition": "Heroic Actions"
+                        }
+                    ]
+                },
+                {
+                    "title": "Universal Heroic Actions",
+                    "rules": [
+                        {
+                            "title": "Heroic Move",
+                            "definition": "Heroic Move"
+                        },
+                        {
+                            "title": "Heroic Shoot",
+                            "definition": "Heroic Shoot"
+                        },
+                        {
+                            "title": "Heroic Combat",
+                            "definition": "Heroic Combat"
+                        }
+                    ]
+                },
+                {
+                    "title": "Specialised Heroic Actions",
+                    "rules": [
+                        {
+                            "title": "Heroic Channelling",
+                            "definition": "Heroic Channelling"
+                        },
+                        {
+                            "title": "Heroic March",
+                            "definition": "Heroic March"
+                        },
+                        {
+                            "title": "Heroic Resolve",
+                            "definition": "Heroic Resolve"
+                        },
+                        {
+                            "title": "Heroic Accuracy",
+                            "definition": "Heroic Accuracy"
+                        },
+                        {
+                            "title": "Heroic Challenge",
+                            "definition": "Heroic Challenge"
+                        },
+                        {
+                            "title": "Heroic Defence",
+                            "definition": "Heroic Defence"
+                        },
+                        {
+                            "title": "Heroic Strength",
+                            "definition": "Heroic Strength"
+                        },
+                        {
+                            "title": "Heroic Strike",
+                            "definition": "Heroic Strike"
+                        }
+                    ]
+                },
+                {
+                    "title": "Will",
+                    "rules": [
+                        {
+                            "title": "Will",
+                            "definition": "Will"
+                        }
+                    ]
+                },
+                {
+                    "title": "Fate",
+                    "rules": [
+                        {
+                            "title": "Fate",
+                            "definition": "Fate"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Monsters",
+            "sections": [
+                {
+                    "title": "Monster and Cavalry",
+                    "rules": [
+                        {
+                            "title": "Monster",
+                            "definition": "Monster"
+                        }
+                    ]
+                },
+                {
+                    "title": "Brutal Power Attacks",
+                    "rules": [
+                        {
+                            "title": "Brutal Power Attacks",
+                            "definition": "Brutal Power Attacks"
+                        },
+                        {
+                            "title": "Rend",
+                            "definition": "Rend"
+                        },
+                        {
+                            "title": "Barge",
+                            "definition": "Barge"
+                        },
+                        {
+                            "title": "Hurl",
+                            "definition": "Hurl"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "War Beasts",
+            "sections": [
+                {
+                    "title": "What is a War Beast",
+                    "rules": [
+                        {
+                            "title": "What is a War Beast",
+                            "definition": "War Beast"
+                        },
+                        {
+                            "title": "Howdah",
+                            "definition": "War Beasts and the Howdah"
+                        }
+                    ]
+                },
+                {
+                    "title": "War Beasts and Movement",
+                    "rules": [
+                        {
+                            "title": "War Beasts and Movement",
+                            "definition": "Trample"
+                        }
+                    ]
+                },
+                {
+                    "title": "War Beasts and Magic",
+                    "rules": [
+                        {
+                            "title": "War Beasts and Magic",
+                            "definition": "War Beasts and Magic"
+                        }
+                    ]
+                },
+                {
+                    "title": "War Beasts and Shooting",
+                    "rules": [
+                        {
+                            "title": "War Beasts and Shooting",
+                            "definition": "War Beasts and Shooting"
+                        }
+                    ]
+                },
+                {
+                    "title": "War Beasts and Combat",
+                    "rules": [
+                        {
+                            "title": "War Beasts and Combat",
+                            "definition": "War Beasts and Combat"
+                        }
+                    ]
+                },
+                {
+                    "title": "War Beasts and Damage",
+                    "rules": [
+                        {
+                            "title": "War Beasts and Damage",
+                            "definition": "Stampede"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Chariots",
+            "sections": [
+                {
+                    "title": "Chariots and Movement",
+                    "rules": [
+                        {
+                            "title": "Chariots and Movement",
+                            "definition": "Chariot Charge"
+                        }
+                    ]
+                },
+                {
+                    "title": "Chariots and Magic",
+                    "rules": [
+                        {
+                            "title": "Chariots and Magic",
+                            "definition": "Chariots and Magic"
+                        }
+                    ]
+                },
+                {
+                    "title": "Chariots and Shooting",
+                    "rules": [
+                        {
+                            "title": "Chariots and Shooting",
+                            "definition": "Chariots and Shooting"
+                        }
+                    ]
+                },
+                {
+                    "title": "Chariots and Combat",
+                    "rules": [
+                        {
+                            "title": "Chariots and Combat",
+                            "definition": "Chariots and Combat"
+                        }
+                    ]
+                },
+                {
+                    "title": "Chariots and Heroes",
+                    "rules": [
+                        {
+                            "title": "Chariots and Heroes",
+                            "definition": "Chariots and Heroes"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Weapons and Wargear",
+            "sections": [
+                {
+                    "title": "Weapons",
+                    "rules": [
+                        {
+                            "title": "",
+                            "definition": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Melee Weapons",
+                    "rules": [
+                        {
+                            "title": "Hand weapon",
+                            "definition": "Hand weapon"
+                        },
+                        {
+                            "title": "Two-handed weapon",
+                            "definition": "Two-handed weapon"
+                        },
+                        {
+                            "title": "Hand-and-a-half weapon",
+                            "definition": "Hand-and-a-half weapon"
+                        },
+                        {
+                            "title": "Unarmed models",
+                            "definition": "Unarmed"
+                        },
+                        {
+                            "title": "Spear",
+                            "definition": "Spear"
+                        },
+                        {
+                            "title": "Supporting",
+                            "definition": "Supporting"
+                        },
+                        {
+                            "title": "Pike",
+                            "definition": "Pike"
+                        },
+                        {
+                            "title": "Lance",
+                            "definition": "Lance"
+                        },
+                        {
+                            "title": "War spear",
+                            "definition": "War spear"
+                        },
+                        {
+                            "title": "Staff of Power",
+                            "definition": "Staff of Power"
+                        },
+                        {
+                            "title": "Whip",
+                            "definition": "Whip"
+                        },
+                        {
+                            "title": "Elven weapon",
+                            "definition": "Elven weapon"
+                        },
+                        {
+                            "title": "Master-forged",
+                            "definition": "Master-forged weapon"
+                        }
+                    ]
+                },
+                {
+                    "title": "Missile Weapons",
+                    "rules": [
+                        {
+                            "title": "Missile Weapons",
+                            "definition": "Missile Weapons"
+                        },
+                        {
+                            "title": "Bow",
+                            "definition": "Bow [Definition]"
+                        },
+                        {
+                            "title": "Crossbow",
+                            "definition": "Crossbow"
+                        },
+                        {
+                            "title": "Blowpipe",
+                            "definition": "Blowpipe"
+                        },
+                        {
+                            "title": "Sling",
+                            "definition": "Sling"
+                        },
+                        {
+                            "title": "Throwing weapons",
+                            "definition": "Throwing weapons"
+                        }
+                    ]
+                },
+                {
+                    "title": "Wargear",
+                    "rules": [
+                        {
+                            "title": "Banner",
+                            "definition": "Banner"
+                        },
+                        {
+                            "title": "Elven cloak",
+                            "definition": "Elven cloak"
+                        },
+                        {
+                            "title": "War drum (X)",
+                            "definition": "War drum (X)"
+                        },
+                        {
+                            "title": "War horn",
+                            "definition": "War horn"
+                        }
+                    ]
+                },
+                {
+                    "title": "Armour",
+                    "rules": [
+                        {
+                            "title": "Armour",
+                            "definition": "Armour"
+                        },
+                        {
+                            "title": "Light armour",
+                            "definition": "Light armour"
+                        },
+                        {
+                            "title": "Heavy armour",
+                            "definition": "Heavy armour"
+                        },
+                        {
+                            "title": "Heavy Dwarf armour",
+                            "definition": "Heavy Dwarf armour"
+                        },
+                        {
+                            "title": "Mithril armour",
+                            "definition": "Mithril armour"
+                        }
+                    ]
+                },
+                {
+                    "title": "Shields",
+                    "rules": [
+                        {
+                            "title": "Shields",
+                            "definition": "Shields"
+                        },
+                        {
+                            "title": "Shielding",
+                            "definition": "Shielding"
+                        },
+                        {
+                            "title": "Light shield",
+                            "definition": "Light shield"
+                        }
+                    ]
+                },
+                {
+                    "title": "The One Ring",
+                    "rules": [
+                        {
+                            "title": "The One Ring",
+                            "definition": "The One Ring"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Magic",
+            "sections": [
+                {
+                    "title": "Using Magical Powers",
+                    "rules": [
+                        {
+                            "title": "Magical Powers",
+                            "definition": "Magical Powers"
+                        },
+                        {
+                            "title": "Making a Casting Roll",
+                            "definition": "Making a Casting Roll"
+                        },
+                        {
+                            "title": "Resisting a Magical Power",
+                            "definition": "Resisting a Magical Power"
+                        },
+                        {
+                            "title": "Magical Power Durations",
+                            "definition": "Magical Power Durations"
+                        }
+                    ]
+                },
+                {
+                    "title": "Magical Powers List",
+                    "rules": [
+                        {
+                            "title": "Aura of Command",
+                            "definition": "Aura of Command"
+                        },
+                        {
+                            "title": "Aura of Dismay",
+                            "definition": "Aura of Dismay"
+                        },
+                        {
+                            "title": "Banishment",
+                            "definition": "Banishment"
+                        },
+                        {
+                            "title": "Black Dart",
+                            "definition": "Black Dart"
+                        },
+                        {
+                            "title": "Bladewrath",
+                            "definition": "Bladewrath"
+                        },
+                        {
+                            "title": "Blessing of the Valar",
+                            "definition": "Blessing of the Valar"
+                        },
+                        {
+                            "title": "Blinding Light",
+                            "definition": "Blinding Light"
+                        },
+                        {
+                            "title": "Call Winds",
+                            "definition": "Call Winds"
+                        },
+                        {
+                            "title": "Chill Soul",
+                            "definition": "Chill Soul"
+                        },
+                        {
+                            "title": "Collapse Rocks",
+                            "definition": "Collapse Rocks"
+                        },
+                        {
+                            "title": "Compel",
+                            "definition": "Compel"
+                        },
+                        {
+                            "title": "Curse",
+                            "definition": "Curse"
+                        },
+                        {
+                            "title": "Drain Courage",
+                            "definition": "Drain Courage"
+                        },
+                        {
+                            "title": "Enchant Blades",
+                            "definition": "Enchant Blades"
+                        },
+                        {
+                            "title": "Enrage Beast",
+                            "definition": "Enrage Beast"
+                        },
+                        {
+                            "title": "Flameburst",
+                            "definition": "Flameburst"
+                        },
+                        {
+                            "title": "Fog of Disarray",
+                            "definition": "Fog of Disarray"
+                        },
+                        {
+                            "title": "Foil Magic",
+                            "definition": "Foil Magic"
+                        },
+                        {
+                            "title": "Fortify Spirit",
+                            "definition": "Fortify Spirit"
+                        },
+                        {
+                            "title": "Fury",
+                            "definition": "Fury"
+                        },
+                        {
+                            "title": "Instil Fear",
+                            "definition": "Instil Fear"
+                        },
+                        {
+                            "title": "Nature’s Wrath",
+                            "definition": "Nature’s Wrath"
+                        },
+                        {
+                            "title": "Panic Steed",
+                            "definition": "Panic Steed"
+                        },
+                        {
+                            "title": "Paralyse",
+                            "definition": "Paralyse"
+                        },
+                        {
+                            "title": "Protection of the Valar",
+                            "definition": "Protection of the Valar"
+                        },
+                        {
+                            "title": "Renew",
+                            "definition": "Renew"
+                        },
+                        {
+                            "title": "Sorcerous Blast",
+                            "definition": "Sorcerous Blast"
+                        },
+                        {
+                            "title": "Strengthen Will",
+                            "definition": "Strengthen Will"
+                        },
+                        {
+                            "title": "Terrifying Aura",
+                            "definition": "Terrifying Aura"
+                        },
+                        {
+                            "title": "Transfix",
+                            "definition": "Transfix"
+                        },
+                        {
+                            "title": "Tremor",
+                            "definition": "Tremor"
+                        },
+                        {
+                            "title": "Wither",
+                            "definition": "Wither"
+                        },
+                        {
+                            "title": "Wrath of Bruinen",
+                            "definition": "Wrath of Bruinen"
+                        },
+                        {
+                            "title": "Writhing Vines",
+                            "definition": "Writhing Vines"
+                        },
+                        {
+                            "title": "Your Staff is Broken",
+                            "definition": "Your Staff is Broken"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Special Rules",
+            "sections": [
+                {
+                    "title": "Active & Passive Special Rules",
+                    "rules": [
+                        {
+                            "title": "Active & Passive Special Rules",
+                            "definition": "Special Rules"
+                        }
+                    ]
+                },
+                {
+                    "title": "List of Special Rules",
+                    "rules": [
+                        {
+                            "title": "Ancient Enemies (X)",
+                            "definition": "Ancient Enemies (X)"
+                        },
+                        {
+                            "title": "Backstabbers",
+                            "definition": "Backstabbers"
+                        },
+                        {
+                            "title": "Bane of Kings",
+                            "definition": "Bane of Kings"
+                        },
+                        {
+                            "title": "Bane Weapons",
+                            "definition": "Bane Weapons"
+                        },
+                        {
+                            "title": "Blades of the Dead",
+                            "definition": "Blades of the Dead"
+                        },
+                        {
+                            "title": "Bodyguard",
+                            "definition": "Bodyguard"
+                        },
+                        {
+                            "title": "Burly",
+                            "definition": "Burly"
+                        },
+                        {
+                            "title": "Cave Dweller",
+                            "definition": "Cave Dweller"
+                        },
+                        {
+                            "title": "Dominant (X)",
+                            "definition": "Dominant"
+                        },
+                        {
+                            "title": "Expert Rider",
+                            "definition": "Expert Rider"
+                        },
+                        {
+                            "title": "Expert Shot",
+                            "definition": "Expert Shot"
+                        },
+                        {
+                            "title": "Fearful",
+                            "definition": "Fearful"
+                        },
+                        {
+                            "title": "Fearless",
+                            "definition": "Fearless"
+                        },
+                        {
+                            "title": "Fell Sight",
+                            "definition": "Fell Sight"
+                        },
+                        {
+                            "title": "Fly",
+                            "definition": "Fly [SpecialRule]"
+                        },
+                        {
+                            "title": "General Hunter",
+                            "definition": "General Hunter"
+                        },
+                        {
+                            "title": "Harbinger of Evil",
+                            "definition": "Harbinger of Evil"
+                        },
+                        {
+                            "title": "Hatred",
+                            "definition": "Hatred"
+                        },
+                        {
+                            "title": "Horse Lord",
+                            "definition": "Horse Lord"
+                        },
+                        {
+                            "title": "Invisible",
+                            "definition": "Invisible"
+                        },
+                        {
+                            "title": "Large Target",
+                            "definition": "Large Target"
+                        },
+                        {
+                            "title": "Leader (X)",
+                            "definition": "Leader"
+                        },
+                        {
+                            "title": "Master of Battle",
+                            "definition": "Master of Battle"
+                        },
+                        {
+                            "title": "Mighty Blow",
+                            "definition": "Mighty Blow"
+                        },
+                        {
+                            "title": "Mighty Hero",
+                            "definition": "Mighty Hero"
+                        },
+                        {
+                            "title": "Monstrous Charge",
+                            "definition": "Monstrous Charge"
+                        },
+                        {
+                            "title": "Mountain Dweller",
+                            "definition": "Mountain Dweller"
+                        },
+                        {
+                            "title": "Poisoned Attacks",
+                            "definition": "Poisoned Attacks"
+                        },
+                        {
+                            "title": "Resistant to Magic",
+                            "definition": "Resistant to Magic"
+                        },
+                        {
+                            "title": "Set Ablaze",
+                            "definition": "Set Ablaze"
+                        },
+                        {
+                            "title": "Sharpshooter",
+                            "definition": "Sharpshooter"
+                        },
+                        {
+                            "title": "Shieldwall",
+                            "definition": "Shieldwall"
+                        },
+                        {
+                            "title": "Spectral Walk",
+                            "definition": "Spectral Walk"
+                        },
+                        {
+                            "title": "Stalk Unseen",
+                            "definition": "Stalk Unseen"
+                        },
+                        {
+                            "title": "Survival Instinct",
+                            "definition": "Survival Instinct"
+                        },
+                        {
+                            "title": "Swift Movement",
+                            "definition": "Swift Movement"
+                        },
+                        {
+                            "title": "Sworn Protector",
+                            "definition": "Sworn Protector"
+                        },
+                        {
+                            "title": "Terror",
+                            "definition": "Terror"
+                        },
+                        {
+                            "title": "Throw Stones",
+                            "definition": "Throw Stones"
+                        },
+                        {
+                            "title": "Timid",
+                            "definition": "Timid"
+                        },
+                        {
+                            "title": "Unyielding Combat Stance",
+                            "definition": "Unyielding Combat Stance"
+                        },
+                        {
+                            "title": "Venom",
+                            "definition": "Venom"
+                        },
+                        {
+                            "title": "Will of Evil",
+                            "definition": "Will of Evil"
+                        },
+                        {
+                            "title": "Woodland Creature",
+                            "definition": "Woodland Creature"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Advanced Rules",
+            "sections": [
+                {
+                    "title": "Water Features",
+                    "rules": [
+                        {
+                            "title": "Water Features",
+                            "definition": "Water Features"
+                        }
+                    ]
+                },
+                {
+                    "title": "Carrying Objects",
+                    "rules": [
+                        {
+                            "title": "Carrying Objects",
+                            "definition": "Objects"
+                        },
+                        {
+                            "title": "Light Objects",
+                            "definition": "Light Objects"
+                        },
+                        {
+                            "title": "Heavy Objects",
+                            "definition": "Heavy Objects"
+                        }
+                    ]
+                },
+                {
+                    "title": "Passengers",
+                    "rules": [
+                        {
+                            "title": "Passengers",
+                            "definition": "Passengers"
+                        }
+                    ]
+                },
+                {
+                    "title": "Sentries",
+                    "rules": [
+                        {
+                            "title": "Sentries",
+                            "definition": "Sentries"
+                        }
+                    ]
+                },
+                {
+                    "title": "Fighting at Night",
+                    "rules": [
+                        {
+                            "title": "Fighting at Night",
+                            "definition": "Fighting at Night"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Siege Engines",
+            "sections": [
+                {
+                    "title": "Siege Engines",
+                    "rules": [
+                        {
+                            "title": "Siege Engines",
+                            "definition": "Siege Engine"
+                        }
+                    ]
+                },
+                {
+                    "title": "Deploying a Siege Engine",
+                    "rules": [
+                        {
+                            "title": "Deploying a Siege Engine",
+                            "definition": "Deploying a Siege Engine"
+                        }
+                    ]
+                },
+                {
+                    "title": "Siege Engines and Moving",
+                    "rules": [
+                        {
+                            "title": "Siege Engines and Moving",
+                            "definition": "Siege Engines and Moving"
+                        }
+                    ]
+                },
+                {
+                    "title": "Siege Engines and Shooting",
+                    "rules": [
+                        {
+                            "title": "Battlefield Targets",
+                            "definition": "Battlefield Targets"
+                        },
+                        {
+                            "title": "Siege Targets",
+                            "definition": "Siege Targets"
+                        },
+                        {
+                            "title": "Firing a Siege Engine",
+                            "definition": "Firing a Siege Engine"
+                        },
+                        {
+                            "title": "Scatter",
+                            "definition": "Scatter"
+                        },
+                        {
+                            "title": "Arcing Shot",
+                            "definition": "Arcing Shot"
+                        },
+                        {
+                            "title": "Direct Shot",
+                            "definition": "Direct Shot"
+                        },
+                        {
+                            "title": "Untrained Crew",
+                            "definition": "Untrained Crew"
+                        },
+                        {
+                            "title": "Rolling to Wound",
+                            "definition": "Siege Engines: Rolling to Wound"
+                        }
+                    ]
+                },
+                {
+                    "title": "Attacking a Siege Engine",
+                    "rules": [
+                        {
+                            "title": "Attacking a Siege Engine",
+                            "definition": "Attacking a Siege Engine"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Sieges",
+            "sections": [
+                {
+                    "title": "Castles and Fortresses",
+                    "rules": [
+                        {
+                            "title": "Castles and Fortresses",
+                            "definition": "Castles and Fortresses"
+                        },
+                        {
+                            "title": "Attacking Gates and Doors",
+                            "definition": "Attacking Gates and Doors"
+                        },
+                        {
+                            "title": "Moving around the Fortress",
+                            "definition": "Moving around the Fortress"
+                        },
+                        {
+                            "title": "Assaulting the Fortress",
+                            "definition": "Assaulting the Fortress"
+                        }
+                    ]
+                },
+                {
+                    "title": "Attacker and Defender Equipment",
+                    "rules": [
+                        {
+                            "title": "Attacker and Defender Equipment",
+                            "definition": "Attacker and Defender Equipment"
+                        }
+                    ]
+                },
+                {
+                    "title": "The Grand Siege",
+                    "rules": [
+                        {
+                            "title": "The Grand Siege",
+                            "definition": "The Grand Siege"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Narrative Play",
+            "sections": [
+                {
+                    "title": "Narrative Play",
+                    "rules": [
+                        {
+                            "title": "Narrative Play",
+                            "definition": "Narrative Play"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Matched Play",
+            "sections": [
+                {
+                    "title": "Points Values",
+                    "rules": [
+                        {
+                            "title": "Points Values",
+                            "definition": "Points Values"
+                        }
+                    ]
+                },
+                {
+                    "title": "Building a Matched Play Army",
+                    "rules": [
+                        {
+                            "title": "Selecting an Army List",
+                            "definition": "Selecting an Army List"
+                        },
+                        {
+                            "title": "Warbands",
+                            "definition": "Warbands"
+                        },
+                        {
+                            "title": "Bow Limit and Throwing Weapon Limit",
+                            "definition": "Bow Limit and Throwing Weapon Limit"
+                        },
+                        {
+                            "title": "General",
+                            "definition": "General"
+                        },
+                        {
+                            "title": "Heroic Tiers",
+                            "definition": "Heroic Tier"
+                        }
+                    ]
+                },
+                {
+                    "title": "Matched Play Games",
+                    "rules": [
+                        {
+                            "title": "Matched Play Games",
+                            "definition": "Matched Play Games"
+                        }
+                    ]
+                },
+                {
+                    "title": "Matched Play Principles",
+                    "rules": [
+                        {
+                            "title": "Matched Play Principles",
+                            "definition": "Matched Play Principles"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

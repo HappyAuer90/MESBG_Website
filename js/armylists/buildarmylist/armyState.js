@@ -3,6 +3,7 @@ export const state = {
 
     armyLists: null,
     profiles: null,
+    definitions: null,
     profileByName: null,
 
     container: null,

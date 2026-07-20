@@ -1,5 +1,5 @@
 import { Settings } from "../../settings.js";
-import { loadArmyLists, loadProfiles } from "../../utility/dataLoader.js";
+import { loadArmyLists, loadProfiles, loadDefinitions } from "../../utility/dataLoader.js";
 import { t } from "../../utility/i18n.js";
 import { state } from "./armyState.js";
 import { renderArmyListBuilder } from "./renderArmy.js";
@@ -58,6 +58,10 @@ export async function initArmylistsBuild(container, params = {}) {
          Object.values(state.profiles).forEach(p => {
              state.profileByName[p.name] = p.id;
          });
+     }
+
+     if (!state.definitions) {
+         state.definitions = await loadDefinitions(Settings.version);
      }
  
      const input = container.querySelector("#armylistSearchInput");

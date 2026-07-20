@@ -1,13 +1,12 @@
-/* ======================================================
-   ROOT CONTAINER
-====================================================== */
-
+/* Layout spacing */
 .profiles-all {
     display: flex;
     flex-direction: column;
     height: 100%;
     background: var(--mode-background);
     color: var(--color-writing);
+    padding: 0 0 var(--page-padding);
+    box-sizing: border-box;
 }
 
 /* ======================================================
@@ -51,6 +50,22 @@
 /* ======================================================
    LIST PANEL
 ====================================================== */
+
+@media (max-width: 768px) {
+    .profiles-layout {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .profiles-list {
+        width: auto;
+    }
+
+    .profiles-filter {
+        padding: 12px;
+        gap: 10px;
+    }
+}
 
 .profiles-list {
     overflow-y: auto;

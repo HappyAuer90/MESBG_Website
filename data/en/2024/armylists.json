@@ -7,7 +7,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "74-75"
 			}
 		],
@@ -85,7 +85,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "176-177"
 			}
 		],
@@ -254,7 +254,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "90-91"
 			}
 		],
@@ -511,6 +511,28 @@
 					"name": "Wild Man of Dunland",
 					"points": "5",
 					"optionalWarrior": [
+						{
+							"name": "Banner and light shield",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "26"
+						},
+						{
+							"name": "War horn and light shield",
+							"cost": "26"
+						},
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "War horn",
+							"cost": "25"
+						},
 						{
 							"name": "Light Shield and Flaming Brand",
 							"cost": "2"
@@ -910,7 +932,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "96-97"
 			}
 		],
@@ -1175,6 +1197,10 @@
 							"cost": "5"
 						}
 					]
+				},
+				{
+					"name": "Mordor Orc Captain",
+					"points": "45"
 				}
 			],
 			"Minor Heroes": [
@@ -1214,6 +1240,40 @@
 						},
 						{
 							"name": "Spear",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Mordor Orc Warrior",
+					"points": "5",
+					"mandatoryWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Orc bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "1"
+						},
+						{
+							"name": "Shield",
+							"cost": "1"
+						},
+						{
+							"name": "Spear",
+							"cost": "1"
+						},
+						{
+							"name": "Two-handed weapon",
 							"cost": "1"
 						}
 					]
@@ -1715,7 +1775,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "160-161"
 			}
 		],
@@ -1842,42 +1902,6 @@
 						{
 							"name": "Morgul Blade",
 							"cost": "10"
-						}
-					]
-				},
-				{
-					"name": "Gothmog, Lieutnant of Sauron",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "120",
-					"options": [
-						{
-							"name": "Warg",
-							"armyRules": {
-								"Cavalry": true
-							},
-							"cost": "20"
-						},
-						{
-							"name": "Shield",
-							"cost": "5"
-						}
-					]
-				},
-				{
-					"name": "The Mouth of Sauron",
-					"armyRules": {
-						"Maximum": 1
-					},
-					"points": "75",
-					"options": [
-						{
-							"name": "Armoured horse",
-							"armyRules": {
-								"Cavalry": true
-							},
-							"cost": "25"
 						}
 					]
 				},
@@ -2019,12 +2043,48 @@
 					]
 				},
 				{
+					"name": "Gothmog, Lieutnant of Sauron",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "120",
+					"options": [
+						{
+							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "20"
+						},
+						{
+							"name": "Shield",
+							"cost": "5"
+						}
+					]
+				},
+				{
 					"name": "Razgûsh, War Leader of the North",
 					"armyRules": {
 						"Legacy": true,
 						"Maximum": 1
 					},
 					"points": "120"
+				},
+				{
+					"name": "The Mouth of Sauron",
+					"armyRules": {
+						"Maximum": 1
+					},
+					"points": "75",
+					"options": [
+						{
+							"name": "Armoured horse",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "25"
+						}
+					]
 				}
 			],
 			"Heroes of Fortitude": [
@@ -2055,6 +2115,38 @@
 						"Maximum": 1
 					},
 					"points": "60"
+				},
+				{
+					"name": "Goroth, Captain of the Morannon",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "85"
+				},
+				{
+					"name": "Zagdûsh, Orc Captain",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "60"
+				},
+				{
+					"name": "Kardûsh the Firecaller",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "65"
+				},
+				{
+					"name": "Muzgúr, Orc Shaman",
+					"armyRules": {
+						"Legacy": true,
+						"Maximum": 1
+					},
+					"points": "70"
 				},
 				{
 					"name": "Morannon Orc Captain",
@@ -2113,35 +2205,11 @@
 					]
 				},
 				{
-					"name": "Goroth, Captain of the Morannon",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "85"
-				},
-				{
-					"name": "Zagdûsh, Orc Captain",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "60"
-				},
-				{
 					"name": "Captain of the Black Guard",
 					"armyRules": {
 						"Legacy": true
 					},
 					"points": "70"
-				},
-				{
-					"name": "Kardûsh the Firecaller",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "65"
 				},
 				{
 					"name": "Great Beast of Gorgoroth",
@@ -2162,14 +2230,6 @@
 							}
 						}
 					]
-				},
-				{
-					"name": "Muzgúr, Orc Shaman",
-					"armyRules": {
-						"Legacy": true,
-						"Maximum": 1
-					},
-					"points": "70"
 				}
 			],
 			"Independent Heroes": [
@@ -2491,7 +2551,7 @@
 				"description": "Saruman can draw Line of Sight from any friendly Crebain models on the battlefield."
 			}
 		],
-		"noteGWFAQ": "Q: When using the Conjure Lightning ability of the Army of the White Hand Army List, can Saruman use Might to change To Wound Rolls?\nA: No.",
+		"noteGWFAQ": "Q: When using the Conjure Lightning ability of the Army of the White Hand Army List, can Saruman use Might to change To Wound Rolls?\nA: No.\n\nQ: When Saruman uses the Summon Gale special rule in the Army of the White Hand, it halves the Move Value of enemy models until the end of the turn. How far would Gimli, who has a Move Value of 5\" be able to Move that turn?\nA: Whenever a Characteristic is halved by a special rule, it is always rounded up. So, in the given example, Gimli would be able to Move 3\".",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -2664,6 +2724,28 @@
 					"name": "Wild Man of Dunland",
 					"points": "5",
 					"optionalWarrior": [
+						{
+							"name": "Banner and light shield",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "26"
+						},
+						{
+							"name": "War horn and light shield",
+							"cost": "26"
+						},
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "War horn",
+							"cost": "25"
+						},
 						{
 							"name": "Light Shield and Flaming Brand",
 							"cost": "2"
@@ -2991,7 +3073,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "88-89"
 			}
 		],
@@ -3101,6 +3183,11 @@
 				},
 				{
 					"name": "Ranger of Arnor",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						}
+					},
 					"points": "8",
 					"optionalWarrior": [
 						{
@@ -4491,7 +4578,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "72-73"
 			}
 		],
@@ -4522,8 +4609,7 @@
 						"Cavalry": true,
 						"Followers": [
 							"Battlin’ Brandybuck",
-							"Hobbit Archer",
-							"Hobbit Shirriff"
+							"Hobbit Archer"
 						],
 						"General": "Mandatory",
 						"Maximum": 1
@@ -4547,8 +4633,7 @@
 						"Cavalry": true,
 						"Followers": [
 							"Hobbit Militia",
-							"Tookish Hunter",
-							"Hobbit Shirriff"
+							"Tookish Hunter"
 						],
 						"Maximum": 1
 					},
@@ -4597,8 +4682,7 @@
 					"armyRules": {
 						"Followers": [
 							"Hobbit Militia",
-							"Tookish Hunter",
-							"Hobbit Shirriff"
+							"Tookish Hunter"
 						],
 						"Maximum": 1
 					},
@@ -4713,25 +4797,12 @@
 				},
 				{
 					"name": "Battlin’ Brandybuck",
-					"points": "5"
-				},
-				{
-					"name": "Tookish Hunter",
 					"armyRules": {
-						"Bow": {
-							"limit": "count"
-						},
 						"Captains": [
-							"Paladin Took, Thain of the Shire"
+							"Meriadoc Brandybuck, Captain of the Shire"
 						]
 					},
-					"points": "6",
-					"optionalWarrior": [
-						{
-							"name": "War horn",
-							"cost": "25"
-						}
-					]
+					"points": "5"
 				},
 				{
 					"name": "Hobbit Archer",
@@ -4741,6 +4812,25 @@
 						}
 					},
 					"points": "5",
+					"optionalWarrior": [
+						{
+							"name": "War horn",
+							"cost": "25"
+						}
+					]
+				},
+				{
+					"name": "Tookish Hunter",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
+						"Captains": [
+							"Peregrin Took, Captain of the Shire",
+							"Paladin Took, Thain of the Shire"
+						]
+					},
+					"points": "6",
 					"optionalWarrior": [
 						{
 							"name": "War horn",
@@ -4770,7 +4860,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "92-93"
 			}
 		],
@@ -4791,7 +4881,7 @@
 				"description": "Friendly models gain the Resistant to Magic special rule."
 			},
 			{
-				"name": "Eärnur Defiance",
+				"name": "Eärnur's Defiance",
 				"description": "Eärnur cannot have his Courage reduced by enemy special rules or Magical Powers."
 			}
 		],
@@ -4825,6 +4915,9 @@
 					"options": [
 						{
 							"name": "Asfaloth",
+							"armyRules": {
+								"Cavalry": true
+							},
 							"cost": "20"
 						}
 					]
@@ -5226,6 +5319,28 @@
 					"points": "5",
 					"optionalWarrior": [
 						{
+							"name": "Banner and light shield",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "26"
+						},
+						{
+							"name": "War horn and light shield",
+							"cost": "26"
+						},
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "War horn",
+							"cost": "25"
+						},
+						{
 							"name": "Light Shield and Flaming Brand",
 							"cost": "2"
 						},
@@ -5271,7 +5386,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "172-173"
 			}
 		],
@@ -5317,7 +5432,16 @@
 			"Minor Heroes": [
 				{
 					"name": "Angmar Orc Shaman",
-					"points": "50"
+					"points": "50",
+					"options": [
+						{
+							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "20"
+						}
+					]
 				}
 			],
 			"Warriors": [
@@ -6018,7 +6142,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "98-99"
 			}
 		],
@@ -6046,6 +6170,7 @@
 				"description": "Friendly models treat each of Dáin, Thorin, Brand and Bard as a banner."
 			}
 		],
+		"noteGWFAQ": "Q: The Champions of Erebor have the Sworn Protector (Thorin) Special Rule, does this apply to both Thorin Oakenshield and Thorin III Stonehelm, depending on the Army they have been included in?\nA: Yes.",
 		"armyRules": {
 			"ArmyDistributions": [
 				{
@@ -6898,7 +7023,7 @@
 					"armyRules": {
 						"Maximum": 1
 					},
-					"points": "160",
+					"points": "140",
 					"options": [
 						{
 							"name": "Armoured horse and lance",
@@ -7837,6 +7962,23 @@
 					]
 				},
 				{
+					"name": "Moria Goblin Drum",
+					"points": "75",
+					"composition": [
+						{
+							"name": "Moria Goblin Drum",
+							"points": "75",
+							"armyRules": {
+								"NotCount": "Army"
+							}
+						},
+						{
+							"name": "Moria Goblin Drummer",
+							"amount": 2
+						}
+					]
+				},
+				{
 					"name": "Moria Blackshield Drum",
 					"armyRules": {
 						"Legacy": true
@@ -7932,7 +8074,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "166-167"
 			}
 		],
@@ -9288,12 +9430,13 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "80-81"
 			}
 		],
 		"additionalRules": [
-			"A Fords of Isen Army must always contain Theodred, who is always the Army’s General."
+			"A Fords of Isen Army must always contain Theodred, who is always the Army’s General.",
+			"A Fords of Isen army may have up to 50% of its Warrior models armed with throwing spears rather than the usual 33%."
 		],
 		"specialRules": [
 			{
@@ -9309,6 +9452,9 @@
 				"description": "If Theodred is Engaged in Combat within 6\" of Elfhelm, then enemy models may not make Strikes against Theodred if there is another model they could make Strikes against instead."
 			}
 		],
+		"armyRules": {
+			"ThrowingLimit": 2
+		},
 		"models": {
 			"Heroes of Valour": [
 				{
@@ -10656,7 +10802,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Exchange shield for war drum",
+							"name": "Exchange shield for war drum (Easterling)",
 							"cost": "25"
 						}
 					]
@@ -11477,7 +11623,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "180-181"
 			}
 		],
@@ -11615,7 +11761,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Exchange shield for war drum",
+							"name": "Exchange shield for war drum (Easterling)",
 							"cost": "25"
 						}
 					]
@@ -11671,7 +11817,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "168-169"
 			}
 		],
@@ -11685,7 +11831,7 @@
 				"description": "Friendly Angmar Orc models within 3\" of a friendly Spirit Hero model gain the Terror special rule."
 			},
 			{
-				"name": "Lord of the Nazgul",
+				"name": "Lord of the Nazgûl",
 				"description": "The Witch-king only loses a Will Point for having been in a Combat if he loses a Combat during the Fight phase (for example, if he doesn’t win the Duel Roll to see which side may make Strikes)."
 			},
 			{
@@ -11812,7 +11958,16 @@
 			"Minor Heroes": [
 				{
 					"name": "Angmar Orc Shaman",
-					"points": "50"
+					"points": "50",
+					"options": [
+						{
+							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "20"
+						}
+					]
 				},
 				{
 					"name": "Barrow-wight",
@@ -11930,7 +12085,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "94-95"
 			}
 		],
@@ -11952,9 +12107,10 @@
 			},
 			{
 				"name": "Dwarven Mirrors",
-				"description": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight. Enemy models targeting a friendly model within 6\" of a Dwarven Mirror Marker with a shooting attack suffers a -1 penalty to the To Hit Roll. Additionally, Orc models, Goblin models, or models with the Cave Dweller special rule, suffer a -1 penalty to any Courage Tests they are required to take whilst they are within 6\" of a Dwarven Mirror Marker. If during the End Phase of a turn, an enemy model is in base contact with a Dwarven Mirror Marker, that model hasn’t done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Dwarven Mirror Marker from play. Models cannot overlap a Dwarven Mirror Marker for any reason, though a War Beast or Chariot that Moves into base contact with one (via Trample or Chariot Charge respectively) will immediately remove it from play and may carry on as normal."
+				"description": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight. Enemy models targeting a friendly model within 6\" of a Dwarven Mirror Marker with a shooting attack suffers a -1 penalty to the To Hit Roll.\n\n Additionally, Orc models, Goblin models, or models with the Cave Dweller special rule, suffer a -1 penalty to any Courage Tests they are required to take whilst they are within 6\" of a Dwarven Mirror Marker. If during the End Phase of a turn, an enemy model is in base contact with a Dwarven Mirror Marker, that model hasn’t done anything during that turn except Move (i.e., has not made a shooting attack, cast a Magical Power, been Engaged in Combat), and that model was not affected by a Magical Power that turn, then it can remove the Dwarven Mirror Marker from play. Models cannot overlap a Dwarven Mirror Marker for any reason, though a War Beast or Chariot that Moves into base contact with one (via Trample or Chariot Charge respectively) will immediately remove it from play and may carry on as normal."
 			}
 		],
+		"noteGWFAQ": "Q: When are the Dwarven Mirrors in the Khazad-dûm Army List deployed in Scenarios that do not have deployment zones?\nA: Before players roll for the Initial Priority.",
 		"models": {
 			"Heroes of Legend": [
 				{
@@ -13018,6 +13174,10 @@
 					]
 				},
 				{
+					"name": "Mordor Orc Captain",
+					"points": "45"
+				},
+				{
 					"name": "Black Númenórean Marshal",
 					"points": "70",
 					"options": [
@@ -13258,6 +13418,40 @@
 						},
 						{
 							"name": "Spear",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Mordor Orc Warrior",
+					"points": "5",
+					"mandatoryWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Orc bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "1"
+						},
+						{
+							"name": "Shield",
+							"cost": "1"
+						},
+						{
+							"name": "Spear",
+							"cost": "1"
+						},
+						{
+							"name": "Two-handed weapon",
 							"cost": "1"
 						}
 					]
@@ -13598,7 +13792,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Exchange shield for war drum",
+							"name": "Exchange shield for war drum (Easterling)",
 							"cost": "25"
 						}
 					]
@@ -14284,6 +14478,18 @@
 					"points": "55"
 				}
 			],
+			"Minor Heroes": [
+				{
+					"name": "Uruk-hai Shaman",
+					"points": "55",
+					"options": [
+						{
+							"name": "Armour",
+							"cost": "5"
+						}
+					]
+				}
+			],
 			"Independent Heroes": [
 				{
 					"name": "Uruk-hai Drummer",
@@ -14402,7 +14608,7 @@
 					"armyRules": {
 						"Maximum": 1
 					},
-					"points": "160"
+					"points": "140"
 				},
 				{
 					"name": "Gwaihir",
@@ -14413,7 +14619,7 @@
 						"Maximum": 1,
 						"Monster": true
 					},
-					"points": "150"
+					"points": "200"
 				}
 			],
 			"Heroes of Valour": [
@@ -15279,7 +15485,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "164-165"
 			}
 		],
@@ -15348,21 +15554,6 @@
 					"points": "80"
 				},
 				{
-					"name": "Moria Goblin Captain",
-					"points": "40",
-					"options": [
-						{
-							"name": "Orc bow",
-							"armyRules": {
-								"Bow": {
-									"limit": "ignore"
-								}
-							},
-							"cost": "5"
-						}
-					]
-				},
-				{
 					"name": "Grôblog",
 					"armyRules": {
 						"Legacy": true,
@@ -15379,6 +15570,21 @@
 					"points": "60"
 				},
 				{
+					"name": "Moria Goblin Captain",
+					"points": "40",
+					"options": [
+						{
+							"name": "Orc bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "ignore"
+								}
+							},
+							"cost": "5"
+						}
+					]
+				},
+				{
 					"name": "Moria Blackshield Captain",
 					"armyRules": {
 						"Legacy": true
@@ -15392,18 +15598,18 @@
 					"points": "45"
 				},
 				{
-					"name": "Cave Drake",
-					"armyRules": {
-						"Monster": true
-					},
-					"points": "150"
-				},
-				{
 					"name": "Moria Blackshield Shaman",
 					"armyRules": {
 						"Legacy": true
 					},
 					"points": "50"
+				},
+				{
+					"name": "Cave Drake",
+					"armyRules": {
+						"Monster": true
+					},
+					"points": "150"
 				}
 			],
 			"Independent Heroes": [
@@ -15443,7 +15649,36 @@
 				},
 				{
 					"name": "Moria Goblin Prowler",
+					"armyRules": {
+						"Throwing": {
+							"limit": "count"
+						}
+					},
 					"points": "7"
+				},
+				{
+					"name": "Moria Blackshield Warrior",
+					"armyRules": {
+						"Legacy": true
+					},
+					"points": "8",
+					"optionalWarrior": [
+						{
+							"name": "Spear",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Warg Marauder",
+					"armyRules": {
+						"Bow": {
+							"limit": "count"
+						},
+						"Cavalry": true,
+						"Legacy": true
+					},
+					"points": "35"
 				},
 				{
 					"name": "Moria Goblin Drum",
@@ -15459,6 +15694,28 @@
 						{
 							"name": "Moria Goblin Drummer",
 							"amount": 2
+						}
+					]
+				},
+				{
+					"name": "Moria Blackshield Drum",
+					"armyRules": {
+						"Legacy": true
+					},
+					"points": "75",
+					"composition": [
+						{
+							"name": "Moria Blackshield Drum",
+							"points": "75",
+							"armyRules": {
+								"NotCount": "Army"
+							}
+						},
+						{
+							"name": "Moria Blackshield Drummer"
+						},
+						{
+							"name": "Moria Blackshield Drum Bearer"
 						}
 					]
 				},
@@ -15508,52 +15765,6 @@
 						]
 					},
 					"points": "8"
-				},
-				{
-					"name": "Moria Blackshield Drum",
-					"armyRules": {
-						"Legacy": true
-					},
-					"points": "75",
-					"composition": [
-						{
-							"name": "Moria Blackshield Drum",
-							"points": "75",
-							"armyRules": {
-								"NotCount": "Army"
-							}
-						},
-						{
-							"name": "Moria Blackshield Drummer"
-						},
-						{
-							"name": "Moria Blackshield Drum Bearer"
-						}
-					]
-				},
-				{
-					"name": "Moria Blackshield Warrior",
-					"armyRules": {
-						"Legacy": true
-					},
-					"points": "8",
-					"optionalWarrior": [
-						{
-							"name": "Spear",
-							"cost": "1"
-						}
-					]
-				},
-				{
-					"name": "Warg Marauder",
-					"armyRules": {
-						"Bow": {
-							"limit": "count"
-						},
-						"Cavalry": true,
-						"Legacy": true
-					},
-					"points": "35"
 				},
 				{
 					"name": "Dweller in the Dark",
@@ -15855,13 +16066,13 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "82-83"
 			}
 		],
 		"additionalRules": [
 			"A Paths of the Drúadan Army must always contain Theoden, who is always the Army’s General.",
-			"A Paths of the Druadan Army must always contain Ghan-buri-Ghan and a Warband of at least 12 Woses Warriors.",
+			"A Paths of the Drúadan Army must always contain Ghan-buri-Ghan and a Warband of at least 12 Woses Warriors.",
 			"Riders of Rohan do not count towards this Army’s bow limit."
 		],
 		"specialRules": [
@@ -15936,6 +16147,9 @@
 				{
 					"name": "Ghân-Buri-Ghân",
 					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						},
 						"Captain": "Mandatory",
 						"Maximum": 1
 					},
@@ -16101,10 +16315,6 @@
 					]
 				},
 				{
-					"name": "Woses Warrior",
-					"points": "9"
-				},
-				{
 					"name": "Rohan Outrider",
 					"armyRules": {
 						"Bow": {
@@ -16117,6 +16327,15 @@
 					"mandatory": [
 						"Horse"
 					]
+				},
+				{
+					"name": "Woses Warrior",
+					"armyRules": {
+						"Bow": {
+							"limit": "ignore"
+						}
+					},
+					"points": "9"
 				}
 			]
 		}
@@ -16373,7 +16592,7 @@
 						"Maximum": 1,
 						"Monster": true
 					},
-					"points": "150"
+					"points": "200"
 				},
 				{
 					"name": "Beorn",
@@ -16650,7 +16869,7 @@
 			}
 		],
 		"additionalRules": [
-			" Ravagers of the Shire Army must always contain Golfimbul, who is always the Army’s General."
+			"A Ravagers of the Shire Army must always contain Golfimbul, who is always the Army’s General."
 		],
 		"specialRules": [
 			{
@@ -19557,6 +19776,7 @@
 				"description": "At the start of each game using this Army List, you may choose for the Scenario to take place at night if you wish. If you do, then at the start of each Move Phase you may choose whether or not the Gatekeeper of Bree’s A Light in the Dark special rule is in effect or not."
 			}
 		],
+		"noteGWFAQ": "Q: In the Road to Rivendell Army List, can Arwen use Bill the Pony as a Banner when Frodo is riding as a passenger on Asfaloth? \nA: No.",
 		"armyRules": {
 			"Warband": "Optional"
 		},
@@ -19735,7 +19955,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "170-171"
 			}
 		],
@@ -19797,7 +20017,16 @@
 			"Minor Heroes": [
 				{
 					"name": "Angmar Orc Shaman",
-					"points": "50"
+					"points": "50",
+					"options": [
+						{
+							"name": "Warg",
+							"armyRules": {
+								"Cavalry": true
+							},
+							"cost": "20"
+						}
+					]
 				},
 				{
 					"name": "Barrow-wight",
@@ -19902,7 +20131,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "162-163"
 			}
 		],
@@ -20373,7 +20602,7 @@
 						"Maximum": 1,
 						"Monster": true
 					},
-					"points": "150"
+					"points": "200"
 				},
 				{
 					"name": "Beorn",
@@ -20742,7 +20971,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "78-79"
 			}
 		],
@@ -20898,6 +21127,10 @@
 					]
 				},
 				{
+					"name": "Mordor Orc Captain",
+					"points": "45"
+				},
+				{
 					"name": "Mordor Orc Taskmaster",
 					"points": "45"
 				}
@@ -20939,6 +21172,40 @@
 						},
 						{
 							"name": "Spear",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Mordor Orc Warrior",
+					"points": "5",
+					"mandatoryWarrior": [
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "Orc bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "1"
+						},
+						{
+							"name": "Shield",
+							"cost": "1"
+						},
+						{
+							"name": "Spear",
+							"cost": "1"
+						},
+						{
+							"name": "Two-handed weapon",
 							"cost": "1"
 						}
 					]
@@ -21087,7 +21354,7 @@
 						"Maximum": 1,
 						"Monster": true
 					},
-					"points": "150"
+					"points": "200"
 				}
 			],
 			"Warriors": [
@@ -21116,7 +21383,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "178-179"
 			}
 		],
@@ -21264,7 +21531,7 @@
 							"cost": "25"
 						},
 						{
-							"name": "Exchange shield for war drum",
+							"name": "Exchange shield for war drum (Easterling)",
 							"cost": "25"
 						}
 					]
@@ -21473,7 +21740,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "84-85"
 			}
 		],
@@ -21498,7 +21765,7 @@
 					"armyRules": {
 						"Maximum": 1
 					},
-					"points": "160",
+					"points": "140",
 					"options": [
 						{
 							"name": "Armoured horse and lance",
@@ -21598,6 +21865,17 @@
 					]
 				},
 				{
+					"name": "Man-at-arms of Dol Amroth",
+					"armyRules": {
+						"Depends": [
+							"Prince Imrahil of Dol Amroth",
+							"Captain of Dol Amroth"
+						],
+						"Legacy": true
+					},
+					"points": "10"
+				},
+				{
 					"name": "Axeman of Lossarnach",
 					"armyRules": {
 						"Depends": [
@@ -21643,17 +21921,6 @@
 							"cost": "1"
 						}
 					]
-				},
-				{
-					"name": "Man-at-arms of Dol Amroth",
-					"armyRules": {
-						"Depends": [
-							"Prince Imrahil of Dol Amroth",
-							"Captain of Dol Amroth"
-						],
-						"Legacy": true
-					},
-					"points": "10"
 				}
 			]
 		}
@@ -21666,7 +21933,7 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "76-77"
 			}
 		],
@@ -21790,16 +22057,7 @@
 							"armyRules": {
 								"Maximum": 1
 							},
-							"points": "80",
-							"options": [
-								{
-									"name": "Horse",
-									"cost": "20",
-									"armyRules": {
-										"Cavalry": true
-									}
-								}
-							]
+							"points": "80"
 						},
 						{
 							"name": "Elrohir",
@@ -21807,16 +22065,7 @@
 							"armyRules": {
 								"Maximum": 1
 							},
-							"points": "80",
-							"options": [
-								{
-									"name": "Horse",
-									"cost": "20",
-									"armyRules": {
-										"Cavalry": true
-									}
-								}
-							]
+							"points": "80"
 						}
 					]
 				}
@@ -21852,23 +22101,23 @@
 		"alignment": "Good",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "86-87"
 			}
 		],
 		"additionalRules": [
-			"A Grief of Eomer Army must always contain Eomer, who is always the Army’s General.",
+			"A Grief of Éomer Army must always contain Éomer, who is always the Army’s General.",
 			"Rohan Warrior models can only be included in the Warband of a Rohan Hero.",
 			"Gondor Warrior models can only be included in the Warband of a Gondor Hero."
 		],
 		"specialRules": [
 			{
-				"name": "Eomer’s Wrath",
-				"description": "Eomer is always treated as being under the effects of his The Price of Grief special rule. Additionally, Eomer gains a bonus of +1 to his Fight Value on a turn in which he Charges."
+				"name": "Éomer’s Wrath",
+				"description": "Éomer is always treated as being under the effects of his The Price of Grief special rule. Additionally, Éomer gains a bonus of +1 to his Fight Value on a turn in which he Charges."
 			},
 			{
 				"name": "Fear no enemy",
-				"description": "Eomer gains the Fearless special rule. Additionally, friendly Rohan models that can draw Line of Sight to Eomer automatically pass any Courage Tests they are required to take."
+				"description": "Éomer gains the Fearless special rule. Additionally, friendly Rohan models that can draw Line of Sight to Éomer automatically pass any Courage Tests they are required to take."
 			},
 			{
 				"name": "Ride of Dol Amroth",
@@ -21912,7 +22161,7 @@
 					"armyRules": {
 						"Maximum": 1
 					},
-					"points": "160",
+					"points": "140",
 					"options": [
 						{
 							"name": "Armoured horse and lance",
@@ -22111,6 +22360,19 @@
 					]
 				},
 				{
+					"name": "Man-at-arms of Dol Amroth",
+					"armyRules": {
+						"Captains": [
+							"Prince Imrahil of Dol Amroth",
+							"Húrin the Tall, Warden of the Keys",
+							"Captain of Dol Amroth",
+							"Captain of Minas Tirith"
+						],
+						"Legacy": true
+					},
+					"points": "10"
+				},
+				{
 					"name": "Warrior of Minas Tirith",
 					"armyRules": {
 						"Captains": [
@@ -22173,19 +22435,6 @@
 							"cost": "25"
 						}
 					]
-				},
-				{
-					"name": "Man-at-arms of Dol Amroth",
-					"armyRules": {
-						"Captains": [
-							"Prince Imrahil of Dol Amroth",
-							"Húrin the Tall, Warden of the Keys",
-							"Captain of Dol Amroth",
-							"Captain of Minas Tirith"
-						],
-						"Legacy": true
-					},
-					"points": "10"
 				}
 			]
 		}
@@ -22620,7 +22869,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "182-183"
 			}
 		],
@@ -23504,7 +23753,7 @@
 						"Maximum": 1,
 						"Monster": true
 					},
-					"points": "150"
+					"points": "200"
 				},
 				{
 					"name": "Radagast the Brown",
@@ -23728,6 +23977,16 @@
 			],
 			"Minor Heroes": [
 				{
+					"name": "Uruk-hai Shaman",
+					"points": "55",
+					"options": [
+						{
+							"name": "Armour",
+							"cost": "5"
+						}
+					]
+				},
+				{
 					"name": "Isengard Orc Shaman",
 					"points": "50"
 				}
@@ -23825,7 +24084,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "184-185"
 			}
 		],
@@ -24027,7 +24286,9 @@
 		],
 		"additionalRules": [
 			"If your Army includes Freca, then he must be your General.",
-			"Rohirrim Traitors can only be included in Lord Thorne’s Warband."
+			"Rohirrim Traitors can only be included in Lord Thorne’s Warband.",
+			"If a Usurpers of Edoras Army includes Freca, it cannot include any Harad models.",
+			"Harad Warrior models can only be included in the Warband of a War Mûmak of Harad. Additionally, they must deploy within the howdah."
 		],
 		"specialRules": [
 			{
@@ -24108,11 +24369,96 @@
 					]
 				}
 			],
+			"Minor Heroes": [
+				{
+					"name": "War Mûmak of Harad",
+					"points": "250",
+					"options": [
+						{
+							"name": "Rocks",
+							"cost": "20"
+						},
+						{
+							"name": "Sigils of Defiance",
+							"cost": "20"
+						},
+						{
+							"name": "Tusk Weapons",
+							"cost": "20"
+						},
+						{
+							"name": "Foul Temperament",
+							"cost": "15"
+						},
+						{
+							"name": "Rappelling Lines",
+							"cost": "10"
+						}
+					],
+					"composition": [
+						{
+							"name": "Haradrim Commander",
+							"compositionModel": "Captain",
+							"points": "250"
+						},
+						{
+							"name": "Mûmak",
+							"options": [
+								{
+									"name": "Rocks",
+									"cost": "20"
+								},
+								{
+									"name": "Sigils of Defiance",
+									"cost": "20"
+								},
+								{
+									"name": "Tusk Weapons",
+									"cost": "20"
+								},
+								{
+									"name": "Foul Temperament",
+									"cost": "15"
+								},
+								{
+									"name": "Rappelling Lines",
+									"cost": "10"
+								}
+							],
+							"armyRules": {
+								"NotCount": "Warband"
+							}
+						}
+					]
+				}
+			],
 			"Warriors": [
 				{
 					"name": "Hill Tribesman",
 					"points": "5",
 					"optionalWarrior": [
+						{
+							"name": "Banner and light shield",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "26"
+						},
+						{
+							"name": "War horn and light shield",
+							"cost": "26"
+						},
+						{
+							"name": "Banner",
+							"armyRules": {
+								"Banner": true
+							},
+							"cost": "25"
+						},
+						{
+							"name": "War horn",
+							"cost": "25"
+						},
 						{
 							"name": "Light Shield and Flaming Brand",
 							"cost": "2"
@@ -24189,6 +24535,25 @@
 						},
 						{
 							"name": "Shield",
+							"cost": "1"
+						}
+					]
+				},
+				{
+					"name": "Haradrim Warrior",
+					"points": "6",
+					"mandatoryWarrior": [
+						{
+							"name": "Bow",
+							"armyRules": {
+								"Bow": {
+									"limit": "count"
+								}
+							},
+							"cost": "1"
+						},
+						{
+							"name": "Spear",
 							"cost": "1"
 						}
 					]
@@ -24329,7 +24694,7 @@
 		"alignment": "Evil",
 		"source": [
 			{
-				"book": "Armies of Middle-Earth",
+				"book": "Armies of Middle-earth",
 				"page": "174-175"
 			}
 		],

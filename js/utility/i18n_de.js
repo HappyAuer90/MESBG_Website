@@ -2,13 +2,14 @@ export default {
     main: {
         title: "MESBG ONLINE TOOL",
 
+        rules: "Regeln",
+        showRulesManual: "Regelbuch",
+        showAllRules: "Alle Regeln anzeigen",
+
         profiles: "Profile",
         searchProfile: "Profilsuche",
         expertSearch: "Experten-Suche",
         showAllProfiles: "Alle Profile anzeigen",
-
-        rules: "Regeln",
-        showAllRules: "Alle Regeln anzeigen",
 
         armylists: "Armeelisten",
         searchArmylist: "Armeeliste suchen",
@@ -20,6 +21,15 @@ export default {
 
         simulations: "Simulationen",
         warrior: "Krieger Simulationen"
+    },
+    accessibility: {
+        openSettings: "Einstellungen öffnen",
+        goBack: "Zurück",
+        goForward: "Weiter",
+        noScript: "Diese Anwendung benötigt JavaScript, damit die Inhalte geladen und navigiert werden können.",
+        runDebugChecks: "JSON-Debug-Prüfungen ausführen",
+        switchToEnglish: "Auf Englisch umstellen",
+        switchToGerman: "Zu Deutsch wechseln"
     },
     settings: {
         title: "Einstellungen",
@@ -33,12 +43,34 @@ export default {
         headColor: "Farbe für Highlights und Überschriften",
         linkColor: "Farbe für Referenz-Links",
         crossLinksWargear: "Verlinkungen zu Wargear und Sonderregeln aktivieren",
-        crossLinksRules: "Verlinkungen zu Regeln aktivieren",
-        crossLinksProfiles: "Verlinkungen zu Profilen aktivieren",
+        crossLinksRules: "Querverweise zu Regeln aktivieren",
+        crossLinksProfiles: "Querverweise zu Profilen aktivieren",
         showGWFAQNotes: "GW FAQ anzeigen",
         showSpecialRulesFromArmylists: "Zeige Sonderregeln der Profile aus bestimmten Armeelisten",
         includeLegacy: "Inklusive Legacy",
         close: "Schließen"
+    },
+
+    rules: {
+        manual: {
+            chapters: "Kapitel",
+            rules: "Regeln",
+            references: "Querverweise",
+            gwFaq: "GW FAQ",
+            selectRule: "Bitte wähle eine Regel aus der Übersicht aus, um ihren Inhalt anzuzeigen.",
+            noDefinitionFound: "Für diesen Eintrag wurde keine passende Definition gefunden.",
+            selectReference: "Bitte wähle einen Verweis aus, um ihn hier zu prüfen.",
+            noProfileDescription: "Keine Profilbeschreibung verfügbar."
+        },
+        all: {
+            Character: "Diese Einheit",
+            character: "diese Einheit",
+            usedBy: "Verwendet von",
+            usedByArmyLists: "Armeelisten",
+            usedByProfiles: "Profile",
+            usedAsWargear: "Als Ausrüstung bei folgenden Profilen",
+            usedAsOption: "Als Option bei folgenden Profilen"
+        }
     },
 
     profiles: {
@@ -129,13 +161,6 @@ export default {
             good: "Gut",
             evil: "Böse",
             Hero: "Held"
-        }
-    },
-
-    rules: {
-        all: {
-            Character: "Diese Einheit",
-            character: "diese Einheit"
         }
     },
 

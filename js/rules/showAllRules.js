@@ -1,20 +1,22 @@
 import { Settings } from "../settings.js";
-import { loadDefinitions, loadProfiles } from "../utility/dataLoader.js";
+import { loadArmyLists, loadDefinitions, loadProfiles } from "../utility/dataLoader.js";
 import { navigate } from "../main.js";
 import { t } from "../utility/i18n.js";
 
 /* =========================
    STATE
 ========================= */
-const debugMode = true; // true = Debug aktiv, false = normaler Betrieb
-
 const state = {
-    definitions: null
+    definitions: null,
+    profiles: null,
+    profileByName: null,
+    armyLists: null
 };
 
 const rightPanelState = new WeakMap();
 
 const typeLabels = {
+    armyrule: "Army Rule",
     heroicaction: "Heroic Action",
     magicalpower: "Magical Power",
     rule: "Rule",
@@ -35,6 +37,10 @@ export async function initRulesAll(container) {
         Object.values(state.profiles).forEach(p => {
             state.profileByName[p.name] = p.id;
         });
+    }
+
+    if (!state.armyLists) {
+        state.armyLists = await loadArmyLists(Settings.version);
     }
 
     const entries = Object.entries(state.definitions);
@@ -76,17 +82,6 @@ export async function initRulesAll(container) {
     `;
         filterContainer.appendChild(label);
     });
-
-    // =========================
-    // DEBUG BUTTON
-    // =========================
-    if (debugMode) {
-        const debugBtn = document.createElement("button");
-        debugBtn.textContent = "Check JSON File";
-        debugBtn.style.marginLeft = "1rem";
-        debugBtn.onclick = () => runJsonChecks(state.definitions);
-        filterContainer.appendChild(debugBtn);
-    }
 
     /* =========================
        LIST RENDER
@@ -166,6 +161,7 @@ function renderRightPanel(panel) {
     if (!current) return;
 
     const def = current.data;
+    const ownerSections = buildOwnershipSections(def);
 
     panel.innerHTML = `
         <div class="rules-definition-header">
@@ -186,29 +182,82 @@ function renderRightPanel(panel) {
         ${Settings.profileSettings.showGWFAQNotes && def.descriptionGWFAQ
             ? `
                 <div class="definition-block gwfaq-block">
-                    <h4>GW FAQ</h4>
+                    <h4>${t("rules.manual.gwFaq")}</h4>
                     <p class="definition-text-gwfaq"></p>
                 </div>
                 `
             : ""
         }
+
+        ${renderOwnershipBlock(ownerSections)}
     `;
 
     renderDefinitionText(
         def.description,
         panel.querySelector(".rules-definition-text"),
-        def
+        def,
+        panel
     );
 
     if (Settings.profileSettings.showGWFAQNotes && def.descriptionGWFAQ) {
         renderDefinitionText(
             def.descriptionGWFAQ,
             panel.querySelector(".definition-text-gwfaq"),
-            def
+            def,
+            panel
         );
     }
 
+    bindOwnershipLinks(panel);
     bindToolbar(panel);
+}
+
+function renderOwnershipBlock(sections) {
+    if (!sections.length) return "";
+
+    const renderedSections = sections.map(section => `
+        <div class="rules-ownership-section">
+            <h4>${section.title}</h4>
+            <ul class="rules-ownership-list">
+                ${section.items.map(item => `
+                    <li>
+                        <button
+                            type="button"
+                            class="rules-owner-link"
+                            data-kind="${item.kind}"
+                            data-id="${item.id}"
+                        >${item.name}</button>
+                    </li>
+                `).join("")}
+            </ul>
+        </div>
+    `).join("");
+
+    return `
+        <div class="rules-definition-block rules-ownership-block">
+            <div class="rules-ownership-separator"></div>
+            <h3 class="rules-ownership-title">${t("rules.all.usedBy")}</h3>
+            ${renderedSections}
+        </div>
+    `;
+}
+
+function bindOwnershipLinks(panel) {
+    panel.querySelectorAll(".rules-owner-link").forEach(el => {
+        el.onclick = () => {
+            const kind = el.dataset.kind;
+            const id = el.dataset.id;
+
+            if (kind === "profile" && id) {
+                navigate("profiles", "search", { profileId: id });
+                return;
+            }
+
+            if (kind === "armylist" && id) {
+                navigate("armylists", "search", { armylistId: id });
+            }
+        };
+    });
 }
 
 function renderMeta(def) {
@@ -251,87 +300,67 @@ function bindToolbar(panel) {
    DEFINITION TEXT RENDER
 ========================= */
 
-function renderDefinitionText(text, container, def) {
+function renderDefinitionText(text, container, def, panel) {
     if (!text) return;
 
-
     let html = formatText(text)
-        .replace("{Character}", `${t("rules.all.Character")}`)
-        .replace("{character}", `${t("rules.all.character")}`);
+        .replace(/\{Character\}/g, t("rules.all.Character"))
+        .replace(/\{character\}/g, t("rules.all.character"));
+
     const protectedTokens = [];
 
-    // =========================
-    // ExcludeFromLinking schützen
-    // =========================
     if (def.excludeFromLinking?.length) {
         def.excludeFromLinking.forEach((phrase, i) => {
             const token = `__PROTECTED_${i}__`;
-            const escaped = escapeRegex(phrase);
+            const escaped = escapeRegex(phrase.trim());
 
-            html = html.replace(new RegExp(escaped, "g"), token);
-
-            protectedTokens.push({ token, value: phrase });
+            html = html.replace(new RegExp(`\\b${escaped}\\b`, "g"), token);
+            protectedTokens.push({ token, value: phrase.trim() });
         });
     }
 
-    // =========================
-    // Referenzen vorbereiten
-    // =========================
     let refs = buildReferenceList(def);
-
-    // längere Terme zuerst
     refs = refs.sort((a, b) => b.display.length - a.display.length);
 
-    // =========================
-    // Token-System für Links
-    // =========================
     refs.forEach((ref, i) => {
         if (def.excludeFromLinking?.includes(ref.display)) return;
 
         const escaped = escapeRegex(ref.display);
         const token = `__LINK_${i}__`;
 
-        html = html.replace(new RegExp(escaped, "g"), token);
+        html = html.replace(new RegExp(`\\b${escaped}\\b`, "g"), token);
 
-        // speichere fertigen HTML-Link
         protectedTokens.push({
             token,
             value: `<span class="rules-definition-link" data-target="${ref.target}" data-type="${ref.type}">${ref.display}</span>`
         });
     });
 
-    // =========================
-    // Tokens wieder einfügen
-    // =========================
     protectedTokens.forEach(entry => {
         html = html.replaceAll(entry.token, entry.value);
     });
 
     container.innerHTML = html;
 
-    // =========================
-    // Klick-Handler für Links
-    // =========================
     container.querySelectorAll(".rules-definition-link").forEach(el => {
         el.onclick = () => {
             const target = el.dataset.target;
             const type = el.dataset.type;
 
             if (type === "profile") {
-                // Name -> ID auflösen
-                const profileId = state.profileByName?.[target];
-                if (!profileId) return;
-
-                navigate("profiles", "search", { profileId });
+                const profile = findProfile(target);
+                if (profile) {
+                    const profileId = profile.id || state.profileByName?.[profile.name];
+                    if (profileId) {
+                        navigate("profiles", "search", { profileId });
+                    }
+                }
                 return;
             }
 
             const definition = findDefinition(target);
             if (definition) {
-                openDefinition(
-                    definition,
-                    container.closest(".rules-detail").querySelector("#rulesDetailContent")
-                );
+                openDefinition(definition, panel);
             }
         };
     });
@@ -342,28 +371,51 @@ function renderDefinitionText(text, container, def) {
 ========================= */
 
 function findDefinition(name) {
-
     if (!name) return null;
 
-    if (state.definitions[name]) return state.definitions[name];
+    const rawName = String(name).trim();
 
-    for (const def of Object.values(state.definitions)) {
-        if (def.alias?.includes(name)) return def;
+    if (state.definitions?.[rawName]) return state.definitions[rawName];
+
+    const cleanedName = normalizeEntryName(name);
+
+    if (state.definitions?.[cleanedName]) return state.definitions[cleanedName];
+
+    const directMatch = Object.entries(state.definitions || {}).find(([key, def]) => {
+        if (!def || typeof def !== "object") return false;
+        return key === cleanedName || def.name === cleanedName || def.name?.toLowerCase() === cleanedName.toLowerCase();
+    });
+
+    if (directMatch) return directMatch[1];
+
+    for (const def of Object.values(state.definitions || {})) {
+        if (def.alias?.includes(cleanedName)) return def;
     }
 
     return null;
 }
 
-function buildReferenceList(def) {
+function findProfile(name) {
+    if (!name) return null;
 
+    const cleanedName = normalizeEntryName(name);
+
+    if (state.profiles?.[cleanedName]) return state.profiles[cleanedName];
+
+    return Object.values(state.profiles || {}).find(profile => {
+        return profile?.name === cleanedName || profile?.name?.toLowerCase() === cleanedName.toLowerCase() || profile?.alias?.includes(cleanedName);
+    }) || null;
+}
+
+function buildReferenceList(def) {
     const refs = [];
 
     if (Settings.profileSettings.enableRulesLink && def.linkedRules) {
-        def.linkedRules.forEach(r => refs.push({ raw: r, type: "rule" }));
+        def.linkedRules.forEach(r => refs.push({ raw: r, type: "definition" }));
     }
 
     if (Settings.profileSettings.enableDetailsLink && def.linkedDetails) {
-        def.linkedDetails.forEach(r => refs.push({ raw: r, type: "rule" }));
+        def.linkedDetails.forEach(r => refs.push({ raw: r, type: "definition" }));
     }
 
     if (Settings.profileSettings.enableProfilesLink && def.linkedProfiles) {
@@ -372,9 +424,7 @@ function buildReferenceList(def) {
 
     return refs
         .map(entry => {
-
             const [text, target] = entry.raw.split("|");
-
             return {
                 display: text.trim(),
                 target: (target || text).trim(),
@@ -382,6 +432,107 @@ function buildReferenceList(def) {
             };
         })
         .sort((a, b) => b.display.length - a.display.length);
+}
+
+function buildOwnershipSections(def) {
+    switch (def.type) {
+    case "armyrule": {
+        const armyLists = findArmyListsBySpecialRule(def.name);
+        return armyLists.length
+            ? [{ title: t("rules.all.usedByArmyLists"), items: armyLists }]
+            : [];
+    }
+    case "heroicaction": {
+        const profiles = findProfilesByNamedField("heroicActions", def.name);
+        return profiles.length
+            ? [{ title: t("rules.all.usedByProfiles"), items: profiles }]
+            : [];
+    }
+    case "magicalpower": {
+        const profiles = findProfilesByNamedField("magicalPowers", def.name);
+        return profiles.length
+            ? [{ title: t("rules.all.usedByProfiles"), items: profiles }]
+            : [];
+    }
+    case "specialrule": {
+        const profiles = findProfilesByAnyNamedField(["specialRules", "specialRulesArmylists"], def.name);
+        return profiles.length
+            ? [{ title: t("rules.all.usedByProfiles"), items: profiles }]
+            : [];
+    }
+    case "wargear": {
+        const wargearProfiles = findProfilesByNamedField("wargear", def.name);
+        const optionProfiles = findProfilesByNamedField("options", def.name);
+        const sections = [];
+
+        if (wargearProfiles.length) {
+            sections.push({ title: t("rules.all.usedAsWargear"), items: wargearProfiles });
+        }
+
+        if (optionProfiles.length) {
+            sections.push({ title: t("rules.all.usedAsOption"), items: optionProfiles });
+        }
+
+        return sections;
+    }
+    default:
+        return [];
+    }
+}
+
+function findArmyListsBySpecialRule(ruleName) {
+    return Object.values(state.armyLists || {})
+        .filter(armyList => containsNamedEntry(armyList.specialRules, ruleName))
+        .map(armyList => ({
+            id: armyList.id,
+            name: armyList.name,
+            kind: "armylist"
+        }))
+        .sort(sortByName);
+}
+
+function findProfilesByNamedField(field, ruleName) {
+    return findProfilesByAnyNamedField([field], ruleName);
+}
+
+function findProfilesByAnyNamedField(fields, ruleName) {
+    return Object.values(state.profiles || {})
+        .filter(profile => fields.some(field => containsNamedEntry(profile[field], ruleName)))
+        .map(profile => ({
+            id: profile.id,
+            name: profile.name,
+            kind: "profile"
+        }))
+        .sort(sortByName);
+}
+
+function containsNamedEntry(entries, targetName) {
+    if (!Array.isArray(entries) || !targetName) return false;
+
+    return entries.some(entry => namesMatch(getEntryName(entry), targetName));
+}
+
+function getEntryName(entry) {
+    if (typeof entry === "string") return entry;
+    if (entry && typeof entry === "object") return entry.name || "";
+    return "";
+}
+
+function namesMatch(left, right) {
+    const exactLeft = String(left || "").trim().toLowerCase();
+    const exactRight = String(right || "").trim().toLowerCase();
+
+    if (exactLeft !== "" && exactLeft === exactRight) {
+        return true;
+    }
+
+    const normalizedLeft = normalizeEntryName(left).toLowerCase();
+    const normalizedRight = normalizeEntryName(right).toLowerCase();
+    return normalizedLeft !== "" && normalizedLeft === normalizedRight;
+}
+
+function sortByName(left, right) {
+    return left.name.localeCompare(right.name, Settings.language);
 }
 
 /* =========================
@@ -398,421 +549,9 @@ function escapeRegex(str) {
     return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-/* =========================
-   DEBUGGING
-========================= */
-
-function runJsonChecks(definitions) {
-    if (!definitions) return;
-
-    const report = {
-        structure: [],
-        fields: [],
-        keyNameMatch: [],
-        versionCheck: [],
-        languageCheck: [],
-        alphabeticalOrder: [],
-
-        referenceExistence: [],
-        referenceTypeMismatch: [],
-        missingInDescription: [],
-        weakAliasUsage: [],
-        aliasTargetUsage: []
-    };
-    // ===== Reference lookup preparation =====
-
-    const definitionKeys = new Set(Object.keys(definitions));
-
-    const aliasMap = {};            // alias → dictionary key
-    const aliasUsageCounter = {};   // alias → count
-
-    Object.entries(definitions).forEach(([key, def]) => {
-        if (def.alias) {
-            def.alias.forEach(a => {
-                aliasMap[a] = key;
-                aliasUsageCounter[a] = 0;
-            });
-        }
-    });
-
-    const profileKeys = new Set(Object.keys(state.profiles || {}));
-    Object.entries(definitions).forEach(([key, def]) => {
-
-        /* =========================
-           TEST 1 – STRUCTURE
-        ========================== */
-
-        const requiredFields = [
-            "type",
-            "version",
-            "language",
-            "name",
-            "description"
-        ];
-
-        requiredFields.forEach(field => {
-            if (!(field in def)) {
-                report.structure.push(
-                    `[${key}] Missing required field: "${field}"`
-                );
-            }
-        });
-
-        /* =========================
-           TEST 2 – ALLOWED FIELDS
-        ========================== */
-
-        const allowedFields = [
-            "type", "version", "language",
-            "alias", "name",
-            "status", "phase", "duration",
-            "description", "descriptionGWFAQ",
-            "linkedDetails", "linkedProfiles",
-            "linkedRules", "excludeFromLinking"
-        ];
-
-        Object.keys(def).forEach(field => {
-            if (!allowedFields.includes(field)) {
-                report.fields.push(
-                    `[${key}] Unknown field: "${field}"`
-                );
-            }
-        });
-
-        /* =========================
-           TEST 3 – KEY === NAME
-        ========================== */
-
-        if (def.name) {
-
-            const normalizedKey = normalizeKey(key);
-            const normalizedName = normalizeName(def.name);
-
-            if (normalizedKey !== normalizedName) {
-                report.keyNameMatch.push(
-                    `[${key}] Key does not match name field ("${def.name}") after normalization`
-                );
-            }
-        }
-
-        /* =========================
-           TEST 4 – VERSION MATCH
-        ========================== */
-
-        if (def.version !== Settings.version) {
-            report.versionCheck.push(
-                `[${key}] Version mismatch (found: ${def.version}, expected: ${Settings.version})`
-            );
-        }
-
-        /* =========================
-           TEST 5 – LANGUAGE MATCH
-        ========================== */
-
-        if (def.language !== Settings.language) {
-            report.languageCheck.push(
-                `[${key}] Language mismatch (found: ${def.language}, expected: ${Settings.language})`
-            );
-        }
-        /* =========================
-           TEST 7–10 – REFERENCE CHECKS
-        ========================= */
-
-        const allReferenceArrays = [
-            { arr: def.linkedRules, type: "rule", source: "linkedRules" },
-            { arr: def.linkedDetails, type: "detail", source: "linkedDetails" },
-            { arr: def.linkedProfiles, type: "profile", source: "linkedProfiles" }
-        ];
-
-        allReferenceArrays.forEach(refGroup => {
-
-            if (!refGroup.arr) return;
-
-            refGroup.arr.forEach(rawEntry => {
-
-                const [displayRaw, targetRaw] = rawEntry.split("|");
-
-                const display = displayRaw.trim();
-                const target = (targetRaw || displayRaw).trim();
-
-                /* =========================
-                   TEST 7 – TARGET EXISTS
-                ========================== */
-
-                if (refGroup.type === "profile") {
-
-                    if (!profileKeys.has(target)) {
-                        report.referenceExistence.push(
-                            `[${key}] Profile reference "${target}" not found`
-                        );
-                    }
-
-                } else {
-
-                    const exists =
-                        definitionKeys.has(target) ||
-                        aliasMap[target];
-
-                    if (!exists) {
-                        report.referenceExistence.push(
-                            `[${key}] Reference "${target}" not found in definitions`
-                        );
-                    }
-                }
-
-                /* =========================
-                   TEST 8 – TYPE CONSISTENCY
-                ========================== */
-
-                let resolvedTarget = target;
-
-if (aliasMap[target]) {
-    resolvedTarget = aliasMap[target];
-}
-
-if (definitionKeys.has(resolvedTarget)) {
-    const targetDef = definitions[resolvedTarget];
-
-    if (refGroup.source === "linkedRules" && targetDef.type !== "rule") {
-        report.referenceTypeMismatch.push(
-            `[${key}] linkedRules → "${target}" resolves to type="${targetDef.type}", expected type="rule"`
-        );
-    }
-
-    if (refGroup.source === "linkedDetails" && targetDef.type === "rule") {
-        report.referenceTypeMismatch.push(
-            `[${key}] linkedDetails → "${target}" resolves to type="rule", not allowed`
-        );
-    }
-}
-
-                /* =========================
-                   TEST 9 – DISPLAY IN DESCRIPTION
-                ========================== */
-
-                if (!((def.description && def.description.includes(display))||
-                     (def.descriptionGWFAQ && def.descriptionGWFAQ.includes(display)))) {
-                    report.missingInDescription.push(
-                        `[${key}] "${display}" not found in description text`
-                    );
-                }
-
-                /* =========================
-                   TEST 10 – ALIAS USAGE COUNT
-                ========================== */
-
-                if (aliasMap[target]) {
-                    aliasUsageCounter[target]++;
-                }
-
-                /* =========================
-   TEST 11 – TARGET RIGHT OF "|" IS ALIAS
-========================= */
-
-                if (rawEntry.includes("|")) {
-
-                    const targetPart = rawEntry.split("|")[1]?.trim();
-
-                    if (targetPart && aliasMap[targetPart]) {
-                        report.aliasTargetUsage.push(
-                            `[${key}] Reference "${rawEntry}" uses alias "${targetPart}" as target instead of dictionary key "${aliasMap[targetPart]}"`
-                        );
-                    }
-                }
-
-            });
-        });
-
-    });
-
-    /* =========================
-TEST 6 – ALPHABETICAL ORDER
-========================= */
-
-    const keys = Object.keys(definitions);
-
-    const normalizedKeys = keys.map(k => ({
-        original: k,
-        normalized: normalizeAlphabetical(k)
-    }));
-
-    for (let i = 1; i < normalizedKeys.length; i++) {
-        const prev = normalizedKeys[i - 1];
-        const current = normalizedKeys[i];
-
-        if (prev.normalized.localeCompare(current.normalized) > 0) {
-            report.alphabeticalOrder.push(
-                `"${current.original}" is out of order (should come before "${prev.original}")`
-            );
-        }
-    }
-    /* =========================
-       TEST 10 – ALIAS USAGE SUMMARY
-    ========================= */
-
-   Object.entries(aliasUsageCounter).forEach(([alias, count]) => {
-
-    if (count > 1) return;
-
-    // Definition finden, zu der das Alias gehört
-    const parentKey = aliasMap[alias];
-    const parentDef = definitions[parentKey];
-
-    let usedInProfiles = false;
-
-    if (parentDef) {
-        usedInProfiles = isAliasUsedInProfiles(alias, parentDef.type);
-    }
-
-    if (!usedInProfiles) {
-        report.weakAliasUsage.push(
-            `Alias "${alias}" referenced ${count} time(s) and not used in profiles`
-        );
-    }
-});
-
-    showErrorReport(report);
-}
-
-
-
-function showErrorReport(report) {
-
-    const overlay = document.createElement("div");
-    overlay.className = "debug-overlay";
-
-    const modal = document.createElement("div");
-    modal.className = "debug-modal";
-
-    modal.innerHTML = `
-        <div class="debug-header">
-            <h2>Error Report</h2>
-            <button class="debug-close">✕</button>
-        </div>
-
-        <div class="debug-content">
-            ${renderTestBlock("Test 1: JSON Structure", report.structure)}
-            ${renderTestBlock("Test 2: Field Validation", report.fields)}
-            ${renderTestBlock("Test 3: Key–Name Consistency", report.keyNameMatch)}
-            ${renderTestBlock("Test 4: Version Consistency", report.versionCheck)}
-            ${renderTestBlock("Test 5: Language Consistency", report.languageCheck)}
-            ${renderTestBlock("Test 6: Alphabetical Order", report.alphabeticalOrder)}
-            ${renderTestBlock("Test 7: Reference Existence", report.referenceExistence)}
-${renderTestBlock("Test 8: Reference Type Consistency", report.referenceTypeMismatch)}
-${renderTestBlock("Test 9: Missing Display in Description", report.missingInDescription)}
-${renderTestBlock("Test 10: Weak Alias Usage (≤1)", report.weakAliasUsage)}
-${renderTestBlock("Test 11: Alias Used as Target", report.aliasTargetUsage)}
-        </div>
-    `;
-
-    overlay.appendChild(modal);
-    document.body.appendChild(overlay);
-
-    modal.querySelector(".debug-close").onclick = () => {
-        document.body.removeChild(overlay);
-    };
-}
-
-function renderTestBlock(title, errors) {
-
-    const hasErrors = errors.length > 0;
-
-    return `
-        <div class="debug-test-block ${hasErrors ? "has-errors" : "no-errors"}">
-            <h3>${title}</h3>
-            ${hasErrors
-            ? `<ul>${errors.map(e => `<li>${e}</li>`).join("")}</ul>`
-            : `<p class="debug-ok">No errors</p>`
-        }
-        </div>
-    `;
-}
-
-function normalizeKey(str) {
-    return str
-        .replace(/\[.*?\]/g, "")     // entfernt alles in [...]
-        .replace(/\(.*?\)/g, "")     // entfernt alles in (...)
-        .trim()
-        .toLowerCase();
-}
-
-function normalizeName(str) {
-    return str
-        .replace(/\(.*?\)/g, "")     // entfernt alles in (...)
-        .trim()
-        .toLowerCase();
-}
-
-function normalizeAlphabetical(str) {
-    return str
-        .normalize("NFD")                     // trennt é → e +  ́
-        .replace(/[\u0300-\u036f]/g, "")      // entfernt Diakritika
-        .replace(/[^a-zA-Z0-9 ]/g, "")        // entfernt Sonderzeichen, aber NICHT Leerzeichen
-        .toLowerCase()
+function normalizeEntryName(name) {
+    return String(name || "")
+        .replace(/\s*\([^)]*\)/g, "")
+        .replace(/\s*\[[^\]]*\]/g, "")
         .trim();
-}
-
-function isAliasUsedInProfiles(alias, defType) {
-
-    if (!state.profiles) return false;
-
-    const lowerAlias = alias.toLowerCase();
-
-    for (const profile of Object.values(state.profiles)) {
-
-        // =========================
-        // WARGEAR + OPTIONS
-        // =========================
-        if (defType === "wargear") {
-
-            // wargear
-            if (profile.wargear) {
-                for (const wg of profile.wargear) {
-                    if (wg.name?.toLowerCase().includes(lowerAlias)) {
-                        return true;
-                    }
-                }
-            }
-
-            // options
-            if (profile.options) {
-                for (const opt of profile.options) {
-                    if (opt.name?.toLowerCase().includes(lowerAlias)) {
-                        return true;
-                    }
-                }
-            }
-        }
-
-        // =========================
-        // SPECIAL RULES
-        // =========================
-        if (defType === "specialrule") {
-
-            if (profile.specialRules) {
-                for (const rule of profile.specialRules) {
-                    if (rule.toLowerCase().includes(lowerAlias)) {
-                        return true;
-                    }
-                }
-            }
-        }
-        
-
-        // =========================
-        // MAGICAL POWERS
-        // =========================
-        if (defType === "magicalpower") {
-
-            if (profile.magicalPowers) {
-                for (const magic of profile.magicalPowers) {
-                    if (magic.name?.toLowerCase().includes(lowerAlias)) {
-                        return true;
-                    }
-                }
-            }
-        }
-    }
-
-    return false;
 }

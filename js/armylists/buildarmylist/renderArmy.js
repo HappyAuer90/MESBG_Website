@@ -244,12 +244,16 @@ export function renderSpecialRulesBox(armylist) {
                 ${hasSpecial ? `
                     <h4>${t("armylists.build.specialRules")}</h4>
                     <ul>
-                        ${armylist.specialRules.map(rule => `
+                        ${armylist.specialRules.map(rule => {
+                            const resolvedRule = resolveArmyRule(rule);
+
+                            return `
                             <li>
-                                <strong>${rule.name}</strong><br>
-                                ${formatDescription(rule.description)}
+                                <strong>${resolvedRule.name}</strong><br>
+                                ${formatDescription(resolvedRule.description)}
                             </li>
-                        `).join("")}
+                        `;
+                        }).join("")}
                     </ul>
                 ` : ""}
 
@@ -309,6 +313,27 @@ function formatDescription(text) {
         .replace(/\n/g, "<br>")
         .replace(/\t/g, "&nbsp;&nbsp;&nbsp;&nbsp;");
 }
+
+function resolveArmyRule(ruleEntry) {
+    if (!ruleEntry) {
+        return { name: "", description: "" };
+    }
+
+    if (typeof ruleEntry === "object") {
+        return {
+            name: ruleEntry.name || "",
+            description: ruleEntry.description || ""
+        };
+    }
+
+    const definition = state.definitions?.[ruleEntry];
+
+    return {
+        name: definition?.name || ruleEntry,
+        description: definition?.description || ""
+    };
+}
+
 function formatMandatoryWargear(items) {
 
     if (items.length === 1) return `with ${items[0]}`;

@@ -2,6 +2,10 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MESBG-Tool für Profile, Regeln und Armee-Listen">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="color-scheme" content="light dark">
     <title>MESBG Online Tool</title>
 
     <!-- Global -->
@@ -16,34 +20,40 @@
     <link rel="stylesheet" href="css/profiles-expert.css">
     <link rel="stylesheet" href="css/profiles-all.css">
     
+    <link rel="stylesheet" href="css/rules-manual.css">    
     <link rel="stylesheet" href="css/rules-all.css">
 
     <link rel="stylesheet" href="css/armylists-search.css">
     <link rel="stylesheet" href="css/armylists-all.css">
     <link rel="stylesheet" href="css/armylists-build.css">
-
-    <!--link rel="stylesheet" href="css/scenarios-matchedplay.css">-->
-
-    <!--link rel="stylesheet" href="css/simulations-warriors.css">-->
 </head>
 <body>
 
 <header id="mainHeader">
-    <button id="settingsBtn" class="settings-btn">⚙</button>
-    <button id="globalBackBtn" class="nav-btn">←</button>
-<button id="globalForwardBtn" class="nav-btn">→</button>
-
-    <!-- Titel wird per JS gesetzt -->
     <h1 class="title" id="appTitle"></h1>
 
     <div class="header-line"></div>
 
-    <!-- Wird komplett per JS gerendert -->
-    <nav id="mainCategories"></nav>
-    <nav id="subCategories"></nav>
+    <div class="header-nav-shell">
+        <div class="header-controls">
+            <div class="header-nav-buttons">
+                <button id="globalBackBtn" class="nav-btn" data-i18n-key="accessibility.goBack" data-i18n-attr="aria-label" aria-label="">←</button>
+                <button id="globalForwardBtn" class="nav-btn" data-i18n-key="accessibility.goForward" data-i18n-attr="aria-label" aria-label="">→</button>
+            </div>
+            <button id="languageToggleBtn" class="lang-btn" aria-label="" title="">🇩🇪</button>
+            <button id="settingsBtn" class="settings-btn" data-i18n-key="accessibility.openSettings" data-i18n-attr="aria-label" aria-label="">⚙</button>
+        </div>
+
+        <nav id="mainCategories"></nav>
+        <nav id="subCategories"></nav>
+    </div>
 </header>
 
 <main id="content"></main>
+
+<noscript>
+    <p data-i18n-key="accessibility.noScript"></p>
+</noscript>
 
 <div id="settingsModal" class="hidden"></div>
 

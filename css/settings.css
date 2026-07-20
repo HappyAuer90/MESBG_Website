@@ -1,13 +1,16 @@
+/* Layout spacing */
 #settingsModal {
     position: fixed;
     z-index: 1000; /* höher als alles andere */
     top: 20%;
     left: 35%;
     width: 300px;
+    max-width: calc(100vw - 2 * var(--page-padding));
+    box-sizing: border-box;
     background: var(--mode-background);
     color: var(--mode-writing);
     border: 1px solid var(--mode-writing);
-    padding: 15px;
+    padding: var(--page-padding);
 }
 /* Alle Tab-Inhalte standardmäßig verstecken */
 .tab {

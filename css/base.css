@@ -1,5 +1,8 @@
+/* Layout spacing */
 body {
     margin: 0;
+    padding: var(--page-padding);
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
     background-color: var(--mode-background);
     color: var(--mode-writing);
@@ -7,4 +10,10 @@ body {
 
 .hidden {
     display: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: var(--page-padding-mobile);
+    }
 }
